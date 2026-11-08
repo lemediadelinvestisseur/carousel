@@ -56,6 +56,11 @@ header{position:sticky;top:0;z-index:5;background:var(--navy);color:#fff;padding
 .caption-text{white-space:pre-wrap;font-size:14px;line-height:1.5;max-height:420px;overflow:auto}
 @media (max-width:899px){.caption-text{max-height:260px}}
 .btn.sm{min-height:34px;padding:6px 10px;font-size:13px}
+.btn.pub{background:#2E6BF0;border-color:#2E6BF0;color:#fff}
+.checks{display:flex;gap:16px}.ck{display:flex!important;align-items:center;gap:8px;font-weight:600!important;margin:0!important}
+.ck input{width:auto!important}
+.pubok{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;font-size:13px}
+.pubok a{background:#E7F6EC;color:#1F7A44;border-radius:8px;padding:5px 10px;font-weight:700;text-decoration:none}
 /* Visionneuse */
 .lb{position:fixed;inset:0;z-index:30;background:rgba(0,0,0,.94);display:none;flex-direction:column;align-items:center;justify-content:center;touch-action:pan-y}
 .lb.on{display:flex}
@@ -135,6 +140,17 @@ details summary{cursor:pointer}
   <label for="vInstr">Consignes (facultatif)</label>
   <textarea id="vInstr" placeholder="Ex : insister sur l'impact pour les primo-accédants, 5 slides max…"></textarea>
   <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">✅ Générer le carousel</button></div>
+</form></dialog>
+
+<dialog id="dlgPublish"><form method="dialog" class="sheet">
+  <h2>🚀 Publier ce carousel</h2>
+  <div class="hint" id="pTitle"></div>
+  <label>Où ?</label>
+  <div class="checks"><label class="ck"><input type="checkbox" id="pIg" checked> Instagram</label><label class="ck"><input type="checkbox" id="pFb" checked> Page Facebook</label></div>
+  <label for="pMode">Mode</label>
+  <select id="pMode"><option value="test">🧪 Test : tout préparer sans publier</option><option value="publier">🚀 Publier pour de vrai</option></select>
+  <div class="hint">Le mode test vérifie que Meta accepte les images et la description, sans rien mettre en ligne.</div>
+  <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">Lancer</button></div>
 </form></dialog>
 
 <dialog id="dlgAdd"><form method="dialog" class="sheet">
@@ -293,7 +309,8 @@ function card(i) {
         <div class="caption"><div class="caption-head"><span>📝 Description du post</span><button class="btn sm" data-act="caption">📋 Copier</button></div>
           <div class="caption-text" data-caption="${esc(i.carousel.dir)}">${esc(captionCache[i.carousel.dir] ?? "Chargement…")}</div></div>
       </div>
-      <div class="row"><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="zip">⬇️ Télécharger (ZIP)</button>
+      ${publishedBadges(i)}
+      <div class="row"><button class="btn pub" data-act="publish">🚀 Publier</button><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="zip">⬇️ Télécharger (ZIP)</button>
       <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}" target="_blank" rel="noopener">PDF</a>
       <button class="btn ghost" data-act="validate">↻ Refaire</button></div>
       ${(i.carousel.hooks || []).length ? `<details class="hooks"><summary>💡 Autres accroches proposées</summary>${i.carousel.hooks.map((h, n) => `<button class="hook-alt" data-act="rehook" data-hook="${n}">${esc(h.replace(/\*\*/g, ""))}</button>`).join("")}</details>` : ""}`;
@@ -301,6 +318,33 @@ function card(i) {
     actions = `${i.error ? `<p class="hint">${esc(i.error)}</p>` : ""}<div class="row"><button class="btn ${i.status === "error" ? "primary" : ""}" data-act="validate">${i.status === "error" ? "↻ Réessayer" : "✅ Valider quand même"}</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
   }
   return `<div class="card" data-id="${esc(i.id)}">${head}${actions}</div>`;
+}
+
+function publishedBadges(i) {
+  const p = i.published || {};
+  const names = { instagram: "Instagram", facebook: "Facebook" };
+  const done = Object.entries(p).filter(([, v]) => v && (v.url || v.id));
+  return done.length ? `<div class="pubok">${done.map(([k, v]) => `<a href="${esc(v.url || "#")}" target="_blank" rel="noopener">✓ Publié sur ${names[k] || k}</a>`).join("")}</div>` : "";
+}
+
+function openPublish(item) {
+  $("pTitle").textContent = item.title;
+  const p = item.published || {};
+  $("pIg").checked = !p.instagram; $("pFb").checked = !p.facebook;
+  $("pMode").value = "test";
+  const dlg = $("dlgPublish");
+  dlg.onclose = async () => {
+    if (dlg.returnValue !== "ok") return;
+    const targets = [$("pIg").checked && "instagram", $("pFb").checked && "facebook"].filter(Boolean).join(",");
+    if (!targets) return toast("Choisis au moins un réseau");
+    const mode = $("pMode").value;
+    try {
+      await gh(`/repos/${cfg.repo}/actions/workflows/social.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { id: item.id, mode, targets } }) });
+      toast(mode === "publier" ? "🚀 Publication lancée (~1 min)" : "🧪 Test lancé : résultat dans « Activité récente »", 4000);
+      setTimeout(loadRuns, 4000);
+    } catch (e) { toast(e.message, 5000); }
+  };
+  dlg.showModal();
 }
 
 async function dispatch(inputs) {
@@ -433,6 +477,7 @@ document.addEventListener("click", async (ev) => {
   if (act === "share") shareImages(item);
   if (act === "caption") copyCaption(item);
   if (act === "zip") downloadZip(item);
+  if (act === "publish") { if (!cfg.token) { $("dlgSettings").showModal(); return; } openPublish(item); }
   if (act === "zoom") openLightbox(item, Number(t.dataset.n));
   if (act === "reject") {
     try { await dispatch({ id: item.id, action: "rejeter" }); item.status = "rejected"; render(); toast("Actu rejetée"); }
