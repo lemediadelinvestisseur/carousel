@@ -655,7 +655,7 @@
       "hook": "Ces 5 villes rapportent jusqu'à 12,7 % brut",
       "notifiedAt": "2026-11-08T15:38:54.430Z",
       "instructions": "Une page par ville ",
-      "generatedAt": "2026-11-08T20:35:30.581Z",
+      "generatedAt": "2026-11-08T20:57:55.740Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-rendement-locatif-ces-5-villes-ou-invest-5149c5cc1b",
         "files": [
@@ -673,9 +673,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "Jusqu'à **12,7 %** de rendement brut : voici les **5 villes** de France où ton investissement locatif rapporte **trois fois plus** qu'à **Paris**.",
-          "À **Mulhouse**, le m² d'appartement coûte **1 193 €** et rapporte **12,7 %** brut par an. Quatre autres villes dépassent les **8 %**.",
-          "**Mulhouse**, **Saint-Étienne**, **Roubaix**, Limoges et Tourcoing : dans ces 5 villes, le locatif rapporte plus de **8 %** brut. À Paris, à peine **4,1 %**."
+          "**Mulhouse** rapporte **12,7 %** brut par an, **Paris** seulement **4,1 %**",
+          "Les **5 villes** où ton locatif rapporte le plus",
+          "Rendement locatif : **Mulhouse** écrase **Paris**"
         ]
       }
     },
@@ -2421,5 +2421,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:57:51.007Z"
+  "updatedAt": "2026-11-08T20:58:01.120Z"
 }
