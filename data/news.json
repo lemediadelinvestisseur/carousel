@@ -2542,7 +2542,21 @@
           "Loyers et actions au **même taux** : le plan de **Lisnard**"
         ]
       },
-      "instructions": "Mettre une belle photo de David en première page"
+      "instructions": "Mettre une belle photo de David en première page",
+      "published": {
+        "instagram": {
+          "id": "18026313845875210",
+          "url": "https://www.instagram.com/p/DfftUULGMnN/",
+          "at": "2026-11-08T21:20:32.004Z"
+        },
+        "facebook": {
+          "id": "1430519546815801_122093577465553165",
+          "url": "https://www.facebook.com/1430519546815801_122093577465553165",
+          "at": "2026-11-08T21:20:46.527Z"
+        }
+      },
+      "publishError": null,
+      "scheduled": null
     },
     {
       "id": "e8e7b3bbca",
@@ -2596,5 +2610,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T21:02:38.260Z"
+  "updatedAt": "2026-11-08T21:20:46.717Z"
 }
