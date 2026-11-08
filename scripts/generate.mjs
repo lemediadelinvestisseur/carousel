@@ -95,8 +95,8 @@ async function processItem(item, { save = true, demo = false } = {}) {
   fs.rmSync(outDir, { recursive: true, force: true }); // « Refaire » : on repart d'un dossier propre
   const images = brand.template === "photo" && !demo ? await illustrate({ slides: carousel.slides, item }) : [];
   const files = await renderCarousel({ carousel, brand, outDir, sourceLabel: item.source, images });
-  const sources = (carousel.sources && carousel.sources.length ? carousel.sources : [item.source]).join(", ");
-  const caption = `${carousel.caption}\n\n${carousel.hashtags.map((h) => "#" + h.replace(/^#/, "")).join(" ")}\n\nSources : ${sources}`;
+  // Description du post : le texte seul (ni hashtags ni sources, à la demande de l'éditeur).
+  const caption = String(carousel.caption || "").replace(/\n*(?:#[\p{L}\p{N}_]+\s*)+$/u, "").trim();
   fs.writeFileSync(path.join(outDir, "caption.txt"), caption + "\n");
   fs.writeFileSync(path.join(outDir, "carousel.json"), JSON.stringify({ item, carousel }, null, 2) + "\n");
 
