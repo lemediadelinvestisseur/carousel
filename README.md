@@ -35,7 +35,7 @@ Vous pouvez aussi transformer **n'importe quel article** en carousel avec le bou
 | Le média de l'investisseur | Maddyness | French Tech, startups, levées de fonds |
 | Le média de l'investisseur | TradingView News | marchés mondiaux, filtrés pour un public français |
 | Le média de l'investisseur | Zonebourse | Bourse, filtrée pour un public français |
-| 21m2 | Moneyvox, Le Figaro Immobilier, Les Echos Patrimoine, Boursorama, Capital, Le Revenu | immobilier |
+| 21m2 (+ LMI pour Moneyvox, qui couvre tout le site) | Moneyvox, Le Figaro Immobilier, Les Echos Patrimoine, Boursorama, Capital, Le Revenu | immobilier |
 
 Pour chaque site, la collecte essaie les flux RSS connus, puis cherche le flux dans la page elle-même. En dernier recours, elle passe par Google News limité à ce site. La rubrique **État des sources** du dashboard montre quel site fonctionne et par quel moyen.
 

@@ -32,7 +32,7 @@
       "international": true
     },
     {
-      "name": "Moneyvox Immobilier",
+      "name": "Moneyvox",
       "page": "https://www.moneyvox.fr/immobilier/actualites/",
       "feeds": ["https://www.moneyvox.fr/immobilier/actualites/rss.xml", "https://www.moneyvox.fr/rss/immobilier.xml"],
       "googleNews": "site:moneyvox.fr/immobilier",
