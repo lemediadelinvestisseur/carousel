@@ -245,7 +245,8 @@ export async function illustrate({ slides, item }) {
     try {
       const cands = await gather({ query, entity, articleUrl: item.link, includeArticle: isCover });
       // Couverture : photo assez grande pour ne jamais être agrandie (largeur ≥ 1000 px, hauteur ≥ 700 px).
-      const imgs = await downloadSome(cands, isCover ? 5 : 3, used, isCover ? 700 : 600, isCover ? { width: 1000, height: 700 } : null);
+      // Jamais d'agrandissement visible : couverture ≥ 1000x700, pages intérieures ≥ 960x540 (zone photo 1080x600).
+      const imgs = await downloadSome(cands, isCover ? 5 : 4, used, 540, isCover ? { width: 1000, height: 700 } : { width: 960, height: 540 });
       const subject = isCover ? `${item.title} (recherche : ${query || entity})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
       const pick = await chooseWithClaude(imgs, { subject, isCover });
       if (pick) {

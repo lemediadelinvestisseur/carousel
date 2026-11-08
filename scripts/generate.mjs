@@ -95,7 +95,8 @@ async function processItem(item, { save = true, demo = false } = {}) {
   fs.rmSync(outDir, { recursive: true, force: true }); // « Refaire » : on repart d'un dossier propre
   const images = brand.template === "photo" && !demo ? await illustrate({ slides: carousel.slides, item }) : [];
   const files = await renderCarousel({ carousel, brand, outDir, sourceLabel: item.source, images });
-  const caption = `${carousel.caption}\n\n${carousel.hashtags.map((h) => "#" + h.replace(/^#/, "")).join(" ")}\n\nSource : ${item.source}`;
+  const sources = (carousel.sources && carousel.sources.length ? carousel.sources : [item.source]).join(", ");
+  const caption = `${carousel.caption}\n\n${carousel.hashtags.map((h) => "#" + h.replace(/^#/, "")).join(" ")}\n\nSources : ${sources}`;
   fs.writeFileSync(path.join(outDir, "caption.txt"), caption + "\n");
   fs.writeFileSync(path.join(outDir, "carousel.json"), JSON.stringify({ item, carousel }, null, 2) + "\n");
 
