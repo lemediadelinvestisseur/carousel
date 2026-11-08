@@ -1,9 +1,19 @@
-Binance fermera les comptes de ses utilisateurs français le 31 décembre. Faute d'agrément européen MiCA, la plateforme a été retirée de la liste de l'AMF en juillet. Les dépôts sont bloqués depuis le 30 juin et des frais mensuels s'appliqueront aux comptes encore crédités dès le 29 novembre.
+Binance ferme la porte à ses utilisateurs français.
 
-Il te reste 53 jours pour mettre tes cryptos à l'abri : plateforme agréée MiCA, portefeuille physique comme Ledger, et toujours un petit transfert test d'abord.
+C'est officiel : au 31 décembre 2026, tous les comptes des utilisateurs français de Binance seront clôturés.
 
-Et toi, tu avais des cryptos sur Binance ? Dis-nous en commentaire ce que tu vas en faire 👇
+• Comment en est-on arrivé là ? Binance France n'a pas obtenu l'agrément MiCA, l'autorisation devenue obligatoire en Europe pour les plateformes crypto, avant la date limite du 1er juillet. Le lendemain, l'AMF l'a retirée de sa liste des prestataires autorisés.
+
+• Dans les faits : les dépôts sont coupés depuis le 30 juin, mais tu peux encore retirer tes fonds. Et il y a une date à ne pas rater : le 29 novembre. À partir de là, Binance prélève 0,025 % de ton solde par mois, avec 10 USDC minimum.
+
+En clair : si tu laisses tes cryptos sur la plateforme, ça te coûte. Et après le 31 décembre, les fonds encore présents pourront être convertis ou transférés… sans que tu choisisses où.
+
+Les solutions : une plateforme agréée MiCA (la liste est sur le site de l'AMF) ou un portefeuille physique comme Ledger. Fais toujours un petit transfert test avant de tout envoyer, et garde ton historique pour ta déclaration d'impôts.
+
+Tu as un compte Binance en France ? Dis-nous en commentaire ce que tu vas faire de tes cryptos 👇
+
+🔖 Enregistre ce post et partage-le à quelqu'un de concerné.
 
 #Binance #Crypto #Bitcoin #MiCA #AMF #Cryptomonnaies #Investissement
 
-Sources : Cointelegraph, Cryptoast, Cointribune
+Sources : Cointelegraph, Cryptoast, Cointribune, Crypto Briefing

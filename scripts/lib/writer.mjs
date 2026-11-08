@@ -23,7 +23,7 @@ export const CarouselSchema = z.object({
   category: z.string().describe("Étiquette de la couverture, parmi les étiquettes autorisées"),
   slides: z.array(Slide).describe("4 à 9 pages selon la richesse du sujet : cover, 2 à 7 pages intérieures, cta"),
   hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, avec **…**"),
-  caption: z.string().describe("Légende Instagram de 80 à 150 mots, qui se termine par la question du cta"),
+  caption: z.string().describe("Description du post Instagram (150 à 280 mots), selon les règles DESCRIPTION DU POST, sans hashtags ni sources"),
   hashtags: z.array(z.string()).describe("5 à 8 hashtags sans le #"),
   sources: z.array(z.string()).describe("Noms des médias utilisés comme sources (ex : Cointelegraph, Les Echos)"),
 });
@@ -119,6 +119,25 @@ ILLUSTRATIONS (une photo différente par page, liée à ce que dit la page) :
 - Varie les sujets d'une page à l'autre (entreprise, dirigeant, produit, lieu, objet symbolique comme une pièce Bitcoin ou un graphique boursier).
 - Écris la requête dans la langue où l'on trouve les meilleures photos (souvent l'anglais).`;
 
+const CAPTION_GUIDE = (brand) => `DESCRIPTION DU POST (caption) — c'est le texte affiché sous le carousel, il complète les images :
+- 1re ligne : la phrase d'accroche qui résume l'info (elle apparaît avant « … plus »). Factuelle et forte.
+- Puis 4 à 7 paragraphes très courts (1 à 3 phrases), séparés par une ligne vide. Tu peux commencer certains paragraphes par « • » et des amorces naturelles : « Dans les faits : », « Comment en est-on arrivé là ? », « En clair : », « Bref. », « Le signal à suivre : ».
+- Donne plus de détails que les images : chiffres précis, comparaisons parlantes (« la commande pèse moins d'une journée de ventes »), contexte, ce que ça change pour le lecteur, ce qu'il faut surveiller.
+- Termine par une question qui pousse à commenter, puis une ligne d'appel : « 🔔 Abonne-toi à ${brand.handle} pour ne rien rater de l'actu qui touche ton argent. » ou « 🔖 Enregistre ce post et partage-le à quelqu'un de concerné. »
+- 1 à 3 emojis maximum dans tout le texte. Pas de hashtags (ils sont ajoutés après).
+- Exemple du ton attendu :
+« Binance ferme la porte à ses utilisateurs français.
+
+C'est officiel : au 31 décembre 2026, tous les comptes des utilisateurs français seront clôturés. La raison ? Pas d'agrément MiCA, l'autorisation devenue obligatoire en Europe.
+
+Et il y a une date à ne pas rater : le 29 novembre. À partir de là, Binance prélève des frais : 0,025 % de ton solde par mois, avec 10 USDC minimum.
+
+En clair : si tu laisses tes cryptos sur la plateforme, ça te coûte. Les dépôts sont déjà coupés. Après le 31 décembre, un compte encore actif voit ses fonds convertis ou transférés… sans que tu choisisses où.
+
+Tu as un compte Binance en France ? Retire ou transfère tes cryptos avant le 29 novembre.
+
+🔖 Enregistre ce post et partage-le à quelqu'un de concerné. »`;
+
 function systemPrompt(brand) {
   return `Tu es le rédacteur en chef des réseaux sociaux de « ${brand.name} » (${brand.handle}).
 Ligne éditoriale : ${brand.description}
@@ -132,6 +151,8 @@ ${COVER_GUIDE}
 ${INNER_GUIDE}
 
 ${STYLE_GUIDE}
+
+${CAPTION_GUIDE(brand)}
 
 ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["Actualité"]).map((c) => `« ${c} »`).join(", ")}.
 « Le saviez-vous ? » pour un fait étonnant ou historique, « Résultats » pour des résultats d'entreprise, « Données » pour une statistique ou une étude, sinon « Actualité ».`;
