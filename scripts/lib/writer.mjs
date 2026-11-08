@@ -116,7 +116,8 @@ ILLUSTRATIONS (une photo différente par page, liée à ce que dit la page) :
 - image_query doit correspondre au texte de la page : si la page cite Ledger, cherche « Ledger Nano X » ; si elle parle du dirigeant, cherche son nom ; si elle parle du régulateur, cherche « AMF Paris ».
 - Couverture : photo de presse de qualité (logo de l'entreprise sur sa façade ou sur un smartphone, dirigeant en conférence, produit phare).
 - Varie les sujets d'une page à l'autre (entreprise, dirigeant, produit, lieu, objet symbolique comme une pièce Bitcoin ou un graphique boursier).
-- Écris la requête dans la langue où l'on trouve les meilleures photos (souvent l'anglais).`;
+- Écris la requête dans la langue où l'on trouve les meilleures photos (souvent l'anglais).
+- Vise de BELLES photos : pour une ville, un lieu ou un monument, ajoute « golden hour », « sunset », « panorama » ou « aerial view » à la requête (ex : « Paris Eiffel Tower sunset panorama », « Lyon Fourvière golden hour »).`;
 
 const CAPTION_GUIDE = (brand) => `DESCRIPTION DU POST (caption) — c'est le texte affiché sous le carousel, il complète les images :
 - 1re ligne : la phrase d'accroche qui résume l'info (elle apparaît avant « … plus »). Factuelle et forte.
@@ -160,7 +161,7 @@ ${STYLE_GUIDE}
 
 ${CAPTION_GUIDE(brand)}
 
-ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["Actualité"]).map((c) => `« ${c} »`).join(", ")}.
+${brand.writerNotes ? `CONSIGNES PROPRES À CE COMPTE (prioritaires) :\n${brand.writerNotes}\n\n` : ""}ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["Actualité"]).map((c) => `« ${c} »`).join(", ")}.
 « Le saviez-vous ? » pour un fait étonnant ou historique, « Résultats » pour des résultats d'entreprise, « Données » pour une statistique ou une étude, sinon « Actualité ».`;
 }
 

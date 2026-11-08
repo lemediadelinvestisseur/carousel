@@ -61,7 +61,8 @@ function coverPlacement(img) {
   // Haut : le sujet vers 35 % de la zone photo ; l'image doit au moins descendre jusqu'au texte,
   // et couvrir toute la hauteur si elle en est capable.
   const minTop = ih >= H ? H - ih : TEXT_TOP - ih;
-  const top = Math.min(0, Math.max(minTop, TEXT_TOP * 0.45 - cy));
+  // Le haut du sujet (flèche d'un monument, tête d'une personne) reste toujours visible.
+  const top = Math.min(0, Math.max(minTop, TEXT_TOP * 0.45 - cy, -f.y * ih + 30));
   const fade = ih + top < H;
   return `style="inset:auto;object-fit:fill;width:${iw.toFixed(0)}px;height:${ih.toFixed(0)}px;left:${left.toFixed(0)}px;top:${top.toFixed(0)}px${fade ? ";-webkit-mask-image:linear-gradient(180deg,#000 75%,transparent 99%)" : ""}"`;
 }
@@ -84,16 +85,53 @@ function boxImage(img, boxW, boxH) {
   const f = img.focus || { x: 0.25, y: 0.25, w: 0.5, h: 0.5 };
   const s = Math.max(boxW / img.width, boxH / img.height);
   const iw = img.width * s, ih = img.height * s;
+  // Le sujet ne tient pas dans le cadre (ex : tour Eiffel dans un cadre très allongé) :
+  // on montre la photo entière, sur un fond flouté de la même photo, plutôt que de la couper.
+  if (f.h * ih > boxH * 1.02 || f.w * iw > boxW * 1.02) {
+    const c = Math.min(boxW / img.width, boxH / img.height);
+    const cw = img.width * c, chh = img.height * c;
+    return `<img class="fill blurfill" src="${src}" alt=""><img class="placed" style="width:${cw.toFixed(0)}px;height:${chh.toFixed(0)}px;left:${((boxW - cw) / 2).toFixed(0)}px;top:${((boxH - chh) / 2).toFixed(0)}px" src="${src}" alt="">`;
+  }
   const cx = (f.x + f.w / 2) * iw, cy = (f.y + f.h / 2) * ih;
   const left = Math.min(0, Math.max(boxW - iw, boxW / 2 - cx));
-  const top = Math.min(0, Math.max(boxH - ih, boxH / 2 - cy));
+  const top = Math.min(0, Math.max(boxH - ih, boxH / 2 - cy, -f.y * ih + 15));
   return `<img class="placed" style="width:${iw.toFixed(0)}px;height:${ih.toFixed(0)}px;left:${left.toFixed(0)}px;top:${top.toFixed(0)}px" src="${src}" alt="">`;
 }
 
 const IMG_BOTTOM_H = 600; // page « texte en haut, photo en bas »
 const IMG_TOP_H = 450; // page « photo en haut, texte en bas »
 
+// --- Pages intérieures « texte » (21m2) : fond bleu nuit, mots-clés en couleur, cartes blanches à gros chiffres.
+const STOP = new Set(["le", "la", "les", "l", "un", "une", "des", "du", "de", "et", "en", "ce", "qui", "que", "pour", "a", "à"]);
+function watermarkWord(kicker) {
+  const words = String(kicker || "").replace(/['’?!.:]/g, " ").split(/\s+/).filter((w) => w && !STOP.has(w.toLowerCase()));
+  return words.sort((a, b) => b.length - a.length)[0] || "";
+}
+function card(b, i) {
+  // « **12,7 %** de rendement brut à Mulhouse » → gros chiffre + libellé ; sinon numéro d'étape.
+  const m = String(b).match(/^\s*\*\*([^*]{1,14})\*\*\s*(.*)$/);
+  const isValue = m && /\d/.test(m[1]);
+  const value = isValue ? m[1] : String(i + 1);
+  const label = isValue ? m[2] : b;
+  return `<div class="card${isValue ? " value" : ""}"><span class="big">${esc(value)}</span><span class="lab">${bold(label)}</span></div>`;
+}
+function textSlide(s, ctx) {
+  let inner = `${s.kicker ? `<div class="tx-label"><i></i>${esc(s.kicker)}</div>` : ""}${s.title ? `<h2 class="tx-title">${bold(s.title)}</h2>` : ""}`;
+  if (s.kind === "list") {
+    inner += `<div class="cards">${(s.bullets || []).map(card).join("")}</div>`;
+    if (s.body) inner += `<p class="tx-p small">${bold(s.body)}</p>`;
+  } else {
+    for (const para of String(s.body || "").split(/\n+/).filter(Boolean)) inner += `<p class="tx-p">${bold(para)}</p>`;
+  }
+  if (srcOf(ctx.img)) inner += `<div class="tx-photo">${boxImage(ctx.img, 912, 520)}</div>`;
+  const wm = watermarkWord(s.kicker);
+  return `${wm ? `<div class="watermark">${esc(wm)}</div>` : ""}
+    <div class="tx-head">${logo(ctx.brand, "sm")}<span class="tx-page">${ctx.index + 1}/${ctx.total}</span></div>
+    <div class="text tx">${inner}</div>`;
+}
+
 function contentSlide(s, ctx) {
+  if (ctx.brand.innerStyle === "text") return textSlide(s, ctx);
   let inner = `${s.kicker ? `<div class="label">${esc(s.kicker)}</div>` : ""}${s.title ? `<div class="h2wrap"><h2>${bold(s.title)}</h2></div>` : ""}`;
   if (s.kind === "list") {
     inner += `<ol>${(s.bullets || []).map((b, i) => `<li><span class="n">${i + 1}</span><span>${bold(b)}</span></li>`).join("")}</ol>`;
@@ -125,12 +163,17 @@ function cta(s, ctx) {
     </div><div class="foot">${logo(b, "md")}</div>`;
 }
 
+function fontsQuery(t) {
+  const fams = [...new Set([t.titleFont, t.bodyFont].filter((f) => f && f !== "Montserrat"))];
+  return fams.map((f) => `&family=${f.replace(/ /g, "+")}:wght@400;500;600;700`).join("");
+}
+
 export function renderHtml({ carousel, brand, images = [] }) {
   const t = brand.theme;
   let innerIndex = 0;
   const slides = carousel.slides
     .map((s, index) => {
-      const ctx = { brand, index, img: images[index], category: carousel.category, innerIndex };
+      const ctx = { brand, index, total: carousel.slides.length, img: images[index], category: carousel.category, innerIndex };
       let body;
       if (s.kind === "cover") body = cover(s, ctx);
       else if (s.kind === "cta") body = cta(s, ctx);
@@ -140,23 +183,23 @@ export function renderHtml({ carousel, brand, images = [] }) {
     .join("\n");
 
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@800&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@800${fontsQuery(t)}&display=block" rel="stylesheet">
 <style>
-:root{--accent:${t.accent};--accent2:${t.accent2 || t.accent}}
+:root{--accent:${t.accent};--accent2:${t.accent2 || t.accent};--ft:${t.titleFont ? `'${t.titleFont}',` : ""}Montserrat,system-ui,sans-serif;--fb:${t.bodyFont ? `'${t.bodyFont}',` : ""}Montserrat,system-ui,sans-serif;--shade:${t.shadeRgb || "5,12,32"}}
 *{box-sizing:border-box;margin:0;padding:0}
 @page{size:1080px 1350px;margin:0}
-body{background:#444;font-family:Montserrat,system-ui,sans-serif;color:#fff}
+body{background:#444;font-family:var(--fb);color:#fff}
 .slide{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;
-  background:radial-gradient(120% 70% at 100% 100%,rgba(46,107,240,.35) 0%,rgba(46,107,240,0) 60%),linear-gradient(180deg,#070a12 0%,#0a1020 100%)}
+  background:${t.slideBg || "radial-gradient(120% 70% at 100% 100%,rgba(46,107,240,.35) 0%,rgba(46,107,240,0) 60%),linear-gradient(180deg,#070a12 0%,#0a1020 100%)"}}
 .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
 .bg.fallback{background:radial-gradient(circle at 70% 20%,${t.bg2},${t.bg} 70%)}
 b{font-weight:800}
 
 /* Couverture */
 .k-cover{background:#05080f}
-.shade-cover{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0) 40%,rgba(5,10,25,.85) 64%,rgba(5,12,32,1) 84%,${t.gradientEnd || "rgba(20,45,110,1)"} 100%)}
+.shade-cover{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0) 40%,rgba(var(--shade),.85) 64%,rgba(var(--shade),1) 84%,${t.gradientEnd || "rgba(20,45,110,1)"} 100%)}
 .pill{position:absolute;left:80px;top:90px;border:5px solid #fff;border-radius:30px;padding:4px 30px 7px;font-weight:800;font-size:44px;background:rgba(0,0,0,.55);z-index:2}
-h1{position:absolute;left:80px;right:80px;bottom:240px;font-weight:500;line-height:1.22;letter-spacing:-.005em}
+h1{position:absolute;left:80px;right:80px;bottom:240px;font-family:var(--ft);font-weight:500;line-height:1.22;letter-spacing:-.005em}
 h1 b{font-weight:800}
 .cover-foot{position:absolute;left:80px;right:80px;bottom:72px;display:flex;justify-content:center;align-items:center}
 .wordmark{font-weight:800;letter-spacing:.18em;line-height:1.3;text-align:center;text-transform:uppercase}
@@ -188,9 +231,33 @@ li b{font-weight:700}
 p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 .foot{position:absolute;left:0;right:0;bottom:48px;display:flex;justify-content:center}
 
+/* Pages intérieures « texte » (21m2) */
+.tx-head{position:absolute;left:84px;right:84px;top:72px;display:flex;justify-content:space-between;align-items:center;z-index:2}
+.tx-page{font-family:var(--ft);font-weight:600;font-size:28px;color:rgba(255,255,255,.55)}
+.watermark{position:absolute;left:-30px;right:-30px;bottom:-70px;font-family:var(--ft);font-weight:700;font-size:300px;line-height:1;letter-spacing:-.02em;text-transform:uppercase;color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.07);white-space:nowrap;overflow:hidden}
+.text.tx{top:190px;bottom:120px;left:84px;right:84px;display:flex;flex-direction:column;justify-content:center}
+.tx-label{display:flex;align-items:center;gap:16px;font-family:var(--ft);font-weight:700;font-size:32px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:34px}
+.tx-label i{display:inline-block;width:26px;height:26px;border:4px solid var(--accent);position:relative}
+.tx-label i::after{content:"";position:absolute;left:3px;bottom:3px;width:9px;height:9px;background:var(--accent)}
+.tx-title{display:block;background:none;font-family:var(--ft);font-weight:700;font-size:76px;line-height:1.08;letter-spacing:-.015em;margin-bottom:40px}
+.tx-title b{color:var(--accent);font-weight:700}
+.tx-p{font-size:42px;line-height:1.45;font-weight:500;color:#D7DEFA;margin-bottom:24px}
+.tx-p b{color:#fff;font-weight:800}
+.tx-p.small{font-size:32px;margin-top:18px}
+.cards{display:flex;flex-direction:column;gap:22px}
+.card{background:#fff;border-radius:30px;padding:26px 34px;display:flex;align-items:center;gap:28px;color:#3D4361}
+.card .big{flex:none;font-family:var(--ft);font-weight:700;font-size:62px;line-height:1;color:var(--accent2);min-width:56px}
+.card.value .big{min-width:0}
+.card .lab{font-size:34px;line-height:1.3;font-weight:600}
+.card .lab b{color:#16205A;font-weight:800}
+.tx-photo{position:relative;height:520px;border-radius:30px;overflow:hidden;margin-top:30px;flex:none}
+.tx-photo .placed{position:absolute;max-width:none}
+.tx-photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.blurfill{filter:blur(28px) brightness(.85) saturate(1.1);transform:scale(1.15)}
+
 /* Dernière page */
 .cta{position:absolute;left:96px;right:96px;top:150px}
-.cta .q{font-weight:800;font-size:76px;line-height:1.15;margin-bottom:34px}
+.cta .q{font-family:var(--ft);font-weight:800;font-size:76px;line-height:1.15;margin-bottom:34px}
 .cta .q b{color:var(--accent)}
 .cta .sub{font-size:44px;line-height:1.4;margin-bottom:70px}
 .actions{display:flex;gap:20px;margin-bottom:80px}
@@ -209,13 +276,15 @@ function fit(){
 document.querySelectorAll('.text').forEach(t=>{
   const over=()=>t.scrollHeight-t.clientHeight;
   const slide=t.parentElement, photo=slide.querySelector('.photo');
+  const txPhoto=t.querySelector('.tx-photo');
+  if(over()>2&&txPhoto){txPhoto.style.height=Math.max(260,txPhoto.offsetHeight-over()-10)+'px';}
   if(over()>2&&photo){
     const gain=Math.min(over()+20,150);
     photo.style.height=(photo.offsetHeight-gain)+'px';
     if(t.classList.contains('top')) t.style.bottom=(parseFloat(getComputedStyle(t).bottom)-gain)+'px';
     else t.style.top=(t.offsetTop-gain)+'px';
   }
-  for(let k=0;k<14&&over()>2;k++) t.querySelectorAll('h2,p,li,.stat').forEach(el=>{el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px'});
+  for(let k=0;k<14&&over()>2;k++) t.querySelectorAll('h2,p,li,.stat,.card .lab,.card .big').forEach(el=>{el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px'});
 });
 document.querySelectorAll('h1').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
 }
