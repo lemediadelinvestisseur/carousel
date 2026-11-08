@@ -91,6 +91,7 @@ dialog::backdrop{background:rgba(0,0,0,.5)}
 .runs{font-size:13px;color:var(--muted)}
 details summary{cursor:pointer}
 .hooks{margin-top:10px;font-size:14px}
+.adv{margin-top:14px}.adv summary{cursor:pointer;font-weight:700;font-size:13px;color:var(--muted)}
 .hooks summary{font-weight:700;color:var(--muted);padding:6px 0}
 .hook-alt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;margin-top:6px;cursor:pointer;font-weight:600}
 .quota{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
@@ -181,10 +182,12 @@ details summary{cursor:pointer}
 
 <dialog id="dlgSettings"><form method="dialog" class="sheet">
   <h2>Réglages</h2>
+  <details class="adv"><summary>Avancé (dépôt et branche)</summary>
   <label for="sRepo">Dépôt GitHub</label>
-  <input id="sRepo" placeholder="proprietaire/depot">
+  <input id="sRepo" placeholder="lemediadelinvestisseur/carousel">
   <label for="sBranch">Branche</label>
   <input id="sBranch" placeholder="main">
+  </details>
   <label for="sToken">Jeton GitHub (fine-grained)</label>
   <input id="sToken" type="password" autocomplete="off" placeholder="github_pat_…">
   <div class="hint">Créez-le sur github.com → Settings → Developer settings → Fine-grained tokens, limité à ce dépôt, avec les permissions <b>Actions : Read and write</b> et <b>Contents : Read-only</b>. Il reste uniquement dans ce navigateur.</div>
@@ -196,7 +199,8 @@ const BRANDS = { investisseur: "Le média de l'investisseur", "21m2": "21m2" };
 const TABS = [
   { key: "new", label: "À valider", match: (i) => i.status === "new" && !pending(i.id) },
   { key: "wip", label: "En cours", match: (i) => ["validated", "generating"].includes(i.status) || (i.status === "new" && pending(i.id)) },
-  { key: "done", label: "Prêts", match: (i) => i.status === "done" },
+  { key: "done", label: "Prêts", match: (i) => i.status === "done" && !isPublished(i) },
+  { key: "published", label: "Publiés", match: (i) => i.status === "done" && isPublished(i) },
   { key: "error", label: "Erreurs", match: (i) => i.status === "error" },
   { key: "rejected", label: "Écartées", match: (i) => ["rejected", "ignored"].includes(i.status) },
 ];
@@ -213,9 +217,12 @@ function guessRepo() {
   const seg = location.pathname.split("/").filter(Boolean)[0];
   return m && seg ? `${m[1]}/${seg}` : "lemediadelinvestisseur/carousel";
 }
+// Publié = au moins un réseau a reçu le carousel.
+function isPublished(i) { return Object.values(i.published || {}).some((v) => v && (v.url || v.id)); }
+const DEFAULT_REPO = "lemediadelinvestisseur/carousel";
 const cfg = {
-  get repo() { return store.get("repo", guessRepo()); },
-  get branch() { return store.get("branch", "main"); },
+  get repo() { return store.get("repo", "") || (location.hostname.endsWith("github.io") ? guessRepo() : DEFAULT_REPO); },
+  get branch() { return store.get("branch", "") || "main"; },
   get token() { return store.get("token", ""); },
 };
 const pendingMap = () => JSON.parse(store.get("pending", "{}"));
@@ -303,6 +310,8 @@ function render() {
   const rank = (i) => (i.aiScore ?? -1) * 100 + (i.score || 0);
   if (state.tab === "new" || state.tab === "rejected") list.sort((a, b) => rank(b) - rank(a) || b.publishedAt.localeCompare(a.publishedAt));
   if (state.tab === "done") list.sort((a, b) => (b.generatedAt || "").localeCompare(a.generatedAt || ""));
+  const pubAt = (i) => Object.values(i.published || {}).map((v) => v?.at || "").sort().pop() || "";
+  if (state.tab === "published") list.sort((a, b) => pubAt(b).localeCompare(pubAt(a)));
   $("list").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Rien ici pour l'instant.</div>`;
   loadCaptions();
 
@@ -313,7 +322,7 @@ function render() {
 }
 
 function card(i) {
-  const st = pending(i.id) && i.status === "new" ? "Envoyée…" : STATUS[i.status] || i.status;
+  const st = pending(i.id) && i.status === "new" ? "Envoyée…" : i.status === "done" && isPublished(i) ? "Publié ✓" : STATUS[i.status] || i.status;
   const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.aiScore != null ? `<span class="ai s${Math.floor(i.aiScore / 3)}">${i.aiScore}/10</span>` : i.score ? `<span>· score ${i.score}</span>` : ""}${i.international ? "<span>· 🌍</span>" : ""}</div>
     <h3>${esc(i.title)}</h3>${i.hook ? `<div class="hook">💡 ${esc(i.hook)}</div>` : ""}${i.reason ? `<div class="reason">${esc(i.reason)}</div>` : ""}${i.summary ? `<p>${esc(i.summary)}</p>` : ""}`;
   let actions = "";
