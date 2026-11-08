@@ -91,6 +91,16 @@ Prérequis : le compte Instagram est un **compte professionnel** relié à la **
 
 Si les posts Facebook n'apparaissent pas publiquement, passe l'app en mode **Live** (Paramètres de l'app → Général) avec comme politique de confidentialité : `https://lemediadelinvestisseur.github.io/carousel/confidentialite.html`.
 
+### LinkedIn (Pages entreprise)
+Le carousel est publié en **document PDF** (format à feuilleter) sur la Page LinkedIn de la marque. Coche **LinkedIn** dans la fenêtre 🚀 Publier.
+
+Configuration (une fois, après l'accord de LinkedIn pour la *Community Management API*) :
+1. [developers.linkedin.com](https://developers.linkedin.com) → **My apps** → app **Carousels LMI** → **Docs and tools → OAuth Token Tools** → **Create token**, avec les autorisations `w_organization_social`, `r_organization_social`, `rw_organization_admin`.
+2. GitHub → secret `LINKEDIN_TOKEN` (un seul jeton pour les deux Pages : celle de chaque marque est retrouvée par son nom).
+3. **Actions → Publication réseaux sociaux**, mode **connexion** : chaque marque doit afficher ✓ avec sa Page LinkedIn.
+
+Le jeton LinkedIn expire au bout de **60 jours** : en cas d'erreur 401, génère-en un nouveau et remplace le secret.
+
 ## Personnaliser
 
 | Quoi | Où |
