@@ -818,7 +818,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "21m2",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Trêve hivernale : des risques financiers concrets pour les bailleurs.",
       "hook": "Trêve hivernale : 5 erreurs à 30 000 €"
@@ -1198,5 +1198,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:43:13.032Z"
+  "updatedAt": "2026-11-08T18:43:23.081Z"
 }
