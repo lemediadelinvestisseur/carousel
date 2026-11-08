@@ -1742,10 +1742,34 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "done",
       "aiScore": 6,
       "reason": "La succession de Lagarde à la BCE influencera les taux.",
-      "hook": "Qui va remplacer Lagarde à la BCE ?"
+      "hook": "Qui va remplacer Lagarde à la BCE ?",
+      "generatedAt": "2026-11-08T18:53:19.420Z",
+      "carousel": {
+        "dir": "carousels/2026-11-07/investisseur-bce-qui-va-remplacer-christine-lagarde-a-4deaf736ee",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "slide-10.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 10,
+        "hooks": [
+          "Les ministres de la zone euro examinent **demain** les candidats pour remplacer **Christine Lagarde**. Un duel entre un **Néerlandais** et un **Espagnol**.",
+          "**Klaas Knot** ou **Pablo Hernández de Cos** : l'un des deux devrait diriger la **BCE** en **2027**. Voici pourquoi ça compte pour tes taux.",
+          "**Christine Lagarde** quitte la **BCE** **près de neuf mois** avant la fin de son mandat. En cause, notamment : la **présidentielle française**."
+        ]
+      }
     },
     {
       "id": "2033573836",
@@ -2021,5 +2045,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:45:53.768Z"
+  "updatedAt": "2026-11-08T18:53:19.420Z"
 }
