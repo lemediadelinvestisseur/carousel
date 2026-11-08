@@ -35,4 +35,5 @@ jobs:
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       - name: Publication
-        run: ./scripts/publish.sh "actus: collecte $(date -u +%Y-%m-%dT%H:%M)"
+        run: |
+          ./scripts/publish.sh "actus: collecte $(date -u +%Y-%m-%dT%H:%M)"
