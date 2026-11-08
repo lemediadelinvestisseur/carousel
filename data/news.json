@@ -1136,7 +1136,7 @@
       "collectedAt": "2026-11-08T18:44:37.704Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Fin annoncée du Cybertruck, symbole Tesla qui divise.",
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:11:46.284Z"
+  "updatedAt": "2026-11-08T20:11:52.058Z"
 }
