@@ -45,12 +45,29 @@ export function slugify(s, max = 50) {
 // repart de la dernière version distante et ré-applique ce journal (pas de conflit JSON).
 const UPDATES_FILE = path.join(ROOT, ".run/updates.json");
 
-export function recordUpdates({ upsert = [], prune = false }) {
+export function recordUpdates({ upsert = [], prune = false, files = {} }) {
   fs.mkdirSync(path.dirname(UPDATES_FILE), { recursive: true });
-  const prev = fs.existsSync(UPDATES_FILE) ? JSON.parse(fs.readFileSync(UPDATES_FILE, "utf8")) : { upsert: [], prune: false };
-  const map = new Map(prev.upsert.map((i) => [i.id, i]));
+  const prev = fs.existsSync(UPDATES_FILE) ? JSON.parse(fs.readFileSync(UPDATES_FILE, "utf8")) : {};
+  const map = new Map((prev.upsert || []).map((i) => [i.id, i]));
   for (const i of upsert) map.set(i.id, { ...map.get(i.id), ...i });
-  fs.writeFileSync(UPDATES_FILE, JSON.stringify({ upsert: [...map.values()], prune: prev.prune || prune }, null, 2));
+  const out = { upsert: [...map.values()], prune: !!prev.prune || prune, files: { ...(prev.files || {}), ...files } };
+  fs.writeFileSync(UPDATES_FILE, JSON.stringify(out, null, 2));
+}
+
+/** Écrit un fichier JSON annexe (ex : data/sources-status.json) et le note dans le journal. */
+export function writeSideFile(rel, obj) {
+  fs.writeFileSync(path.join(ROOT, rel), JSON.stringify(obj, null, 2) + "\n");
+  recordUpdates({ files: { [rel]: obj } });
+}
+
+export function readJsonIfExists(rel, fallback) {
+  const p = path.join(ROOT, rel);
+  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf8")) : fallback;
+}
+
+/** Date du jour à Paris (AAAA-MM-JJ). */
+export function parisDay(d = new Date()) {
+  return new Date(d).toLocaleDateString("fr-CA", { timeZone: "Europe/Paris" });
 }
 
 export function pruneOld(db, now = Date.now()) {
@@ -60,7 +77,8 @@ export function pruneOld(db, now = Date.now()) {
 
 export function applyUpdatesFile() {
   if (!fs.existsSync(UPDATES_FILE)) return 0;
-  const { upsert, prune } = JSON.parse(fs.readFileSync(UPDATES_FILE, "utf8"));
+  const { upsert = [], prune, files = {} } = JSON.parse(fs.readFileSync(UPDATES_FILE, "utf8"));
+  for (const [rel, obj] of Object.entries(files)) fs.writeFileSync(path.join(ROOT, rel), JSON.stringify(obj, null, 2) + "\n");
   const db = loadNews();
   const byId = new Map(db.items.map((i) => [i.id, i]));
   for (const u of upsert) {

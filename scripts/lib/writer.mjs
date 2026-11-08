@@ -31,7 +31,9 @@ Règles :
 - Dernière slide (cta) : appel à l'action : « ${brand.cta} ».
 - N'utilise QUE les faits présents dans la source fournie. N'invente aucun chiffre, aucune date, aucune citation. Si la source est maigre, fais moins de slides plutôt que d'inventer.
 - Pas de conseil d'investissement personnalisé ; si pertinent, rappelle que ce n'est pas un conseil.
-- Textes très courts : c'est lu sur un téléphone.`;
+- Textes très courts : c'est lu sur un téléphone.
+- Les textes sont toujours en français, même si la source est en anglais.
+- Pour mettre un mot ou un chiffre en couleur, entoure-le de **doubles astérisques** (1 à 2 fois par slide maximum).`;
 }
 
 export async function writeCarousel({ item, brand, articleText, instructions }) {
@@ -45,7 +47,7 @@ Titre : ${item.title}
 Source : ${item.source} — ${item.link}
 Date : ${item.publishedAt}
 Résumé : ${item.summary || "(aucun)"}
-
+${item.reason ? `Pourquoi ça intéresse notre public : ${item.reason}\n` : ""}${item.hook ? `Idée d'accroche (à améliorer librement) : ${item.hook}\n` : ""}${item.international ? "Actu internationale : explique en quoi elle concerne un investisseur français, convertis les montants en euros seulement si la source le permet.\n" : ""}
 TEXTE DE L'ARTICLE (peut être incomplet ou vide) :
 ${articleText || "(non disponible — base-toi uniquement sur le titre et le résumé)"}
 ${instructions ? `\nCONSIGNES SPÉCIFIQUES DE L'ÉDITEUR :\n${instructions}\n` : ""}

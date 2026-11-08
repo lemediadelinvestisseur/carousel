@@ -17,13 +17,27 @@ Chaîne complète pour publier des carousels d'actualité chaque jour :
 
 ## Comment ça marche au quotidien
 
-1. **Toutes les 2 heures (6h–22h)**, GitHub Actions lit les sites listés dans `config/sources.json`, garde les actus pertinentes, les attribue à un compte (*Le média de l'investisseur* ou *21m2*) et leur donne un score.
-2. Les meilleures actus déclenchent une **notification push** sur votre téléphone (appli gratuite **ntfy**) avec un bouton **✅ Valider**.
-3. Le bouton ouvre le **dashboard** : vous choisissez le compte, ajoutez une consigne si besoin (« insister sur… »), et validez.
-4. Environ 2 minutes plus tard, le carousel est prêt (nouvelle notification) : **6 à 8 slides PNG (1080×1350)**, un **PDF** (pour LinkedIn) et une **légende avec hashtags**.
-5. Dans le dashboard, onglet **Prêts** : « 📲 Enregistrer les images » les envoie dans la pellicule, « 📋 Légende » copie le texte. Il ne reste qu'à publier.
+1. **Toutes les 2 heures (6h–22h)**, GitHub Actions lit les sites listés dans `config/sources.json`.
+2. **Claude trie les actus** : note de 0 à 10 sur « est-ce que ça va faire réagir un public français ? », choix du compte, explication en une phrase et proposition d'accroche. Les actus internationales (TradingView, Zonebourse) sont filtrées sévèrement : on ne garde que ce qui parle aux Français (CAC 40, grandes marques, Bitcoin, BCE/Fed, épargne…).
+3. Les actus notées **7/10 ou plus** déclenchent une **notification push** sur votre téléphone (appli gratuite **ntfy**) avec un bouton **✅ Valider**, dans la limite de 3 par collecte et 10 par jour pour chaque compte.
+4. Le bouton ouvre le **dashboard** : vous choisissez le compte, ajoutez une consigne si besoin (« insister sur… »), et validez.
+5. Environ 2 minutes plus tard, le carousel est prêt (nouvelle notification) : **6 à 8 slides PNG (1080×1350)**, un **PDF** (pour LinkedIn) et une **légende avec hashtags**.
+6. Dans le dashboard, onglet **Prêts** : « 📲 Enregistrer les images » les envoie dans la pellicule, « 📋 Légende » copie le texte. Il ne reste qu'à publier.
 
 Vous pouvez aussi transformer **n'importe quel article** en carousel avec le bouton **+ Article** du dashboard.
+
+**Objectif : 2 à 5 carousels par jour et par compte.** Le dashboard affiche le compteur du jour. Une fois 5 carousels faits pour un compte, il ne reçoit plus de notifications ce jour-là. S'il en manque encore à 17h, vous recevez un rappel.
+
+## Sources suivies
+
+| Compte | Site | Thème |
+|---|---|---|
+| Le média de l'investisseur | Maddyness | French Tech, startups, levées de fonds |
+| Le média de l'investisseur | TradingView News | marchés mondiaux, filtrés pour un public français |
+| Le média de l'investisseur | Zonebourse | Bourse, filtrée pour un public français |
+| 21m2 | Moneyvox, Le Figaro Immobilier, Les Echos Patrimoine, Boursorama, Capital, Le Revenu | immobilier |
+
+Pour chaque site, la collecte essaie les flux RSS connus, puis cherche le flux dans la page elle-même. En dernier recours, elle passe par Google News limité à ce site. La rubrique **État des sources** du dashboard montre quel site fonctionne et par quel moyen.
 
 ## Mise en route (≈ 10 minutes, une seule fois)
 
@@ -41,9 +55,9 @@ Sur iPhone : ouvrez-le dans Safari → Partager → **Sur l'écran d'accueil** p
 2. Choisissez un nom de sujet **long et impossible à deviner** (ex. `carousel-lmi-7f3k9q2x`) — n'importe qui connaissant ce nom pourrait lire les notifications — puis abonnez-vous à ce sujet dans l'appli.
 3. Dans GitHub : *Settings → Secrets and variables → Actions → New repository secret* : `NTFY_TOPIC` = votre nom de sujet.
 
-### 4. Clé Claude (rédaction des carousels)
+### 4. Clé Claude (tri des actus + rédaction des carousels)
 Créez une clé sur [console.anthropic.com](https://console.anthropic.com) puis ajoutez le secret `ANTHROPIC_API_KEY`.
-Sans clé, le système fonctionne quand même mais produit des carousels basiques (titre + résumé), sans rédaction.
+Sans clé, le système fonctionne quand même, mais en mode dégradé : tri par mots-clés et carousels basiques (titre + résumé).
 
 Modèle utilisé par défaut : `claude-opus-5-5` (modifiable via la variable `CLAUDE_MODEL`). Les éventuels refus du modèle sont automatiquement redirigés vers un modèle de secours (`fallbacks: "default"`), puis, en dernier recours, vers la version simplifiée.
 
@@ -63,7 +77,8 @@ Collez-le dans le dashboard (⚙︎ Réglages). Il est stocké uniquement dans l
 | Quoi | Où |
 |---|---|
 | Sites d'actualité suivis | `config/sources.json` (flux RSS ; `brand` = `investisseur`, `21m2` ou `auto`) |
-| Seuil de notification, nombre max de notifs | `config/sources.json` (`notifyMinScore`, `maxNotificationsPerRun`) |
+| Objectif quotidien, seuil et nombre de notifications | `config/sources.json` (`carouselsPerDay`, `notify`) |
+| Critères de tri « ce qui fait réagir en France » | `scripts/lib/curate.mjs` |
 | Couleurs, polices, ton éditorial, mots-clés, phrase d'appel à l'action | `config/brands.json` |
 | Mise en page des slides | `templates/carousel.mjs` (puis `npm run examples` pour régénérer les exemples) |
 | Consignes de rédaction données à Claude | `scripts/lib/writer.mjs` |

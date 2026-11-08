@@ -61,6 +61,19 @@ dialog::backdrop{background:rgba(0,0,0,.5)}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom) + 80px);background:var(--text);color:var(--bg);padding:12px 18px;border-radius:12px;font-weight:600;z-index:20;max-width:90%;display:none}
 .banner{background:#FFF4D6;color:#5A4500;border-radius:12px;padding:12px;margin-bottom:12px;font-size:14px}
 .runs{font-size:13px;color:var(--muted)}
+details summary{cursor:pointer}
+.quota{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:13px;color:var(--muted)}
+.q .badge{display:table;margin-bottom:6px}
+.q b{font-size:20px;color:var(--text);margin-right:2px}
+.bar{height:6px;background:var(--line);border-radius:9px;margin-top:6px;overflow:hidden}
+.bar div{height:100%;background:var(--danger)}
+.q.ok .bar div{background:var(--gold)}
+.q.full .bar div{background:var(--ok)}
+.ai{font-weight:800;font-size:11px;padding:3px 7px;border-radius:6px;background:var(--line);color:var(--text)}
+.ai.s2,.ai.s3{background:var(--ok);color:#fff}
+.hook{font-weight:600;font-size:14px;margin:4px 0 6px}
+.reason{font-size:13px;color:var(--muted);font-style:italic;margin-bottom:6px}
 .runs div{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--line)}
 </style>
 </head>
@@ -76,9 +89,11 @@ dialog::backdrop{background:rgba(0,0,0,.5)}
 
 <div class="wrap">
   <div id="banner"></div>
+  <div class="quota" id="quota"></div>
   <div class="chips" id="chips"></div>
   <div id="list"></div>
   <div class="card" id="runsCard" hidden><h3>Activité récente</h3><div class="runs" id="runs"></div></div>
+  <details class="card" id="sourcesCard"><summary><b>État des sources</b></summary><div class="runs" id="sources"></div></details>
 </div>
 
 <button class="fab" id="openAdd">+ Article</button>
@@ -124,9 +139,11 @@ const TABS = [
   { key: "wip", label: "En cours", match: (i) => ["validated", "generating"].includes(i.status) || (i.status === "new" && pending(i.id)) },
   { key: "done", label: "Prêts", match: (i) => i.status === "done" },
   { key: "error", label: "Erreurs", match: (i) => i.status === "error" },
-  { key: "rejected", label: "Rejetées", match: (i) => i.status === "rejected" },
+  { key: "rejected", label: "Écartées", match: (i) => ["rejected", "ignored"].includes(i.status) },
 ];
-const STATUS = { new: "Nouvelle", validated: "Validée", generating: "En génération", done: "Prêt", error: "Erreur", rejected: "Rejetée" };
+const STATUS = { new: "Nouvelle", validated: "Validée", generating: "En génération", done: "Prêt", error: "Erreur", rejected: "Rejetée", ignored: "Écartée par l'IA" };
+const QUOTA = { min: 2, max: 5 };
+const parisDay = (d) => new Date(d).toLocaleDateString("fr-CA", { timeZone: "Europe/Paris" });
 
 const store = {
   get(k, d) { try { return localStorage.getItem(k) ?? d; } catch { return d; } },
@@ -181,9 +198,19 @@ async function load() {
     state.items = data.items || [];
     render();
     loadRuns();
+    loadSources();
   } catch (e) {
     $("list").innerHTML = `<div class="empty">Impossible de charger les actus.<br><small>${esc(e.message)}</small></div>`;
   }
+}
+
+async function loadSources() {
+  try {
+    let st;
+    if (cfg.token) st = await (await gh(`/repos/${cfg.repo}/contents/data/sources-status.json?ref=${cfg.branch}`, { headers: { accept: "application/vnd.github.raw+json" } })).json();
+    else st = await (await fetch(raw("data/sources-status.json") + `?t=${Date.now()}`)).json();
+    $("sources").innerHTML = Object.entries(st).map(([name, s]) => `<div><span>${s.ok ? "✅" : "❌"} ${esc(name)}</span><span title="${esc(s.error || s.url || "")}">${s.ok ? `${esc(s.via)} · ${s.entries} art.` : "en échec"}</span></div>`).join("") || "Pas encore de collecte.";
+  } catch { $("sources").textContent = "Pas encore de collecte."; }
 }
 
 async function loadRuns() {
@@ -202,11 +229,18 @@ function render() {
   const items = state.items.filter(inBrand);
   $("tabs").innerHTML = TABS.map((t) => `<button class="tab ${t.key === state.tab ? "on" : ""}" data-tab="${t.key}">${t.label}<span class="n">${items.filter(t.match).length}</span></button>`).join("");
   $("chips").innerHTML = [["all", "Tous"], ...Object.entries(BRANDS)].map(([k, v]) => `<button class="chip ${k === state.brand ? "on" : ""}" data-brand="${k}">${esc(v)}</button>`).join("");
+  const today = parisDay(Date.now());
+  $("quota").innerHTML = Object.entries(BRANDS).map(([k, v]) => {
+    const n = state.items.filter((i) => i.brand === k && i.status === "done" && i.generatedAt && parisDay(i.generatedAt) === today).length;
+    const cls = n >= QUOTA.max ? "full" : n >= QUOTA.min ? "ok" : "low";
+    return `<div class="q ${cls}"><span class="badge b-${k}">${esc(v)}</span><b>${n}</b>/${QUOTA.max} aujourd'hui<div class="bar"><div style="width:${Math.min(100, (n / QUOTA.max) * 100)}%"></div></div></div>`;
+  }).join("");
   $("banner").innerHTML = cfg.token ? "" : `<div class="banner">Ajoutez votre jeton GitHub dans les réglages (⚙︎) pour pouvoir valider les actus depuis ce téléphone.</div>`;
 
   const tab = TABS.find((t) => t.key === state.tab);
   let list = items.filter(tab.match);
-  if (state.tab === "new") list.sort((a, b) => b.score - a.score || b.publishedAt.localeCompare(a.publishedAt));
+  const rank = (i) => (i.aiScore ?? -1) * 100 + (i.score || 0);
+  if (state.tab === "new" || state.tab === "rejected") list.sort((a, b) => rank(b) - rank(a) || b.publishedAt.localeCompare(a.publishedAt));
   if (state.tab === "done") list.sort((a, b) => (b.generatedAt || "").localeCompare(a.generatedAt || ""));
   $("list").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Rien ici pour l'instant.</div>`;
 
@@ -218,8 +252,8 @@ function render() {
 
 function card(i) {
   const st = pending(i.id) && i.status === "new" ? "Envoyée…" : STATUS[i.status] || i.status;
-  const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.score ? `<span>· score ${i.score}</span>` : ""}</div>
-    <h3>${esc(i.title)}</h3>${i.summary ? `<p>${esc(i.summary)}</p>` : ""}`;
+  const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.aiScore != null ? `<span class="ai s${Math.floor(i.aiScore / 3)}">${i.aiScore}/10</span>` : i.score ? `<span>· score ${i.score}</span>` : ""}${i.international ? "<span>· 🌍</span>" : ""}</div>
+    <h3>${esc(i.title)}</h3>${i.hook ? `<div class="hook">💡 ${esc(i.hook)}</div>` : ""}${i.reason ? `<div class="reason">${esc(i.reason)}</div>` : ""}${i.summary ? `<p>${esc(i.summary)}</p>` : ""}`;
   let actions = "";
   if (i.status === "new" && !pending(i.id)) {
     actions = `<div class="row"><button class="btn primary" data-act="validate">✅ Valider</button><button class="btn danger" data-act="reject">✕</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
@@ -229,8 +263,8 @@ function card(i) {
       <div class="row"><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="caption">📋 Légende</button>
       <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}" target="_blank" rel="noopener">PDF</a>
       <button class="btn ghost" data-act="validate">↻ Refaire</button></div>`;
-  } else if (["error", "rejected"].includes(i.status)) {
-    actions = `${i.error ? `<p class="hint">${esc(i.error)}</p>` : ""}<div class="row"><button class="btn primary" data-act="validate">${i.status === "error" ? "↻ Réessayer" : "✅ Valider quand même"}</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
+  } else if (["error", "rejected", "ignored"].includes(i.status)) {
+    actions = `${i.error ? `<p class="hint">${esc(i.error)}</p>` : ""}<div class="row"><button class="btn ${i.status === "error" ? "primary" : ""}" data-act="validate">${i.status === "error" ? "↻ Réessayer" : "✅ Valider quand même"}</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
   }
   return `<div class="card" data-id="${esc(i.id)}">${head}${actions}</div>`;
 }
