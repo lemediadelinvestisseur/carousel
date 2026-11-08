@@ -46,7 +46,7 @@
       "collectedAt": "2026-11-08T18:44:37.704Z",
       "brand": "21m2",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Perquisitions sur l'île des milliardaires, curiosité immobilière de luxe.",
       "hook": "Cavallo, l'île des ultra-riches, perquisitionnée par le PNF"
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:11:55.197Z"
+  "updatedAt": "2026-11-08T20:12:28.389Z"
 }
