@@ -1047,7 +1047,7 @@
       "collectedAt": "2026-11-08T21:02:25.273Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 7,
       "reason": "Bitcoin et ETF : retrait massif qui inquiète les détenteurs de crypto français.",
@@ -2677,5 +2677,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T23:07:33.459Z"
+  "updatedAt": "2026-11-08T23:07:51.443Z"
 }
