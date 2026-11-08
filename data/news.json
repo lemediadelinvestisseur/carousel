@@ -736,7 +736,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Les tarifs de l'électricité pèsent sur le budget des ménages.",
       "hook": "Électricité : ce qui attend votre facture d'ici février"
@@ -1201,5 +1201,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:36:03.863Z"
+  "updatedAt": "2026-11-08T18:36:12.068Z"
 }
