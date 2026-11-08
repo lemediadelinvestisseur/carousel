@@ -1617,7 +1617,7 @@
       "reason": "Le duel Bitcoin contre or passionne les épargnants et divise.",
       "hook": "Bitcoin chute, mais a-t-il vraiment perdu face à l'or ?",
       "instructions": "Précise les différences de performance depuis le 1er janvier 2026 ",
-      "generatedAt": "2026-11-08T22:07:00.541Z",
+      "generatedAt": "2026-11-08T22:28:53.770Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-malgre-la-baisse-le-bitcoin-n-a-pas-perd-825fb23f24",
         "files": [
@@ -1635,9 +1635,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "Un **bitcoin** valait **12 onces** d'or au plus bas. Il en vaut **21** aujourd'hui. Voilà pourquoi **Fidelity** le préfère encore à l'or.",
-          "Malgré sa **baisse**, le **bitcoin** reste le favori du stratège de **Fidelity** face à l'**or**. Mais il précise bien « pour le moment ».",
-          "Les **ETF bitcoin** ont attiré **55 milliards** de dollars depuis 2024, presque deux fois plus que l'**or**. Le duel est loin d'être terminé."
+          "Le bitcoin chute, mais Fidelity le préfère encore à l'or",
+          "Ni le bitcoin ni l'or n'ont protégé ton épargne cette année",
+          "Le bitcoin baisse, mais il reprend du terrain face à l'or"
         ]
       }
     },
@@ -2633,5 +2633,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:28:22.861Z"
+  "updatedAt": "2026-11-08T22:28:59.008Z"
 }
