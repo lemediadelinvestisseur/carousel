@@ -743,7 +743,7 @@
       "hook": "Ces 5 villes rapportent jusqu'à 12,7 % brut",
       "notifiedAt": "2026-11-08T15:38:54.430Z",
       "instructions": "Une page par ville ",
-      "generatedAt": "2026-11-08T20:57:55.740Z",
+      "generatedAt": "2026-11-08T22:03:55.636Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-rendement-locatif-ces-5-villes-ou-invest-5149c5cc1b",
         "files": [
@@ -761,9 +761,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "**Mulhouse** rapporte **12,7 %** brut par an, **Paris** seulement **4,1 %**",
-          "Les **5 villes** où ton locatif rapporte le plus",
-          "Rendement locatif : **Mulhouse** écrase **Paris**"
+          "Jusqu'à **12,7 %** brut : le **top 5** des villes",
+          "Locatif : les **5 villes** qui rapportent le plus",
+          "Investir à **Mulhouse** rapporte **trois fois** plus qu'à Paris"
         ]
       }
     },
@@ -2608,5 +2608,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:03:50.499Z"
+  "updatedAt": "2026-11-08T22:04:03.725Z"
 }
