@@ -105,10 +105,6 @@ const IMG_TOP_H = 520; // page « photo en haut, texte en bas »
 
 // --- Pages intérieures « texte » (21m2) : fond bleu nuit, mots-clés en couleur, cartes blanches à gros chiffres.
 const STOP = new Set(["le", "la", "les", "l", "un", "une", "des", "du", "de", "et", "en", "ce", "qui", "que", "pour", "a", "à"]);
-function watermarkWord(kicker) {
-  const words = String(kicker || "").replace(/['’?!.:]/g, " ").split(/\s+/).filter((w) => w && !STOP.has(w.toLowerCase()));
-  return words.sort((a, b) => b.length - a.length)[0] || "";
-}
 function card(b, i) {
   // « **12,7 %** de rendement brut à Mulhouse » → gros chiffre + libellé ; sinon numéro d'étape.
   const m = String(b).match(/^\s*\*\*([^*]{1,14})\*\*\s*(.*)$/);
@@ -126,9 +122,7 @@ function textSlide(s, ctx) {
     for (const para of String(s.body || "").split(/\n+/).filter(Boolean)) inner += `<p class="tx-p">${bold(para)}</p>`;
   }
   if (srcOf(ctx.img)) inner += `<div class="tx-photo">${boxImage(ctx.img, 912, 520)}</div>`;
-  const wm = watermarkWord(s.kicker);
-  return `${wm ? `<div class="watermark">${esc(wm)}</div>` : ""}
-    <div class="tx-head">${logo(ctx.brand, "sm")}<span class="tx-page">${ctx.index + 1}/${ctx.total}</span></div>
+  return `<div class="tx-head">${logo(ctx.brand, "sm")}<span class="tx-page">${ctx.index + 1}/${ctx.total}</span></div>
     <div class="text tx">${inner}</div>`;
 }
 
@@ -241,7 +235,6 @@ p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 /* Pages intérieures « texte » (21m2) */
 .tx-head{position:absolute;left:84px;right:84px;top:72px;display:flex;justify-content:space-between;align-items:center;z-index:2}
 .tx-page{font-family:var(--ft);font-weight:600;font-size:28px;color:rgba(255,255,255,.55)}
-.watermark{position:absolute;left:-30px;right:-30px;bottom:-70px;font-family:var(--ft);font-weight:700;font-size:300px;line-height:1;letter-spacing:-.02em;text-transform:uppercase;color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.07);white-space:nowrap;overflow:hidden}
 .text.tx{top:190px;bottom:120px;left:84px;right:84px;display:flex;flex-direction:column;justify-content:center}
 .tx-label{display:flex;align-items:center;gap:16px;font-family:var(--ft);font-weight:700;font-size:32px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:34px}
 .tx-label i{display:inline-block;width:26px;height:26px;border:4px solid var(--accent);position:relative}
