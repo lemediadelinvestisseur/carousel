@@ -17,7 +17,7 @@
     "hook": "Ces 5 villes rapportent jusqu'à 12,7 % brut",
     "notifiedAt": "2026-11-08T15:38:54.430Z",
     "instructions": "Une page par ville ",
-    "generatedAt": "2026-11-08T20:57:55.740Z",
+    "generatedAt": "2026-11-08T22:03:55.636Z",
     "carousel": {
       "dir": "carousels/2026-11-08/21m2-rendement-locatif-ces-5-villes-ou-invest-5149c5cc1b",
       "files": [
@@ -35,9 +35,9 @@
       "generator": "claude-opus-5-5",
       "slides": 9,
       "hooks": [
-        "**Mulhouse** rapporte **12,7 %** brut par an, **Paris** seulement **4,1 %**",
-        "Les **5 villes** où ton locatif rapporte le plus",
-        "Rendement locatif : **Mulhouse** écrase **Paris**"
+        "Jusqu'à **12,7 %** brut : le **top 5** des villes",
+        "Locatif : les **5 villes** qui rapportent le plus",
+        "Investir à **Mulhouse** rapporte **trois fois** plus qu'à Paris"
       ]
     }
   },
@@ -47,102 +47,117 @@
       {
         "kind": "cover",
         "kicker": "",
-        "title": "Les **5 villes** où louer rapporte plus de **8 %**",
-        "body": "À **Mulhouse**, un appartement rapporte **12,7 %** brut par an. À **Paris**, c'est **4,1 %**, et à Lyon 4,5 %.",
+        "title": "Les **5 villes** où le locatif rapporte le plus",
+        "body": "Selon le baromètre SeLoger-Meilleurs Agents, un logement à **Mulhouse** rapporte **12,7 %** brut par an, contre **4,1 %** à **Paris**.",
         "bullets": [],
-        "image_query": "Mulhouse place de la Réunion golden hour",
+        "image_query": "Mulhouse place de la Réunion temple Saint-Étienne golden hour",
         "image_entity": "Mulhouse"
       },
       {
-        "kind": "content",
+        "kind": "list",
         "kicker": "N°1 MULHOUSE",
-        "title": "**12,7 %** brut à Mulhouse",
-        "body": "C'est le meilleur rendement brut des **50 plus grandes villes** de France. Un appartement s'y achète autour de **1 193 € le m²** selon Capital, ou **1 322 €** avec l'indicateur « hybride » de Meilleurs Agents.\n\nC'est trois fois le rendement de **Paris**, à 4,1 %.",
-        "bullets": [],
+        "title": "**Mulhouse**, la championne du rendement",
+        "body": "",
+        "bullets": [
+          "**12,7 %** de rendement brut par an, le plus élevé des 50 plus grandes villes de France",
+          "**1 322 €** le m², le prix d'achat retenu par le baromètre pour calculer ce rendement",
+          "**+2,9 %** sur les loyers en un an, et +10,1 % sur cinq ans"
+        ],
         "image_query": "Mulhouse temple Saint-Étienne golden hour",
-        "image_entity": "Mulhouse"
+        "image_entity": ""
       },
       {
-        "kind": "content",
+        "kind": "list",
         "kicker": "N°2 SAINT-ÉTIENNE",
-        "title": "**10,8 %** brut à Saint-Étienne",
-        "body": "Les prix y sont presque les mêmes qu'à Mulhouse : **1 244 € le m²** pour un appartement selon Capital, **1 323 €** selon l'indicateur de Meilleurs Agents.\n\nComme dans tout le top 5, c'est le **prix d'achat bas** qui fait monter le rendement. Le loyer pèse plus lourd face à un petit prix.",
-        "bullets": [],
-        "image_query": "Saint-Étienne place Jean Jaurès sunset panorama",
-        "image_entity": "Saint-Étienne"
+        "title": "**Saint-Étienne**, juste derrière",
+        "body": "",
+        "bullets": [
+          "**10,8 %** de rendement brut par an, la deuxième place, loin devant Lyon à 4,5 %",
+          "**1 323 €** le m², presque le même prix d'achat qu'à Mulhouse dans le baromètre",
+          "**+12,5 %** sur les loyers en cinq ans, dont +2,8 % sur la dernière année"
+        ],
+        "image_query": "Saint-Étienne place Jean-Jaurès cathédrale Saint-Charles sunset panorama",
+        "image_entity": ""
       },
       {
-        "kind": "content",
+        "kind": "list",
         "kicker": "N°3 ROUBAIX",
-        "title": "**9,2 %** brut à Roubaix",
-        "body": "Roubaix est plus chère que les deux premières : **2 035 € le m²** pour un appartement selon Capital. Meilleurs Agents ne publie pas de prix pour cette ville.\n\nLe rendement reste plus de **deux fois** supérieur à celui de **Lyon**, qui plafonne à 4,5 % brut.",
-        "bullets": [],
+        "title": "**Roubaix**, le Nord en force",
+        "body": "",
+        "bullets": [
+          "**9,2 %** de rendement brut par an, troisième ville du classement SeLoger-Meilleurs Agents",
+          "**2 035 €** le m² pour un appartement, selon les prix Meilleurs Agents cités par Capital",
+          "**Plus de 2 fois** le rendement brut de Paris, qui plafonne à 4,1 % par an"
+        ],
         "image_query": "Roubaix hôtel de ville golden hour",
-        "image_entity": "Roubaix"
+        "image_entity": ""
       },
       {
-        "kind": "content",
+        "kind": "list",
         "kicker": "N°4 LIMOGES",
-        "title": "**8,2 %** brut à Limoges",
-        "body": "Un appartement s'y achète autour de **1 609 € le m²** selon Capital, **1 677 €** selon Meilleurs Agents.\n\nC'est bien au-dessus de la moyenne des **50 plus grandes villes**, qui est de **5,3 %**, et de celle des 10 plus grandes, à 4,8 %.",
-        "bullets": [],
+        "title": "**Limoges**, des loyers qui grimpent",
+        "body": "",
+        "bullets": [
+          "**8,2 %** de rendement brut par an, quatrième place parmi les 50 plus grandes villes",
+          "**1 677 €** le m², le prix d'achat retenu par le baromètre pour Limoges",
+          "**+11,7 %** sur les loyers en cinq ans, mais seulement +1,7 % sur un an"
+        ],
         "image_query": "Limoges gare des Bénédictins golden hour",
-        "image_entity": "Limoges"
+        "image_entity": ""
       },
       {
-        "kind": "content",
+        "kind": "list",
         "kicker": "N°5 TOURCOING",
-        "title": "**8,1 %** brut à Tourcoing",
-        "body": "La voisine de Roubaix ferme le top 5. C'est aussi la ville la plus chère du classement : **2 071 € le m²** pour un appartement selon Capital.\n\nPour comparer, un investissement à **Paris** rapporte **4,1 %** brut, soit deux fois moins.",
-        "bullets": [],
+        "title": "**Tourcoing** ferme le top 5",
+        "body": "",
+        "bullets": [
+          "**8,1 %** de rendement brut par an, cinquième du classement, juste derrière Limoges",
+          "**2 071 €** le m² pour un appartement, le prix le plus élevé du top 5 selon Capital",
+          "**Près de 2 fois** le rendement brut de Paris (4,1 %), et bien plus qu'à Lyon (4,5 %)"
+        ],
         "image_query": "Tourcoing église Saint-Christophe sunset panorama",
-        "image_entity": "Tourcoing"
+        "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "LE RISQUE",
-        "title": "Le **brut** n'est pas le net",
-        "body": "Le rendement brut, c'est le loyer annuel divisé par le prix d'achat. Il ne compte ni la **taxe foncière**, ni les charges non récupérables, ni les mois sans locataire, ni les **travaux**.\n\nLes logements y sont souvent anciens. Or les **DPE G** sont interdits à la location depuis 2025, les **F** le seront en 2028.",
+        "kicker": "LE REVERS",
+        "title": "Un rendement **brut**, pas net",
+        "body": "Le rendement brut, c'est le loyer annuel divisé par le prix d'achat. Il ne compte ni la **taxe foncière**, ni les **charges** non récupérables, ni la **vacance**, ni les travaux, ni la fiscalité.\nLe baromètre le rappelle : dans ces villes à bas prix, vérifie d'abord qu'il y a assez de **demande locative**.",
         "bullets": [],
         "image_query": "",
         "image_entity": ""
       },
       {
-        "kind": "list",
-        "kicker": "AVANT D'ACHETER",
-        "title": "Trois vérifications à faire",
-        "body": "",
-        "bullets": [
-          "Calcule ton **rendement net** : taxe foncière, charges, mois sans locataire, travaux et fiscalité.",
-          "Vérifie les loyers et les prix réels avec les estimateurs de **Meilleurs Agents** et **SeLoger**, et la base DVF.",
-          "Exige le **DPE** avant ton offre, chiffre la rénovation d'un bien F ou G et vérifie la demande locative."
-        ],
+        "kind": "content",
+        "kicker": "LE PIÈGE",
+        "title": "Le **DPE** peut tout changer",
+        "body": "Ces villes ont souvent un **parc ancien**. Or les logements classés **G** sont interdits à la location depuis 2025, les **F** le seront au 1er janvier 2028 et les **E** en 2034.\nDes travaux peuvent vite réduire ta rentabilité. Vérifie le **DPE avant de signer** le compromis.",
+        "bullets": [],
         "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "cta",
         "kicker": "",
-        "title": "Tu investirais à **Mulhouse** ou plutôt à **Paris** ?",
-        "body": "Dis-nous en commentaire quelle ville tu choisirais 👇",
+        "title": "Tu investirais plutôt à **Mulhouse** ou à **Paris** ?",
+        "body": "Dis-nous en commentaire quelle ville tu choisirais et pourquoi 👇",
         "bullets": [],
         "image_query": "",
         "image_entity": ""
       }
     ],
     "hook_alternatives": [
-      "Jusqu'à **12,7 %** brut : le **top 5** des villes",
-      "Locatif : les **5 villes** qui rapportent le plus",
-      "Investir à **Mulhouse** rapporte **trois fois** plus qu'à Paris"
+      "Investir à **Mulhouse** rapporte 3 fois plus qu'à Paris",
+      "Jusqu'à **12,7 %** brut : le top 5 du locatif",
+      "Locatif : le **top 5** des villes les plus rentables"
     ],
-    "caption": "À Mulhouse, un investissement locatif rapporte 12,7 % brut par an, trois fois plus qu'à Paris.\n\nC'est le classement des 50 plus grandes villes de France, avec des données arrêtées au 1er octobre 2026.\n\n• Le top 5 : Mulhouse (12,7 %), Saint-Étienne (10,8 %), Roubaix (9,2 %), Limoges (8,2 %) et Tourcoing (8,1 %). La moyenne des 50 villes est de 5,3 %. Paris est à 4,1 % et Lyon à 4,5 %.\n\nCes villes ont un point commun : des prix d'achat bas, entre 1 193 € et 2 071 € le m² pour un appartement. Avec un prix aussi faible, chaque euro de loyer pèse plus lourd dans le rendement.\n\nLes loyers ont augmenté de 2,1 % en un an en moyenne en France, moins vite que l'inflation (3 % en septembre). Les ménages restent locataires plus longtemps et la construction neuve tourne au ralenti.\n\n• Avant de te lancer, garde en tête que le brut n'est pas le net. La taxe foncière, les charges, les mois sans locataire, les travaux et la fiscalité feront baisser ce chiffre. Vérifie aussi que la demande locative est suffisante et regarde le DPE : les logements G ne peuvent plus être loués depuis 2025, et les F ne pourront plus l'être à partir de 2028.\n\nCôté financement, les taux de crédit tournent autour de 3,7 % sur 20 ans, et certaines banques sont déjà à 4 %.\n\nTu préfères un gros rendement dans une ville moyenne ou une valeur plus sûre dans une grande métropole ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
+    "caption": "Un logement à Mulhouse rapporte trois fois plus qu'à Paris.\n\nLe baromètre SeLoger-Meilleurs Agents, réalisé avec Les Échos sur les 50 plus grandes villes de France (données au 1er octobre 2026), place Mulhouse en tête avec 12,7 % de rendement brut. Suivent Saint-Étienne (10,8 %), Roubaix (9,2 %), Limoges (8,2 %) et Tourcoing (8,1 %).\n\nEn face, les grandes métropoles sont loin derrière : 4,5 % à Lyon et 4,1 % à Paris. La moyenne des 50 villes s'établit à 5,3 %.\n\n• La raison est simple : les prix d'achat sont très bas. Le baromètre retient environ 1 320 € le m² à Mulhouse et à Saint-Étienne, alors que les loyers continuent d'augmenter (+12,5 % en cinq ans à Saint-Étienne).\n\n• Attention, ce sont des rendements bruts. La taxe foncière, les charges, les mois sans locataire, les travaux et les impôts ne sont pas déduits. À Paris, Lyon ou Nice, la vacance est presque anecdotique. Dans les villes moyennes, il faudra vérifier qu'il y a assez de demande avant d'acheter.\n\nLe DPE est l'autre point à surveiller. Ces villes ont souvent un parc ancien, et les logements classés F ne pourront plus être loués à partir du 1er janvier 2028. Avant de signer, regarde la classe énergie et estime le coût des travaux.\n\nTu préfères un gros rendement dans une ville moyenne ou la sécurité d'une métropole ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un qui veut investir.\n\nRendements bruts selon SeLoger-Meilleurs Agents, pas un conseil en investissement.",
     "sources": [
       "Capital",
       "Meilleurs Agents",
-      "SeLoger",
-      "Hellio"
+      "SeLoger"
     ],
-    "dossier": "# Dossier : rendement locatif, les 5 villes à plus de 8 % brut (au 8 novembre 2026)\n\n**Sources lues :** Meilleurs Agents (Christelle Privat, 5 novembre 2026) et SeLoger (Stéphanie Marpinard, 2 novembre 2026), qui publient tous deux le baromètre ; Empruntis (vote du Sénat) ; LCP (mis à jour le 5 novembre 2026) ; Hellio, PAP et Maslow pour le DPE. Capital est cité d'après l'extrait que vous m'avez fourni.\n\n---\n\n## 1. Les faits\n\n**Quoi et qui.** C'est la 3ᵉ édition du baromètre locatif SeLoger – Meilleurs Agents, réalisée avec *Les Échos*. Les données sont arrêtées au 1er octobre 2026. *(Meilleurs Agents, SeLoger, Capital)*\n\n**Les 5 villes au meilleur rendement brut parmi les 50 plus grandes de France** *(les trois médias donnent les mêmes taux)* :\n\n| Ville | Rendement brut | Prix au m² selon Meilleurs Agents (« hybride ») | Prix au m² selon Capital (« appartements ») |\n|---|---|---|---|\n| Mulhouse | **12,7 %** | 1 322 € | 1 193 € |\n| Saint-Étienne | **10,8 %** | 1 323 € | 1 244 € |\n| Roubaix | **9,2 %** | non publié | 2 035 € |\n| Limoges | **8,2 %** | 1 677 € | 1 609 € |\n| Tourcoing | **8,1 %** | non publié | 2 071 € |\n\n**Pour comparer :**\n- Grandes métropoles : Paris 4,1 % et Lyon 4,5 % *(toutes sources)*.\n- Moyennes : 5,3 % pour les 50 plus grandes villes et 4,8 % pour les 10 plus grandes *(Meilleurs Agents)*.\n\n**Évolution des loyers sur un an (au 1er octobre 2026)** :\n- Moyenne nationale : +2,1 %. Paris : +4,1 %. Les 10 plus grandes villes hors Paris : +3,1 % *(toutes sources)*.\n- Sur les 5 années précédentes, la hausse était de 3,5 % par an à Paris et de 2,4 % par an dans les 10 plus grandes villes *(toutes sources)*.\n- Plus fortes hausses : Marseille +4,6 % (+18,6 % sur 5 ans), Nice +4,4 %, Cannes +4,3 %, Rennes +4,2 %, Metz +4,2 %, Paris +4,1 %, Brest +3,7 %, Reims +3,6 %, La Rochelle +3,5 %, Toulouse +3,4 % *(SeLoger)*.\n- Plus faibles hausses : Clermont-Ferrand +0,9 %, Le Havre +1 %, Aix-en-Provence +1,1 % *(SeLoger)*.\n- L'inflation était de +3 % en septembre 2026 selon l'Insee. La hausse moyenne des loyers reste donc en dessous *(Meilleurs Agents)*.\n\n### ⚠️ Points où les sources divergent\n- **Prix au m²** : les chiffres de Capital sont tous plus bas que ceux du tableau de Meilleurs Agents (environ 130 € de moins à Mulhouse). Ce ne sont pas les mêmes indicateurs : Capital parle du prix des appartements, Meilleurs Agents d'un prix « hybride », qui n'est pas défini dans l'article. **Pour le carousel, citez l'indicateur et sa source.**\n- **Rendement à Nice** : 4,7 % selon Meilleurs Agents et Capital, 4,6 % selon SeLoger.\n- **Loyers à Nice sur 5 ans** : +20,4 % selon Meilleurs Agents et Capital, +20,5 % selon SeLoger.\n- **Taux de crédit** : Capital écrit qu'ils « frôlent les 4 % ». Meilleurs Agents donne environ 3,7 % en moyenne sur 20 ans, avec certaines banques déjà à 4 %.\n- **Fin de l'encadrement des loyers** : LCP écrit « 25 novembre » dans son chapeau, puis « 24 novembre » dans le texte. Empruntis et Capital donnent le 24 novembre.\n\n---\n\n## 2. Le contexte\n\n- **Pourquoi ces 5 villes rapportent plus** : les prix d'achat y restent bas *(SeLoger, Capital)*.\n- **Pourquoi les loyers montent** :\n  - Acheter est devenu difficile, donc les ménages restent locataires plus longtemps et libèrent moins de logements *(SeLoger, Capital)*.\n  - À Paris, l'offre de location reste environ 30 % sous son niveau d'avant-Covid *(toutes sources)*.\n  - Au niveau national, l'offre a remonté de 17 % entre avril 2025 et avril 2026, mais cela ne suffit pas *(Meilleurs Agents)*.\n- **Construction neuve au ralenti** : les réservations de logements neufs collectifs ont baissé d'environ 50 % par rapport à 2021 *(Meilleurs Agents)*.\n- **Investisseurs en retrait** *(Meilleurs Agents)* :\n  - fiscalité plus lourde, dont la taxe foncière ;\n  - encadrement des loyers et loi Climat et résilience ;\n  - fin des dispositifs fiscaux d'incitation ;\n  - incertitude politique.\n- **Prix et taux** *(Meilleurs Agents)* :\n  - L'indice des prix a baissé de 0,1 % en octobre, une première en 2026.\n  - Le rendement de l'OAT à 10 ans (emprunt d'État de référence) dépasse 5 %, ce qui pourrait faire monter encore les taux.\n\n---\n\n## 3. Ce qui change pour un particulier\n\n- **Dans les villes moyennes**, le rendement brut est 2 à 3 fois plus élevé qu'à Paris (12,7 % contre 4,1 %), pour un prix d'entrée bas.\n- **Dans les métropoles**, le rendement est faible, mais les logements restent rarement vides (vacance « presque anecdotique ») et le potentiel de valorisation reste « très intéressant » *(Meilleurs Agents, Capital)*.\n- **Ordre de grandeur (mon calcul, pas celui des sources)** : rendement brut = loyer annuel ÷ prix d'achat. Avec 12,7 % à Mulhouse, le loyer implicite est d'environ 14 €/m²/mois si l'on prend le prix de Meilleurs Agents, et d'environ 12,6 €/m²/mois avec celui de Capital. Le choix de l'indicateur de prix change donc le calcul.\n- **Pour les propriétaires en zone encadrée** (dont Paris, Lille, Lyon, Bordeaux, Montpellier, Grenoble) :\n  - Si la loi est adoptée, les plafonds de loyer restent en place 2 ans de plus *(Empruntis)*.\n  - Selon la Cour des comptes, citée par Empruntis, 1,2 million de locataires sont concernés.\n\n---\n\n## 4. Risques et points de vigilance\n\n- **Le brut n'est pas le net.** Le chiffre ne tient pas compte de la taxe foncière, des charges non récupérables, des mois sans locataire ni des travaux *(Capital)*. SeLoger le dit aussi : un brut attractif « peut cacher une rentabilité nette bien moins intéressante ».\n- **La demande locative** : il faut vérifier qu'elle est suffisante, c'est la seule réserve posée par le baromètre *(Meilleurs Agents, SeLoger, Capital)*.\n- **Le DPE (diagnostic de performance énergétique)**, dans des villes où les logements sont souvent anciens *(Capital)* :\n  - classe G interdite à la location depuis le 1er janvier 2025 ;\n  - classe F à partir du 1er janvier 2028 ;\n  - classe E à partir du 1er janvier 2034 *(Hellio, mis à jour le 5 novembre 2026)* ;\n  - loyers des logements F déjà bloqués *(Maslow)*.\n- **Le crédit** : taux autour de 3,7 à 4 %, peut-être en hausse *(Meilleurs Agents)*.\n- **L'incertitude réglementaire** :\n  - Le sort de l'encadrement des loyers sera connu le 18 ou le 19 novembre.\n  - Selon PAP, une réforme du DPE « pourrait » assouplir les règles en 2026. Mais cette page date de plus d'un an et je n'ai pas trouvé de confirmation récente. **À vérifier avant publication.**\n\n---\n\n## 5. Solutions concrètes (citées par les sources)\n\n1. **Calculer le rendement net** en ajoutant la taxe foncière, les charges, les mois sans locataire, les travaux et la fiscalité *(SeLoger, Capital)*.\n2. **Vérifier les loyers et les prix réels** :\n   - estimateurs de loyer gratuits de Meilleurs Agents et de SeLoger ;\n   - historique des ventes réelles (base DVF) et carte des prix de Meilleurs Agents.\n3. **Exiger le DPE avant l'offre** et prévoir le coût de rénovation pour un bien F ou G. Empruntis note que le DPE est devenu un critère d'achat aussi important que le prix.\n4. **Préparer son financement** : Meilleurs Agents a un guide sur ce que la banque regarde pour un investissement locatif. Empruntis signale qu'en 2026, l'apport est plus difficile à constituer.\n5. **En zone encadrée**, vérifier le loyer de référence de la commune avant de fixer un loyer.\n\n**Information manquante** : aucune des sources lues ne cite d'aides à la rénovation, de dispositifs fiscaux précis (LMNP, déficit foncier…) ni de chiffres de vacance locative pour les 5 villes. Je ne les ai donc pas ajoutés.\n\n---\n\n## 6. Perspectives\n\n- **18 novembre** : vote définitif à l'Assemblée sur le texte d'Iñaki Echaniz *(LCP)*.\n  - Il faut un vote « conforme », c'est-à-dire sans modifier la version du Sénat.\n  - Si la séance ne suffit pas, le groupe socialiste reprendra le texte le 19 novembre *(LCP)*.\n- **Ce que prévoit la version du Sénat** (adoptée le 21 octobre par 325 voix contre 17) :\n  - prolongation jusqu'au 23 novembre 2028, sans nouvelles villes *(LCP, Empruntis)* ;\n  - délai réduit à un an pour contester un complément de loyer ;\n  - les villes pourront y mettre fin à tout moment *(Empruntis)*.\n  - Le gouvernement, par la voix du ministre du Logement Vincent Jeanbrun, refuse de rendre le dispositif permanent *(Empruntis)*.\n- **Marché** : « pas d'amélioration en vue » selon Thomas Lefebvre, de SeLoger – Meilleurs Agents. Les candidats locataires vont rester en concurrence à court terme *(SeLoger)*. La présidentielle ajoute de l'incertitude *(Meilleurs Agents)*.\n\n---\n\n### Proposition de découpage pour le carousel\n1. Accroche : « Jusqu'à 12,7 % brut : le top 5 »\n2. Les 5 villes et leurs taux\n3. Comparaison avec Paris, Lyon et Nice\n4. « Brut ≠ net » : ce que le chiffre oublie\n5. Le DPE : G interdit depuis 2025, F en 2028\n6. Loyers +2,1 % : pourquoi ça monte\n7. Encadrement des loyers : vote le 18 novembre\n8. Checklist avant d'acheter\n9. Sources\n\nPour la slide sur les prix au m², indiquez la source et l'indicateur, puisque les chiffres de Capital et de Meilleurs Agents diffèrent.",
+    "dossier": "# Dossier : rendement locatif brut, les 5 villes jusqu'à 12,7 % (baromètre SeLoger-Meilleurs Agents, novembre 2026)\n\n**À retenir :** le baromètre est bien réel et Capital en rapporte correctement l'essentiel. Mais il y a deux pièges pour un carousel. D'abord, les prix au m² cités par Capital ne sont pas ceux qui servent au calcul du 12,7 %. Ensuite, l'avenir de l'encadrement des loyers se joue le 18 novembre.\n\n**Sources lues :** article de Meilleurs Agents (co-auteur du baromètre), article de SeLoger (co-auteur), LCP (chaîne de l'Assemblée nationale), Journal de l'Agence (presse professionnelle immobilière), Hagnéré Patrimoine (blog d'un cabinet de conseil en patrimoine, donc commercial et moins neutre). Je n'ai pas eu accès à l'article des Échos, partenaire du baromètre.\n\n---\n\n## 1. Les faits\n\n**Quoi et qui**\n- C'est la 3ᵉ édition du baromètre locatif SeLoger-Meilleurs Agents, réalisée avec *Les Échos*. Elle porte sur les 50 plus grandes villes de France, avec des données au 1er octobre 2026. *(Meilleurs Agents, SeLoger)*\n- Elle a été publiée début novembre selon Capital. SeLoger parle de « baromètre d'octobre 2026 ».\n\n**Rendement brut (loyer annuel ÷ prix d'achat)** *(Meilleurs Agents, SeLoger, Capital)*\n\n| Ville | Rendement brut |\n|---|---|\n| Mulhouse | 12,7 % |\n| Saint-Étienne | 10,8 % |\n| Roubaix | 9,2 % |\n| Limoges | 8,2 % |\n| Tourcoing | 8,1 % |\n| Nice | 4,7 % (Meilleurs Agents, Capital) / **4,6 % (SeLoger)** |\n| Lyon | 4,5 % |\n| Paris | 4,1 % |\n| Moyenne des 50 villes / des 10 plus grandes | 5,3 % / 4,8 % (Meilleurs Agents) |\n\n**Loyers sur un an, au 1er octobre 2026**\n- **Moyenne :** +2,1 %. Meilleurs Agents la présente comme nationale, Capital comme celle des 50 villes. SeLoger emploie les deux formulations.\n- **Paris :** +4,1 %. **10 plus grandes villes hors Paris :** +3,1 %.\n- **Plus fortes hausses** *(SeLoger)* : Marseille +4,6 %, Nice +4,4 %, Cannes +4,3 %, Rennes +4,2 %, Metz +4,2 %, Paris +4,1 %, Brest +3,7 %, Reims +3,6 %, La Rochelle +3,5 %, Toulouse +3,4 %.\n- **Plus faibles hausses** *(SeLoger)* : Clermont-Ferrand +0,9 %, Le Havre +1 %, Aix-en-Provence +1,1 %.\n- **Sur 5 ans :** Marseille +18,6 %, Paris +18,3 % ; Paris +3,5 % par an en moyenne et les 10 plus grandes villes +2,4 % par an *(Meilleurs Agents)*.\n- **Dans les villes du palmarès** *(tableau Meilleurs Agents)* : Mulhouse +2,9 % sur un an et +10,1 % sur 5 ans ; Saint-Étienne +2,8 % et +12,5 % ; Limoges +1,7 % et +11,7 %.\n\n**⚠️ Où les sources divergent**\n1. **Prix au m².** Capital cite des prix d'appartements Meilleurs Agents : Mulhouse 1 193 €, Saint-Étienne 1 244 €, Limoges 1 609 €, Roubaix 2 035 €, Tourcoing 2 071 €. Le tableau du baromètre utilise d'autres prix, dits « hybrides » : Mulhouse 1 322 €, Saint-Étienne 1 323 €, Limoges 1 677 €. **C'est sur ces prix « hybrides » que repose le 12,7 %.** La méthode n'est expliquée dans aucune source lue. Les prix de Roubaix et Tourcoing ne figurent que chez Capital.\n2. **Nice.** Hausse des loyers sur 5 ans : 20,4 % (Meilleurs Agents, Capital) contre 20,5 % (SeLoger, Bourse Inside). Rendement : 4,7 % contre 4,6 %.\n3. **Les palmarès changent selon la source.** En mai 2026, Foncia donnait Mulhouse à 11 %, puis Châlons-en-Champagne et Saint-Étienne à 10,2 %. Les méthodes sont différentes : ne pas mélanger les chiffres.\n\n## 2. Le contexte : pourquoi les loyers montent\n\n- **Acheter devient plus difficile.** Selon Meilleurs Agents, le taux moyen sur 20 ans tourne autour de 3,7 % et certaines banques prêtent déjà à 4 %. Le taux de l'emprunt d'État à 10 ans (OAT) a dépassé 5 %. Les prix ont reculé de 0,1 % en octobre, une première en 2026. Capital résume par des taux qui « frôlent les 4 % ».\n- **Les locataires restent locataires plus longtemps,** ce qui libère moins de logements *(SeLoger, Capital)*.\n- **L'offre manque.**\n  - À Paris, il y a environ 30 % de logements à louer de moins qu'avant le Covid.\n  - Au niveau national, le stock a augmenté de 17 % entre avril 2025 et avril 2026, ce qui ne suffit pas.\n  - Les réservations de logements neufs sont environ 50 % sous leur niveau de 2021 *(Meilleurs Agents)*.\n- **Les investisseurs se retirent,** selon Meilleurs Agents : fiscalité plus lourde, taxe foncière en hausse, encadrement des loyers, loi Climat, fin des dispositifs fiscaux, incertitude politique avant la présidentielle.\n- **Inflation :** +3 % en septembre 2026, contre +2,1 % en août selon l'Insee *(cité par Meilleurs Agents)*. La hausse moyenne des loyers (+2,1 %) reste donc sous l'inflation, mais pas à Paris, Marseille, Nice, Rennes ou Toulouse.\n\n## 3. Ce qui change pour un particulier\n\n- **Investisseur :**\n  - Les villes moyennes à bas prix offrent un rendement brut environ 2 à 3 fois supérieur à celui des métropoles.\n  - En contrepartie, le baromètre demande de vérifier qu'il existe assez de demande locative.\n  - À Paris, Lyon et Nice, la vacance est « presque anecdotique » et le potentiel de plus-value reste élevé, selon le baromètre.\n- **Bailleur dans une ville encadrée :** les règles actuelles s'appliquent jusqu'au 24 novembre 2026. La suite dépend du vote des députés (voir partie 6).\n- **Locataire :** loyers en hausse et forte concurrence entre candidats. SeLoger ne voit pas d'amélioration à court terme.\n\n## 4. Risques et points de vigilance\n\n1. **Le brut n'est pas le net.** Il ne tient compte ni de la taxe foncière, ni des charges non récupérables, ni de la vacance, ni des travaux *(Capital, SeLoger)*. La fiscalité s'ajoute *(SeLoger)*. Les sources ne donnent **aucun rendement net** : je n'en ai pas trouvé.\n2. **Le DPE (diagnostic de performance énergétique).** Calendrier confirmé par plusieurs sites spécialisés :\n   - logements classés G interdits à la location depuis le 1er janvier 2025 ;\n   - F au 1er janvier 2028 ;\n   - E au 1er janvier 2034.\n   - Les loyers des logements F et G sont gelés depuis août 2022.\n   - Concrètement : pas de nouveau bail, de renouvellement ni de reconduction tacite, mais un bail en cours n'est pas annulé *(Hagnéré Patrimoine)*.\n   - Ces villes ont souvent un parc ancien : des travaux peuvent vite réduire la rentabilité *(Capital)*.\n3. **Changement de calcul du DPE.** Depuis le 1er janvier 2026, l'électricité compte moins dans le DPE : son coefficient passe de 2,3 à 1,9. Environ 850 000 logements chauffés à l'électricité ne seraient plus des passoires, sans aucuns travaux *(Hagnéré Patrimoine, seule source)*. Le cabinet conseille de ne pas surpayer un bien reclassé uniquement par ce calcul.\n4. **Demande locative et revente** dans les villes à haut rendement. Les sources ne donnent aucune donnée de vacance par ville. **Information manquante.**\n5. **Crédit :** des taux en hausse réduisent la rentabilité d'un achat à crédit *(Meilleurs Agents)*.\n\n## 5. Solutions concrètes citées par les sources\n\n- **Estimer un loyer :** outils gratuits « Estimer mon loyer » de Meilleurs Agents et SeLoger.\n- **Vérifier les prix réels :** l'historique des ventes (base DVF) sur meilleursagents.com et la carte des prix.\n- **Calculer son rendement net** avant de choisir une ville, en intégrant demande, vacance, charges, travaux et fiscalité *(SeLoger)*.\n- **Vérifier le DPE avant de signer le compromis,** en visant une classe compatible avec 2028 et 2034 *(Hagnéré Patrimoine)*.\n- **Audit énergétique** obligatoire à la vente d'une maison ou d'un bien en monopropriété : classes F et G depuis 2023, E depuis 2025 *(Hagnéré Patrimoine)*.\n- **Bailleurs en zone encadrée :** suivre l'issue du texte Echaniz. Le texte prévoit aussi de mieux suivre les loyers grâce au service fiscal en ligne « Gérer mes biens immobiliers » (GMBI) *(Journal de l'Agence)*.\n- Les sources ne citent pas d'aide à la rénovation (MaPrimeRénov' par exemple). Je ne l'ajoute pas comme fait vérifié.\n\n## 6. Perspectives\n\n- **Encadrement des loyers :**\n  - Le Sénat a voté le 21 octobre, par 325 voix contre 17, une prolongation de 2 ans, jusqu'au 23 novembre 2028.\n  - Elle ne concerne que les 9 territoires actuels : 71 communes et environ 1,2 million de locataires, dont Paris, Lille, Lyon-Villeurbanne, Bordeaux, Montpellier, Grenoble et le Pays basque. Pas de nouvelles villes : Rennes et Marseille devront attendre *(Journal de l'Agence, LCP)*.\n  - Le texte initial voulait rendre le dispositif permanent et l'étendre.\n  - **Vote final des députés le 18 novembre au soir, avec le 19 novembre en solution de repli** (journée réservée au groupe socialiste). Iñaki Echaniz souhaite que les députés adoptent le texte sans modification *(LCP)*.\n  - Date limite : 24 novembre (Capital, Journal de l'Agence). LCP écrit aussi « d'ici au 25 novembre » dans son introduction. Je n'ai pas trouvé le résultat de l'examen en commission du 3 novembre : **inconnu à ce jour**.\n  - Selon le Journal de l'Agence, le délai pour contester un complément de loyer passerait de 3 mois à 1 an. Celui de l'action en diminution de loyer passerait de 3 ans à 1 an.\n- **Marché :** les loyers devraient rester sous tension. Thomas Lefebvre (SeLoger-Meilleurs Agents) ne voit « pas d'amélioration en vue » et juge l'accès à la propriété « cassé ». Les taux pourraient encore monter *(Meilleurs Agents)*.\n- **DPE :** prochaine étape le 1er janvier 2028 avec l'interdiction des logements classés F.\n\n---\n\n### Proposition de découpage pour le carousel\n1. « Jusqu'à 12,7 % brut : le top 5 » (avec la source).\n2. Le tableau des 5 villes face à Paris, Lyon et Nice.\n3. Pourquoi : prix d'achat bas.\n4. Contrepartie : demande locative et vacance.\n5. Le brut n'est pas le net.\n6. Le piège du DPE (G interdit, F en 2028).\n7. Les loyers +2,1 % en moyenne, +4,6 % à Marseille.\n8. Encadrement des loyers : rendez-vous le 18 novembre.\n9. Checklist : estimer le loyer, vérifier les prix DVF, contrôler le DPE, calculer le net.\n\n**Mention conseillée :** « Rendements bruts “hybrides” selon SeLoger-Meilleurs Agents, données au 01/10/2026. Pas un conseil en investissement. »",
     "generator": "claude-opus-5-5"
   }
 }
