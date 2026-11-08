@@ -503,7 +503,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Annonce surprise sur le plafond du Livret A, un placement très populaire.",
       "hook": "Livret A : l'annonce surprise sur le plafond",
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:11:52.058Z"
+  "updatedAt": "2026-11-08T20:11:55.197Z"
 }
