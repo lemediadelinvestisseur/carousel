@@ -1,0 +1,127 @@
+{
+  "item": {
+    "id": "78ef145074",
+    "title": "David Lisnard veut rapprocher la fiscalité de l’immobilier de celle des placements financiers",
+    "summary": "Le candidat à l’élection présidentielle souhaite «construire une fiscalité globalement allégée, harmonisée, plus stable et surtout plus lisible pour les Français».",
+    "link": "https://immobilier.lefigaro.fr/article/david-lisnard-veut-rapprocher-la-fiscalite-de-l-immobilier-de-celle-des-placements-financiers-20261107",
+    "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/05/e12533c9a2a078c6859856b93b50bb4bdd5cf4eaefd50a09df33bdc925fc6a25.jpg",
+    "source": "Le Figaro Immobilier",
+    "via": "rss",
+    "publishedAt": "2026-11-07T06:30:00.000Z",
+    "collectedAt": "2026-11-08T15:38:54.430Z",
+    "brand": "21m2",
+    "score": 3,
+    "status": "generating",
+    "aiScore": 6,
+    "reason": "Proposition fiscale présidentielle propice au débat.",
+    "hook": "Lisnard veut aligner la fiscalité immo sur la Bourse"
+  },
+  "carousel": {
+    "category": "Actualité",
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "",
+        "title": "**David Lisnard** veut taxer tes **loyers** comme tes placements financiers. Pour un propriétaire imposé à 30 %, ça ferait **3 160 €** d'impôt en moins par an.",
+        "body": "",
+        "bullets": [],
+        "image_query": "David Lisnard",
+        "image_entity": "David Lisnard"
+      },
+      {
+        "kind": "content",
+        "kicker": "LA PROPOSITION",
+        "title": "Une **flat tax** sur les loyers",
+        "body": "**David Lisnard**, maire de Cannes et candidat à la **présidentielle 2027**, a publié sa proposition sur X le **1er novembre**. Son idée : étendre la **flat tax** des placements financiers aux **revenus fonciers**.\nSon objectif affiché : une fiscalité « globalement allégée, harmonisée, plus stable et surtout plus lisible pour les Français ».",
+        "bullets": [],
+        "image_query": "X social network app on smartphone",
+        "image_entity": "X (réseau social)"
+      },
+      {
+        "kind": "content",
+        "kicker": "AUJOURD'HUI",
+        "title": "Deux régimes très différents",
+        "body": "Depuis le **1er janvier 2026**, la flat tax sur les placements financiers est de **31,4 %** : 12,8 % d'impôt et 18,6 % de prélèvements sociaux.\nLes **loyers** d'une location nue sont soumis au **barème progressif** de l'impôt sur le revenu, plus **17,2 %** de prélèvements sociaux. Plus ta tranche est haute, plus la note grimpe.",
+        "bullets": [],
+        "image_query": "French income tax return form",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LES CHIFFRES",
+        "title": "**9 440 €** aujourd'hui, **6 280 €** avec la réforme",
+        "body": "L'exemple vient du candidat : un propriétaire dans la **tranche à 30 %** qui touche **20 000 €** de loyers nets par an.\nAujourd'hui, il paie 30 % d'impôt plus 17,2 % de prélèvements sociaux, soit **47,2 %**. Avec un taux unique de **31,4 %**, il économiserait **3 160 €** par an.",
+        "bullets": [],
+        "image_query": "apartment keys rental property France",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "QUI Y GAGNE",
+        "title": "Gagnant si tu es bien imposé, pas forcément sinon",
+        "body": "Dès la **tranche à 30 %**, tes loyers seraient moins taxés : 31,4 % au lieu de 47,2 % ou plus.\nÀ **0 %** ou **11 %**, tu paies aujourd'hui **17,2 %** ou **28,2 %** au total. Un taux unique te coûterait plus cher, sauf si l'**option pour le barème** était conservée. Rien n'est précisé sur ce point.",
+        "bullets": [],
+        "image_query": "calculator tax documents",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LES FLOUS",
+        "title": "Rien n'est voté, et beaucoup de questions restent ouvertes",
+        "body": "C'est une **promesse de campagne** : aucun texte de loi n'existe et tout dépend de l'élection de **2027**, puis du vote du Parlement.\nLe **taux exact** reste à confirmer. On ne sait rien non plus du **déficit foncier**, du micro-foncier, de la **location meublée (LMNP)**, des plus-values ni du coût pour l'État.",
+        "bullets": [],
+        "image_query": "Assemblée nationale hémicycle",
+        "image_entity": "Assemblée nationale (France)"
+      },
+      {
+        "kind": "list",
+        "kicker": "QUE FAIRE",
+        "title": "Ce que tu peux faire dès maintenant",
+        "body": "",
+        "bullets": [
+          "Calcule ta tranche d'imposition : à 31,4 %, la flat tax devient moins intéressante que le barème si tu es à 0 % ou 11 %.",
+          "En location nue, les prélèvements sociaux restent à 17,2 % et le déficit foncier est préservé en 2026 pour tes travaux.",
+          "Pour les cas complexes, utilise les simulateurs du Cercle des Épargnants ou consulte un conseiller en gestion de patrimoine."
+        ],
+        "image_query": "apartment renovation works",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "ET APRÈS ?",
+        "title": "Une pièce d'un programme plus large",
+        "body": "Lisnard veut aussi supprimer le **DPE**, ainsi que l'**IFI** et les **droits de mutation** payés à l'achat, remplacés par un **impôt foncier** calculé sur la valeur de marché des biens.\nÀ surveiller : son **programme chiffré**, avec le taux exact, et les propositions des autres candidats sur le logement.",
+        "bullets": [],
+        "image_query": "diagnostic de performance énergétique étiquette",
+        "image_entity": "Diagnostic de performance énergétique"
+      },
+      {
+        "kind": "cta",
+        "kicker": "",
+        "title": "Une **flat tax** sur tes **loyers**, tu serais pour ?",
+        "body": "Dis-nous en commentaire si tu y gagnerais ou si tu y perdrais 👇",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      }
+    ],
+    "hook_alternatives": [
+      "**3 160 €** d'impôt en moins par an sur tes loyers : c'est la promesse de **David Lisnard** avec une **flat tax** sur l'immobilier.",
+      "**David Lisnard** veut appliquer la **flat tax à 31,4 %** aux **loyers**. Bonne affaire pour les gros contribuables, moins pour les **petites tranches**.",
+      "Tes **loyers** taxés comme tes actions ? C'est la proposition de **David Lisnard** pour **2027**. Voici qui y gagnerait, et qui pourrait y perdre."
+    ],
+    "caption": "David Lisnard veut taxer les loyers comme les placements financiers.\n\nLe maire de Cannes, candidat à la présidentielle de 2027, a présenté l'idée le 1er novembre sur X : étendre la flat tax (le PFU) aux revenus fonciers, pour avoir un taux unique sur tous les revenus du capital.\n\nAujourd'hui, les deux régimes n'ont rien à voir. Les placements financiers sont taxés à 31,4 % depuis le 1er janvier 2026. Les loyers d'une location nue sont soumis au barème de l'impôt sur le revenu, plus 17,2 % de prélèvements sociaux.\n\n• Son exemple : un propriétaire dans la tranche à 30 % avec 20 000 € de loyers nets paie aujourd'hui 9 440 €. Avec la réforme, il paierait 6 280 €, soit 3 160 € d'économie par an.\n\n• À l'inverse, si tu es non imposable ou dans la tranche à 11 %, tes loyers sont aujourd'hui taxés à 17,2 % ou 28,2 %. Un taux unique à 31,4 % te coûterait plus cher, sauf si l'option pour le barème était maintenue.\n\nIl manque encore des réponses sur le déficit foncier, le meublé (LMNP), les plus-values et le coût pour l'État. Surtout, rien n'est voté : c'est une promesse de campagne, alors n'investis pas en comptant dessus.\n\nAvec les règles actuelles, la location nue garde ses 17,2 % de prélèvements sociaux et le déficit foncier est préservé en 2026. La part foncière des revenus de SCPI n'est pas soumise à la flat tax.\n\nUne flat tax sur tes loyers, tu y gagnerais ou tu y perdrais ?\n\n🔔 Abonne-toi à @21m2 pour ne rien rater de l'actu qui touche ton argent.",
+    "sources": [
+      "Le Figaro Immobilier",
+      "Cercle des Épargnants",
+      "Meilleurtaux Placement",
+      "Banque Transatlantique",
+      "Hagnéré Patrimoine",
+      "Auguste Patrimoine",
+      "Goodvest",
+      "Objectif2027"
+    ],
+    "dossier": "# Dossier : David Lisnard veut aligner la fiscalité des loyers sur celle des placements financiers\n\n**Avant de lire :** je n'ai pas pu ouvrir l'article du Figaro Immobilier (accès bloqué). J'en connais seulement le titre et le chapô, reproduits par l'agrégateur Titrespresse. Les faits détaillés viennent surtout du **Cercle des Épargnants** (association d'épargnants, article du 3 novembre 2026). Les taux en vigueur viennent de sites spécialisés en fiscalité et en gestion de patrimoine. J'ai atteint la limite de recherches web : je n'ai donc pas pu confirmer les chiffres auprès d'un deuxième grand média (Les Échos, Capital, etc.).\n\n---\n\n## 1. Les faits\n\n| Élément | Détail | Source |\n|---|---|---|\n| **Qui** | David Lisnard, maire de Cannes et candidat à l'élection présidentielle de 2027 | Cercle des Épargnants, Le Figaro |\n| **Quand** | Publication sur son compte X le **1er novembre 2026**, article du Figaro le **7 novembre 2026** | Cercle des Épargnants, Titrespresse |\n| **Quoi** | Étendre le prélèvement forfaitaire unique (PFU, ou « flat tax ») aux revenus fonciers, pour créer un taux unique sur tous les revenus du capital | Cercle des Épargnants |\n| **Objectif affiché** | « construire une fiscalité globalement allégée, harmonisée, plus stable et surtout plus lisible pour les Français » | Le Figaro (chapô, via Titrespresse) |\n| **Exemple chiffré du candidat** | Un contribuable dont la dernière tranche d'imposition (TMI) est de 30 %, avec 20 000 € de revenus fonciers nets, paierait **6 280 €** au lieu de **9 440 €**, soit **3 160 € d'économie par an** | Cercle des Épargnants |\n\n**Vérification du calcul (faite par moi) :**\n- Aujourd'hui : 20 000 € × (30 % d'impôt + 17,2 % de prélèvements sociaux) = 9 440 €.\n- Avec la réforme : 20 000 € × 31,4 % = 6 280 €.\n\nL'exemple suppose donc que les loyers seraient taxés à 31,4 % au total, prélèvements sociaux à 18,6 % compris.\n\n**⚠️ Les sources ne donnent pas le même taux :**\n- Un post LinkedIn de Pierre-Olivier Valaize (Groupe Valaize), qui reprend le titre du Figaro, parle d'une flat tax **ramenée à 25 %** pour tous les placements financiers et immobiliers.\n- Le Cercle des Épargnants parle d'une **extension du PFU actuel (31,4 %)**, et l'exemple chiffré du candidat correspond bien à 31,4 %.\n- Le post LinkedIn n'est pas un article de presse. Le chiffre de 25 % est donc **à ne pas utiliser** sans confirmation par le Figaro.\n\n## 2. Le contexte\n\n**Deux régimes très différents aujourd'hui :**\n- **Placements financiers :** le PFU existe depuis 2018, à 30 %. Il est passé à **31,4 % au 1er janvier 2026** (12,8 % d'impôt + 18,6 % de prélèvements sociaux). Cause : la loi de financement de la Sécurité sociale pour 2026, adoptée le 16 décembre 2025, a relevé la CSG de 1,4 point. Sources : Meilleurtaux Placement, Banque Transatlantique, Legifiscal.\n- **Loyers de location nue :** ils restent soumis au **barème progressif de l'impôt sur le revenu**, plus 17,2 % de prélèvements sociaux. Les revenus fonciers, les plus-values immobilières et l'assurance-vie ont échappé à la hausse de la CSG. Sources : Banque Transatlantique, MeilleureSCPI, Hagnéré Patrimoine.\n\n**Le diagnostic de Lisnard sur le logement.** Dans son discours de rentrée à Cannes (29 août 2026), relevé par le site Objectif2027 :\n- Il juge la fiscalité immobilière pénalisante par rapport aux autres placements.\n- Il rend responsables de la crise du logement le DPE (diagnostic de performance énergétique), qu'il veut supprimer, l'objectif « zéro artificialisation nette » et cette fiscalité.\n- Il affirme que le DPE a retiré 450 000 logements du marché. C'est **son chiffre, non vérifié**.\n\n**Une idée qui date d'avant la campagne.** Dans une tribune parue sur Atlantico le 16 avril 2026 (« Changer de logiciel fiscal », citée par Objectif2027 et par Le Cahier d'un Quien sur Substack), il proposait déjà :\n- d'unifier la fiscalité des revenus du capital ;\n- de supprimer l'IFI (impôt sur la fortune immobilière) et les droits de mutation payés à l'achat ;\n- de les remplacer par un impôt foncier calculé sur la valeur de marché actualisée des biens ;\n- de baisser les prélèvements d'environ 100 Md€, financés par environ 200 Md€ d'économies de dépenses publiques.\n\n**Un sujet partagé.** Selon le post LinkedIn de Valaize, Gabriel Attal et Bruno Retailleau mettent aussi le logement en avant. Il cite comme causes du recul de l'investissement locatif l'IFI, la fin du dispositif Pinel et la hausse de la taxe foncière. C'est une opinion de professionnel, pas un fait de presse.\n\n## 3. Ce qui change concrètement pour un particulier\n\n- **Aujourd'hui : rien.** C'est une promesse de campagne. Aucun texte de loi n'existe.\n- **Si la mesure était adoptée, selon ma propre lecture des taux :**\n  - **TMI de 30 % et plus :** les loyers seraient moins taxés (environ 31,4 % au lieu de 47,2 % ou plus).\n  - **TMI de 0 % ou 11 % :** le taux forfaitaire serait **plus élevé** que la situation actuelle (17,2 % ou 28,2 %), sauf si une option pour le barème était conservée. **Les sources n'en disent rien.**\n\n## 4. Risques et points de vigilance\n\n1. **Une promesse électorale, pas une loi.** Son adoption dépend de l'élection de 2027 et du vote du Parlement.\n2. **Le taux final est incertain** (25 % ou 31,4 %, voir plus haut).\n3. **Plusieurs informations manquent dans les sources consultées :**\n   - le maintien ou non du **déficit foncier** et du **micro-foncier** ;\n   - le traitement de la **location meublée (LMNP)** ;\n   - le sort des **plus-values immobilières** ;\n   - le **coût budgétaire** de la mesure.\n4. **Les contribuables peu imposés pourraient y perdre** si aucune option pour le barème n'est prévue.\n5. **Ne pas investir sur la base d'une promesse.** Tout repose sur le scénario politique.\n\n## 5. Solutions concrètes, avec la fiscalité actuelle\n\n- **Calculer sa TMI** et comparer le PFU au barème progressif. Auguste Patrimoine signale qu'à 31,4 %, le PFU devient moins intéressant pour les TMI de 0 % et 11 %. Il faut refaire le calcul au cas par cas.\n- **Assurance-vie :** elle a échappé à la hausse de la CSG. Prélèvements sociaux de 17,2 %, PFU de 30 % (Auguste Patrimoine, Ramify, Banque Transatlantique).\n- **Location nue :** elle reste à 17,2 % de prélèvements sociaux. Selon Hagnéré Patrimoine, le déficit foncier est préservé en 2026.\n- **SCPI :** la part foncière de leurs revenus n'est pas soumise au PFU (Goodvest).\n- **Outils :** les simulateurs du Cercle des Épargnants, et un conseiller en gestion de patrimoine pour les situations complexes.\n\n## 6. Perspectives\n\n- La mesure dépend de l'issue de la présidentielle de 2027.\n- Elle fait partie d'un ensemble plus large : suppression de l'IFI et des droits de mutation, impôt foncier sur la valeur de marché, suppression du DPE.\n- Le Cahier d'un Quien (Substack, avril 2026) juge l'idée d'unifier la fiscalité du capital pertinente, mais estime que la partie foncière manque de doctrine.\n- **À surveiller :**\n  - le programme chiffré officiel du candidat, notamment le taux exact ;\n  - les propositions des autres candidats sur le logement ;\n  - les réactions d'économistes ou de la Cour des comptes. Je n'en ai trouvé aucune dans mes recherches.\n\n---\n\n### Proposition de découpage du carousel\n1. Accroche : « 3 160 €/an d'impôt en moins sur vos loyers ? »\n2. La proposition : qui, quand, quoi.\n3. Aujourd'hui : 31,4 % sur les placements financiers contre barème + 17,2 % sur les loyers.\n4. L'exemple chiffré : 9 440 € → 6 280 €.\n5. Qui y gagne, qui pourrait y perdre (selon la TMI).\n6. Les flous : taux, déficit foncier, LMNP.\n7. Que faire dès maintenant.\n8. Et après : 2027.\n\nMentions à ajouter sur le carousel : « proposition de campagne, rien n'est voté » et « ceci n'est pas un conseil en investissement ».",
+    "generator": "claude-opus-5-5"
+  }
+}
