@@ -1,0 +1,68 @@
+name: Génération de carousel
+
+run-name: "${{ inputs.action }} ${{ inputs.id }}${{ inputs.url }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Identifiant(s) de l'actu (séparés par des virgules)"
+        required: false
+        default: ""
+      action:
+        description: "valider ou rejeter"
+        required: false
+        default: "valider"
+        type: choice
+        options: [valider, rejeter]
+      brand:
+        description: "Forcer la marque (investisseur ou 21m2)"
+        required: false
+        default: ""
+      instructions:
+        description: "Consignes pour la rédaction (angle, ton, chiffres à mettre en avant...)"
+        required: false
+        default: ""
+      url:
+        description: "Ou : URL d'un article à transformer en carousel"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Installation de Chromium
+        if: inputs.action != 'rejeter'
+        run: npx playwright install --with-deps chromium
+      - name: Rédaction + rendu
+        run: node scripts/generate.mjs
+        env:
+          INPUT_ID: ${{ inputs.id }}
+          INPUT_ACTION: ${{ inputs.action }}
+          INPUT_BRAND: ${{ inputs.brand }}
+          INPUT_INSTRUCTIONS: ${{ inputs.instructions }}
+          INPUT_URL: ${{ inputs.url }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      - name: Publication
+        if: always()
+        run: ./scripts/publish.sh "carousel: $INPUT_ACTION $INPUT_ID$INPUT_URL"
+        env:
+          INPUT_ID: ${{ inputs.id }}
+          INPUT_ACTION: ${{ inputs.action }}
+          INPUT_URL: ${{ inputs.url }}

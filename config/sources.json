@@ -1,0 +1,15 @@
+{
+  "_comment": "Ajoutez ici vos sites. 'brand' = investisseur | 21m2 | auto (détection par mots-clés). Les flux en erreur sont ignorés sans bloquer la collecte.",
+  "maxAgeHours": 36,
+  "notifyMinScore": 3,
+  "maxNotificationsPerRun": 5,
+  "sources": [
+    { "name": "Google News — Bourse", "url": "https://news.google.com/rss/search?q=bourse+OR+%22CAC+40%22+when:1d&hl=fr&gl=FR&ceid=FR:fr", "brand": "investisseur" },
+    { "name": "Google News — Épargne", "url": "https://news.google.com/rss/search?q=%C3%A9pargne+OR+livret+A+OR+assurance-vie+when:1d&hl=fr&gl=FR&ceid=FR:fr", "brand": "investisseur" },
+    { "name": "Le Monde — Économie", "url": "https://www.lemonde.fr/economie/rss_full.xml", "brand": "auto" },
+    { "name": "BFM — Économie", "url": "https://www.bfmtv.com/rss/economie/", "brand": "auto" },
+    { "name": "Les Echos — Finance & Marchés", "url": "https://services.lesechos.fr/rss/les-echos-finance-marches.xml", "brand": "investisseur" },
+    { "name": "Google News — Immobilier", "url": "https://news.google.com/rss/search?q=immobilier+when:1d&hl=fr&gl=FR&ceid=FR:fr", "brand": "21m2" },
+    { "name": "Google News — Crédit immobilier", "url": "https://news.google.com/rss/search?q=%22cr%C3%A9dit+immobilier%22+OR+%22taux+immobilier%22+when:1d&hl=fr&gl=FR&ceid=FR:fr", "brand": "21m2" }
+  ]
+}

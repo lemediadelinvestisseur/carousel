@@ -1,0 +1,20 @@
+{
+  "name": "carousel",
+  "private": true,
+  "type": "module",
+  "description": "Collecte d'actus, validation mobile et génération automatique de carousels pour Le média de l'investisseur et 21m2",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "generate": "node scripts/generate.mjs",
+    "demo": "node scripts/generate.mjs --demo",
+    "examples": "node scripts/render-examples.mjs",
+    "dashboard": "npx http-server dashboard -p 8080 -c-1"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "fast-xml-parser": "^4.5.0",
+    "playwright": "^1.48.0",
+    "zod": "^3.23.8"
+  }
+}

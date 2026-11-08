@@ -1,0 +1,38 @@
+{
+  "investisseur": {
+    "name": "Le média de l'investisseur",
+    "handle": "@lemediadelinvestisseur",
+    "description": "Bourse, marchés, épargne, économie et finance personnelle, expliqués simplement à des investisseurs particuliers français.",
+    "tone": "Pédagogique, factuel, accrocheur sans être sensationnaliste. Tutoiement interdit, vouvoiement léger. Phrases courtes. Jamais de conseil d'investissement personnalisé.",
+    "theme": {
+      "bg": "#0B1F3A",
+      "bg2": "#12305A",
+      "text": "#FFFFFF",
+      "muted": "#A9B8CF",
+      "accent": "#F5B700",
+      "accentText": "#0B1F3A",
+      "font": "Inter",
+      "titleFont": "Archivo Black"
+    },
+    "keywords": ["bourse", "cac 40", "action", "actions", "marchés", "taux", "bce", "fed", "inflation", "pea", "etf", "dividende", "épargne", "livret", "assurance-vie", "bitcoin", "crypto", "nasdaq", "s&p", "résultats", "chiffre d'affaires", "introduction en bourse", "or ", "pétrole", "pib", "croissance", "récession", "impôt", "fiscalité", "retraite"],
+    "cta": "Abonnez-vous pour ne rien rater de l'actu des marchés"
+  },
+  "21m2": {
+    "name": "21m2",
+    "handle": "@21m2",
+    "description": "Immobilier : investissement locatif, prix au m², crédit immobilier, réglementation, marché du logement en France.",
+    "tone": "Concret, chiffré, utile pour un investisseur ou un futur propriétaire. Phrases courtes, ton direct et moderne.",
+    "theme": {
+      "bg": "#F4EFE6",
+      "bg2": "#E8DFD0",
+      "text": "#1E1E1E",
+      "muted": "#6B6257",
+      "accent": "#E4572E",
+      "accentText": "#FFFFFF",
+      "font": "Inter",
+      "titleFont": "Archivo Black"
+    },
+    "keywords": ["immobilier", "m²", "m2", "loyer", "loyers", "crédit immobilier", "taux immobilier", "logement", "locatif", "lmnp", "pinel", "dpe", "notaire", "propriétaire", "locataire", "achat", "scpi", "construction", "permis de construire", "airbnb", "meublé", "ptz", "prix des logements"],
+    "cta": "Suivez 21m2 pour investir plus malin dans l'immobilier"
+  }
+}
