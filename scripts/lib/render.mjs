@@ -31,6 +31,7 @@ export async function renderCarousel({ carousel, brand, outDir, sourceLabel, ima
     const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
     await page.setContent(html, { waitUntil: "networkidle", timeout: 45000 }).catch(() => {});
     await page.evaluate(() => document.fonts.ready);
+    await page.evaluate(() => window.__fitDone || null); // ajustement du texte après chargement des polices
     await page.evaluate(() => Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => (i.onload = i.onerror = r))))));
     const files = [];
     for (let i = 1; i <= carousel.slides.length; i++) {
