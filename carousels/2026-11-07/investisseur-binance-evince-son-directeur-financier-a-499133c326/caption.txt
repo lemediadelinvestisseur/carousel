@@ -1,19 +1,16 @@
-Binance change de directeur financier, neuf jours après le plus gros piratage de son histoire.
+Binance change de directeur financier, neuf jours après le plus gros vol de cryptos de l'histoire.
 
-Le 29 octobre, des pirates attribués à la Corée du Nord par le FBI ont dérobé 6,3 milliards de dollars de cryptos sur la plateforme, selon Binance. Samedi, Binance a annoncé le départ de Kaiser Ng, son directeur financier depuis 2022, remplacé par Justin Yek. La plateforme parle d'une transition prévue depuis six mois, et rien ne prouve un lien avec l'attaque.
+Samedi 7 novembre, la plateforme a annoncé le départ de Kaiser Ng, en poste depuis 2022. Il est remplacé par Justin Yek. Binance assure que cette transition était prévue depuis six mois. Le calendrier pose question, mais rien ne prouve que ce départ soit lié au piratage.
 
-Binance assure avoir reconstitué environ 95 % des actifs touchés avec sa trésorerie et son fonds SAFU. Ce fonds ne pèse pourtant qu'environ 1 milliard de dollars, six fois moins que le montant volé. Le reste vient des réserves de Binance, sans vérification indépendante à ce jour.
+Le 29 octobre au soir, environ 6,3 milliards de dollars ont été volés sur un portefeuille connecté à internet. C'est quatre fois le vol subi par Bybit en 2025. Selon Binance, les pirates sont entrés grâce à un faux entretien d'embauche. Le FBI attribue l'attaque au groupe nord-coréen TraderTraitor, ce que Pyongyang dément.
 
-• Pour toi, en France, l'enjeu est ailleurs. Binance n'a plus le droit d'opérer ici depuis le 1er juillet, faute d'agrément MiCA. Sa promesse de couvrir les pertes est donc volontaire : aucune règle européenne ne l'oblige à la tenir.
+• Environ 3 milliards de dollars ont été gelés, surtout des stablecoins. Mais des fonds gelés ne sont pas des fonds récupérés.
+• Binance affirme avoir déjà remplacé 95 % des cryptos volées. Son fonds de garantie SAFU ne pèse qu'environ 1 milliard de dollars, elle a donc puisé dans sa trésorerie.
 
-• Les comptes français seront fermés le 31 décembre. Certains retraits (HYPE, INJ, APT, NEAR, LTC) n'étaient toujours pas rétablis au 6 novembre.
+Pour les quelque 2 millions de clients français, ce remboursement reste un geste volontaire. Binance n'a plus le droit d'opérer en France depuis le 1er juillet, faute d'agrément MiCA, et la baisse des cours pendant le blocage des retraits ne sera pas compensée.
 
-Côté impôts, transférer tes cryptos vers ton propre portefeuille n'est pas imposable. Tu dois en revanche déclarer ton compte Binance avec le formulaire 3916-bis pour chaque année de détention, sous peine de 750 euros d'amende par compte et par an.
+Attention aux arnaques : personne de sérieux ne te demandera de payer pour récupérer tes cryptos. Avant de transférer tes avoirs, vérifie que la plateforme figure sur la liste des acteurs agréés publiée par l'AMF. Les cryptos restent un placement risqué, avec un risque de perte en capital, et ce post n'est pas un conseil en investissement.
 
-Binance compte demander l'agrément MiCA auprès de l'AMF, mais aucun calendrier n'est confirmé.
-
-Tu as déjà retiré tes cryptos de Binance, ou tu attends encore ?
+Tu fais encore confiance aux plateformes pour garder tes cryptos ?
 
 🔖 Enregistre ce post et partage-le à quelqu'un de concerné.
-
-Ceci n'est pas un conseil en investissement.

@@ -89,7 +89,7 @@
       "hook": "Le patron de Nvidia ciblé par des espions étrangers ?",
       "notifiedAt": "2026-11-08T21:02:25.273Z",
       "instructions": "une autre source : https://www.zonebourse.com/actualite-bourse/nvidia-enquete-interne-sur-des-accusations-d-espionnage-chinois-ce785fd2d081f627\n",
-      "generatedAt": "2026-11-08T22:06:07.045Z",
+      "generatedAt": "2026-11-08T22:28:22.860Z",
       "carousel": {
         "dir": "carousels/2026-11-08/investisseur-nvidia-ouvre-une-enquete-apres-un-articl-1d1589c035",
         "files": [
@@ -101,17 +101,25 @@
           "slide-06.jpg",
           "slide-07.jpg",
           "slide-08.jpg",
-          "slide-09.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 9,
+        "slides": 8,
         "hooks": [
-          "Le patron de **Nvidia**, **Jensen Huang**, aurait été la cible des **services chinois**. Son conseil ouvre une **enquête indépendante** avant la réouverture de Wall Street **lundi**.",
-          "**Jensen Huang** reconnaît une **infidélité** et **Nvidia** ouvre une enquête. En cause : une femme d'affaires soupçonnée par Washington de travailler pour le **renseignement chinois**.",
-          "Espionnage, puces d'IA et **Congrès** : **Nvidia**, plus grande entreprise mondiale en Bourse, enquête sur son patron **Jensen Huang**. Les élus veulent l'entendre le **18 novembre**."
+          "Nvidia enquête sur un possible espionnage chinois visant son patron",
+          "Le patron de Nvidia avoue une infidélité en pleine affaire d'espionnage",
+          "Espions chinois et infidélité : la semaine noire du patron de Nvidia"
         ]
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-09T06:40:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-08T22:33:47.509Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "c5cb11024b",
@@ -1618,7 +1626,7 @@
       "reason": "Le duel Bitcoin contre or passionne les épargnants et divise.",
       "hook": "Bitcoin chute, mais a-t-il vraiment perdu face à l'or ?",
       "instructions": "Précise les différences de performance depuis le 1er janvier 2026 ",
-      "generatedAt": "2026-11-08T22:07:00.541Z",
+      "generatedAt": "2026-11-08T22:28:53.770Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-malgre-la-baisse-le-bitcoin-n-a-pas-perd-825fb23f24",
         "files": [
@@ -1636,11 +1644,20 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "Un **bitcoin** valait **12 onces** d'or au plus bas. Il en vaut **21** aujourd'hui. Voilà pourquoi **Fidelity** le préfère encore à l'or.",
-          "Malgré sa **baisse**, le **bitcoin** reste le favori du stratège de **Fidelity** face à l'**or**. Mais il précise bien « pour le moment ».",
-          "Les **ETF bitcoin** ont attiré **55 milliards** de dollars depuis 2024, presque deux fois plus que l'**or**. Le duel est loin d'être terminé."
+          "Le bitcoin chute, mais Fidelity le préfère encore à l'or",
+          "Ni le bitcoin ni l'or n'ont protégé ton épargne cette année",
+          "Le bitcoin baisse, mais il reprend du terrain face à l'or"
         ]
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-09T10:45:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-08T22:36:29.538Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "8f68ce8681",
@@ -1676,7 +1693,7 @@
       "aiScore": 6,
       "reason": "Piratage record chez Binance, sujet crypto fort.",
       "hook": "Piratage record : Binance limoge son directeur financier",
-      "generatedAt": "2026-11-08T22:07:11.174Z",
+      "generatedAt": "2026-11-08T22:28:57.134Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-binance-evince-son-directeur-financier-a-499133c326",
         "files": [
@@ -1694,9 +1711,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "**Binance** s'est fait voler **6,3 milliards** de dollars le **29 octobre**. Elle promet de rembourser, mais en France, **rien ne l'y oblige**.",
-          "Après un **piratage record** de **6,3 milliards** de dollars, **Binance** remplace son **directeur financier**. Voici ce que ça change pour toi en France.",
-          "Un **faux entretien d'embauche** a suffi à des pirates **nord-coréens** pour voler **6,3 milliards** de dollars à **Binance**."
+          "6,3 milliards volés : Binance se sépare de son directeur financier",
+          "Après le plus gros vol crypto de l'histoire, Binance change de directeur financier",
+          "Binance s'est fait voler 6,3 milliards de dollars en vingt minutes"
         ]
       }
     },
@@ -2298,7 +2315,7 @@
       "aiScore": 6,
       "reason": "La succession de Lagarde à la BCE influencera les taux.",
       "hook": "Qui va remplacer Lagarde à la BCE ?",
-      "generatedAt": "2026-11-08T22:07:16.433Z",
+      "generatedAt": "2026-11-08T22:29:07.622Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-bce-qui-va-remplacer-christine-lagarde-a-4deaf736ee",
         "files": [
@@ -2316,9 +2333,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "**Christine Lagarde** quittera la **BCE** dans **91 jours**. Un **Néerlandais** et un **Espagnol** sont en course pour prendre sa place.",
-          "Un **Néerlandais** ou un **Espagnol** ? L'Europe espère choisir en **décembre** le successeur de **Christine Lagarde**, qui quittera la **BCE** en février.",
-          "**Christine Lagarde** partira de la **BCE** **neuf mois** plus tôt que prévu, juste avant la **présidentielle**. Son successeur pourrait peser sur tes taux."
+          "Deux candidats pour remplacer Christine Lagarde à la BCE",
+          "Un Néerlandais ou un Espagnol va peser sur tes taux",
+          "Lagarde s'en va, et la bataille pour sa place commence demain"
         ]
       },
       "instructions": "Garde la même chose que la première version mais améliore un peu le texte pour qu'il fasse + humain et mets des photos plus belles quand tu parles d'une personne \n"
@@ -2634,5 +2651,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:08:04.283Z"
+  "updatedAt": "2026-11-08T22:36:29.538Z"
 }
