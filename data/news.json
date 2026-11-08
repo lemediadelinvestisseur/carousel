@@ -784,7 +784,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "21m2",
       "score": 6,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Comparatif frappant entre villes : 23 m² à Paris contre 186 m² à Mulhouse.",
       "hook": "250 000 € : 23 m² à Paris, 186 m² à Mulhouse",
@@ -1198,5 +1198,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:43:23.081Z"
+  "updatedAt": "2026-11-08T18:43:28.413Z"
 }
