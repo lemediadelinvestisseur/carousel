@@ -2314,7 +2314,7 @@
       "aiScore": 6,
       "reason": "Proposition fiscale présidentielle propice au débat.",
       "hook": "Lisnard veut aligner la fiscalité immo sur la Bourse",
-      "generatedAt": "2026-11-08T20:15:24.313Z",
+      "generatedAt": "2026-11-08T20:34:18.816Z",
       "carousel": {
         "dir": "carousels/2026-11-07/21m2-david-lisnard-veut-rapprocher-la-fiscali-78ef145074",
         "files": [
@@ -2322,20 +2322,11 @@
           "slide-02.jpg",
           "slide-03.jpg",
           "slide-04.jpg",
-          "slide-05.jpg",
-          "slide-06.jpg",
-          "slide-07.jpg",
-          "slide-08.jpg",
-          "slide-09.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 9,
-        "hooks": [
-          "**3 160 €** d'impôt en moins par an sur tes loyers : c'est la promesse de **David Lisnard** avec une **flat tax** sur l'immobilier.",
-          "**David Lisnard** veut appliquer la **flat tax à 31,4 %** aux **loyers**. Bonne affaire pour les gros contribuables, moins pour les **petites tranches**.",
-          "Tes **loyers** taxés comme tes actions ? C'est la proposition de **David Lisnard** pour **2027**. Voici qui y gagnerait, et qui pourrait y perdre."
-        ]
+        "slides": 4,
+        "hooks": []
       }
     },
     {
@@ -2390,5 +2381,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:31:37.386Z"
+  "updatedAt": "2026-11-08T20:34:23.054Z"
 }
