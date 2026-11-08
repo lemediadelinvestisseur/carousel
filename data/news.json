@@ -239,6 +239,18 @@
         "generator": "manuel (maquette validée)",
         "slides": 7,
         "hooks": []
+      },
+      "published": {
+        "instagram": {
+          "id": "18131597905871515",
+          "url": "https://www.instagram.com/p/DffigU9Dy8t/",
+          "at": "2026-11-08T19:46:05.328Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122101554663541092",
+          "url": "https://www.facebook.com/1428714516991726_122101554663541092",
+          "at": "2026-11-08T19:46:22.378Z"
+        }
       }
     },
     {
@@ -2045,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:53:19.420Z"
+  "updatedAt": "2026-11-08T19:46:22.378Z"
 }
