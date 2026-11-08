@@ -77,12 +77,15 @@ Indique pour chaque fait le média qui le rapporte, et signale les points où le
 // 2. Écriture
 // ---------------------------------------------------------------------------
 const COVER_GUIDE = `COUVERTURE (le plus important : elle décide si les gens swipent).
-Une phrase informative de 15 à 28 mots (une ou deux phrases) qui donne l'info principale ET une raison de lire la suite.
-- 3 à 5 mots-clés entre **…** (en gras) : le nom de l'entreprise ou de la personne, les chiffres, la date, le mot qui choque.
+Une accroche CLIVANTE de 8 à 20 mots (une ou deux phrases courtes) qui fait réagir : choc, surprise, indignation, curiosité. On doit avoir envie de swiper pour comprendre.
+- Va droit au fait le plus fort de l'histoire, avec des mots simples et percutants (trompé, scandale, s'effondre, explose, dégringole, ferme, interdit, record…). Pas de ton « dépêche de presse ».
+- 2 à 4 mots-clés entre **…** (en gras) : le nom de l'entreprise ou de la personne, le chiffre ou le mot qui choque.
 - Exemples du style attendu :
+  • « Le patron de **Nvidia** aurait **trompé sa femme**… avec une femme **soupçonnée d'espionnage**. »  (et non : « Nvidia enquête sur son propre patron, la presse le dit proche d'une femme d'affaires… »)
   • « **Binance** fermera les comptes de ses **utilisateurs français** le **31 décembre**. Il te reste **53 jours** pour agir. »
-  • « Le **plafond** du **Livret A** pourrait monter jusqu'à **30 000** euros en février 2027. Il n'avait plus **bougé** depuis **2013**. »
-  • « **Barbie** a **67 ans** et elle rapporte toujours plus d'**un milliard** de dollars de ventes par an à Mattel. »`;
+  • « Ton **Livret A** va pouvoir monter à **30 000 €**. Une première depuis **2013**. »
+  • « **Barbie** a **67 ans** et rapporte encore **1 milliard** par an. »
+- LIMITE JURIDIQUE (impérative) : clivant ne veut pas dire faux. N'affirme jamais comme un fait une accusation non prouvée contre une personne ou une entreprise réelle (espionnage, fraude, infidélité, crime…). Utilise « aurait », « soupçonné(e) de », « accusé(e) de », « selon <média> ». Aucun chiffre ni fait inventé.`;
 
 const INNER_GUIDE = `NOMBRE DE PAGES : entre 4 et 9 au total (couverture et CTA compris), selon ce que le sujet mérite.
 - Sujet simple ou fait étonnant (« Le saviez-vous ? ») : 4 ou 5 pages.
