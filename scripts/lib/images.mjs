@@ -52,6 +52,15 @@ export async function searchBing(query) {
   return dedupe(out);
 }
 
+/** Unsplash : photos professionnelles gratuites, très fortes sur les villes, monuments et ambiances. */
+export async function searchUnsplash(query) {
+  const url = `https://unsplash.com/napi/search/photos?query=${encodeURIComponent(query)}&per_page=20`;
+  const data = await (await get(url, { accept: "application/json" })).json();
+  return (data.results || [])
+    .filter((r) => r.urls?.raw && !r.premium && !r.plus)
+    .map((r) => ({ url: `${r.urls.raw}&w=2400&q=85&fm=jpg&fit=max`, width: r.width, height: r.height, source: "unsplash" }));
+}
+
 /** DuckDuckGo Images (jeton vqd puis API JSON i.js). */
 export async function searchDuckDuckGo(query) {
   const page = await (await get(`https://duckduckgo.com/?q=${encodeURIComponent(query)}&iax=images&ia=images`, { accept: "text/html" })).text();
@@ -141,25 +150,27 @@ export async function download(candidate, minSide = 600, minSize = null) {
   const info = imageSize(buf);
   if (!info) throw new Error("format non supporté");
   if (Math.min(info.width, info.height) < minSide) throw new Error(`trop petite (${info.width}x${info.height})`);
-  if (minSize && (info.width < minSize.width || info.height < minSize.height)) throw new Error(`trop petite pour une couverture (${info.width}x${info.height})`);
+  if (minSize && (info.width < minSize.width || info.height < minSize.height)) throw new Error(`trop petite (${info.width}x${info.height})`);
+  if (minSize?.landscape && info.width / info.height < minSize.landscape) throw new Error(`pas au format paysage (${info.width}x${info.height})`);
   return { ...candidate, ...info, buf, dataUri: `data:${info.type};base64,${buf.toString("base64")}` };
 }
 
 /** Rassemble des candidates pour une slide (requête + entité Wikipédia), sans doublons globaux. */
 async function gather({ query, entity, articleUrl, includeArticle }) {
   const safe = (name, fn) => fn().catch((e) => (console.log(`  [images] ${name} : ${e.message}`), []));
-  const [google, bing, ddg, wiki, article] = await Promise.all([
+  const [unsplash, google, bing, ddg, wiki, article] = await Promise.all([
+    query ? safe("Unsplash", () => searchUnsplash(query)) : [],
     query ? safe("Google", () => searchGoogle(query)) : [],
     query ? safe("Bing", () => searchBing(query)) : [],
     query ? safe("DuckDuckGo", () => searchDuckDuckGo(query)) : [],
     entity ? wikipediaImage(entity) : [],
     includeArticle ? articleImage(articleUrl) : [],
   ]);
-  if (query) console.log(`  [images] « ${query} » : google ${google.length}, bing ${bing.length}, duckduckgo ${ddg.length}, wikipédia ${wiki.length}`);
-  // Alterne les sources pour garder de la diversité.
+  if (query) console.log(`  [images] « ${query} » : unsplash ${unsplash.length}, google ${google.length}, bing ${bing.length}, duckduckgo ${ddg.length}, wikipédia ${wiki.length}`);
+  // Alterne les sources pour garder de la diversité (Unsplash en tête : photos de meilleure qualité).
   const merged = [];
-  for (let i = 0; i < 10; i++) for (const l of [bing, ddg, google]) if (l[i]) merged.push(l[i]);
-  return dedupe([...article, ...merged.slice(0, 8), ...wiki, ...merged.slice(8)]);
+  for (let i = 0; i < 10; i++) for (const l of [unsplash, bing, ddg, google]) if (l[i]) merged.push(l[i]);
+  return dedupe([...article, ...merged.slice(0, 10), ...wiki, ...merged.slice(10)]);
 }
 
 async function downloadSome(cands, n, used, minSide, minSize) {
@@ -201,8 +212,9 @@ async function chooseWithClaude(images, { subject, isCover }) {
     text: `${isCover ? "Photo de COUVERTURE plein écran" : "Illustration d'une slide"} d'un carousel Instagram de média financier.
 Ce que la slide doit montrer : ${subject}
 Choisis la meilleure image. Critères éliminatoires : filigrane (Adobe Stock, Shutterstock…), publicité ou visuel marketing (prix, « free shipping », « new arrival »), logo ou nom d'un autre média incrusté, texte incrusté important, montage grossier, capture d'écran de site, image floue.
-Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet, la ville), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ", de préférence au format paysage (panorama), car elle s'affiche dans un cadre allongé"}.
-BEAUTÉ AVANT TOUT : choisis la photo la plus belle, digne d'une carte postale ou d'un magazine : lumière dorée ou coucher de soleil, ciel coloré, couleurs vives, composition soignée, vue dégagée ou panorama pour une ville ou un monument. Écarte les photos ternes (ciel gris ou blanc, lumière plate), les photos d'amateur, les cadrages serrés sans contexte, même si elles montrent le bon sujet.
+Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet, la ville), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ""}.
+BEAUTÉ AVANT TOUT : choisis la photo la plus belle, digne d'une carte postale ou d'un magazine : lumière dorée ou coucher de soleil, ciel coloré, couleurs vives, composition soignée, vue dégagée ou panorama pour une ville ou un monument. Pour une ville, préfère une VUE D'ENSEMBLE (skyline, panorama, vue aérienne, quais, toits) à un gros plan sur un bâtiment.
+Écarte les photos ternes (ciel gris ou blanc, lumière plate), les photos d'amateur prises au téléphone (premier plan encombré par des branches ou des feuilles, image floue ou de travers, éclairage de nuit sale), les cadrages serrés sans contexte, même si elles montrent le bon sujet. Mieux vaut répondre 0 qu'accepter une photo moyenne.
 Réponds 0 si aucune image n'est acceptable. Donne aussi le cadre (focus) du sujet principal dans l'image choisie : il servira à cadrer la photo.`,
   });
   try {
@@ -247,7 +259,8 @@ export async function illustrate({ slides, item }) {
       const cands = await gather({ query, entity, articleUrl: item.link, includeArticle: isCover });
       // Couverture : photo assez grande pour ne jamais être agrandie (largeur ≥ 1000 px, hauteur ≥ 700 px).
       // Jamais d'agrandissement visible : couverture ≥ 1000x700, pages intérieures ≥ 960x540 (zone photo 1080x600).
-      const imgs = await downloadSome(cands, isCover ? 8 : 5, used, 540, isCover ? { width: 1000, height: 700 } : { width: 960, height: 540 });
+      // Pages intérieures : photo paysage obligatoire, pour remplir tout le cadre sans flou ni coupure.
+      const imgs = await downloadSome(cands, isCover ? 8 : 6, used, 540, isCover ? { width: 1000, height: 700 } : { width: 1080, height: 600, landscape: 1.3 });
       const subject = isCover ? `${item.title} (recherche : ${query || entity})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
       const pick = await chooseWithClaude(imgs, { subject, isCover });
       if (pick) {
