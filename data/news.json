@@ -1880,7 +1880,7 @@
       "collectedAt": "2026-11-08T18:44:37.704Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Nvidia très détenue par les particuliers, risque politique.",
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:11:15.542Z"
+  "updatedAt": "2026-11-08T20:11:17.562Z"
 }
