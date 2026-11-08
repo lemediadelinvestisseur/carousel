@@ -9,9 +9,9 @@ const BROWSER_UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36";
 const BOT_UA = "CarouselBot/1.0 (https://github.com/lemediadelinvestisseur/carousel)";
 
-async function get(url, { ua = BROWSER_UA, timeout = 15000, accept = "*/*" } = {}) {
+async function get(url, { ua = BROWSER_UA, timeout = 15000, accept = "*/*", headers = {} } = {}) {
   const res = await fetch(url, {
-    headers: { "user-agent": ua, accept, "accept-language": "fr-FR,fr;q=0.9,en;q=0.8" },
+    headers: { "user-agent": ua, accept, "accept-language": "fr-FR,fr;q=0.9,en;q=0.8", ...headers },
     signal: AbortSignal.timeout(timeout),
     redirect: "follow",
   });
@@ -22,7 +22,7 @@ async function get(url, { ua = BROWSER_UA, timeout = 15000, accept = "*/*" } = {
 const unescapeJs = (s) =>
   s.replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16))).replace(/\\\//g, "/").replace(/&amp;/g, "&");
 
-const BLOCKED_HOSTS = /(gstatic\.com|googleusercontent|facebook|fbsbx|instagram|lookaside|tiktok|pinimg\.com\/(?:75|236)x|shutterstock|alamy|gettyimages|istockphoto|dreamstime|123rf|depositphotos|adobestock|stock\.adobe)/i;
+const BLOCKED_HOSTS = /(gstatic\.com|googleusercontent|facebook|fbsbx|instagram|lookaside|tiktok|pinimg\.com\/(?:75|236)x|shutterstock|alamy|gettyimages|istockphoto|dreamstime|123rf|depositphotos|adobestock|stock\.adobe|ftcdn\.net|freepik|vecteezy|vectorstock|canstockphoto|bigstockphoto|pond5|storyblocks|nooncdn|media-amazon|ssl-images-amazon|alicdn|aliexpress|ebayimg|cdiscount|temu|youtube\.com|ytimg|\/_next\/image)/i;
 
 /** Google Images (page de résultats HTML). */
 export async function searchGoogle(query) {
@@ -50,6 +50,20 @@ export async function searchBing(query) {
     } catch {}
   }
   return dedupe(out);
+}
+
+/** DuckDuckGo Images (jeton vqd puis API JSON i.js). */
+export async function searchDuckDuckGo(query) {
+  const page = await (await get(`https://duckduckgo.com/?q=${encodeURIComponent(query)}&iax=images&ia=images`, { accept: "text/html" })).text();
+  const vqd = page.match(/vqd=["']?([\d-]+)["']?/)?.[1];
+  if (!vqd) throw new Error("jeton introuvable");
+  const api = `https://duckduckgo.com/i.js?l=fr-fr&o=json&q=${encodeURIComponent(query)}&vqd=${vqd}&f=size:Large,,,,,&p=1`;
+  const data = await (await get(api, { accept: "application/json", headers: { referer: "https://duckduckgo.com/" } })).json();
+  return dedupe(
+    (data.results || [])
+      .filter((r) => r.image && !BLOCKED_HOSTS.test(r.image))
+      .map((r) => ({ url: r.image, width: r.width, height: r.height, source: "duckduckgo" })),
+  );
 }
 
 /** Image principale de la page Wikipédia (fr puis en). */
@@ -132,17 +146,19 @@ export async function download(candidate, minSide = 600) {
 
 /** Rassemble des candidates pour une slide (requête + entité Wikipédia), sans doublons globaux. */
 async function gather({ query, entity, articleUrl, includeArticle }) {
-  const lists = await Promise.all([
-    query ? searchGoogle(query).catch((e) => (console.log(`  [images] Google : ${e.message}`), [])) : [],
-    query ? searchBing(query).catch((e) => (console.log(`  [images] Bing : ${e.message}`), [])) : [],
+  const safe = (name, fn) => fn().catch((e) => (console.log(`  [images] ${name} : ${e.message}`), []));
+  const [google, bing, ddg, wiki, article] = await Promise.all([
+    query ? safe("Google", () => searchGoogle(query)) : [],
+    query ? safe("Bing", () => searchBing(query)) : [],
+    query ? safe("DuckDuckGo", () => searchDuckDuckGo(query)) : [],
     entity ? wikipediaImage(entity) : [],
     includeArticle ? articleImage(articleUrl) : [],
   ]);
-  const [google, bing, wiki, article] = lists;
+  if (query) console.log(`  [images] « ${query} » : google ${google.length}, bing ${bing.length}, duckduckgo ${ddg.length}, wikipédia ${wiki.length}`);
   // Alterne les sources pour garder de la diversité.
   const merged = [];
-  for (let i = 0; i < 8; i++) for (const l of [google, bing]) if (l[i]) merged.push(l[i]);
-  return dedupe([...article, ...merged.slice(0, 6), ...wiki, ...merged.slice(6)]);
+  for (let i = 0; i < 10; i++) for (const l of [bing, ddg, google]) if (l[i]) merged.push(l[i]);
+  return dedupe([...article, ...merged.slice(0, 8), ...wiki, ...merged.slice(8)]);
 }
 
 async function downloadSome(cands, n, used, minSide) {
@@ -164,22 +180,25 @@ const Choice = z.object({
   reason: z.string(),
 });
 
-/** Claude regarde les candidates et choisit la meilleure illustration. */
-async function chooseWithClaude(images, subject) {
-  if (images.length < 2 || !(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN)) return images[0];
+const hasKey = () => !!(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
+
+/** Claude regarde les candidates et choisit la meilleure illustration (ou aucune). */
+async function chooseWithClaude(images, { subject, isCover }) {
   const usable = images.filter((im) => im.buf.length < 4_500_000 && ["image/jpeg", "image/png", "image/webp"].includes(im.type));
-  if (usable.length < 2) return images[0];
+  if (!usable.length) return null;
+  if (!hasKey()) return usable[0];
   const content = [];
   usable.forEach((im, i) => {
-    content.push({ type: "text", text: `Image ${i + 1} (${im.width}x${im.height}, source ${im.source}) :` });
+    content.push({ type: "text", text: `Image ${i + 1} (${im.width}x${im.height}) :` });
     content.push({ type: "image", source: { type: "base64", media_type: im.type, data: im.buf.toString("base64") } });
   });
   content.push({
     type: "text",
-    text: `Sujet de la couverture : ${subject}
-Choisis l'image qui ferait la meilleure photo de couverture plein écran d'un carousel Instagram de média financier.
-Critères : représente clairement la personne ou l'entreprise du sujet ; photo nette et esthétique, idéalement en situation (dirigeant sur scène, siège, produit, logo sur un bâtiment) ; pas de texte incrusté, pas de filigrane, pas de montage, pas de capture d'écran ; cadrage compatible avec un format vertical 4:5.
-Réponds 0 si aucune ne convient.`,
+    text: `${isCover ? "Photo de COUVERTURE plein écran" : "Illustration d'une slide"} d'un carousel Instagram de média financier.
+Ce que la slide doit montrer : ${subject}
+Choisis la meilleure image. Critères éliminatoires : filigrane (Adobe Stock, Shutterstock…), publicité ou visuel marketing (prix, « free shipping », « new arrival »), logo ou nom d'un autre média incrusté, texte incrusté important, montage grossier, capture d'écran de site, image floue.
+Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ""}.
+Réponds 0 si aucune image n'est acceptable.`,
   });
   try {
     const client = new Anthropic();
@@ -192,7 +211,7 @@ Réponds 0 si aucune ne convient.`,
       messages: [{ role: "user", content }],
     });
     const idx = res.parsed_output?.index ?? 1;
-    console.log(`  [images] Claude choisit l'image ${idx} : ${res.parsed_output?.reason || ""}`);
+    console.log(`  [images] Claude : image ${idx}/${usable.length} — ${res.parsed_output?.reason || ""}`);
     return idx >= 1 && idx <= usable.length ? usable[idx - 1] : null;
   } catch (e) {
     console.log(`  [images] choix par Claude impossible (${e.message}), première image retenue`);
@@ -216,8 +235,9 @@ export async function illustrate({ slides, item }) {
     const isCover = s.kind === "cover";
     try {
       const cands = await gather({ query, entity, articleUrl: item.link, includeArticle: isCover });
-      const imgs = await downloadSome(cands, isCover ? 5 : 1, used, isCover ? 800 : 600);
-      const pick = isCover ? await chooseWithClaude(imgs, `${item.title} — recherche : ${query || entity}`) : imgs[0];
+      const imgs = await downloadSome(cands, isCover ? 5 : 3, used, isCover ? 800 : 600);
+      const subject = isCover ? `${item.title} (recherche : ${query || entity})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
+      const pick = await chooseWithClaude(imgs, { subject, isCover });
       if (pick) {
         used.add(pick.url);
         result[i] = pick.dataUri;

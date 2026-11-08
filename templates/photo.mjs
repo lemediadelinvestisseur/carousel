@@ -38,7 +38,9 @@ function cover(s, ctx) {
 function contentSlide(s, ctx) {
   let inner;
   if (s.kind === "stat") {
-    inner = `<div class="stat">${esc(s.stat)}</div>${s.title ? `<h2 style="font-size:${titleSize(s.title)}px">${hl(s.title)}</h2>` : ""}${s.body ? `<p>${strong(s.body)}</p>` : ""}`;
+    const n = plain(s.stat).length;
+    const size = n <= 4 ? 200 : n <= 7 ? 160 : n <= 10 ? 124 : 96;
+    inner = `<div class="stat" style="font-size:${size}px">${esc(s.stat)}</div>${s.title ? `<h2 style="font-size:${titleSize(s.title)}px">${hl(s.title)}</h2>` : ""}${s.body ? `<p>${strong(s.body)}</p>` : ""}`;
   } else if (s.kind === "list") {
     inner = `${s.title ? `<h2 style="font-size:${titleSize(s.title)}px">${hl(s.title)}</h2>` : ""}
       <ol>${(s.bullets || []).map((b, i) => `<li><span class="num">${i + 1}</span><span>${strong(b)}</span></li>`).join("")}</ol>`;
@@ -127,7 +129,8 @@ h1 .hl{text-shadow:none}
 /* Slides d'explication */
 .top{position:absolute;left:0;right:0;top:0;height:640px;overflow:hidden}
 .shade-top{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.1) 0%,rgba(0,0,0,0) 45%,var(--bg) 100%)}
-.content{position:absolute;left:84px;right:84px;top:590px;bottom:150px;display:flex;flex-direction:column;justify-content:center}
+.content{position:absolute;left:84px;right:84px;top:590px;bottom:140px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.content>*{flex:none}
 .content.centered{top:120px}
 .kicker{align-self:flex-start;border:4px solid #fff;border-radius:24px;padding:2px 22px 4px;font-weight:900;font-size:34px;text-transform:uppercase;margin-bottom:30px;background:rgba(8,14,28,.6)}
 h2{font-weight:800;line-height:1.16;margin-bottom:28px}
@@ -168,6 +171,18 @@ blockquote{font-size:50px;line-height:1.3;font-weight:600;font-style:italic}
 .ph-grid div{aspect-ratio:4/5;background-size:cover;background-position:center 25%}
 </style></head><body>${slides}
 <script>
+// Ajuste la taille du texte pour qu'il tienne dans sa zone (jamais sous le pied de page).
+document.querySelectorAll('.content').forEach(c=>{
+  const over=()=>c.scrollHeight-c.clientHeight;
+  const top=c.parentElement.querySelector('.top');
+  // 1) on réduit la photo (jusqu'à 240 px) pour laisser la place au texte
+  if(over()>2&&top){const shift=Math.min(240,over()+40);c.style.top=(c.offsetTop-shift)+'px';top.style.height=(top.offsetHeight-shift)+'px';}
+  // 2) si ça ne suffit pas, on réduit le texte
+  for(let k=0;k<14&&over()>2;k++){
+    c.querySelectorAll('h2,p,li,.stat,blockquote').forEach(el=>{el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px'});
+  }
+});
+document.querySelectorAll('h1').forEach(h=>{for(let k=0;k<10&&h.getBoundingClientRect().top<230;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
 // Place la main 👉 à hauteur du bouton « S'abonner ».
 document.querySelectorAll('.slide').forEach(sl=>{const p=sl.querySelector('.phone'),b=sl.querySelector('.follow'),h=sl.querySelector('.hand');if(!p||!b||!h)return;
 const pr=p.getBoundingClientRect(),br=b.getBoundingClientRect(),sr=sl.getBoundingClientRect();
