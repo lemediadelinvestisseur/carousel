@@ -21,7 +21,7 @@ const Slide = z.object({
 
 export const CarouselSchema = z.object({
   category: z.string().describe("Étiquette de la couverture, parmi les étiquettes autorisées"),
-  slides: z.array(Slide).describe("7 pages : cover, 5 pages intérieures, cta"),
+  slides: z.array(Slide).describe("4 à 9 pages selon la richesse du sujet : cover, 2 à 7 pages intérieures, cta"),
   hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, avec **…**"),
   caption: z.string().describe("Légende Instagram de 80 à 150 mots, qui se termine par la question du cta"),
   hashtags: z.array(z.string()).describe("5 à 8 hashtags sans le #"),
@@ -77,7 +77,7 @@ Indique pour chaque fait le média qui le rapporte, et signale les points où le
 // ---------------------------------------------------------------------------
 // 2. Écriture
 // ---------------------------------------------------------------------------
-const COVER_GUIDE = `PAGE 1 — COUVERTURE (le plus important : elle décide si les gens swipent).
+const COVER_GUIDE = `COUVERTURE (le plus important : elle décide si les gens swipent).
 Une phrase informative de 15 à 28 mots (une ou deux phrases) qui donne l'info principale ET une raison de lire la suite.
 - 3 à 5 mots-clés entre **…** (en gras) : le nom de l'entreprise ou de la personne, les chiffres, la date, le mot qui choque.
 - Exemples du style attendu :
@@ -85,15 +85,23 @@ Une phrase informative de 15 à 28 mots (une ou deux phrases) qui donne l'info p
   • « Le **plafond** du **Livret A** pourrait monter jusqu'à **30 000** euros en février 2027. Il n'avait plus **bougé** depuis **2013**. »
   • « **Barbie** a **67 ans** et elle rapporte toujours plus d'**un milliard** de dollars de ventes par an à Mattel. »`;
 
-const INNER_GUIDE = `PAGES 2 À 6 — LES EXPLICATIONS (5 pages, dans cet ordre, adaptées au sujet) :
-2. LE CONTEXTE : ce qui s'est passé et pourquoi.
-3. CE QUI CHANGE : l'impact concret pour un particulier français.
-4. LE RISQUE (ou LES CRAINTES) : ce qui peut mal tourner, ce qu'il faut surveiller.
-5. LES SOLUTIONS : kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent (ex : un portefeuille Ledger, une plateforme agréée).
-6. ET APRÈS ? : les perspectives, comment investir ou en profiter plus tard.
+const INNER_GUIDE = `NOMBRE DE PAGES : entre 4 et 9 au total (couverture et CTA compris), selon ce que le sujet mérite.
+- Sujet simple ou fait étonnant (« Le saviez-vous ? ») : 4 ou 5 pages.
+- Actualité classique : 6 ou 7 pages.
+- Sujet riche (réforme, crise, résultats détaillés, plusieurs impacts) : 8 ou 9 pages.
+Ne remplis jamais pour remplir : chaque page doit apporter une info nouvelle et utile.
+
+PAGES INTÉRIEURES — LES EXPLICATIONS. Choisis et ordonne les pages utiles parmi (ou adapte) :
+- LE CONTEXTE : ce qui s'est passé et pourquoi.
+- LES CHIFFRES / LES RÉSULTATS : les données clés.
+- CE QUI CHANGE : l'impact concret pour un particulier français.
+- QUI EST … : l'entreprise ou la personne au cœur du sujet, si le public ne la connaît pas bien.
+- LE RISQUE (ou LES CRAINTES) : ce qui peut mal tourner, ce qu'il faut surveiller.
+- LES SOLUTIONS : kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent (ex : un portefeuille Ledger, une plateforme agréée).
+- ET APRÈS ? : les perspectives, comment investir ou en profiter plus tard.
 Chaque page : une étiquette (kicker), un titre court, 1 ou 2 paragraphes de 30 à 55 mots au total, 3 à 6 mots-clés en **gras**.
 
-PAGE 7 — CTA : title = une question directe liée au sujet pour faire réagir en commentaire (ex : « Tu avais des cryptos sur **Binance** ? »), body = « Dis-nous en commentaire ce que tu vas en faire 👇 » ou équivalent adapté.`;
+DERNIÈRE PAGE — CTA : title = une question directe liée au sujet pour faire réagir en commentaire (ex : « Tu avais des cryptos sur **Binance** ? »), body = « Dis-nous en commentaire ce que tu vas en faire 👇 » ou équivalent adapté.`;
 
 const STYLE_GUIDE = `STYLE (très important) :
 - Écris comme un humain, journaliste éco qui tutoie un ami. Pas de formules creuses ou « d'IA » : pas de titres en métaphore bancale (« frais en approche », « perdre la main »), pas de « Décryptage », « Zoom sur », « Ce qu'il faut retenir ».
@@ -117,7 +125,7 @@ Ligne éditoriale : ${brand.description}
 Public : ${brand.audience || "particuliers français"}
 Ton : ${brand.tone}
 
-Tu transformes une actualité en carousel Instagram de 7 pages (format 4:5), à partir d'un dossier de recherche.
+Tu transformes une actualité en carousel Instagram de 4 à 9 pages (format 4:5), à partir d'un dossier de recherche.
 
 ${COVER_GUIDE}
 
