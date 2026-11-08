@@ -1,0 +1,98 @@
+{
+  "item": {
+    "id": "bbb00a31a4",
+    "title": "Binance France annonce la fermeture des comptes de ses utilisateurs le 31 décembre",
+    "summary": "Binance France annonce la fermeture des comptes de ses utilisateurs le 31 décembre TradingView",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lMTFvRG0zNnpkQTh2bjUwQnhHM0dtOWRmSFhLZE1DWk40bldNWURiNmFiQUg5bTEwRnVLSUpKM3FRMTVhZEFhX3RieWoyOEVqZ01RZUt4azNwUDMxWnBGbDhObW9RcFhzczh0RGl4aw?oc=5",
+    "image": null,
+    "source": "TradingView News",
+    "via": "google news",
+    "publishedAt": "2026-11-08T12:57:51.000Z",
+    "collectedAt": "2026-11-08T15:38:54.430Z",
+    "brand": "investisseur",
+    "score": 2,
+    "status": "generating",
+    "international": true,
+    "aiScore": 9,
+    "reason": "Binance ferme les comptes français, ce qui touche directement de nombreux épargnants.",
+    "hook": "Binance ferme tous les comptes français le 31 décembre",
+    "notifiedAt": "2026-11-08T15:38:54.430Z",
+    "instructions": "Ajouter une solution : ouvrir un compte sur une autre plateforme ou transférer sur un portefeuille froid"
+  },
+  "carousel": {
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "CRYPTO · ALERTE",
+        "title": "Binance France ferme les comptes de ses utilisateurs",
+        "body": "Une échéance est fixée au **31 décembre**. Voici ce que l'on sait et les options possibles.",
+        "stat": "",
+        "bullets": []
+      },
+      {
+        "kind": "text",
+        "kicker": "L'ANNONCE",
+        "title": "Ce que l'on sait à ce stade",
+        "body": "Binance France a annoncé la **fermeture des comptes** de ses utilisateurs. Les modalités précises ne figurent pas dans notre source. Référez-vous aux communications officielles de la plateforme.",
+        "stat": "",
+        "bullets": []
+      },
+      {
+        "kind": "stat",
+        "kicker": "DATE À RETENIR",
+        "title": "La fermeture est prévue en fin d'année",
+        "body": "Une date à noter dès maintenant pour anticiper. Mieux vaut éviter d'agir dans l'urgence des **derniers jours**.",
+        "stat": "31 décembre",
+        "bullets": []
+      },
+      {
+        "kind": "list",
+        "kicker": "LES SOLUTIONS",
+        "title": "Deux options pour vos cryptos",
+        "body": "",
+        "stat": "",
+        "bullets": [
+          "Ouvrir un compte sur une **autre plateforme**",
+          "Transférer vers un **portefeuille froid**",
+          "Vérifier l'adresse avant chaque transfert",
+          "Conserver votre historique de transactions"
+        ]
+      },
+      {
+        "kind": "text",
+        "kicker": "PORTEFEUILLE FROID",
+        "title": "Le portefeuille froid, c'est quoi ?",
+        "body": "Un support hors ligne qui stocke vos clés privées. Vous gardez le **contrôle direct** de vos actifs. En contrepartie, la sécurité de vos clés repose sur vous.",
+        "stat": "",
+        "bullets": []
+      },
+      {
+        "kind": "text",
+        "kicker": "POUR VOUS",
+        "title": "Ce que ça change pour vous",
+        "body": "Si vous détenez des actifs sur Binance France, une action est à prévoir **avant le 31 décembre**. Comparez les options selon votre situation. Ceci n'est pas un conseil d'investissement.",
+        "stat": "",
+        "bullets": []
+      },
+      {
+        "kind": "cta",
+        "kicker": "RESTEZ INFORMÉ",
+        "title": "Abonnez-vous pour ne rien rater de l'actu des marchés",
+        "body": "Chaque jour, l'essentiel de la Bourse, de l'épargne et de la crypto, expliqué simplement.",
+        "stat": "",
+        "bullets": []
+      }
+    ],
+    "caption": "Binance France annonce la fermeture des comptes de ses utilisateurs le 31 décembre. Une nouvelle qui concerne directement de nombreux épargnants français exposés aux cryptomonnaies. Les détails pratiques restent à suivre via les communications officielles de la plateforme. En attendant, deux grandes options existent : ouvrir un compte sur une autre plateforme, ou transférer ses actifs vers un portefeuille froid pour en garder le contrôle direct. Dans tous les cas, mieux vaut anticiper plutôt que d'attendre les derniers jours de l'année, et vérifier soigneusement chaque adresse de transfert. Ce contenu est informatif et ne constitue pas un conseil d'investissement. Et vous, êtes-vous concerné par cette fermeture ? Quelle option envisagez-vous : une autre plateforme ou un portefeuille froid ?",
+    "hashtags": [
+      "Binance",
+      "Crypto",
+      "Bitcoin",
+      "Cryptomonnaies",
+      "Epargne",
+      "Investissement",
+      "PortefeuilleCrypto"
+    ],
+    "generator": "claude-opus-5-5"
+  }
+}

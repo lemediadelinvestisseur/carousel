@@ -29,12 +29,29 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "done",
       "international": true,
       "aiScore": 9,
       "reason": "Binance ferme les comptes français, ce qui touche directement de nombreux épargnants.",
       "hook": "Binance ferme tous les comptes français le 31 décembre",
-      "notifiedAt": "2026-11-08T15:38:54.430Z"
+      "notifiedAt": "2026-11-08T15:38:54.430Z",
+      "instructions": "Ajouter une solution : ouvrir un compte sur une autre plateforme ou transférer sur un portefeuille froid",
+      "generatedAt": "2026-11-08T15:46:32.064Z",
+      "carousel": {
+        "dir": "carousels/2026-11-08/investisseur-binance-france-annonce-la-fermeture-des-bbb00a31a4",
+        "files": [
+          "slide-01.png",
+          "slide-02.png",
+          "slide-03.png",
+          "slide-04.png",
+          "slide-05.png",
+          "slide-06.png",
+          "slide-07.png",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 7
+      }
     },
     {
       "id": "e8926ee985",
@@ -1162,5 +1179,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T15:39:39.442Z"
+  "updatedAt": "2026-11-08T15:46:32.064Z"
 }
