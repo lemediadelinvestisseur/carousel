@@ -62,6 +62,9 @@ dialog::backdrop{background:rgba(0,0,0,.5)}
 .banner{background:#FFF4D6;color:#5A4500;border-radius:12px;padding:12px;margin-bottom:12px;font-size:14px}
 .runs{font-size:13px;color:var(--muted)}
 details summary{cursor:pointer}
+.hooks{margin-top:10px;font-size:14px}
+.hooks summary{font-weight:700;color:var(--muted);padding:6px 0}
+.hook-alt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;margin-top:6px;cursor:pointer;font-weight:600}
 .quota{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
 .q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:13px;color:var(--muted)}
 .q .badge{display:table;margin-bottom:6px}
@@ -258,11 +261,12 @@ function card(i) {
   if (i.status === "new" && !pending(i.id)) {
     actions = `<div class="row"><button class="btn primary" data-act="validate">✅ Valider</button><button class="btn danger" data-act="reject">✕</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
   } else if (i.status === "done" && i.carousel) {
-    const pngs = i.carousel.files.filter((f) => f.endsWith(".png"));
+    const pngs = i.carousel.files.filter((f) => /\.(png|jpe?g)$/.test(f));
     actions = `<div class="thumbs">${pngs.map((f) => `<img loading="lazy" src="${raw(i.carousel.dir + "/" + f)}" alt="">`).join("")}</div>
       <div class="row"><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="caption">📋 Légende</button>
       <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}" target="_blank" rel="noopener">PDF</a>
-      <button class="btn ghost" data-act="validate">↻ Refaire</button></div>`;
+      <button class="btn ghost" data-act="validate">↻ Refaire</button></div>
+      ${(i.carousel.hooks || []).length ? `<details class="hooks"><summary>💡 Autres accroches proposées</summary>${i.carousel.hooks.map((h, n) => `<button class="hook-alt" data-act="rehook" data-hook="${n}">${esc(h.replace(/\*\*/g, ""))}</button>`).join("")}</details>` : ""}`;
   } else if (["error", "rejected", "ignored"].includes(i.status)) {
     actions = `${i.error ? `<p class="hint">${esc(i.error)}</p>` : ""}<div class="row"><button class="btn ${i.status === "error" ? "primary" : ""}" data-act="validate">${i.status === "error" ? "↻ Réessayer" : "✅ Valider quand même"}</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
   }
@@ -281,10 +285,10 @@ function brandOptions(sel, current) {
   sel.innerHTML = Object.entries(BRANDS).map(([k, v]) => `<option value="${k}" ${k === current ? "selected" : ""}>${esc(v)}</option>`).join("");
 }
 
-function openValidate(item) {
+function openValidate(item, instr = "") {
   $("vTitle").textContent = item.title;
   brandOptions($("vBrand"), item.brand);
-  $("vInstr").value = "";
+  $("vInstr").value = instr;
   const dlg = $("dlgValidate");
   dlg.onclose = async () => {
     if (dlg.returnValue !== "ok") return;
@@ -300,10 +304,10 @@ function openValidate(item) {
 }
 
 async function shareImages(item) {
-  const pngs = item.carousel.files.filter((f) => f.endsWith(".png"));
+  const pngs = item.carousel.files.filter((f) => /\.(png|jpe?g)$/.test(f));
   try {
     toast("Préparation des images…");
-    const files = await Promise.all(pngs.map(async (f) => new File([await (await fetch(raw(item.carousel.dir + "/" + f))).blob()], f, { type: "image/png" })));
+    const files = await Promise.all(pngs.map(async (f) => new File([await (await fetch(raw(item.carousel.dir + "/" + f))).blob()], f, { type: f.endsWith(".png") ? "image/png" : "image/jpeg" })));
     if (navigator.canShare && navigator.canShare({ files })) {
       await navigator.share({ files, title: item.title });
     } else {
@@ -329,6 +333,7 @@ document.addEventListener("click", async (ev) => {
   if (!item) return;
   const act = t.dataset.act;
   if (act === "validate") openValidate(item);
+  if (act === "rehook") openValidate(item, `Utilise exactement cette accroche pour la couverture : ${item.carousel.hooks[Number(t.dataset.hook)]}`);
   if (act === "share") shareImages(item);
   if (act === "caption") copyCaption(item);
   if (act === "reject") {

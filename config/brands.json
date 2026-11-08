@@ -3,16 +3,18 @@
     "name": "Le média de l'investisseur",
     "handle": "@lemediadelinvestisseur",
     "description": "Bourse, marchés, économie, épargne et écosystème French Tech (startups, levées de fonds), expliqués simplement aux investisseurs particuliers français.",
-    "tone": "Pédagogique, factuel, accrocheur sans être sensationnaliste. Tutoiement interdit, vouvoiement léger. Phrases courtes. Jamais de conseil d'investissement personnalisé.",
+    "tone": "Direct, vivant et pédagogique, en TUTOIEMENT (« ton PEA », « tu peux »). Comme un ami calé en finance qui explique l'actu sans jargon. Factuel, jamais sensationnaliste. Phrases courtes.",
     "theme": {
-      "bg": "#0B1F3A",
-      "bg2": "#12305A",
+      "bg": "#0A1628",
+      "bg2": "#16305A",
       "text": "#FFFFFF",
-      "muted": "#A9B8CF",
+      "muted": "#9FB0C8",
       "accent": "#F5B700",
       "accentText": "#0B1F3A",
       "font": "Inter",
-      "titleFont": "Archivo Black"
+      "titleFont": "Archivo Black",
+      "highlightBg": "#F5B700",
+      "highlightText": "#0A1628"
     },
     "keywords": [
       "bourse",
@@ -62,7 +64,21 @@
       "airbus"
     ],
     "cta": "Abonnez-vous pour ne rien rater de l'actu des marchés",
-    "audience": "Particuliers français 25-45 ans qui investissent (PEA, ETF, actions, crypto) ou s'y intéressent ; suivent la French Tech."
+    "audience": "Particuliers français 25-45 ans qui investissent (PEA, ETF, actions, crypto) ou s'y intéressent ; suivent la French Tech.",
+    "template": "photo",
+    "logo": "",
+    "logoText": "Le média de l'investisseur",
+    "logoMark": "M",
+    "ctaSlide": {
+      "title": "Abonne-toi au **Média de l'investisseur**",
+      "subtitle": "pour ne rien rater de l'actu des marchés",
+      "bio": [
+        "📊 L'actu des marchés, décryptée simplement",
+        "🚀 Bourse, crypto, French Tech",
+        "👇 Chaque jour, l'essentiel en 2 minutes"
+      ],
+      "website": ""
+    }
   },
   "21m2": {
     "name": "21m2",
@@ -105,6 +121,11 @@
       "prix des logements"
     ],
     "cta": "Suivez 21m2 pour investir plus malin dans l'immobilier",
-    "audience": "Français qui veulent acheter leur résidence principale ou investir dans la pierre (locatif, SCPI) ; sensibles aux taux, aux prix et à la fiscalité."
+    "audience": "Français qui veulent acheter leur résidence principale ou investir dans la pierre (locatif, SCPI) ; sensibles aux taux, aux prix et à la fiscalité.",
+    "template": "classic",
+    "ctaSlide": {
+      "title": "Suis **21m2**",
+      "subtitle": "pour investir plus malin dans l'immobilier"
+    }
   }
 }
