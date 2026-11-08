@@ -2,7 +2,7 @@
 // Un seul secret par marque : META_PAGE_TOKEN_<MARQUE> (jeton de la Page Facebook, sans expiration).
 // L'identifiant de la Page et celui du compte Instagram professionnel relié sont retrouvés à partir du jeton.
 
-const VERSION = () => process.env.META_GRAPH_VERSION || "v23.0";
+const VERSION = () => process.env.META_GRAPH_VERSION || "v27.0";
 const GRAPH = () => process.env.META_GRAPH_URL || `https://graph.facebook.com/${VERSION()}`; // META_GRAPH_URL : tests uniquement
 
 export function pageToken(brandKey) {
