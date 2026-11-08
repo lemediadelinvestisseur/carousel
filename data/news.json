@@ -36,21 +36,25 @@
       "hook": "Binance ferme tous les comptes français le 31 décembre",
       "notifiedAt": "2026-11-08T15:38:54.430Z",
       "instructions": "Ajouter une solution : ouvrir un compte sur une autre plateforme ou transférer sur un portefeuille froid",
-      "generatedAt": "2026-11-08T15:46:32.064Z",
+      "generatedAt": "2026-11-08T17:06:58.141Z",
       "carousel": {
         "dir": "carousels/2026-11-08/investisseur-binance-france-annonce-la-fermeture-des-bbb00a31a4",
         "files": [
-          "slide-01.png",
-          "slide-02.png",
-          "slide-03.png",
-          "slide-04.png",
-          "slide-05.png",
-          "slide-06.png",
-          "slide-07.png",
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 7
+        "slides": 6,
+        "hooks": [
+          "Tu as des cryptos sur Binance ? **Date limite : 31 décembre**",
+          "Binance France ferme boutique, **tes cryptos doivent bouger**",
+          "Binance France : **compte à rebours** jusqu'au 31 décembre"
+        ]
       }
     },
     {
@@ -1197,5 +1201,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T16:11:06.286Z"
+  "updatedAt": "2026-11-08T17:06:58.142Z"
 }

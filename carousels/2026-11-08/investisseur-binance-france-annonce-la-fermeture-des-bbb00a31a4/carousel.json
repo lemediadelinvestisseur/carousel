@@ -17,81 +17,107 @@
     "reason": "Binance ferme les comptes français, ce qui touche directement de nombreux épargnants.",
     "hook": "Binance ferme tous les comptes français le 31 décembre",
     "notifiedAt": "2026-11-08T15:38:54.430Z",
-    "instructions": "Ajouter une solution : ouvrir un compte sur une autre plateforme ou transférer sur un portefeuille froid"
+    "instructions": "Ajouter une solution : ouvrir un compte sur une autre plateforme ou transférer sur un portefeuille froid",
+    "generatedAt": "2026-11-08T15:46:32.064Z",
+    "carousel": {
+      "dir": "carousels/2026-11-08/investisseur-binance-france-annonce-la-fermeture-des-bbb00a31a4",
+      "files": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png",
+        "carousel.pdf"
+      ],
+      "generator": "claude-opus-5-5",
+      "slides": 7
+    }
   },
   "carousel": {
+    "category": "ALERTE",
     "slides": [
       {
         "kind": "cover",
-        "kicker": "CRYPTO · ALERTE",
-        "title": "Binance France ferme les comptes de ses utilisateurs",
-        "body": "Une échéance est fixée au **31 décembre**. Voici ce que l'on sait et les options possibles.",
+        "kicker": "",
+        "title": "Binance France : **fin de partie** le 31 décembre",
+        "body": "",
         "stat": "",
-        "bullets": []
+        "bullets": [],
+        "image_query": "Binance logo smartphone app crypto",
+        "image_entity": "Binance"
       },
       {
-        "kind": "text",
-        "kicker": "L'ANNONCE",
-        "title": "Ce que l'on sait à ce stade",
-        "body": "Binance France a annoncé la **fermeture des comptes** de ses utilisateurs. Les modalités précises ne figurent pas dans notre source. Référez-vous aux communications officielles de la plateforme.",
+        "kind": "content",
+        "kicker": "L'ACTU",
+        "title": "Binance France **ferme les comptes**",
+        "body": "Binance France annonce la **fermeture des comptes** de ses utilisateurs. Date retenue : le **31 décembre**. Si tu as des cryptos ou des euros sur la plateforme, tu es concerné.",
         "stat": "",
-        "bullets": []
+        "bullets": [],
+        "image_query": "Binance headquarters office sign",
+        "image_entity": "Binance"
       },
       {
         "kind": "stat",
-        "kicker": "DATE À RETENIR",
-        "title": "La fermeture est prévue en fin d'année",
-        "body": "Une date à noter dès maintenant pour anticiper. Mieux vaut éviter d'agir dans l'urgence des **derniers jours**.",
+        "kicker": "LA DATE À RETENIR",
+        "title": "Ton compte Binance France **expire**",
+        "body": "Après cette date, ton compte sera fermé. Mieux vaut **organiser ta sortie** dès maintenant que d'attendre la dernière semaine.",
         "stat": "31 décembre",
-        "bullets": []
+        "bullets": [],
+        "image_query": "calendar december 31 countdown",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LE RISQUE",
+        "title": "Attendre, c'est **prendre un risque**",
+        "body": "Si tout le monde retire au dernier moment, les délais peuvent s'allonger. Une **erreur d'adresse** lors d'un transfert crypto est souvent irréversible. Prends le temps de bien faire.",
+        "stat": "",
+        "bullets": [],
+        "image_query": "crypto transfer warning smartphone screen",
+        "image_entity": ""
       },
       {
         "kind": "list",
-        "kicker": "LES SOLUTIONS",
-        "title": "Deux options pour vos cryptos",
-        "body": "",
+        "kicker": "CE QUE TU PEUX FAIRE",
+        "title": "Tes options pour **mettre tes cryptos à l'abri**",
+        "body": "Quelques pistes générales pour ne pas te faire surprendre.",
         "stat": "",
         "bullets": [
-          "Ouvrir un compte sur une **autre plateforme**",
-          "Transférer vers un **portefeuille froid**",
-          "Vérifier l'adresse avant chaque transfert",
-          "Conserver votre historique de transactions"
-        ]
-      },
-      {
-        "kind": "text",
-        "kicker": "PORTEFEUILLE FROID",
-        "title": "Le portefeuille froid, c'est quoi ?",
-        "body": "Un support hors ligne qui stocke vos clés privées. Vous gardez le **contrôle direct** de vos actifs. En contrepartie, la sécurité de vos clés repose sur vous.",
-        "stat": "",
-        "bullets": []
-      },
-      {
-        "kind": "text",
-        "kicker": "POUR VOUS",
-        "title": "Ce que ça change pour vous",
-        "body": "Si vous détenez des actifs sur Binance France, une action est à prévoir **avant le 31 décembre**. Comparez les options selon votre situation. Ceci n'est pas un conseil d'investissement.",
-        "stat": "",
-        "bullets": []
+          "Ouvrir un compte sur une autre plateforme agréée",
+          "Transférer tes cryptos sur un portefeuille froid",
+          "Tester d'abord avec un petit montant",
+          "Télécharger ton historique de transactions pour tes impôts"
+        ],
+        "image_query": "hardware wallet cold storage crypto Ledger",
+        "image_entity": ""
       },
       {
         "kind": "cta",
-        "kicker": "RESTEZ INFORMÉ",
-        "title": "Abonnez-vous pour ne rien rater de l'actu des marchés",
-        "body": "Chaque jour, l'essentiel de la Bourse, de l'épargne et de la crypto, expliqué simplement.",
+        "kicker": "",
+        "title": "Abonne-toi au **Média de l'investisseur**",
+        "body": "pour ne rien rater de l'actu des marchés",
         "stat": "",
-        "bullets": []
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
       }
     ],
-    "caption": "Binance France annonce la fermeture des comptes de ses utilisateurs le 31 décembre. Une nouvelle qui concerne directement de nombreux épargnants français exposés aux cryptomonnaies. Les détails pratiques restent à suivre via les communications officielles de la plateforme. En attendant, deux grandes options existent : ouvrir un compte sur une autre plateforme, ou transférer ses actifs vers un portefeuille froid pour en garder le contrôle direct. Dans tous les cas, mieux vaut anticiper plutôt que d'attendre les derniers jours de l'année, et vérifier soigneusement chaque adresse de transfert. Ce contenu est informatif et ne constitue pas un conseil d'investissement. Et vous, êtes-vous concerné par cette fermeture ? Quelle option envisagez-vous : une autre plateforme ou un portefeuille froid ?",
+    "hook_alternatives": [
+      "Tu as des cryptos sur Binance ? **Date limite : 31 décembre**",
+      "Binance France ferme boutique, **tes cryptos doivent bouger**",
+      "Binance France : **compte à rebours** jusqu'au 31 décembre"
+    ],
+    "caption": "Binance France annonce la fermeture des comptes de ses utilisateurs le 31 décembre. Si tu as des cryptos ou des euros sur la plateforme, c'est le moment de t'organiser, sans paniquer mais sans traîner.\n\nDeux grandes options : ouvrir un compte sur une autre plateforme agréée, ou transférer tes cryptos sur un portefeuille froid pour en garder le contrôle. Dans tous les cas, fais un petit transfert test avant de tout bouger, vérifie bien les adresses et garde ton historique de transactions pour ta déclaration fiscale.\n\nEt toi, tu étais sur Binance ? Tu pars vers une autre plateforme ou tu passes au portefeuille froid ? Dis-le en commentaire.\n\nCeci n'est pas un conseil en investissement.",
     "hashtags": [
       "Binance",
-      "Crypto",
-      "Bitcoin",
-      "Cryptomonnaies",
-      "Epargne",
-      "Investissement",
-      "PortefeuilleCrypto"
+      "crypto",
+      "bitcoin",
+      "cryptomonnaie",
+      "portefeuillefroid",
+      "investissement",
+      "lemediadelinvestisseur"
     ],
     "generator": "claude-opus-5-5"
   }
