@@ -578,7 +578,7 @@
       "reason": "Le DPE change en 2027, un sujet concret pour tous les propriétaires.",
       "hook": "DPE 2027 : ce qui change pour les propriétaires",
       "instructions": "1 page par information",
-      "generatedAt": "2026-11-08T20:46:32.047Z",
+      "generatedAt": "2026-11-08T20:56:13.646Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-dpe-2027-6-nouvelles-informations-une-me-585b39ca26",
         "files": [
@@ -596,9 +596,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "Ton futur **DPE** dira combien de temps il reste à ton **chauffage**. C'est l'une des **6 nouveautés** prévues au **1er janvier 2027**.",
-          "Une mention **A0** apparaîtra sur certains **DPE** en **2027**. Avec une **chaudière gaz**, même en appoint, tu ne pourras pas l'obtenir.",
-          "**DPE 2027** : panneaux solaires, âge du chauffage, mention **A0**. **6 nouvelles lignes** arrivent le **1er janvier**, et certaines pèseront sur le prix de vente."
+          "**Mention A0** : le DPE change en 2027",
+          "DPE : **6 nouvelles infos** dès le 1er janvier",
+          "Chauffage électrique : ton DPE peut **gagner une lettre**"
         ]
       }
     },
@@ -2421,5 +2421,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:55:53.054Z"
+  "updatedAt": "2026-11-08T20:56:18.682Z"
 }
