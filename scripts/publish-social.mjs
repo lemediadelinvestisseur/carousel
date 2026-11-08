@@ -9,7 +9,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { parseArgs } from "node:util";
-import { loadNews, saveNews, readJson, recordUpdates, ROOT } from "./lib/store.mjs";
+import { loadNews, saveNews, readJson, recordUpdates, writeSideFile, ROOT } from "./lib/store.mjs";
 import { pageToken, whoAmI, publishInstagram, publishFacebook } from "./lib/meta.mjs";
 import { linkedinToken, myOrganizations, organizationFor, publishLinkedIn } from "./lib/linkedin.mjs";
 import { notify, dashboardUrl } from "./lib/notify.mjs";
@@ -32,13 +32,19 @@ const parisTime = (iso) =>
 // ---------------------------------------------------------------------------
 if (args.mode === "connexion") {
   let ok = 0;
+  // État des comptes, affiché dans le dashboard (page LinkedIn notamment).
+  const status = { checkedAt: new Date().toISOString(), brands: {} };
   for (const key of Object.keys(brands)) {
+    status.brands[key] = { instagram: null, facebook: null, linkedin: null };
     try {
       const me = await whoAmI(pageToken(key));
       console.log(`✓ ${brands[key].name} : Page « ${me.pageName} » (${me.pageId})${me.igId ? `, Instagram @${me.igUsername} (${me.igId})` : ", ⚠️ aucun Instagram professionnel relié"}`);
+      status.brands[key].facebook = { ok: true, name: me.pageName };
+      status.brands[key].instagram = me.igId ? { ok: true, name: `@${me.igUsername}` } : { ok: false, error: "aucun Instagram professionnel relié" };
       ok++;
     } catch (e) {
       console.log(`✗ ${brands[key].name} : ${e.message}`);
+      status.brands[key].facebook = status.brands[key].instagram = { ok: false, error: e.message };
     }
   }
   if (process.env.LINKEDIN_TOKEN) {
@@ -46,13 +52,18 @@ if (args.mode === "connexion") {
       const orgs = await myOrganizations(linkedinToken());
       console.log(`LinkedIn : Pages administrées → ${orgs.map((o) => `${o.name} (${o.id})`).join(", ") || "aucune"}`);
       for (const key of Object.keys(brands)) {
-        try { const o = await organizationFor(brands[key], linkedinToken()); console.log(`✓ ${brands[key].name} : Page LinkedIn « ${o.name} » (${o.id})`); }
-        catch (e) { console.log(`✗ ${brands[key].name} : ${e.message}`); }
+        try { const o = await organizationFor(brands[key], linkedinToken()); console.log(`✓ ${brands[key].name} : Page LinkedIn « ${o.name} » (${o.id})`); status.brands[key].linkedin = { ok: true, name: o.name }; }
+        catch (e) { console.log(`✗ ${brands[key].name} : ${e.message}`); status.brands[key].linkedin = { ok: false, error: e.message }; }
       }
     } catch (e) {
       console.log(`✗ LinkedIn : ${e.message}`);
+      for (const key of Object.keys(brands)) status.brands[key].linkedin = { ok: false, error: e.message };
     }
-  } else console.log("LinkedIn : pas encore configuré (secret LINKEDIN_TOKEN absent)");
+  } else {
+    console.log("LinkedIn : pas encore configuré (secret LINKEDIN_TOKEN absent)");
+    for (const key of Object.keys(brands)) status.brands[key].linkedin = { ok: false, error: "pas encore configuré", pending: true };
+  }
+  writeSideFile("data/social-status.json", status);
   process.exit(ok ? 0 : 1);
 }
 
@@ -119,21 +130,39 @@ async function publishItem(item, targets, { dryRun = false, force = false } = {}
 }
 
 // ---------------------------------------------------------------------------
+// Programmations : un carousel peut en avoir plusieurs (ex : Instagram à 18 h, LinkedIn le lendemain à 8 h).
+// item.schedules = [{ at, targets: "instagram,facebook", createdAt }]. L'ancien format item.scheduled est repris.
+function schedulesOf(item) {
+  const list = Array.isArray(item.schedules) ? [...item.schedules] : [];
+  if (item.scheduled?.at) list.push(item.scheduled);
+  return list.filter((s) => s && s.at && s.targets);
+}
+function setSchedules(item, list) {
+  item.schedules = list.filter((s) => parseTargets(s.targets).length).sort((a, b) => a.at.localeCompare(b.at));
+  item.scheduled = null;
+}
+/** Retire des cibles de toutes les programmations d'un carousel (une cible n'est programmée qu'une fois). */
+function withoutTargets(list, targets) {
+  return list.map((s) => ({ ...s, targets: parseTargets(s.targets).filter((t) => !targets.includes(t)).join(",") }));
+}
+
 // Publications programmées arrivées à échéance (lancé toutes les 10 minutes).
 if (args.mode === "echeances") {
   const now = Date.now();
-  const due = db.items.filter((i) => i.scheduled?.at && Date.parse(i.scheduled.at) <= now);
+  const due = db.items.filter((i) => schedulesOf(i).some((s) => Date.parse(s.at) <= now));
   if (!due.length) {
-    const next = db.items.filter((i) => i.scheduled?.at).sort((a, b) => a.scheduled.at.localeCompare(b.scheduled.at))[0];
-    console.log(`Rien à publier.${next ? ` Prochaine publication : ${parisTime(next.scheduled.at)} (${next.title}).` : ""}`);
+    const next = db.items.flatMap((i) => schedulesOf(i).map((s) => ({ s, i }))).sort((a, b) => a.s.at.localeCompare(b.s.at))[0];
+    console.log(`Rien à publier.${next ? ` Prochaine publication : ${parisTime(next.s.at)} sur ${next.s.targets} (${next.i.title}).` : ""}`);
     process.exit(0);
   }
   let failed = 0;
   for (const item of due) {
-    const { targets } = item.scheduled;
-    console.log(`Publication programmée pour ${parisTime(item.scheduled.at)} : ${item.title}`);
+    const all = schedulesOf(item);
+    const ready = all.filter((s) => Date.parse(s.at) <= now);
+    const targets = [...new Set(ready.flatMap((s) => parseTargets(s.targets)))];
+    console.log(`Publication programmée (${ready.map((s) => parisTime(s.at)).join(", ")}) sur ${targets.join(", ")} : ${item.title}`);
     try {
-      const f = await publishItem(item, parseTargets(targets));
+      const f = await publishItem(item, targets);
       failed += f;
       if (f) {
         await notify({ title: `⚠️ Publication programmée en échec — ${brands[item.brand]?.name}`, message: `${item.title}\n${item.publishError || ""}`, click: dashboardUrl() || undefined, tags: ["warning"], priority: 4 });
@@ -144,7 +173,8 @@ if (args.mode === "echeances") {
       console.error(`  ✗ ${e.message}`);
       await notify({ title: `⚠️ Publication programmée en échec — ${brands[item.brand]?.name}`, message: `${item.title}\n${e.message}`, click: dashboardUrl() || undefined, tags: ["warning"], priority: 4 });
     }
-    item.scheduled = null; // pas de nouvel essai automatique : on prévient l'éditeur en cas d'échec
+    // Les programmations échues sont retirées (pas de nouvel essai automatique : l'éditeur est prévenu en cas d'échec).
+    setSchedules(item, all.filter((s) => Date.parse(s.at) > now));
   }
   save(due);
   process.exit(failed ? 1 : 0);
@@ -159,25 +189,30 @@ if (args.mode === "programmer") {
   if (!args.at || Number.isNaN(at)) throw new Error(`Date de publication invalide : « ${args.at} »`);
   if (item.status !== "done" || !item.carousel) throw new Error("Ce carousel n'est pas encore généré");
   if (at < Date.now() - 5 * 60e3) throw new Error(`La date choisie (${parisTime(args.at)}) est déjà passée`);
-  item.scheduled = { at: new Date(at).toISOString(), targets: parseTargets(args.targets).join(","), createdAt: new Date().toISOString() };
+  const targets = parseTargets(args.targets);
+  const entry = { at: new Date(at).toISOString(), targets: targets.join(","), createdAt: new Date().toISOString() };
+  setSchedules(item, [...withoutTargets(schedulesOf(item), targets), entry]);
   item.publishError = null;
   save([item]);
-  console.log(`🕒 Programmé pour ${parisTime(item.scheduled.at)} (heure de Paris) sur ${item.scheduled.targets}`);
+  console.log(`🕒 Programmé pour ${parisTime(entry.at)} (heure de Paris) sur ${entry.targets}`);
   process.exit(0);
 }
 
 if (args.mode === "annuler") {
-  const had = !!item.scheduled;
-  item.scheduled = null;
+  // Sans cible précisée (ou avec toutes) : tout est annulé ; sinon seulement les réseaux indiqués.
+  const targets = process.env.INPUT_TARGETS || process.argv.includes("--targets") ? parseTargets(args.targets) : ["instagram", "facebook", "linkedin"];
+  const before = schedulesOf(item);
+  setSchedules(item, withoutTargets(before, targets));
   save([item]);
-  console.log(had ? "Programmation annulée." : "Aucune programmation à annuler.");
+  console.log(before.length ? `Programmation annulée pour ${targets.join(", ")}.` : "Aucune programmation à annuler.");
   process.exit(0);
 }
 
 const dryRun = args.mode !== "publier";
-const failed = await publishItem(item, parseTargets(args.targets), { dryRun, force: args.force });
+const targetsNow = parseTargets(args.targets);
+const failed = await publishItem(item, targetsNow, { dryRun, force: args.force });
 if (!dryRun) {
-  item.scheduled = null; // publié à la main : la programmation éventuelle n'a plus lieu d'être
+  setSchedules(item, withoutTargets(schedulesOf(item), targetsNow)); // publié à la main sur ces réseaux : leur programmation tombe
   save([item]);
 }
 process.exit(failed ? 1 : 0);
