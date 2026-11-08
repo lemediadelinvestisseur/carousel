@@ -1,17 +1,15 @@
-Au 1er janvier 2027, ton DPE affichera six nouvelles informations et une mention A0.
+Au 1er janvier 2027, ton DPE va s'enrichir de six nouvelles informations.
 
-Le changement vient d'un arrêté du 11 juin 2026, qui transpose une directive européenne. Il concerne les logements existants en France métropolitaine et s'applique aux diagnostics réalisés à partir du 1er janvier 2027. Les seuils des classes A à G ne bougent pas.
+C'est la transposition d'une directive européenne de 2024, actée en France par un arrêté du 11 juin 2026. Elle concerne uniquement les logements existants en métropole : le neuf, le tertiaire et l'outre-mer relèvent d'autres textes.
 
-Si ton DPE est encore valide, tu n'as rien à refaire. Il ne contiendra simplement pas ces nouvelles rubriques. Jusqu'en 2037, deux générations de DPE vont donc circuler : avant de comparer deux biens, regarde la date du diagnostic.
+• Ton étiquette ne bougera pas avec cette réforme, car les classes A à G et leurs seuils restent les mêmes. Ton DPE actuel reste aussi valable dix ans, simplement sans ces nouvelles données.
 
-• La mention A0 ne donne droit à aucune aide. C'est un argument de vente, rien de plus.
+• Une mention A0 apparaîtra pour les logements à émissions nulles. Il faudra être classé A ou B et n'avoir aucun chauffage fossile : un logement chauffé au gaz n'y aura jamais droit.
 
-• Trois des nouvelles informations (durée de vie du chauffage, flexibilité, basse température) seront estimées, sans barème officiel publié à ce jour.
+Une autre réforme vise les logements chauffés à l'électricité. Selon l'arrêté du 19 août 2026, le coefficient qui convertit l'électricité en énergie primaire passera de 1,9 à 1,7. Certains logements électriques pourront gagner une classe sans travaux, et une attestation gratuite de nouvelle étiquette est proposée sur le site de l'Ademe.
 
-Une autre réforme entre en vigueur le même jour, à ne pas confondre avec celle-ci : le coefficient de l'électricité passera de 1,9 à 1,7. Pour un logement chauffé à l'électricité, l'étiquette pourra gagner une classe, parfois deux. Environ 300 000 logements devraient sortir des classes F et G sans aucuns travaux. Si c'est ton cas, tu pourras télécharger gratuitement une attestation de mise à jour sur l'Observatoire DPE-Audit de l'ADEME.
+Si tu achètes, regarde bien la date du DPE : jusqu'en 2037, anciens et nouveaux diagnostics circuleront en même temps. Et si tu possèdes un logement classé F, il te reste moins de 14 mois avant qu'il soit interdit à la location, le 1er janvier 2028.
 
-Le calendrier, lui, ne change pas : les logements G sont interdits à la location depuis 2025, les F le seront en 2028 et les E en 2034.
-
-Ton DPE date de quand, et tu comptes le refaire en 2027 ?
+Ton logement est chauffé à l'électricité ou au gaz ?
 
 🔖 Enregistre ce post et partage-le à quelqu'un de concerné.
