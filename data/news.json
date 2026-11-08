@@ -937,7 +937,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Point juridique pratique, mais de niche.",
       "hook": "Votre voisin peut déplacer votre droit de passage"
@@ -1198,5 +1198,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:43:06.616Z"
+  "updatedAt": "2026-11-08T18:43:10.291Z"
 }
