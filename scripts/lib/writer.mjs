@@ -24,7 +24,6 @@ export const CarouselSchema = z.object({
   slides: z.array(Slide).describe("4 à 9 pages selon la richesse du sujet : cover, 2 à 7 pages intérieures, cta"),
   hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, avec **…**"),
   caption: z.string().describe("Description du post Instagram (150 à 280 mots), selon les règles DESCRIPTION DU POST, sans hashtags ni sources"),
-  hashtags: z.array(z.string()).describe("5 à 8 hashtags sans le #"),
   sources: z.array(z.string()).describe("Noms des médias utilisés comme sources (ex : Cointelegraph, Les Echos)"),
 });
 
@@ -121,18 +120,25 @@ ILLUSTRATIONS (une photo différente par page, liée à ce que dit la page) :
 
 const CAPTION_GUIDE = (brand) => `DESCRIPTION DU POST (caption) — c'est le texte affiché sous le carousel, il complète les images :
 - 1re ligne : la phrase d'accroche qui résume l'info (elle apparaît avant « … plus »). Factuelle et forte.
-- Puis 4 à 7 paragraphes très courts (1 à 3 phrases), séparés par une ligne vide. Tu peux commencer certains paragraphes par « • » et des amorces naturelles : « Dans les faits : », « Comment en est-on arrivé là ? », « En clair : », « Bref. », « Le signal à suivre : ».
+- Puis 4 à 7 paragraphes courts (1 à 3 phrases), séparés par une ligne vide. Tu peux commencer un ou deux paragraphes par « • ».
 - Donne plus de détails que les images : chiffres précis, comparaisons parlantes (« la commande pèse moins d'une journée de ventes »), contexte, ce que ça change pour le lecteur, ce qu'il faut surveiller.
 - Termine par une question qui pousse à commenter, puis une ligne d'appel : « 🔔 Abonne-toi à ${brand.handle} pour ne rien rater de l'actu qui touche ton argent. » ou « 🔖 Enregistre ce post et partage-le à quelqu'un de concerné. »
-- 1 à 3 emojis maximum dans tout le texte. Pas de hashtags (ils sont ajoutés après).
+- 1 à 3 emojis maximum dans tout le texte.
+- AUCUN hashtag, AUCUNE mention des sources.
+
+ÉCRIRE COMME UN HUMAIN (la description doit sonner comme un journaliste qui parle à un ami, pas comme une IA) :
+- Phrases complètes et précises, avec le bon temps : « si tu laisses tes cryptos sur la plateforme, ça te coûtera de l'argent », jamais la version raccourcie « ça te coûte ».
+- Pas de formules toutes faites ni de tics : évite « En clair : », « Bref. », « Le signal à suivre », « Dans les faits : », « Spoiler : », « Et ce n'est pas tout », « Le hic », les questions rhétoriques à répétition, les tirets cadratins.
+- Pas de phrases sans verbe enchaînées, pas d'effets de style forcés : dis les choses simplement.
+- Relis chaque phrase en te demandant : « est-ce qu'un journaliste français l'écrirait comme ça ? » Sinon, réécris-la.
 - Exemple du ton attendu :
 « Binance ferme la porte à ses utilisateurs français.
 
-C'est officiel : au 31 décembre 2026, tous les comptes des utilisateurs français seront clôturés. La raison ? Pas d'agrément MiCA, l'autorisation devenue obligatoire en Europe.
+C'est officiel : au 31 décembre 2026, tous les comptes des utilisateurs français seront clôturés. La raison ? Binance n'a pas obtenu l'agrément MiCA, l'autorisation devenue obligatoire en Europe.
 
-Et il y a une date à ne pas rater : le 29 novembre. À partir de là, Binance prélève des frais : 0,025 % de ton solde par mois, avec 10 USDC minimum.
+Il y a une date à ne pas rater : le 29 novembre. À partir de là, Binance prélèvera des frais de 0,025 % de ton solde par mois, avec un minimum de 10 USDC.
 
-En clair : si tu laisses tes cryptos sur la plateforme, ça te coûte. Les dépôts sont déjà coupés. Après le 31 décembre, un compte encore actif voit ses fonds convertis ou transférés… sans que tu choisisses où.
+Si tu laisses tes cryptos sur la plateforme, ça te coûtera donc de l'argent. Les dépôts sont déjà bloqués, et après le 31 décembre, les fonds encore présents pourront être convertis ou transférés sans que tu choisisses où.
 
 Tu as un compte Binance en France ? Retire ou transfère tes cryptos avant le 29 novembre.
 
@@ -221,8 +227,7 @@ export function fallbackCarousel(item, brand) {
     category: (brand.categories || ["Actualité"])[0],
     slides,
     hook_alternatives: [],
-    caption: `${title}\n\n${item.summary || ""}\n\nSource : ${item.source}`,
-    hashtags: brand.name === "21m2" ? ["immobilier", "investissementimmobilier", "21m2"] : ["bourse", "investissement", "finance"],
+    caption: `${title}\n\n${item.summary || ""}`.trim(),
     sources: [item.source],
     generator: "fallback",
   };
