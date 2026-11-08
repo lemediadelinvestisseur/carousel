@@ -578,7 +578,7 @@
       "reason": "Le DPE change en 2027, un sujet concret pour tous les propriétaires.",
       "hook": "DPE 2027 : ce qui change pour les propriétaires",
       "instructions": "1 page par information",
-      "generatedAt": "2026-11-08T20:15:40.193Z",
+      "generatedAt": "2026-11-08T20:34:46.688Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-dpe-2027-6-nouvelles-informations-une-me-585b39ca26",
         "files": [
@@ -596,9 +596,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "Dans **54 jours**, le **DPE** change deux fois. Un logement **tout électrique** pourra gagner une **classe** sans faire de travaux.",
-          "**Près de 300 000 logements** sortiront du statut de **passoire thermique** le **1er janvier 2027**, sans travaux. Le DPE affichera aussi une nouvelle mention **A0**.",
-          "Ta **chaudière gaz** t'empêchera d'obtenir la mention **A0**, la nouveauté du **DPE 2027**, même si ta maison est classée **B**."
+          "Au **1er janvier 2027**, le **DPE** ajoutera **six rubriques** sur ton logement, dont la **durée de vie** de ton chauffage. Les lettres, elles, ne bougent pas.",
+          "Une mention **A0** arrive sur le **DPE** en **2027**. Avec une chaudière au **gaz** ou au fioul, ton logement ne pourra jamais l'obtenir.",
+          "Chauffage électrique : ton **DPE** peut gagner une lettre le **1er janvier 2027**, sans travaux. Le coefficient passe de **1,9 à 1,7**."
         ]
       }
     },
@@ -2382,5 +2382,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:34:35.689Z"
+  "updatedAt": "2026-11-08T20:34:51.281Z"
 }
