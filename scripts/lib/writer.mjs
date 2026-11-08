@@ -13,7 +13,7 @@ const Slide = z.object({
   kind: z.enum(["cover", "content", "list", "cta"]),
   kicker: z.string().describe("Étiquette de la page en majuscules, 1 à 3 mots (LE CONTEXTE, CE QUI CHANGE, LE RISQUE, LES SOLUTIONS, ET APRÈS ?…). Vide pour cover et cta"),
   title: z.string().describe("cover : la phrase de couverture. content/list : titre court et naturel. cta : la question posée au lecteur. Mots-clés entre **…**"),
-  body: z.string().describe("content : 1 ou 2 paragraphes (séparés par un saut de ligne), 30 à 55 mots au total. cta : l'invitation à commenter. Vide pour cover et list"),
+  body: z.string().describe("content : 1 ou 2 paragraphes (séparés par un saut de ligne), 30 à 55 mots au total. cta : l'invitation à commenter. list : vide. cover : vide, sauf si les consignes du compte demandent un sous-titre de couverture"),
   bullets: z.array(z.string()).describe("list : 3 étapes ou options concrètes de 10 à 22 mots, sinon tableau vide"),
   image_query: z.string().describe("Recherche d'image précise liée au texte de la page (ex : 'Ledger Nano X', 'Changpeng Zhao', 'siège AMF Paris'). Vide pour cta"),
   image_entity: z.string().describe("Titre Wikipédia de la personne, entreprise, produit ou lieu montré, sinon vide"),

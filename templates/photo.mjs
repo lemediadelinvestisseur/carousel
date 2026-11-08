@@ -18,6 +18,13 @@ function coverSize(t) {
   if (n <= 160) return 60;
   return 54;
 }
+function headlineSize(t) {
+  const n = plain(t).length;
+  if (n <= 30) return 100;
+  if (n <= 45) return 88;
+  if (n <= 60) return 78;
+  return 68;
+}
 function titleSize(t) {
   const n = plain(t).length;
   if (n <= 30) return 76;
@@ -73,7 +80,9 @@ function cover(s, ctx) {
   const image = src ? `<img class="bg" ${place || ""} src="${src}" alt="">` : `<div class="bg fallback"></div>`;
   return `${image}<div class="shade-cover"></div>
     ${ctx.category ? `<div class="pill">${esc(ctx.category)}</div>` : ""}
-    <h1 style="font-size:${coverSize(s.title)}px">${bold(s.title)}</h1>
+    ${ctx.brand.coverStyle === "headline" && s.body
+      ? `<div class="cover-block"><h1 class="headline" style="font-size:${headlineSize(s.title)}px">${bold(s.title)}</h1><p class="cover-sub">${bold(s.body)}</p></div>`
+      : `<h1 style="font-size:${coverSize(s.title)}px">${bold(s.title)}</h1>`}
     <div class="cover-foot">${logo(ctx.brand, "md")}</div>`;
 }
 
@@ -85,21 +94,14 @@ function boxImage(img, boxW, boxH) {
   const f = img.focus || { x: 0.25, y: 0.25, w: 0.5, h: 0.5 };
   const s = Math.max(boxW / img.width, boxH / img.height);
   const iw = img.width * s, ih = img.height * s;
-  // Le sujet ne tient pas dans le cadre (ex : tour Eiffel dans un cadre très allongé) :
-  // on montre la photo entière, sur un fond flouté de la même photo, plutôt que de la couper.
-  if (f.h * ih > boxH * 1.02 || f.w * iw > boxW * 1.02) {
-    const c = Math.min(boxW / img.width, boxH / img.height);
-    const cw = img.width * c, chh = img.height * c;
-    return `<img class="fill blurfill" src="${src}" alt=""><img class="placed" style="width:${cw.toFixed(0)}px;height:${chh.toFixed(0)}px;left:${((boxW - cw) / 2).toFixed(0)}px;top:${((boxH - chh) / 2).toFixed(0)}px" src="${src}" alt="">`;
-  }
   const cx = (f.x + f.w / 2) * iw, cy = (f.y + f.h / 2) * ih;
   const left = Math.min(0, Math.max(boxW - iw, boxW / 2 - cx));
   const top = Math.min(0, Math.max(boxH - ih, boxH / 2 - cy, -f.y * ih + 15));
   return `<img class="placed" style="width:${iw.toFixed(0)}px;height:${ih.toFixed(0)}px;left:${left.toFixed(0)}px;top:${top.toFixed(0)}px" src="${src}" alt="">`;
 }
 
-const IMG_BOTTOM_H = 600; // page « texte en haut, photo en bas »
-const IMG_TOP_H = 450; // page « photo en haut, texte en bas »
+const IMG_BOTTOM_H = 640; // page « texte en haut, photo en bas »
+const IMG_TOP_H = 520; // page « photo en haut, texte en bas »
 
 // --- Pages intérieures « texte » (21m2) : fond bleu nuit, mots-clés en couleur, cartes blanches à gros chiffres.
 const STOP = new Set(["le", "la", "les", "l", "un", "une", "des", "du", "de", "et", "en", "ce", "qui", "que", "pour", "a", "à"]);
@@ -201,6 +203,11 @@ b{font-weight:800}
 .pill{position:absolute;left:80px;top:90px;border:5px solid #fff;border-radius:30px;padding:4px 30px 7px;font-weight:800;font-size:44px;background:rgba(0,0,0,.55);z-index:2}
 h1{position:absolute;left:80px;right:80px;bottom:240px;font-family:var(--ft);font-weight:500;line-height:1.22;letter-spacing:-.005em}
 h1 b{font-weight:800}
+.cover-block{position:absolute;left:80px;right:80px;bottom:220px}
+.cover-block h1.headline{position:static;font-weight:700;line-height:1.04;letter-spacing:-.02em;margin-bottom:28px}
+.cover-block h1.headline b{color:var(--accent);font-weight:700}
+.cover-sub{font-size:38px;line-height:1.38;font-weight:500;color:#E3E8FA}
+.cover-sub b{color:#fff;font-weight:800}
 .cover-foot{position:absolute;left:80px;right:80px;bottom:72px;display:flex;justify-content:center;align-items:center}
 .wordmark{font-weight:800;letter-spacing:.18em;line-height:1.3;text-align:center;text-transform:uppercase}
 .wordmark.md{font-size:22px}.wordmark.sm{font-size:20px}
@@ -211,8 +218,8 @@ h1 b{font-weight:800}
 .photo.top{top:0}.photo.bottom{bottom:0}
 .photo .placed{position:absolute;max-width:none}
 .photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.photo.top::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 70%,rgba(7,10,18,.9) 100%)}
-.photo.bottom::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,0) 70%,rgba(7,10,18,.9) 100%)}
+.photo.top::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 82%,rgba(7,10,18,.75) 100%)}
+.photo.bottom::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,0) 82%,rgba(7,10,18,.75) 100%)}
 .text{position:absolute;left:96px;right:96px;overflow:hidden}
 .text.top{top:110px;bottom:${IMG_BOTTOM_H + 40}px}
 .text.under{top:${IMG_TOP_H + 40}px;bottom:130px}
@@ -253,7 +260,6 @@ p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 .tx-photo{position:relative;height:520px;border-radius:30px;overflow:hidden;margin-top:30px;flex:none}
 .tx-photo .placed{position:absolute;max-width:none}
 .tx-photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.blurfill{filter:blur(28px) brightness(.85) saturate(1.1);transform:scale(1.15)}
 
 /* Dernière page */
 .cta{position:absolute;left:96px;right:96px;top:150px}
@@ -286,7 +292,8 @@ document.querySelectorAll('.text').forEach(t=>{
   }
   for(let k=0;k<14&&over()>2;k++) t.querySelectorAll('h2,p,li,.stat,.card .lab,.card .big').forEach(el=>{el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px'});
 });
-document.querySelectorAll('h1').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
+document.querySelectorAll('h1:not(.headline)').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
+document.querySelectorAll('.cover-block').forEach(b=>{const h=b.querySelector('h1'),p=b.querySelector('.cover-sub');for(let k=0;k<12&&b.getBoundingClientRect().top<520;k++){[h,p].forEach(el=>el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px')}});
 }
 window.__fitDone=document.fonts.ready.then(fit);
 </script>
