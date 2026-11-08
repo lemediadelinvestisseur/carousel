@@ -811,7 +811,7 @@
         {
           "at": "2026-11-09T15:30:00.000Z",
           "targets": "instagram,facebook",
-          "createdAt": "2026-11-08T23:07:05.788Z"
+          "createdAt": "2026-11-08T23:07:33.458Z"
         }
       ],
       "scheduled": null,
@@ -2677,5 +2677,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T23:07:05.788Z"
+  "updatedAt": "2026-11-08T23:07:33.459Z"
 }
