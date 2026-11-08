@@ -1009,7 +1009,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Cyberattaque de 100 M€ sur une banque française, inquiétant pour les clients.",
       "hook": "100 M€ volés au Crédit Mutuel Arkéa"
@@ -1201,5 +1201,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:36:12.068Z"
+  "updatedAt": "2026-11-08T18:36:16.810Z"
 }
