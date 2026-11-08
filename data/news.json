@@ -806,7 +806,16 @@
           "Jusqu'à **12,7 %** brut : le top 5 du locatif",
           "Locatif : le **top 5** des villes les plus rentables"
         ]
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-09T15:30:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-08T23:07:05.788Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "bc5df90509",
@@ -2668,5 +2677,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T23:06:03.108Z"
+  "updatedAt": "2026-11-08T23:07:05.788Z"
 }
