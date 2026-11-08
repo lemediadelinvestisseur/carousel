@@ -1,4 +1,7 @@
 {
   "date": "2026-11-08",
-  "reminded": {}
+  "reminded": {
+    "investisseur": true,
+    "21m2": true
+  }
 }
