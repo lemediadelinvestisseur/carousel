@@ -6,7 +6,7 @@ import { z } from "zod/v4";
 const Slide = z.object({
   kind: z.enum(["cover", "content", "stat", "list", "quote", "cta"]),
   kicker: z.string().describe("Étiquette courte en majuscules (1 à 3 mots), ex : LE CONTEXTE, POURQUOI, LES CRAINTES. Vide pour cover et cta"),
-  title: z.string().describe("Titre. Pour cover : l'accroche. Entoure de **…** le passage à surligner (1 seul par titre)"),
+  title: z.string().describe("Titre. Pour cover : la phrase d'accroche (voir règles), mots-clés entre **…**. Pour les autres slides : 1 seul passage entre **…**"),
   body: z.string().describe("Texte : 15 à 45 mots. **…** pour mettre en valeur 1 ou 2 mots-clés. Vide pour cover"),
   stat: z.string().describe("Pour kind=stat : le chiffre clé tel qu'écrit dans la source (ex : '80,7 Md$', '+18 %'), sinon vide"),
   bullets: z.array(z.string()).describe("Pour kind=list : 3 à 4 puces de 4 à 12 mots, sinon tableau vide"),
@@ -15,24 +15,25 @@ const Slide = z.object({
 });
 
 export const CarouselSchema = z.object({
-  category: z.string().describe("Étiquette de la couverture, 1 à 2 mots en majuscules : ACTU, RÉSULTATS, TOP/FLOP, ALERTE, CRYPTO, MARCHÉS, FRENCH TECH, ÉPARGNE, IMPÔTS, IMMO…"),
+  category: z.string().describe("Étiquette de la couverture, à choisir parmi les étiquettes autorisées du compte"),
   slides: z.array(Slide).describe("5 à 8 slides : la 1re est 'cover', la dernière est 'cta'"),
   hook_alternatives: z.array(z.string()).describe("3 autres accroches possibles pour la couverture, avec **…**"),
   caption: z.string().describe("Légende du post (80-150 mots), avec une question pour engager"),
   hashtags: z.array(z.string()).describe("5 à 8 hashtags sans le #"),
 });
 
-const HOOK_GUIDE = `L'ACCROCHE (slide 1) EST LE PLUS IMPORTANT : elle décide si les gens swipent.
-- 5 à 11 mots. Langage parlé, direct, comme un pote qui s'y connaît en finance.
-- Un seul passage entre **…** : le « punch » (le chiffre choc, le retournement, la conséquence). Il sera surligné.
-- Formules qui marchent :
-  • le paradoxe chiffré : « Anthropic : chiffre d'affaires multiplié par 15, **perte de 80,7 Md$** »
-  • le contraste / jeu de mots : « L'IA fait décoller SpaceX, **Starlink paie la facture** »
-  • l'expression familière : « **Ça pique** pour les valeurs de l'IA »
-  • la conséquence perso : « Ton Livret A va **moins rapporter** »
-  • le compte à rebours : « Binance France : **plus que 52 jours** pour sortir tes cryptos »
-- Interdits : les titres de presse plats (« X annonce Y »), le clickbait mensonger, les points d'exclamation, les emojis, les questions vagues (« Et si… ? »).
-- Le nom de l'entreprise ou de la personne connue apparaît dans l'accroche quand c'est possible.`;
+const HOOK_GUIDE = `LA COUVERTURE (slide 1) EST LE PLUS IMPORTANT : elle décide si les gens swipent.
+Format validé : une phrase informative de 15 à 28 mots (une ou deux phrases), qui donne l'info principale ET une raison de lire la suite.
+- 3 à 5 mots-clés entre **…** (mis en gras) : le nom de l'entreprise ou de la personne, les chiffres, la date, le mot qui choque. Jamais une phrase entière en gras.
+- Exemples du style attendu :
+  • « **Binance** fermera les comptes de ses **utilisateurs français** le **31 décembre**. Il te reste **53 jours** pour agir. »
+  • « Le **plafond** du **Livret A** pourrait monter jusqu'à **30 000** euros en février 2027. Il n'avait plus **bougé** depuis **2013**. »
+  • « **GTA 6** dépasserait **600 millions** de dollars de précommandes alors que l'action Take-Two touche son **plus bas de l'année**. »
+  • « **Barbie** a **67 ans** et elle rapporte toujours plus d'**un milliard** de dollars de ventes par an à Mattel. »
+- La 2e partie crée l'envie de swiper : une conséquence pour le lecteur, un contraste, une question (« Quel impact sur… ? », « Pourquoi… ? »).
+- TEMPS DES VERBES : futur pour ce qui n'a pas encore eu lieu (« fermera », « augmentera »), conditionnel pour ce qui n'est pas confirmé (« pourrait », « dépasserait »), passé pour ce qui est fait. Ne présente jamais une annonce comme un fait accompli.
+- Décompte (« il te reste X jours ») : calcule-le exactement à partir de la date du jour fournie.
+- Interdits : clickbait mensonger, points d'exclamation, emojis, majuscules à outrance.`
 
 const PLAN_GUIDE = `PLAN DU CAROUSEL (adapte selon la richesse de la source) :
 1. cover : l'accroche.
@@ -65,14 +66,17 @@ RÈGLES DE FOND :
 - kind=quote seulement pour une citation réelle présente dans la source.
 
 ILLUSTRATIONS${photo ? " (chaque slide sauf cta a une photo)" : ""} :
-- image_query : ce qu'il faut chercher sur Google Images. Pour la cover, vise la personne au cœur du sujet (dirigeant en conférence, portrait) ou, à défaut, l'entreprise (logo sur le siège, produit phare). Pour les autres slides, varie : produit, bâtiment, dirigeant, objet symbolique (billets, graphique boursier, Bourse de Paris, smartphone avec l'appli…).
+- image_query : ce qu'il faut chercher sur Google Images. Pour la cover, vise une photo de presse de qualité, en haute résolution : la personne au cœur du sujet (dirigeant en conférence, portrait) ou l'entreprise (logo sur la façade du siège, logo sur un smartphone, produit phare, magasin). Ajoute « photo » ou le nom du lieu plutôt que des termes génériques. Pour les autres slides, varie : produit, bâtiment, dirigeant, objet symbolique (billets, graphique boursier, Bourse de Paris, smartphone avec l'appli…).
 - Écris la requête dans la langue où l'on trouve les meilleures photos (souvent l'anglais pour les sujets internationaux).
 - image_entity : le titre Wikipédia de la personne ou de l'entreprise si elle existe (sert de photo de secours).
 - Évite deux fois la même requête.
 
 SLIDE FINALE (cta) :
 - title : « ${brand.ctaSlide?.title || `Abonne-toi à ${brand.name}`} » (garde cette formule, tu peux mettre **…** sur le nom).
-- body : « ${brand.ctaSlide?.subtitle || "pour ne rien rater de l'actu"} ».`;
+- body : « ${brand.ctaSlide?.subtitle || "pour ne rien rater de l'actu"} ».
+
+ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["Actualité"]).map((c) => `« ${c} »`).join(", ")}.
+Choisis « Le saviez-vous ? » pour un fait étonnant ou historique, « Résultats » pour des résultats d'entreprise, « Données » pour une statistique ou une étude, sinon « Actualité ».`;
 }
 
 export async function writeCarousel({ item, brand, articleText, instructions }) {
@@ -81,7 +85,10 @@ export async function writeCarousel({ item, brand, articleText, instructions }) 
     return fallbackCarousel(item, brand);
   }
   const client = new Anthropic();
-  const userContent = `ACTUALITÉ
+  const today = new Date().toLocaleDateString("fr-FR", { timeZone: "Europe/Paris", weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  const userContent = `DATE DU JOUR (publication) : ${today}
+
+ACTUALITÉ
 Titre : ${item.title}
 Source : ${item.source} — ${item.link}
 Date : ${item.publishedAt}
@@ -90,7 +97,7 @@ ${item.reason ? `Pourquoi ça intéresse notre public : ${item.reason}\n` : ""}$
 TEXTE DE L'ARTICLE (peut être incomplet ou vide) :
 ${articleText || "(non disponible — base-toi uniquement sur le titre et le résumé)"}
 ${instructions ? `\nCONSIGNES SPÉCIFIQUES DE L'ÉDITEUR (prioritaires) :\n${instructions}\n` : ""}
-Rédige le carousel. Commence par chercher la meilleure accroche possible : imagine-en une dizaine, garde la plus forte pour la cover et mets 3 autres bonnes dans hook_alternatives.`;
+Rédige le carousel. Commence par chercher la meilleure phrase de couverture : imagine-en une dizaine, garde la plus forte pour la cover et mets 3 autres bonnes dans hook_alternatives.`;
 
   try {
     const res = await client.beta.messages.parse({
@@ -128,7 +135,7 @@ export function fallbackCarousel(item, brand) {
   sents.slice(stat ? 1 : 0, 3).forEach((s, i) => slides.push({ ...base, kind: "content", kicker: i === 0 ? "L'ACTU" : "EN DÉTAIL", title: "", body: s }));
   slides.push({ ...base, kind: "cta", title: brand.ctaSlide?.title || brand.cta, body: brand.ctaSlide?.subtitle || brand.handle });
   return {
-    category: "ACTU",
+    category: (brand.categories || ["Actualité"])[0],
     slides,
     hook_alternatives: [],
     caption: `${title}\n\n${item.summary || ""}\n\nSource : ${item.source}\n\nQu'en pensez-vous ?`,

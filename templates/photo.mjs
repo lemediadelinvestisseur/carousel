@@ -1,16 +1,20 @@
-// Template « photo » (1080 x 1350) : couverture photo plein écran + accroche surlignée,
-// slides d'explication illustrées, slide finale d'abonnement avec maquette de profil.
+// Template « photo » (1080 x 1350).
+// Couverture (validée) : photo plein écran cadrée sur le sujet sans agrandissement, étiquette en haut
+// à gauche, phrase informative avec mots-clés en gras, dégradé bleu, nom du média centré + flèche.
+// Puis slides d'explication illustrées et slide finale d'abonnement.
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const hl = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>');
 const strong = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 const plain = (s) => String(s ?? "").replace(/\*\*/g, "");
 
+const bold = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/(\d) (?=[\p{L}%€$])/gu, "$1&nbsp;");
+
 function coverSize(t) {
   const n = plain(t).length;
-  if (n <= 40) return 92;
-  if (n <= 60) return 82;
-  if (n <= 85) return 72;
-  return 62;
+  if (n <= 70) return 72;
+  if (n <= 125) return 66;
+  if (n <= 160) return 60;
+  return 54;
 }
 function titleSize(t) {
   const n = plain(t).length;
@@ -19,20 +23,55 @@ function titleSize(t) {
   return 58;
 }
 
+// Nom du média en texte, sur deux lignes (« LE MÉDIA DE » / « L'INVESTISSEUR »).
 function logo(brand, size = "md") {
   if (brand.logoDataUri) return `<img class="logo-img ${size}" src="${brand.logoDataUri}" alt="">`;
-  return `<div class="logo ${size}"><span class="logo-mark">${esc(brand.logoMark || brand.name[0])}</span><span>${esc(brand.logoText || brand.name)}</span></div>`;
+  const lines = brand.wordmark || [brand.name];
+  return `<div class="wordmark ${size}">${lines.map(esc).join("<br>")}</div>`;
 }
 
+// Une image peut être une simple URL/dataUri ou un objet { src, width, height, focus }.
+const srcOf = (img) => (img && typeof img === "object" ? img.src : img);
+
 function bg(img, cls = "") {
-  return img ? `<img class="bg ${cls}" src="${img}" alt="">` : `<div class="bg fallback ${cls}"></div>`;
+  const src = srcOf(img);
+  return src ? `<img class="bg ${cls}" src="${src}" alt="">` : `<div class="bg fallback ${cls}"></div>`;
+}
+
+/**
+ * Placement de la photo de couverture : jamais agrandie (sauf de 10 % au plus), largeur 1080 couverte,
+ * sujet (focus, en fractions de l'image) placé dans la moitié haute, au-dessus du texte.
+ * Si la photo n'est pas assez haute, son bas se fond dans le dégradé.
+ */
+function coverPlacement(img) {
+  if (!img || typeof img !== "object" || !img.width || !img.height) return null;
+  const W = 1080, H = 1350, TEXT_TOP = 760;
+  const f = img.focus || { x: 0.5, y: 0.4, w: 0.5, h: 0.5 };
+  let s = Math.max(W / img.width, TEXT_TOP / img.height);
+  // Si on peut réduire l'image en gardant le sujet entier, on dézoome (jusqu'à couvrir la largeur).
+  const subjectW = f.w * img.width, subjectH = f.h * img.height;
+  const maxFit = Math.min((W * 0.92) / subjectW, (TEXT_TOP * 0.82) / subjectH);
+  if (maxFit < 1 && maxFit > s) s = Math.min(1, maxFit);
+  s = Math.min(Math.max(s, W / img.width, TEXT_TOP / img.height), Math.max(1, W / img.width, TEXT_TOP / img.height));
+  const iw = img.width * s, ih = img.height * s;
+  const cx = (f.x + f.w / 2) * iw, cy = (f.y + f.h / 2) * ih;
+  const left = Math.min(0, Math.max(W - iw, W / 2 - cx));
+  // Haut : le sujet vers 35 % de la zone photo ; l'image doit au moins descendre jusqu'au texte,
+  // et couvrir toute la hauteur si elle en est capable.
+  const minTop = ih >= H ? H - ih : TEXT_TOP - ih;
+  const top = Math.min(0, Math.max(minTop, TEXT_TOP * 0.45 - cy));
+  const fade = ih + top < H;
+  return `style="inset:auto;object-fit:fill;width:${iw.toFixed(0)}px;height:${ih.toFixed(0)}px;left:${left.toFixed(0)}px;top:${top.toFixed(0)}px${fade ? ";-webkit-mask-image:linear-gradient(180deg,#000 75%,transparent 99%)" : ""}"`;
 }
 
 function cover(s, ctx) {
-  return `${bg(ctx.img)}<div class="shade-cover"></div>
+  const src = srcOf(ctx.img);
+  const place = coverPlacement(ctx.img);
+  const image = src ? `<img class="bg" ${place || ""} src="${src}" alt="">` : `<div class="bg fallback"></div>`;
+  return `${image}<div class="shade-cover"></div>
     ${ctx.category ? `<div class="pill">${esc(ctx.category)}</div>` : ""}
-    <h1 style="font-size:${coverSize(s.title)}px">${hl(s.title)}</h1>
-    <div class="cover-logo">${logo(ctx.brand)}</div>`;
+    <h1 style="font-size:${coverSize(s.title)}px">${bold(s.title)}</h1>
+    <div class="cover-foot">${logo(ctx.brand, "md")}</div>`;
 }
 
 function contentSlide(s, ctx) {
@@ -64,7 +103,7 @@ function contentSlide(s, ctx) {
 function cta(s, ctx) {
   const b = ctx.brand;
   const c = b.ctaSlide || {};
-  const thumbs = ctx.allImages.filter(Boolean).slice(0, 3);
+  const thumbs = ctx.allImages.map(srcOf).filter(Boolean).slice(0, 3);
   while (thumbs.length && thumbs.length < 3) thumbs.push(thumbs[0]);
   return `${bg(ctx.coverImg, "blur")}<div class="shade-cta"></div>
     <div class="cta-text">
@@ -101,7 +140,7 @@ export function renderHtml({ carousel, brand, images = [] }) {
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=block" rel="stylesheet">
 <style>
-:root{--bg:${t.bg};--bg2:${t.bg2};--text:#fff;--muted:${t.muted};--accent:${t.accent};--hlBg:${t.highlightBg || t.accent};--hlText:${t.highlightText || t.accentText}}
+:root{--bg:${t.bg};--bg2:${t.bg2};--text:#fff;--muted:${t.muted};--accent:${t.accent};--accent2:${t.accent2 || t.accent};--hlBg:${t.highlightBg || t.accent};--hlText:${t.highlightText || t.accentText}}
 *{box-sizing:border-box;margin:0;padding:0}
 @page{size:1080px 1350px;margin:0}
 body{background:#444;font-family:Montserrat,system-ui,sans-serif;color:var(--text)}
@@ -115,17 +154,15 @@ body{background:#444;font-family:Montserrat,system-ui,sans-serif;color:var(--tex
 strong{color:var(--accent);font-weight:700}
 
 /* Couverture */
-.shade-cover{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 45%,rgba(0,0,0,.7) 70%,rgba(0,0,0,.94) 100%)}
-.pill{position:absolute;left:84px;top:96px;border:5px solid #fff;border-radius:28px;padding:4px 28px 6px;font-weight:900;font-size:46px;letter-spacing:.01em;background:rgba(8,14,28,.82);text-transform:uppercase}
-h1{position:absolute;left:84px;right:84px;bottom:235px;font-weight:800;line-height:1.16;letter-spacing:-.01em;text-shadow:0 2px 18px rgba(0,0,0,.35)}
-h1 .hl{text-shadow:none}
-.cover-logo{position:absolute;left:0;right:0;bottom:78px;display:flex;justify-content:center}
-.logo{display:flex;align-items:center;gap:14px;font-weight:800;letter-spacing:.02em;text-transform:uppercase}
-.logo.md{font-size:36px}.logo.sm{font-size:24px}
-.logo-mark{display:inline-flex;align-items:center;justify-content:center;border:3px solid #fff;border-radius:8px;font-weight:900;background:var(--hlBg);color:var(--hlText)}
-.logo.md .logo-mark{width:58px;height:58px;font-size:26px}.logo.sm .logo-mark{width:40px;height:40px;font-size:18px;border-width:2px}
+.k-cover{background:#05080f}
+.shade-cover{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0) 40%,rgba(5,10,25,.85) 64%,rgba(5,12,32,1) 84%,${t.gradientEnd || "rgba(20,45,110,1)"} 100%)}
+.pill{position:absolute;left:80px;top:90px;border:5px solid #fff;border-radius:30px;padding:4px 30px 7px;font-weight:800;font-size:44px;background:rgba(0,0,0,.55);z-index:2}
+h1{position:absolute;left:80px;right:80px;bottom:240px;font-weight:500;line-height:1.22;letter-spacing:-.005em}
+h1 b{font-weight:800}
+.cover-foot{position:absolute;left:80px;right:80px;bottom:72px;display:flex;justify-content:center;align-items:center}
+.wordmark{font-weight:800;letter-spacing:.18em;line-height:1.3;text-align:center;text-transform:uppercase}
+.wordmark.md{font-size:24px}.wordmark.sm{font-size:20px;text-align:left;letter-spacing:.16em}
 .logo-img.md{height:64px}.logo-img.sm{height:44px}
-
 /* Slides d'explication */
 .top{position:absolute;left:0;right:0;top:0;height:640px;overflow:hidden}
 .shade-top{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.1) 0%,rgba(0,0,0,0) 45%,var(--bg) 100%)}
@@ -182,7 +219,7 @@ document.querySelectorAll('.content').forEach(c=>{
     c.querySelectorAll('h2,p,li,.stat,blockquote').forEach(el=>{el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px'});
   }
 });
-document.querySelectorAll('h1').forEach(h=>{for(let k=0;k<10&&h.getBoundingClientRect().top<230;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
+document.querySelectorAll('h1').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
 // Place la main 👉 à hauteur du bouton « S'abonner ».
 document.querySelectorAll('.slide').forEach(sl=>{const p=sl.querySelector('.phone'),b=sl.querySelector('.follow'),h=sl.querySelector('.hand');if(!p||!b||!h)return;
 const pr=p.getBoundingClientRect(),br=b.getBoundingClientRect(),sr=sl.getBoundingClientRect();

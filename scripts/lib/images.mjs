@@ -133,7 +133,7 @@ function imageSize(buf) {
   return null;
 }
 
-export async function download(candidate, minSide = 600) {
+export async function download(candidate, minSide = 600, minSize = null) {
   const res = await get(candidate.url, { timeout: 15000, accept: "image/avif,image/webp,image/*,*/*;q=0.8", ua: candidate.source === "wikipedia" ? BOT_UA : BROWSER_UA });
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length < 20000) throw new Error("image trop légère");
@@ -141,6 +141,7 @@ export async function download(candidate, minSide = 600) {
   const info = imageSize(buf);
   if (!info) throw new Error("format non supporté");
   if (Math.min(info.width, info.height) < minSide) throw new Error(`trop petite (${info.width}x${info.height})`);
+  if (minSize && (info.width < minSize.width || info.height < minSize.height)) throw new Error(`trop petite pour une couverture (${info.width}x${info.height})`);
   return { ...candidate, ...info, buf, dataUri: `data:${info.type};base64,${buf.toString("base64")}` };
 }
 
@@ -161,13 +162,13 @@ async function gather({ query, entity, articleUrl, includeArticle }) {
   return dedupe([...article, ...merged.slice(0, 8), ...wiki, ...merged.slice(8)]);
 }
 
-async function downloadSome(cands, n, used, minSide) {
+async function downloadSome(cands, n, used, minSide, minSize) {
   const ok = [];
   for (const c of cands) {
     if (ok.length >= n) break;
     if (used.has(c.url)) continue;
     try {
-      ok.push(await download(c, minSide));
+      ok.push(await download(c, minSide, minSize));
     } catch (e) {
       console.log(`  [images] ✗ ${c.source} ${c.url.slice(0, 80)} : ${e.message}`);
     }
@@ -178,6 +179,9 @@ async function downloadSome(cands, n, used, minSide) {
 const Choice = z.object({
   index: z.number().int().describe("Numéro de la meilleure image (0 = aucune ne convient)"),
   reason: z.string(),
+  focus: z
+    .object({ x: z.number(), y: z.number(), w: z.number(), h: z.number() })
+    .describe("Cadre du sujet principal dans l'image choisie (logo, visage, produit), en fractions de 0 à 1 : x,y = coin haut gauche, w,h = largeur, hauteur"),
 });
 
 const hasKey = () => !!(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
@@ -198,7 +202,7 @@ async function chooseWithClaude(images, { subject, isCover }) {
 Ce que la slide doit montrer : ${subject}
 Choisis la meilleure image. Critères éliminatoires : filigrane (Adobe Stock, Shutterstock…), publicité ou visuel marketing (prix, « free shipping », « new arrival »), logo ou nom d'un autre média incrusté, texte incrusté important, montage grossier, capture d'écran de site, image floue.
 Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ""}.
-Réponds 0 si aucune image n'est acceptable.`,
+Réponds 0 si aucune image n'est acceptable. Donne aussi le cadre (focus) du sujet principal dans l'image choisie : il servira à cadrer la photo.`,
   });
   try {
     const client = new Anthropic();
@@ -210,9 +214,14 @@ Réponds 0 si aucune image n'est acceptable.`,
       output_config: { effort: "low", format: betaZodOutputFormat(Choice) },
       messages: [{ role: "user", content }],
     });
-    const idx = res.parsed_output?.index ?? 1;
-    console.log(`  [images] Claude : image ${idx}/${usable.length} — ${res.parsed_output?.reason || ""}`);
-    return idx >= 1 && idx <= usable.length ? usable[idx - 1] : null;
+    const out = res.parsed_output;
+    const idx = out?.index ?? 1;
+    console.log(`  [images] Claude : image ${idx}/${usable.length} — ${out?.reason || ""}`);
+    if (!(idx >= 1 && idx <= usable.length)) return null;
+    const f = out.focus;
+    const clamp = (v) => Math.min(1, Math.max(0, Number(v) || 0));
+    const focus = f && f.w > 0 && f.h > 0 ? { x: clamp(f.x), y: clamp(f.y), w: clamp(f.w), h: clamp(f.h) } : null;
+    return { ...usable[idx - 1], focus };
   } catch (e) {
     console.log(`  [images] choix par Claude impossible (${e.message}), première image retenue`);
     return usable[0];
@@ -235,18 +244,19 @@ export async function illustrate({ slides, item }) {
     const isCover = s.kind === "cover";
     try {
       const cands = await gather({ query, entity, articleUrl: item.link, includeArticle: isCover });
-      const imgs = await downloadSome(cands, isCover ? 5 : 3, used, isCover ? 800 : 600);
+      // Couverture : photo assez grande pour ne jamais être agrandie (largeur ≥ 1000 px, hauteur ≥ 700 px).
+      const imgs = await downloadSome(cands, isCover ? 5 : 3, used, isCover ? 700 : 600, isCover ? { width: 1000, height: 700 } : null);
       const subject = isCover ? `${item.title} (recherche : ${query || entity})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
       const pick = await chooseWithClaude(imgs, { subject, isCover });
       if (pick) {
         used.add(pick.url);
-        result[i] = pick.dataUri;
+        result[i] = { src: pick.dataUri, width: pick.width, height: pick.height, focus: pick.focus || null };
         console.log(`  [images] slide ${i + 1} : ${pick.source} ${pick.width}x${pick.height}`);
       } else console.log(`  [images] slide ${i + 1} : aucune image retenue`);
     } catch (e) {
       console.log(`  [images] slide ${i + 1} : ${e.message}`);
     }
   }
-  // Les slides sans image réutilisent la couverture (floutée/assombrie par le template).
+  // Chaque entrée : { src, width, height, focus } ou null. Les slides sans image réutilisent la couverture floutée.
   return result;
 }
