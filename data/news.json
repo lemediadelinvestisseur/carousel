@@ -1548,7 +1548,7 @@
       "collectedAt": "2026-11-08T18:44:37.704Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 7,
       "reason": "Buffett rachète ses actions : signal suivi par tous les investisseurs.",
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:11:17.562Z"
+  "updatedAt": "2026-11-08T20:11:22.514Z"
 }
