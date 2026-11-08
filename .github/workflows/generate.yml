@@ -31,6 +31,11 @@ on:
 permissions:
   contents: write
 
+# Une seule génération à la fois par carousel : une nouvelle demande remplace celle en cours.
+concurrency:
+  group: generate-${{ inputs.id || inputs.url }}
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
