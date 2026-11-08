@@ -469,10 +469,34 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
+      "status": "done",
       "aiScore": 7,
       "reason": "Le DPE change en 2027, un sujet concret pour tous les propriétaires.",
-      "hook": "DPE 2027 : ce qui change pour les propriétaires"
+      "hook": "DPE 2027 : ce qui change pour les propriétaires",
+      "instructions": "1 page par information",
+      "generatedAt": "2026-11-08T20:15:40.193Z",
+      "carousel": {
+        "dir": "carousels/2026-11-08/21m2-dpe-2027-6-nouvelles-informations-une-me-585b39ca26",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 9,
+        "hooks": [
+          "Dans **54 jours**, le **DPE** change deux fois. Un logement **tout électrique** pourra gagner une **classe** sans faire de travaux.",
+          "**Près de 300 000 logements** sortiront du statut de **passoire thermique** le **1er janvier 2027**, sans travaux. Le DPE affichera aussi une nouvelle mention **A0**.",
+          "Ta **chaudière gaz** t'empêchera d'obtenir la mention **A0**, la nouveauté du **DPE 2027**, même si ta maison est classée **B**."
+        ]
+      }
     },
     {
       "id": "c9addc8779",
@@ -2125,5 +2149,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:15:29.719Z"
+  "updatedAt": "2026-11-08T20:15:45.367Z"
 }
