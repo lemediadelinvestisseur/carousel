@@ -1,0 +1,123 @@
+{
+  "item": {
+    "id": "5149c5cc1b",
+    "title": "Rendement locatif : ces 5 villes où investir rapporte jusqu’à 12,7% brut",
+    "summary": "Alors que les loyers continuent de grimper dans les grandes villes françaises, certaines communes moins prisées réservent de belles surprises aux investisseurs. Selon le dernier baromètre SeLoger-Meilleurs Agents, cinq villes affichent des rendements locatifs bruts supérieurs à 8%, jusqu’à 12,7% pour la mieux classée.",
+    "link": "https://www.capital.fr/immobilier/rendement-locatif-ces-5-villes-ou-investir-rapporte-jusqua-127-brut-1531631",
+    "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~05~673909f0-f7f5-4463-bea1-b7fd80740b48.jpg/1200x900/focus-point/2001%2C1393/rendement-locatif-ces-5-villes-ou-investir-rapporte-jusqu-a-12-7-brut.jpg",
+    "source": "Capital Immobilier",
+    "via": "rss",
+    "publishedAt": "2026-11-08T09:00:00.000Z",
+    "collectedAt": "2026-11-08T15:38:54.430Z",
+    "brand": "21m2",
+    "score": 5,
+    "status": "generating",
+    "aiScore": 7,
+    "reason": "Rendements locatifs élevés, très enregistrable pour les investisseurs.",
+    "hook": "Ces 5 villes rapportent jusqu'à 12,7 % brut",
+    "notifiedAt": "2026-11-08T15:38:54.430Z",
+    "instructions": "1 page par ville ",
+    "generatedAt": "2026-11-08T15:46:51.452Z",
+    "carousel": {
+      "dir": "carousels/2026-11-08/21m2-rendement-locatif-ces-5-villes-ou-invest-5149c5cc1b",
+      "files": [
+        "slide-01.png",
+        "slide-02.png",
+        "slide-03.png",
+        "slide-04.png",
+        "slide-05.png",
+        "slide-06.png",
+        "slide-07.png",
+        "slide-08.png",
+        "carousel.pdf"
+      ],
+      "generator": "claude-opus-5-5",
+      "slides": 8
+    }
+  },
+  "carousel": {
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "RENDEMENT LOCATIF",
+        "title": "5 villes où louer rapporte jusqu'à **12,7 %** brut",
+        "body": "Le baromètre SeLoger-Meilleurs Agents dévoile 5 villes à plus de 8 % de rendement brut. Une ville par slide. Swipez.",
+        "stat": "",
+        "bullets": []
+      },
+      {
+        "kind": "stat",
+        "kicker": "VILLE 1/5",
+        "title": "**Mulhouse** : le m² le plus bas du classement",
+        "body": "Prix moyen du m² des appartements selon Meilleurs Agents. Mulhouse fait partie des 5 villes à plus de **8 %** de rendement brut.",
+        "stat": "1 193 €/m²",
+        "bullets": []
+      },
+      {
+        "kind": "stat",
+        "kicker": "VILLE 2/5",
+        "title": "**Saint-Étienne** : un prix d'achat encore accessible",
+        "body": "« Ces rendements particulièrement attractifs s'expliquent notamment par des prix d'achat encore accessibles », selon SeLoger-Meilleurs Agents.",
+        "stat": "1 244 €/m²",
+        "bullets": []
+      },
+      {
+        "kind": "stat",
+        "kicker": "VILLE 3/5",
+        "title": "**Roubaix** : vérifiez la demande avant d'acheter",
+        "body": "Prix moyen du m² des appartements. Le baromètre recommande de « s'assurer de l'existence d'une **demande locative suffisante** ».",
+        "stat": "2 035 €/m²",
+        "bullets": []
+      },
+      {
+        "kind": "stat",
+        "kicker": "VILLE 4/5",
+        "title": "**Limoges** : attention au DPE dans l'ancien",
+        "body": "Logements classés G interdits à la location depuis le 1er janvier 2025. Les F suivront en **2028**. Une rénovation peut vite rogner la rentabilité.",
+        "stat": "1 609 €/m²",
+        "bullets": []
+      },
+      {
+        "kind": "stat",
+        "kicker": "VILLE 5/5",
+        "title": "**Tourcoing** : le m² le plus cher des cinq",
+        "body": "En comparaison, rendement brut de **4,1 %** à Paris, 4,5 % à Lyon, 4,7 % à Nice. Mais là-bas, la vacance locative est devenue presque anecdotique.",
+        "stat": "2 071 €/m²",
+        "bullets": []
+      },
+      {
+        "kind": "list",
+        "kicker": "CE QUE ÇA CHANGE",
+        "title": "Ce que ça change pour vous",
+        "body": "Un rendement **brut** n'est pas un rendement net. Ceci n'est pas un conseil d'investissement.",
+        "stat": "",
+        "bullets": [
+          "Déduisez taxe foncière et charges non récupérables",
+          "Anticipez vacance locative et travaux",
+          "Vérifiez le DPE : G interdit, F en 2028",
+          "Testez la demande locative locale"
+        ]
+      },
+      {
+        "kind": "cta",
+        "kicker": "21M2",
+        "title": "Suivez 21m2 pour investir plus malin dans l'immobilier",
+        "body": "Chiffres, réglementation, marché : l'essentiel de l'immobilier, en clair. Enregistrez ce post pour votre prochaine recherche.",
+        "stat": "",
+        "bullets": []
+      }
+    ],
+    "caption": "Mulhouse, Saint-Étienne, Roubaix, Limoges, Tourcoing : selon le 3e baromètre locatif SeLoger-Meilleurs Agents, ces 5 villes affichent des rendements bruts supérieurs à 8 %, jusqu'à 12,7 % pour la mieux classée. La clé ? Des prix d'achat encore bas, entre 1 193 et 2 071 €/m². À l'opposé, Paris (4,1 %), Lyon (4,5 %) et Nice (4,7 %) rapportent moins, mais la vacance locative y est presque anecdotique. Attention : ce sont des chiffres bruts. Taxe foncière, charges, vacance et travaux ne sont pas déduits. Et dans un parc souvent ancien, le DPE peut coûter cher : les logements G sont interdits à la location depuis 2025, les F le seront en 2028. Ceci n'est pas un conseil d'investissement. Et vous, vous privilégiez le rendement ou la sécurité patrimoniale d'une grande ville ?",
+    "hashtags": [
+      "investissementlocatif",
+      "rendementlocatif",
+      "immobilier",
+      "prixaum2",
+      "DPE",
+      "investisseurimmobilier",
+      "marcheimmobilier",
+      "21m2"
+    ],
+    "generator": "claude-opus-5-5"
+  }
+}
