@@ -1,15 +1,15 @@
-Binance change de directeur financier, neuf jours après le plus gros piratage de son histoire.
+Binance change de directeur financier neuf jours après s'être fait voler 6,3 milliards de dollars.
 
-Kaiser Ng, en poste depuis janvier 2022, quitte la plateforme. Il est remplacé par Justin Yek, qui vient de la fintech Airwallex. Binance parle d'une succession préparée depuis six mois, mais aucun document public ne le confirme, et rien ne permet d'affirmer que ce départ est lié à l'attaque.
+Le 29 octobre, des pirates ont vidé une partie des portefeuilles de la plateforme en quatre heures environ. Le FBI attribue l'attaque à TraderTraitor, un groupe nord-coréen. Pyongyang dément.
 
-• Le 29 octobre, des pirates attribués par le FBI au groupe nord-coréen TraderTraitor ont dérobé 6,3 milliards de dollars. C'est plus que l'amende de 4,3 milliards que Binance avait négociée avec la justice américaine en 2023.
+Le plus frappant, c'est la méthode. Un ingénieur a passé un faux entretien d'embauche et téléchargé un « exercice » piégé. Les pirates ont ensuite détourné un outil d'IA interne pour prendre la main sur les ordinateurs de deux autres ingénieurs.
 
-• Binance affirme avoir déjà reconstitué environ 95 % des actifs touchés et promet que ses clients ne paieront rien. Cette promesse repose sur sa seule parole, car la plateforme n'est pas cotée. Environ 470 millions de dollars restent introuvables.
+• Samedi, Binance a annoncé que Kaiser Ng, directeur financier depuis 2022, quitte son poste. Il est remplacé par Justin Yek, ancien d'Airwallex. La codirigeante Yi He assure que ce départ était prévu depuis six mois, mais aucun document public ne permet de le vérifier.
 
-Pour toi, en France, l'échéance importante est ailleurs. Binance France n'a pas obtenu l'agrément européen MiCA et fermera les comptes de ses clients le 31 décembre. À partir du 29 novembre, dans 21 jours, elle prélèvera 0,025 % de ton solde par mois, avec un minimum de 10 USDC. Sur un solde de 1 000 dollars, tu paieras donc 10 USDC par prélèvement, et pas 0,25.
+• Côté clients, Binance promet que personne ne paiera : 95 % des actifs volés ont déjà été remplacés grâce à sa trésorerie et à son fonds d'urgence. À la réouverture des retraits, les clients ont tout de même sorti 3,64 milliards de dollars nets en neuf heures et demie. Une partie du butin reste introuvable, environ 470 millions de dollars.
 
-Si tu as encore des cryptos là-bas, transfère-les vers une plateforme agréée MiCA ou vers un portefeuille personnel, en commençant par un petit transfert test. Vérifie le statut de la plateforme sur le registre de l'AMF. Ce post n'est pas un conseil en investissement.
+Si tu es en France, une autre échéance te concerne directement. Binance France fermera les comptes le 31 décembre, faute d'agrément MiCA. À partir du 29 novembre, laisser tes cryptos sur la plateforme te coûtera 0,025 % de ton solde par mois, avec un minimum de 10 USDC. Vérifie ces dates dans les messages officiels de Binance.
 
-Tu fais encore confiance à Binance après ce piratage ?
+Cet article n'est pas un conseil en investissement. Tu as déjà déplacé tes cryptos ou tu attends encore ?
 
 🔖 Enregistre ce post et partage-le à quelqu'un de concerné.

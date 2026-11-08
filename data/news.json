@@ -1675,7 +1675,7 @@
       "aiScore": 6,
       "reason": "Piratage record chez Binance, sujet crypto fort.",
       "hook": "Piratage record : Binance limoge son directeur financier",
-      "generatedAt": "2026-11-08T22:03:18.750Z",
+      "generatedAt": "2026-11-08T22:06:49.884Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-binance-evince-son-directeur-financier-a-499133c326",
         "files": [
@@ -1687,14 +1687,15 @@
           "slide-06.jpg",
           "slide-07.jpg",
           "slide-08.jpg",
+          "slide-09.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 8,
+        "slides": 9,
         "hooks": [
-          "Le directeur financier de **Binance** quitte la plateforme, juste après un **piratage** de **6,3 milliards** de dollars. Binance assure que ce départ était **prévu**.",
-          "**6,3 milliards** de dollars volés, un **directeur financier** remplacé : **Binance** traverse une semaine noire. Pour les Français, la vraie date à retenir est le **29 novembre**.",
-          "**Binance** s'est fait voler **6,3 milliards** de dollars par des pirates **nord-coréens**. Neuf jours plus tard, son **directeur financier** s'en va."
+          "**Neuf jours** après le vol de **6,3 milliards** de dollars, **Binance** se sépare de son **directeur financier**. Et l'attaque a commencé par un faux entretien d'embauche.",
+          "Un faux **entretien d'embauche**, un outil d'**IA** détourné et **6,3 milliards** de dollars volés. **Binance** change maintenant de directeur financier.",
+          "**Binance** a perdu **6,3 milliards** de dollars dans un piratage record. Son **directeur financier** s'en va, et les comptes français ferment le **31 décembre**."
         ]
       }
     },
@@ -2632,5 +2633,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:06:41.676Z"
+  "updatedAt": "2026-11-08T22:06:59.803Z"
 }
