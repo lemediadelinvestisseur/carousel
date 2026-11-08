@@ -1618,7 +1618,7 @@
       "reason": "Le duel Bitcoin contre or passionne les épargnants et divise.",
       "hook": "Bitcoin chute, mais a-t-il vraiment perdu face à l'or ?",
       "instructions": "Précise les différences de performance depuis le 1er janvier 2026 ",
-      "generatedAt": "2026-11-08T22:03:27.037Z",
+      "generatedAt": "2026-11-08T22:06:58.558Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-malgre-la-baisse-le-bitcoin-n-a-pas-perd-825fb23f24",
         "files": [
@@ -1630,14 +1630,15 @@
           "slide-06.jpg",
           "slide-07.jpg",
           "slide-08.jpg",
+          "slide-09.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 8,
+        "slides": 9,
         "hooks": [
-          "En 2026, l'**or** perd **7,5 %** et le **bitcoin** **7,3 %**. Pourtant, **Fidelity** préfère toujours le bitcoin « pour le moment ».",
-          "Le **bitcoin** a chuté d'environ **25 %** en un an. Mais face à l'**or**, il vaut **75 %** de plus qu'à son point bas.",
-          "**Bitcoin** et **or** sont les deux pires placements de 2026. Un stratège de **Fidelity** a pourtant choisi son camp."
+          "Avec **1 bitcoin**, on achetait **12 onces** d'or au plus bas. Aujourd'hui, c'est **21 onces**. Voilà pourquoi **Fidelity** n'enterre pas le bitcoin.",
+          "Depuis janvier, le **bitcoin** a perdu **7,3 %** et l'**or** **7,5 %** en dollars. Mais pour un épargnant en **euros**, le match est très différent.",
+          "Le **bitcoin** est **40 %** sous son record. Pour le stratège de **Fidelity**, il n'a pas perdu son **duel** face à l'or pour autant."
         ]
       }
     },
@@ -2633,5 +2634,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:06:59.803Z"
+  "updatedAt": "2026-11-08T22:07:08.925Z"
 }
