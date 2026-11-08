@@ -12,6 +12,7 @@ import { loadNews, saveNews as saveDb, readJson, makeId, slugify, recordUpdates,
 import { fetchArticleText, fetchText, stripHtml } from "./lib/rss.mjs";
 import { writeCarousel } from "./lib/writer.mjs";
 import { renderCarousel } from "./lib/render.mjs";
+import { illustrate } from "./lib/images.mjs";
 import { notify, dashboardUrl } from "./lib/notify.mjs";
 
 const { values: args } = parseArgs({
@@ -91,14 +92,16 @@ async function processItem(item, { save = true, demo = false } = {}) {
   const day = (item.publishedAt || new Date().toISOString()).slice(0, 10);
   const rel = path.posix.join("carousels", day, `${brandKey}-${slugify(item.title, 40)}-${item.id}`);
   const outDir = path.join(ROOT, rel);
-  const files = await renderCarousel({ carousel, brand, outDir, sourceLabel: item.source });
+  fs.rmSync(outDir, { recursive: true, force: true }); // « Refaire » : on repart d'un dossier propre
+  const images = brand.template === "photo" && !demo ? await illustrate({ slides: carousel.slides, item }) : [];
+  const files = await renderCarousel({ carousel, brand, outDir, sourceLabel: item.source, images });
   const caption = `${carousel.caption}\n\n${carousel.hashtags.map((h) => "#" + h.replace(/^#/, "")).join(" ")}\n\nSource : ${item.source}`;
   fs.writeFileSync(path.join(outDir, "caption.txt"), caption + "\n");
   fs.writeFileSync(path.join(outDir, "carousel.json"), JSON.stringify({ item, carousel }, null, 2) + "\n");
 
   item.status = "done";
   item.generatedAt = new Date().toISOString();
-  item.carousel = { dir: rel, files, generator: carousel.generator, slides: carousel.slides.length };
+  item.carousel = { dir: rel, files, generator: carousel.generator, slides: carousel.slides.length, hooks: carousel.hook_alternatives || [] };
   if (save) saveNews(db);
   console.log(`  ✓ ${files.length} fichiers dans ${rel}`);
 

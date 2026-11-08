@@ -13,7 +13,7 @@ Chaîne complète pour publier des carousels d'actualité chaque jour :
 
 | Exemple — Le média de l'investisseur | Exemple — 21m2 |
 |---|---|
-| <img src="docs/exemples/investisseur/slide-01.png" width="260"> <img src="docs/exemples/investisseur/slide-02.png" width="260"> | <img src="docs/exemples/21m2/slide-01.png" width="260"> <img src="docs/exemples/21m2/slide-04.png" width="260"> |
+| <img src="docs/exemples/investisseur/slide-01.jpg" width="260"> <img src="docs/exemples/investisseur/slide-07.jpg" width="260"> | <img src="docs/exemples/21m2/slide-01.png" width="260"> <img src="docs/exemples/21m2/slide-04.png" width="260"> |
 
 ## Comment ça marche au quotidien
 
