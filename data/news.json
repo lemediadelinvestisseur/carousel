@@ -815,7 +815,7 @@
       "aiScore": 6,
       "reason": "Nouvelle règle Airbnb qui divise hôtes et voyageurs.",
       "hook": "Airbnb interdit d'imposer le ménage aux voyageurs",
-      "generatedAt": "2026-11-08T22:05:42.617Z",
+      "generatedAt": "2026-11-08T22:59:14.117Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-airbnb-des-le-20-novembre-2026-les-voyag-bc5df90509",
         "files": [
@@ -827,15 +827,14 @@
           "slide-06.jpg",
           "slide-07.jpg",
           "slide-08.jpg",
-          "slide-09.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 9,
+        "slides": 8,
         "hooks": [
-          "Airbnb : **fini la vaisselle** pour les voyageurs",
-          "Ménage Airbnb : **ce qui change** le **20 novembre**",
-          "Ménage Airbnb : **combien ça va te coûter**"
+          "Airbnb : fini les **corvées** pour tes voyageurs",
+          "Ton Airbnb : c'est toi qui feras le **ménage**",
+          "Airbnb interdit d'imposer le **ménage de départ**"
         ]
       }
     },
@@ -2651,5 +2650,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:36:29.538Z"
+  "updatedAt": "2026-11-08T22:59:14.118Z"
 }
