@@ -1949,7 +1949,7 @@
       "collectedAt": "2026-11-08T18:44:37.704Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Faillite bancaire qui fait tomber un président : surprenant.",
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:10:36.879Z"
+  "updatedAt": "2026-11-08T20:10:44.588Z"
 }
