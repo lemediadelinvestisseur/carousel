@@ -5,16 +5,18 @@
     "description": "Bourse, marchés, économie, épargne et écosystème French Tech (startups, levées de fonds), expliqués simplement aux investisseurs particuliers français.",
     "tone": "Direct, vivant et pédagogique, en TUTOIEMENT (« ton PEA », « tu peux »). Comme un ami calé en finance qui explique l'actu sans jargon. Factuel, jamais sensationnaliste. Phrases courtes.",
     "theme": {
-      "bg": "#0A1628",
-      "bg2": "#16305A",
+      "bg": "#0A1430",
+      "bg2": "#14306E",
       "text": "#FFFFFF",
-      "muted": "#9FB0C8",
-      "accent": "#F5B700",
+      "muted": "#A9B6D3",
+      "accent": "#5B8CFF",
       "accentText": "#0B1F3A",
       "font": "Inter",
       "titleFont": "Archivo Black",
-      "highlightBg": "#F5B700",
-      "highlightText": "#0A1628"
+      "highlightBg": "#2E6BF0",
+      "highlightText": "#FFFFFF",
+      "accent2": "#2E6BF0",
+      "gradientEnd": "rgba(20,45,110,1)"
     },
     "keywords": [
       "bourse",
@@ -67,8 +69,6 @@
     "audience": "Particuliers français 25-45 ans qui investissent (PEA, ETF, actions, crypto) ou s'y intéressent ; suivent la French Tech.",
     "template": "photo",
     "logo": "",
-    "logoText": "Le média de l'investisseur",
-    "logoMark": "M",
     "ctaSlide": {
       "title": "Abonne-toi au **Média de l'investisseur**",
       "subtitle": "pour ne rien rater de l'actu des marchés",
@@ -78,7 +78,17 @@
         "👇 Chaque jour, l'essentiel en 2 minutes"
       ],
       "website": ""
-    }
+    },
+    "wordmark": [
+      "Le média de",
+      "l'investisseur"
+    ],
+    "categories": [
+      "Actualité",
+      "Le saviez-vous ?",
+      "Résultats",
+      "Données"
+    ]
   },
   "21m2": {
     "name": "21m2",
