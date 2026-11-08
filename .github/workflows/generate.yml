@@ -61,7 +61,8 @@ jobs:
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       - name: Publication
         if: always()
-        run: ./scripts/publish.sh "carousel: $INPUT_ACTION $INPUT_ID$INPUT_URL"
+        run: |
+          ./scripts/publish.sh "carousel: $INPUT_ACTION $INPUT_ID$INPUT_URL"
         env:
           INPUT_ID: ${{ inputs.id }}
           INPUT_ACTION: ${{ inputs.action }}
