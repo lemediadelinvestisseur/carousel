@@ -31,7 +31,7 @@
       "collectedAt": "2026-11-08T20:31:19.985Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Agenda utile de la semaine, avec l'inflation et le chômage en France, à enregistrer.",
       "hook": "Inflation, chômage, résultats : la semaine qui fera bouger vos placements"
@@ -2388,5 +2388,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:37:14.208Z"
+  "updatedAt": "2026-11-08T20:37:21.765Z"
 }
