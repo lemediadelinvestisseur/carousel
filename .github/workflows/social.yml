@@ -19,7 +19,7 @@ on:
         type: choice
         options: [connexion, test, publier, programmer, annuler]
       targets:
-        description: "Où publier"
+        description: "Où publier (instagram, facebook)"
         required: false
         default: "instagram,facebook"
       at:
@@ -50,7 +50,7 @@ jobs:
       - name: Rien de programmé ?
         id: check
         run: |
-          if [ "$MODE" = "echeances" ] && ! grep -qE '"scheduled": \{|"schedules": \[$' data/news.json; then
+          if [ "$MODE" = "echeances" ] && ! grep -qE '"scheduled": \{|"schedules": \[$' data/news.json data/linkedin.json 2>/dev/null; then
             echo "Aucune publication programmée."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
@@ -62,6 +62,7 @@ jobs:
       - run: npm ci
         if: steps.check.outputs.skip != 'true'
       - name: Publication
+        id: pub
         if: steps.check.outputs.skip != 'true'
         run: node scripts/publish-social.mjs
         env:
@@ -73,6 +74,14 @@ jobs:
           META_PAGE_TOKEN_INVESTISSEUR: ${{ secrets.META_PAGE_TOKEN_INVESTISSEUR }}
           META_PAGE_TOKEN_21M2: ${{ secrets.META_PAGE_TOKEN_21M2 }}
           META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      - name: Posts LinkedIn programmés
+        if: always() && steps.check.outputs.skip != 'true' && env.MODE == 'echeances'
+        run: node scripts/linkedin.mjs --mode echeances
+        env:
           LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
           LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

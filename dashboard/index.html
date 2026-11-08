@@ -91,15 +91,16 @@ dialog::backdrop{background:rgba(0,0,0,.5)}
 .runs{font-size:13px;color:var(--muted)}
 details summary{cursor:pointer}
 .hooks{margin-top:10px;font-size:14px}
+.proj{display:flex;gap:6px;flex:1}
+.proj button{background:rgba(255,255,255,.1);border:0;color:#B9C4D6;border-radius:10px;padding:8px 12px;font-weight:800;font-size:15px;cursor:pointer}
+.proj button.on{background:#fff;color:var(--navy)}
 .li-panel h3{margin-bottom:10px}
 .li-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
-.li-card{display:flex;gap:14px;align-items:flex-start}
-.li-cover{width:110px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;flex:none;cursor:zoom-in;background:var(--line)}
-.li-body{flex:1;min-width:0}
-.li-body h3{font-size:15px}
-.li-status{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px;font-size:13px}
-.li-st{background:var(--line);border-radius:8px;padding:5px 10px;font-weight:700;color:var(--text);text-decoration:none}
-.li-st.ok{background:#E7F6EC;color:#1F7A44}.li-st.sch{background:#E8EFFE;color:#1F4FBF}
+.meme{display:grid;grid-template-columns:1fr;gap:14px;margin-top:10px}
+@media (min-width:900px){.meme{grid-template-columns:420px minmax(0,1fr)}}
+.meme img{width:100%;border-radius:12px;background:var(--line);cursor:zoom-in;display:block}
+.meme textarea{width:100%;min-height:220px;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);font-size:14px;line-height:1.5;resize:vertical}
+.wait{border:2px dashed var(--line);border-radius:var(--radius);padding:16px;margin-bottom:12px;color:var(--muted);font-weight:600}
 .adv{margin-top:14px}.adv summary{cursor:pointer;font-weight:700;font-size:13px;color:var(--muted)}
 .hooks summary{font-weight:700;color:var(--muted);padding:6px 0}
 .hook-alt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;margin-top:6px;cursor:pointer;font-weight:600}
@@ -121,7 +122,7 @@ details summary{cursor:pointer}
 <body>
 <header>
   <div class="top">
-    <h1>🎠 Carousels</h1>
+    <div class="proj" id="proj"><button data-proj="carousels">🎠 Carousels</button><button data-proj="linkedin">💼 LinkedIn</button></div>
     <button class="icon-btn" id="refresh" title="Rafraîchir">↻</button>
     <button class="icon-btn" id="openSettings" title="Réglages">⚙︎</button>
   </div>
@@ -161,7 +162,7 @@ details summary{cursor:pointer}
   <h2>🚀 Publier ce carousel</h2>
   <div class="hint" id="pTitle"></div>
   <label>Où ?</label>
-  <div class="checks"><label class="ck"><input type="checkbox" id="pIg" checked> Instagram</label><label class="ck"><input type="checkbox" id="pFb" checked> Page Facebook</label><label class="ck"><input type="checkbox" id="pLi"> LinkedIn</label></div>
+  <div class="checks"><label class="ck"><input type="checkbox" id="pIg" checked> Instagram</label><label class="ck"><input type="checkbox" id="pFb" checked> Page Facebook</label></div>
   <label for="pMode">Quand ?</label>
   <select id="pMode">
     <option value="programmer">🕒 Programmer à une date et une heure</option>
@@ -189,6 +190,35 @@ details summary{cursor:pointer}
   <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">Générer</button></div>
 </form></dialog>
 
+<dialog id="dlgIdea"><form method="dialog" class="sheet">
+  <h2 id="iTitle">💡 Une idée de meme</h2>
+  <div id="iIdeaWrap"><label for="iIdea">Ton idée</label>
+  <textarea id="iIdea" placeholder="Ex : mon PEA quand je regarde le CAC 40 un lundi matin ; j'ai acheté du bitcoin à 100 000 $…"></textarea></div>
+  <label for="iFormat">Image</label>
+  <select id="iFormat"><option value="">Au choix de Claude</option><option value="template">Un meme connu</option><option value="photo">Une vraie photo</option></select>
+  <label for="iInstr">Consignes (facultatif)</label>
+  <textarea id="iInstr" placeholder="Ex : plus court, plus piquant, parle de l'immobilier…"></textarea>
+  <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">✨ Créer</button></div>
+</form></dialog>
+
+<dialog id="dlgLiPub"><form method="dialog" class="sheet">
+  <h2>🚀 Publier sur LinkedIn</h2>
+  <div class="hint" id="lTitle"></div>
+  <label for="lMode">Quand ?</label>
+  <select id="lMode">
+    <option value="programmer">🕒 Programmer à une date et une heure</option>
+    <option value="publier">🚀 Publier maintenant</option>
+    <option value="test">🧪 Test : vérifier l'accès sans publier</option>
+  </select>
+  <div id="lWhen">
+    <label for="lAt">Date et heure de publication</label>
+    <input id="lAt" type="datetime-local">
+    <div class="presets" id="lPresets"></div>
+    <div class="hint">Heure de ton téléphone. La publication part à l'heure choisie, à 10 minutes près.</div>
+  </div>
+  <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">Lancer</button></div>
+</form></dialog>
+
 <dialog id="dlgSettings"><form method="dialog" class="sheet">
   <h2>Réglages</h2>
   <details class="adv"><summary>Avancé (dépôt et branche)</summary>
@@ -211,7 +241,6 @@ const TABS = [
   { key: "done", label: "Prêts", match: (i) => i.status === "done" && !inProgress(i) && !isPublished(i) && !schedulesOf(i).length },
   { key: "scheduled", label: "Programmés", match: (i) => i.status === "done" && !inProgress(i) && schedulesOf(i).length > 0 },
   { key: "published", label: "Publiés", match: (i) => i.status === "done" && !inProgress(i) && isPublished(i) && !schedulesOf(i).length },
-  { key: "linkedin", label: "LinkedIn", match: (i) => i.status === "done" },
   { key: "error", label: "Erreurs", match: (i) => i.status === "error" },
   { key: "rejected", label: "Écartées", match: (i) => ["rejected", "ignored"].includes(i.status) },
 ];
@@ -256,7 +285,9 @@ function inProgress(i) {
 function setPending(id) { const p = pendingMap(); p[id] = Date.now(); store.set("pending", JSON.stringify(p)); }
 
 const params = new URLSearchParams(location.search);
-let state = { items: [], tab: "new", brand: store.get("brandFilter", "all"), focus: params.get("item") || params.get("validate") };
+let state = { items: [], tab: "new", brand: store.get("brandFilter", "all"), focus: params.get("item") || params.get("validate"),
+  project: params.get("projet") || store.get("project", "carousels") };
+const li = { posts: [], tab: "ready", status: null, drafts: {} };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
@@ -280,7 +311,15 @@ async function gh(path, opts = {}) {
   return res.status === 204 ? null : res;
 }
 
+async function fetchData(p) {
+  if (cfg.token) return (await gh(`/repos/${cfg.repo}/contents/${p}?ref=${cfg.branch}`, { headers: { accept: "application/vnd.github.raw+json" } })).json();
+  const res = await fetch(raw(p) + `?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+
 async function load() {
+  if (state.project === "linkedin") return loadLi();
   try {
     let data;
     if (cfg.token) {
@@ -293,7 +332,6 @@ async function load() {
     render();
     loadRuns();
     loadSources();
-    loadSocialStatus();
   } catch (e) {
     $("list").innerHTML = `<div class="empty">Impossible de charger les actus.<br><small>${esc(e.message)}</small></div>`;
   }
@@ -319,7 +357,17 @@ async function loadRuns() {
   } catch {}
 }
 
+function syncProject() {
+  document.querySelectorAll("[data-proj]").forEach((b) => b.classList.toggle("on", b.dataset.proj === state.project));
+  const isLi = state.project === "linkedin";
+  $("quota").hidden = $("chips").hidden = $("sourcesCard").hidden = isLi;
+  $("openAdd").textContent = isLi ? "+ Idée" : "+ Article";
+  document.title = isLi ? "LinkedIn — Dashboard" : "Carousels — Dashboard";
+}
+
 function render() {
+  syncProject();
+  if (state.project === "linkedin") return renderLi();
   const inBrand = (i) => state.brand === "all" || i.brand === state.brand;
   const items = state.items.filter(inBrand);
   $("tabs").innerHTML = TABS.map((t) => `<button class="tab ${t.key === state.tab ? "on" : ""}" data-tab="${t.key}">${t.label}<span class="n">${items.filter(t.match).length}</span></button>`).join("");
@@ -340,11 +388,6 @@ function render() {
   const pubAt = (i) => Object.values(i.published || {}).map((v) => v?.at || "").sort().pop() || "";
   if (state.tab === "published") list.sort((a, b) => pubAt(b).localeCompare(pubAt(a)));
   if (state.tab === "scheduled") list.sort((a, b) => schedulesOf(a)[0].at.localeCompare(schedulesOf(b)[0].at));
-  if (state.tab === "linkedin") {
-    list.sort((a, b) => (b.generatedAt || "").localeCompare(a.generatedAt || ""));
-    $("list").innerHTML = linkedinPanel() + (list.length ? list.map(liCard).join("") : `<div class="empty">Aucun carousel prêt pour l'instant.</div>`);
-    return;
-  }
   $("list").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Rien ici pour l'instant.</div>`;
   loadCaptions();
 
@@ -382,42 +425,6 @@ function card(i) {
 }
 
 const fmtParis = (iso) => new Date(iso).toLocaleString("fr-FR", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-let socialStatus = null;
-async function loadSocialStatus() {
-  try {
-    const res = await fetch(raw("data/social-status.json") + `?t=${Date.now()}`);
-    socialStatus = res.ok ? await res.json() : null;
-  } catch { socialStatus = null; }
-  if (state.tab === "linkedin") render();
-}
-function linkedinPanel() {
-  const rows = Object.entries(BRANDS).map(([k, name]) => {
-    const li = socialStatus?.brands?.[k]?.linkedin;
-    const st = !li ? "⏳ jamais vérifié" : li.ok ? `✅ connecté · Page « ${esc(li.name)} »` : li.pending ? "⏳ en attente de l'accès LinkedIn" : `❌ ${esc(li.error)}`;
-    return `<div class="li-row"><span class="badge b-${k}">${esc(name)}</span><span>${st}</span></div>`;
-  }).join("");
-  const when = socialStatus?.checkedAt ? `Vérifié ${ago(socialStatus.checkedAt)}` : "";
-  return `<div class="card li-panel"><h3>LinkedIn — tes Pages</h3>${rows}
-    <div class="row"><button class="btn" data-act="checkConn">🔌 Vérifier la connexion</button><span class="hint">${when}</span></div>
-    <p class="hint">Les carousels sont publiés en document PDF à feuilleter, avec la description du post. Tu peux les programmer à une heure différente d'Instagram.</p></div>`;
-}
-function liCard(i) {
-  const li = (i.published || {}).linkedin;
-  const sc = schedulesOf(i).find((x) => x.targets.split(",").includes("linkedin"));
-  const cover = i.carousel.files.find((f) => /\.(png|jpe?g)$/.test(f));
-  const status = li && (li.url || li.id)
-    ? `<a class="li-st ok" href="${esc(li.url || "#")}" target="_blank" rel="noopener">✓ Publié sur LinkedIn</a>`
-    : sc ? `<span class="li-st sch">🕒 Programmé ${esc(fmtParis(sc.at))}</span><button class="btn sm ghost" data-act="unschedule" data-targets="linkedin">Annuler</button>`
-    : `<span class="li-st">Pas encore sur LinkedIn</span>`;
-  return `<div class="card li-card" data-id="${esc(i.id)}">
-    ${cover ? `<img class="li-cover" data-act="zoom" data-n="0" src="${raw(i.carousel.dir + "/" + cover)}${ver(i)}" alt="">` : ""}
-    <div class="li-body"><div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span>${(i.carousel.files || []).filter((f) => /\.(png|jpe?g)$/.test(f)).length} pages</span></div>
-      <h3>${esc(i.title)}</h3>
-      <div class="li-status">${status}</div>
-      <div class="row">${li && (li.url || li.id) ? "" : `<button class="btn pub" data-act="publishLi">in · Publier / programmer</button>`}<a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}${ver(i)}" target="_blank" rel="noopener">Voir le PDF</a></div>
-    </div></div>`;
-}
-
 function publishedBadges(i) {
   const extra = schedulesOf(i).map((sc) => `<div class="sched"><span>🕒 Programmé ${esc(fmtParis(sc.at))} · ${esc(netNames(sc.targets))}</span><button class="btn sm ghost" data-act="unschedule" data-targets="${esc(sc.targets)}">Annuler</button></div>`).join("")
     + (i.publishError ? `<div class="puberr">⚠️ Échec de publication : ${esc(i.publishError)}</div>` : "");
@@ -446,10 +453,10 @@ $("pMode").onchange = syncWhen;
 $("pPresets").innerHTML = [[8, 0], [12, 30], [18, 0], [21, 0]].map(([h, m]) => `<button type="button" data-h="${h}" data-m="${m}">${h} h ${String(m).padStart(2, "0")}</button>`).join("");
 $("pPresets").onclick = (e) => { const b = e.target.closest("button"); if (b) $("pAt").value = toLocalInput(nextAt(Number(b.dataset.h), Number(b.dataset.m))); };
 
-function openPublish(item, only) {
+function openPublish(item) {
   $("pTitle").textContent = item.title;
   const p = item.published || {};
-  $("pIg").checked = !only && !p.instagram; $("pFb").checked = !only && !p.facebook; $("pLi").checked = only === "linkedin" && !p.linkedin;
+  $("pIg").checked = !p.instagram; $("pFb").checked = !p.facebook;
   $("pMode").value = "programmer";
   $("pAt").value = toLocalInput(item.scheduled?.at ? new Date(item.scheduled.at) : nextAt(12, 30));
   $("pAt").min = toLocalInput(new Date());
@@ -457,7 +464,7 @@ function openPublish(item, only) {
   const dlg = $("dlgPublish");
   dlg.onclose = async () => {
     if (dlg.returnValue !== "ok") return;
-    const targets = [$("pIg").checked && "instagram", $("pFb").checked && "facebook", $("pLi").checked && "linkedin"].filter(Boolean).join(",");
+    const targets = [$("pIg").checked && "instagram", $("pFb").checked && "facebook"].filter(Boolean).join(",");
     if (!targets) return toast("Choisis au moins un réseau");
     const mode = $("pMode").value;
     const inputs = { id: item.id, mode, targets };
@@ -561,20 +568,25 @@ async function downloadZip(item) {
 }
 
 // Visionneuse plein écran
-const lb = { item: null, n: 0 };
-function openLightbox(item, n) { lb.item = item; lb.n = n; showLb(); $("lb").classList.add("on"); }
+const lb = { item: null, n: 0, urls: null };
+function openLightbox(item, n) { lb.item = item; lb.urls = null; lb.n = n; showLb(); $("lb").classList.add("on"); }
+function openLightboxUrl(url, name) { lb.item = null; lb.urls = [{ url, name }]; lb.n = 0; showLb(); $("lb").classList.add("on"); }
 function showLb() {
-  const imgs = imagesOf(lb.item);
-  lb.n = (lb.n + imgs.length) % imgs.length;
-  $("lbImg").src = raw(lb.item.carousel.dir + "/" + imgs[lb.n]) + ver(lb.item);
-  $("lbCount").textContent = `${lb.n + 1} / ${imgs.length}`;
+  const list = lb.urls || imagesOf(lb.item).map((f) => ({ url: raw(lb.item.carousel.dir + "/" + f) + ver(lb.item), name: `${slug(lb.item)}-${f}` }));
+  lb.n = (lb.n + list.length) % list.length;
+  $("lbImg").src = list[lb.n].url;
+  $("lbCount").textContent = `${lb.n + 1} / ${list.length}`;
+  $("lbPrev").hidden = $("lbNext").hidden = list.length < 2;
 }
 $("lbClose").onclick = () => $("lb").classList.remove("on");
 $("lbPrev").onclick = () => { lb.n--; showLb(); };
 $("lbNext").onclick = () => { lb.n++; showLb(); };
 $("lbDl").onclick = async () => {
-  const f = imagesOf(lb.item)[lb.n];
-  try { saveBlob(await blobOf(lb.item, f), `${slug(lb.item)}-${f}`); } catch (e) { toast(e.message, 5000); }
+  try {
+    if (lb.urls) { const u = lb.urls[lb.n]; saveBlob(await (await fetch(u.url)).blob(), u.name); return; }
+    const f = imagesOf(lb.item)[lb.n];
+    saveBlob(await blobOf(lb.item, f), `${slug(lb.item)}-${f}`);
+  } catch (e) { toast(e.message, 5000); }
 };
 document.addEventListener("keydown", (e) => {
   if (!$("lb").classList.contains("on")) return;
@@ -599,16 +611,15 @@ async function copyCaption(item) {
 }
 
 document.addEventListener("click", async (ev) => {
-  const t = ev.target.closest("[data-tab],[data-brand],[data-act]");
+  const t = ev.target.closest("[data-proj],[data-litab],[data-tab],[data-brand],[data-act]");
   if (!t) return;
-  if (t.dataset.act === "checkConn") {
-    if (!cfg.token) { $("dlgSettings").showModal(); return; }
-    try {
-      await gh(`/repos/${cfg.repo}/actions/workflows/social.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "connexion" } }) });
-      toast("🔌 Vérification lancée : résultat dans ~1 min (touche ↻)", 4000);
-    } catch (e) { toast(e.message, 5000); }
-    return;
+  if (t.dataset.proj) {
+    if (t.dataset.proj === state.project) return;
+    state.project = t.dataset.proj; store.set("project", state.project); state.focus = null;
+    render(); load(); window.scrollTo(0, 0); return;
   }
+  if (t.dataset.litab) { li.tab = t.dataset.litab; render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.act && t.dataset.act.startsWith("li-")) return liAction(t);
   if (t.dataset.tab) { state.tab = t.dataset.tab; state.focus = null; render(); window.scrollTo(0, 0); return; }
   if (t.dataset.brand) { state.brand = t.dataset.brand; store.set("brandFilter", state.brand); render(); return; }
   const item = state.items.find((i) => i.id === t.closest("[data-id]").dataset.id);
@@ -620,9 +631,8 @@ document.addEventListener("click", async (ev) => {
   if (act === "caption") copyCaption(item);
   if (act === "zip") downloadZip(item);
   if (act === "publish") { if (!cfg.token) { $("dlgSettings").showModal(); return; } openPublish(item); }
-  if (act === "publishLi") { if (!cfg.token) { $("dlgSettings").showModal(); return; } openPublish(item, "linkedin"); }
   if (act === "unschedule") {
-    const targets = t.dataset.targets || "instagram,facebook,linkedin";
+    const targets = t.dataset.targets || "instagram,facebook";
     try {
       await gh(`/repos/${cfg.repo}/actions/workflows/social.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { id: item.id, mode: "annuler", targets } }) });
       const tg = targets.split(",");
@@ -651,7 +661,7 @@ $("dlgSettings").onclose = () => {
   store.set("token", $("sToken").value.trim());
   toast("Réglages enregistrés"); load();
 };
-$("openAdd").onclick = () => { $("aUrl").value = ""; $("aInstr").value = ""; brandOptions($("aBrand"), "investisseur"); $("dlgAdd").showModal(); };
+$("openAdd").onclick = () => { if (state.project === "linkedin") return openIdea(); $("aUrl").value = ""; $("aInstr").value = ""; brandOptions($("aBrand"), "investisseur"); $("dlgAdd").showModal(); };
 $("dlgAdd").onclose = async () => {
   if ($("dlgAdd").returnValue !== "ok" || !$("aUrl").value) return;
   try {
@@ -660,10 +670,186 @@ $("dlgAdd").onclose = async () => {
   } catch (e) { toast(e.message, 5000); }
 };
 
+// ===========================================================================
+// Projet LinkedIn : memes pour le profil personnel
+const LI_TABS = [
+  { key: "ready", label: "Propositions", match: (p) => p.status === "ready" && !liBusy(p) && !liPublished(p) && !(p.schedules || []).length },
+  { key: "wip", label: "En cours", match: (p) => liBusy(p) },
+  { key: "scheduled", label: "Programmés", match: (p) => p.status === "ready" && !liBusy(p) && (p.schedules || []).length > 0 },
+  { key: "published", label: "Publiés", match: (p) => liPublished(p) },
+  { key: "error", label: "Erreurs", match: (p) => p.status === "error" || (!!p.publishError && !liPublished(p)) },
+  { key: "rejected", label: "Écartés", match: (p) => p.status === "rejected" },
+];
+const liPublished = (p) => !!(p.published && (p.published.url || p.published.id));
+const liPending = () => JSON.parse(store.get("liPending", "{}"));
+function liSetPending(key) { const m = liPending(); m[key] = Date.now(); store.set("liPending", JSON.stringify(m)); }
+// « Refaire » demandé depuis ce téléphone et pas encore revenu.
+function liBusy(p) {
+  const t = liPending()["post:" + p.id];
+  return !!t && Date.now() - t < 20 * 60e3 && !(p.generatedAt && Date.parse(p.generatedAt) > t) && !(p.errorAt && Date.parse(p.errorAt) > t);
+}
+// Nouvelles propositions demandées : combien attendues, depuis quand.
+function liWaiting() {
+  const w = JSON.parse(store.get("liWaiting", "null") || "null");
+  if (!w || Date.now() - w.t > 20 * 60e3) return null;
+  const arrived = li.posts.filter((p) => Date.parse(p.createdAt) > w.t).length;
+  return arrived >= w.n ? null : { ...w, left: w.n - arrived };
+}
+
+async function loadLi() {
+  try {
+    const data = await fetchData("data/linkedin.json").catch(() => ({ posts: [] }));
+    li.posts = data.posts || [];
+    li.status = await fetchData("data/linkedin-status.json").catch(() => null);
+    render();
+    loadRuns();
+  } catch (e) {
+    $("list").innerHTML = `<div class="empty">Impossible de charger les posts LinkedIn.<br><small>${esc(e.message)}</small></div>`;
+  }
+}
+
+function renderLi() {
+  $("tabs").innerHTML = LI_TABS.map((t) => `<button class="tab ${t.key === li.tab ? "on" : ""}" data-litab="${t.key}">${t.label}<span class="n">${li.posts.filter(t.match).length}</span></button>`).join("");
+  $("banner").innerHTML = cfg.token ? "" : `<div class="banner">Ajoute ton jeton GitHub dans les réglages (⚙︎) pour piloter LinkedIn depuis ce téléphone.</div>`;
+  const s = li.status;
+  const conn = !s ? "⏳ connexion jamais vérifiée" : s.ok ? `✅ connecté · ${esc(s.name)}` : s.pending ? "⏳ LinkedIn pas encore configuré" : `❌ ${esc(s.error)}`;
+  const tab = LI_TABS.find((t) => t.key === li.tab);
+  const list = li.posts.filter(tab.match);
+  const at = (p) => (p.schedules || [])[0]?.at || "";
+  if (li.tab === "scheduled") list.sort((a, b) => at(a).localeCompare(at(b)));
+  if (li.tab === "published") list.sort((a, b) => (b.published?.at || "").localeCompare(a.published?.at || ""));
+  const w = liWaiting();
+  const panel = `<div class="card li-panel"><h3>💼 Ton profil LinkedIn</h3>
+    <div class="li-row"><span>${conn}</span>${s?.checkedAt ? `<span class="hint">vérifié ${ago(s.checkedAt)}</span>` : ""}</div>
+    <div class="row"><button class="btn primary" data-act="li-propose">✨ 3 nouvelles propositions</button><button class="btn" data-act="li-idea">💡 Mon idée</button><button class="btn ghost" data-act="li-check">🔌 Vérifier la connexion</button></div>
+    <p class="hint">Chaque matin, 3 memes te sont proposés. Valide ceux qui te plaisent en les programmant ou en les publiant.</p></div>`;
+  const wait = w && (li.tab === "ready" || li.tab === "wip") ? `<div class="wait">⏳ ${w.left} meme${w.left > 1 ? "s" : ""} en préparation (3 à 5 minutes)…</div>` : "";
+  $("list").innerHTML = panel + wait + (list.length ? list.map(liCard).join("") : `<div class="empty">Rien ici pour l'instant.</div>`);
+  if (state.focus) {
+    const el = document.querySelector(`[data-li="${CSS.escape(state.focus)}"]`);
+    if (el) { el.classList.add("hl"); el.scrollIntoView({ block: "center" }); }
+  }
+}
+
+function liCard(p) {
+  const img = p.image ? raw(p.image) + (p.generatedAt ? `?v=${encodeURIComponent(p.generatedAt)}` : "") : "";
+  const src = p.meme ? (p.meme.image_source === "template" ? `meme « ${esc(p.meme.template || "")} »` : "photo") : "";
+  const head = `<div class="meta"><span class="st">${liBusy(p) ? "Regénération…" : liPublished(p) ? "Publié ✓" : (p.schedules || []).length ? "Programmé 🕒" : p.status === "rejected" ? "Écarté" : p.status === "error" ? "Erreur" : "Proposition"}</span>${p.origin === "idee" ? "<span>💡 ton idée</span>" : ""}${src ? `<span>· ${src}</span>` : ""}<span>· ${ago(p.createdAt)}</span></div>
+    <h3>${esc(p.angle || p.idea || "Meme")}</h3>`;
+  if (liBusy(p)) return `<div class="card" data-li="${esc(p.id)}">${head}<p class="hint">⏳ Nouvelle version en cours (3 à 5 minutes).</p></div>`;
+  const status = (liPublished(p) ? `<div class="pubok"><a href="${esc(p.published.url || "#")}" target="_blank" rel="noopener">✓ Publié sur LinkedIn ${p.published.at ? esc(fmtParis(p.published.at)) : ""}</a></div>` : "")
+    + (p.schedules || []).map((sc) => `<div class="sched"><span>🕒 Programmé ${esc(fmtParis(sc.at))}</span><button class="btn sm ghost" data-act="li-unschedule">Annuler</button></div>`).join("")
+    + (p.publishError && !liPublished(p) ? `<div class="puberr">⚠️ Échec de publication : ${esc(p.publishError)}</div>` : "")
+    + (p.error ? `<div class="puberr">⚠️ ${esc(p.error)}</div>` : "");
+  const body = p.image ? `<div class="meme"><img src="${img}" alt="" data-act="li-zoom">
+      <div><div class="caption-head"><span>📝 Texte du post</span><button class="btn sm" data-act="li-copy">📋 Copier</button></div>
+      <textarea data-text="${esc(p.id)}" ${liPublished(p) ? "readonly" : ""}>${esc(li.drafts[p.id] ?? p.text ?? "")}</textarea>
+      ${liPublished(p) ? "" : `<div class="row" style="margin-top:6px"><button class="btn sm" data-act="li-save">💾 Enregistrer le texte</button></div>`}</div></div>` : "";
+  const actions = liPublished(p) ? `<div class="row"><button class="btn" data-act="li-dl">⬇️ Image</button></div>`
+    : p.status === "rejected" ? `<div class="row"><button class="btn" data-act="li-redo">↻ Refaire</button></div>`
+    : `<div class="row">${p.image ? `<button class="btn pub" data-act="li-publish">🚀 Publier</button>` : ""}<button class="btn ghost" data-act="li-redo">↻ Refaire</button>${p.image ? `<button class="btn" data-act="li-dl">⬇️ Image</button>` : ""}<button class="btn danger" data-act="li-reject">✕ Écarter</button></div>`;
+  return `<div class="card" data-li="${esc(p.id)}">${head}${body}${status}${actions}</div>`;
+}
+
+async function liDispatch(inputs) {
+  if (!cfg.token) { $("dlgSettings").showModal(); throw new Error("Jeton GitHub manquant"); }
+  await gh(`/repos/${cfg.repo}/actions/workflows/linkedin.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs }) });
+  setTimeout(loadRuns, 4000);
+}
+
+function openIdea(post) {
+  $("iTitle").textContent = post ? "↻ Refaire ce meme" : "💡 Une idée de meme";
+  $("iIdeaWrap").hidden = !!post;
+  $("iIdea").value = ""; $("iInstr").value = ""; $("iFormat").value = "";
+  const dlg = $("dlgIdea");
+  dlg.onclose = async () => {
+    if (dlg.returnValue !== "ok") return;
+    try {
+      if (post) {
+        await liDispatch({ mode: "refaire", id: post.id, instructions: $("iInstr").value, format: $("iFormat").value });
+        liSetPending("post:" + post.id); toast("↻ Nouvelle version en préparation (3 à 5 min)", 4000);
+      } else {
+        if (!$("iIdea").value.trim()) return toast("Écris ton idée");
+        await liDispatch({ mode: "idee", idea: $("iIdea").value.trim(), instructions: $("iInstr").value, format: $("iFormat").value });
+        store.set("liWaiting", JSON.stringify({ t: Date.now(), n: 1 + ((liWaiting() || {}).left || 0) }));
+        li.tab = "ready"; toast("✨ Ton meme arrive dans 3 à 5 minutes", 4000);
+      }
+      render();
+    } catch (e) { toast(e.message, 5000); }
+  };
+  dlg.showModal();
+}
+
+function syncLiWhen() { $("lWhen").hidden = $("lMode").value !== "programmer"; }
+$("lMode").onchange = syncLiWhen;
+$("lPresets").innerHTML = [[8, 0], [12, 30], [18, 0], [21, 0]].map(([h, m]) => `<button type="button" data-h="${h}" data-m="${m}">${h} h ${String(m).padStart(2, "0")}</button>`).join("");
+$("lPresets").onclick = (e) => { const b = e.target.closest("button"); if (b) $("lAt").value = toLocalInput(nextAt(Number(b.dataset.h), Number(b.dataset.m))); };
+
+function openLiPublish(post) {
+  $("lTitle").textContent = post.angle || "";
+  $("lMode").value = "programmer";
+  $("lAt").value = toLocalInput((post.schedules || [])[0]?.at ? new Date(post.schedules[0].at) : nextAt(8, 0));
+  $("lAt").min = toLocalInput(new Date());
+  syncLiWhen();
+  const dlg = $("dlgLiPub");
+  dlg.onclose = async () => {
+    if (dlg.returnValue !== "ok") return;
+    const mode = $("lMode").value;
+    const inputs = { mode, id: post.id };
+    if (mode === "programmer") {
+      const at = new Date($("lAt").value);
+      if (!$("lAt").value || isNaN(at)) return toast("Choisis une date et une heure");
+      if (at.getTime() < Date.now()) return toast("Cette heure est déjà passée");
+      inputs.at = at.toISOString();
+    }
+    try {
+      const area = document.querySelector(`[data-text="${CSS.escape(post.id)}"]`);
+      if (area && area.value.trim() !== (post.text || "").trim()) return toast("Enregistre d'abord ton texte modifié (💾)", 4000);
+      await liDispatch(inputs);
+      if (mode === "programmer") { post.schedules = [{ at: inputs.at }]; post.publishError = null; render(); }
+      toast(mode === "publier" ? "🚀 Publication lancée (~1 min)" : mode === "programmer" ? `🕒 Programmé ${fmtParis(inputs.at)}` : "🧪 Test lancé : résultat dans « Activité récente »", 4000);
+    } catch (e) { toast(e.message, 5000); }
+  };
+  dlg.showModal();
+}
+
+// Texte en cours de modification : conservé quand la page se rafraîchit toute seule.
+document.addEventListener("input", (e) => { const a = e.target.closest("[data-text]"); if (a) li.drafts[a.dataset.text] = a.value; });
+
+async function liAction(t) {
+  const act = t.dataset.act;
+  try {
+    if (act === "li-propose") {
+      await liDispatch({ mode: "proposer" });
+      store.set("liWaiting", JSON.stringify({ t: Date.now(), n: 3 + ((liWaiting() || {}).left || 0) }));
+      li.tab = "ready"; render(); toast("✨ 3 memes arrivent dans 3 à 5 minutes", 4000); return;
+    }
+    if (act === "li-idea") return openIdea();
+    if (act === "li-check") { await liDispatch({ mode: "connexion" }); toast("🔌 Vérification lancée : résultat dans ~1 min (touche ↻)", 4000); return; }
+    const post = li.posts.find((p) => p.id === t.closest("[data-li]").dataset.li);
+    if (!post) return;
+    const img = post.image ? raw(post.image) + (post.generatedAt ? `?v=${encodeURIComponent(post.generatedAt)}` : "") : "";
+    if (act === "li-zoom") openLightboxUrl(img, `linkedin-${post.id}.jpg`);
+    if (act === "li-dl") saveBlob(await (await fetch(img)).blob(), `linkedin-${post.id}.jpg`);
+    if (act === "li-copy") { await navigator.clipboard.writeText(document.querySelector(`[data-text="${CSS.escape(post.id)}"]`).value); toast("📋 Texte copié"); }
+    if (act === "li-save") {
+      const text = document.querySelector(`[data-text="${CSS.escape(post.id)}"]`).value.trim();
+      if (!text) return toast("Le texte est vide");
+      await liDispatch({ mode: "modifier", id: post.id, text });
+      post.text = text; delete li.drafts[post.id]; toast("💾 Texte enregistré");
+    }
+    if (act === "li-publish") openLiPublish(post);
+    if (act === "li-redo") openIdea(post);
+    if (act === "li-reject") { await liDispatch({ mode: "ecarter", id: post.id }); post.status = "rejected"; post.schedules = []; render(); toast("Meme écarté"); }
+    if (act === "li-unschedule") { await liDispatch({ mode: "annuler", id: post.id }); post.schedules = []; render(); toast("Programmation annulée"); }
+  } catch (e) { toast(e.message, 5000); }
+}
+
 // Ouverture depuis une notification : ?validate=<id> ouvre directement la validation.
 (async () => {
   await load();
   const vid = params.get("validate");
+  if (params.get("projet")) { store.set("project", state.project); history.replaceState(null, "", location.pathname); }
   if (vid) {
     const item = state.items.find((i) => i.id === vid);
     if (item) { state.tab = TABS.find((t) => t.match(item))?.key || "new"; render(); if (item.status === "new" && !inProgress(item)) openValidate(item); }

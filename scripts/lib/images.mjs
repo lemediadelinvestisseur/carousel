@@ -159,7 +159,7 @@ export async function download(candidate, minSide = 600, minSize = null) {
 }
 
 /** Rassemble des candidates pour une slide (requête + entité Wikipédia), sans doublons globaux. */
-async function gather({ query, entity, articleUrl, includeArticle }) {
+export async function gather({ query, entity, articleUrl, includeArticle }) {
   const safe = (name, fn) => fn().catch((e) => (console.log(`  [images] ${name} : ${e.message}`), []));
   const [unsplash, google, bing, ddg, wiki, article] = await Promise.all([
     query ? safe("Unsplash", () => searchUnsplash(query)) : [],
@@ -176,7 +176,7 @@ async function gather({ query, entity, articleUrl, includeArticle }) {
   return dedupe([...article, ...merged.slice(0, 10), ...wiki, ...merged.slice(10)]);
 }
 
-async function downloadSome(cands, n, used, minSide, minSize) {
+export async function downloadSome(cands, n, used, minSide, minSize) {
   const ok = [];
   for (const c of cands) {
     if (ok.length >= n) break;
@@ -201,7 +201,7 @@ const Choice = z.object({
 const hasKey = () => !!(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
 
 /** Claude regarde les candidates et choisit la meilleure illustration (ou aucune). */
-async function chooseWithClaude(images, { subject, isCover }) {
+export async function chooseWithClaude(images, { subject, isCover }) {
   const usable = images.filter((im) => im.buf.length < 4_500_000 && ["image/jpeg", "image/png", "image/webp"].includes(im.type));
   if (!usable.length) return null;
   if (!hasKey()) return usable[0];

@@ -45,12 +45,15 @@ export function slugify(s, max = 50) {
 // repart de la dernière version distante et ré-applique ce journal (pas de conflit JSON).
 const UPDATES_FILE = path.join(ROOT, ".run/updates.json");
 
-export function recordUpdates({ upsert = [], prune = false, files = {} }) {
+export function recordUpdates({ upsert = [], prune = false, files = {}, liUpsert = [] }) {
   fs.mkdirSync(path.dirname(UPDATES_FILE), { recursive: true });
   const prev = fs.existsSync(UPDATES_FILE) ? JSON.parse(fs.readFileSync(UPDATES_FILE, "utf8")) : {};
-  const map = new Map((prev.upsert || []).map((i) => [i.id, i]));
-  for (const i of upsert) map.set(i.id, { ...map.get(i.id), ...i });
-  const out = { upsert: [...map.values()], prune: !!prev.prune || prune, files: { ...(prev.files || {}), ...files } };
+  const merge = (old = [], add) => {
+    const map = new Map(old.map((i) => [i.id, i]));
+    for (const i of add) map.set(i.id, { ...map.get(i.id), ...i });
+    return [...map.values()];
+  };
+  const out = { upsert: merge(prev.upsert, upsert), liUpsert: merge(prev.liUpsert, liUpsert), prune: !!prev.prune || prune, files: { ...(prev.files || {}), ...files } };
   fs.writeFileSync(UPDATES_FILE, JSON.stringify(out, null, 2));
 }
 
@@ -77,8 +80,17 @@ export function pruneOld(db, now = Date.now()) {
 
 export function applyUpdatesFile() {
   if (!fs.existsSync(UPDATES_FILE)) return 0;
-  const { upsert = [], prune, files = {} } = JSON.parse(fs.readFileSync(UPDATES_FILE, "utf8"));
+  const { upsert = [], liUpsert = [], prune, files = {} } = JSON.parse(fs.readFileSync(UPDATES_FILE, "utf8"));
   for (const [rel, obj] of Object.entries(files)) fs.writeFileSync(path.join(ROOT, rel), JSON.stringify(obj, null, 2) + "\n");
+  if (liUpsert.length) {
+    const li = loadLinkedin();
+    const byLi = new Map(li.posts.map((p) => [p.id, p]));
+    for (const u of liUpsert) {
+      if (byLi.has(u.id)) Object.assign(byLi.get(u.id), u);
+      else li.posts.push(u);
+    }
+    saveLinkedin(li);
+  }
   const db = loadNews();
   const byId = new Map(db.items.map((i) => [i.id, i]));
   for (const u of upsert) {
@@ -88,4 +100,18 @@ export function applyUpdatesFile() {
   if (prune) pruneOld(db);
   saveNews(db);
   return upsert.length;
+}
+
+// --- Posts LinkedIn (memes) : projet séparé des carousels -----------------------
+const LINKEDIN_FILE = path.join(ROOT, "data/linkedin.json");
+
+export function loadLinkedin() {
+  if (!fs.existsSync(LINKEDIN_FILE)) return { posts: [] };
+  return JSON.parse(fs.readFileSync(LINKEDIN_FILE, "utf8"));
+}
+
+export function saveLinkedin(db) {
+  db.updatedAt = new Date().toISOString();
+  db.posts.sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
+  fs.writeFileSync(LINKEDIN_FILE, JSON.stringify(db, null, 2) + "\n");
 }

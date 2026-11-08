@@ -1,0 +1,94 @@
+name: LinkedIn (memes)
+
+run-name: "${{ github.event_name == 'schedule' && 'linkedin: propositions du jour' || format('linkedin: {0} {1}', inputs.mode, inputs.id) }}"
+
+on:
+  # Nouvelles propositions chaque matin (≈ 7 h 13, heure de Paris en hiver).
+  schedule:
+    - cron: "13 6 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "proposer, idee, refaire, modifier, ecarter, publier, test, programmer, annuler, connexion"
+        required: true
+        default: "proposer"
+        type: choice
+        options: [proposer, idee, refaire, modifier, ecarter, publier, test, programmer, annuler, connexion]
+      id:
+        description: "Identifiant du post"
+        required: false
+        default: ""
+      idea:
+        description: "Idée de meme (mode idee)"
+        required: false
+        default: ""
+      instructions:
+        description: "Consignes (facultatif)"
+        required: false
+        default: ""
+      format:
+        description: "Image : vide = au choix de Claude, template = meme connu, photo = vraie photo"
+        required: false
+        default: ""
+      text:
+        description: "Nouveau texte du post (mode modifier)"
+        required: false
+        default: ""
+      at:
+        description: "Pour programmer : date et heure (ISO)"
+        required: false
+        default: ""
+      count:
+        description: "Nombre de propositions (mode proposer)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: linkedin-${{ inputs.id || inputs.mode || github.event_name }}-${{ inputs.mode == 'idee' && github.run_id || 'x' }}
+  cancel-in-progress: false
+
+jobs:
+  linkedin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MODE: ${{ github.event_name == 'schedule' && 'proposer' || inputs.mode }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Installation de Chromium
+        if: contains(fromJSON('["proposer","idee","refaire"]'), env.MODE)
+        run: npx playwright install --with-deps chromium
+      - name: LinkedIn
+        run: node scripts/linkedin.mjs
+        env:
+          INPUT_MODE: ${{ env.MODE }}
+          INPUT_ID: ${{ inputs.id }}
+          INPUT_IDEA: ${{ inputs.idea }}
+          INPUT_INSTRUCTIONS: ${{ inputs.instructions }}
+          INPUT_FORMAT: ${{ inputs.format }}
+          INPUT_TEXT: ${{ inputs.text }}
+          INPUT_AT: ${{ inputs.at }}
+          INPUT_COUNT: ${{ inputs.count }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
+          LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      - name: Enregistrement
+        if: always() && env.MODE != 'test'
+        run: |
+          ./scripts/publish.sh "linkedin: $MODE $INPUT_ID"
+        env:
+          INPUT_ID: ${{ inputs.id }}
