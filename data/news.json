@@ -2272,7 +2272,7 @@
       "aiScore": 6,
       "reason": "La succession de Lagarde à la BCE influencera les taux.",
       "hook": "Qui va remplacer Lagarde à la BCE ?",
-      "generatedAt": "2026-11-08T20:57:37.809Z",
+      "generatedAt": "2026-11-08T22:03:44.461Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-bce-qui-va-remplacer-christine-lagarde-a-4deaf736ee",
         "files": [
@@ -2290,9 +2290,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "**Klaas Knot** ou **Pablo Hernández de Cos** ? Ce sont les deux seuls candidats officiels pour remplacer **Christine Lagarde** à la tête de la **BCE** en février 2027.",
-          "La **BCE** changera de patron le **7 février 2027**. Ce choix tombe au moment où les **taux** remontent et où l'inflation atteint **3,4 %** en France.",
-          "**Christine Lagarde** quittera la **BCE** dans **91 jours**. Les pays de la zone euro espèrent nommer son **successeur** dès le sommet de **décembre**."
+          "Un **Néerlandais** ou un **Espagnol** pour remplacer **Christine Lagarde** ? La **BCE** changera de patron en **février 2027**, et c'est elle qui fixe les taux de ton crédit.",
+          "**Christine Lagarde** quitte la **BCE** près de **neuf mois** avant la fin de son mandat. Son successeur sera nommé pour **8 ans**, et la bataille commence lundi.",
+          "**Klaas Knot** ou **Pablo Hernández de Cos** : l'un des deux pourrait diriger la **BCE** dès le **7 février 2027**. Il lui faudra l'accord de 16 pays sur 21."
         ]
       },
       "instructions": "Garde la même chose que la première version mais améliore un peu le texte pour qu'il fasse + humain et mets des photos plus belles quand tu parles d'une personne \n"
@@ -2608,5 +2608,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:03:32.344Z"
+  "updatedAt": "2026-11-08T22:03:50.499Z"
 }
