@@ -151,7 +151,7 @@ details summary{cursor:pointer}
   <h2>🚀 Publier ce carousel</h2>
   <div class="hint" id="pTitle"></div>
   <label>Où ?</label>
-  <div class="checks"><label class="ck"><input type="checkbox" id="pIg" checked> Instagram</label><label class="ck"><input type="checkbox" id="pFb" checked> Page Facebook</label></div>
+  <div class="checks"><label class="ck"><input type="checkbox" id="pIg" checked> Instagram</label><label class="ck"><input type="checkbox" id="pFb" checked> Page Facebook</label><label class="ck"><input type="checkbox" id="pLi"> LinkedIn</label></div>
   <label for="pMode">Quand ?</label>
   <select id="pMode">
     <option value="programmer">🕒 Programmer à une date et une heure</option>
@@ -337,13 +337,13 @@ function card(i) {
 
 const fmtParis = (iso) => new Date(iso).toLocaleString("fr-FR", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
 function publishedBadges(i) {
-  const extra = (i.scheduled && i.scheduled.at ? `<div class="sched"><span>🕒 Programmé ${esc(fmtParis(i.scheduled.at))} · ${esc(i.scheduled.targets.replace("instagram", "Instagram").replace("facebook", "Facebook").replace(",", " + "))}</span><button class="btn sm ghost" data-act="unschedule">Annuler</button></div>` : "")
+  const extra = (i.scheduled && i.scheduled.at ? `<div class="sched"><span>🕒 Programmé ${esc(fmtParis(i.scheduled.at))} · ${esc(i.scheduled.targets.split(",").map((t) => ({ instagram: "Instagram", facebook: "Facebook", linkedin: "LinkedIn" })[t] || t).join(" + "))}</span><button class="btn sm ghost" data-act="unschedule">Annuler</button></div>` : "")
     + (i.publishError ? `<div class="puberr">⚠️ Échec de publication : ${esc(i.publishError)}</div>` : "");
   return publishedBadgesOnly(i) + extra;
 }
 function publishedBadgesOnly(i) {
   const p = i.published || {};
-  const names = { instagram: "Instagram", facebook: "Facebook" };
+  const names = { instagram: "Instagram", facebook: "Facebook", linkedin: "LinkedIn" };
   const done = Object.entries(p).filter(([, v]) => v && (v.url || v.id));
   return done.length ? `<div class="pubok">${done.map(([k, v]) => `<a href="${esc(v.url || "#")}" target="_blank" rel="noopener">✓ Publié sur ${names[k] || k}</a>`).join("")}</div>` : "";
 }
@@ -367,7 +367,7 @@ $("pPresets").onclick = (e) => { const b = e.target.closest("button"); if (b) $(
 function openPublish(item) {
   $("pTitle").textContent = item.title;
   const p = item.published || {};
-  $("pIg").checked = !p.instagram; $("pFb").checked = !p.facebook;
+  $("pIg").checked = !p.instagram; $("pFb").checked = !p.facebook; $("pLi").checked = false;
   $("pMode").value = "programmer";
   $("pAt").value = toLocalInput(item.scheduled?.at ? new Date(item.scheduled.at) : nextAt(12, 30));
   $("pAt").min = toLocalInput(new Date());
@@ -375,7 +375,7 @@ function openPublish(item) {
   const dlg = $("dlgPublish");
   dlg.onclose = async () => {
     if (dlg.returnValue !== "ok") return;
-    const targets = [$("pIg").checked && "instagram", $("pFb").checked && "facebook"].filter(Boolean).join(",");
+    const targets = [$("pIg").checked && "instagram", $("pFb").checked && "facebook", $("pLi").checked && "linkedin"].filter(Boolean).join(",");
     if (!targets) return toast("Choisis au moins un réseau");
     const mode = $("pMode").value;
     const inputs = { id: item.id, mode, targets };

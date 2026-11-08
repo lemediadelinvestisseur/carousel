@@ -11,6 +11,7 @@ import path from "node:path";
 import { parseArgs } from "node:util";
 import { loadNews, saveNews, readJson, recordUpdates, ROOT } from "./lib/store.mjs";
 import { pageToken, whoAmI, publishInstagram, publishFacebook } from "./lib/meta.mjs";
+import { linkedinToken, myOrganizations, organizationFor, publishLinkedIn } from "./lib/linkedin.mjs";
 import { notify, dashboardUrl } from "./lib/notify.mjs";
 
 const { values: args } = parseArgs({
@@ -40,6 +41,18 @@ if (args.mode === "connexion") {
       console.log(`✗ ${brands[key].name} : ${e.message}`);
     }
   }
+  if (process.env.LINKEDIN_TOKEN) {
+    try {
+      const orgs = await myOrganizations(linkedinToken());
+      console.log(`LinkedIn : Pages administrées → ${orgs.map((o) => `${o.name} (${o.id})`).join(", ") || "aucune"}`);
+      for (const key of Object.keys(brands)) {
+        try { const o = await organizationFor(brands[key], linkedinToken()); console.log(`✓ ${brands[key].name} : Page LinkedIn « ${o.name} » (${o.id})`); }
+        catch (e) { console.log(`✗ ${brands[key].name} : ${e.message}`); }
+      }
+    } catch (e) {
+      console.log(`✗ LinkedIn : ${e.message}`);
+    }
+  } else console.log("LinkedIn : pas encore configuré (secret LINKEDIN_TOKEN absent)");
   process.exit(ok ? 0 : 1);
 }
 
@@ -58,9 +71,10 @@ async function publishItem(item, targets, { dryRun = false, force = false } = {}
   const imageUrls = item.carousel.files.filter((f) => /\.jpe?g$/i.test(f)).map(raw);
   const caption = fs.readFileSync(path.join(ROOT, item.carousel.dir, "caption.txt"), "utf8").trim();
 
-  const token = pageToken(item.brand);
-  const me = await whoAmI(token);
-  console.log(`→ ${brands[item.brand].name} : Page « ${me.pageName} »${me.igUsername ? `, Instagram @${me.igUsername}` : ""}`);
+  const needsMeta = targets.some((t) => t === "instagram" || t === "facebook");
+  const token = needsMeta ? pageToken(item.brand) : null;
+  const me = needsMeta ? await whoAmI(token) : {};
+  console.log(`→ ${brands[item.brand].name}${needsMeta ? ` : Page « ${me.pageName} »${me.igUsername ? `, Instagram @${me.igUsername}` : ""}` : ""}`);
   console.log(`  ${imageUrls.length} images, description de ${caption.length} caractères${dryRun ? " — MODE TEST, rien ne sera publié" : ""}`);
 
   item.published = item.published || {};
@@ -72,9 +86,16 @@ async function publishItem(item, targets, { dryRun = false, force = false } = {}
       continue;
     }
     try {
-      const fn = target === "instagram" ? publishInstagram : target === "facebook" ? publishFacebook : null;
-      if (!fn) throw new Error(`cible inconnue : ${target}`);
-      const r = await fn({ igId: me.igId, pageId: me.pageId, token, imageUrls, caption, dryRun });
+      let r;
+      if (target === "linkedin") {
+        const pdf = path.join(ROOT, item.carousel.dir, "carousel.pdf");
+        if (!fs.existsSync(pdf)) throw new Error("PDF du carousel introuvable");
+        r = await publishLinkedIn({ brand: brands[item.brand], token: linkedinToken(), pdfPath: pdf, title: item.title, caption, dryRun });
+      } else {
+        const fn = target === "instagram" ? publishInstagram : target === "facebook" ? publishFacebook : null;
+        if (!fn) throw new Error(`cible inconnue : ${target}`);
+        r = await fn({ igId: me.igId, pageId: me.pageId, token, imageUrls, caption, dryRun });
+      }
       if (!dryRun) {
         item.published[target] = { ...r, at: new Date().toISOString() };
         done.push([target, r]);
