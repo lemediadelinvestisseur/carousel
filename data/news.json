@@ -110,7 +110,16 @@
           "Le patron de Nvidia avoue une infidélité en pleine affaire d'espionnage",
           "Espions chinois et infidélité : la semaine noire du patron de Nvidia"
         ]
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-09T06:40:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-08T22:33:47.509Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "c5cb11024b",
@@ -2633,5 +2642,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:29:13.876Z"
+  "updatedAt": "2026-11-08T22:33:47.509Z"
 }
