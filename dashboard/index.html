@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Carousels">
+<meta name="theme-color" content="#0B1F3A">
+<title>Carousels — Dashboard</title>
+<style>
+:root{
+  --bg:#F5F6F8;--card:#FFFFFF;--text:#121722;--muted:#5D6675;--line:#E3E6EB;
+  --navy:#0B1F3A;--gold:#F5B700;--coral:#E4572E;--ok:#1F9D55;--danger:#C2362B;
+  --radius:16px;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0D1117;--card:#161B22;--text:#E8ECF2;--muted:#9AA4B2;--line:#2A313C}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;padding-bottom:90px}
+button,select,textarea,input{font:inherit;color:inherit}
+header{position:sticky;top:0;z-index:5;background:var(--navy);color:#fff;padding:calc(env(safe-area-inset-top) + 12px) 16px 0}
+.top{display:flex;align-items:center;gap:10px}
+.top h1{font-size:18px;margin:0;flex:1}
+.icon-btn{background:rgba(255,255,255,.12);border:0;color:#fff;border-radius:10px;width:38px;height:38px;cursor:pointer;font-size:17px}
+.tabs{display:flex;gap:4px;overflow-x:auto;margin-top:12px;scrollbar-width:none}
+.tab{background:none;border:0;color:#B9C4D6;padding:10px 12px;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap;font-weight:600}
+.tab.on{color:#fff;border-color:var(--gold)}
+.tab .n{display:inline-block;min-width:20px;padding:0 6px;margin-left:4px;border-radius:99px;background:rgba(255,255,255,.15);font-size:12px}
+.wrap{max-width:760px;margin:0 auto;padding:14px 16px}
+.chips{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:6px 14px;cursor:pointer;font-weight:600;font-size:13px}
+.chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:12px}
+.card.hl{outline:3px solid var(--gold)}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-bottom:6px}
+.badge{font-weight:700;font-size:11px;padding:3px 8px;border-radius:6px;color:#fff}
+.b-investisseur{background:var(--navy)}
+.b-21m2{background:var(--coral)}
+.st{font-weight:700;font-size:11px;padding:3px 8px;border-radius:6px;background:var(--line);color:var(--text)}
+.card h3{margin:0 0 6px;font-size:16px;line-height:1.3}
+.card p{margin:0;color:var(--muted);font-size:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.row{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer;text-decoration:none;color:var(--text);display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.btn.primary{background:var(--ok);border-color:var(--ok);color:#fff;flex:1;justify-content:center}
+.btn.ghost{color:var(--muted)}
+.btn.danger{color:var(--danger)}
+.btn:disabled{opacity:.5}
+.thumbs{display:flex;gap:8px;overflow-x:auto;margin-top:12px;scroll-snap-type:x mandatory;padding-bottom:4px}
+.thumbs img{height:220px;aspect-ratio:4/5;border-radius:10px;scroll-snap-align:start;background:var(--line);object-fit:cover}
+.empty{text-align:center;color:var(--muted);padding:40px 10px}
+.fab{position:fixed;right:16px;bottom:calc(env(safe-area-inset-bottom) + 16px);background:var(--gold);color:var(--navy);border:0;border-radius:99px;padding:14px 20px;font-weight:800;box-shadow:0 6px 20px rgba(0,0,0,.25);cursor:pointer}
+dialog{border:0;border-radius:20px;padding:0;width:min(560px,calc(100% - 24px));background:var(--card);color:var(--text)}
+dialog::backdrop{background:rgba(0,0,0,.5)}
+.sheet{padding:18px}
+.sheet h2{margin:0 0 4px;font-size:18px}
+.sheet label{display:block;font-weight:700;font-size:13px;margin:14px 0 6px}
+.sheet input,.sheet select,.sheet textarea{width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--bg)}
+.sheet textarea{min-height:90px;resize:vertical}
+.hint{font-size:12px;color:var(--muted);margin-top:6px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom) + 80px);background:var(--text);color:var(--bg);padding:12px 18px;border-radius:12px;font-weight:600;z-index:20;max-width:90%;display:none}
+.banner{background:#FFF4D6;color:#5A4500;border-radius:12px;padding:12px;margin-bottom:12px;font-size:14px}
+.runs{font-size:13px;color:var(--muted)}
+details summary{cursor:pointer}
+.quota{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:13px;color:var(--muted)}
+.q .badge{display:table;margin-bottom:6px}
+.q b{font-size:20px;color:var(--text);margin-right:2px}
+.bar{height:6px;background:var(--line);border-radius:9px;margin-top:6px;overflow:hidden}
+.bar div{height:100%;background:var(--danger)}
+.q.ok .bar div{background:var(--gold)}
+.q.full .bar div{background:var(--ok)}
+.ai{font-weight:800;font-size:11px;padding:3px 7px;border-radius:6px;background:var(--line);color:var(--text)}
+.ai.s2,.ai.s3{background:var(--ok);color:#fff}
+.hook{font-weight:600;font-size:14px;margin:4px 0 6px}
+.reason{font-size:13px;color:var(--muted);font-style:italic;margin-bottom:6px}
+.runs div{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <h1>🎠 Carousels</h1>
+    <button class="icon-btn" id="refresh" title="Rafraîchir">↻</button>
+    <button class="icon-btn" id="openSettings" title="Réglages">⚙︎</button>
+  </div>
+  <nav class="tabs" id="tabs"></nav>
+</header>
+
+<div class="wrap">
+  <div id="banner"></div>
+  <div class="quota" id="quota"></div>
+  <div class="chips" id="chips"></div>
+  <div id="list"></div>
+  <div class="card" id="runsCard" hidden><h3>Activité récente</h3><div class="runs" id="runs"></div></div>
+  <details class="card" id="sourcesCard"><summary><b>État des sources</b></summary><div class="runs" id="sources"></div></details>
+</div>
+
+<button class="fab" id="openAdd">+ Article</button>
+<div class="toast" id="toast"></div>
+
+<dialog id="dlgValidate"><form method="dialog" class="sheet" id="formValidate">
+  <h2>Valider cette actu ?</h2>
+  <div class="hint" id="vTitle"></div>
+  <label for="vBrand">Compte</label>
+  <select id="vBrand"></select>
+  <label for="vInstr">Consignes (facultatif)</label>
+  <textarea id="vInstr" placeholder="Ex : insister sur l'impact pour les primo-accédants, 5 slides max…"></textarea>
+  <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">✅ Générer le carousel</button></div>
+</form></dialog>
+
+<dialog id="dlgAdd"><form method="dialog" class="sheet">
+  <h2>Carousel à partir d'un article</h2>
+  <label for="aUrl">Lien de l'article</label>
+  <input id="aUrl" type="url" placeholder="https://…">
+  <label for="aBrand">Compte</label>
+  <select id="aBrand"></select>
+  <label for="aInstr">Consignes (facultatif)</label>
+  <textarea id="aInstr"></textarea>
+  <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">Générer</button></div>
+</form></dialog>
+
+<dialog id="dlgSettings"><form method="dialog" class="sheet">
+  <h2>Réglages</h2>
+  <label for="sRepo">Dépôt GitHub</label>
+  <input id="sRepo" placeholder="proprietaire/depot">
+  <label for="sBranch">Branche</label>
+  <input id="sBranch" placeholder="main">
+  <label for="sToken">Jeton GitHub (fine-grained)</label>
+  <input id="sToken" type="password" autocomplete="off" placeholder="github_pat_…">
+  <div class="hint">Créez-le sur github.com → Settings → Developer settings → Fine-grained tokens, limité à ce dépôt, avec les permissions <b>Actions : Read and write</b> et <b>Contents : Read-only</b>. Il reste uniquement dans ce navigateur.</div>
+  <div class="row"><button class="btn ghost" value="cancel">Fermer</button><button class="btn primary" value="ok">Enregistrer</button></div>
+</form></dialog>
+
+<script>
+const BRANDS = { investisseur: "Le média de l'investisseur", "21m2": "21m2" };
+const TABS = [
+  { key: "new", label: "À valider", match: (i) => i.status === "new" && !pending(i.id) },
+  { key: "wip", label: "En cours", match: (i) => ["validated", "generating"].includes(i.status) || (i.status === "new" && pending(i.id)) },
+  { key: "done", label: "Prêts", match: (i) => i.status === "done" },
+  { key: "error", label: "Erreurs", match: (i) => i.status === "error" },
+  { key: "rejected", label: "Écartées", match: (i) => ["rejected", "ignored"].includes(i.status) },
+];
+const STATUS = { new: "Nouvelle", validated: "Validée", generating: "En génération", done: "Prêt", error: "Erreur", rejected: "Rejetée", ignored: "Écartée par l'IA" };
+const QUOTA = { min: 2, max: 5 };
+const parisDay = (d) => new Date(d).toLocaleDateString("fr-CA", { timeZone: "Europe/Paris" });
+
+const store = {
+  get(k, d) { try { return localStorage.getItem(k) ?? d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+};
+function guessRepo() {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  const seg = location.pathname.split("/").filter(Boolean)[0];
+  return m && seg ? `${m[1]}/${seg}` : "lemediadelinvestisseur/carousel";
+}
+const cfg = {
+  get repo() { return store.get("repo", guessRepo()); },
+  get branch() { return store.get("branch", "main"); },
+  get token() { return store.get("token", ""); },
+};
+const pendingMap = () => JSON.parse(store.get("pending", "{}"));
+function pending(id) { const t = pendingMap()[id]; return t && Date.now() - t < 20 * 60e3; }
+function setPending(id) { const p = pendingMap(); p[id] = Date.now(); store.set("pending", JSON.stringify(p)); }
+
+const params = new URLSearchParams(location.search);
+let state = { items: [], tab: "new", brand: store.get("brandFilter", "all"), focus: params.get("item") || params.get("validate") };
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+function toast(msg, ms = 2800) { const t = $("toast"); t.textContent = msg; t.style.display = "block"; clearTimeout(t._h); t._h = setTimeout(() => (t.style.display = "none"), ms); }
+
+function ago(iso) {
+  const m = Math.round((Date.now() - Date.parse(iso)) / 60000);
+  if (m < 60) return `il y a ${m} min`;
+  const h = Math.round(m / 60);
+  return h < 24 ? `il y a ${h} h` : `il y a ${Math.round(h / 24)} j`;
+}
+const raw = (p) => `https://raw.githubusercontent.com/${cfg.repo}/${cfg.branch}/${p.split("/").map(encodeURIComponent).join("/")}`;
+
+async function gh(path, opts = {}) {
+  const headers = { accept: "application/vnd.github+json", "x-github-api-version": "2022-11-28", ...(opts.headers || {}) };
+  if (cfg.token) headers.authorization = `Bearer ${cfg.token}`;
+  const res = await fetch(`https://api.github.com${path}`, { ...opts, headers });
+  if (!res.ok) throw new Error(`GitHub ${res.status} : ${(await res.text()).slice(0, 160)}`);
+  return res.status === 204 ? null : res;
+}
+
+async function load() {
+  try {
+    let data;
+    if (cfg.token) {
+      const res = await gh(`/repos/${cfg.repo}/contents/data/news.json?ref=${cfg.branch}`, { headers: { accept: "application/vnd.github.raw+json" } });
+      data = await res.json();
+    } else {
+      data = await (await fetch(raw("data/news.json") + `?t=${Date.now()}`)).json();
+    }
+    state.items = data.items || [];
+    render();
+    loadRuns();
+    loadSources();
+  } catch (e) {
+    $("list").innerHTML = `<div class="empty">Impossible de charger les actus.<br><small>${esc(e.message)}</small></div>`;
+  }
+}
+
+async function loadSources() {
+  try {
+    let st;
+    if (cfg.token) st = await (await gh(`/repos/${cfg.repo}/contents/data/sources-status.json?ref=${cfg.branch}`, { headers: { accept: "application/vnd.github.raw+json" } })).json();
+    else st = await (await fetch(raw("data/sources-status.json") + `?t=${Date.now()}`)).json();
+    $("sources").innerHTML = Object.entries(st).map(([name, s]) => `<div><span>${s.ok ? "✅" : "❌"} ${esc(name)}</span><span title="${esc(s.error || s.url || "")}">${s.ok ? `${esc(s.via)} · ${s.entries} art.` : "en échec"}</span></div>`).join("") || "Pas encore de collecte.";
+  } catch { $("sources").textContent = "Pas encore de collecte."; }
+}
+
+async function loadRuns() {
+  if (!cfg.token) return;
+  try {
+    const r = await (await gh(`/repos/${cfg.repo}/actions/runs?per_page=6`)).json();
+    const icon = (run) => run.status !== "completed" ? "⏳" : run.conclusion === "success" ? "✅" : "❌";
+    $("runs").innerHTML = r.workflow_runs.map((run) => `<div><span>${icon(run)} ${esc(run.display_title || run.name)}</span><span>${ago(run.created_at)}</span></div>`).join("");
+    $("runsCard").hidden = !r.workflow_runs.length;
+    if (r.workflow_runs.some((x) => x.status !== "completed")) setTimeout(load, 20000);
+  } catch {}
+}
+
+function render() {
+  const inBrand = (i) => state.brand === "all" || i.brand === state.brand;
+  const items = state.items.filter(inBrand);
+  $("tabs").innerHTML = TABS.map((t) => `<button class="tab ${t.key === state.tab ? "on" : ""}" data-tab="${t.key}">${t.label}<span class="n">${items.filter(t.match).length}</span></button>`).join("");
+  $("chips").innerHTML = [["all", "Tous"], ...Object.entries(BRANDS)].map(([k, v]) => `<button class="chip ${k === state.brand ? "on" : ""}" data-brand="${k}">${esc(v)}</button>`).join("");
+  const today = parisDay(Date.now());
+  $("quota").innerHTML = Object.entries(BRANDS).map(([k, v]) => {
+    const n = state.items.filter((i) => i.brand === k && i.status === "done" && i.generatedAt && parisDay(i.generatedAt) === today).length;
+    const cls = n >= QUOTA.max ? "full" : n >= QUOTA.min ? "ok" : "low";
+    return `<div class="q ${cls}"><span class="badge b-${k}">${esc(v)}</span><b>${n}</b>/${QUOTA.max} aujourd'hui<div class="bar"><div style="width:${Math.min(100, (n / QUOTA.max) * 100)}%"></div></div></div>`;
+  }).join("");
+  $("banner").innerHTML = cfg.token ? "" : `<div class="banner">Ajoutez votre jeton GitHub dans les réglages (⚙︎) pour pouvoir valider les actus depuis ce téléphone.</div>`;
+
+  const tab = TABS.find((t) => t.key === state.tab);
+  let list = items.filter(tab.match);
+  const rank = (i) => (i.aiScore ?? -1) * 100 + (i.score || 0);
+  if (state.tab === "new" || state.tab === "rejected") list.sort((a, b) => rank(b) - rank(a) || b.publishedAt.localeCompare(a.publishedAt));
+  if (state.tab === "done") list.sort((a, b) => (b.generatedAt || "").localeCompare(a.generatedAt || ""));
+  $("list").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Rien ici pour l'instant.</div>`;
+
+  if (state.focus) {
+    const el = document.querySelector(`[data-id="${CSS.escape(state.focus)}"]`);
+    if (el) { el.classList.add("hl"); el.scrollIntoView({ block: "center" }); }
+  }
+}
+
+function card(i) {
+  const st = pending(i.id) && i.status === "new" ? "Envoyée…" : STATUS[i.status] || i.status;
+  const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.aiScore != null ? `<span class="ai s${Math.floor(i.aiScore / 3)}">${i.aiScore}/10</span>` : i.score ? `<span>· score ${i.score}</span>` : ""}${i.international ? "<span>· 🌍</span>" : ""}</div>
+    <h3>${esc(i.title)}</h3>${i.hook ? `<div class="hook">💡 ${esc(i.hook)}</div>` : ""}${i.reason ? `<div class="reason">${esc(i.reason)}</div>` : ""}${i.summary ? `<p>${esc(i.summary)}</p>` : ""}`;
+  let actions = "";
+  if (i.status === "new" && !pending(i.id)) {
+    actions = `<div class="row"><button class="btn primary" data-act="validate">✅ Valider</button><button class="btn danger" data-act="reject">✕</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
+  } else if (i.status === "done" && i.carousel) {
+    const pngs = i.carousel.files.filter((f) => f.endsWith(".png"));
+    actions = `<div class="thumbs">${pngs.map((f) => `<img loading="lazy" src="${raw(i.carousel.dir + "/" + f)}" alt="">`).join("")}</div>
+      <div class="row"><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="caption">📋 Légende</button>
+      <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}" target="_blank" rel="noopener">PDF</a>
+      <button class="btn ghost" data-act="validate">↻ Refaire</button></div>`;
+  } else if (["error", "rejected", "ignored"].includes(i.status)) {
+    actions = `${i.error ? `<p class="hint">${esc(i.error)}</p>` : ""}<div class="row"><button class="btn ${i.status === "error" ? "primary" : ""}" data-act="validate">${i.status === "error" ? "↻ Réessayer" : "✅ Valider quand même"}</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
+  }
+  return `<div class="card" data-id="${esc(i.id)}">${head}${actions}</div>`;
+}
+
+async function dispatch(inputs) {
+  if (!cfg.token) { $("dlgSettings").showModal(); throw new Error("Jeton GitHub manquant"); }
+  await gh(`/repos/${cfg.repo}/actions/workflows/generate.yml/dispatches`, {
+    method: "POST",
+    body: JSON.stringify({ ref: cfg.branch, inputs }),
+  });
+}
+
+function brandOptions(sel, current) {
+  sel.innerHTML = Object.entries(BRANDS).map(([k, v]) => `<option value="${k}" ${k === current ? "selected" : ""}>${esc(v)}</option>`).join("");
+}
+
+function openValidate(item) {
+  $("vTitle").textContent = item.title;
+  brandOptions($("vBrand"), item.brand);
+  $("vInstr").value = "";
+  const dlg = $("dlgValidate");
+  dlg.onclose = async () => {
+    if (dlg.returnValue !== "ok") return;
+    try {
+      await dispatch({ id: item.id, action: "valider", brand: $("vBrand").value, instructions: $("vInstr").value });
+      setPending(item.id);
+      if (item.status !== "new") { item.status = "validated"; }
+      toast("✅ Validée ! Le carousel arrive dans ~2 min.");
+      render(); setTimeout(loadRuns, 4000);
+    } catch (e) { toast(e.message, 5000); }
+  };
+  dlg.showModal();
+}
+
+async function shareImages(item) {
+  const pngs = item.carousel.files.filter((f) => f.endsWith(".png"));
+  try {
+    toast("Préparation des images…");
+    const files = await Promise.all(pngs.map(async (f) => new File([await (await fetch(raw(item.carousel.dir + "/" + f))).blob()], f, { type: "image/png" })));
+    if (navigator.canShare && navigator.canShare({ files })) {
+      await navigator.share({ files, title: item.title });
+    } else {
+      files.forEach((file) => { const a = document.createElement("a"); a.href = URL.createObjectURL(file); a.download = file.name; a.click(); });
+    }
+  } catch (e) { if (e.name !== "AbortError") toast(e.message, 5000); }
+}
+
+async function copyCaption(item) {
+  try {
+    const txt = await (await fetch(raw(item.carousel.dir + "/caption.txt"))).text();
+    await navigator.clipboard.writeText(txt);
+    toast("📋 Légende copiée");
+  } catch (e) { toast("Copie impossible : " + e.message, 5000); }
+}
+
+document.addEventListener("click", async (ev) => {
+  const t = ev.target.closest("[data-tab],[data-brand],[data-act]");
+  if (!t) return;
+  if (t.dataset.tab) { state.tab = t.dataset.tab; state.focus = null; render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.brand) { state.brand = t.dataset.brand; store.set("brandFilter", state.brand); render(); return; }
+  const item = state.items.find((i) => i.id === t.closest("[data-id]").dataset.id);
+  if (!item) return;
+  const act = t.dataset.act;
+  if (act === "validate") openValidate(item);
+  if (act === "share") shareImages(item);
+  if (act === "caption") copyCaption(item);
+  if (act === "reject") {
+    try { await dispatch({ id: item.id, action: "rejeter" }); item.status = "rejected"; render(); toast("Actu rejetée"); }
+    catch (e) { toast(e.message, 5000); }
+  }
+});
+
+$("refresh").onclick = () => { toast("Rafraîchissement…", 1200); load(); };
+$("openSettings").onclick = () => { $("sRepo").value = cfg.repo; $("sBranch").value = cfg.branch; $("sToken").value = cfg.token; $("dlgSettings").showModal(); };
+$("dlgSettings").onclose = () => {
+  if ($("dlgSettings").returnValue !== "ok") return;
+  store.set("repo", $("sRepo").value.trim() || guessRepo());
+  store.set("branch", $("sBranch").value.trim() || "main");
+  store.set("token", $("sToken").value.trim());
+  toast("Réglages enregistrés"); load();
+};
+$("openAdd").onclick = () => { $("aUrl").value = ""; $("aInstr").value = ""; brandOptions($("aBrand"), "investisseur"); $("dlgAdd").showModal(); };
+$("dlgAdd").onclose = async () => {
+  if ($("dlgAdd").returnValue !== "ok" || !$("aUrl").value) return;
+  try {
+    await dispatch({ url: $("aUrl").value.trim(), brand: $("aBrand").value, instructions: $("aInstr").value, action: "valider" });
+    state.tab = "wip"; toast("✅ Génération lancée (~2 min)"); setTimeout(load, 5000);
+  } catch (e) { toast(e.message, 5000); }
+};
+
+// Ouverture depuis une notification : ?validate=<id> ouvre directement la validation.
+(async () => {
+  await load();
+  const vid = params.get("validate");
+  if (vid) {
+    const item = state.items.find((i) => i.id === vid);
+    if (item) { state.tab = TABS.find((t) => t.match(item))?.key || "new"; render(); if (item.status === "new" && !pending(item.id)) openValidate(item); }
+    history.replaceState(null, "", location.pathname);
+  } else if (params.get("item")) {
+    const item = state.items.find((i) => i.id === params.get("item"));
+    if (item) { state.tab = TABS.find((t) => t.match(item))?.key || "new"; render(); }
+  }
+  setInterval(load, 120000);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "_comment": "Pour chaque site : 'page' = la page d'actus, 'feeds' = flux RSS candidats (facultatif). Si aucun flux ne répond, le flux est cherché automatiquement dans la page, puis en dernier recours via Google News (site:...). 'brand' = investisseur | 21m2 | auto. 'international': true = sources mondiales, filtrées plus sévèrement (ce qui intéresse les Français).",
+  "maxAgeHours": 36,
+  "carouselsPerDay": { "min": 2, "max": 5 },
+  "notify": {
+    "minAiScore": 7,
+    "minKeywordScore": 4,
+    "maxPerRunPerBrand": 3,
+    "maxPerDayPerBrand": 10
+  },
+  "sources": [
+    {
+      "name": "Maddyness",
+      "page": "https://www.maddyness.com",
+      "feeds": ["https://www.maddyness.com/feed/"],
+      "brand": "investisseur",
+      "topic": "French Tech, startups, levées de fonds"
+    },
+    {
+      "name": "TradingView News",
+      "page": "https://www.tradingview.com/news/",
+      "feeds": [],
+      "googleNews": "site:tradingview.com/news",
+      "brand": "investisseur",
+      "international": true
+    },
+    {
+      "name": "Zonebourse",
+      "page": "https://www.zonebourse.com/actualite-bourse/",
+      "feeds": ["https://www.zonebourse.com/rss/"],
+      "brand": "investisseur",
+      "international": true
+    },
+    {
+      "name": "Moneyvox Immobilier",
+      "page": "https://www.moneyvox.fr/immobilier/actualites/",
+      "feeds": ["https://www.moneyvox.fr/immobilier/actualites/rss.xml", "https://www.moneyvox.fr/rss/immobilier.xml"],
+      "googleNews": "site:moneyvox.fr/immobilier",
+      "brand": "21m2"
+    },
+    {
+      "name": "Le Figaro Immobilier",
+      "page": "https://immobilier.lefigaro.fr/actualites",
+      "feeds": ["https://www.lefigaro.fr/rss/figaro_immobilier.xml", "https://immobilier.lefigaro.fr/rss/figaro_immobilier.xml"],
+      "googleNews": "site:immobilier.lefigaro.fr",
+      "brand": "21m2"
+    },
+    {
+      "name": "Les Echos Patrimoine Immobilier",
+      "page": "https://www.lesechos.fr/patrimoine/immobilier",
+      "feeds": ["https://services.lesechos.fr/rss/les-echos-patrimoine.xml"],
+      "googleNews": "site:lesechos.fr/patrimoine/immobilier",
+      "brand": "21m2"
+    },
+    {
+      "name": "Boursorama Immobilier",
+      "page": "https://www.boursorama.com/immobilier/",
+      "feeds": ["https://www.boursorama.com/rss/immobilier/"],
+      "googleNews": "site:boursorama.com/immobilier",
+      "brand": "21m2"
+    },
+    {
+      "name": "Capital Immobilier",
+      "page": "https://www.capital.fr/immobilier",
+      "feeds": ["https://www.capital.fr/immobilier/rss", "https://feed.prismamediadigital.com/v1/cap/rss?sources=capital&categories=immobilier"],
+      "googleNews": "site:capital.fr/immobilier",
+      "brand": "21m2"
+    },
+    {
+      "name": "Le Revenu Immobilier",
+      "page": "https://www.lerevenu.com/investir-immobilier/",
+      "feeds": ["https://www.lerevenu.com/investir-immobilier/rss", "https://www.lerevenu.com/rss.xml"],
+      "googleNews": "site:lerevenu.com/investir-immobilier",
+      "brand": "21m2"
+    }
+  ]
+}

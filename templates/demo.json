@@ -1,0 +1,13 @@
+{
+  "slides": [
+    { "kind": "cover", "kicker": "Taux", "title": "La BCE baisse ses taux : **ce qui change pour votre argent**", "body": "", "stat": "", "bullets": [] },
+    { "kind": "stat", "kicker": "Le chiffre", "title": "Le nouveau taux de dépôt de la BCE", "body": "Soit une baisse de 0,25 point, la première depuis un an.", "stat": "2,25 %", "bullets": [] },
+    { "kind": "text", "kicker": "Pourquoi maintenant ?", "title": "L'inflation est presque revenue à la cible", "body": "Elle s'établit à **2,1 %** en octobre en zone euro, tout près de l'objectif de 2 % fixé par la BCE.", "stat": "", "bullets": [] },
+    { "kind": "list", "kicker": "Ce que ça change", "title": "Pour vous, concrètement", "body": "", "stat": "", "bullets": ["Les livrets pourraient moins rapporter", "Les crédits immobiliers pourraient baisser", "Les obligations existantes prennent de la valeur"], "stat": "" },
+    { "kind": "text", "kicker": "À surveiller", "title": "Et ensuite ?", "body": "Une nouvelle baisse est anticipée en début d'année prochaine.", "stat": "", "bullets": [] },
+    { "kind": "cta", "kicker": "", "title": "Abonnez-vous pour ne rien rater de l'actu des marchés", "body": "@lemediadelinvestisseur", "stat": "", "bullets": [] }
+  ],
+  "caption": "La BCE baisse ses taux pour la première fois depuis un an. Livrets, crédit immobilier, obligations : voici ce que ça change pour vous. Et vous, allez-vous ajuster votre épargne ?",
+  "hashtags": ["bourse", "bce", "taux", "epargne", "investissement"],
+  "generator": "demo"
+}
