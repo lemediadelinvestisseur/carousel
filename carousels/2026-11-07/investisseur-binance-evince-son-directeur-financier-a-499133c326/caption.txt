@@ -1,15 +1,19 @@
-Binance change de directeur financier neuf jours après s'être fait voler 6,3 milliards de dollars.
+Binance change de directeur financier, neuf jours après le plus gros piratage de son histoire.
 
-Le 29 octobre, des pirates ont vidé une partie des portefeuilles de la plateforme en quatre heures environ. Le FBI attribue l'attaque à TraderTraitor, un groupe nord-coréen. Pyongyang dément.
+Le 29 octobre, des pirates attribués à la Corée du Nord par le FBI ont dérobé 6,3 milliards de dollars de cryptos sur la plateforme, selon Binance. Samedi, Binance a annoncé le départ de Kaiser Ng, son directeur financier depuis 2022, remplacé par Justin Yek. La plateforme parle d'une transition prévue depuis six mois, et rien ne prouve un lien avec l'attaque.
 
-Le plus frappant, c'est la méthode. Un ingénieur a passé un faux entretien d'embauche et téléchargé un « exercice » piégé. Les pirates ont ensuite détourné un outil d'IA interne pour prendre la main sur les ordinateurs de deux autres ingénieurs.
+Binance assure avoir reconstitué environ 95 % des actifs touchés avec sa trésorerie et son fonds SAFU. Ce fonds ne pèse pourtant qu'environ 1 milliard de dollars, six fois moins que le montant volé. Le reste vient des réserves de Binance, sans vérification indépendante à ce jour.
 
-• Samedi, Binance a annoncé que Kaiser Ng, directeur financier depuis 2022, quitte son poste. Il est remplacé par Justin Yek, ancien d'Airwallex. La codirigeante Yi He assure que ce départ était prévu depuis six mois, mais aucun document public ne permet de le vérifier.
+• Pour toi, en France, l'enjeu est ailleurs. Binance n'a plus le droit d'opérer ici depuis le 1er juillet, faute d'agrément MiCA. Sa promesse de couvrir les pertes est donc volontaire : aucune règle européenne ne l'oblige à la tenir.
 
-• Côté clients, Binance promet que personne ne paiera : 95 % des actifs volés ont déjà été remplacés grâce à sa trésorerie et à son fonds d'urgence. À la réouverture des retraits, les clients ont tout de même sorti 3,64 milliards de dollars nets en neuf heures et demie. Une partie du butin reste introuvable, environ 470 millions de dollars.
+• Les comptes français seront fermés le 31 décembre. Certains retraits (HYPE, INJ, APT, NEAR, LTC) n'étaient toujours pas rétablis au 6 novembre.
 
-Si tu es en France, une autre échéance te concerne directement. Binance France fermera les comptes le 31 décembre, faute d'agrément MiCA. À partir du 29 novembre, laisser tes cryptos sur la plateforme te coûtera 0,025 % de ton solde par mois, avec un minimum de 10 USDC. Vérifie ces dates dans les messages officiels de Binance.
+Côté impôts, transférer tes cryptos vers ton propre portefeuille n'est pas imposable. Tu dois en revanche déclarer ton compte Binance avec le formulaire 3916-bis pour chaque année de détention, sous peine de 750 euros d'amende par compte et par an.
 
-Cet article n'est pas un conseil en investissement. Tu as déjà déplacé tes cryptos ou tu attends encore ?
+Binance compte demander l'agrément MiCA auprès de l'AMF, mais aucun calendrier n'est confirmé.
+
+Tu as déjà retiré tes cryptos de Binance, ou tu attends encore ?
 
 🔖 Enregistre ce post et partage-le à quelqu'un de concerné.
+
+Ceci n'est pas un conseil en investissement.
