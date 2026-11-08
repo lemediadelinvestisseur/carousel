@@ -538,7 +538,7 @@
       "collectedAt": "2026-11-08T21:02:25.273Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Binance est très utilisée en France, un piratage suivi d'un départ inquiète.",
@@ -2677,5 +2677,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T23:07:51.443Z"
+  "updatedAt": "2026-11-08T23:07:56.782Z"
 }
