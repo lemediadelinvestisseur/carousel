@@ -17,7 +17,30 @@
     "reason": "Nvidia et Jensen Huang, ambiance espionnage : sujet intrigant sur une star de la Bourse.",
     "hook": "Le patron de Nvidia ciblé par des espions étrangers ?",
     "notifiedAt": "2026-11-08T21:02:25.273Z",
-    "instructions": "une autre source : https://www.zonebourse.com/actualite-bourse/nvidia-enquete-interne-sur-des-accusations-d-espionnage-chinois-ce785fd2d081f627\n"
+    "instructions": "une autre source : https://www.zonebourse.com/actualite-bourse/nvidia-enquete-interne-sur-des-accusations-d-espionnage-chinois-ce785fd2d081f627\n",
+    "generatedAt": "2026-11-08T22:06:07.045Z",
+    "carousel": {
+      "dir": "carousels/2026-11-08/investisseur-nvidia-ouvre-une-enquete-apres-un-articl-1d1589c035",
+      "files": [
+        "slide-01.jpg",
+        "slide-02.jpg",
+        "slide-03.jpg",
+        "slide-04.jpg",
+        "slide-05.jpg",
+        "slide-06.jpg",
+        "slide-07.jpg",
+        "slide-08.jpg",
+        "slide-09.jpg",
+        "carousel.pdf"
+      ],
+      "generator": "claude-opus-5-5",
+      "slides": 9,
+      "hooks": [
+        "Le patron de **Nvidia**, **Jensen Huang**, aurait été la cible des **services chinois**. Son conseil ouvre une **enquête indépendante** avant la réouverture de Wall Street **lundi**.",
+        "**Jensen Huang** reconnaît une **infidélité** et **Nvidia** ouvre une enquête. En cause : une femme d'affaires soupçonnée par Washington de travailler pour le **renseignement chinois**.",
+        "Espionnage, puces d'IA et **Congrès** : **Nvidia**, plus grande entreprise mondiale en Bourse, enquête sur son patron **Jensen Huang**. Les élus veulent l'entendre le **18 novembre**."
+      ]
+    }
   },
   "carousel": {
     "category": "Actualité",
@@ -25,75 +48,62 @@
       {
         "kind": "cover",
         "kicker": "",
-        "title": "**Nvidia** enquête sur son propre patron, **Jensen Huang**. La presse le dit proche d'une femme d'affaires soupçonnée de **renseigner Pékin**. Il a reconnu une **infidélité**.",
+        "title": "Le patron de Nvidia aurait été la cible d'espions chinois",
         "body": "",
         "bullets": [],
-        "image_query": "Jensen Huang Nvidia GTC keynote stage",
+        "image_query": "Jensen Huang leather jacket press conference",
         "image_entity": "Jensen Huang"
       },
       {
         "kind": "content",
         "kicker": "LE CONTEXTE",
-        "title": "Le conseil d'administration enquête sur son **patron**",
-        "body": "Dimanche 8 novembre, **Nvidia** a annoncé une **enquête indépendante** sur son directeur général, **Jensen Huang**. Elle sera menée par un **comité d'administrateurs indépendants**, épaulé par un conseiller juridique externe.\nElle fait suite à des articles affirmant qu'il entretenait une relation étroite avec une femme d'affaires qui transmettait des informations à **Pékin**.",
+        "title": "Nvidia lance une **enquête** sur son patron",
+        "body": "Ce dimanche 8 novembre, le conseil de **Nvidia** a annoncé une **enquête indépendante**. Elle doit vérifier si **Jensen Huang**, fondateur et patron du groupe, a été la cible d'une **opération de renseignement étrangère**.\nDes administrateurs indépendants et des avocats extérieurs la superviseront. Selon le conseil, rien ne montre à ce stade que des secrets ont été compromis.",
         "bullets": [],
-        "image_query": "Nvidia logo on smartphone screen",
+        "image_query": "Nvidia headquarters Santa Clara",
         "image_entity": "Nvidia"
       },
       {
         "kind": "content",
-        "kicker": "QUI EST-ELLE ?",
-        "title": "Qui est **Alice Huang** ?",
-        "body": "**Alice Huang** est une ancienne dirigeante de **Megaspeed International**, une société singapourienne cliente de Nvidia. Malgré le nom, elle n'a aucun lien de parenté avec Jensen Huang.\nSelon la presse américaine, le renseignement américain pense qu'elle a été recrutée par le **ministère chinois de la Sécurité d'État**. Ce sont des **allégations**, pas des faits prouvés.",
+        "kicker": "QUI EST ALICE HUANG",
+        "title": "Une femme liée à un **client** de Nvidia",
+        "body": "Au centre de l'affaire, il y a **Alice Huang**, sans lien de parenté avec Jensen. Elle est liée à **Megaspeed**, une entreprise de cloud basée à **Singapour** qui achète des puces à Nvidia.\nSelon le **New York Times**, les services américains la soupçonnent d'avoir été recrutée par le renseignement chinois. Pékin parle de « spéculations sans fondement ».",
         "bullets": [],
-        "image_query": "Singapore Marina Bay skyline golden hour",
+        "image_query": "Singapore Marina Bay skyline sunset panorama",
         "image_entity": "Singapour"
       },
       {
         "kind": "content",
-        "kicker": "L'AVEU",
-        "title": "Il reconnaît une infidélité, mais reste en poste",
-        "body": "Dans un message aux salariés, **Jensen Huang** a admis avoir été **infidèle** à son épouse et assume « l'entière responsabilité » de ses actes. Il ne nomme pas Alice Huang.\nLe conseil dit n'avoir **aucune raison de croire** que la sécurité nationale américaine ou les secrets de Nvidia aient été compromis. Huang veut rester **directeur général** sans interruption.",
+        "kicker": "LES AVEUX",
+        "title": "Huang reconnaît une **infidélité**",
+        "body": "Dans un message aux salariés, **Jensen Huang** reconnaît avoir été **infidèle** à son épouse. Il dit en assumer « l'entière responsabilité » et se dit « profondément désolé ».\nIl compte rester aux commandes « **sans interruption** » et soutient l'enquête. Le conseil lui garde sa **confiance**. Aucun élément public ne montre qu'il aurait sciemment transmis des informations.",
         "bullets": [],
-        "image_query": "Nvidia headquarters Voyager building Santa Clara",
+        "image_query": "Jensen Huang GTC keynote stage",
+        "image_entity": "Jensen Huang"
+      },
+      {
+        "kind": "content",
+        "kicker": "L'ENJEU CHINE",
+        "title": "Tout tourne autour des **puces**",
+        "body": "Megaspeed est soupçonnée d'avoir aidé la **Chine** à obtenir des **puces d'IA** interdites à l'export, des accusations que Nvidia dit avoir démenties. Or Huang plaide depuis longtemps pour assouplir ces **restrictions**.\nSelon le Financial Times, Nvidia a récemment demandé à ses clients cloud de vendre au moins **51 %** de leurs services à des entreprises non chinoises.",
+        "bullets": [],
+        "image_query": "Nvidia H100 GPU chip close-up",
         "image_entity": "Nvidia"
       },
       {
         "kind": "content",
-        "kicker": "L'ENJEU",
-        "title": "Derrière l'affaire, les **puces d'IA** interdites en Chine",
-        "body": "Washington soupçonne **Megaspeed** d'avoir aidé Pékin à obtenir des puces d'IA dont l'exportation vers la Chine est **interdite**. Sa société sœur malaisienne aurait acheté au moins **4,8 milliards de dollars** d'équipements Nvidia entre juin 2024 et février 2026.\nNvidia affirme que ces accusations ont été examinées et **démenties**.",
-        "bullets": [],
-        "image_query": "Nvidia H100 GPU chip close-up",
-        "image_entity": "Nvidia Hopper"
-      },
-      {
-        "kind": "content",
-        "kicker": "LE RISQUE",
-        "title": "Lundi, l'action réagira pour la première fois",
-        "body": "Wall Street était fermée ce week-end. La séance de **lundi 9 novembre**, l'après-midi heure de Paris, sera le premier test pour l'action, dont le dernier cours affiché est de **186,64 dollars**. Après le premier article fin octobre, elle avait perdu environ **3 %** le lendemain.\nLe vrai risque est celui de l'**homme clé** : le fondateur est visé par son propre conseil.",
+        "kicker": "EN BOURSE",
+        "title": "Une action déjà **sous pression**",
+        "body": "Nvidia pèse environ **4 500 milliards de dollars**. L'action a déjà **effacé tous ses gains de l'année**, dans une tech chahutée par les doutes sur l'IA. Dernier cours, avant l'annonce : **186,64 $**.\nTu la détiens peut-être sans le savoir, via un **ETF** actions américaines ou monde. En direct, elle n'est pas éligible au PEA.",
         "bullets": [],
         "image_query": "Nasdaq MarketSite Times Square",
         "image_entity": "Nasdaq"
       },
       {
-        "kind": "list",
-        "kicker": "CE QUE TU PEUX FAIRE",
-        "title": "Avant de bouger, trois **réflexes**",
-        "body": "",
-        "bullets": [
-          "Vérifie ton exposition : Nvidia pèse dans les ETF qui suivent le **Nasdaq-100**, le **S&P 500** ou le **MSCI World**.",
-          "Évite d'agir sur une rumeur avant l'ouverture de lundi, surtout si tu détiens des **turbos** ou des **warrants** sur l'action.",
-          "Suis trois rendez-vous : le communiqué du conseil de Nvidia, l'audition du **18 novembre** et les dépêches Reuters et AFP."
-        ],
-        "image_query": "stock market chart trading screen",
-        "image_entity": ""
-      },
-      {
         "kind": "content",
         "kicker": "ET APRÈS ?",
-        "title": "Rendez-vous au **Congrès** le 18 novembre",
-        "body": "Trois présidents de commissions de la **Chambre des représentants** veulent entendre Jensen Huang à huis clos le **18 novembre**. Donald Trump a promis d'« examiner ça de très près ».\nL'enquête interne n'a **pas de calendrier**. Côté activité, Nvidia prévoit environ **108 milliards de dollars** de revenus ce trimestre, au-dessus des 104 milliards attendus.",
+        "title": "Deux dates à **surveiller**",
+        "body": "Le **17 novembre**, Nvidia publiera ses **résultats du 3e trimestre**. Le lendemain, trois élus républicains l'invitent à une réunion **à huis clos** au **Congrès**. On ne sait pas encore s'il ira.\nAucun calendrier n'a été donné pour l'enquête interne. Nvidia promet d'en dire plus « lorsque ce sera approprié ».",
         "bullets": [],
         "image_query": "United States Capitol Washington sunset",
         "image_entity": "Capitole des États-Unis"
@@ -101,33 +111,35 @@
       {
         "kind": "cta",
         "kicker": "",
-        "title": "Tu as du **Nvidia** dans ton portefeuille ou dans tes ETF ?",
-        "body": "Dis-nous en commentaire si cette affaire te fait douter ou non 👇",
+        "title": "Tu as du **Nvidia** en portefeuille ?",
+        "body": "Dis-nous en commentaire si cette affaire te fait douter 👇",
         "bullets": [],
         "image_query": "",
         "image_entity": ""
       }
     ],
     "hook_alternatives": [
-      "Le patron de **Nvidia**, **Jensen Huang**, aurait été la cible des **services chinois**. Son conseil ouvre une **enquête indépendante** avant la réouverture de Wall Street **lundi**.",
-      "**Jensen Huang** reconnaît une **infidélité** et **Nvidia** ouvre une enquête. En cause : une femme d'affaires soupçonnée par Washington de travailler pour le **renseignement chinois**.",
-      "Espionnage, puces d'IA et **Congrès** : **Nvidia**, plus grande entreprise mondiale en Bourse, enquête sur son patron **Jensen Huang**. Les élus veulent l'entendre le **18 novembre**."
+      "Nvidia enquête sur un possible espionnage chinois visant son patron",
+      "Le patron de Nvidia avoue une infidélité en pleine affaire d'espionnage",
+      "Espions chinois et infidélité : la semaine noire du patron de Nvidia"
     ],
-    "caption": "Nvidia enquête sur son propre patron, Jensen Huang, après des révélations sur ses liens avec une femme d'affaires soupçonnée de travailler pour Pékin.\n\nDimanche, le conseil d'administration a lancé une enquête indépendante, menée par des administrateurs indépendants et un conseiller juridique externe. Il affirme n'avoir aucune raison de croire que des secrets de Nvidia ou la sécurité nationale américaine aient été compromis.\n\n• La femme au cœur de l'affaire s'appelle Alice Huang, sans lien de parenté avec le patron. Ancienne dirigeante de Megaspeed, une société de Singapour cliente de Nvidia, elle aurait été recrutée par le renseignement chinois selon les services américains. Ce sont des allégations, rien n'est prouvé à ce stade.\n\n• Jensen Huang a reconnu une infidélité dans un message aux salariés, sans nommer personne, et compte rester à la tête du groupe.\n\nDerrière l'histoire personnelle, il y a un dossier sensible : les puces d'IA interdites à l'export vers la Chine. La société sœur malaisienne de Megaspeed aurait acheté au moins 4,8 milliards de dollars d'équipements Nvidia en vingt mois. Nvidia assure que ces accusations ont été examinées et démenties. Pour mesurer l'enjeu, la Chine pesait environ un cinquième des ventes du groupe avant les restrictions américaines.\n\nCôté Bourse, la séance de lundi après-midi, heure de Paris, sera le premier test. Après le premier article fin octobre, l'action avait reculé d'environ 3 % le lendemain. Si tu as un ETF World ou S&P 500, tu détiens déjà du Nvidia indirectement. Prochaine date à surveiller : l'audition demandée au Congrès le 18 novembre. Ceci n'est pas un conseil en investissement.\n\nTu gardes confiance en Nvidia malgré cette affaire ?\n\n🔔 Abonne-toi à @lemediadelinvestisseur pour ne rien rater de l'actu qui touche ton argent.",
+    "caption": "Nvidia ouvre une enquête : son patron Jensen Huang aurait été la cible d'une opération d'espionnage.\n\nCe dimanche, le conseil d'administration a annoncé une enquête indépendante, supervisée par des administrateurs indépendants et des avocats extérieurs. Il assure qu'à ce stade, rien ne montre que des secrets de Nvidia ou la sécurité nationale américaine ont été compromis.\n\nL'affaire part d'articles du New York Times. Selon le journal, les services américains soupçonnent Alice Huang, liée à Megaspeed, un client de Nvidia basé à Singapour, d'avoir été recrutée par le renseignement chinois. Pékin dément et parle de « spéculations sans fondement ».\n\nDans un message aux salariés, Jensen Huang a reconnu avoir été infidèle à son épouse. Il veut continuer à diriger le groupe sans interruption, et le conseil lui renouvelle sa confiance.\n\n• Le fond du dossier, ce sont les puces vendues en Chine. Megaspeed est soupçonnée d'avoir aidé Pékin à contourner les interdictions d'export, des accusations que Nvidia dit avoir démenties.\n\n• Côté Bourse, l'action valait 186,64 $ à la dernière séance, avant l'annonce, et elle a déjà effacé tous ses gains de l'année. Avec environ 4 500 milliards de dollars de capitalisation, elle pèse lourd dans beaucoup d'ETF actions américaines ou monde.\n\nDeux dates à suivre : les résultats trimestriels le 17 novembre, dans neuf jours, puis une réunion à huis clos au Congrès le 18, si Huang s'y rend. Ceci n'est pas un conseil en investissement.\n\nTu gardes confiance en Nvidia malgré cette affaire ?\n\n🔔 Abonne-toi à @lemediadelinvestisseur pour ne rien rater de l'actu qui touche ton argent.",
     "sources": [
       "Reuters",
-      "TradingView",
+      "AFP",
       "Boursorama",
       "Zonebourse",
-      "Clubic",
-      "Yahoo News",
-      "CNBC",
-      "NBC News",
-      "InvestingLive",
+      "TradingView",
       "i24NEWS",
-      "Yahoo Finance"
+      "Investing.com",
+      "Fox Business",
+      "CNBC",
+      "Bloomberg",
+      "Yahoo Finance",
+      "The New York Times",
+      "Financial Times"
     ],
-    "dossier": "# Dossier : Nvidia ouvre une enquête sur une possible opération de renseignement visant Jensen Huang\n\n*Point au dimanche 8 novembre 2026, au soir. L'article TradingView est une dépêche Reuters. La version la plus complète que j'ai pu lire est celle de Boursorama, une traduction automatique de cette dépêche publiée à 22h02.*\n\n---\n\n## 1. Les faits\n\n**Quoi et quand**\n- **Dimanche 8 novembre 2026 (Reuters, via Boursorama) :** Nvidia a annoncé dimanche qu'elle ouvrait une enquête indépendante après qu'un article de presse a affirmé que son directeur général, Jensen Huang, entretenait une relation étroite avec une femme d'affaires chinoise qui transmettait des informations à Pékin.\n- **Qui pilote l'enquête (Reuters, via Boursorama) :** un comité d'administrateurs indépendants, assisté d'un conseiller juridique externe indépendant.\n- **Position du conseil (Reuters, via Boursorama) :** il n'a aucune raison de croire que la sécurité nationale américaine ou les secrets de Nvidia aient été compromis. L'enquête examinera malgré tout toutes les informations disponibles.\n- **Aveu de Jensen Huang (Reuters, via Boursorama) :** dans un message adressé aux employés de Nvidia, Huang a admis avoir été infidèle à son épouse et a assumé \"l'entière responsabilité\" de ses actes. Selon Clubic, son mémo ne nomme toutefois pas Alice Huang.\n- **Il reste en poste (Reuters, via Boursorama) :** un porte-parole affirme qu'il est \"déterminé à continuer de diriger NVIDIA en tant que directeur général sans interruption\".\n\n**Qui**\n- **Alice Huang (Clubic) :** ancienne dirigeante de Megaspeed International, une entreprise singapourienne cliente de NVIDIA. Les deux Huang n'ont aucun lien de parenté.\n- **Le soupçon (Yahoo News) :** le renseignement américain pense qu'Alice Huang a été recrutée par le ministère chinois de la Sécurité d'État, principale agence de renseignement civile du pays.\n\n**Chronologie de l'affaire**\n- **29 octobre (CNBC) :** Nvidia conteste un premier article du New York Times. Selon ce journal, des agences de renseignement américaines surveillaient une proche de Jensen Huang, soupçonnée d'espionner pour la Chine.\n- **Vendredi 6 novembre (NBC News) :** le FT rapporte que le gouvernement américain pensait que Jensen Huang avait une relation amoureuse avec Alice Huang.\n- **8 novembre :** ouverture de l'enquête interne et mémo de Jensen Huang aux salariés.\n- **18 novembre (Clubic) :** trois présidents de commissions de la Chambre des représentants demandent à entendre Jensen Huang à huis clos le 18 novembre.\n\n**Les chiffres clés**\n- **Achats de la société sœur de Megaspeed (Clubic, d'après les enquêteurs américains) :** au moins 4,8 milliards de dollars d'équipements à base de puces NVIDIA auraient été achetés par la société sœur malaisienne de Megaspeed entre juin 2024 et février 2026.\n- **Dernier cours affiché (Boursorama) :** 186,6400 USD | NASDAQ | +2,78 %. La page ne précise pas la date de clôture. C'est vraisemblablement celle du vendredi précédent.\n- **Après le premier article (InvestingLive) :** l'action est tombée d'environ 3 % le lendemain.\n\n---\n\n## 2. Le contexte\n\n- **Les restrictions d'exportation (Reuters, via Boursorama) :** les autorités américaines soupçonnent Megaspeed d'avoir aidé Pékin à se procurer des puces d'IA de pointe dont l'exportation vers la Chine est interdite.\n- **Le contournement possible (Clubic) :** les entreprises installées à Singapour ou en Malaisie peuvent acheter légalement des puces interdites à l'export vers la Chine, et des trafiquants exploitent ce statut pour les réexpédier vers Pékin.\n- **Le poids politique de Jensen Huang (Clubic) :** son patron est également un interlocuteur influent de Donald Trump sur ces questions. Selon l'AFP, reprise par Noovo, Donald Trump a déclaré : «On va examiner ça de très près».\n- **Le niveau gouvernemental (i24NEWS, d'après le NYT) :** Marco Rubio aurait supervisé une note classifiée alertant les plus hauts responsables de l'administration Trump sur les liens entre Jensen Huang et Alice Huang.\n- **L'enjeu chinois pour Nvidia (DatacenterDynamics, cité par un blog) :** la Chine représentait environ un cinquième des ventes de Nvidia avant que Washington ne limite les exportations.\n\n---\n\n## 3. Ce qui change concrètement pour un particulier français\n\n- **Rien n'est encore visible en Bourse.** Selon InvestingLive, la séance américaine de lundi sera la première occasion pour l'action de réagir à l'aveu et à l'enquête, et le risque à court terme penche à la baisse. Lundi 9 novembre, cela correspond à l'après-midi, heure de Paris.\n- **Rien n'indique pour l'instant un impact sur l'activité.** Aucune source ne fait état d'une fuite avérée. i24NEWS souligne qu'aucun élément rendu public ne permet toutefois d'affirmer que le dirigeant a sciemment transmis des informations à un service de renseignement étranger.\n- **Information manquante :** aucune source consultée ne chiffre l'exposition des épargnants français à Nvidia, que ce soit via des ETF, l'assurance-vie ou le PEA.\n\n---\n\n## 4. Risques et points de vigilance\n\n1. **Le risque « homme clé ».** Le fondateur, figure centrale de l'entreprise, fait l'objet d'une enquête de son propre conseil. NVIDIA n'a pas annoncé de date pour les conclusions des investigations. (Clubic)\n2. **Le risque politique et réglementaire :** l'audition au Congrès du 18 novembre et le dossier Megaspeed. Selon Clubic, le dossier a été transmis au département de la Justice cette année.\n3. **Le risque d'image.** InvestingLive y voit un test pour les actions de la plus grande entreprise mondiale par la valeur.\n4. **Un piège pour les publications Instagram :** il s'agit d'**allégations**. Elles s'appuient sur une note du renseignement rapportée par la presse, et ne sont pas prouvées. Pékin a précédemment rejeté les accusations d'espionnage. (Clubic)\n\n---\n\n## 5. Pistes concrètes\n\n⚠️ **Les sources consultées ne citent aucun produit ni aucune démarche spécifique pour les particuliers.** Les pistes ci-dessous sont des bonnes pratiques générales, pas des informations tirées des articles :\n- Vérifier son exposition indirecte à Nvidia : relire la composition des ETF et des fonds détenus, en particulier ceux qui suivent le Nasdaq-100, le S&P 500 ou le MSCI World.\n- Éviter de prendre une décision avant l'ouverture de lundi, ou d'agir sur une rumeur. Pour qui détient des produits à effet de levier (turbos, warrants), surveiller le risque d'écart de cours à l'ouverture.\n- Suivre trois sources primaires : le communiqué du conseil d'administration de Nvidia, l'audition du 18 novembre et les dépêches Reuters/AFP.\n- Pour info, l'opinion des analystes : selon un article de Barchart repris par Yahoo Finance il y a 4 jours, 52 analystes de Wall Street attribuent à l'action un consensus « Strong Buy », avec un objectif de cours moyen de 326,65 $. C'est un **article d'opinion** (« Why I'd Buy the Dip »), antérieur à l'aveu de dimanche. Ce n'est pas un conseil.\n\n---\n\n## 6. Et après ?\n\n- **18 novembre :** audition à huis clos demandée par les élus de la Chambre des représentants.\n- **Calendrier inconnu pour l'enquête interne.** Le conseil promet de communiquer de nouveaux éléments lorsque cela sera approprié (Clubic).\n- **À suivre en parallèle :** l'enquête du département du Commerce sur Megaspeed et le dossier transmis à la Justice. Clubic souligne que ce dossier reste distinct de la question d'une éventuelle fuite de renseignements par l'intermédiaire du dirigeant.\n- **Les résultats trimestriels.** Selon Yahoo Finance, Nvidia prévoit environ 108 milliards de dollars de revenus pour le trimestre en cours, au-dessus des 104 milliards attendus par les analystes. Aucune date de publication n'est donnée dans les sources.\n\n---\n\n## ⚠️ Points où les sources divergent\n\n| Sujet | Version A | Version B |\n|---|---|---|\n| **Détournement de puces** | Nvidia dit que ces accusations ont été 'investigated and debunked' (CNBC). Generation-NT parle d'audits ayant confirmé qu'aucune redirection illégale de puces n'a eu lieu. | Les enquêteurs américains évoquent 4,8 Md$ d'achats et un dossier transmis à la Justice (Clubic). La police de Singapour a toutefois confirmé à DatacenterDynamics que l'enquête sur la société Megaspeed est toujours en cours. |\n| **Fonction d'Alice Huang** | « Ancienne dirigeante » : Alice Huang a quitté l'entreprise avant l'automne 2025 (Clubic, Reuters). | Présentée comme une dirigeante de Megaspeed (Yahoo News, Engadget). |\n| **Ce que Jensen Huang a reconnu** | Selon le NYT cité par Clubic, une relation avec Alice Huang reconnue devant le conseil. | Le mémo aux salariés évoque une infidélité, though he did not name the woman (CNN). |\n| **Qui a révélé quoi** | Le New York Times a été le premier à révéler la note ; le Financial Times a ensuite rapporté que cette note évoquait une relation amoureuse (TechCrunch). | Pause Hardware date la médiatisation au 7 novembre via le FT. NBC News situe l'article du FT au vendredi, soit le 6. |\n| **Position antérieure de Nvidia** | Les rencontres étaient \"not unusual or unexpected\" (CNN). | Le dirigeant reconnaît désormais une liaison (Reuters). |\n\n**Informations absentes des sources :** la réaction de l'action après l'annonce (marché fermé), la durée de l'enquête, l'identité du cabinet d'avocats externe, la position officielle de Megaspeed et la réaction de Pékin à l'annonce du 8 novembre.",
+    "dossier": "# Dossier : Nvidia ouvre une enquête sur une possible opération d'espionnage visant Jensen Huang\n\n*Point au dimanche 8 novembre 2026, au soir. Les informations évoluent vite.*\n\n**Sources lues :** Reuters (repris en français par Boursorama, TradingView et Zonebourse), AFP (via TradingView), i24NEWS, Investing.com France, Fox Business, CNBC, Bloomberg et Yahoo Finance. J'ai lu le texte complet des articles Reuters/Boursorama, AFP, i24NEWS et Fox Business. Pour les autres, je n'ai eu que des extraits. L'article d'origine du New York Times n'était pas accessible. Ce qu'il dit n'est donc connu qu'à travers ce qu'en rapportent les autres médias.\n\n---\n\n## 1. Les faits\n\n| Fait | Source |\n|---|---|\n| **Dimanche 8 novembre 2026** : le conseil d'administration de Nvidia annonce une **enquête indépendante**. Elle doit vérifier si Jensen Huang, fondateur et directeur général, a été la cible d'une opération de renseignement étrangère. | Reuters, AFP |\n| Un **comité d'administrateurs indépendants**, aidé par des avocats extérieurs, supervisera l'enquête. | Reuters, AFP |\n| Selon le conseil, rien ne laisse penser à ce stade que la sécurité nationale américaine ou les secrets de Nvidia aient été compromis. L'enquête examinera « toutes les informations disponibles ». | Reuters, AFP |\n| Le conseil dit avoir « confiance en Jensen et son équipe dirigeante ». | AFP |\n| Dans un message aux salariés, **Huang reconnaît avoir été infidèle à son épouse**, dit en assumer « l'entière responsabilité » et se dit « profondément désolé ». | Reuters, i24NEWS, Investing.com |\n| Huang veut continuer à diriger Nvidia **« sans interruption »** et dit soutenir l'enquête. | Reuters (porte-parole de Nvidia) |\n| La personne au centre de l'affaire est **Alice Huang** (aucun lien de parenté avec Jensen Huang). Elle est liée à **Megaspeed**, une entreprise de cloud basée à Singapour qui achète des puces à Nvidia. | AFP, Reuters, CNBC |\n| Les services de renseignement américains la soupçonnent d'avoir été recrutée par le **ministère chinois de la Sécurité d'État**. | i24NEWS, citant le NYT |\n| Selon le NYT, le secrétaire d'État **Marco Rubio** a supervisé une note classifiée destinée aux hauts responsables de l'administration Trump. | i24NEWS |\n| **Lettre du 4 novembre** de trois présidents républicains de commissions de la Chambre : Brian Mast (Affaires étrangères), John Moolenaar (commission sur la Chine) et Rick Crawford (Renseignement). Ils invitent Huang à une réunion **à huis clos le 18 novembre**. | Reuters (date de la lettre), Fox Business et i24NEWS (date de la réunion) |\n| Les **résultats du 3ᵉ trimestre** de Nvidia sont prévus le **17 novembre**, la veille de cette réunion. | Fox Business |\n| **Chiffres boursiers :** capitalisation d'environ **4 500 milliards de dollars**. L'action a **effacé tous ses gains de l'année**. Dernière cotation affichée : **186,64 $ (+2,78 %)**. | Reuters ; Boursorama et Zonebourse pour le cours |\n\n**Attention au cours :** les 186,64 $ correspondent à la dernière séance, avant l'annonce du dimanche. **Je n'ai aucune information sur la réaction du marché lundi 9 novembre.**\n\n## 2. Le contexte\n\n- **Les révélations du New York Times.** Fin octobre, le NYT a rapporté que les services américains surveillaient Alice Huang et la soupçonnaient d'être un agent chinois proche de Jensen Huang (AFP ; CNBC, 29 octobre). Bloomberg évoque le 7 novembre un nouvel article du NYT : selon lui, la Chine l'aurait recrutée précisément pour recueillir des informations sur Huang.\n- **Le soupçon de détournement de puces.** Megaspeed est soupçonnée d'avoir aidé la Chine à obtenir des puces d'IA dont l'exportation y est interdite (Reuters, AFP).\n- **Les enjeux politiques.** Huang plaide depuis longtemps pour assouplir les restrictions d'exportation de puces vers la Chine (Fox Business, i24NEWS). Selon i24NEWS, Washington craignait qu'Alice Huang l'encourage dans ce sens. En mai, il faisait partie de la délégation de patrons qui a accompagné Trump à Pékin (AFP, Fox Business).\n- **La réaction de Nvidia.** D'après le Financial Times, cité par l'AFP, Nvidia a récemment demandé à ses clients cloud de vendre **au moins 51 %** de leurs services à des entreprises non chinoises.\n- **Le climat de marché.** Les investisseurs se retirent déjà du secteur, inquiets de la pérennité de l'IA, et les valeurs technologiques chutent (Reuters).\n\n## 3. Ce qui change pour un particulier français\n\n- **Pour l'instant, rien de concret dans l'immédiat.** Aucune sanction n'est connue. Huang reste en poste et aucun fait de fuite n'a été établi. i24NEWS souligne qu'aucun élément public ne montre que Huang a sciemment transmis des informations.\n- **Deux dates à surveiller :** les résultats du 17 novembre et la réunion au Congrès du 18 novembre.\n- **Le risque de change.** L'action Nvidia est cotée en dollars sur le Nasdaq. L'euro valait 1,1144 $ selon le bandeau de Boursorama. *Les sources n'en parlent pas, mais pour un épargnant français, le cours en euros dépend aussi du taux de change.*\n- **Une exposition souvent indirecte.** Beaucoup de particuliers détiennent Nvidia sans le savoir, via des ETF ou des fonds investis en actions américaines ou mondiales. *Les sources lues ne donnent aucun chiffre sur ce point. À vérifier dans la composition de chaque fonds.*\n\n## 4. Risques et points de vigilance\n\n1. **Le risque lié au dirigeant.** Huang a fondé Nvidia en 1993 et l'incarne (Reuters). Un départ forcé, même s'il n'est envisagé par personne à ce stade, pèserait sur la confiance des investisseurs.\n2. **Le risque politique et réglementaire.** L'enquête du Congrès pourrait conduire à des contrôles d'exportation plus stricts. Les ventes liées à la Chine pourraient aussi être restreintes, comme le montre déjà la règle des 51 % rapportée par le FT.\n3. **Une accumulation de mauvaises nouvelles.** L'affaire arrive alors que l'action a déjà effacé ses gains de 2026 (Reuters). La volatilité est élevée : l'indice VIX était à 25,64 sur le bandeau de Boursorama.\n4. **Les zones d'ombre.** On ne sait pas combien de temps durera l'enquête, ni si elle sera publiée, ni si Huang ira à la réunion du 18 novembre. Fox Business indique ne pas le savoir.\n5. **La fiabilité des informations.** Tout repose sur des sources anonymes citées par le NYT. Pékin parle de « spéculations sans fondement » (AFP).\n\n## 5. Pistes concrètes\n\n⚠️ **Aucune des sources lues ne cite de produit, d'acteur ou de démarche destinés aux particuliers.** Les pistes ci-dessous relèvent de bonnes pratiques générales. Elles ne sont pas tirées des articles et ne constituent pas un conseil en investissement :\n\n- **Mesurer son exposition réelle** à Nvidia, en direct et via ses fonds, en consultant les principales positions dans la fiche ou le reporting de chaque fonds.\n- **Vérifier la concentration de son portefeuille** sur un seul titre ou un seul secteur, et éviter de prendre des décisions à chaud.\n- **Suivre les sources officielles** : communiqués de Nvidia, publication des résultats le 17 novembre, site de la commission des Affaires étrangères de la Chambre (foreignaffairs.house.gov, qui a publié la lettre, selon Fox Business).\n- **Rester prudent avec les produits à effet de levier**, comme les turbos ou les warrants, dans une période aussi volatile.\n- **Rappel de cadre réglementaire, non issu des sources :** une action américaine comme Nvidia n'est pas éligible au PEA. On la détient via un compte-titres, ou indirectement via certains fonds.\n\n## 6. Perspectives\n\n- **17 novembre** : résultats du 3ᵉ trimestre. Ce sera la première occasion de voir si l'affaire pèse sur l'activité ou la communication de Nvidia.\n- **18 novembre** : réunion à huis clos avec les élus républicains, si Huang y participe.\n- **Les conclusions de l'enquête interne** : Nvidia promet d'en dire plus « lorsque ce sera approprié » (AFP). Aucun calendrier n'a été donné.\n- **La position de la Maison-Blanche.** Trump avait d'abord défendu le « brillant » patron et déclaré qu'on allait examiner l'affaire « de très près » (AFP).\n\n---\n\n## Points où les sources divergent\n\n| Sujet | Version A | Version B |\n|---|---|---|\n| **Pays visé par le communiqué** | Le conseil ne précise pas l'origine géographique (AFP) | La Chine est désignée explicitement, d'après le NYT (Reuters, i24NEWS) |\n| **Rôle d'Alice Huang** | « Ancienne dirigeante » de Megaspeed (Reuters, Yahoo) | Dirigeante actuelle ou « dirigeante liée à » Megaspeed (Fox Business, Bloomberg, i24NEWS) |\n| **Détournement de puces** | Megaspeed soupçonnée d'avoir fait passer des puces en Chine (AFP, Reuters) | Nvidia affirme que ces accusations ont été « enquêtées et démenties » (CNBC, 29 octobre) |\n| **Attitude de Trump** | Soutien à Huang et promesse d'examen attentif (AFP) | Informé il y a environ un an, il aurait choisi de ne pas agir (Fox Business, citant le NYT) |\n| **Date de l'article du NYT** | « Fin octobre » ou « le mois dernier » (AFP, Reuters) | Bloomberg évoque aussi un article du 7 novembre, vraisemblablement une suite |\n| **Convocation au Congrès** | Les élus lui « ont demandé » de s'expliquer (Reuters) | Il est « invité » et sa présence est incertaine (Fox Business) |\n\n**Informations manquantes :** la réaction de l'action après l'annonce, la durée de l'enquête, l'identité des avocats extérieurs, la date précise de la relation, et une réaction de Megaspeed ou d'Alice Huang. Aucune source lue ne les donne.\n\n**Réserves sur les sources :** les articles Reuters en français sont des traductions automatiques, signalées comme telles par Boursorama. Le titre de l'article d'i24NEWS contient une coquille (« Péjin »).",
     "generator": "claude-opus-5-5"
   }
 }

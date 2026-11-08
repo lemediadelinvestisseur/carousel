@@ -89,7 +89,7 @@
       "hook": "Le patron de Nvidia ciblé par des espions étrangers ?",
       "notifiedAt": "2026-11-08T21:02:25.273Z",
       "instructions": "une autre source : https://www.zonebourse.com/actualite-bourse/nvidia-enquete-interne-sur-des-accusations-d-espionnage-chinois-ce785fd2d081f627\n",
-      "generatedAt": "2026-11-08T22:06:07.045Z",
+      "generatedAt": "2026-11-08T22:28:22.860Z",
       "carousel": {
         "dir": "carousels/2026-11-08/investisseur-nvidia-ouvre-une-enquete-apres-un-articl-1d1589c035",
         "files": [
@@ -101,15 +101,14 @@
           "slide-06.jpg",
           "slide-07.jpg",
           "slide-08.jpg",
-          "slide-09.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 9,
+        "slides": 8,
         "hooks": [
-          "Le patron de **Nvidia**, **Jensen Huang**, aurait été la cible des **services chinois**. Son conseil ouvre une **enquête indépendante** avant la réouverture de Wall Street **lundi**.",
-          "**Jensen Huang** reconnaît une **infidélité** et **Nvidia** ouvre une enquête. En cause : une femme d'affaires soupçonnée par Washington de travailler pour le **renseignement chinois**.",
-          "Espionnage, puces d'IA et **Congrès** : **Nvidia**, plus grande entreprise mondiale en Bourse, enquête sur son patron **Jensen Huang**. Les élus veulent l'entendre le **18 novembre**."
+          "Nvidia enquête sur un possible espionnage chinois visant son patron",
+          "Le patron de Nvidia avoue une infidélité en pleine affaire d'espionnage",
+          "Espions chinois et infidélité : la semaine noire du patron de Nvidia"
         ]
       }
     },
@@ -2634,5 +2633,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:08:04.283Z"
+  "updatedAt": "2026-11-08T22:28:22.861Z"
 }

@@ -1,14 +1,16 @@
-Nvidia enquête sur son propre patron, Jensen Huang, après des révélations sur ses liens avec une femme d'affaires soupçonnée de travailler pour Pékin.
+Nvidia ouvre une enquête : son patron Jensen Huang aurait été la cible d'une opération d'espionnage.
 
-Dimanche, le conseil d'administration a lancé une enquête indépendante, menée par des administrateurs indépendants et un conseiller juridique externe. Il affirme n'avoir aucune raison de croire que des secrets de Nvidia ou la sécurité nationale américaine aient été compromis.
+Ce dimanche, le conseil d'administration a annoncé une enquête indépendante, supervisée par des administrateurs indépendants et des avocats extérieurs. Il assure qu'à ce stade, rien ne montre que des secrets de Nvidia ou la sécurité nationale américaine ont été compromis.
 
-• La femme au cœur de l'affaire s'appelle Alice Huang, sans lien de parenté avec le patron. Ancienne dirigeante de Megaspeed, une société de Singapour cliente de Nvidia, elle aurait été recrutée par le renseignement chinois selon les services américains. Ce sont des allégations, rien n'est prouvé à ce stade.
+L'affaire part d'articles du New York Times. Selon le journal, les services américains soupçonnent Alice Huang, liée à Megaspeed, un client de Nvidia basé à Singapour, d'avoir été recrutée par le renseignement chinois. Pékin dément et parle de « spéculations sans fondement ».
 
-• Jensen Huang a reconnu une infidélité dans un message aux salariés, sans nommer personne, et compte rester à la tête du groupe.
+Dans un message aux salariés, Jensen Huang a reconnu avoir été infidèle à son épouse. Il veut continuer à diriger le groupe sans interruption, et le conseil lui renouvelle sa confiance.
 
-Derrière l'histoire personnelle, il y a un dossier sensible : les puces d'IA interdites à l'export vers la Chine. La société sœur malaisienne de Megaspeed aurait acheté au moins 4,8 milliards de dollars d'équipements Nvidia en vingt mois. Nvidia assure que ces accusations ont été examinées et démenties. Pour mesurer l'enjeu, la Chine pesait environ un cinquième des ventes du groupe avant les restrictions américaines.
+• Le fond du dossier, ce sont les puces vendues en Chine. Megaspeed est soupçonnée d'avoir aidé Pékin à contourner les interdictions d'export, des accusations que Nvidia dit avoir démenties.
 
-Côté Bourse, la séance de lundi après-midi, heure de Paris, sera le premier test. Après le premier article fin octobre, l'action avait reculé d'environ 3 % le lendemain. Si tu as un ETF World ou S&P 500, tu détiens déjà du Nvidia indirectement. Prochaine date à surveiller : l'audition demandée au Congrès le 18 novembre. Ceci n'est pas un conseil en investissement.
+• Côté Bourse, l'action valait 186,64 $ à la dernière séance, avant l'annonce, et elle a déjà effacé tous ses gains de l'année. Avec environ 4 500 milliards de dollars de capitalisation, elle pèse lourd dans beaucoup d'ETF actions américaines ou monde.
+
+Deux dates à suivre : les résultats trimestriels le 17 novembre, dans neuf jours, puis une réunion à huis clos au Congrès le 18, si Huang s'y rend. Ceci n'est pas un conseil en investissement.
 
 Tu gardes confiance en Nvidia malgré cette affaire ?
 
