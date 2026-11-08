@@ -16,7 +16,30 @@
     "aiScore": 6,
     "reason": "Le duel Bitcoin contre or passionne les épargnants et divise.",
     "hook": "Bitcoin chute, mais a-t-il vraiment perdu face à l'or ?",
-    "instructions": "Précise les différences de performance depuis le 1er janvier 2026 "
+    "instructions": "Précise les différences de performance depuis le 1er janvier 2026 ",
+    "generatedAt": "2026-11-08T20:57:39.188Z",
+    "carousel": {
+      "dir": "carousels/2026-11-07/investisseur-malgre-la-baisse-le-bitcoin-n-a-pas-perd-825fb23f24",
+      "files": [
+        "slide-01.jpg",
+        "slide-02.jpg",
+        "slide-03.jpg",
+        "slide-04.jpg",
+        "slide-05.jpg",
+        "slide-06.jpg",
+        "slide-07.jpg",
+        "slide-08.jpg",
+        "slide-09.jpg",
+        "carousel.pdf"
+      ],
+      "generator": "claude-opus-5-5",
+      "slides": 9,
+      "hooks": [
+        "1 **bitcoin** vaut aujourd'hui **21 onces d'or**, contre 12 au plus bas. Pour le stratège de **Fidelity**, il garde l'avantage malgré la **baisse**.",
+        "Le **bitcoin** et l'**or** baissent ensemble. Mais face au métal jaune, le bitcoin a repris **75 %** depuis son point bas. Voilà ce que regarde **Fidelity**.",
+        "Le **bitcoin** est près de **40 %** sous son record. Pourtant, un stratège de **Fidelity** le préfère toujours à l'**or**, et ses chiffres l'expliquent."
+      ]
+    }
   },
   "carousel": {
     "category": "Actualité",
@@ -24,104 +47,94 @@
       {
         "kind": "cover",
         "kicker": "",
-        "title": "Le **bitcoin** a perdu **13,5 %** depuis le 1er janvier. Pourtant, pour **Fidelity**, il garde l'avantage dans son duel face à l'**or**.",
+        "title": "Le **bitcoin** et l'**or** baissent tous les deux en 2026. Mais un bitcoin achète aujourd'hui **21 onces** d'or, contre **12** au point bas.",
         "body": "",
         "bullets": [],
-        "image_query": "Bitcoin coin on gold bars close-up",
+        "image_query": "Bitcoin coin on gold bars",
         "image_entity": ""
       },
       {
         "kind": "content",
         "kicker": "LE CONTEXTE",
-        "title": "Le stratège de **Fidelity** préfère toujours le bitcoin",
-        "body": "Le **7 novembre**, **Jurrien Timmer**, directeur de la macroéconomie mondiale chez **Fidelity**, a écrit sur X : « Je préfère toujours le bitcoin à l'or pour le moment ».\nSon argument n'est pas que le bitcoin monte en dollars. C'est qu'il **baisse moins que l'or** quand on compare les deux directement.",
+        "title": "**Fidelity** préfère le bitcoin, pour l'instant",
+        "body": "Le 7 novembre, sur X, **Jurrien Timmer**, directeur de la macroéconomie mondiale chez **Fidelity**, a écrit qu'il préférait encore le bitcoin à l'or « pour le moment ». Sa raison : le prix relatif du bitcoin **tient bon**, alors que les deux actifs reculent.\nC'est un choix de **court terme**, pas un appel à vendre ton or.",
         "bullets": [],
         "image_query": "Fidelity Investments headquarters Boston",
         "image_entity": "Fidelity Investments"
       },
       {
         "kind": "content",
-        "kicker": "SON INDICATEUR",
-        "title": "Combien d'**onces d'or** vaut un bitcoin",
-        "body": "Timmer suit le **ratio bitcoin/or** : le nombre d'onces d'or qu'il faut pour acheter un bitcoin.\nAu plus bas du cycle, un bitcoin valait environ **12 onces**. Selon Fidelity, il en vaut aujourd'hui autour de **21**, soit environ **75 %** de plus. C'est la preuve, pour lui, que le bitcoin résiste mieux.",
+        "kicker": "DEPUIS JANVIER",
+        "title": "Les deux ferment la marche en 2026",
+        "body": "Du 1er janvier au **23 octobre**, l'or a perdu **7,5 %** et le bitcoin **7,3 %**. Le bitcoin fait donc à peine mieux, de 0,2 point. Ce sont les deux dernières places sur 21 catégories d'actifs.\nSur la même période, les grandes actions américaines ont gagné **12,3 %** et les matières premières **52,5 %**.",
         "bullets": [],
-        "image_query": "gold ounce bullion coins stack",
+        "image_query": "stock market performance chart screen",
         "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "DEPUIS JANVIER",
-        "title": "**−13,5 %** pour le bitcoin depuis le 1er janvier",
-        "body": "Le **bitcoin** cotait environ **75 700 dollars** le 7 novembre : **−13,5 %** depuis le 1er janvier, et **−40 %** sous son record d'octobre 2025.\nL'once d'**or** vaut **4 071 dollars**. En août, l'or avait déjà regagné presque tout le terrain perdu, pendant que le bitcoin reculait d'environ **26 %**.",
+        "kicker": "LES CHIFFRES",
+        "title": "Mesuré en or, le bitcoin gagne du terrain",
+        "body": "L'indicateur de Timmer : combien d'**onces d'or** tu peux acheter avec un bitcoin. Au point bas du cycle, c'était environ **12 onces**. Aujourd'hui, environ **21**, soit près de **+75 %**.\nLes ETF bitcoin américains ont aussi attiré près de **55 milliards de dollars** depuis 2024, contre environ 29 milliards pour l'or et l'argent.",
         "bullets": [],
-        "image_query": "Bitcoin price chart falling red screen",
+        "image_query": "gold bullion bars close up",
         "image_entity": ""
       },
       {
         "kind": "content",
         "kicker": "POURQUOI ÇA BAISSE",
-        "title": "Wall Street et la **Fed** font peur",
-        "body": "Le 5 novembre, le **Nasdaq** a lourdement chuté, entraîné par les valeurs des puces et de l'IA. Le bitcoin est passé de 80 300 à 75 500 dollars en **quatre heures**.\nLe bon rapport sur l'emploi américain fait craindre une **hausse des taux** : sa probabilité le **9 décembre** atteint **76,8 %**.",
+        "title": "Des taux élevés et le retour de l'inflation",
+        "body": "Le bitcoin et l'or ne rapportent **aucun intérêt**. Avec des **taux élevés**, les placements rémunérés redeviennent plus attractifs. Le baril de Brent, au-dessus de **116 dollars** le 23 octobre, ravive aussi les craintes d'inflation.\nC'est enfin une correction : le bitcoin avait pris **121 %** en 2024, et l'or **63,7 %** en 2025.",
         "bullets": [],
-        "image_query": "Nasdaq MarketSite Times Square night",
-        "image_entity": "Nasdaq MarketSite"
-      },
-      {
-        "kind": "content",
-        "kicker": "LES ETF",
-        "title": "L'argent sort des **ETF bitcoin**",
-        "body": "Depuis 2024, les **ETF bitcoin** ont attiré près de **55 milliards de dollars**, contre environ 29 milliards pour les produits liés à l'or et à l'argent.\nMais du 2 au 6 novembre, **1,28 milliard** en est sorti, le plus gros retrait sur une semaine depuis fin juin. Sur 2026, le solde est négatif : **−914 millions**.",
-        "bullets": [],
-        "image_query": "BlackRock headquarters New York",
-        "image_entity": "BlackRock"
+        "image_query": "oil pump jack sunset",
+        "image_entity": ""
       },
       {
         "kind": "content",
         "kicker": "LE RISQUE",
-        "title": "Ni l'un ni l'autre ne protège en ce moment",
-        "body": "Le bitcoin et l'or évoluent à **60 à 70 %** dans le même sens que le **S&P 500**. Ils protègent mal ton portefeuille quand la Bourse chute.\nTimmer voit le bitcoin comme une « version à **bêta élevé** de l'or » : il monte plus fort, mais baisse plus violemment. En 2018 et 2022, il a chuté de plus de **75 %**.",
+        "title": "Le bitcoin ne te protège pas d'une chute de la Bourse",
+        "body": "Selon Timmer, le bitcoin et l'or sont corrélés à **60 à 70 %** avec le **S&P 500** : ils baissent souvent en même temps que les actions. Le bitcoin, version « à bêta élevé » de l'or, chute aussi plus fort.\nLe **5 novembre**, plus de **430 millions de dollars** sont sortis des ETF bitcoin en une seule séance.",
         "bullets": [],
-        "image_query": "stock market board red numbers S&P 500",
-        "image_entity": ""
+        "image_query": "New York Stock Exchange trading floor",
+        "image_entity": "New York Stock Exchange"
       },
       {
         "kind": "list",
-        "kicker": "LES SOLUTIONS",
-        "title": "Les bons réflexes si tu veux t'**exposer**",
+        "kicker": "À SURVEILLER",
+        "title": "Trois repères pour la suite",
         "body": "",
         "bullets": [
-          "Investis à date fixe : 100 dollars placés chaque 1er du mois en 2026 donnent +4 %, contre −14,7 % en une fois le 1er janvier.",
-          "Fractionne un gros montant en 3 ou 4 achats, et fixe avant d'acheter la perte maximale que tu es prêt à accepter.",
-          "Garde l'or comme pilier défensif : pour Timmer, le bitcoin vient en complément offensif, il ne le remplace pas."
+          "Ne remplace pas ton or : Timmer est passé de 5 parts d'or pour 1 de bitcoin à une répartition plus équilibrée.",
+          "Suis le ratio bitcoin/or : s'il retombe sous son ancienne zone de consolidation, ce n'était qu'une rotation passagère.",
+          "Note deux rendez-vous : l'inflation américaine la semaine prochaine, puis la réunion de la Fed du 9 décembre."
         ],
-        "image_query": "gold bars and bitcoin coins on desk",
-        "image_entity": ""
+        "image_query": "Federal Reserve Eccles Building Washington",
+        "image_entity": "Federal Reserve"
       },
       {
         "kind": "cta",
         "kicker": "",
-        "title": "Dans ton portefeuille, tu mises plutôt sur le **bitcoin** ou sur l'**or** ?",
-        "body": "Dis-nous en commentaire comment tu répartis les deux 👇",
+        "title": "Toi, tu mises plutôt sur le **bitcoin** ou sur l'**or** ?",
+        "body": "Dis-nous en commentaire ce que tu as dans ton portefeuille 👇",
         "bullets": [],
         "image_query": "",
         "image_entity": ""
       }
     ],
     "hook_alternatives": [
-      "Un **bitcoin** valait **12 onces d'or** au plus bas. Il en vaut environ **21** aujourd'hui selon **Fidelity**, malgré la chute des marchés.",
-      "Le bitcoin et l'or baissent tous les deux. Mais pour **Jurrien Timmer**, stratège de **Fidelity**, le **bitcoin** reste préférable à l'**or** pour le moment.",
-      "**−40 %** depuis son record, et pourtant le **bitcoin** résiste mieux que l'**or** selon **Fidelity**. Voici ce que ça change pour toi."
+      "En 2026, l'**or** perd **7,5 %** et le **bitcoin** **7,3 %**. Pourtant, **Fidelity** préfère toujours le bitcoin « pour le moment ».",
+      "Le **bitcoin** a chuté d'environ **25 %** en un an. Mais face à l'**or**, il vaut **75 %** de plus qu'à son point bas.",
+      "**Bitcoin** et **or** sont les deux pires placements de 2026. Un stratège de **Fidelity** a pourtant choisi son camp."
     ],
-    "caption": "Le bitcoin a perdu 13,5 % depuis le 1er janvier. Pour Fidelity, il garde pourtant l'avantage sur l'or.\n\nLe 7 novembre, Jurrien Timmer, directeur de la macroéconomie mondiale chez Fidelity, a répété qu'il préférait le bitcoin à l'or « pour le moment ». Son indicateur, c'est le nombre d'onces d'or qu'il faut pour acheter un bitcoin. Selon lui, ce ratio est passé d'environ 12 onces au plus bas du cycle à environ 21 aujourd'hui : le bitcoin baisse, mais moins que l'or.\n\n• Le bitcoin cotait environ 75 700 dollars le 7 novembre au soir, 40 % sous son record de 126 080 dollars atteint en octobre 2025. L'once d'or vaut 4 071 dollars, soit 3 654 euros. En août, l'or avait déjà effacé presque toutes ses pertes, pendant que le bitcoin reculait d'environ 26 %.\n\n• La semaine a été rude : forte chute du Nasdaq le 5 novembre, crainte d'une hausse des taux de la Fed le 9 décembre, et 1,28 milliard de dollars sortis des ETF bitcoin entre le 2 et le 6 novembre.\n\nAttention, ni le bitcoin ni l'or ne te protègent en ce moment contre une baisse de la Bourse, puisqu'ils suivent le S&P 500 à 60 à 70 %. Et si tu investis en euros, la variation du dollar s'ajoutera à tout ça.\n\nTrois dates comptent pour la suite : l'inflation américaine le 10 novembre, la revue des indices MSCI le 11 novembre et la décision de la Fed le 9 décembre. Si tu achètes, passe par une plateforme conforme au règlement européen MiCA. Ceci n'est pas un conseil en investissement.\n\nEt toi, tu fais plus confiance au bitcoin ou à l'or pour les mois qui viennent ?\n\n🔔 Abonne-toi à @lemediadelinvestisseur pour ne rien rater de l'actu qui touche ton argent.",
+    "caption": "Le bitcoin et l'or reculent tous les deux en 2026, mais mesuré en or, le bitcoin vaut 75 % de plus qu'à son point bas.\n\nLe 7 novembre, Jurrien Timmer, directeur de la macroéconomie mondiale chez Fidelity, a écrit qu'il préférait encore le bitcoin à l'or « pour le moment ». Son indicateur : un bitcoin permet d'acheter environ 21 onces d'or aujourd'hui, contre 12 au point bas du cycle.\n\n• Du 1er janvier au 23 octobre, l'or a perdu 7,5 % et le bitcoin 7,3 %. Ce sont les deux pires résultats sur 21 catégories d'actifs, alors que les grandes actions américaines ont pris 12,3 % et les matières premières 52,5 %.\n\n• La chute vient de haut. L'or avait dépassé 5 400 dollars début 2026 avant de repasser sous les 4 000 dollars le 23 octobre. Le bitcoin, qui avait atteint plus de 126 000 dollars en octobre 2025, cotait 75 904 dollars le 7 novembre.\n\nGarde en tête que le bitcoin ne protège pas ton portefeuille quand la Bourse baisse : il est corrélé à 60 à 70 % avec le S&P 500. Et le ratio bitcoin/or a déjà changé de sens plusieurs fois depuis fin 2025, donc l'avance actuelle pourra s'effacer.\n\nLes prochains rendez-vous seront les chiffres de l'inflation américaine la semaine prochaine, puis la réunion de la Fed du 9 décembre. Les marchés estiment à plus de 77 % la probabilité d'une baisse de taux.\n\nCe post est une information, pas un conseil en investissement.\n\nTu gardes de l'or, du bitcoin, ou les deux dans ton portefeuille ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
     "sources": [
+      "TradingView News",
       "Cointribune",
-      "Crypto Briefing",
-      "CryptoTicker",
-      "Journal du Coin",
-      "Or.fr",
-      "Cryptonews.net"
+      "U.Today",
+      "Fortune",
+      "BeInCrypto"
     ],
-    "dossier": "The original article appears to be Cointribune. Let me fetch it.# Dossier : « Malgré la baisse, le Bitcoin n'a pas perdu la partie face à l'or »\n*Rédigé le 8 novembre 2026. Ceci est de l'information, pas un conseil en investissement.*\n\n## ⚠️ Avant de commencer\n\n- **Source d'origine.** Le titre français vient d'un article de **Cointribune** publié le 7 novembre 2026 et signé Luc Jose Adjinacou. Sur TradingView News, l'article correspondant est une reprise en anglais de **Crypto Briefing** (« Fidelity's Jurrien Timmer favors Bitcoin over gold amid sell-off »). J'ai lu Cointribune en entier. Pour Crypto Briefing, je n'ai pu lire que des extraits.\n- **Autres sources lues.** CryptoTicker (FR, 8/11), Journal du Coin (FR, 6/11, extrait seulement), Or.fr et Gold.fr (cours de l'or au 8/11), Cryptonews.net (citation du tweet de Timmer).\n- **Limite.** J'ai atteint le plafond de recherches. Certains points n'ont donc pas pu être vérifiés : ils sont signalés comme tels.\n- **Publicité.** L'article de Cointribune contient des bannières d'affiliation (OKX, Kraken, Bybit). Ce sont des publicités, pas des recommandations.\n\n---\n\n## 1. Les faits\n\n**Qui et quoi**\n- **Jurrien Timmer**, directeur de la macroéconomie mondiale chez **Fidelity**, dit préférer le bitcoin à l'or, alors que les deux actifs viennent de baisser. *(Cointribune, Crypto Briefing)*\n- Sa phrase (traduite) : « Je préfère toujours le bitcoin à l'or pour le moment », publiée sur X le **7 novembre 2026**. *(Cryptonews.net)*\n\n**Son indicateur : combien d'onces d'or vaut un bitcoin (le « ratio BTC/or »)**\n- Ce ratio est tombé à environ **12 onces** au plus bas du cycle. Il est aujourd'hui autour de **21 onces**, soit **+75 % environ**. *(Cointribune, Crypto Briefing)*\n- Son argument n'est pas que le bitcoin monte en dollars. C'est qu'il **baisse moins que l'or** dans la comparaison directe entre les deux. *(Cointribune)*\n\n**Les flux d'argent dans les ETF (fonds cotés en Bourse)**\n- Depuis 2024, les ETF bitcoin au comptant ont attiré **près de 55 milliards de dollars**. Les produits liés à l'or et à l'argent en ont attiré **environ 29 milliards** sur la même période. *(Cointribune)*\n- **Mais la tendance récente est négative :**\n  - le 5 novembre, plus de **430 millions de dollars** sont sortis des ETF bitcoin en une seule séance *(Cointribune)* ;\n  - du 2 au 6 novembre, les sorties nettes atteignent **1,28 milliard de dollars**, le plus gros total hebdomadaire depuis fin juin *(CryptoTicker)* ;\n  - le 6 novembre, l'ETF IBIT de BlackRock a perdu à lui seul **403 millions** *(CryptoTicker, d'après Crypto Briefing et SoSoValue)* ;\n  - sur l'ensemble de 2026, le solde des ETF américains est de **−914 millions de dollars** *(CryptoTicker, d'après The Block)*.\n\n**Les cours**\n- **Bitcoin :** environ **75 700 $** le 7 novembre au soir. C'est **−13,5 %** depuis le début de l'année et **−40 %** sous son record de **126 080 $** (octobre 2025). *(CryptoTicker, d'après CoinGecko)*\n  - Plus haut du mois : **81 105 $** le 4 novembre. Plus bas : **74 762 $** le 6 novembre (plateforme Bitstamp). *(CryptoTicker)*\n- **Or :** **4 071,11 $** l'once, soit **3 654,46 €**, le 8 novembre. *(Or.fr ; Gold.fr indique 4 072,28 $)*\n- **Ampleur de la baisse de l'or :** aucune des sources consultées ne la chiffre. **Information manquante.**\n\n**Lien avec la Bourse**\n- Le bitcoin et l'or évoluent actuellement à **60–70 %** dans le même sens que l'indice américain S&P 500. *(Cointribune, Crypto Briefing)*\n\n## 2. Le contexte : pourquoi ça baisse\n\n*Sauf mention contraire, les éléments ci-dessous viennent de CryptoTicker.*\n\n- **Choc à Wall Street :** le 5 novembre, l'indice Nasdaq Composite chute de **5,5 %**, entraîné par les valeurs des puces et de l'IA. Le bitcoin passe de 80 300 $ à 75 500 $ en quatre heures.\n- **Peur d'une hausse des taux américains :**\n  - la Fed (banque centrale américaine) a maintenu ses taux entre **3,75 % et 4,00 %** le 28 octobre ;\n  - le 6 novembre, le rapport sur l'emploi montre **165 000 créations de postes** et un chômage à **4,1 %**, ce qui pousse plutôt la Fed à monter ses taux ;\n  - la probabilité d'une hausse le 9 décembre est passée à **76,8 %** (outil CME FedWatch).\n- **Piratage de Binance** le 29 octobre : environ **6,3 milliards de dollars** de crypto-actifs dérobés. *(CryptoTicker, citant CNBC. Une seule source, à vérifier.)*\n- **Trump Media** a transféré **4 259 BTC** vers la plateforme Crypto.com le 5 novembre. Aucune vente n'est confirmée.\n- **Liquidations :** les positions à effet de levier ont été fermées de force en masse. Les montants divergent (voir le tableau plus bas).\n- **Sentiment :** l'indice « Fear & Greed » (peur et avidité) est à **25**, soit « peur extrême ».\n- **Toile de fond plus ancienne :** l'argent spéculatif passe d'un actif à l'autre depuis fin 2025 *(Cointribune)*. En août 2026, l'or avait déjà regagné presque tout le terrain perdu, tandis que le bitcoin reculait d'environ 26 % *(Journal du Coin, août 2026)*.\n\n## 3. Ce qui change concrètement pour un particulier français\n\n- **Ni le bitcoin ni l'or ne protègent actuellement contre une baisse de la Bourse.** Avec 60–70 % de mouvements communs avec les actions, ils diversifient moins un portefeuille au moment où on en a le plus besoin. *(Cointribune)*\n- **Timmer ne dit pas de remplacer l'or.** Il parle d'un ajustement de court terme entre deux actifs complémentaires. En septembre, il était passé d'une répartition hypothétique de 5 parts d'or pour 1 de bitcoin à une répartition plus équilibrée. *(Cointribune)*\n- **Il qualifie le bitcoin de « version à bêta élevé de l'or »** : il peut monter plus fort, mais il baisse aussi plus violemment. *(Cointribune)*\n- **Effet change :** les chiffres sont en dollars. Un épargnant en euros subit en plus la variation EUR/USD (repère : 1 once = 3 654 € pour 4 071 $ selon Or.fr).\n- **Fiscalité *(CryptoTicker)* :**\n  - l'impôt s'applique quand on vend contre des euros ou qu'on achète un bien, pas lors d'un échange entre cryptos ;\n  - si le total des ventes de l'année ne dépasse pas **305 €**, il n'y a pas d'impôt ;\n  - les pertes se compensent avec les gains de la même année.\n\n## 4. Risques et points de vigilance\n\n- **Volatilité :** lors des marchés baissiers de 2018 et 2022, le bitcoin a perdu **plus de 75 %** depuis son sommet. *(CryptoTicker)*\n- **Le ratio BTC/or tourne en cycles.** Selon Cointribune, si le ratio retombe sous son ancienne zone de consolidation, l'avance du bitcoin n'aura été qu'une rotation passagère. *(Cointribune)*\n- **Sorties des ETF :** les acheteurs d'ETF ont payé en moyenne environ **81 300 $** (estimation Coinbase Institutional). Ils sont donc en perte d'environ 7 % et pourraient vendre dès que le cours revient à leur prix d'achat. *(CryptoTicker)*\n- **Risque de garde des fonds :** le piratage de Binance rappelle qu'un crypto-actif laissé sur une plateforme peut être perdu.\n- **Ventes forcées possibles :**\n  - **11 novembre :** l'indice MSCI pourrait exclure Strategy, une société qui détient du bitcoin. Les fonds indiciels devraient alors vendre ses actions, et Strategy aurait moins de marge pour acheter du bitcoin ;\n  - **30 novembre :** les créanciers de Trump Media peuvent réclamer jusqu'à 1 milliard de dollars, ce qui pourrait l'obliger à vendre des bitcoins. *(CryptoTicker)*\n\n## 5. Solutions concrètes citées par les sources\n\n*Sources : CryptoTicker, sauf la dernière ligne.*\n\n- **Investir à date fixe plutôt que chercher le bon moment.** Exemple : 100 $ investis le 1er de chaque mois en 2026 donnent **+4,0 %**. Le même montant investi d'un coup le 1er janvier donne **−14,7 %**.\n- **Fractionner un montant important** en 3 ou 4 achats à dates fixes, par exemple après les échéances importantes.\n- **Décider avant d'acheter de la perte maximale acceptable.** N'investir que de l'argent dont on n'aura pas besoin pendant des années.\n- **Choisir une plateforme réglementée** : CryptoTicker renvoie à un comparatif de plateformes conformes au règlement européen MiCA. Il signale aussi les portefeuilles physiques (« hardware wallets ») pour garder soi-même ses cryptos.\n- **Garder l'or comme pilier défensif.** Pour Timmer, le bitcoin vient en complément « offensif » de l'or, il ne le remplace pas. *(Cointribune)*\n\n**Ce que les sources ne précisent pas :** les véhicules accessibles à un particulier français (ETP/ETN cotés en Europe, or physique, contrats d'assurance-vie, PEA). Je vous conseille de vérifier sur le registre de l'AMF qu'une plateforme est bien autorisée. Ce conseil vient de moi, pas des articles.\n\n## 6. Perspectives\n\n**Le signal à suivre selon Cointribune :** que le ratio BTC/or continue de monter pendant que les deux actifs se stabilisent. C'est ce qui donnerait raison à Timmer.\n\n**Le calendrier à surveiller *(CryptoTicker)* :**\n\n| Date | Événement |\n|---|---|\n| 10 nov., 14 h 30 | Inflation américaine (CPI) |\n| 11 nov. | Revue des indices MSCI (décision sur Strategy) |\n| 18 nov. | Compte rendu de la dernière réunion de la Fed |\n| 25 nov. | Indice d'inflation PCE |\n| 27 nov. | Échéance mensuelle des options bitcoin (environ 5,4 Md$) |\n| 30 nov. | Échéance des créanciers de Trump Media |\n| 9 déc. | Décision de la Fed sur les taux |\n\n**Trois scénarios pour le bitcoin d'ici le 31 décembre *(CryptoTicker)* :**\n\n| Scénario | Ce qui le déclencherait |\n|---|---|\n| 70 000 $ | Clôture sous 73 191 $ (moyenne des 200 derniers jours) |\n| 80 000 à 90 000 $ | Clôture au-dessus de 81 300 $ (prix moyen des acheteurs d'ETF) |\n| 100 000 $ | Hausse de 32 % : il faudrait un changement de cap de la Fed et des milliards de nouvelles entrées dans les ETF |\n\nCe sont des scénarios, pas des probabilités.\n\n---\n\n## 🔍 Points où les sources divergent\n\n| Sujet | Version A | Version B |\n|---|---|---|\n| **Ratio BTC/or** | ~**21 onces** (Timmer, Cointribune, Crypto Briefing) | Avec 75 700 $ (CryptoTicker) et 4 071 $ l'once (Or.fr), on obtient **~18,6 onces** (mon calcul). Le chiffre de 21 date peut-être d'un autre moment. **À vérifier avant publication.** |\n| **Baisse du Nasdaq** (5 nov.) | **−5,5 %** (CryptoTicker et Makertronic, synthèse d'actualités crypto) | « plongeon de **4 %** » (titre d'un autre article Cointribune) |\n| **Plus bas du bitcoin** (6 nov.) | **74 255 $** (Journal du Coin, d'après CryptoSlate) | **74 762 $** (CryptoTicker, d'après Bitstamp). L'écart vient probablement des plateformes utilisées. |\n| **Liquidations** | **941 M$** (Journal du Coin) | **> 1,1 Md$ en 24 h** (Makertronic) |\n| **Flux des ETF** | **+55 Md$** cumulés depuis 2024 (Cointribune) | **−914 M$** sur 2026 (CryptoTicker). Ce n'est pas une contradiction : le cumul reste positif, mais l'année est négative. |\n\n**Suggestion de fil conducteur pour le carousel :** « Les deux baissent, mais le bitcoin baisse moins que l'or » → le ratio en onces → les flux des ETF → pourquoi ça baisse (Fed, Nasdaq, Binance) → « ni l'un ni l'autre ne protège en ce moment » → les dates à surveiller → les bons réflexes (achats à date fixe, montant fractionné, fiscalité). Pour le chiffre de 21 onces, mieux vaut écrire « selon Fidelity » ou utiliser un intervalle comme « 18 à 21 onces ».",
+    "dossier": "# Dossier : le Bitcoin n'a pas perdu face à l'or, malgré la baisse (au 8 novembre 2026)\n\n**À retenir :** Bitcoin et l'or baissent tous les deux. Mais un bitcoin achète plus d'or qu'avant : environ 21 onces aujourd'hui, contre environ 12 au point bas. Jurrien Timmer, de la société de gestion Fidelity, préfère donc le bitcoin « pour le moment ». C'est un choix de court terme, pas une recommandation de vendre son or.\n\n**Sources principales :** l'article d'origine est publié sur **Cointribune** (Luc Jose A., 7/11/2026, relayé par TradingView News). Je l'ai recoupé avec **U.Today** (7/11), **Fortune** (2 et 6/11), **BeInCrypto** (début novembre) et un autre article **Cointribune** (26/10). Je n'ai pas pu ouvrir l'article original de TradingView : je l'ai lu via Cointribune, qui en est l'éditeur.\n\n---\n\n## 1. Les faits\n\n**Qui et quand**\n- **Qui :** Jurrien Timmer, directeur de la macroéconomie mondiale chez Fidelity (Cointribune, U.Today).\n- **Quand :** le 7 novembre 2026, dans un message publié sur X (U.Today).\n- **Ce qu'il a écrit :** « I still prefer Bitcoin over gold for the time being, and its relative price is holding up even as both assets have sold off. » En français : il préfère encore le bitcoin à l'or pour l'instant, car son prix relatif tient bon alors que les deux reculent.\n\n**L'indicateur qu'il utilise (Cointribune)**\n- Il regarde combien d'onces d'or on peut acheter avec un bitcoin (le « ratio BTC/or »).\n- Au point bas du cycle actuel : environ **12 onces**. Aujourd'hui : environ **21 onces**, soit **+75 %** environ.\n- Le bitcoin a franchi sa récente zone de consolidation face à l'or.\n\n**Les flux vers les ETF (Cointribune)**\nUn ETF est un fonds coté en Bourse.\n- Les ETF bitcoin « spot » (adossés à de vrais bitcoins) américains ont reçu près de **55 milliards de dollars** depuis 2024.\n- Les produits indiciels sur l'or et l'argent ont reçu environ **29 milliards** sur la même période.\n- **Le 5 novembre**, plus de **430 millions de dollars** sont sortis des ETF bitcoin en une seule séance.\n\n**Le prix du bitcoin**\n| Date | Prix | Source |\n|---|---|---|\n| 2 nov. 2026 | 77 750 $ (environ 32 770 $ de moins qu'un an plus tôt) | Fortune |\n| 5 nov. 2026 | 80 221 $ | Fortune |\n| 6 nov. 2026 | 76 024 $ (−5,23 % en 24 h, environ −25 % sur un an) | Fortune |\n| 7 nov. 2026 | 75 904 $ | U.Today |\n\n**Le lien avec la Bourse :** selon Timmer, le bitcoin et l'or sont aujourd'hui corrélés à **60–70 %** avec l'indice américain S&P 500 (U.Today, Cointribune). Autrement dit, ils montent et baissent souvent en même temps que les actions.\n\n**Ce que je n'ai pas trouvé :**\n- Le prix de l'or début novembre. Le dernier chiffre trouvé date du 26 octobre : environ **4 009 $ l'once** (Cointribune, qui cite Reuters).\n- Un calcul de ma part, non sourcé : 75 904 $ divisés par 21 onces donnent un or implicite d'environ 3 600 $. Ce chiffre est à vérifier avant publication.\n- Les chiffres en euros : aucune source ne les donne.\n\n## 2. Le contexte : pourquoi les deux baissent\n\n**Une année 2026 difficile pour les deux (Cointribune, 26/10, d'après Charlie Bilello de Creative Planning)**\n- Au 23 octobre, le bitcoin et l'or occupent les deux dernières places sur 21 grandes catégories d'actifs.\n- L'or recule de **7,5 %** depuis janvier, le bitcoin de **7,3 %**.\n- Sur la même période, les grandes actions américaines gagnent **12,3 %** et les matières premières **52,5 %**.\n- Selon Bilello, c'est la première fois que cela arrive sur une année civile depuis le début de ses données en 2011.\n\n**Les causes avancées par Cointribune**\n- Les taux d'intérêt restent élevés. Or le bitcoin et l'or ne rapportent aucun intérêt : les placements rémunérés deviennent plus attractifs.\n- Les craintes d'inflation reviennent, avec le baril de Brent au-dessus de **116 $** le 23 octobre (tensions au Moyen-Orient).\n- Selon ING, les investisseurs s'inquiètent surtout du pétrole et de l'inflation.\n\n**Une correction après deux années très fortes (Cointribune)**\n- Le bitcoin a gagné **+121 % en 2024** et l'or **+63,7 % en 2025**.\n- L'or a dépassé **5 400 $** début 2026, puis est repassé sous les **4 000 $** le 23 octobre (plus de 20 % de baisse).\n- Le bitcoin a atteint son record à plus de **126 000 $** en octobre 2025. Fin octobre 2026, il était environ 35 % en dessous.\n\n**Un piratage de Binance :** BeInCrypto évoque un « Binance hack », qui explique selon lui de fortes sorties de bitcoins des plateformes d'échange. **Je n'ai trouvé aucun détail** (date, montant). C'est à vérifier avant d'en parler.\n\n## 3. Ce qui change pour un particulier français\n\n- **Rien d'automatique.** C'est l'avis d'un stratège, pas une décision réglementaire ni un nouveau produit.\n- **Le bitcoin ne vous protège pas en cas de baisse de la Bourse.** C'est l'enseignement principal, avec 60–70 % de corrélation. Cointribune conclut que ni le bitcoin ni l'or ne fonctionne comme une couverture parfaite à court terme.\n- **Tout dépend de la référence.** En dollars, les deux perdent. Mesuré en or, le bitcoin gagne du terrain. Pour un investisseur en euros, il faut aussi tenir compte du taux de change euro/dollar, dont aucune source ne parle.\n\n## 4. Risques et points de vigilance\n\n- **Volatilité :** Timmer décrit le bitcoin comme une version de l'or à « bêta élevé ». Il peut monter plus fort, mais il chute aussi plus violemment (Cointribune).\n- **Un ratio qui tourne :** l'argent a déjà circulé plusieurs fois entre bitcoin et or depuis fin 2025. Mener la course aujourd'hui ne veut pas dire la gagner durablement (Cointribune).\n- **Des flux qui peuvent se retourner :** l'exemple des 430 M$ sortis des ETF en une journée le 5 novembre.\n- **Les seuils techniques (BeInCrypto) :**\n  - **76 000 $** est le prix d'achat moyen des détenteurs récents de bitcoin.\n  - En dessous, la prochaine zone serait 73 000–74 000 $.\n  - Le scénario baissier extrême de BeInCrypto vise **60 000 $**.\n- **Conflits d'intérêts :** les articles de Cointribune contiennent des bannières affiliées OKX, Kraken et Bybit. Le site touche une commission si vous vous inscrivez via ces liens. À signaler dans le carousel.\n- **Les performances passées ne garantissent rien.** Depuis 2011, le rendement annualisé est estimé à 120,6 % pour le bitcoin et 6,3 % pour l'or (Bilello via Cointribune). Ces moyennes cachent des chutes très profondes, ce que la source souligne elle-même.\n\n## 5. Pistes concrètes\n\n**Ce que disent les sources :**\n- **Ne pas remplacer l'or par le bitcoin.** En septembre, dans une allocation hypothétique, Timmer est passé de 5 parts d'or pour 1 de bitcoin à une répartition « plus équilibrée ». Il s'agit d'une rotation tactique, pas d'un abandon de l'or (Cointribune).\n- **Suivre le ratio BTC/or, pas seulement le prix en dollars.** S'il continue de monter pendant que les deux actifs se stabilisent, la thèse de Timmer se renforce. S'il retombe sous l'ancienne zone de consolidation, ce n'était qu'une rotation passagère (Cointribune).\n- **Surveiller les seuils de 76 000 $ et 82 000 $.** BeInCrypto voit une possible remontée vers 87 000 $ si le bitcoin reprend 82 000 $.\n\n**Hors sources, à vérifier avant publication.** Aucun article lu ne traite du cadre français :\n- vérifier qu'une plateforme est autorisée sur le site de l'AMF (agrément européen MiCA) ;\n- connaître la fiscalité des plus-values crypto sur impots.gouv.fr (taux en vigueur à confirmer) ;\n- déclarer les comptes détenus sur des plateformes étrangères (formulaire 3916-bis) ;\n- savoir que les ETF bitcoin américains cités ne sont en général pas accessibles aux particuliers européens, contrairement aux ETP/ETN cotés en Europe.\n\n## 6. Perspectives\n\n**Dates à venir (U.Today)**\n- Les indices d'inflation américains (CPI et PPI) de la semaine prochaine.\n- La réunion de la Fed du **9 décembre**. Les marchés estimaient à **plus de 77 %** la probabilité d'une baisse de taux, contre 66 % la veille.\n- La tenue des marchés actions.\n\n**Le classement 2026 peut encore bouger :** celui de Bilello est arrêté au 23 octobre (Cointribune).\n\n## Points où les sources divergent\n\n1. **La Fed :** le 26/10, Cointribune parle d'une Fed qui pourrait rester stricte face à l'inflation. Le 7/11, U.Today évoque une baisse probable en décembre.\n2. **Le raisonnement d'U.Today :** il affirme qu'un chômage plus bas que prévu (4,1 %) renforce la probabilité d'une baisse de taux. C'est contre-intuitif, et je n'ai pas pu le vérifier ailleurs.\n3. **« Leadership » ou « rotation passagère » :** Timmer voit le bitcoin en tête. Cointribune rappelle que le ratio est cyclique, et BeInCrypto décrit une dynamique technique baissière (RSI à 38).\n4. **Le prix de l'or début novembre :** introuvable. Le ratio de 21 onces suppose un or autour de 3 600 $, mais cela reste mon calcul.\n\n**Conseil pour le carousel :** ajoutez un avertissement du type « information, pas conseil en investissement » et signalez que plusieurs médias crypto cités ont des partenariats commerciaux avec des plateformes.",
     "generator": "claude-opus-5-5"
   }
 }
