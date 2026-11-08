@@ -690,7 +690,7 @@
       "reason": "Le DPE change en 2027, un sujet concret pour tous les propriétaires.",
       "hook": "DPE 2027 : ce qui change pour les propriétaires",
       "instructions": "1 page par information",
-      "generatedAt": "2026-11-08T22:04:18.066Z",
+      "generatedAt": "2026-11-08T22:06:13.743Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-dpe-2027-6-nouvelles-informations-une-me-585b39ca26",
         "files": [
@@ -708,9 +708,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "Ton DPE change le **1er janvier 2027** : **6 infos** en plus",
-          "DPE 2027 : la mention **A0** arrive, **gaz** et fioul exclus",
-          "**6 nouveautés** dans ton DPE dès **2027**"
+          "Ton prochain DPE dira **l'âge de ton chauffage**",
+          "**A0** : la nouvelle mention du DPE en **2027**",
+          "DPE : **ce qui change** le **1er janvier 2027**"
         ]
       }
     },
@@ -2632,5 +2632,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:06:15.037Z"
+  "updatedAt": "2026-11-08T22:06:29.449Z"
 }
