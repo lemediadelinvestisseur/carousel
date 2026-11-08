@@ -1,8 +1,11 @@
 name: Publication réseaux sociaux
 
-run-name: "${{ inputs.mode }} ${{ inputs.id }}"
+run-name: "${{ github.event_name == 'schedule' && 'publications programmées' || format('{0} {1}', inputs.mode, inputs.id) }}"
 
 on:
+  # Publications programmées : vérification toutes les 10 minutes.
+  schedule:
+    - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
       id:
@@ -10,15 +13,19 @@ on:
         required: false
         default: ""
       mode:
-        description: "connexion = vérifier les comptes, test = tout préparer sans publier, publier = publier pour de vrai"
+        description: "connexion = vérifier les comptes, test = tout préparer sans publier, publier = publier maintenant, programmer = publier à l'heure indiquée, annuler = annuler la programmation"
         required: true
         default: "test"
         type: choice
-        options: [connexion, test, publier]
+        options: [connexion, test, publier, programmer, annuler]
       targets:
         description: "Où publier"
         required: false
         default: "instagram,facebook"
+      at:
+        description: "Pour programmer : date et heure (ISO, ex. 2026-11-09T12:30:00+01:00)"
+        required: false
+        default: ""
       force:
         description: "Republier même si déjà publié"
         required: false
@@ -28,26 +35,40 @@ permissions:
   contents: write
 
 concurrency:
-  group: social-${{ inputs.id }}
+  # Un groupe par carousel, et un pour le passage automatique : aucune demande n'en écrase une autre.
+  group: social-${{ inputs.id || github.event_name }}
   cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      MODE: ${{ github.event_name == 'schedule' && 'echeances' || inputs.mode }}
     steps:
       - uses: actions/checkout@v4
+      - name: Rien de programmé ?
+        id: check
+        run: |
+          if [ "$MODE" = "echeances" ] && ! grep -q '"scheduled": {' data/news.json; then
+            echo "Aucune publication programmée."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-node@v4
+        if: steps.check.outputs.skip != 'true'
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+        if: steps.check.outputs.skip != 'true'
       - name: Publication
+        if: steps.check.outputs.skip != 'true'
         run: node scripts/publish-social.mjs
         env:
           INPUT_ID: ${{ inputs.id }}
-          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_MODE: ${{ env.MODE }}
           INPUT_TARGETS: ${{ inputs.targets }}
+          INPUT_AT: ${{ inputs.at }}
           INPUT_FORCE: ${{ inputs.force }}
           META_PAGE_TOKEN_INVESTISSEUR: ${{ secrets.META_PAGE_TOKEN_INVESTISSEUR }}
           META_PAGE_TOKEN_21M2: ${{ secrets.META_PAGE_TOKEN_21M2 }}
@@ -57,8 +78,8 @@ jobs:
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       - name: Enregistrement du statut
-        if: always() && inputs.mode == 'publier'
+        if: always() && steps.check.outputs.skip != 'true' && contains(fromJSON('["publier","programmer","annuler","echeances"]'), env.MODE)
         run: |
-          ./scripts/publish.sh "publication: $INPUT_ID"
+          ./scripts/publish.sh "publication: $MODE $INPUT_ID"
         env:
           INPUT_ID: ${{ inputs.id }}

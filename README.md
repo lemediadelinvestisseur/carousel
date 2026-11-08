@@ -74,7 +74,10 @@ Collez-le dans le dashboard (⚙︎ Réglages). Il est stocké uniquement dans l
 
 ## Publication automatique sur Instagram et Facebook
 
-Dans le dashboard, onglet **Prêts** → **🚀 Publier** : choisis Instagram et/ou la Page Facebook, puis **Test** (tout est préparé chez Meta, rien n'est publié) ou **Publier**.
+Dans le dashboard, onglet **Prêts** → **🚀 Publier** : choisis Instagram et/ou la Page Facebook, puis :
+- **🕒 Programmer** : date et heure (raccourcis 8 h, 12 h 30, 18 h, 21 h). Un passage automatique toutes les 10 minutes publie ce qui est arrivé à échéance ; la carte affiche « 🕒 Programmé … » avec un bouton **Annuler**. En cas d'échec, une notification te prévient.
+- **🚀 Publier maintenant**.
+- **🧪 Test** : tout est préparé chez Meta, rien n'est publié.
 
 ### Configuration (une fois par marque)
 Prérequis : le compte Instagram est un **compte professionnel** relié à la **Page Facebook** de la marque, et tu es administrateur de la Page.
