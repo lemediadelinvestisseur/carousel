@@ -1983,7 +1983,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Pédagogie utile sur les ETF et fonds, très enregistrable.",
       "hook": "Capitalisation ou distribution : le bon choix"
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:10:44.588Z"
+  "updatedAt": "2026-11-08T20:10:45.852Z"
 }
