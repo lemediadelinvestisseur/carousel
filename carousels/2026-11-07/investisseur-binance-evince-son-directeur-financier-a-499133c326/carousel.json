@@ -1,0 +1,137 @@
+{
+  "item": {
+    "id": "499133c326",
+    "title": "Binance évince son directeur financier après un piratage record",
+    "summary": "Binance évince son directeur financier après un piratage record Zonebourse Suisse",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOWFPSmhFTmd2UVZ4R3ZicFRUY0pITUNDU1phZGhiMXlwN1IzcmloNm1WRllMTm8wdjlqUlczbjF2Q3NfTDd2NXUtSHBJNUNtbUFGa1lfZGxqcllaVkdpQjMzbUtyUVhGb2JHUG5fMXFkZUptTHVXb09ueWRVMW5yVi1ZdjhZbE9TaHBwdnhhMm5QbUpIWUhLUkpoRExCcU02ZzZVUTd4WkdjdGxYb1BrQW1yRTlpdGs5Q1BUMFI5Nlg?oc=5",
+    "image": null,
+    "source": "Zonebourse",
+    "via": "google news",
+    "publishedAt": "2026-11-07T17:35:13.000Z",
+    "collectedAt": "2026-11-08T15:38:54.430Z",
+    "brand": "investisseur",
+    "score": 1,
+    "status": "generating",
+    "international": true,
+    "aiScore": 6,
+    "reason": "Piratage record chez Binance, sujet crypto fort.",
+    "hook": "Piratage record : Binance limoge son directeur financier"
+  },
+  "carousel": {
+    "category": "Actualité",
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "",
+        "title": "**Binance** perd son **directeur financier** neuf jours après le **plus gros piratage** de l'histoire des cryptos : **6,3 milliards** de dollars volés.",
+        "body": "",
+        "bullets": [],
+        "image_query": "Binance logo smartphone screen",
+        "image_entity": "Binance"
+      },
+      {
+        "kind": "content",
+        "kicker": "LE PIRATAGE",
+        "title": "Le plus gros vol de l'histoire des cryptos",
+        "body": "Le **29 octobre**, des pirates ont sorti **6,3 milliards de dollars** des portefeuilles de Binance, dont 18 270 bitcoins. Le FBI et Binance accusent le groupe nord-coréen **TraderTraitor**, ce que Pyongyang dément.\nLe précédent record, le piratage de **Bybit** en 2025, tournait autour de 1,5 milliard de dollars.",
+        "bullets": [],
+        "image_query": "hacker laptop dark room cyberattack",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "COMMENT ?",
+        "title": "Tout a commencé par un faux recruteur",
+        "body": "En septembre, un **faux recruteur** a contacté un ingénieur de Binance sur un réseau professionnel. Après deux faux entretiens, il lui a fait lancer un **« test technique »** piégé.\nLes pirates ont ensuite pris le contrôle du **service qui signe les transactions** et ont envoyé des ordres de transfert valides. **Aucune clé privée** n'a été volée.",
+        "bullets": [],
+        "image_query": "fake job interview video call laptop",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LE DÉPART",
+        "title": "Le directeur financier s'en va",
+        "body": "Samedi, Binance a annoncé le départ de **Kaiser Ng**, son directeur financier depuis janvier 2022. Il sera remplacé par **Justin Yek**, venu de la fintech Airwallex.\nLa co-directrice générale **Yi He** parle d'une transition préparée depuis six mois. **Aucune source** ne prouve un lien avec le piratage, mais aucun document public ne confirme ce calendrier.",
+        "bullets": [],
+        "image_query": "Yi He Binance co-founder conference",
+        "image_entity": "Yi He"
+      },
+      {
+        "kind": "content",
+        "kicker": "LE REMBOURSEMENT",
+        "title": "Binance a comblé 95 % du trou",
+        "body": "Au 2 novembre, Binance avait reconstitué environ **95 %** des actifs volés avec sa trésorerie et son fonds d'urgence **SAFU**. Ce n'est pas de l'argent repris aux pirates.\nLes **retraits** ont rouvert le 1er novembre. Certains tokens comme LTC ou NEAR doivent suivre, avec un retour complet visé vers la **mi-novembre**.",
+        "bullets": [],
+        "image_query": "Binance app withdrawal crypto exchange",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "CE QUI CHANGE",
+        "title": "Pour les Français, aucune garantie légale",
+        "body": "Depuis le **1er juillet 2026**, Binance n'a plus le droit d'opérer en France faute d'agrément **MiCA**. Les clients français ne pouvaient déjà plus que retirer leurs fonds.\nLa promesse de remboursement n'est donc qu'un engagement commercial. Et tes cryptos ne sont pas couvertes par la **garantie des dépôts**, contrairement à ton compte bancaire.",
+        "bullets": [],
+        "image_query": "Autorité des marchés financiers Paris siège",
+        "image_entity": "Autorité des marchés financiers (France)"
+      },
+      {
+        "kind": "list",
+        "kicker": "LES SOLUTIONS",
+        "title": "Trois réflexes à avoir",
+        "body": "",
+        "bullets": [
+          "Vérifie que ta plateforme figure sur la **liste blanche de l'AMF** ou le registre de l'**ESMA**, avec le nom de la société.",
+          "Si tu as encore des cryptos ou des euros sur **Binance**, récupère-les : c'est la seule opération encore possible en France.",
+          "Garde des **captures d'écran** de ton compte et de tes soldes, et renseigne-toi sur les recours avant l'expiration des délais."
+        ],
+        "image_query": "person checking crypto wallet on smartphone",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "ET APRÈS ?",
+        "title": "Les pirates cherchent à blanchir le butin",
+        "body": "Selon la société d'analyse **Elliptic**, les pirates ont déjà converti environ 124 millions de dollars en bitcoin, via plus de **20 000 portefeuilles**. Environ **2,85 milliards** ont été gelés ou récupérés.\nCôté Binance, l'agrément **MiCA** reste l'objectif, mais aucune date n'est donnée.",
+        "bullets": [],
+        "image_query": "Bitcoin physical coins close up",
+        "image_entity": "Bitcoin"
+      },
+      {
+        "kind": "cta",
+        "kicker": "",
+        "title": "Tu avais encore des cryptos sur **Binance** ?",
+        "body": "Dis-nous en commentaire si tu les as retirées ou si tu comptes le faire 👇",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      }
+    ],
+    "hook_alternatives": [
+      "**6,3 milliards** de dollars volés chez **Binance**, et neuf jours plus tard, son **directeur financier** s'en va. Voici ce que ça change pour toi.",
+      "Un **faux recruteur**, un test technique piégé, et **Binance** s'est fait voler **6,3 milliards** de dollars. Son **directeur financier** vient de partir.",
+      "Après le **plus gros vol** de l'histoire des cryptos, **Binance** change de **directeur financier**. Et en France, tes fonds n'ont **aucune garantie légale**."
+    ],
+    "caption": "Binance change de directeur financier neuf jours après s'être fait voler 6,3 milliards de dollars.\n\nLe 29 octobre, des pirates ont vidé une partie des portefeuilles de la plateforme, dont 18 270 bitcoins. C'est le plus gros vol de l'histoire des cryptos, plus de quatre fois le précédent record, celui de Bybit en 2025. Le FBI et Binance accusent le groupe nord-coréen TraderTraitor.\n\nTout est parti d'un faux recruteur. Il a fait exécuter un test technique piégé à un ingénieur de Binance, ce qui a permis aux pirates d'atteindre le service qui signe les transactions. Aucune clé privée n'a été volée.\n\nSamedi, Binance a annoncé le départ de Kaiser Ng, son directeur financier depuis 2022, qui sera remplacé par Justin Yek. La direction parle d'une transition préparée depuis six mois. Rien ne prouve un lien avec le piratage.\n\n• Binance a reconstitué environ 95 % des actifs volés avec sa trésorerie et son fonds d'urgence SAFU. Les retraits rouvrent progressivement depuis le 1er novembre, avec un retour complet visé vers la mi-novembre.\n\n• En France, Binance n'a plus d'agrément depuis le 1er juillet. Sa promesse de rembourser n'est qu'un engagement commercial, et tes cryptos ne sont pas couvertes par la garantie des dépôts, contrairement à ton compte bancaire.\n\nSi tu utilises une plateforme crypto, vérifie qu'elle figure sur la liste blanche de l'AMF ou sur le registre de l'ESMA. Ce post est une information, pas un conseil en investissement.\n\nTu avais encore des fonds sur Binance, ou tu les avais déjà retirés ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
+    "sources": [
+      "Zonebourse",
+      "Reuters",
+      "Boursorama",
+      "Journal du Coin",
+      "Cointribune",
+      "DCOD",
+      "Cryptoast",
+      "Yahoo Finance",
+      "CNN",
+      "Clubic",
+      "Begeek",
+      "Jechange",
+      "Selectra",
+      "Esteval",
+      "Minuitcrypto",
+      "France Transactions",
+      "Belhaouci"
+    ],
+    "dossier": "# Dossier : Binance perd son directeur financier neuf jours après un piratage record\n\n*Recherches au 8 novembre 2026. Chaque information est suivie du média qui la rapporte. Limite à connaître : j'ai atteint le plafond de recherches avant d'avoir pu ouvrir en entier les articles de Jechange, Esteval, Selectra et Belhaouci. Pour ces quatre sources, je n'ai lu que des extraits. Je n'ai pas pu lire en entier le texte Reuters repris par Zonebourse et Boursorama, seulement le début.*\n\n---\n\n## 1. Les faits\n\n**Le départ du directeur financier**\n- **Quand :** Binance l'a annoncé le samedi 7 novembre 2026 (Reuters, repris par Zonebourse et Boursorama à 18h35-18h37).\n- **Qui part :** Kaiser Ng, directeur financier (CFO) depuis janvier 2022, auparavant chez Kraken (Journal du Coin, Cointribune).\n- **Qui le remplace :** Justin Yek, jusqu'ici vice-président finance d'Airwallex, une fintech de paiements (Journal du Coin, Cointribune).\n- **La version de Binance :** selon la co-directrice générale Yi He, Kaiser Ng « a décidé de se lancer dans une nouvelle activité après plus de cinq ans chez Binance ». Elle ajoute qu'un plan de transition était « mis en oeuvre au cours des six derniers mois » (Reuters, via Boursorama).\n- **Ce qu'on ne sait pas :** la date effective du départ et le nouveau projet de Kaiser Ng (Journal du Coin, Cointribune).\n\n**Le piratage**\n- **Date :** 29 octobre 2026 (Cointribune, Journal du Coin, DCOD).\n- **Auteur présumé :** le FBI et Binance désignent le groupe nord-coréen TraderTraitor (Begeek, Journal du Coin). Pyongyang rejette l'accusation (Cointribune).\n- **Montant volé :** 6,3 milliards de dollars selon Binance. Les sources ne donnent pas toutes le même chiffre (voir le tableau plus bas).\n- **Actifs volés :** notamment 18 270 bitcoins, 233 millions de XRP et près d'un million de SOL (DCOD). La société d'analyse Elliptic évalue la part en bitcoin à 1,48 milliard de dollars (Journal du Coin).\n- **Comparaison :** c'est le plus gros vol de l'histoire des cryptos. Le précédent record était le piratage de Bybit en 2025, environ 1,5 milliard de dollars (Yahoo Finance FR).\n- **Les retraits :** ils ont été suspendus, puis ont rouvert progressivement à partir du 1er novembre à 6h00 UTC, en commençant par le bitcoin (Journal du Coin, Cryptoast, Yahoo).\n- **Le remboursement :** au 2 novembre, Binance avait reconstitué environ 95 % des actifs volés avec sa trésorerie et son fonds d'urgence SAFU (Journal du Coin, Yahoo). Cointribune précise que ces 95 % ne correspondent pas à des sommes récupérées auprès des pirates.\n- **Les fonds bloqués :** environ 2,85 milliards de dollars ont été gelés ou récupérés au 3 novembre (DCOD, Journal du Coin).\n- **La taille de Binance :** environ 300 millions d'utilisateurs et 171 milliards de dollars d'actifs (Journal du Coin ; Cryptoast, d'après la preuve de réserves de Binance du 28 octobre).\n\n### Points où les sources divergent\n\n| Sujet | Versions |\n|---|---|\n| Montant volé | **6,3 Md$** (Binance, Reuters, CNN) / **6,34 Md$** (DCOD, Yahoo) / **6,43 Md$** (Elliptic, cité par Journal du Coin) |\n| Retraits après la réouverture | **3,64 Md$ nets** en 9h30, selon Binance (Journal du Coin, Cryptoast) / **4,6 Md$ retirés et 1 Md$ déposés** (CNN, Journal du Coin) / **4,72 Md$** (Clubic) / **5,8 Md$ en 24 h**, d'après le site de données DefiLlama (Journal du Coin) / **6,5 Md$ en 24 h** (Cryptoast) |\n| Durée de l'attaque | « une vingtaine de minutes » (DCOD) / « moins de quatre heures » (Yahoo) |\n| Montant gelé | 2,85 Md$ au total (DCOD, Journal du Coin) / 2,6 Md$ gelés par Tether et Circle (Clubic) / environ 2,7 Md$ par les émetteurs de stablecoins (DCOD) |\n| Fonds encore aux mains des pirates | 3,11 Md$ sur des adresses identifiées et 470 M$ introuvables (Journal du Coin, 8/11). Un article antérieur du même média parlait de 3,25 Md$ |\n| « Évince » ou départ prévu ? | Le titre Reuters/Zonebourse parle d'éviction, Investing.com de démission. Binance parle d'une transition prévue. **Aucune source ne prouve un lien avec le piratage** (Cointribune). Journal du Coin souligne qu'aucun document public ne confirme le calendrier de six mois |\n\nÀ noter : Cointribune rapporte que dès le 3 novembre, les dépôts sont redevenus supérieurs aux retraits, avec 2,3 Md$ d'entrées nettes en 24 h.\n\n---\n\n## 2. Le contexte : comment c'est arrivé\n\nD'après le rapport d'incident de Binance du 3 novembre (Journal du Coin), détaillé par DCOD à partir d'Ars Technica, BleepingComputer et The Register :\n- **Juin 2026 :** un membre de l'équipe des portefeuilles télécharge un outil de développement piégé. Son ordinateur est remplacé, mais les pirates ont déjà repéré les personnes clés.\n- **Septembre 2026 :** un faux recruteur contacte un ingénieur de Binance sur un réseau professionnel. Après deux faux entretiens, il lui fait exécuter un « test technique » qui contient un logiciel malveillant.\n- **20 octobre :** les pirates passent par un outil d'intelligence artificielle interne pour atteindre d'autres employés, dont le responsable de l'infrastructure des portefeuilles. L'outil n'avait pas de faille propre : ils ont utilisé les droits d'accès légitimes de l'employé piraté.\n- **29 octobre :** ils prennent le contrôle du service qui signe les transactions de Binance et envoient des ordres de transfert valides vers leurs propres adresses. **Aucune clé privée n'a été volée.** Grâce à un mécanisme d'autorisation sur Ethereum, ils ont même pu continuer à sortir des fonds après la suspension des retraits.\n\n**Un rôle sensible pour le nouveau directeur financier :** Kaiser Ng était déjà en poste lors de l'amende de 4,3 milliards de dollars négociée avec la justice américaine en novembre 2023 et du départ forcé du fondateur Changpeng Zhao (Journal du Coin). Justin Yek arrive au moment où Binance doit reconstituer plusieurs milliards et gérer ses réserves (Cointribune).\n\n---\n\n## 3. Ce qui change pour un particulier français\n\n- **Binance n'a plus le droit d'opérer en France depuis le 1er juillet 2026.** Elle n'a pas obtenu l'agrément européen MiCA, désormais obligatoire. Le 24 juin, elle avait annoncé qu'aucune de ses sociétés ne l'obtiendrait à temps (Jechange). Sa filiale Binance France SAS, enregistrée auprès de l'AMF depuis le 4 mai 2022, a été radiée le 2 juillet 2026 (Minuitcrypto, d'après la liste de l'AMF ; Clubic).\n- **Les clients français ne pouvaient déjà plus que retirer** leurs cryptos et leurs euros : ni achat, ni vente, ni dépôt (Clubic, Esteval). Le piratage a bloqué temporairement cette dernière possibilité (Esteval, Clubic).\n- **On ne sait pas combien de Français sont touchés.** Aucune statistique publique n'indique le nombre de comptes français encore actifs au 29 octobre (France Transactions). Binance revendiquait auparavant près de deux millions d'utilisateurs en France (France Transactions).\n- **La promesse de remboursement n'est pas une garantie légale.** Pour les clients français, l'engagement de Binance à absorber les pertes n'est qu'une promesse commerciale. Une plateforme agréée MiCA est, elle, légalement responsable si un piratage lui est imputable (article 75 du règlement), selon Jechange.\n- **Pas de filet de sécurité comme pour l'épargne classique.** Les cryptos ne sont couvertes ni par la garantie des dépôts (FGDR, qui protège par exemple les comptes bancaires) ni par la garantie des titres (Selectra, citant l'AMF). Le médiateur de l'AMF n'est en principe pas compétent pour Binance (Belhaouci).\n\n---\n\n## 4. Risques et points de vigilance\n\n- **Tous les retraits ne sont pas encore rouverts.** Au 6 novembre, Binance visait la fin de la semaine suivante pour HYPE, INJ, APT, NEAR et LTC (Journal du Coin).\n- **Il reste un trou de 5 % à combler.** Il concerne des tokens peu liquides que Binance rachète encore (Yahoo).\n- **Le calendrier du départ interroge.** La version de Binance (transition préparée depuis six mois) n'est confirmée par aucun document public (Journal du Coin).\n- **La critique des régulateurs.** Le 5 novembre, l'Autorité monétaire de Singapour (MAS) a rappelé que Binance n'est pas autorisée à y fournir des services financiers réglementés. Elle juge que le trading de cryptos « n'est pas adapté au grand public » (Journal du Coin).\n- **MiCA ne supprime pas tout risque.** L'AMF prévient que le règlement « n'éliminera pas les risques » propres aux cryptos (Selectra).\n- **Les arnaques à l'emploi.** La méthode du faux recrutement visait des ingénieurs, mais les lecteurs qui travaillent dans la tech peuvent eux aussi être ciblés (DCOD).\n- **Une rumeur à ne pas reprendre.** Clubic évoque une possible intervention de Christine Lagarde contre la licence MiCA de Binance. Rien ne le confirme.\n\n---\n\n## 5. Solutions concrètes citées par les sources\n\n1. **Vérifier l'agrément de sa plateforme** sur la liste blanche de l'AMF ou le registre de l'ESMA, le régulateur européen. Il faut chercher le nom exact de la société indiqué dans les conditions générales, pas seulement celui de l'application. Un simple enregistrement d'avant MiCA ne suffit plus (Selectra).\n2. **Récupérer les avoirs restés sur Binance.** Pour un client français, la plateforme ne peut plus rien faire d'autre que les lui rendre (Jechange). Je n'ai pas pu lire toute la « marche à suivre » de Jechange.\n3. **Documenter sa situation dès maintenant** (captures d'écran, preuves) et se renseigner sur les recours des victimes de cybercriminalité avant que les délais n'expirent (Belhaouci).\n4. **Comprendre qui est responsable.** Les clients français ont en principe signé leur contrat avec Binance France SAS, une société de droit français (Esteval).\n\n⚠️ Je n'ai trouvé dans ces sources **aucune recommandation éditoriale d'une plateforme ou d'un portefeuille précis.** Les mentions d'OKX « agréé MiCA » chez Journal du Coin sont des **liens commerciaux** et ne doivent pas être présentées comme un conseil.\n\n---\n\n## 6. Perspectives\n\n- Binance se dit toujours déterminée à obtenir l'agrément MiCA, **sans donner de date** (Jechange).\n- Elliptic s'attend à ce que les pirates convertissent l'ether restant par petits lots, puis l'écoulent via des courtiers de gré à gré et des réseaux de blanchiment chinois. Ils ont déjà converti environ 124 M$ en bitcoin, via plus de 20 000 portefeuilles répartis sur 16 blockchains (Journal du Coin).\n- Binance reconstruit ses infrastructures techniques et ses outils d'IA (DCOD), et renforce les systèmes d'autorisation des transactions (Cointribune).\n- Les retraits doivent être entièrement rétablis vers la mi-novembre (Journal du Coin).\n- **Encore inconnu :** la date du départ de Kaiser Ng, les éventuelles suites judiciaires ou réglementaires en France, et l'exposition réelle des épargnants français.\n\n---\n\n**Message clé possible pour le carrousel :** « 6,3 Md$ volés, un directeur financier qui part, et des clients français sans la protection légale de MiCA depuis juillet : vérifiez l'agrément de votre plateforme. » Prévoyez une mention du type « information, pas un conseil en investissement ».",
+    "generator": "claude-opus-5-5"
+  }
+}
