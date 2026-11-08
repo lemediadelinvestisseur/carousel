@@ -46,114 +46,108 @@
       {
         "kind": "cover",
         "kicker": "",
-        "title": "**Christine Lagarde** quittera la **BCE** le **7 février 2027**. Deux candidats se disputent sa place, et les discussions commencent **lundi** à Bruxelles.",
+        "title": "**Christine Lagarde** quittera la **BCE** le **7 février 2027**. Un **Néerlandais** et un **Espagnol** se disputent sa place, et les ministres en discutent dès **demain**.",
         "body": "",
-        "bullets": [],
-        "image_query": "Christine Lagarde smiling portrait ECB press conference Frankfurt",
-        "image_entity": "Christine Lagarde"
-      },
-      {
-        "kind": "content",
-        "kicker": "LE CONTEXTE",
-        "title": "Lagarde s'en va **plus tôt** que prévu",
-        "body": "Le **29 octobre**, Christine Lagarde a annoncé qu'elle quittera la BCE le **7 février 2027**, près de neuf mois avant la fin de son mandat. Elle dit vouloir retrouver sa « **liberté de parole** ».\nSon départ en février permet aussi à **Emmanuel Macron** de participer au choix de son successeur avant la **présidentielle** du printemps.",
-        "bullets": [],
-        "image_query": "Emmanuel Macron portrait Élysée Palace",
-        "image_entity": "Emmanuel Macron"
-      },
-      {
-        "kind": "content",
-        "kicker": "LE NÉERLANDAIS",
-        "title": "**Klaas Knot**, 14 ans à la tête de la banque des Pays-Bas",
-        "body": "**Klaas Knot**, 59 ans, a dirigé la **banque centrale des Pays-Bas** de **2011 à 2025**. On le range souvent dans le camp du **Nord**, attaché à une politique monétaire stricte.\nSes soutiens rappellent que depuis **2003**, la BCE n'a été présidée que par deux Français et un Italien.",
-        "bullets": [],
-        "image_query": "Klaas Knot portrait De Nederlandsche Bank",
-        "image_entity": "Klaas Knot"
-      },
-      {
-        "kind": "content",
-        "kicker": "L'ESPAGNOL",
-        "title": "**Pablo Hernández de Cos**, l'homme de la BRI",
-        "body": "**Pablo Hernández de Cos**, 55 ans, a dirigé la **Banque d'Espagne** de 2018 à 2024. Depuis juillet 2025, il dirige la **BRI**, à Bâle.\nL'Espagne a officialisé sa candidature le **6 novembre**. Face au Nord, il incarne le Sud, plus favorable au soutien de l'économie. Mais les deux candidats sont décrits comme pragmatiques.",
-        "bullets": [],
-        "image_query": "Pablo Hernández de Cos portrait speech",
-        "image_entity": "Pablo Hernández de Cos"
-      },
-      {
-        "kind": "content",
-        "kicker": "LA PROCÉDURE",
-        "title": "Il faudra l'accord de **16 pays sur 21**",
-        "body": "Les ministres des Finances des **21 pays de la zone euro** commencent à en discuter ce **lundi 9 novembre** à Bruxelles. Aucune décision n'est attendue ce jour-là.\nCe sont les chefs d'État qui nommeront le président, avec le soutien d'au moins **16 pays** représentant **65 %** de la population. Le mandat durera **8 ans**.",
-        "bullets": [],
-        "image_query": "Europa building Brussels European Council sunset",
-        "image_entity": "Europa building"
-      },
-      {
-        "kind": "content",
-        "kicker": "CE QUI CHANGE",
-        "title": "Pour ton argent, ce sont les **taux** qui comptent",
-        "body": "Le choix du successeur n'aura **pas d'effet immédiat** sur ton crédit ou ton épargne. Ce qui compte, ce sont les **taux de la BCE**.\nAvec une inflation à **3,8 %** en septembre, la BCE les a relevés deux fois cette année. Son taux de dépôt est à **2,50 %**. Prochaine réunion le **17 décembre**.",
         "bullets": [],
         "image_query": "European Central Bank headquarters Frankfurt skyline sunset",
         "image_entity": "European Central Bank"
       },
       {
         "kind": "content",
-        "kicker": "LE RISQUE",
-        "title": "Une nomination qui traîne, des **taux** qui grimpent",
-        "body": "Si les grands pays ne s'entendent pas, la décision pourrait glisser à **début 2027**, voire faire émerger un **candidat surprise**, comme Lagarde en 2019.\nCôté crédit, les taux immobiliers tournent déjà autour de **3,5 %** sur 20 ans, et une nouvelle **hausse le 17 décembre** n'est pas exclue.",
+        "kicker": "LE CONTEXTE",
+        "title": "Elle part **neuf mois** avant la fin",
+        "body": "Le **29 octobre**, Christine Lagarde a annoncé qu'elle quittera la présidence de la **BCE** le **7 février 2027**. Son mandat de **huit ans**, non renouvelable, devait durer jusqu'au 31 octobre 2027.\nElle dit partir « avec le sentiment du devoir accompli et une BCE prête pour l'avenir ».",
         "bullets": [],
-        "image_query": "house keys mortgage contract signing",
+        "image_query": "Christine Lagarde portrait smiling ECB press conference",
+        "image_entity": "Christine Lagarde"
+      },
+      {
+        "kind": "content",
+        "kicker": "CANDIDAT N°1",
+        "title": "**Klaas Knot**, le candidat du Nord",
+        "body": "**Klaas Knot**, 59 ans, a dirigé la banque centrale des **Pays-Bas** de 2011 à 2025. Il est réputé très attentif au risque d'**inflation**.\nSous Draghi, il s'opposait aux rachats massifs d'obligations par la BCE. Sous Lagarde, il est devenu plus **pragmatique**, selon un économiste d'ING.",
+        "bullets": [],
+        "image_query": "Klaas Knot portrait De Nederlandsche Bank",
+        "image_entity": "Klaas Knot"
+      },
+      {
+        "kind": "content",
+        "kicker": "CANDIDAT N°2",
+        "title": "**Pablo Hernández de Cos**, le candidat du Sud",
+        "body": "**Pablo Hernández de Cos**, 55 ans, a été gouverneur de la **Banque d'Espagne** de 2018 à 2024. Depuis 2025, il dirige la **BRI**, la Banque des règlements internationaux, à Bâle.\nIl est décrit comme plus attentif à la **conjoncture économique** que son rival.",
+        "bullets": [],
+        "image_query": "Pablo Hernández de Cos portrait Banco de España",
+        "image_entity": "Pablo Hernández de Cos"
+      },
+      {
+        "kind": "content",
+        "kicker": "POURQUOI MAINTENANT",
+        "title": "Un départ qui fait **parler**",
+        "body": "Plusieurs médias y voient un moyen pour **Emmanuel Macron**, qui ne peut pas se représenter, de peser sur le choix avant la **présidentielle** du printemps 2027. Lagarde n'a pas confirmé cette raison.\nAutre débat : depuis 2003, la BCE a eu deux présidents **français** et un **italien**. Les soutiens de Knot veulent un pays du Nord.",
+        "bullets": [],
+        "image_query": "Emmanuel Macron portrait Elysée Palace",
+        "image_entity": "Emmanuel Macron"
+      },
+      {
+        "kind": "content",
+        "kicker": "CE QUI CHANGE",
+        "title": "Pour tes taux, rien ne bouge **pour l'instant**",
+        "body": "Le 29 octobre, la BCE a **maintenu** son principal taux directeur, et Lagarde reste aux commandes jusqu'en février.\nSon successeur arrivera dans un contexte tendu : **inflation élevée** liée au conflit avec l'Iran et marchés obligataires nerveux. Ses choix pèseront sur ton **crédit immobilier** et ton **épargne**.",
+        "bullets": [],
+        "image_query": "euro banknotes and coins close up",
         "image_entity": ""
       },
       {
+        "kind": "content",
+        "kicker": "LE RISQUE",
+        "title": "Rien n'est **joué**",
+        "body": "L'objectif est de tout boucler en **décembre**, mais la nomination pourrait prendre plus de temps. Si les grands pays ne départagent pas les deux hommes, un **candidat surprise** reste possible, comme Lagarde en 2019.\nTrois postes sont à pourvoir à la BCE, de quoi ouvrir des **marchandages**. La France n'a présenté **aucun candidat**.",
+        "bullets": [],
+        "image_query": "Europa building Brussels European Council golden hour",
+        "image_entity": "Europa building"
+      },
+      {
         "kind": "list",
-        "kicker": "LES SOLUTIONS",
-        "title": "Ce que tu peux faire d'ici **février**",
+        "kicker": "LES DATES",
+        "title": "Les **dates** à suivre",
         "body": "",
         "bullets": [
-          "Remplis ton **Livret A** (plafond **22 950 €**) : son taux devrait passer de 1,7 % à environ 2,4-2,6 % le 1er février.",
-          "Vérifie sur service-public.fr si tu as droit au **LEP** : il rapporte 2,5 % et pourrait atteindre environ 3 % en février.",
-          "Projet immobilier ? Passe par un courtier comme **Cafpi** : les meilleurs taux négociés battent la moyenne de plus de 0,3 point."
+          "**Lundi 9 novembre** : les ministres des Finances de la zone euro examinent les deux candidatures à Bruxelles, sans décision attendue.",
+          "**Décembre** : dans le scénario idéal, les chefs d'État désignent le successeur lors du sommet européen, après avis du Parlement européen.",
+          "**7 février 2027** : Christine Lagarde quitte la BCE à l'issue d'une réunion du conseil des gouverneurs."
         ],
-        "image_query": "piggy bank euro coins savings",
-        "image_entity": ""
+        "image_query": "Frankfurt skyline Main river sunset panorama",
+        "image_entity": "Frankfurt"
       },
       {
         "kind": "cta",
         "kicker": "",
-        "title": "Tu vois plutôt **Klaas Knot** ou **Pablo Hernández de Cos** à la tête de la **BCE** ?",
-        "body": "Dis-nous en commentaire qui tu verrais succéder à Christine Lagarde 👇",
+        "title": "Tu verrais plutôt **Klaas Knot** ou **Pablo Hernández de Cos** à la tête de la BCE ?",
+        "body": "Dis-nous en commentaire qui tu choisirais pour remplacer Lagarde 👇",
         "bullets": [],
         "image_query": "",
         "image_entity": ""
       }
     ],
     "hook_alternatives": [
-      "Un **Néerlandais** ou un **Espagnol** pour remplacer **Christine Lagarde** ? La **BCE** changera de patron en **février 2027**, et c'est elle qui fixe les taux de ton crédit.",
-      "**Christine Lagarde** quitte la **BCE** près de **neuf mois** avant la fin de son mandat. Son successeur sera nommé pour **8 ans**, et la bataille commence lundi.",
-      "**Klaas Knot** ou **Pablo Hernández de Cos** : l'un des deux pourrait diriger la **BCE** dès le **7 février 2027**. Il lui faudra l'accord de 16 pays sur 21."
+      "**Christine Lagarde** part de la **BCE** dans **91 jours**. Deux hommes veulent sa place, et leur vision des **taux** n'est pas la même.",
+      "Qui fixera **tes taux** en 2027 ? **Klaas Knot** ou **Pablo Hernández de Cos** remplacera sans doute **Christine Lagarde** à la **BCE**.",
+      "La **BCE** cherche un nouveau patron. **Christine Lagarde** partira le **7 février 2027**, près de **neuf mois** avant la fin de son mandat."
     ],
-    "caption": "Christine Lagarde quittera la BCE le 7 février 2027, et la course à sa succession commence lundi à Bruxelles.\n\nElle a annoncé son départ le 29 octobre, près de neuf mois avant la fin de son mandat, en expliquant qu'elle voulait retrouver sa liberté de parole. Ce départ anticipé permet aussi à Emmanuel Macron de participer au choix de son successeur avant la présidentielle, ce que LFI et le RN lui reprochent.\n\n• Deux candidats sont en lice : le Néerlandais Klaas Knot, qui a dirigé la banque centrale des Pays-Bas pendant 14 ans, et l'Espagnol Pablo Hernández de Cos, ancien gouverneur de la Banque d'Espagne. La France n'a présenté personne.\n\n• Pour être nommé, le futur président aura besoin du soutien d'au moins 16 pays sur 21, représentant 65 % de la population de la zone euro. Son mandat durera 8 ans et ne sera pas renouvelable. Les pays espèrent trancher en décembre, mais la décision pourrait glisser à début 2027.\n\nPour ton argent, ce nom ne changera rien tout de suite. Ce qui compte, c'est la politique de taux. Avec une inflation à 3,8 % en septembre, la BCE a déjà relevé ses taux deux fois cette année, et une nouvelle hausse le 17 décembre n'est pas exclue. Les crédits immobiliers tournent déjà autour de 3,5 % sur 20 ans.\n\nLa bonne nouvelle concerne l'épargne. Le Livret A, à 1,7 % aujourd'hui, devrait remonter autour de 2,4 à 2,6 % au 1er février. À 2,6 %, un livret rempli au plafond te rapporterait environ 206 € d'intérêts en plus par an.\n\nEt toi, tu vois plutôt Knot ou Hernández de Cos à la tête de la BCE ?\n\n🔔 Abonne-toi à @lemediadelinvestisseur pour ne rien rater de l'actu qui touche ton argent.",
+    "caption": "Christine Lagarde quittera la BCE le 7 février 2027, et deux candidats sont en lice pour lui succéder.\n\nElle l'a annoncé le 29 octobre. Son mandat de huit ans devait s'achever le 31 octobre 2027, elle part donc près de neuf mois plus tôt. Aucune raison politique n'a été donnée, mais plusieurs médias y voient un moyen pour Emmanuel Macron de peser sur le choix avant la présidentielle de 2027.\n\n• Klaas Knot, 59 ans, a dirigé la banque centrale néerlandaise de 2011 à 2025. Il est réputé plus vigilant sur l'inflation.\n\n• Pablo Hernández de Cos, 55 ans, a été gouverneur de la Banque d'Espagne avant de prendre la tête de la BRI à Bâle en 2025. Il serait plus attentif à la conjoncture économique.\n\nLes ministres des Finances de la zone euro examineront leurs candidatures demain à Bruxelles, sans décision attendue. Le choix final reviendra aux chefs d'État et de gouvernement, idéalement en décembre. Un candidat surprise n'est pas exclu, comme ce fut le cas pour Lagarde en 2019.\n\nPour toi, rien ne change tout de suite : la BCE a maintenu ses taux le 29 octobre. Mais le prochain président arrivera avec une inflation élevée, liée au conflit avec l'Iran, et des marchés obligataires sous tension. Ses décisions compteront pour le coût de ton crédit immobilier et la rémunération de ton épargne.\n\nSelon toi, lequel des deux ferait le meilleur président de la BCE ?\n\n🔔 Abonne-toi à @lemediadelinvestisseur pour ne rien rater de l'actu qui touche ton argent.",
     "sources": [
-      "Moneyvox",
-      "Franceinfo",
-      "Touteleurope.eu",
-      "RTBF",
-      "Le Temps",
+      "Moneyvox (AFP)",
+      "France 24",
       "RFI",
-      "Boursorama",
-      "Reuters",
-      "Cafpi",
-      "Empruntis",
-      "Infosimmo",
-      "Reassurez-moi",
-      "Meilleurtaux",
-      "JeChange",
-      "Bourseinside",
-      "24matins"
+      "L'Express",
+      "Time France",
+      "Le1.ma",
+      "EconomieMatin",
+      "Renseignement Économique",
+      "Euronews",
+      "Reuters"
     ],
-    "dossier": "# Dossier : qui va succéder à Christine Lagarde à la tête de la BCE ?\n*Point au 8 novembre 2026. Ce dossier sert à préparer un contenu et ne constitue pas un conseil en investissement.*\n\n**À retenir :** pour l'instant, le choix du successeur ne change rien à vos placements ni à votre crédit. Ce qui compte vraiment dans les prochaines semaines, c'est la réunion de la BCE du 17 décembre et l'évolution de l'inflation.\n\n---\n\n## 1. Les faits\n\n| Fait | Source |\n|---|---|\n| Le **jeudi 29 octobre 2026**, Christine Lagarde a annoncé qu'elle quittera la BCE le **7 février 2027**. Son mandat devait se terminer le **31 octobre 2027**. | Franceinfo, Touteleurope.eu |\n| Deux candidats sont officiellement en lice : le Néerlandais **Klaas Knot (59 ans)** et l'Espagnol **Pablo Hernández de Cos (55 ans)**. Leurs candidatures ont été confirmées par le président de l'Eurogroupe, **Kyriakos Pierrakakis**. | Moneyvox, RTBF, Le Temps |\n| Klaas Knot a dirigé la banque centrale des Pays-Bas de **2011 à 2025**. Hernández de Cos a dirigé la Banque d'Espagne de **2018 à 2024**. Il est directeur général de la Banque des règlements internationaux (BRI, Bâle) depuis le **1er juillet 2025**. | Moneyvox, RTBF ; Wikipédia pour la date du 1er juillet 2025 |\n| L'Espagne a officialisé sa candidature le **vendredi 6 novembre**, par une lettre du ministre Carlos Cuerpo à Kyriakos Pierrakakis. La lettre met en avant l'indépendance du candidat et sa capacité à communiquer clairement avec les marchés. | Boursorama (dépêche Reuters) |\n| Les ministres des Finances des **21 pays de la zone euro** commencent les discussions le **lundi 9 novembre** à Bruxelles. Aucune décision n'est attendue ce jour-là. | RFI, Moneyvox |\n| Trois des six postes du directoire de la BCE sont à renouveler entre **janvier et mai 2027** : la présidence, le poste de chef économiste (occupé par Philip Lane jusqu'en mai 2027) et celui d'Isabel Schnabel, qui part au FMI. | Touteleurope.eu, Moneyvox |\n\n**Comment se passe la nomination (selon Touteleurope.eu, article 283 du traité sur le fonctionnement de l'UE) :**\n1. Les États proposent des candidats ayant une expérience reconnue en matière monétaire ou bancaire.\n2. Les ministres des Finances de la zone euro se mettent d'accord, puis le Conseil de l'UE recommande un nom.\n3. Le Parlement européen et le Conseil des gouverneurs de la BCE donnent leur avis. Ces avis ne sont pas contraignants.\n4. Les chefs d'État et de gouvernement (Conseil européen) nomment le président. Il faut le soutien d'au moins **16 des 21 pays, représentant au moins 65 % de la population** de la zone euro.\n5. Le mandat dure **8 ans et n'est pas renouvelable**.\n\n**Ce que je n'ai pas trouvé :** la date et les modalités du dépôt de la candidature néerlandaise de Klaas Knot, et ce qu'il fait depuis 2025.\n\n---\n\n## 2. Le contexte : pourquoi maintenant ?\n\n- **Ce que dit Christine Lagarde** : elle veut retrouver « la liberté de parole » et pouvoir s'engager sur des sujets « qui ne relèvent pas de la politique monétaire » (Franceinfo). Selon Touteleurope.eu, elle a dit ne plus pouvoir « rester neutre ».\n- **L'élection présidentielle française** : en partant en février, elle permet à Emmanuel Macron de participer au choix de son successeur avant le scrutin du printemps (Moneyvox, Le Temps). Dès février 2026, Reuters (repris par Malay Mail) rapportait des informations du Financial Times : il s'agissait de faire choisir le successeur par Macron et Merz avant une possible victoire de l'extrême droite. La BCE affirmait alors qu'aucune décision n'avait été prise.\n- **Réactions politiques** : selon Franceinfo, le candidat LFI accuse Macron de vouloir « verrouiller » la nomination, et un député RN parle de « dérive illibérale ».\n- **Une candidature Lagarde à la présidentielle ?** C'est seulement une analyse du site France Épargne, pas un fait confirmé.\n- **L'opposition Nord/Sud** : certains présentent ce duel comme un affrontement entre le Nord, partisan d'une politique monétaire stricte, et le Sud, plus favorable au soutien de l'économie. Moneyvox souligne toutefois que les deux candidats ont su se montrer pragmatiques. Les soutiens de Klaas Knot font valoir que la présidence est occupée depuis 2003 par deux Français et un Italien.\n- **La France** a renoncé à présenter un candidat. Elle pourrait revendiquer le poste de chef économiste, mais Bercy ne l'a pas confirmé (Moneyvox).\n- **Un contexte économique tendu** :\n  - L'inflation de la zone euro est à **3,8 % sur un an en septembre** (3,4 % en France), surtout à cause de l'énergie. Source : Eurostat, cité par Reassurez-moi et Cafpi.\n  - La BCE a relevé ses taux de 0,25 point **le 11 juin et le 10 septembre**, puis les a laissés inchangés le 29 octobre. Ses trois taux directeurs sont à **2,50 %** (facilité de dépôt), **2,65 %** (refinancement) et **2,90 %** (prêt marginal) (Empruntis, Infosimmo).\n  - Le taux d'emprunt de l'État français à 10 ans (OAT) atteint **4,68 %** (Cafpi).\n\n**Point à vérifier :** Moneyvox attribue l'inflation au « conflit avec l'Iran ». Je n'ai pas cherché à vérifier ce point. Par ailleurs, en février 2026, Reuters décrivait une période calme, avec une inflation à l'objectif et des taux neutres. Le contexte a beaucoup changé depuis.\n\n---\n\n## 3. Ce qui change pour un particulier français\n\n**Le changement de président n'a pas d'effet immédiat.** Selon Reuters (février 2026), les marchés avaient peu réagi aux premières informations sur un départ anticipé. Je n'ai pas trouvé de source sur la réaction des marchés à l'annonce du 29 octobre.\n\n**Ce qui a un effet concret, c'est la politique de taux de la BCE :**\n\n- **Crédit immobilier.** Les taux continuent de monter. Les chiffres varient selon les sources :\n\n| Source | 15 ans | 20 ans | 25 ans |\n|---|---|---|---|\n| Reassurez-moi (novembre) | 3,43 % | 3,62 % | 3,77 % |\n| Yahoo Actualités (octobre) | 3,30 % | 3,51 % | 3,58 % |\n| Cafpi, meilleurs taux négociés en octobre | – | 3,20 % | 3,30 % |\n\n  - Le taux d'usure (taux maximal légal) des prêts de 20 ans et plus est passé à **5,40 % au 1er octobre** (Cafpi).\n  - Selon une enquête de la BCE citée par Empruntis, la demande de crédit immobilier a fortement baissé au 3e trimestre (**-27 % en pourcentage net**).\n- **Épargne réglementée.** Le Livret A et le LDDS rapportent **1,7 %** et le LEP **2,5 %** jusqu'au 31 janvier 2027 (Bourseinside, citant Selectra). La formule de calcul combine l'inflation et le taux interbancaire €STR, qui suit les taux de la BCE. Elle annonce une hausse au **1er février 2027** :\n\n| Source | Livret A | LEP |\n|---|---|---|\n| Meilleurtaux (septembre) | 2,40 – 2,50 % | – |\n| 24matins | ≈ 2,4 % | 2,9 % (voire 3 %) |\n| Moneyvox (via Bourseinside) | 2,50 – 2,60 % | ≈ 3 % |\n| BPCE L'Observatoire (via JeChange) | 2,60 % | 3,10 % |\n\n  Les projections les plus anciennes sont les plus basses, ce qui s'explique sans doute par l'inflation plus forte que prévu.\n\n---\n\n## 4. Risques et points de vigilance\n\n1. **Une nomination retardée.** On espère « tout régler en décembre », sans exclure une décision plus tardive (Le Temps, Moneyvox). Si les grands pays ne s'entendent pas, un candidat surprise peut sortir, comme Christine Lagarde en 2019. Reuters avait aussi cité **Joachim Nagel** (Bundesbank) parmi les favoris en février 2026.\n2. **Des négociations groupées.** Les trois postes du directoire pourraient être répartis par marchandage entre pays, selon les nationalités (Touteleurope.eu).\n3. **La communication avec les marchés.** Toute déclaration de la BCE peut faire bouger les marchés (Moneyvox), surtout pendant les tensions sur les marchés obligataires.\n4. **Une nouvelle hausse de taux le 17 décembre.** Cafpi la juge « très probable ». Reassurez-moi dit seulement que la BCE ne l'exclut pas. **Les sources divergent sur la probabilité.**\n5. **Une épargne qui perd encore un peu face à l'inflation.** Même avec un Livret A à 2,60 %, le rendement réel serait d'environ **-0,3 point**, selon BPCE L'Observatoire.\n6. **Le taux final du Livret A n'est pas garanti.** Le ministre de l'Économie peut déroger à la formule en cas de « circonstances exceptionnelles » (Meilleurtaux, Bourseinside).\n\n---\n\n## 5. Pistes concrètes citées par les sources\n\n- **Livret A / LDDS** : le plafond du Livret A est de **22 950 €**. À plafond, le passage de 1,7 % à 2,60 % rapporterait **+206,55 € d'intérêts par an** (JeChange, d'après BPCE). Le taux sera calculé en janvier.\n- **LEP** : c'est le livret réglementé le mieux rémunéré (2,5 % aujourd'hui, environ 2,9 à 3,1 % projeté). Les conditions d'éligibilité ne figurent pas dans les sources consultées : il faut les vérifier sur service-public.fr.\n- **Projet immobilier** :\n  - Comparer les offres via des courtiers (Cafpi, Empruntis, Meilleurtaux publient des baromètres mensuels). L'écart entre taux moyens et meilleurs taux négociés dépasse 0,3 point sur 20 ans selon Cafpi.\n  - Garder en tête le taux d'usure de 5,40 %.\n  - Selon Infosimmo, une pause de la BCE ne gèle pas les barèmes des banques. Ces barèmes suivent aussi le taux de l'OAT.\n- **Dates à suivre** : 9 novembre (Eurogroupe), sommets européens de décembre, **17 décembre** (réunion de la BCE), 1er février 2027 (nouveaux taux des livrets), 7 février 2027 (départ de Christine Lagarde).\n\n---\n\n## 6. Perspectives\n\n- **Nomination** : une décision est attendue en décembre dans le meilleur des cas, sinon début 2027. Le nouveau président doit prendre ses fonctions le 7 février 2027 (Moneyvox, Le Temps).\n- **Taux d'intérêt** : les courtiers prévoient des taux immobiliers moyens entre **3,70 % et 4 %** d'ici la fin de l'année (Yahoo Actualités). Tout dépend de l'inflation et de la décision du 17 décembre.\n- **Ligne de la BCE** : on ne sait pas si un président néerlandais serait plus strict qu'un président espagnol. Les deux sont décrits comme pragmatiques (Moneyvox). Aucune source ne chiffre l'effet de l'un ou de l'autre sur les taux.\n\n---\n\n## Divergences et incohérences repérées\n- **Calendrier dans l'article Moneyvox** : il évoque « deux sommets européens programmés ce mois-ci, soit lors de celui prévu en décembre ». La phrase est confuse. Le Temps ne reprend que l'objectif de « décembre ».\n- **Livret A et LEP** : les projections vont de 2,40 % à 2,60 % pour le Livret A, et de 2,9 % à 3,10 % pour le LEP.\n- **Taux immobiliers moyens** : les chiffres diffèrent selon le courtier et la date (voir le tableau en partie 3).\n- **Hausse de taux en décembre** : « très probable » pour Cafpi, simplement « pas exclue » pour Reassurez-moi.\n- **Durée d'anticipation du départ** : « près de neuf mois » pour Franceinfo, « plusieurs mois » pour Touteleurope.eu. Il n'y a pas de contradiction : du 7 février au 31 octobre 2027, il reste environ 8 mois et demi de mandat.\n\n**Sources principales** : Moneyvox, Franceinfo, Touteleurope.eu, RTBF, Le Temps, RFI, Boursorama/Reuters, Malay Mail/Reuters, Cafpi, Empruntis, Infosimmo, Reassurez-moi, Meilleurtaux, JeChange/BPCE, Bourseinside, 24matins. J'ai écarté Fdesouche (tweets non vérifiés) et je n'ai utilisé l'analyse de France Épargne que comme opinion.",
+    "dossier": "Je n'ai pas trouvé de produit d'épargne ni d'acteur financier cité par les sources, et je n'ai pas pu vérifier le niveau actuel des taux de la BCE ni le chiffre de l'inflation. Ces manques sont signalés dans les parties concernées. L'outil de recherche m'a bloqué après deux recherches, donc ces points n'ont pas pu être complétés.\n\n# Dossier : qui va succéder à Christine Lagarde à la tête de la BCE ?\n*À jour au 8 novembre 2026*\n\n**À savoir sur les sources :** Moneyvox et France 24 publient la même dépêche AFP. Ces deux titres ne se confirment donc pas l'un l'autre. Les sources vraiment différentes sont RFI (reprise par Shango), France 24 (article du 29 octobre), L'Express (repris par Orange), Time France, Le1.ma, EconomieMatin, Renseignement Économique, Reuters (repris par Malay Mail) et Euronews.\n\n---\n\n## 1. Les faits\n\n| Fait | Détail | Source |\n|---|---|---|\n| Annonce du départ | Le jeudi 29 octobre 2026, par communiqué de la BCE et par une vidéo sur X | France 24, L'Express/Orange, Time France |\n| Date de départ | Le 7 février 2027, à l'issue d'une réunion du conseil des gouverneurs | France 24, L'Express/Orange, RFI, Le1.ma |\n| Fin prévue du mandat | Le 31 octobre 2027. Le mandat dure 8 ans et n'est pas renouvelable. | Time France, Le1.ma (date précise) ; L'Express (« octobre 2027 », non renouvelable) |\n| Personnes informées | Le conseil des gouverneurs et le président du Conseil européen, António Costa | France 24, Le1.ma |\n| Citation de Lagarde | « Je quitte cette institution avec le sentiment du devoir accompli et une BCE prête pour l'avenir » | France 24, Time France |\n| Décision sur les taux le même jour | Principal taux directeur maintenu. **Le niveau du taux n'est pas donné dans les sources.** | France 24 |\n| Candidats officiels | Le Néerlandais Klaas Knot et l'Espagnol Pablo Hernández de Cos | AFP (Moneyvox/France 24), RFI, EconomieMatin |\n| Confirmation des candidatures | Par le président de l'Eurogroupe, Kyriakos Pierrakakis | AFP/Moneyvox |\n| Date limite des candidatures | Le vendredi 6 novembre, pour les 21 pays de la zone euro | RFI, AFP |\n| Examen par les ministres des Finances | Le lundi 9 novembre à Bruxelles (Eurogroupe), sans choix attendu ce jour-là | RFI, EconomieMatin, AFP |\n| Klaas Knot | 59 ans. Gouverneur de la banque centrale néerlandaise de 2011 à 2025. | AFP/Moneyvox |\n| Pablo Hernández de Cos | 55 ans. Gouverneur de la Banque d'Espagne de 2018 à 2024, puis directeur général de la BRI à Bâle depuis 2025. | AFP/Moneyvox |\n| Retraite de Lagarde | Environ 178 000 € par an à partir de 2030, selon une estimation du Financial Times | Renseignement Économique |\n| Autres postes à pourvoir | Chef économiste : Philip Lane est en poste jusqu'en mai 2027. Un siège au directoire : Isabel Schnabel doit rejoindre le FMI début 2027. | AFP/Moneyvox, Le1.ma |\n\n**La procédure** (RFI, AFP) :\n1. Les ministres des Finances de la zone euro recommandent un nom.\n2. Le Parlement européen et le conseil des gouverneurs de la BCE sont consultés.\n3. Les chefs d'État et de gouvernement prennent la décision finale.\n\n## 2. Le contexte\n\n- **Pourquoi Lagarde part plus tôt.** Plusieurs médias y voient un moyen pour Emmanuel Macron, qui ne peut pas se représenter, de participer au choix avant la présidentielle française du printemps 2027 (France 24, L'Express, Time France). Reuters (février 2026) va plus loin : il s'agirait de laisser Macron et Friedrich Merz choisir avant une possible victoire de l'extrême droite en France. **Cette raison n'est pas confirmée par Lagarde** (Renseignement Économique).\n- **Un départ annoncé de longue date.** Le Financial Times évoquait ce départ dès février 2026. Le 30 septembre, Lagarde a déclaré à La Croix : « Je n'exclus pas de partir quelques mois avant la fin de mon mandat » (Time France).\n- **Le débat Nord contre Sud.** Les soutiens de Knot jugent qu'il est temps qu'un pays du Nord dirige la BCE. Depuis 2003, la présidence a été occupée par deux Français et un Italien : Trichet, Draghi, Lagarde (AFP).\n- **Les profils des candidats.**\n  - Knot est décrit comme plus attentif au risque d'inflation. Hernández de Cos serait plus attentif à la conjoncture économique (EconomieMatin).\n  - Selon Carsten Brzeski (ING), Knot a été l'un des plus grands opposants au rachat massif d'obligations par la BCE sous Draghi, puis est devenu pragmatique sous Lagarde (Euronews).\n  - Selon l'AFP, les deux candidats ont fait preuve de pragmatisme.\n- **Le contexte économique.** Le départ se fait sur fond de tensions sur les marchés obligataires et d'inflation élevée liée au conflit avec l'Iran (AFP). La BCE doit décider si elle maintient ou relève ses taux (EconomieMatin). **Je n'ai pas trouvé de chiffre d'inflation dans les sources.**\n\n## 3. Ce qui change concrètement pour un particulier français\n\n**Les sources n'abordent pas directement l'impact pour les épargnants ou les emprunteurs.** Rien ne change dans l'immédiat : les taux ont été maintenus le 29 octobre (France 24) et Lagarde reste en poste jusqu'au 7 février 2027.\n\nCe qui suit est une analyse générale, non tirée des sources :\n- Les taux de la BCE influencent le coût des crédits immobiliers, la rémunération de l'épargne et le rendement des obligations.\n- Le profil du futur président et sa façon de communiquer peuvent donc compter pour les décisions sur les taux de 2027.\n- L'AFP souligne que toute déclaration de la banque centrale peut faire réagir les marchés.\n\n## 4. Risques et points de vigilance\n\n- **Le calendrier peut glisser.** Le souhait est de tout régler en décembre, mais une nomination plus tardive n'est pas exclue (responsable européen cité par l'AFP). RFI note aussi que la nomination « pourrait prendre du temps ».\n- **Un candidat surprise est possible** si les grands pays ne parviennent pas à départager les deux hommes, comme Lagarde en 2019 (AFP). En février, Reuters citait aussi Joachim Nagel, le président de la Bundesbank, qui n'est pas candidat officiel aujourd'hui.\n- **Des négociations entre pays.** Trois postes sont à pourvoir, ce qui peut donner lieu à des marchandages (AFP).\n- **La place de la France.** Paris a renoncé à présenter un candidat. Il pourrait réclamer le poste de chef économiste, mais Bercy ne le confirme pas (AFP).\n- **Un marché plus nerveux.** En février 2026, Reuters décrivait une réaction quasi nulle des marchés et une période « tranquille », avec une inflation à la cible. En novembre, l'AFP parle d'inflation élevée et de tensions obligataires. Le contexte s'est donc dégradé.\n- **Une polémique politique.** LFI et le RN accusent Emmanuel Macron (titre de L'Express/Orange). Le contenu détaillé n'est pas disponible.\n\n## 5. Solutions concrètes\n\n**Aucune des sources consultées ne cite de produit, d'acteur financier ou de démarche pour les particuliers.** Je ne peux donc pas fournir de solutions sourcées.\n\nPour le carrousel, je suggère une diapositive « suivre l'agenda » qui reste factuelle :\n- 9 novembre : Eurogroupe ;\n- décembre : sommet européen ;\n- 7 février 2027 : départ de Lagarde.\n\nDes conseils de placement (crédit, livrets, obligations) demanderaient d'autres sources et des données de taux à jour.\n\n## 6. Perspectives\n\n- **9 novembre :** premier examen des candidatures, sans décision attendue (AFP, RFI).\n- **Décembre (scénario idéal) :** désignation lors du sommet européen (AFP).\n- **7 février 2027 :** départ effectif de Lagarde.\n- **Printemps 2027 :** présidentielle française.\n- **Début 2027 :** remplacement d'Isabel Schnabel. **Mai 2027 :** fin du mandat de Philip Lane.\n- **Qui est favori ?** En février 2026, Brzeski (ING) jugeait qu'une succession anticipée favorisait Knot, Hernández de Cos ayant pris la tête de la BRI moins de deux ans plus tôt (Euronews). Lagarde avait aussi publiquement salué les qualités de Knot. Aucune source ne désigne aujourd'hui de favori net.\n\n## Points où les sources divergent ou sont floues\n\n1. **Le calendrier.** La dépêche AFP mentionne « un des deux sommets européens programmés ce mois-ci, soit lors de celui prévu en décembre ». La formulation est contradictoire. RFI dit seulement « avant la fin de l'année ».\n2. **L'avance sur le mandat.** « Près de neuf mois » pour France 24 et L'Express, « neuf mois » pour Le1.ma.\n3. **Le profil des candidats.** EconomieMatin les oppose (Knot plus attentif à l'inflation). L'AFP insiste sur le pragmatisme des deux.\n4. **Le contexte économique.** Calme selon Reuters en février 2026, tendu selon l'AFP en novembre 2026.\n5. **Le motif du départ.** C'est une interprétation politique de la presse, pas une raison officielle.\n\n## Informations manquantes\n\n- Le niveau actuel des taux directeurs de la BCE.\n- Le chiffre d'inflation de la zone euro.\n- L'ampleur des tensions sur les marchés obligataires.\n- Les positions de l'Allemagne, de la France et de l'Italie sur les deux candidats.\n- La date exacte du sommet de décembre.\n\n**Liens :**\n- [Moneyvox/AFP](https://www.moneyvox.fr/banque/actualites/111150/bce-qui-va-remplacer-christine-lagarde-a-la-tete-de-la-banque-centrale-europeenne)\n- [France 24 (6/11)](https://www.france24.com/fr/info-en-continu/20261106-bce-duel-entre-l-espagne-et-les-pays-bas-pour-remplacer-christine-lagarde)\n- [France 24 (29/10)](https://www.france24.com/fr/europe/20261029-christine-lagarde-va-quitter-la-pr%C3%A9sidence-de-la-bce-en-f%C3%A9vrier-2027)\n- [RFI via Shango](https://www.shango.media/rfi-qui-sont-les-candidats-en-lice-pour-succeder-a-christine-lagarde-a-la-tete-de-la-bce-12030693)\n- [L'Express via Orange](https://actu.orange.fr/politique/christine-lagarde-va-quitter-la-presidence-de-la-banque-centrale-europeenne-en-fevrier-2027-l-express-via-6medias-CNT000002ts85w.html)\n- [Time France](https://www.timefrance.fr/politique/christine-lagarde-quittera-la-bce-en-fevrier-2027-les-enjeux-de-sa-succession/)\n- [Le1.ma](https://le1.ma/christine-lagarde-depart-bce-fevrier-2027-macron-succession/)\n- [EconomieMatin](https://economiematin.fr/bce-succession-lagarde-candidats-knot-hernandez-de-cos-9-novembre-2026)\n- [Renseignement Économique](https://renseignementeconomique.fr/christine-lagarde-quittera-la-bce-en-fevrier-2027-avant-la-fin-de-son-mandat)\n- [Euronews](https://www.euronews.com/my-europe/2026/02/20/eu-countries-prepare-for-ecb-race-as-lagarde-eyes-early-exit)\n- [Reuters via Malay Mail](https://www.malaymail.com/news/money/2026/02/18/ecb-succession-race-begins-lagarde-plans-early-departure-to-secure-macron-merz-choice/209579)",
     "generator": "claude-opus-5-5"
   }
 }
