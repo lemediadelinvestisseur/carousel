@@ -1158,7 +1158,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Exonération fiscale utile, mais public ciblé.",
       "hook": "Retraités : vendez votre logement sans impôt"
@@ -1198,5 +1198,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T18:42:58.118Z"
+  "updatedAt": "2026-11-08T18:43:06.616Z"
 }
