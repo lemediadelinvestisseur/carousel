@@ -52,10 +52,13 @@ export async function searchBing(query) {
   return dedupe(out);
 }
 
-/** Unsplash : photos professionnelles gratuites, très fortes sur les villes, monuments et ambiances. */
+/** Unsplash : photos professionnelles gratuites, très fortes sur les villes, monuments et ambiances.
+ *  Nécessite une clé d'accès gratuite (secret UNSPLASH_ACCESS_KEY) ; sans clé, la source est ignorée. */
 export async function searchUnsplash(query) {
-  const url = `https://unsplash.com/napi/search/photos?query=${encodeURIComponent(query)}&per_page=20`;
-  const data = await (await get(url, { accept: "application/json" })).json();
+  const key = process.env.UNSPLASH_ACCESS_KEY;
+  if (!key) return [];
+  const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=20&content_filter=high`;
+  const data = await (await get(url, { accept: "application/json", headers: { authorization: `Client-ID ${key}`, "accept-version": "v1" } })).json();
   return (data.results || [])
     .filter((r) => r.urls?.raw && !r.premium && !r.plus)
     .map((r) => ({ url: `${r.urls.raw}&w=2400&q=85&fm=jpg&fit=max`, width: r.width, height: r.height, source: "unsplash" }));
