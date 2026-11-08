@@ -15,7 +15,30 @@
     "aiScore": 7,
     "reason": "Le DPE change en 2027, un sujet concret pour tous les propriétaires.",
     "hook": "DPE 2027 : ce qui change pour les propriétaires",
-    "instructions": "1 page par information"
+    "instructions": "1 page par information",
+    "generatedAt": "2026-11-08T20:56:13.646Z",
+    "carousel": {
+      "dir": "carousels/2026-11-08/21m2-dpe-2027-6-nouvelles-informations-une-me-585b39ca26",
+      "files": [
+        "slide-01.jpg",
+        "slide-02.jpg",
+        "slide-03.jpg",
+        "slide-04.jpg",
+        "slide-05.jpg",
+        "slide-06.jpg",
+        "slide-07.jpg",
+        "slide-08.jpg",
+        "slide-09.jpg",
+        "carousel.pdf"
+      ],
+      "generator": "claude-opus-5-5",
+      "slides": 9,
+      "hooks": [
+        "**Mention A0** : le DPE change en 2027",
+        "DPE : **6 nouvelles infos** dès le 1er janvier",
+        "Chauffage électrique : ton DPE peut **gagner une lettre**"
+      ]
+    }
   },
   "carousel": {
     "category": "Actualité",
@@ -23,107 +46,106 @@
       {
         "kind": "cover",
         "kicker": "",
-        "title": "Au **1er janvier 2027**, ton **DPE** affichera **6 nouvelles informations** et une mention **A0**. Les logements chauffés à l'électricité pourront aussi **gagner une classe**.",
-        "body": "",
+        "title": "DPE 2027 : **6 nouvelles infos** sur ton **diagnostic**",
+        "body": "Les DPE réalisés dès le **1er janvier 2027** afficheront **6 nouvelles informations** et une mention **A0**. Les classes de **A à G** ne changent pas.",
         "bullets": [],
-        "image_query": "French energy performance certificate DPE label house for sale",
-        "image_entity": "Diagnostic de performance énergétique"
-      },
-      {
-        "kind": "content",
-        "kicker": "LE CONTEXTE",
-        "title": "Deux réformes le **même jour**",
-        "body": "Le **1er janvier 2027**, deux arrêtés entreront en vigueur en même temps. Le premier, publié le 13 août, ajoute **6 nouvelles informations** et une mention **A0**, sans recalculer l'étiquette.\nLe second, publié le 26 août, abaisse le **coefficient de l'électricité** de 1,9 à **1,7**. C'est lui qui peut faire bouger ta classe.",
-        "bullets": [],
-        "image_query": "Journal officiel de la République française",
-        "image_entity": "Journal officiel de la République française"
-      },
-      {
-        "kind": "content",
-        "kicker": "NOUVELLE INFO N°1",
-        "title": "L'énergie que ton logement **produit**",
-        "body": "Le DPE indiquera la **production d'énergie renouvelable** sur place, par exemple avec des **panneaux solaires**, et la part des renouvelables dans ta consommation.\nC'est une exigence de la **directive européenne** 2024/1275, qui impose des certificats plus détaillés. L'échelle de A à G garde les **mêmes seuils**.",
-        "bullets": [],
-        "image_query": "rooftop solar panels house France",
+        "image_query": "Paris Haussmann building facade rooftops golden hour",
         "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "NOUVELLE INFO N°2",
-        "title": "L'âge de ta **chaudière**, visible par l'acheteur",
-        "body": "Le diagnostic affichera la **durée de vie restante** de ton chauffage. L'information figurera dans un **document opposable**, donc l'acheteur la verra.\nÀ titre indicatif, la Commission européenne évoque **7 à 25 ans** pour un chauffage et 20 à 25 ans pour une **pompe à chaleur** moderne. De quoi peser dans une **négociation**.",
+        "kicker": "INFO N°1",
+        "title": "La production d'**énergie renouvelable** sur place",
+        "body": "Si ton logement produit sa propre énergie, avec des **panneaux solaires** par exemple, le DPE l'indiquera.\nAttention : cette production sera affichée, mais elle **n'améliorera pas ta classe**. Le calcul de l'étiquette ne change pas. Certains ont déjà construit des **plans de financement** sur cette erreur.",
         "bullets": [],
-        "image_query": "old gas boiler in a house basement",
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "NOUVELLE INFO N°3",
-        "title": "Un logement **flexible** ou pas",
-        "body": "Dernière nouveauté citée par toutes les sources : la **flexibilité**, soit la capacité du logement à réagir aux **signaux extérieurs**.\nComme la durée de vie, elle ne sera **ni mesurée ni calculée** par la méthode officielle. Les autres informations varient selon les sources : c'est le texte publié sur **Légifrance** qui fait foi.",
+        "kicker": "INFO N°2",
+        "title": "La **part** de cette production dans ta consommation",
+        "body": "Le DPE précisera quelle **part de ta consommation** est couverte par ta propre production d'énergie.\nEn **copropriété**, la production d'une installation commune, comme des panneaux solaires sur le toit, sera **répartie entre les logements** selon leur **surface**.",
         "bullets": [],
-        "image_query": "electricity grid pylons France",
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "LA MENTION A0",
-        "title": "A0, réservé aux logements **sans fossile**",
-        "body": "La mention **A0** s'ajoutera à la lettre. Pour l'obtenir, il faudra être classé **A ou B** et n'avoir aucun chauffage ni chauffe-eau capable de fonctionner aux **énergies fossiles**.\nUne maison classée B avec une **chaudière gaz** à condensation, après 40 000 € de travaux, n'y aura pas droit. A0 ne donne accès à **aucune aide**.",
+        "kicker": "INFO N°3",
+        "title": "Ta **principale source d'énergie**",
+        "body": "Le DPE indiquera l'énergie principale du logement. Pour un logement **tout électrique**, le calcul change aussi : le coefficient de l'électricité passera de **1,9 à 1,7**.\nSa consommation affichée baissera d'environ **10,5 %**, sans travaux. Au gaz ou au fioul, l'étiquette ne bougera **quasiment pas**.",
         "bullets": [],
-        "image_query": "heat pump outdoor unit next to house",
-        "image_entity": "Pompe à chaleur"
+        "image_query": "",
+        "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "CE QUI CHANGE",
-        "title": "Électrique : une classe gagnée **sans travaux**",
-        "body": "Le coefficient de l'électricité passera de **1,9 à 1,7**. Exemple : une maison classée F à 350 kWh descendrait à environ 313 kWh, donc en **classe E**.\nSelon la FFB, **près de 300 000 logements** sortiront du statut de **passoire**. Au gaz ou au fioul, l'étiquette ne bougera pas.",
+        "kicker": "INFO N°4",
+        "title": "La **durée de vie** restante du chauffage",
+        "body": "Le DPE estimera combien d'années il reste à ton **chauffage**, et à ta **climatisation** si tu en as une.\nPour un acheteur, c'est un **argument pour négocier** le prix. En copropriété, la durée de vie de la **chaufferie collective** aidera à préparer le **plan pluriannuel de travaux**.",
         "bullets": [],
-        "image_query": "electric radiator in apartment living room",
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "INFO N°5",
+        "title": "La **flexibilité** de ton logement",
+        "body": "Le DPE dira si ton logement peut **adapter sa consommation** selon les signaux du **réseau électrique**. C'est ce qu'on appelle sa flexibilité.\nAucune **grille officielle** n'est encore publiée pour cette rubrique. Ce sera une estimation, et sa qualité dépendra du **diagnostiqueur**.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "INFO N°6",
+        "title": "Tes radiateurs et la **basse température**",
+        "body": "Le DPE indiquera si tes radiateurs et ton circuit de chauffage peuvent fonctionner à **basse température**.\nC'est utile si tu penses à une **pompe à chaleur** : tu sauras si tes **radiateurs actuels** sont compatibles. Comme pour la flexibilité, les **règles précises** de calcul sont encore attendues.",
+        "bullets": [],
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "list",
-        "kicker": "LES SOLUTIONS",
-        "title": "Ce que tu peux faire **dès janvier**",
+        "kicker": "LA MENTION A0",
+        "title": "**A0** : pas une 8e classe, mais un bonus",
         "body": "",
         "bullets": [
-          "Logement électrique : récupère gratuitement ton étiquette mise à jour sur l'Observatoire DPE-Audit de l'ADEME, sans nouvelle visite, dès le 1er janvier.",
-          "Ton DPE reste valable 10 ans : vérifie sa date avant de relouer, plutôt que d'en commander un nouveau à chaque réforme.",
-          "Avant la visite du diagnostiqueur, réunis les factures de ta pompe à chaleur ou de tes panneaux, et vérifie qu'il applique le coefficient 1,7."
+          "**Classe A ou B** obligatoire : la mention A0 s'ajoute à la lettre, l'échelle reste de A à G.",
+          "**Zéro fossile** : seulement de l'électricité, des énergies renouvelables ou un réseau de chaleur jugé efficace.",
+          "**Aucune chaudière** gaz ou fioul, même d'appoint : elle suffit à perdre A0, même avec une pompe à chaleur."
         ],
-        "image_query": "ADEME logo",
-        "image_entity": "Agence de l'environnement et de la maîtrise de l'énergie"
+        "image_query": "",
+        "image_entity": ""
       },
       {
         "kind": "cta",
         "kicker": "",
-        "title": "Ton logement est chauffé à l'**électricité** ou au **gaz** ?",
-        "body": "Dis-nous en commentaire si ton DPE pourrait changer en 2027 👇",
+        "title": "Ton logement est chauffé à l'**électricité**, au **gaz** ou au **fioul** ?",
+        "body": "Dis-nous en commentaire si ton DPE va changer en 2027 👇",
         "bullets": [],
         "image_query": "",
         "image_entity": ""
       }
     ],
     "hook_alternatives": [
-      "Dans **54 jours**, le **DPE** change deux fois. Un logement **tout électrique** pourra gagner une **classe** sans faire de travaux.",
-      "**Près de 300 000 logements** sortiront du statut de **passoire thermique** le **1er janvier 2027**, sans travaux. Le DPE affichera aussi une nouvelle mention **A0**.",
-      "Ta **chaudière gaz** t'empêchera d'obtenir la mention **A0**, la nouveauté du **DPE 2027**, même si ta maison est classée **B**."
+      "Ton DPE change le **1er janvier 2027** : **6 infos** en plus",
+      "DPE 2027 : la mention **A0** arrive, **gaz** et fioul exclus",
+      "**6 nouveautés** dans ton DPE dès **2027**"
     ],
-    "caption": "Le DPE change deux fois le 1er janvier 2027, et il ne faut pas confondre les deux réformes.\n\nLa première, issue d'un arrêté publié au Journal officiel le 13 août, ajoute 6 nouvelles informations au diagnostic et crée une mention A0. Elle ne recalcule pas ton étiquette. La seconde, publiée le 26 août, abaisse le coefficient de l'électricité de 1,9 à 1,7. C'est elle qui peut faire gagner une classe à ton logement.\n\n• Si tu te chauffes à l'électricité, la baisse cumulée atteindra environ 26 % par rapport au DPE 2025. Selon une estimation relayée par la FFB, près de 300 000 logements sortiront du statut de passoire, après 850 000 en janvier 2026. Le gain n'est pas automatique, et il reste sur le papier : ta facture ne baissera pas.\n\n• Si tu te chauffes au gaz ou au fioul, rien ne bougera. Tu ne pourras pas non plus obtenir la mention A0, même avec une maison classée B.\n\nLe calendrier des interdictions de louer ne change pas : les logements classés F ne pourront plus être loués à partir de 2028, et les E à partir de 2034. Pour un bailleur au gaz classé F, l'échéance de 2028 reste la priorité.\n\nTon DPE actuel reste valable 10 ans. À partir du 1er janvier, tu pourras récupérer gratuitement ton étiquette mise à jour sur l'Observatoire DPE-Audit de l'ADEME, sans nouvelle visite du diagnostiqueur.\n\nTon logement va-t-il gagner une classe en janvier ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
+    "caption": "Ton DPE va s'enrichir le 1er janvier 2027, mais l'échelle de A à G restera la même.\n\nUn arrêté publié au Journal officiel le 13 août 2026 ajoute six informations au diagnostic : la production renouvelable sur place, sa part dans ta consommation, l'énergie principale, la durée de vie du chauffage, la flexibilité et la compatibilité basse température. Il transpose une directive européenne de 2024.\n\n• La mention A0 signalera un logement à émissions nulles. Pour l'obtenir, il faudra être classé A ou B, ne pas utiliser de gaz ni de fioul et n'avoir aucune chaudière fossile, même d'appoint.\n\n• Un second arrêté, publié le 26 août 2026, change le calcul pour l'électricité. Le coefficient passera de 1,9 à 1,7 : un logement tout électrique affichera environ 10,5 % de consommation en moins. Environ 300 000 résidences principales pourraient ainsi quitter les classes F et G, selon une étude d'impact du ministère. Une attestation gratuite de l'ADEME, sur l'Observatoire DPE, remplacera l'ancienne étiquette sans nouvelle visite.\n\nTon DPE actuel reste valable 10 ans. Tu n'as pas besoin d'en refaire un, sauf si tu vises A0 ou si tu as fait des travaux depuis. Si tu chauffes au gaz ou au fioul, ton étiquette ne bougera quasiment pas.\n\nLe calendrier, lui, ne change pas : les logements classés F ne pourront plus être loués à partir du 1er janvier 2028. Un logement G qui passe en F ne gagne donc qu'un an. Surveille aussi la note carbone, car l'étiquette retient la moins bonne des deux notes.\n\nTon logement chauffé à l'électricité pourrait-il changer de classe en 2027 ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
     "sources": [
       "Le Revenu",
-      "Ministère de la Transition écologique",
-      "Selectra",
-      "GererSeul",
-      "Pulp Immobilier",
-      "Irilus Formation",
-      "Energyco",
+      "Actu-Environnement",
+      "Le Mag Juridique",
       "MySweetImmo",
-      "Le Mag Juridique"
+      "Selectra",
+      "Pulp Immobilier",
+      "Energyco",
+      "DPEboost"
     ],
-    "dossier": "# Dossier DPE 2027 : nouvelles informations, mention « A0 » et coefficient électrique à 1,7\n\n*Recherches faites le 8 novembre 2026. Je n'ai eu accès qu'à l'extrait de l'article du Revenu, pas au texte complet. Les autres sources sont le Ministère de la Transition écologique (ecologie.gouv.fr), Selectra, GererSeul, Pulp Immobilier, Irilus Formation, Energyco, MySweetImmo et Le Mag Juridique. Pulp Immobilier et Irilus vendent un service (agence immobilière, organisme de formation), mais leurs articles sont factuels.*\n\n---\n\n## ⚠️ À retenir avant tout : deux réformes différentes entrent en vigueur le même jour\n\n| | Réforme n°1 : le contenu du DPE | Réforme n°2 : le calcul du DPE |\n|---|---|---|\n| Texte | Arrêté du 11 juin 2026, publié au Journal officiel le 13 août 2026 | Arrêté du 19 août 2026, publié au Journal officiel le 26 août 2026 |\n| Contenu | 6 nouvelles informations et une mention « A0 » | Le coefficient de l'électricité passe de 1,9 à 1,7 |\n| Effet sur l'étiquette | **Aucun** recalcul | Les logements chauffés à l'électricité peuvent **gagner une classe** |\n| Entrée en vigueur | 1er janvier 2027 | 1er janvier 2027 |\n\nSources : Selectra, GererSeul, Irilus, Pulp. MySweetImmo prévient que ces deux réformes « se télescopent » et que le public les confond.\n\n---\n\n## 1. Les faits\n\n**Réforme n°1 : arrêté du 11 juin 2026 (contenu du DPE)**\n- Il a été signé le 11 juin, publié au Journal officiel le 13 août et s'appliquera au 1er janvier 2027, pas dès sa publication (Selectra). Sa référence est NOR VLOL2607636A. Il transpose la directive européenne sur la performance énergétique des bâtiments et modifie l'arrêté du 31 mars 2021, qui fixe la méthode de calcul du DPE, dite 3CL (Selectra).\n- Il ajoute **6 nouvelles informations** au DPE (Le Revenu, Energyco, GererSeul, Pulp, MySweetImmo). Le détail est en section 4, car les sources ne donnent pas la même liste.\n- Il crée la **mention « A0 »** pour les bâtiments à émissions nulles. Elle s'ajoute à la lettre sans la remplacer, et l'échelle de A à G garde les mêmes seuils (Selectra, Energyco, MySweetImmo).\n- Conditions pour obtenir A0 : une étiquette **A ou B**, et aucun équipement de chauffage ou d'eau chaude qui puisse fonctionner avec une énergie fossile (Selectra, Irilus, Le Mag Juridique).\n- Selon Le Mag Juridique, les diagnostiqueurs et leurs logiciels devront intégrer ces changements.\n\n**Réforme n°2 : arrêté du 19 août 2026 (calcul)**\n- Le coefficient qui convertit l'électricité consommée en énergie primaire passe de **1,9 à 1,7** au 1er janvier 2027 (ecologie.gouv.fr, Irilus, Pulp). Il était déjà passé de 2,3 à 1,9 le 1er janvier 2026.\n- Pour un logement tout électrique, la baisse cumulée atteint environ **26 %** par rapport au DPE 2025 (Irilus, Pulp). Exemple de Pulp : 200 kWh d'énergie finale par m² et par an donnaient 460 kWh d'énergie primaire en 2025, 380 kWh en 2026 et 340 kWh en 2027.\n- Pulp rapporte que, selon une estimation du gouvernement relayée par la FFB, **près de 300 000 logements** sortiront du statut de passoire thermique (classes F et G), après 850 000 en janvier 2026. Je n'ai pas retrouvé le chiffre de 300 000 dans le communiqué du ministère : il faut l'attribuer à la FFB, citée par Pulp. GererSeul confirme le chiffre de 850 000 pour 2026, sur 4,8 millions de passoires.\n- Le ministère affirme : « Aucun logement ne verra son étiquette se dégrader » (ecologie.gouv.fr).\n\n## 2. Le contexte\n\n- **Côté européen**, la réforme n°1 transpose la directive (UE) 2024/1275. Son annexe V définit un modèle de certificat énergétique plus détaillé : énergies renouvelables, émissions de gaz à effet de serre, équipements (GererSeul). Selon Irilus, la directive vise un parc immobilier à émissions nulles d'ici 2050.\n- **Côté français**, la réforme n°2 s'inscrit dans le plan « Électrification des usages » présenté le 23 avril 2026. Le ministère la justifie par une électricité française « décarbonée à 95 % ». Il dit aussi vouloir encourager le remplacement des chaudières au gaz et au fioul par des pompes à chaleur (ecologie.gouv.fr).\n- **Calendrier** : selon Selectra, les diagnostiqueurs attendaient le texte pour 2026. Ils ont maintenant moins de cinq mois pour mettre à jour leurs logiciels.\n\n## 3. Ce qui change concrètement pour un particulier\n\n- **Logement chauffé à l'électricité** : l'étiquette peut gagner une classe sans travaux, parfois deux pour de petits logements (Irilus). Ce n'est pas automatique : tout dépend de la part de l'électricité dans la consommation (Irilus). Exemple de Pulp : une maison à Béthune classée F à 350 kWh descendrait à environ 313 kWh, donc sous le seuil de 330 kWh de la classe E.\n- **Logement chauffé au gaz ou au fioul** : l'étiquette ne bouge pas, car leur coefficient reste à 1 (Irilus). Le logement ne peut pas obtenir A0, même s'il est très bien isolé. Selectra cite le cas d'une maison classée B, équipée d'une chaudière gaz à condensation, après environ 40 000 € de travaux : elle restera B sans pouvoir prétendre à A0.\n- **Si votre DPE est encore valable** : rien à refaire. Un DPE reste valable 10 ans. Ceux établis avant 2027 ne contiendront simplement pas les nouvelles informations (MySweetImmo, GererSeul, ecologie.gouv.fr). À partir du 1er janvier 2027, vous pourrez obtenir une mise à jour **gratuite et immédiate** sur l'Observatoire DPE-Audit de l'ADEME, sans nouvelle visite (ecologie.gouv.fr).\n- **Interdictions de louer** : le calendrier ne change pas. Location interdite pour les logements G depuis 2025, pour les F en 2028 et pour les E en 2034 (Pulp, qui cite service-public.fr). GererSeul dit la même chose autrement : le niveau minimum devient E au 1er janvier 2028, puis D au 1er janvier 2034.\n- **La mention A0 n'apporte aucun droit et ne donne accès à aucune aide.** Elle sert d'argument de vente (Selectra).\n\n## 4. Risques, points de vigilance et désaccords entre sources\n\n- **La liste des 6 informations varie selon les sources :**\n  - *Pulp, qui cite la FFB* : production d'énergie renouvelable sur place, au total et par source ; part des renouvelables dans la consommation d'énergie finale ; pictogrammes des équipements renouvelables, ou mention de leur absence ; durée de vie des équipements ; flexibilité ; distinction entre pertes de chaleur par la ventilation et par les défauts d'étanchéité à l'air.\n  - *GererSeul* : production renouvelable sur place ; part des renouvelables ; principale source d'énergie du logement ; durée de vie restante du chauffage et de la climatisation ; flexibilité ; capacité du chauffage à fonctionner à basse température.\n  - *Selectra* : ne présente que **3** nouvelles informations (production renouvelable, durée de vie restante du chauffage, réaction aux signaux extérieurs).\n  - *Energyco* précise que trois des six informations (durée de vie, basse température, flexibilité) ne seront ni mesurées ni calculées par la méthode.\n  - 👉 Pour un carousel, ne gardez que les éléments communs : production renouvelable, durée de vie du chauffage, flexibilité. Le texte officiel sur Légifrance permettra de trancher.\n- **A0 est-il une classe ou une mention ?** Selon Pulp, service-public.fr parle d'une « nouvelle classe énergie (A0) ». Selectra, Energyco, GererSeul et MySweetImmo insistent au contraire : ce n'est **pas** une huitième classe.\n- **Quelles énergies sont acceptées pour A0 ?** Irilus parle d'un usage « exclusif » d'énergies renouvelables produites sur place ou à proximité. Selectra indique que le texte accepte aussi l'électricité et les réseaux de chaleur efficaces. Pour le **bois**, Selectra estime que le texte ne tranche pas et qu'il faut attendre les documents d'application.\n- **Une amélioration seulement sur le papier** : un gain d'étiquette dû au calcul ne change ni la consommation réelle ni la facture. Irilus demande aux diagnostiqueurs de bien expliquer cette différence.\n- **La durée de vie de la chaudière devient visible pour l'acheteur.** Elle figurera dans un document opposable, ce qui peut peser dans une négociation (Selectra, GererSeul). Selon GererSeul, la Commission européenne évoque à titre indicatif 7 à 25 ans pour un système de chauffage et 20 à 25 ans pour une pompe à chaleur moderne.\n- **Nouveau DPE en tout début d'année** : vérifiez que le diagnostic réalisé applique bien les règles de 2027, avec le coefficient de 1,7 (Pulp).\n- **Ce que je n'ai pas trouvé** : l'évolution du prix d'un DPE (MySweetImmo pose la question mais l'extrait lu ne donne pas de réponse), le nombre de logements qui pourraient obtenir A0, et le contenu complet de l'article du Revenu.\n\n## 5. Solutions concrètes\n\n1. **Récupérer gratuitement son étiquette mise à jour** sur l'Observatoire DPE-Audit de l'ADEME, à partir du 1er janvier 2027, si le logement est chauffé à l'électricité (ecologie.gouv.fr, Irilus).\n2. **Vérifier la date de son DPE** avant de remettre un bien en location, plutôt que d'en commander un nouveau à chaque réforme (GererSeul).\n3. **Préparer la visite du diagnostiqueur** (Pulp) : réunir factures, fiches techniques et dates d'installation des panneaux solaires, de la pompe à chaleur ou du chauffe-eau ; demander si le logement peut obtenir A0 et ce qui manque ; vérifier que le DPE est bien enregistré à l'ADEME, avec son numéro.\n4. **Chaudière en fin de vie** : comparer l'effet de chaque solution sur l'étiquette avant de signer un devis (Selectra). D'après le ministère, passer d'une chaudière fossile à une pompe à chaleur fait gagner davantage de classes avec le nouveau coefficient. Selectra a publié une analyse selon laquelle on gagnerait 2 à 3 classes, mais je n'ai lu que son titre : chiffre à vérifier.\n5. **Pour un bailleur chauffé au gaz et classé F** : l'échéance de 2028 reste la priorité. Le gain lié au coefficient ne le concerne pas.\n6. **Aides (MaPrimeRénov', CEE, éco-PTZ)** : elles sont citées dans la biographie de l'auteur Selectra, mais aucune source lue ne précise leurs conditions pour 2027. Il faut se renseigner auprès de France Rénov' avant de publier quoi que ce soit dessus.\n\n## 6. Perspectives\n\n- Selon GererSeul, le DPE devient progressivement une véritable fiche d'identité énergétique, une sorte de carnet de santé du logement. La lettre de A à G compte toujours, mais elle ne résume plus tout.\n- La directive permet aussi une classe **A+**, mais cela ne veut pas dire que la France l'ajoutera au DPE (GererSeul).\n- Les règles de construction écartent peu à peu le gaz dans le neuf. En rénovation, rien n'oblige à remplacer une chaudière existante (Pulp).\n- **Prochaine échéance importante : le 1er janvier 2028**, avec l'interdiction de louer les logements classés F.\n- Plusieurs sujets restent ouverts : le cas du bois pour A0 et la loi de finances pour 2027, qui doit encore passer au Parlement (Pulp).\n\n---\n\n### Proposition de découpage du carousel\n1. « DPE 2027 : ce qui change le 1er janvier » · 2. Deux réformes à ne pas confondre · 3. Électricité : coefficient de 1,7, jusqu'à une classe gagnée sans travaux · 4. A0 : à quoi ça sert, qui peut l'avoir · 5. Les nouvelles informations sur le DPE · 6. Ce qui ne change pas (interdictions de 2028 et 2034) · 7. Ce que vous devez faire (Observatoire ADEME, vérifier votre DPE) · 8. Les pièges à éviter.\n\n**Sources** : lerevenu.com (extrait) · ecologie.gouv.fr (communiqué sur l'arrêté du 19 août 2026) · selectra.info · gererseul.com · pulp-immobilier.fr (deux articles) · irilus-formation.fr · energyco.fr · mysweetimmo.com · lemag-juridique.com",
+    "dossier": "# Dossier : DPE 2027, mention « A0 » et nouveau calcul pour les logements électriques\n*État au 8 novembre 2026, pour un carousel Instagram destiné à des investisseurs particuliers*\n\n**À savoir sur les sources.** J'ai fait 3 recherches (la 4e a été bloquée par une limite technique) et lu en entier 2 articles. Mes sources sont surtout des sites spécialisés : Actu-Environnement, Le Mag Juridique, MySweetImmo, Selectra, Pulp Immobilier. Beaucoup sont aussi des entreprises du secteur : diagnostiqueurs (Diagamter, Gedimm, Energyco), un organisme de formation (Irilus), des outils en ligne (DPEboost, Maslow). Je n'ai pas eu accès à l'article complet du Revenu, seulement à son résumé. Je n'ai pas trouvé de communiqué officiel du ministère sur la réforme 2027, seulement celui sur la réforme 2026. Les textes officiels (arrêtés sur Légifrance) sont cités par DPEboost, mais je ne les ai pas lus moi-même.\n\n---\n\n## 1. Les faits\n\n**Il y a deux réformes différentes, toutes deux applicables au 1er janvier 2027.** MySweetImmo prévient que le grand public les confond souvent.\n\n### Réforme n°1 : ce que contient le DPE (6 nouvelles informations et la mention A0)\n- **Le texte :** arrêté du 11 juin 2026, publié au Journal officiel le 13 août 2026. Il s'applique à partir du 1er janvier 2027 (Selectra, Synasav, Actu-Environnement, Le Mag Juridique, DPEboost).\n- **Pourquoi :** il transpose la directive européenne de 2024 sur la performance énergétique des bâtiments, la directive (UE) 2024/1275 (Actu-Environnement, DPEboost).\n- **Qui est concerné :** tous les DPE réalisés à partir du 1er janvier 2027 pour des logements existants en France métropolitaine. Le neuf, les bureaux et commerces et l'outre-mer ne sont pas concernés (Energyco, DPEboost).\n- **Les 6 nouvelles informations, selon Energyco :**\n  1. la production d'énergie renouvelable sur place ;\n  2. la part de cette production dans la consommation totale du logement ;\n  3. la principale source d'énergie utilisée ;\n  4. la durée de vie restante du chauffage, et de la climatisation s'il y en a une ;\n  5. la capacité du logement à moduler sa consommation selon les signaux du réseau électrique (sa « flexibilité ») ;\n  6. la capacité des radiateurs et du circuit de chauffage à fonctionner à basse température.\n- **La mention « A0 » :** elle signale un bâtiment « à émissions nulles ». **Ce n'est pas une 8e classe** : l'échelle reste de A à G, et A0 s'ajoute à la lettre (MySweetImmo, Maslow, Gedimm, Energyco).\n- **Les 3 conditions pour l'obtenir, toutes obligatoires** (Energyco, DPEboost, Gedimm, Le Mag Juridique) :\n  - être classé A ou B ;\n  - n'utiliser que de l'électricité, des énergies renouvelables ou un réseau de chaleur jugé efficace ;\n  - n'avoir aucun équipement de chauffage ou d'eau chaude qui fonctionne ou peut fonctionner au gaz ou au fioul.\n- **Ce qui ne change pas :** aucune étiquette n'est recalculée et les seuils des classes A à G restent les mêmes (Energyco, MySweetImmo).\n\n### Réforme n°2 : le calcul pour les logements électriques\nC'est probablement la réforme que Le Revenu dit « annoncée fin août ».\n- **Le texte :** arrêté du 19 août 2026, publié au Journal officiel le 26 août 2026 (Irilus, Pulp Immobilier, DPEboost).\n- **Ce qui change :** le DPE convertit l'électricité consommée en « énergie primaire » avec un coefficient. Ce coefficient passe de **1,9 à 1,7** au 1er janvier 2027.\n- **L'effet en chiffres :**\n  - environ **-10,5 %** sur la consommation affichée d'un logement tout électrique (DPEboost) ;\n  - environ **-26 % au total** par rapport au DPE 2025, en ajoutant la baisse de 2026 (Irilus, DPEboost).\n- **Combien de logements :** environ **300 000 résidences principales** cesseraient d'être des passoires énergétiques : près de 200 000 sortiraient de la classe F et 100 000 de la classe G. Ce chiffre vient d'une étude d'impact du ministère, citée **par DPEboost seulement**. Je ne l'ai pas vérifié dans une autre source.\n- **Ce qui s'est passé avant :** au 1er janvier 2026, le coefficient était déjà passé de 2,3 à 1,9 (arrêté du 13 août 2025), soit environ 850 000 logements sortis des classes F et G (ministère de la Transition écologique, Engie, Selectra).\n\n### Où les sources ne disent pas la même chose\n- **Le nombre de nouvelles informations :**\n  - Le Revenu, Energyco et MySweetImmo parlent de 6.\n  - Selectra présente « trois nouvelles informations ».\n  - DPEboost en liste 5, regroupées autrement, dont la séparation entre ventilation et fuites d'air.\n  - Pour Energyco, ce dernier point est seulement un changement de présentation (« ventilation » devient « renouvellement d'air »).\n  - **Conseil :** sur les slides, préférez « de nouvelles informations, 6 selon Le Revenu ».\n- **Où l'énergie fossile est interdite pour A0 :** Le Mag Juridique parle d'équipements fossiles « sur place ou à proximité », Energyco seulement « sur site ».\n- **Les logements tout électriques classés A ou B :** DPEboost affirme qu'ils obtiennent A0 « d'office ». Energyco est plus prudent et dit seulement qu'ils remplissent la condition sur l'énergie.\n\n---\n\n## 2. Le contexte\n- **L'Europe :** la France doit intégrer la directive européenne de 2024 sur la performance des bâtiments (Actu-Environnement, Le Mag Juridique).\n- **L'électricité :** le ministère jugeait que l'ancien calcul créait une « inégalité de traitement » qui pénalisait l'électricité, peu carbonée grâce au nucléaire et aux renouvelables, face au gaz et au fioul importés (ecologie.gouv.fr, à propos de la réforme 2026).\n- **La logique d'ensemble :** les équipements électriques sont récompensés et les énergies fossiles sont écartées du haut du classement (DPEboost).\n\n---\n\n## 3. Ce qui change concrètement pour un particulier\n- **Un DPE déjà fait reste valable 10 ans.** Il ne contiendra simplement pas les nouvelles informations ni la mention A0 (MySweetImmo, DPEboost).\n- **Logement chauffé à l'électricité :** il peut gagner une classe sans travaux (Pulp Immobilier). Une attestation gratuite de l'ADEME (l'agence publique de la transition écologique), à télécharger sur le site de l'Observatoire DPE, remplacera l'ancienne étiquette sans nouvelle visite (DPEboost, Maslow).\n- **Logement chauffé au gaz ou au fioul :** l'étiquette ne bouge quasiment pas (DPEboost, etude-bet). Exemple donné par Pulp Immobilier : une maison des années 1930 chauffée au gaz et classée E le reste en 2027, et vos obligations de vendeur ou de bailleur ne changent pas.\n- **Calendrier d'interdiction de location, inchangé** (loi Climat et résilience, selon DPEboost) :\n  - G : interdit depuis 2025 ;\n  - F : interdit à partir du 1er janvier 2028 ;\n  - E : interdit à partir de 2034.\n- **Pour un acheteur :** la durée de vie restante du chauffage devient un argument pour négocier. Un logement classé A mais sans mention A0 signale un équipement fossile à remplacer un jour (DPEboost).\n- **En copropriété :** la production d'une installation renouvelable commune (des panneaux solaires sur le toit, par exemple) sera répartie entre les logements selon leur surface (DPEboost). La durée de vie restante de la chaufferie collective apparaîtra dans les DPE et sera utile pour le plan pluriannuel de travaux (Energyco).\n\n---\n\n## 4. Risques et points de vigilance\n- **Des panneaux solaires n'améliorent pas l'étiquette.** Leur production sera affichée, mais le calcul de la classe ne change pas. Energyco dit avoir vu des plans de financement construits sur cette erreur.\n- **Trois informations restent floues.** Pour la durée de vie restante, la basse température et la flexibilité, aucune grille officielle n'est encore publiée. Ce seront des estimations, donc leur qualité dépendra du diagnostiqueur (Energyco, DPEboost).\n- **Le bilan carbone peut bloquer le gain.** L'étiquette retient la moins bonne des deux notes : énergie et émissions de CO₂ (GES). Le nouveau coefficient ne touche pas la note carbone. DPEboost a recalculé 74 800 vrais DPE classés G : 16 % passent en F, mais beaucoup d'autres restent bloqués par leur note carbone. C'est une étude interne de DPEboost.\n- **Passer de G à F ne fait gagner qu'un an.** Un logement F redevient louable, mais seulement jusqu'à fin 2027 (DPEboost).\n- **Une chaudière gaz d'appoint suffit à perdre A0,** même si le chauffage principal est une pompe à chaleur (DPEboost).\n- **Prix du DPE :** MySweetImmo pose la question, mais je n'ai pas trouvé la réponse. **Information manquante.**\n\n---\n\n## 5. Solutions concrètes citées par les sources\n1. **Avant de vendre ou de louer, vérifier sa future étiquette.** L'attestation gratuite de l'ADEME sera sur l'Observatoire DPE (DPEboost, Maslow). DPEboost propose aussi un simulateur « DPE 2027 » à partir du numéro de DPE ; c'est un outil commercial, à présenter comme tel.\n2. **Ne refaire un DPE que si c'est utile :** si vous visez la mention A0 ou si vous avez fait des travaux depuis le dernier diagnostic (DPEboost). Sinon, rien à refaire (Pulp Immobilier).\n3. **Avec le diagnostiqueur à partir de 2027** (Pulp Immobilier) :\n   - lui demander d'expliquer les nouvelles rubriques (durée de vie des équipements, flexibilité, étanchéité à l'air) ;\n   - vérifier que le DPE est bien enregistré auprès de l'ADEME, avec son numéro.\n4. **Pour viser A0 :** remplacer le chauffage au gaz ou au fioul par une pompe à chaleur ou un réseau de chaleur efficace, sans garder de chaudière d'appoint (Energyco, DPEboost). La nouvelle rubrique « basse température » indique si les radiateurs actuels sont compatibles avec une pompe à chaleur (DPEboost, Energyco).\n5. **En copropriété :** utiliser la durée de vie de la chaufferie en assemblée générale et dans le plan pluriannuel de travaux (Energyco).\n\nJe n'ai pas trouvé, dans ces sources, de détail sur les aides publiques (MaPrimeRénov', CEE) liées à cette réforme. **Information manquante.**\n\n---\n\n## 6. Perspectives\n- **1er janvier 2027 :** les deux arrêtés s'appliquent. Les logiciels des diagnostiqueurs doivent être mis à jour (Le Mag Juridique).\n- **Textes encore attendus :** les règles précises pour la durée de vie, la basse température et la flexibilité (Energyco).\n- **Projet de loi « Relance logement » :** il aurait été adopté par le Sénat en juillet 2026 et serait en discussion à l'Assemblée. Il pourrait assouplir le calendrier d'interdiction de location en échange d'un engagement de travaux. **Seul DPEboost le mentionne**, à vérifier avant de publier.\n- **1er janvier 2028 :** les logements classés F ne pourront plus être loués (nouveaux baux et renouvellements).\n\n---\n\n### Idées de slides (à partir des faits vérifiés)\n1. « DPE : 2 réformes le 1er janvier 2027 »\n2. « A0 n'est pas une nouvelle classe »\n3. « Gaz ou fioul = jamais A0 »\n4. « Coefficient électricité 1,9 → 1,7 : environ 300 000 logements ne seraient plus des passoires »\n5. « Votre DPE actuel reste valable »\n6. « Panneaux solaires : affichés, mais pas mieux notés »\n7. « F interdit à la location en 2028 : agissez maintenant »",
     "generator": "claude-opus-5-5"
   }
 }

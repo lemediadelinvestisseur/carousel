@@ -1,15 +1,15 @@
-Le DPE change deux fois le 1er janvier 2027, et il ne faut pas confondre les deux réformes.
+Ton DPE va s'enrichir le 1er janvier 2027, mais l'échelle de A à G restera la même.
 
-La première, issue d'un arrêté publié au Journal officiel le 13 août, ajoute 6 nouvelles informations au diagnostic et crée une mention A0. Elle ne recalcule pas ton étiquette. La seconde, publiée le 26 août, abaisse le coefficient de l'électricité de 1,9 à 1,7. C'est elle qui peut faire gagner une classe à ton logement.
+Un arrêté publié au Journal officiel le 13 août 2026 ajoute six informations au diagnostic : la production renouvelable sur place, sa part dans ta consommation, l'énergie principale, la durée de vie du chauffage, la flexibilité et la compatibilité basse température. Il transpose une directive européenne de 2024.
 
-• Si tu te chauffes à l'électricité, la baisse cumulée atteindra environ 26 % par rapport au DPE 2025. Selon une estimation relayée par la FFB, près de 300 000 logements sortiront du statut de passoire, après 850 000 en janvier 2026. Le gain n'est pas automatique, et il reste sur le papier : ta facture ne baissera pas.
+• La mention A0 signalera un logement à émissions nulles. Pour l'obtenir, il faudra être classé A ou B, ne pas utiliser de gaz ni de fioul et n'avoir aucune chaudière fossile, même d'appoint.
 
-• Si tu te chauffes au gaz ou au fioul, rien ne bougera. Tu ne pourras pas non plus obtenir la mention A0, même avec une maison classée B.
+• Un second arrêté, publié le 26 août 2026, change le calcul pour l'électricité. Le coefficient passera de 1,9 à 1,7 : un logement tout électrique affichera environ 10,5 % de consommation en moins. Environ 300 000 résidences principales pourraient ainsi quitter les classes F et G, selon une étude d'impact du ministère. Une attestation gratuite de l'ADEME, sur l'Observatoire DPE, remplacera l'ancienne étiquette sans nouvelle visite.
 
-Le calendrier des interdictions de louer ne change pas : les logements classés F ne pourront plus être loués à partir de 2028, et les E à partir de 2034. Pour un bailleur au gaz classé F, l'échéance de 2028 reste la priorité.
+Ton DPE actuel reste valable 10 ans. Tu n'as pas besoin d'en refaire un, sauf si tu vises A0 ou si tu as fait des travaux depuis. Si tu chauffes au gaz ou au fioul, ton étiquette ne bougera quasiment pas.
 
-Ton DPE actuel reste valable 10 ans. À partir du 1er janvier, tu pourras récupérer gratuitement ton étiquette mise à jour sur l'Observatoire DPE-Audit de l'ADEME, sans nouvelle visite du diagnostiqueur.
+Le calendrier, lui, ne change pas : les logements classés F ne pourront plus être loués à partir du 1er janvier 2028. Un logement G qui passe en F ne gagne donc qu'un an. Surveille aussi la note carbone, car l'étiquette retient la moins bonne des deux notes.
 
-Ton logement va-t-il gagner une classe en janvier ?
+Ton logement chauffé à l'électricité pourrait-il changer de classe en 2027 ?
 
 🔖 Enregistre ce post et partage-le à quelqu'un de concerné.
