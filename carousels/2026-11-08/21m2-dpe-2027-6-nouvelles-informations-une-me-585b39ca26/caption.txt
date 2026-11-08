@@ -1,15 +1,17 @@
-Au 1er janvier 2027, le DPE affichera six nouvelles informations et une mention A0 pour les logements à émissions nulles.
+Au 1er janvier 2027, ton DPE affichera six nouvelles informations et une mention A0.
 
-Le texte a été publié au Journal officiel le 13 août. Il transpose une directive européenne de 2024. L'échelle reste de A à G, avec les mêmes seuils.
+Le changement vient d'un arrêté du 11 juin 2026, qui transpose une directive européenne. Il concerne les logements existants en France métropolitaine et s'applique aux diagnostics réalisés à partir du 1er janvier 2027. Les seuils des classes A à G ne bougent pas.
 
-La mention A0 s'ajoutera à la lettre pour les logements classés A ou B qui n'utilisent que des renouvelables, de l'électricité ou un réseau de chaleur efficace. Une maison bien isolée, classée B, avec une chaudière gaz récente ne pourra jamais l'obtenir.
+Si ton DPE est encore valide, tu n'as rien à refaire. Il ne contiendra simplement pas ces nouvelles rubriques. Jusqu'en 2037, deux générations de DPE vont donc circuler : avant de comparer deux biens, regarde la date du diagnostic.
 
-• Ce texte ne change pas ta lettre. C'est un second arrêté, publié le 26 août, qui fera bouger les étiquettes : le coefficient de l'électricité passera de 1,9 à 1,7. Pour un logement tout électrique, la baisse atteint environ 26 % par rapport au DPE 2025, sans travaux. Selon le gouvernement, environ 300 000 logements sortiraient du statut de passoire thermique.
+• La mention A0 ne donne droit à aucune aide. C'est un argument de vente, rien de plus.
 
-• Ton DPE actuel reste valable 10 ans, il ne comportera simplement pas les nouvelles mentions. Le calendrier d'interdiction de louer ne bouge pas : les G depuis 2025, les F en 2028, les E en 2034.
+• Trois des nouvelles informations (durée de vie du chauffage, flexibilité, basse température) seront estimées, sans barème officiel publié à ce jour.
 
-Si tu fais un DPE en 2027, prépare les factures et la date d'installation de tes panneaux solaires, de ta pompe à chaleur ou de ton chauffe-eau. Vérifie aussi que le diagnostiqueur applique bien le coefficient de 1,7 : les professionnels ont eu moins de cinq mois pour s'adapter.
+Une autre réforme entre en vigueur le même jour, à ne pas confondre avec celle-ci : le coefficient de l'électricité passera de 1,9 à 1,7. Pour un logement chauffé à l'électricité, l'étiquette pourra gagner une classe, parfois deux. Environ 300 000 logements devraient sortir des classes F et G sans aucuns travaux. Si c'est ton cas, tu pourras télécharger gratuitement une attestation de mise à jour sur l'Observatoire DPE-Audit de l'ADEME.
 
-Ton logement est chauffé au gaz ou à l'électricité ?
+Le calendrier, lui, ne change pas : les logements G sont interdits à la location depuis 2025, les F le seront en 2028 et les E en 2034.
+
+Ton DPE date de quand, et tu comptes le refaire en 2027 ?
 
 🔖 Enregistre ce post et partage-le à quelqu'un de concerné.
