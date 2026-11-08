@@ -1393,7 +1393,7 @@
       "collectedAt": "2026-11-08T18:44:37.704Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Fait divers crypto intrigant.",
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:10:54.180Z"
+  "updatedAt": "2026-11-08T20:11:01.773Z"
 }
