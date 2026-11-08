@@ -689,7 +689,7 @@
       "aiScore": 6,
       "reason": "Nouvelle règle Airbnb qui divise hôtes et voyageurs.",
       "hook": "Airbnb interdit d'imposer le ménage aux voyageurs",
-      "generatedAt": "2026-11-08T20:14:47.685Z",
+      "generatedAt": "2026-11-08T20:34:31.210Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-airbnb-des-le-20-novembre-2026-les-voyag-bc5df90509",
         "files": [
@@ -701,14 +701,15 @@
           "slide-06.jpg",
           "slide-07.jpg",
           "slide-08.jpg",
+          "slide-09.jpg",
           "carousel.pdf"
         ],
         "generator": "claude-opus-5-5",
-        "slides": 8,
+        "slides": 9,
         "hooks": [
-          "Le **20 novembre**, **Airbnb** changera la règle : plus de **vaisselle**, de lessive ni de lit à défaire pour les voyageurs. Les **hôtes** sont furieux.",
-          "Tu paies des **frais de ménage** et l'hôte te demande quand même de nettoyer ? **Airbnb** l'interdira dans le monde entier dès le **20 novembre**.",
-          "**Airbnb** interdira les **amendes** et les corvées de départ à partir du **20 novembre**. Pour les hôtes, le **ménage** risque de coûter plus cher."
+          "Sur **Airbnb**, tes voyageurs n'auront plus à **faire la vaisselle** ni à **défaire les lits** pour les réservations prises à partir du **20 novembre**.",
+          "**Airbnb** change ses règles le **20 novembre** : plus de **corvées de ménage** imposées aux voyageurs. Les hôtes qui ne s'adaptent pas risquent une **annonce moins visible**.",
+          "Les voyageurs payaient les **frais de ménage** puis faisaient le ménage. Le **20 novembre**, **Airbnb** met fin à cette pratique dans **le monde entier**."
         ]
       }
     },
@@ -2381,5 +2382,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:34:23.054Z"
+  "updatedAt": "2026-11-08T20:34:35.689Z"
 }
