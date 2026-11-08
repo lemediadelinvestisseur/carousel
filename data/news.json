@@ -202,11 +202,29 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "21m2",
       "score": 5,
-      "status": "new",
+      "status": "done",
       "aiScore": 7,
       "reason": "Rendements locatifs élevés, très enregistrable pour les investisseurs.",
       "hook": "Ces 5 villes rapportent jusqu'à 12,7 % brut",
-      "notifiedAt": "2026-11-08T15:38:54.430Z"
+      "notifiedAt": "2026-11-08T15:38:54.430Z",
+      "instructions": "1 page par ville ",
+      "generatedAt": "2026-11-08T15:46:51.452Z",
+      "carousel": {
+        "dir": "carousels/2026-11-08/21m2-rendement-locatif-ces-5-villes-ou-invest-5149c5cc1b",
+        "files": [
+          "slide-01.png",
+          "slide-02.png",
+          "slide-03.png",
+          "slide-04.png",
+          "slide-05.png",
+          "slide-06.png",
+          "slide-07.png",
+          "slide-08.png",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 8
+      }
     },
     {
       "id": "bc5df90509",
@@ -1179,5 +1197,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T15:46:32.064Z"
+  "updatedAt": "2026-11-08T15:46:56.591Z"
 }
