@@ -22,7 +22,7 @@ const Slide = z.object({
 export const CarouselSchema = z.object({
   category: z.string().describe("Étiquette de la couverture, parmi les étiquettes autorisées"),
   slides: z.array(Slide).describe("4 à 9 pages selon la richesse du sujet : cover, 2 à 7 pages intérieures, cta"),
-  hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, avec **…**"),
+  hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, même format que le titre de couverture"),
   caption: z.string().describe("Description du post Instagram (150 à 280 mots), selon les règles DESCRIPTION DU POST, sans hashtags ni sources"),
   sources: z.array(z.string()).describe("Noms des médias utilisés comme sources (ex : Cointelegraph, Les Echos)"),
 });
@@ -77,14 +77,17 @@ Indique pour chaque fait le média qui le rapporte, et signale les points où le
 // 2. Écriture
 // ---------------------------------------------------------------------------
 const COVER_GUIDE = `COUVERTURE (le plus important : elle décide si les gens swipent).
-Une accroche CLIVANTE de 8 à 20 mots (une ou deux phrases courtes) qui fait réagir : choc, surprise, indignation, curiosité. On doit avoir envie de swiper pour comprendre.
-- Va droit au fait le plus fort de l'histoire, avec des mots simples et percutants (trompé, scandale, s'effondre, explose, dégringole, ferme, interdit, record…). Pas de ton « dépêche de presse ».
-- 2 à 4 mots-clés entre **…** (en gras) : le nom de l'entreprise ou de la personne, le chiffre ou le mot qui choque.
-- Exemples du style attendu :
-  • « Le patron de **Nvidia** aurait **trompé sa femme**… avec une femme **soupçonnée d'espionnage**. »  (et non : « Nvidia enquête sur son propre patron, la presse le dit proche d'une femme d'affaires… »)
-  • « **Binance** fermera les comptes de ses **utilisateurs français** le **31 décembre**. Il te reste **53 jours** pour agir. »
-  • « Ton **Livret A** va pouvoir monter à **30 000 €**. Une première depuis **2013**. »
-  • « **Barbie** a **67 ans** et rapporte encore **1 milliard** par an. »
+Une accroche COURTE et CLIVANTE : une seule phrase de 6 à 14 mots, qui se lit en 2 secondes. Elle fait réagir (choc, surprise, indignation, curiosité) et donne envie de swiper.
+- AUCUN mot en gras : n'utilise jamais **…** dans le titre de couverture ni dans hook_alternatives (sauf si les consignes propres au compte demandent un format différent).
+- Va droit au fait le plus fort, avec des mots simples et percutants. Une seule idée : pas de deuxième phrase d'explication, pas de date précise ni de détail secondaire (ils vont dans les pages suivantes).
+- Exemples du style attendu (le premier a été publié et validé) :
+  • « Binance France : moins de deux mois pour sortir tes cryptos »
+  • « Le patron de Nvidia aurait trompé sa femme avec une espionne présumée »
+  • « Christine Lagarde quitte la BCE avant la fin de son mandat »
+  • « Ton Livret A va pouvoir monter à 30 000 € »
+  • « Barbie a 67 ans et rapporte encore 1 milliard par an »
+  Trop long (à éviter) : « Christine Lagarde quittera la BCE le 7 février 2027, près de neuf mois avant la fin de son mandat. Deux candidats se disputent déjà sa place. »
+- PHOTO DE COUVERTURE : elle doit montrer le SUJET DE L'ACCROCHE. Si l'accroche parle d'une personne (dirigeant, banquier central, ministre…), image_query = son nom complet et image_entity = son titre Wikipédia, même si elle n'est pas nommée dans l'accroche (ex : « Binance change de directeur financier » → le nom du dirigeant concerné, ou à défaut celui du patron de Binance). Sinon, l'entreprise (son siège, son logo sur un bâtiment, son produit phare), le lieu ou l'objet dont parle l'accroche. Jamais d'image vague ou de produit dérivé.
 - LIMITE JURIDIQUE (impérative) : clivant ne veut pas dire faux. N'affirme jamais comme un fait une accusation non prouvée contre une personne ou une entreprise réelle (espionnage, fraude, infidélité, crime…). Utilise « aurait », « soupçonné(e) de », « accusé(e) de », « selon <média> ». Aucun chiffre ni fait inventé.`;
 
 const INNER_GUIDE = `NOMBRE DE PAGES : entre 4 et 9 au total (couverture et CTA compris), selon ce que le sujet mérite.

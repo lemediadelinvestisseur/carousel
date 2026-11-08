@@ -373,7 +373,7 @@ function card(i) {
       ${publishedBadges(i)}
       <div class="row"><button class="btn pub" data-act="publish">🚀 Publier</button><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="zip">⬇️ Télécharger (ZIP)</button>
       <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}${ver(i)}" target="_blank" rel="noopener">PDF</a>
-      <button class="btn ghost" data-act="validate">↻ Refaire</button></div>
+      <button class="btn ghost" data-act="validate">↻ Refaire</button><button class="btn danger" data-act="delete">🗑 Supprimer</button></div>
       ${(i.carousel.hooks || []).length ? `<details class="hooks"><summary>💡 Autres accroches proposées</summary>${i.carousel.hooks.map((h, n) => `<button class="hook-alt" data-act="rehook" data-hook="${n}">${esc(h.replace(/\*\*/g, ""))}</button>`).join("")}</details>` : ""}`;
   } else if (["error", "rejected", "ignored"].includes(i.status)) {
     actions = `${i.error ? `<p class="hint">${esc(i.error)}</p>` : ""}<div class="row"><button class="btn ${i.status === "error" ? "primary" : ""}" data-act="validate">${i.status === "error" ? "↻ Réessayer" : "✅ Valider quand même"}</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
@@ -631,6 +631,11 @@ document.addEventListener("click", async (ev) => {
     } catch (e) { toast(e.message, 5000); }
   }
   if (act === "zoom") openLightbox(item, Number(t.dataset.n));
+  if (act === "delete") {
+    if (!confirm("Supprimer ce carousel ? L'actu reviendra dans « À valider ».")) return;
+    try { await dispatch({ id: item.id, action: "supprimer" }); Object.assign(item, { status: "new", carousel: null, generatedAt: null, schedules: [], scheduled: null }); render(); toast("Carousel supprimé"); }
+    catch (e) { toast(e.message, 5000); }
+  }
   if (act === "reject") {
     try { await dispatch({ id: item.id, action: "rejeter" }); item.status = "rejected"; render(); toast("Actu rejetée"); }
     catch (e) { toast(e.message, 5000); }

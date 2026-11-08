@@ -216,6 +216,7 @@ async function chooseWithClaude(images, { subject, isCover }) {
 Ce que la slide doit montrer : ${subject}
 Choisis la meilleure image. Critères éliminatoires : filigrane (Adobe Stock, Shutterstock…), publicité ou visuel marketing (prix, « free shipping », « new arrival »), logo ou nom d'un autre média incrusté, texte incrusté important, montage grossier, capture d'écran de site, image floue.
 Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet, la ville), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ""}.
+${isCover ? "La photo doit illustrer DIRECTEMENT le sujet de l'accroche : si elle parle d'une personne, c'est cette personne qu'on doit voir (portrait, conférence, interview). Sont ÉLIMINATOIRES : produits dérivés et goodies (t-shirt, sac, mug, casquette), photos de stand ou de salon, objets sans rapport direct, personnes qui ne sont pas le sujet. Mieux vaut répondre 0 qu'une photo hors sujet.\n" : ""}
 BEAUTÉ AVANT TOUT : choisis la photo la plus belle, digne d'une carte postale ou d'un magazine : lumière dorée ou coucher de soleil, ciel coloré, couleurs vives, composition soignée, vue dégagée ou panorama pour une ville ou un monument. Pour une ville, préfère une VUE D'ENSEMBLE (skyline, panorama, vue aérienne, quais, toits) à un gros plan sur un bâtiment.
 Écarte les photos ternes (ciel gris ou blanc, lumière plate), les photos d'amateur prises au téléphone (premier plan encombré par des branches ou des feuilles, image floue ou de travers, éclairage de nuit sale), les cadrages serrés sans contexte, même si elles montrent le bon sujet. Mieux vaut répondre 0 qu'accepter une photo moyenne.
 Réponds 0 si aucune image n'est acceptable. Donne aussi le cadre (focus) du sujet principal dans l'image choisie : il servira à cadrer la photo.`,
@@ -264,7 +265,7 @@ export async function illustrate({ slides, item }) {
       // Jamais d'agrandissement visible : couverture ≥ 1000x700, pages intérieures ≥ 960x540 (zone photo 1080x600).
       // Pages intérieures : photo paysage obligatoire, pour remplir tout le cadre sans flou ni coupure.
       const imgs = await downloadSome(cands, isCover ? 8 : 6, used, 540, isCover ? { width: 1000, height: 700 } : { width: 1080, height: 600, landscape: 1.3 });
-      const subject = isCover ? `${item.title} (recherche : ${query || entity})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
+      const subject = isCover ? `${String(s.title || item.title).replace(/\*\*/g, "")} (sujet à montrer : ${entity || query})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
       const pick = await chooseWithClaude(imgs, { subject, isCover });
       if (pick) {
         used.add(pick.url);

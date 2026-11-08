@@ -82,7 +82,7 @@ function cover(s, ctx) {
     ${ctx.category ? `<div class="pill">${esc(ctx.category)}</div>` : ""}
     ${ctx.brand.coverStyle === "headline" && s.body
       ? `<div class="cover-block"><h1 class="headline" style="font-size:${headlineSize(s.title)}px">${bold(s.title)}</h1><p class="cover-sub">${bold(s.body)}</p></div>`
-      : `<h1 style="font-size:${coverSize(s.title)}px">${bold(s.title)}</h1>`}
+      : `<h1 style="font-size:${coverSize(s.title)}px">${bold(String(s.title || "").replace(/\*\*/g, ""))}</h1>`}
     <div class="cover-foot">${logo(ctx.brand, "md")}</div>`;
 }
 
