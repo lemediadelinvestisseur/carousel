@@ -82,12 +82,36 @@
       "collectedAt": "2026-11-08T21:02:25.273Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "done",
       "international": true,
       "aiScore": 7,
       "reason": "Nvidia et Jensen Huang, ambiance espionnage : sujet intrigant sur une star de la Bourse.",
       "hook": "Le patron de Nvidia ciblé par des espions étrangers ?",
-      "notifiedAt": "2026-11-08T21:02:25.273Z"
+      "notifiedAt": "2026-11-08T21:02:25.273Z",
+      "instructions": "une autre source : https://www.zonebourse.com/actualite-bourse/nvidia-enquete-interne-sur-des-accusations-d-espionnage-chinois-ce785fd2d081f627\n",
+      "generatedAt": "2026-11-08T22:06:07.045Z",
+      "carousel": {
+        "dir": "carousels/2026-11-08/investisseur-nvidia-ouvre-une-enquete-apres-un-articl-1d1589c035",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 9,
+        "hooks": [
+          "Le patron de **Nvidia**, **Jensen Huang**, aurait été la cible des **services chinois**. Son conseil ouvre une **enquête indépendante** avant la réouverture de Wall Street **lundi**.",
+          "**Jensen Huang** reconnaît une **infidélité** et **Nvidia** ouvre une enquête. En cause : une femme d'affaires soupçonnée par Washington de travailler pour le **renseignement chinois**.",
+          "Espionnage, puces d'IA et **Congrès** : **Nvidia**, plus grande entreprise mondiale en Bourse, enquête sur son patron **Jensen Huang**. Les élus veulent l'entendre le **18 novembre**."
+        ]
+      }
     },
     {
       "id": "c5cb11024b",
@@ -2608,5 +2632,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T22:05:49.822Z"
+  "updatedAt": "2026-11-08T22:06:15.037Z"
 }
