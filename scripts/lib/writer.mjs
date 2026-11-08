@@ -22,7 +22,7 @@ const Slide = z.object({
 export const CarouselSchema = z.object({
   category: z.string().describe("Étiquette de la couverture, parmi les étiquettes autorisées"),
   slides: z.array(Slide).describe("4 à 9 pages selon la richesse du sujet : cover, 2 à 7 pages intérieures, cta"),
-  hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, avec **…**"),
+  hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, même format que le titre de couverture"),
   caption: z.string().describe("Description du post Instagram (150 à 280 mots), selon les règles DESCRIPTION DU POST, sans hashtags ni sources"),
   sources: z.array(z.string()).describe("Noms des médias utilisés comme sources (ex : Cointelegraph, Les Echos)"),
 });
@@ -77,12 +77,18 @@ Indique pour chaque fait le média qui le rapporte, et signale les points où le
 // 2. Écriture
 // ---------------------------------------------------------------------------
 const COVER_GUIDE = `COUVERTURE (le plus important : elle décide si les gens swipent).
-Une phrase informative de 15 à 28 mots (une ou deux phrases) qui donne l'info principale ET une raison de lire la suite.
-- 3 à 5 mots-clés entre **…** (en gras) : le nom de l'entreprise ou de la personne, les chiffres, la date, le mot qui choque.
-- Exemples du style attendu :
-  • « **Binance** fermera les comptes de ses **utilisateurs français** le **31 décembre**. Il te reste **53 jours** pour agir. »
-  • « Le **plafond** du **Livret A** pourrait monter jusqu'à **30 000** euros en février 2027. Il n'avait plus **bougé** depuis **2013**. »
-  • « **Barbie** a **67 ans** et elle rapporte toujours plus d'**un milliard** de dollars de ventes par an à Mattel. »`;
+Une accroche COURTE et CLIVANTE : une seule phrase de 6 à 14 mots, qui se lit en 2 secondes. Elle fait réagir (choc, surprise, indignation, curiosité) et donne envie de swiper.
+- AUCUN mot en gras : n'utilise jamais **…** dans le titre de couverture ni dans hook_alternatives (sauf si les consignes propres au compte demandent un format différent).
+- Va droit au fait le plus fort, avec des mots simples et percutants. Une seule idée : pas de deuxième phrase d'explication, pas de date précise ni de détail secondaire (ils vont dans les pages suivantes).
+- Exemples du style attendu (le premier a été publié et validé) :
+  • « Binance France : moins de deux mois pour sortir tes cryptos »
+  • « Le patron de Nvidia aurait trompé sa femme avec une espionne présumée »
+  • « Christine Lagarde quitte la BCE avant la fin de son mandat »
+  • « Ton Livret A va pouvoir monter à 30 000 € »
+  • « Barbie a 67 ans et rapporte encore 1 milliard par an »
+  Trop long (à éviter) : « Christine Lagarde quittera la BCE le 7 février 2027, près de neuf mois avant la fin de son mandat. Deux candidats se disputent déjà sa place. »
+- PHOTO DE COUVERTURE : elle doit montrer le SUJET DE L'ACCROCHE. Si l'accroche parle d'une personne (dirigeant, banquier central, ministre…), image_query = son nom complet et image_entity = son titre Wikipédia, même si elle n'est pas nommée dans l'accroche (ex : « Binance change de directeur financier » → le nom du dirigeant concerné, ou à défaut celui du patron de Binance). Sinon, l'entreprise (son siège, son logo sur un bâtiment, son produit phare), le lieu ou l'objet dont parle l'accroche. Jamais d'image vague ou de produit dérivé.
+- LIMITE JURIDIQUE (impérative) : clivant ne veut pas dire faux. N'affirme jamais comme un fait une accusation non prouvée contre une personne ou une entreprise réelle (espionnage, fraude, infidélité, crime…). Utilise « aurait », « soupçonné(e) de », « accusé(e) de », « selon <média> ». Aucun chiffre ni fait inventé.`;
 
 const INNER_GUIDE = `NOMBRE DE PAGES : entre 4 et 9 au total (couverture et CTA compris), selon ce que le sujet mérite.
 - Sujet simple ou fait étonnant (« Le saviez-vous ? ») : 4 ou 5 pages.
@@ -90,14 +96,10 @@ const INNER_GUIDE = `NOMBRE DE PAGES : entre 4 et 9 au total (couverture et CTA 
 - Sujet riche (réforme, crise, résultats détaillés, plusieurs impacts) : 8 ou 9 pages.
 Ne remplis jamais pour remplir : chaque page doit apporter une info nouvelle et utile.
 
-PAGES INTÉRIEURES — LES EXPLICATIONS. Choisis et ordonne les pages utiles parmi (ou adapte) :
-- LE CONTEXTE : ce qui s'est passé et pourquoi.
-- LES CHIFFRES / LES RÉSULTATS : les données clés.
-- CE QUI CHANGE : l'impact concret pour un particulier français.
-- QUI EST … : l'entreprise ou la personne au cœur du sujet, si le public ne la connaît pas bien.
-- LE RISQUE (ou LES CRAINTES) : ce qui peut mal tourner, ce qu'il faut surveiller.
-- LES SOLUTIONS : kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent (ex : un portefeuille Ledger, une plateforme agréée).
-- ET APRÈS ? : les perspectives, comment investir ou en profiter plus tard.
+PAGES INTÉRIEURES — ADAPTE-LES À LA NATURE DE L'ACTU. Choisis et ordonne seulement les pages qui ont du sens pour CETTE actu :
+- Toujours utiles : LE CONTEXTE (ce qui s'est passé et pourquoi), QUI EST … (la personne ou l'entreprise, si le public ne la connaît pas bien), LES CHIFFRES / LES RÉSULTATS (les données clés), LES RÉACTIONS (marché, action en Bourse, concurrents, politiques), ET APRÈS ? (ce qu'il faut surveiller, la suite probable).
+- Seulement si l'actu touche directement l'argent ou les décisions du lecteur (épargne, impôts, crédit, placements, une plateforme qu'il utilise, une action qu'il peut détenir) : CE QUI CHANGE POUR TOI, LE RISQUE, LES SOLUTIONS (kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent).
+- Pour une actu « pure » (scandale, people, enquête, nomination, coulisses d'une entreprise), PAS de page risque ni solutions : raconte l'histoire (contexte, faits, personnages, réactions, impact sur l'entreprise ou son action, suite).
 Chaque page : une étiquette (kicker), un titre court, 1 ou 2 paragraphes de 30 à 55 mots au total, 3 à 6 mots-clés en **gras**.
 
 DERNIÈRE PAGE — CTA : title = une question directe liée au sujet pour faire réagir en commentaire (ex : « Tu avais des cryptos sur **Binance** ? »), body = « Dis-nous en commentaire ce que tu vas en faire 👇 » ou équivalent adapté.`;

@@ -206,11 +206,11 @@ details summary{cursor:pointer}
 <script>
 const BRANDS = { investisseur: "Le média de l'investisseur", "21m2": "21m2" };
 const TABS = [
-  { key: "new", label: "À valider", match: (i) => i.status === "new" && !pending(i.id) },
-  { key: "wip", label: "En cours", match: (i) => ["validated", "generating"].includes(i.status) || (i.status === "new" && pending(i.id)) },
-  { key: "done", label: "Prêts", match: (i) => i.status === "done" && !isPublished(i) && !schedulesOf(i).length },
-  { key: "scheduled", label: "Programmés", match: (i) => i.status === "done" && schedulesOf(i).length > 0 },
-  { key: "published", label: "Publiés", match: (i) => i.status === "done" && isPublished(i) && !schedulesOf(i).length },
+  { key: "new", label: "À valider", match: (i) => i.status === "new" && !inProgress(i) },
+  { key: "wip", label: "En cours", match: (i) => ["validated", "generating"].includes(i.status) || inProgress(i) },
+  { key: "done", label: "Prêts", match: (i) => i.status === "done" && !inProgress(i) && !isPublished(i) && !schedulesOf(i).length },
+  { key: "scheduled", label: "Programmés", match: (i) => i.status === "done" && !inProgress(i) && schedulesOf(i).length > 0 },
+  { key: "published", label: "Publiés", match: (i) => i.status === "done" && !inProgress(i) && isPublished(i) && !schedulesOf(i).length },
   { key: "linkedin", label: "LinkedIn", match: (i) => i.status === "done" },
   { key: "error", label: "Erreurs", match: (i) => i.status === "error" },
   { key: "rejected", label: "Écartées", match: (i) => ["rejected", "ignored"].includes(i.status) },
@@ -246,6 +246,13 @@ const cfg = {
 };
 const pendingMap = () => JSON.parse(store.get("pending", "{}"));
 function pending(id) { const t = pendingMap()[id]; return t && Date.now() - t < 20 * 60e3; }
+// Génération demandée depuis ce téléphone et pas encore terminée (nouvelle actu ou « Refaire ») :
+// la carte reste dans « En cours » jusqu'à ce qu'une version plus récente du carousel arrive.
+function inProgress(i) {
+  const t = pendingMap()[i.id];
+  if (!t || Date.now() - t > 20 * 60e3) return false;
+  return !(i.generatedAt && Date.parse(i.generatedAt) > t) && i.status !== "error";
+}
 function setPending(id) { const p = pendingMap(); p[id] = Date.now(); store.set("pending", JSON.stringify(p)); }
 
 const params = new URLSearchParams(location.search);
@@ -348,11 +355,13 @@ function render() {
 }
 
 function card(i) {
-  const st = pending(i.id) && i.status === "new" ? "Envoyée…" : i.status === "done" && schedulesOf(i).length ? "Programmé 🕒" : i.status === "done" && isPublished(i) ? "Publié ✓" : STATUS[i.status] || i.status;
+  const st = inProgress(i) ? (i.status === "done" ? "Regénération…" : "Envoyée…") : i.status === "done" && schedulesOf(i).length ? "Programmé 🕒" : i.status === "done" && isPublished(i) ? "Publié ✓" : STATUS[i.status] || i.status;
   const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.aiScore != null ? `<span class="ai s${Math.floor(i.aiScore / 3)}">${i.aiScore}/10</span>` : i.score ? `<span>· score ${i.score}</span>` : ""}${i.international ? "<span>· 🌍</span>" : ""}</div>
     <h3>${esc(i.title)}</h3>${i.hook ? `<div class="hook">💡 ${esc(i.hook)}</div>` : ""}${i.reason ? `<div class="reason">${esc(i.reason)}</div>` : ""}${i.summary ? `<p>${esc(i.summary)}</p>` : ""}`;
   let actions = "";
-  if (i.status === "new" && !pending(i.id)) {
+  if (inProgress(i)) {
+    actions = `<p class="hint">⏳ Génération en cours (4 à 6 minutes) : la carte reviendra toute seule avec la nouvelle version.</p>`;
+  } else if (i.status === "new") {
     actions = `<div class="row"><button class="btn primary" data-act="validate">✅ Valider</button><button class="btn danger" data-act="reject">✕</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
   } else if (i.status === "done" && i.carousel) {
     const pngs = i.carousel.files.filter((f) => /\.(png|jpe?g)$/.test(f));
@@ -364,7 +373,7 @@ function card(i) {
       ${publishedBadges(i)}
       <div class="row"><button class="btn pub" data-act="publish">🚀 Publier</button><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="zip">⬇️ Télécharger (ZIP)</button>
       <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}${ver(i)}" target="_blank" rel="noopener">PDF</a>
-      <button class="btn ghost" data-act="validate">↻ Refaire</button></div>
+      <button class="btn ghost" data-act="validate">↻ Refaire</button><button class="btn danger" data-act="delete">🗑 Supprimer</button></div>
       ${(i.carousel.hooks || []).length ? `<details class="hooks"><summary>💡 Autres accroches proposées</summary>${i.carousel.hooks.map((h, n) => `<button class="hook-alt" data-act="rehook" data-hook="${n}">${esc(h.replace(/\*\*/g, ""))}</button>`).join("")}</details>` : ""}`;
   } else if (["error", "rejected", "ignored"].includes(i.status)) {
     actions = `${i.error ? `<p class="hint">${esc(i.error)}</p>` : ""}<div class="row"><button class="btn ${i.status === "error" ? "primary" : ""}" data-act="validate">${i.status === "error" ? "↻ Réessayer" : "✅ Valider quand même"}</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
@@ -495,7 +504,7 @@ function openValidate(item, instr = "") {
       await dispatch({ id: item.id, action: "valider", brand: $("vBrand").value, instructions: $("vInstr").value });
       setPending(item.id);
       if (item.status !== "new") { item.status = "validated"; }
-      toast("✅ Validée ! Le carousel arrive dans ~2 min.");
+      toast("✅ C'est parti ! Le carousel arrive dans 4 à 6 minutes (onglet « En cours »).", 4000);
       render(); setTimeout(loadRuns, 4000);
     } catch (e) { toast(e.message, 5000); }
   };
@@ -622,6 +631,11 @@ document.addEventListener("click", async (ev) => {
     } catch (e) { toast(e.message, 5000); }
   }
   if (act === "zoom") openLightbox(item, Number(t.dataset.n));
+  if (act === "delete") {
+    if (!confirm("Supprimer ce carousel ? L'actu reviendra dans « À valider ».")) return;
+    try { await dispatch({ id: item.id, action: "supprimer" }); Object.assign(item, { status: "new", carousel: null, generatedAt: null, schedules: [], scheduled: null }); render(); toast("Carousel supprimé"); }
+    catch (e) { toast(e.message, 5000); }
+  }
   if (act === "reject") {
     try { await dispatch({ id: item.id, action: "rejeter" }); item.status = "rejected"; render(); toast("Actu rejetée"); }
     catch (e) { toast(e.message, 5000); }
@@ -652,7 +666,7 @@ $("dlgAdd").onclose = async () => {
   const vid = params.get("validate");
   if (vid) {
     const item = state.items.find((i) => i.id === vid);
-    if (item) { state.tab = TABS.find((t) => t.match(item))?.key || "new"; render(); if (item.status === "new" && !pending(item.id)) openValidate(item); }
+    if (item) { state.tab = TABS.find((t) => t.match(item))?.key || "new"; render(); if (item.status === "new" && !inProgress(item)) openValidate(item); }
     history.replaceState(null, "", location.pathname);
   } else if (params.get("item")) {
     const item = state.items.find((i) => i.id === params.get("item"));

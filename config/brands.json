@@ -11,12 +11,12 @@
       "muted": "#A9B6D3",
       "accent": "#5B8CFF",
       "accentText": "#0B1F3A",
-      "font": "Inter",
-      "titleFont": "Archivo Black",
+      "titleFont": "Montserrat",
       "highlightBg": "#2E6BF0",
       "highlightText": "#FFFFFF",
       "accent2": "#2E6BF0",
-      "gradientEnd": "rgba(20,45,110,1)"
+      "gradientEnd": "rgba(20,45,110,1)",
+      "bodyFont": "Montserrat"
     },
     "keywords": [
       "bourse",

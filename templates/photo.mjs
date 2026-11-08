@@ -82,7 +82,7 @@ function cover(s, ctx) {
     ${ctx.category ? `<div class="pill">${esc(ctx.category)}</div>` : ""}
     ${ctx.brand.coverStyle === "headline" && s.body
       ? `<div class="cover-block"><h1 class="headline" style="font-size:${headlineSize(s.title)}px">${bold(s.title)}</h1><p class="cover-sub">${bold(s.body)}</p></div>`
-      : `<h1 style="font-size:${coverSize(s.title)}px">${bold(s.title)}</h1>`}
+      : `<h1 style="font-size:${coverSize(s.title)}px">${bold(String(s.title || "").replace(/\*\*/g, ""))}</h1>`}
     <div class="cover-foot">${logo(ctx.brand, "md")}</div>`;
 }
 
@@ -157,12 +157,12 @@ function cta(s, ctx) {
   const b = ctx.brand;
   const c = b.ctaSlide || {};
   const actions = c.actions || [["🔖", "Enregistre"], ["📤", "Partage à un ami concerné"], ["❤️", "Like"]];
-  return `<div class="cta">
+  return `<div class="cta"><div class="cta-in">
       <div class="q">${bold(s.title || "Et toi, qu'en penses-tu ?")}</div>
       <div class="sub">${bold(s.body || "Dis-le-nous en commentaire 👇")}</div>
       <div class="actions">${actions.map(([i, t]) => `<div><span>${i}</span>${esc(t)}</div>`).join("")}</div>
       <div class="follow"><div class="t">${bold(c.title || `Abonne-toi à ${b.name}`)}</div>${c.subtitle ? `<div class="d">${esc(c.subtitle)}</div>` : ""}<div class="h">${esc(b.handle)}</div></div>
-    </div><div class="foot">${logo(b, "md")}</div>`;
+    </div></div><div class="foot">${logo(b, "md")}</div>`;
 }
 
 function fontsQuery(t) {
@@ -262,7 +262,8 @@ p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 .tx-photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 
 /* Dernière page */
-.cta{position:absolute;left:96px;right:96px;top:150px}
+.cta{position:absolute;left:96px;right:96px;top:110px;bottom:150px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.cta-in{transform-origin:top center}
 .cta .q{font-family:var(--ft);font-weight:800;font-size:76px;line-height:1.15;margin-bottom:34px}
 .cta .q b{color:var(--accent)}
 .cta .sub{font-size:44px;line-height:1.4;margin-bottom:70px}
@@ -295,7 +296,8 @@ document.querySelectorAll('.text').forEach(t=>{
 document.querySelectorAll('h1:not(.headline)').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
 document.querySelectorAll('.cover-block').forEach(b=>{const h=b.querySelector('h1'),p=b.querySelector('.cover-sub');for(let k=0;k<12&&b.getBoundingClientRect().top<520;k++){[h,p].forEach(el=>el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px')}});
 }
-window.__fitDone=document.fonts.ready.then(fit);
+function fitCta(){document.querySelectorAll('.cta').forEach(c=>{const inn=c.querySelector('.cta-in');if(!inn)return;let z=1;for(let k=0;k<14&&inn.scrollHeight*z>c.clientHeight-4;k++){z-=0.05;inn.style.zoom=z;}});}
+window.__fitDone=document.fonts.ready.then(()=>{fit();fitCta();});
 </script>
 </body></html>`;
 }

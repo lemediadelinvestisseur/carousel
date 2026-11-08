@@ -131,6 +131,19 @@ if (args.action === "rejeter") {
   process.exit(0);
 }
 
+// « Supprimer » : on efface les images et l'actu revient dans « À valider », prête à être refaite.
+if (args.action === "supprimer") {
+  for (const i of targets) {
+    if (i.published && Object.keys(i.published).length) { console.log(`  ${i.title} : déjà publié, conservé`); continue; }
+    if (i.carousel?.dir) fs.rmSync(path.join(ROOT, i.carousel.dir), { recursive: true, force: true });
+    Object.assign(i, { status: "new", carousel: null, generatedAt: null, schedules: [], scheduled: null, error: null, publishError: null, instructions: null });
+    touched.add(i.id);
+    console.log(`  🗑 ${i.title}`);
+  }
+  saveNews(db);
+  process.exit(0);
+}
+
 if (args.instructions) targets.forEach((i) => (i.instructions = args.instructions));
 let failed = 0;
 for (const item of targets) {
