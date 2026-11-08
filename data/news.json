@@ -1736,7 +1736,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 8,
       "reason": "CAC 40 secoué par la peur d'une bulle IA, sujet chaud.",
       "hook": "Bulle IA : le CAC 40 prend l'onde de choc",
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T19:46:22.378Z"
+  "updatedAt": "2026-11-08T20:10:36.879Z"
 }
