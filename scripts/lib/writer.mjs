@@ -160,7 +160,7 @@ ${STYLE_GUIDE}
 
 ${CAPTION_GUIDE(brand)}
 
-ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["Actualité"]).map((c) => `« ${c} »`).join(", ")}.
+${brand.writerNotes ? `CONSIGNES PROPRES À CE COMPTE (prioritaires) :\n${brand.writerNotes}\n\n` : ""}ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["Actualité"]).map((c) => `« ${c} »`).join(", ")}.
 « Le saviez-vous ? » pour un fait étonnant ou historique, « Résultats » pour des résultats d'entreprise, « Données » pour une statistique ou une étude, sinon « Actualité ».`;
 }
 

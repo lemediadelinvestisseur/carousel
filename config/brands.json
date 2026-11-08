@@ -92,18 +92,22 @@
   },
   "21m2": {
     "name": "21m2",
-    "handle": "@21m2",
+    "handle": "@immo.21m2",
     "description": "Immobilier : investissement locatif, prix au m², crédit immobilier, réglementation, marché du logement en France.",
-    "tone": "Concret, chiffré, utile pour un investisseur ou un futur propriétaire. Phrases courtes, ton direct et moderne.",
+    "tone": "Direct, concret et chiffré, en TUTOIEMENT (« ton loyer », « tu peux »). Comme un ami qui s'y connaît en immobilier et explique l'actu sans jargon. Factuel, jamais sensationnaliste. Phrases courtes.",
     "theme": {
-      "bg": "#F4EFE6",
-      "bg2": "#E8DFD0",
-      "text": "#1E1E1E",
-      "muted": "#6B6257",
-      "accent": "#E4572E",
+      "bg": "#16205A",
+      "bg2": "#1E2C7A",
+      "text": "#FFFFFF",
+      "muted": "#A9B6E8",
+      "accent": "#A9BCFF",
       "accentText": "#FFFFFF",
-      "font": "Inter",
-      "titleFont": "Archivo Black"
+      "titleFont": "Space Grotesk",
+      "accent2": "#2F5CFF",
+      "bodyFont": "Manrope",
+      "slideBg": "radial-gradient(70% 45% at 0% 100%,rgba(47,92,255,.45) 0%,rgba(47,92,255,0) 70%),radial-gradient(60% 40% at 100% 0%,rgba(47,92,255,.28) 0%,rgba(47,92,255,0) 70%),#16205A",
+      "shadeRgb": "22,32,90",
+      "gradientEnd": "rgba(38,62,190,1)"
     },
     "keywords": [
       "immobilier",
@@ -132,10 +136,19 @@
     ],
     "cta": "Suivez 21m2 pour investir plus malin dans l'immobilier",
     "audience": "Français qui veulent acheter leur résidence principale ou investir dans la pierre (locatif, SCPI) ; sensibles aux taux, aux prix et à la fiscalité.",
-    "template": "classic",
+    "template": "photo",
     "ctaSlide": {
-      "title": "Suis **21m2**",
-      "subtitle": "pour investir plus malin dans l'immobilier"
-    }
+      "title": "Abonne-toi à **21m2**",
+      "subtitle": "Chaque jour, l'actu immo qui touche ton patrimoine, expliquée simplement."
+    },
+    "innerStyle": "text",
+    "logo": "assets/21m2/logo.png",
+    "categories": [
+      "Actualité",
+      "Le saviez-vous ?",
+      "Données",
+      "Fiscalité"
+    ],
+    "writerNotes": "PAGES INTÉRIEURES DE 21m2 : elles sont en texte seul, sans photo. Laisse image_query et image_entity VIDES pour toutes les pages intérieures, SAUF si la page parle d'une ville précise : mets alors image_query = « <ville> <monument emblématique> photo » (ex : « Lyon basilique de Fourvière photo », « Mulhouse temple Saint-Étienne photo »).\nCOUVERTURE DE 21m2 : si l'actu concerne une ville, photo de cette ville avec un monument emblématique ; sinon une belle photo immobilière (façade haussmannienne, immeuble, toits de Paris, clés, chantier, maison), pas de personne en gros plan sauf si l'actu porte sur elle.\nCHIFFRES : pour présenter des chiffres (prix, rendements, montants), utilise kind=list avec des puces qui commencent par la valeur en gras (ex : « **12,7 %** de rendement brut à Mulhouse », « **3 412 €** le m² à Montpellier ») : elles s'affichent en cartes avec un gros chiffre."
   }
 }
