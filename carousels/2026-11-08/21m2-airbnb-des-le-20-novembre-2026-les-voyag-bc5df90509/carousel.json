@@ -14,7 +14,30 @@
     "status": "generating",
     "aiScore": 6,
     "reason": "Nouvelle règle Airbnb qui divise hôtes et voyageurs.",
-    "hook": "Airbnb interdit d'imposer le ménage aux voyageurs"
+    "hook": "Airbnb interdit d'imposer le ménage aux voyageurs",
+    "generatedAt": "2026-11-08T20:55:48.447Z",
+    "carousel": {
+      "dir": "carousels/2026-11-08/21m2-airbnb-des-le-20-novembre-2026-les-voyag-bc5df90509",
+      "files": [
+        "slide-01.jpg",
+        "slide-02.jpg",
+        "slide-03.jpg",
+        "slide-04.jpg",
+        "slide-05.jpg",
+        "slide-06.jpg",
+        "slide-07.jpg",
+        "slide-08.jpg",
+        "slide-09.jpg",
+        "carousel.pdf"
+      ],
+      "generator": "claude-opus-5-5",
+      "slides": 9,
+      "hooks": [
+        "Ménage de départ : **Airbnb** change les règles le **20 novembre**",
+        "**Airbnb** : tes voyageurs ne feront plus la **vaisselle**",
+        "Loueurs **Airbnb** : **ce qui change** au 20 novembre"
+      ]
+    }
   },
   "carousel": {
     "category": "Actualité",
@@ -22,99 +45,114 @@
       {
         "kind": "cover",
         "kicker": "",
-        "title": "À partir du **20 novembre**, **Airbnb** interdira aux hôtes d'imposer le **ménage** aux voyageurs. Il te reste **12 jours** pour revoir tes annonces.",
-        "body": "",
+        "title": "Airbnb : fini les **corvées de départ** pour les voyageurs",
+        "body": "Dès le **20 novembre**, un hôte ne pourra plus exiger **vaisselle**, **draps** ou **machine à laver**. Il te reste **12 jours** pour adapter ton annonce.",
         "bullets": [],
-        "image_query": "Airbnb logo smartphone",
+        "image_query": "bright cozy vacation rental apartment bedroom interior",
         "image_entity": "Airbnb"
       },
       {
         "kind": "content",
-        "kicker": "CE QUI CHANGE",
-        "title": "Fini le **lit à défaire** et la **vaisselle** à laver",
-        "body": "Dès le **20 novembre**, un hôte ne pourra plus exiger les tâches qui demandent « un effort ou un temps considérable » : défaire le lit, laver et ranger la **vaisselle**, lancer une **lessive**, emporter les poubelles hors du logement.\nLa règle s'appliquera dans le **monde entier**, donc aussi en France.",
+        "kicker": "LE CONTEXTE",
+        "title": "Une plainte qui revenait sans cesse",
+        "body": "Airbnb l'a annoncé le **20 octobre**, par e-mail aux hôtes. Beaucoup de voyageurs se plaignaient de payer des **frais de ménage** et de recevoir en plus une liste de **corvées** avant de partir.\nLa nouvelle politique s'appelle « **Règles de la maison et demandes raisonnables** ». Elle s'appliquera **partout dans le monde**.",
         "bullets": [],
-        "image_query": "unmade bed vacation rental apartment",
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "list",
+        "kicker": "CE QUI EST INTERDIT",
+        "title": "Ce que l'hôte ne pourra plus exiger",
+        "body": "",
+        "bullets": [
+          "Faire la **vaisselle** et la ranger avant de partir : ce sera au ménage de s'en charger.",
+          "Retirer les **draps** et les housses, ou lancer une **machine à laver** avant de rendre les clés.",
+          "Sortir les **poubelles** hors du logement. Le tri des déchets, lui, reste autorisé."
+        ],
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "content",
         "kicker": "CE QUI RESTE PERMIS",
-        "title": "Les petites consignes restent autorisées",
-        "body": "Tu pourras toujours demander de mettre la vaisselle sale dans l'**évier**, de rassembler les **serviettes**, de trier le recyclage, de jeter les ordures dans les bacs prévus et de rendre les clés.\nLes hôtes gardent aussi **7 règles standard** : occupants, horaires de calme, fêtes, animaux, tabac, photos et clés.",
+        "title": "Le voyageur doit quand même rendre un logement propre",
+        "body": "Airbnb vise les tâches qui demandent « un **effort ou un temps considérable** ». L'hôte pourra encore demander de mettre la **vaisselle sale dans l'évier**, de **trier les déchets**, de rassembler les serviettes, de fermer à clé et de rendre les clés.\nEn revanche, aucune **pénalité** ne pourra être facturée pour une tâche non faite.",
         "bullets": [],
-        "image_query": "dirty dishes in kitchen sink",
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "LE CONTEXTE",
-        "title": "Payer le ménage, puis le faire soi-même",
-        "body": "Les voyageurs payaient des **frais de ménage** à la réservation, puis l'hôte leur demandait quand même de nettoyer. Airbnb dit que ces règles étaient « **source de confusions** » pour sa communauté.\nLa plateforme avait déjà prévenu en **2022**, puis créé une liste de tâches de départ en **2023**.",
+        "kicker": "LA DATE QUI COMPTE",
+        "title": "C'est le jour de la réservation qui compte",
+        "body": "La règle vaut pour les réservations faites à partir du **20 novembre**, même si le séjour a lieu plus tard. Un séjour réservé avant reste soumis aux **anciennes règles**.\nToutes les consignes devront figurer **dans l'annonce avant la réservation**. Plus aucun ajout possible par message, par affiche dans le logement ou à l'oral.",
         "bullets": [],
-        "image_query": "Airbnb headquarters San Francisco",
-        "image_entity": "Airbnb"
-      },
-      {
-        "kind": "content",
-        "kicker": "LES RÈGLES DU JEU",
-        "title": "Des frais de ménage, mais plus d'amendes",
-        "body": "Les **frais de ménage** restent autorisés. En revanche, les **amendes** et tout frais facturé pour une tâche non faite seront interdits. Chaque consigne devra figurer sur l'annonce **dès la réservation**.\nSelon certains médias, un hôte récidiviste s'exposera à des avertissements et à une **baisse de visibilité** dans les recherches.",
-        "bullets": [],
-        "image_query": "vacation rental cleaning staff",
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "content",
-        "kicker": "LES CRAINTES",
-        "title": "Les hôtes ne sont pas contents",
-        "body": "Des **centaines d'hôtes** ont critiqué la règle. Certains menacent de partir sur d'autres plateformes ou de modifier leurs **prix**.\nD'autres craignent pour l'**hygiène** : la vaisselle sale pourrait attirer des nuisibles si l'équipe de ménage arrive plusieurs heures après le départ. Le **ménage** sera aussi plus long, donc probablement plus cher.",
+        "kicker": "CE QUI CHANGE",
+        "title": "Le ménage revient entièrement à l'hôte",
+        "body": "Le travail ne disparaît pas : il passe à toi ou à ton **équipe de ménage**. Les rotations de quelques heures entre deux voyageurs seront plus chargées.\nUne annonce non conforme t'expose à une **suspension** ou à un **retrait** de la plateforme. Les dégâts, eux, restent couverts par **AirCover**.",
         "bullets": [],
-        "image_query": "frustrated host laptop apartment",
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "list",
         "kicker": "LES SOLUTIONS",
-        "title": "Ce que tu peux faire avant le **20 novembre**",
+        "title": "Ce que tu peux faire avant le 20 novembre",
         "body": "",
         "bullets": [
-          "Relis tes annonces dans l'**outil de modification** d'Airbnb : il signale déjà les demandes qui ne respectent pas la règle.",
-          "Réécris tes consignes avec ce qui reste permis : vaisselle dans l'évier, serviettes rassemblées, tri et poubelles dans les bacs.",
-          "Revois tes **frais de ménage**, toujours autorisés, et justifie toute exception par une vraie contrainte locale, comme une sécheresse."
+          "Relis ton **règlement intérieur**, choisis parmi les **7 règles standard** et ne garde que les demandes raisonnables.",
+          "Revois tes **chiffres** : raccourcis ta liste de départ, augmente tes **frais de ménage**, ou fais les deux.",
+          "Préviens ton **prestataire de ménage** ou ta conciergerie pour adapter la durée de chaque rotation."
         ],
-        "image_query": "Airbnb app listing on smartphone",
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "ET APRÈS ?",
+        "title": "Des hôtes en colère, des frais qui pourraient grimper",
+        "body": "Des pétitions circulent et certains hôtes appellent à un « **blackout** » le **20 novembre** : fermer leurs réservations ce jour-là. D'autres menacent d'**augmenter leurs prix** ou de changer de plateforme.\nLes **frais de ménage** affichés pourraient donc monter. Rappel : c'est une règle d'**Airbnb**, pas une loi.",
+        "bullets": [],
+        "image_query": "",
         "image_entity": ""
       },
       {
         "kind": "cta",
         "kicker": "",
-        "title": "Tu loues ton logement sur **Airbnb** ?",
-        "body": "Dis-nous en commentaire si tu trouves cette règle juste ou si tu vas changer tes prix 👇",
+        "title": "Hôte ou voyageur, tu es **pour** ou **contre** cette nouvelle règle d'**Airbnb** ?",
+        "body": "Dis-nous en commentaire ce que tu en penses 👇",
         "bullets": [],
         "image_query": "",
         "image_entity": ""
       }
     ],
     "hook_alternatives": [
-      "Le **20 novembre**, **Airbnb** changera la règle : plus de **vaisselle**, de lessive ni de lit à défaire pour les voyageurs. Les **hôtes** sont furieux.",
-      "Tu paies des **frais de ménage** et l'hôte te demande quand même de nettoyer ? **Airbnb** l'interdira dans le monde entier dès le **20 novembre**.",
-      "**Airbnb** interdira les **amendes** et les corvées de départ à partir du **20 novembre**. Pour les hôtes, le **ménage** risque de coûter plus cher."
+      "Airbnb : la **vaisselle** ne sera plus ton problème",
+      "Location courte durée : **Airbnb** change les règles du **ménage**",
+      "**20 novembre** : Airbnb interdit les **listes de corvées**"
     ],
-    "caption": "Airbnb interdira aux hôtes d'imposer le ménage aux voyageurs à partir du 20 novembre 2026.\n\nLa règle s'appliquera dans le monde entier, France comprise. Un hôte ne pourra plus exiger qu'on défasse le lit, qu'on lave et range la vaisselle, qu'on lance une lessive ou qu'on emporte les poubelles hors du logement. Airbnb vise toutes les tâches qui demandent « un effort ou un temps considérable » ou qui reviennent normalement à un agent d'entretien.\n\nTout n'est pas interdit pour autant. Tu pourras toujours demander de mettre la vaisselle sale dans l'évier, de rassembler les serviettes, de trier le recyclage ou de jeter les ordures dans les bacs prévus.\n\n• Les frais de ménage restent autorisés. En revanche, les amendes et les frais facturés parce qu'une tâche n'a pas été faite seront interdits, et chaque consigne devra apparaître sur l'annonce au moment de la réservation.\n\n• Pour les hôtes, le ménage de fin de séjour sera plus long, donc probablement plus cher. Certains craignent aussi que la vaisselle sale attire des nuisibles quand l'équipe de ménage arrive plusieurs heures après le départ des voyageurs.\n\nSi tu loues en courte durée, prends le temps de relire tes annonces dans l'outil de modification d'Airbnb : il signale déjà les demandes qui ne respectent pas la règle. La plateforme enverra aussi des e-mails aux hôtes concernés.\n\nTu trouves cette règle juste pour les voyageurs ou injuste pour les hôtes ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
+    "caption": "Sur Airbnb, les voyageurs n'auront bientôt plus à faire la vaisselle ni à défaire le lit avant de partir.\n\nAirbnb l'a annoncé le 20 octobre aux hôtes : pour toutes les réservations faites à partir du 20 novembre 2026, un hôte ne pourra plus exiger de laver et ranger la vaisselle, de retirer les draps, de lancer une machine ou de sortir les poubelles hors du logement. La règle s'appliquera partout dans le monde.\n\nAttention à la date : c'est le jour de la réservation qui compte, pas celui du séjour. Un séjour réservé avant le 20 novembre restera soumis aux anciennes règles, même s'il commence après.\n\n• Ce qui reste autorisé : demander de mettre la vaisselle sale dans l'évier, de trier les déchets, de rassembler les serviettes, de fermer à clé et de rendre les clés. Le voyageur doit toujours laisser un logement propre, et les dégâts restent couverts par AirCover.\n\n• Ce qui change pour toi si tu loues en courte durée : toutes tes consignes devront être écrites dans l'annonce avant la réservation, et aucune pénalité ne pourra être facturée pour une tâche non faite. Une annonce non conforme pourra être suspendue ou retirée.\n\nLe travail ne disparaît pas, il passe à l'hôte ou à son équipe de ménage. Certains hôtes prévoient déjà d'augmenter leurs frais de ménage, et un appel à fermer les réservations le 20 novembre circule.\n\nTu loues sur Airbnb ou tu voyages avec ? Dis-nous si cette règle va changer tes habitudes.\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
     "sources": [
       "Le Revenu",
-      "Boursorama",
-      "TF1 Info",
+      "SeLoger",
+      "BBC",
+      "Associated Press",
       "ABC News",
-      "Time Out",
-      "Fox Business",
-      "Dexerto",
-      "One Mile at a Time",
-      "Law Commentary",
-      "WIRED"
+      "The Verge",
+      "Économie Matin",
+      "RTS",
+      "Narcity",
+      "24matins",
+      "Labo Maison",
+      "LawCommentary"
     ],
-    "dossier": "# Dossier : Airbnb interdit d'imposer des corvées de ménage aux voyageurs à partir du 20 novembre 2026\n\n**Sources utilisées.** Mes recherches ont été limitées : la limite d'outils a été atteinte, et une seule recherche plus une lecture d'article ont abouti. J'ai donc une seule source française lue en entier, **Boursorama** (23/10/2026, qui reprend **TF1 Info**). Le reste vient de médias anglophones : ABC News (Australie), Time Out, Fox Business, Dexerto, One Mile at a Time, Law Commentary et Breezyscroll (qui cite WIRED). Je n'ai pas lu le texte officiel d'Airbnb, seulement des citations reprises par ces médias. Il faut donc le vérifier avant publication.\n\n---\n\n## 1. Les faits\n\n| Fait | Source(s) |\n|---|---|\n| **Entrée en vigueur : 20 novembre 2026** | Le Revenu, Boursorama/TF1 Info, Time Out, One Mile at a Time |\n| **Annonce faite le 20 octobre 2026** | Law Commentary uniquement (non confirmé ailleurs) |\n| **S'applique dans le monde entier** | Le Revenu ; ABC parle des réservations couvertes par la politique mondiale d'Airbnb, Australie comprise |\n| Nom de la règle : « reasonable house rules and requests » (règlement intérieur et demandes raisonnables) | Breezyscroll |\n| **Interdit d'exiger :** les tâches qui demandent « un effort ou un temps considérable » ou qui seraient « généralement effectuées par un agent d'entretien ». Exemples : défaire le lit, laver et ranger la vaisselle, lancer une lessive, emporter les poubelles hors du logement | Boursorama (citation d'Airbnb traduite), One Mile at a Time, Fox Business, Dexerto |\n| **Toujours permis :** mettre la vaisselle sale dans l'évier, rassembler les serviettes utilisées | ABC, Time Out, Boursorama |\n| Également permis : trier le recyclage, jeter les ordures dans les bacs prévus, fermer à clé, rendre les clés | Law Commentary |\n| **Les hôtes gardent 7 règles standard au choix :** nombre maximum d'occupants, horaires de calme, événements, animaux, tabac et vapotage, droit de photographier ou filmer, endroit où laisser les clés | Boursorama, Fox Business |\n| **Exceptions possibles** si elles sont justifiées localement : limiter la durée des douches en cas de sécheresse, utiliser une poubelle anti-ours | Boursorama (citation d'Airbnb) |\n| **Les frais de ménage restent autorisés** | Time Out, Dexerto |\n| **Interdiction des amendes et pénalités**, et de tout frais facturé parce qu'une tâche n'a pas été faite | Boursorama, Time Out, Breezyscroll/WIRED |\n| Les demandes doivent figurer sur l'annonce **au moment de la réservation**, pas être ajoutées ensuite | Time Out |\n| Le règlement intérieur sera affiché dans l'onglet « Voyages » et dans les rappels de réservation | Boursorama |\n\n**Chiffres manquants.** Aucune source ne donne le nombre d'hôtes ou d'annonces concernés, en France ou ailleurs, ni le montant moyen des frais de ménage, ni une estimation de l'impact financier.\n\n## 2. Le contexte\n\n- **Les plaintes des voyageurs** (Boursorama, ABC). Les voyageurs payaient des frais de ménage, parfois élevés, à la réservation, puis l'hôte leur demandait quand même de nettoyer avant de partir. Airbnb explique que sa communauté jugeait ces règles « source de confusions, contraignantes et difficiles à gérer » (traduction citée par Boursorama).\n- **Une suite de mesures plus anciennes** (Breezyscroll) :\n  - en novembre 2022, Airbnb écrivait déjà que les voyageurs ne devaient pas avoir à faire de tâches de départ « déraisonnables » ;\n  - en 2023, sa mise à jour d'été (« Summer Release ») a créé une liste de tâches de départ prédéfinies.\n- **Une méthode habituelle chez Airbnb** : imposer des règles mondiales sur l'expérience des voyageurs. La plateforme l'a déjà fait avec l'interdiction définitive des fêtes (NPR, 2022) et celle des caméras à l'intérieur des logements (CBS).\n\n## 3. Ce qui change pour un particulier français\n\n**Si vous louez sur Airbnb (investisseur en location courte durée) :**\n- Vous ne pourrez plus exiger le lit défait, la vaisselle lavée ou les poubelles emportées. C'est votre équipe de ménage ou vous-même qui prendrez ces tâches en charge.\n- Vous ne pourrez pas facturer ni pénaliser un voyageur qui n'a pas fait une tâche (Time Out, Boursorama).\n- Vous gardez le droit de facturer des frais de ménage (Time Out, Dexerto).\n- Airbnb signale déjà dans l'outil de modification des annonces les demandes qui ne respectent pas la règle (Breezyscroll). La plateforme enverra aussi des e-mails aux hôtes concernés pour les aider à corriger (Fox Business).\n\n**Si vous êtes voyageur :** vous pouvez signaler une demande interdite via l'assistance Airbnb (Law Commentary).\n\n**Pas encore traité.** Aucune source lue n'analyse les effets propres au marché français, comme la fiscalité des meublés de tourisme ou les règles municipales.\n\n## 4. Risques et points de vigilance\n\n- **Coût du ménage.** Plus de travail pour l'équipe de ménage, donc probablement une facture plus élevée. C'est une déduction logique : aucune source ne chiffre ce coût.\n- **Sanctions.** Les sources ne décrivent pas toutes les mêmes (voir la section divergences). Selon Dexerto, un hôte qui enfreint la règle à plusieurs reprises s'expose à des avertissements, à un signalement de ses annonces ou à une baisse de leur visibilité dans les résultats de recherche.\n- **Hygiène.** Des hôtes s'inquiètent sur le forum Airbnb : la vaisselle sale pourrait attirer des nuisibles quand l'équipe de ménage arrive plusieurs heures après le départ (Law Commentary, Dexerto).\n- **Colère des hôtes.** Des centaines d'hôtes ont critiqué la règle. Certains menacent de passer sur d'autres plateformes ou de modifier leurs prix (ABC, Breezyscroll).\n- **Ne pas compenser par des amendes ou une hausse discrète des frais.** Les pénalités sont interdites. Toute demande doit être visible dès la réservation (Time Out).\n\n## 5. Solutions concrètes citées par les sources\n\n1. **Vérifier ses annonces dans l'outil de modification d'Airbnb.** Il signale les demandes non conformes (Breezyscroll). Suivre les e-mails d'Airbnb (Fox Business).\n2. **Réécrire ses consignes** avec ce qui reste autorisé : vaisselle dans l'évier, serviettes rassemblées, tri, poubelles dans les bacs prévus, clés (Law Commentary, Time Out).\n3. **Utiliser les 7 règles standard** pour encadrer le séjour (Boursorama, Fox Business).\n4. **Justifier une éventuelle exception** par une contrainte locale réelle, sur le modèle sécheresse ou poubelle anti-ours (Boursorama).\n5. **Revoir ses frais de ménage**, qui restent permis (Time Out). Les sources ne donnent aucun chiffre pour calibrer le montant.\n6. **Pistes évoquées par des hôtes, sans être recommandées par les sources** : louer à des étudiants, interdire l'usage de la cuisine (une hôte citée par ABC), passer sur une autre plateforme (ABC).\n\nLes sources ne citent **aucun prestataire précis** (conciergeries, sociétés de ménage, logiciels). Je n'en ajoute donc pas.\n\n## 6. Perspectives\n\n- **Premier test : les réservations à partir du 20 novembre** (Breezyscroll). Elles montreront si Airbnb applique vraiment la règle.\n- **Réaction des hôtes.** On verra si les menaces de départ vers d'autres plateformes se concrétisent (ABC). Aucune donnée n'existe à ce jour.\n- **Contexte français, d'après les articles liés sur Le Revenu.** En Île-de-France, 52 900 annonces dépassaient 120 jours de location par an en 2025, soit 38 % des locations. Le DPE change aussi au 1er janvier 2027. Je n'ai pas lu ces articles en entier.\n- **Inconnu.** Aucune source ne dit si d'autres plateformes, comme Booking ou Abritel, adopteront une règle similaire.\n\n## ⚠️ Divergences entre sources\n\n1. **Quelles locations sont concernées ?** One Mile at a Time et Breezyscroll parlent des réservations **faites** à partir du 20 novembre 2026. Le Revenu et Boursorama/TF1 écrivent simplement « dès le 20 novembre », sans préciser s'il s'agit de la date de réservation ou du séjour. Il faut trancher avec le texte officiel d'Airbnb.\n2. **Les poubelles.** Le Revenu parle de « transporter les poubelles à l'extérieur » et Boursorama de « sortir les poubelles ». Les sources anglophones parlent d'emporter les déchets hors du site, et Law Commentary précise que jeter ses ordures dans les bacs prévus reste permis. Les formulations françaises vont donc plus loin que la règle.\n3. **Le titre « plus à faire le ménage » (Le Revenu) exagère.** Des tâches légères restent permises (toutes les sources).\n4. **Le lien avec les frais de ménage.** Boursorama présente l'interdiction comme valable quand l'hôte facture « déjà » des frais de ménage. Les autres sources la présentent comme générale.\n5. **Les sanctions.** Fox Business évoque des signalements et des e-mails. Dexerto ajoute avertissements et baisse de visibilité. Law Commentary parle de « pénalités » en cas de récidive, sans détail.",
+    "dossier": "# Dossier : Airbnb interdit d'imposer le ménage aux voyageurs à partir du 20 novembre 2026\n\n**Méthode et limites :** j'ai fait une recherche, puis j'ai atteint la limite d'outils. Je n'ai donc lu que les extraits renvoyés par le moteur, pas les articles entiers. Je n'ai pas consulté directement la page officielle d'Airbnb, et je n'ai pas eu accès au texte complet de l'article du Revenu. Les blogs commerciaux (Glenn Beaudet, DirectHôte, RentalScaleUp) sont des sources moins fiables que la presse. Les points à vérifier sont signalés par ⚠️.\n\n---\n\n## 1. Les faits\n\n| Fait | Source(s) |\n|---|---|\n| **Annonce** faite le 20 octobre 2026, dans le centre de ressources pour les hôtes et par un e-mail envoyé aux propriétaires | Narcity, SeLoger, LawCommentary |\n| **Entrée en vigueur : 20 novembre 2026**, partout dans le monde | Le Revenu, SeLoger, Glenn Beaudet |\n| **⚠️ C'est la date de réservation qui compte.** La règle vaut pour les réservations faites à partir du 20 novembre, même si le séjour a lieu plus tard. Elle ne vaut pas pour les séjours commençant le 20 novembre mais réservés avant. | BBC (cité par Économie Matin), ABC News, LawCommentary, Labo Maison, 24matins, Ulysse |\n| **Nom de la politique :** « Règles de la maison et demandes raisonnables » | SeLoger |\n| **Ce que l'hôte ne peut plus exiger :** faire et ranger la vaisselle, retirer les draps et housses, lancer une machine à laver, sortir les poubelles hors du logement | The Verge (cité par Économie Matin), 24matins, AP |\n| **Critère retenu par Airbnb :** les tâches qui demandent « un effort ou un temps considérable » ou qui sont normalement faites par du personnel de ménage | RTS, Labo Maison, LawCommentary |\n| **Ce que l'hôte peut encore demander :** mettre la vaisselle sale dans l'évier, trier les déchets, fermer à clé, rendre les clés | SeLoger, RTS, LawCommentary |\n| L'hôte peut aussi demander de rassembler les serviettes usagées | AP (The Business Journal) |\n| **Sept règles standard** au choix (dont voyageurs pour la nuit, heures calmes, animaux, tabac, fermer à clé au départ), plus des « demandes » qu'Airbnb doit juger raisonnables | AP, Narcity |\n| Les instructions de départ n'ont plus leur propre onglet : elles rejoignent cette section | Narcity, LawCommentary |\n| **Toutes les règles doivent figurer dans l'annonce avant la réservation.** Aucun ajout possible ensuite, que ce soit par message, par affichage dans le logement ou à l'oral | BBC (cité par Économie Matin), DirectHôte, AP |\n| L'hôte ne peut plus restreindre l'accès à un équipement mentionné dans l'annonce | RTS |\n| **Aucune pénalité** ne peut être facturée parce qu'une tâche de départ n'a pas été faite | SeLoger, Labo Maison |\n| **Sanctions pour l'hôte :** suspension ou retrait de la plateforme | Narcity |\n| La plateforme bloquerait automatiquement la publication d'une annonce qui tente de contourner la règle | Économie Matin |\n\n**Chiffres manquants :** aucune source ne donne le nombre d'hôtes français concernés, le montant moyen des frais de ménage, ni une estimation du surcoût pour les propriétaires.\n\n## 2. Le contexte : pourquoi cette décision\n\n- **Une plainte récurrente des voyageurs :** payer des frais de ménage et recevoir en plus une liste de corvées (AP, ABC News, RentalScaleUp).\n- **La justification d'Airbnb :** selon Live5News, la plateforme dit répondre aux retours des utilisateurs, pour qui les règles étaient confuses et difficiles à gérer.\n- **Une règle déjà en partie existante :** les règles d'Airbnb sur les frais de ménage interdisaient déjà de facturer un voyageur parce qu'il n'avait pas fait une corvée (LawCommentary). Labo Maison cite les « Règles de base » d'Airbnb : ces frais doivent couvrir le ménage de base entre deux réservations.\n\n## 3. Ce qui change concrètement pour un investisseur français en location courte durée\n\n- **Le travail ne disparaît pas, il passe à l'hôte ou à son équipe de ménage.** Les rotations, souvent de quelques heures entre un départ et une arrivée le même jour, deviennent plus chargées (DirectHôte).\n- **Les annonces doivent être modifiées :** retirer les corvées interdites et reparamétrer les règles (Glenn Beaudet, RentalScaleUp).\n- **Les dégâts restent couverts :** ils relèvent d'AirCover, la protection d'Airbnb pour les hôtes (SeLoger). Le voyageur reste responsable des dégâts ou d'un état qui demande un nettoyage inhabituel, avec possibilité de demander un remboursement via la procédure de résolution d'Airbnb (LawCommentary).\n- **Les réservations faites avant le 20 novembre** restent régies par les anciennes règles (LawCommentary).\n\n## 4. Risques et points de vigilance\n\n1. **Le titre est trompeur.** « Plus de ménage du tout » est faux : le voyageur doit toujours rendre un logement propre (Labo Maison) et les demandes raisonnables restent autorisées.\n2. **⚠️ Ce n'est pas une loi.** Le Revenu parle de « réglementation », mais il s'agit d'une politique interne d'Airbnb. Elle ne s'applique pas aux autres plateformes ni aux locations en direct. Cette précision vient de mon analyse, pas d'une source.\n3. **Plus de coûts et de temps de rotation**, avec un risque de pression sur la rentabilité. Aucune source ne chiffre cet effet.\n4. **Le risque de sanction** (suspension, retrait) est réel pour une annonce non conforme (Narcity).\n5. **Les hôtes sont en colère :** pétitions en ligne et appel à un « blackout » des hôtes le 20 novembre, c'est-à-dire fermer les réservations ce jour-là (ABC News, Australie). Certains menacent de changer de plateforme ou d'augmenter leurs prix (ABC News, 24matins).\n6. **⚠️ La vérification d'identité.** RentalScaleUp signale des changements sur la collecte de pièces d'identité « qu'aucune loi n'exige ». Pour la France, je n'ai trouvé aucune source sur ce point. À vérifier avant de publier.\n\n## 5. Solutions concrètes citées par les sources\n\n- **Vérifier son annonce avant le 20 novembre :** relire le règlement intérieur, choisir parmi les 7 règles standard et ne garder que les demandes raisonnables (Glenn Beaudet, Narcity).\n- **Revoir ses chiffres :** raccourcir la liste de départ, augmenter les frais de ménage, ou les deux (RentalScaleUp).\n- **Adapter l'organisation du ménage** avec son prestataire ou sa conciergerie (Glenn Beaudet, DirectHôte). Aucun prestataire n'est nommé.\n- **En cas de dégâts :** AirCover et la procédure de résolution d'Airbnb (SeLoger, LawCommentary).\n- **Exemples de consignes encore autorisées :** vaisselle dans l'évier, tri des déchets, fermeture à clé, rendu des clés (SeLoger).\n- **Autres plateformes :** les sources parlent d'hôtes qui envisagent de partir, mais **n'en citent aucune nommément**.\n\n## 6. Perspectives\n\n- **Le 20 novembre** sera un test, avec le possible « blackout » des hôtes (ABC News). Son ampleur en France est inconnue.\n- **Une possible hausse des frais de ménage** affichés (RentalScaleUp, ABC News). Aucun chiffre n'est disponible.\n- **Une exception locale existe :** Live5News cite l'obligation de jeter les déchets dans des conteneurs anti-ours. Cela laisse penser qu'Airbnb pourrait accepter d'autres contraintes locales. Aucune exception propre à la France n'est mentionnée.\n- **Le Revenu annonce un autre changement :** l'évolution du DPE au 1er janvier 2027 (6 nouvelles informations). Ce sujet est distinct mais concerne aussi les bailleurs.\n\n## Divergences et pièges entre les sources\n\n- **Quelle date compte :** Le Revenu, SeLoger et RTS disent « dès le 20 novembre » sans préciser. La BBC, LawCommentary, ABC et Labo Maison précisent que c'est la date de réservation.\n- **Un temps qui ne colle pas :** DirectHôte écrit « depuis le 20 novembre 2026 » dans un texte publié environ trois semaines avant cette date.\n- **Les poubelles :** sortir les poubelles hors du logement est interdit (The Verge, AP), mais trier les déchets reste autorisé (RTS, SeLoger). Sur un carrousel, il faut bien distinguer les deux.\n- **Un faux ami à éviter :** un communiqué Airbnb mentionnant le « 20 novembre » concerne en réalité le protocole de nettoyage Covid de 2020. Il n'a rien à voir avec cette actualité.\n\n**Avant publication**, je recommande de vérifier directement sur le centre de ressources d'Airbnb la liste exacte des 7 règles et le point sur les pièces d'identité en France.",
     "generator": "claude-opus-5-5"
   }
 }
