@@ -1511,7 +1511,7 @@
       "aiScore": 6,
       "reason": "Piratage record chez Binance, sujet crypto fort.",
       "hook": "Piratage record : Binance limoge son directeur financier",
-      "generatedAt": "2026-11-08T20:14:57.195Z",
+      "generatedAt": "2026-11-08T20:56:43.039Z",
       "carousel": {
         "dir": "carousels/2026-11-07/investisseur-binance-evince-son-directeur-financier-a-499133c326",
         "files": [
@@ -1529,9 +1529,9 @@
         "generator": "claude-opus-5-5",
         "slides": 9,
         "hooks": [
-          "**6,3 milliards** de dollars volés chez **Binance**, et neuf jours plus tard, son **directeur financier** s'en va. Voici ce que ça change pour toi.",
-          "Un **faux recruteur**, un test technique piégé, et **Binance** s'est fait voler **6,3 milliards** de dollars. Son **directeur financier** vient de partir.",
-          "Après le **plus gros vol** de l'histoire des cryptos, **Binance** change de **directeur financier**. Et en France, tes fonds n'ont **aucune garantie légale**."
+          "**6,3 milliards** de dollars volés en **20 minutes** chez **Binance**. Neuf jours plus tard, son **directeur financier** quitte son poste.",
+          "Neuf jours après un piratage record, **Binance** remplace son **directeur financier**. Officiellement, la transition était prévue depuis **six mois**.",
+          "Le plus gros vol de l'histoire des cryptos a touché **Binance**. Et ses **2 millions** de clients français n'ont **aucune garantie** de remboursement."
         ]
       }
     },
@@ -2421,5 +2421,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:56:18.682Z"
+  "updatedAt": "2026-11-08T20:56:47.634Z"
 }
