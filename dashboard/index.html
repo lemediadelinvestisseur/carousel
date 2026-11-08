@@ -91,6 +91,15 @@ dialog::backdrop{background:rgba(0,0,0,.5)}
 .runs{font-size:13px;color:var(--muted)}
 details summary{cursor:pointer}
 .hooks{margin-top:10px;font-size:14px}
+.li-panel h3{margin-bottom:10px}
+.li-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
+.li-card{display:flex;gap:14px;align-items:flex-start}
+.li-cover{width:110px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;flex:none;cursor:zoom-in;background:var(--line)}
+.li-body{flex:1;min-width:0}
+.li-body h3{font-size:15px}
+.li-status{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px;font-size:13px}
+.li-st{background:var(--line);border-radius:8px;padding:5px 10px;font-weight:700;color:var(--text);text-decoration:none}
+.li-st.ok{background:#E7F6EC;color:#1F7A44}.li-st.sch{background:#E8EFFE;color:#1F4FBF}
 .adv{margin-top:14px}.adv summary{cursor:pointer;font-weight:700;font-size:13px;color:var(--muted)}
 .hooks summary{font-weight:700;color:var(--muted);padding:6px 0}
 .hook-alt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;margin-top:6px;cursor:pointer;font-weight:600}
@@ -199,8 +208,10 @@ const BRANDS = { investisseur: "Le média de l'investisseur", "21m2": "21m2" };
 const TABS = [
   { key: "new", label: "À valider", match: (i) => i.status === "new" && !pending(i.id) },
   { key: "wip", label: "En cours", match: (i) => ["validated", "generating"].includes(i.status) || (i.status === "new" && pending(i.id)) },
-  { key: "done", label: "Prêts", match: (i) => i.status === "done" && !isPublished(i) },
-  { key: "published", label: "Publiés", match: (i) => i.status === "done" && isPublished(i) },
+  { key: "done", label: "Prêts", match: (i) => i.status === "done" && !isPublished(i) && !schedulesOf(i).length },
+  { key: "scheduled", label: "Programmés", match: (i) => i.status === "done" && schedulesOf(i).length > 0 },
+  { key: "published", label: "Publiés", match: (i) => i.status === "done" && isPublished(i) && !schedulesOf(i).length },
+  { key: "linkedin", label: "LinkedIn", match: (i) => i.status === "done" },
   { key: "error", label: "Erreurs", match: (i) => i.status === "error" },
   { key: "rejected", label: "Écartées", match: (i) => ["rejected", "ignored"].includes(i.status) },
 ];
@@ -217,6 +228,14 @@ function guessRepo() {
   const seg = location.pathname.split("/").filter(Boolean)[0];
   return m && seg ? `${m[1]}/${seg}` : "lemediadelinvestisseur/carousel";
 }
+// Programmations d'un carousel (plusieurs possibles : un horaire par réseau). Reprend l'ancien format.
+function schedulesOf(i) {
+  const list = Array.isArray(i.schedules) ? [...i.schedules] : [];
+  if (i.scheduled && i.scheduled.at) list.push(i.scheduled);
+  return list.filter((s) => s && s.at && s.targets).sort((a, b) => a.at.localeCompare(b.at));
+}
+const NETS = { instagram: "Instagram", facebook: "Facebook", linkedin: "LinkedIn" };
+const netNames = (targets) => String(targets).split(",").map((t) => NETS[t] || t).join(" + ");
 // Publié = au moins un réseau a reçu le carousel.
 function isPublished(i) { return Object.values(i.published || {}).some((v) => v && (v.url || v.id)); }
 const DEFAULT_REPO = "lemediadelinvestisseur/carousel";
@@ -267,6 +286,7 @@ async function load() {
     render();
     loadRuns();
     loadSources();
+    loadSocialStatus();
   } catch (e) {
     $("list").innerHTML = `<div class="empty">Impossible de charger les actus.<br><small>${esc(e.message)}</small></div>`;
   }
@@ -312,6 +332,12 @@ function render() {
   if (state.tab === "done") list.sort((a, b) => (b.generatedAt || "").localeCompare(a.generatedAt || ""));
   const pubAt = (i) => Object.values(i.published || {}).map((v) => v?.at || "").sort().pop() || "";
   if (state.tab === "published") list.sort((a, b) => pubAt(b).localeCompare(pubAt(a)));
+  if (state.tab === "scheduled") list.sort((a, b) => schedulesOf(a)[0].at.localeCompare(schedulesOf(b)[0].at));
+  if (state.tab === "linkedin") {
+    list.sort((a, b) => (b.generatedAt || "").localeCompare(a.generatedAt || ""));
+    $("list").innerHTML = linkedinPanel() + (list.length ? list.map(liCard).join("") : `<div class="empty">Aucun carousel prêt pour l'instant.</div>`);
+    return;
+  }
   $("list").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Rien ici pour l'instant.</div>`;
   loadCaptions();
 
@@ -322,7 +348,7 @@ function render() {
 }
 
 function card(i) {
-  const st = pending(i.id) && i.status === "new" ? "Envoyée…" : i.status === "done" && isPublished(i) ? "Publié ✓" : STATUS[i.status] || i.status;
+  const st = pending(i.id) && i.status === "new" ? "Envoyée…" : i.status === "done" && schedulesOf(i).length ? "Programmé 🕒" : i.status === "done" && isPublished(i) ? "Publié ✓" : STATUS[i.status] || i.status;
   const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.aiScore != null ? `<span class="ai s${Math.floor(i.aiScore / 3)}">${i.aiScore}/10</span>` : i.score ? `<span>· score ${i.score}</span>` : ""}${i.international ? "<span>· 🌍</span>" : ""}</div>
     <h3>${esc(i.title)}</h3>${i.hook ? `<div class="hook">💡 ${esc(i.hook)}</div>` : ""}${i.reason ? `<div class="reason">${esc(i.reason)}</div>` : ""}${i.summary ? `<p>${esc(i.summary)}</p>` : ""}`;
   let actions = "";
@@ -347,8 +373,44 @@ function card(i) {
 }
 
 const fmtParis = (iso) => new Date(iso).toLocaleString("fr-FR", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+let socialStatus = null;
+async function loadSocialStatus() {
+  try {
+    const res = await fetch(raw("data/social-status.json") + `?t=${Date.now()}`);
+    socialStatus = res.ok ? await res.json() : null;
+  } catch { socialStatus = null; }
+  if (state.tab === "linkedin") render();
+}
+function linkedinPanel() {
+  const rows = Object.entries(BRANDS).map(([k, name]) => {
+    const li = socialStatus?.brands?.[k]?.linkedin;
+    const st = !li ? "⏳ jamais vérifié" : li.ok ? `✅ connecté · Page « ${esc(li.name)} »` : li.pending ? "⏳ en attente de l'accès LinkedIn" : `❌ ${esc(li.error)}`;
+    return `<div class="li-row"><span class="badge b-${k}">${esc(name)}</span><span>${st}</span></div>`;
+  }).join("");
+  const when = socialStatus?.checkedAt ? `Vérifié ${ago(socialStatus.checkedAt)}` : "";
+  return `<div class="card li-panel"><h3>LinkedIn — tes Pages</h3>${rows}
+    <div class="row"><button class="btn" data-act="checkConn">🔌 Vérifier la connexion</button><span class="hint">${when}</span></div>
+    <p class="hint">Les carousels sont publiés en document PDF à feuilleter, avec la description du post. Tu peux les programmer à une heure différente d'Instagram.</p></div>`;
+}
+function liCard(i) {
+  const li = (i.published || {}).linkedin;
+  const sc = schedulesOf(i).find((x) => x.targets.split(",").includes("linkedin"));
+  const cover = i.carousel.files.find((f) => /\.(png|jpe?g)$/.test(f));
+  const status = li && (li.url || li.id)
+    ? `<a class="li-st ok" href="${esc(li.url || "#")}" target="_blank" rel="noopener">✓ Publié sur LinkedIn</a>`
+    : sc ? `<span class="li-st sch">🕒 Programmé ${esc(fmtParis(sc.at))}</span><button class="btn sm ghost" data-act="unschedule" data-targets="linkedin">Annuler</button>`
+    : `<span class="li-st">Pas encore sur LinkedIn</span>`;
+  return `<div class="card li-card" data-id="${esc(i.id)}">
+    ${cover ? `<img class="li-cover" data-act="zoom" data-n="0" src="${raw(i.carousel.dir + "/" + cover)}${ver(i)}" alt="">` : ""}
+    <div class="li-body"><div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span>${(i.carousel.files || []).filter((f) => /\.(png|jpe?g)$/.test(f)).length} pages</span></div>
+      <h3>${esc(i.title)}</h3>
+      <div class="li-status">${status}</div>
+      <div class="row">${li && (li.url || li.id) ? "" : `<button class="btn pub" data-act="publishLi">in · Publier / programmer</button>`}<a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}${ver(i)}" target="_blank" rel="noopener">Voir le PDF</a></div>
+    </div></div>`;
+}
+
 function publishedBadges(i) {
-  const extra = (i.scheduled && i.scheduled.at ? `<div class="sched"><span>🕒 Programmé ${esc(fmtParis(i.scheduled.at))} · ${esc(i.scheduled.targets.split(",").map((t) => ({ instagram: "Instagram", facebook: "Facebook", linkedin: "LinkedIn" })[t] || t).join(" + "))}</span><button class="btn sm ghost" data-act="unschedule">Annuler</button></div>` : "")
+  const extra = schedulesOf(i).map((sc) => `<div class="sched"><span>🕒 Programmé ${esc(fmtParis(sc.at))} · ${esc(netNames(sc.targets))}</span><button class="btn sm ghost" data-act="unschedule" data-targets="${esc(sc.targets)}">Annuler</button></div>`).join("")
     + (i.publishError ? `<div class="puberr">⚠️ Échec de publication : ${esc(i.publishError)}</div>` : "");
   return publishedBadgesOnly(i) + extra;
 }
@@ -375,10 +437,10 @@ $("pMode").onchange = syncWhen;
 $("pPresets").innerHTML = [[8, 0], [12, 30], [18, 0], [21, 0]].map(([h, m]) => `<button type="button" data-h="${h}" data-m="${m}">${h} h ${String(m).padStart(2, "0")}</button>`).join("");
 $("pPresets").onclick = (e) => { const b = e.target.closest("button"); if (b) $("pAt").value = toLocalInput(nextAt(Number(b.dataset.h), Number(b.dataset.m))); };
 
-function openPublish(item) {
+function openPublish(item, only) {
   $("pTitle").textContent = item.title;
   const p = item.published || {};
-  $("pIg").checked = !p.instagram; $("pFb").checked = !p.facebook; $("pLi").checked = false;
+  $("pIg").checked = !only && !p.instagram; $("pFb").checked = !only && !p.facebook; $("pLi").checked = only === "linkedin" && !p.linkedin;
   $("pMode").value = "programmer";
   $("pAt").value = toLocalInput(item.scheduled?.at ? new Date(item.scheduled.at) : nextAt(12, 30));
   $("pAt").min = toLocalInput(new Date());
@@ -398,7 +460,11 @@ function openPublish(item) {
     }
     try {
       await gh(`/repos/${cfg.repo}/actions/workflows/social.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs }) });
-      if (mode === "programmer") { item.scheduled = { at: inputs.at, targets }; render(); }
+      if (mode === "programmer") {
+        const tg = targets.split(",");
+        item.schedules = [...schedulesOf(item).map((sc) => ({ ...sc, targets: sc.targets.split(",").filter((x) => !tg.includes(x)).join(",") })).filter((sc) => sc.targets), { at: inputs.at, targets }];
+        item.scheduled = null; render();
+      }
       toast(mode === "publier" ? "🚀 Publication lancée (~1 min)" : mode === "programmer" ? `🕒 Programmé ${fmtParis(inputs.at)}` : "🧪 Test lancé : résultat dans « Activité récente »", 4000);
       setTimeout(loadRuns, 4000);
     } catch (e) { toast(e.message, 5000); }
@@ -526,6 +592,14 @@ async function copyCaption(item) {
 document.addEventListener("click", async (ev) => {
   const t = ev.target.closest("[data-tab],[data-brand],[data-act]");
   if (!t) return;
+  if (t.dataset.act === "checkConn") {
+    if (!cfg.token) { $("dlgSettings").showModal(); return; }
+    try {
+      await gh(`/repos/${cfg.repo}/actions/workflows/social.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "connexion" } }) });
+      toast("🔌 Vérification lancée : résultat dans ~1 min (touche ↻)", 4000);
+    } catch (e) { toast(e.message, 5000); }
+    return;
+  }
   if (t.dataset.tab) { state.tab = t.dataset.tab; state.focus = null; render(); window.scrollTo(0, 0); return; }
   if (t.dataset.brand) { state.brand = t.dataset.brand; store.set("brandFilter", state.brand); render(); return; }
   const item = state.items.find((i) => i.id === t.closest("[data-id]").dataset.id);
@@ -537,9 +611,13 @@ document.addEventListener("click", async (ev) => {
   if (act === "caption") copyCaption(item);
   if (act === "zip") downloadZip(item);
   if (act === "publish") { if (!cfg.token) { $("dlgSettings").showModal(); return; } openPublish(item); }
+  if (act === "publishLi") { if (!cfg.token) { $("dlgSettings").showModal(); return; } openPublish(item, "linkedin"); }
   if (act === "unschedule") {
+    const targets = t.dataset.targets || "instagram,facebook,linkedin";
     try {
-      await gh(`/repos/${cfg.repo}/actions/workflows/social.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { id: item.id, mode: "annuler" } }) });
+      await gh(`/repos/${cfg.repo}/actions/workflows/social.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { id: item.id, mode: "annuler", targets } }) });
+      const tg = targets.split(",");
+      item.schedules = schedulesOf(item).map((sc) => ({ ...sc, targets: sc.targets.split(",").filter((x) => !tg.includes(x)).join(",") })).filter((sc) => sc.targets);
       item.scheduled = null; render(); toast("Programmation annulée");
     } catch (e) { toast(e.message, 5000); }
   }

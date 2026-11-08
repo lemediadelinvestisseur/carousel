@@ -50,7 +50,7 @@ jobs:
       - name: Rien de programmé ?
         id: check
         run: |
-          if [ "$MODE" = "echeances" ] && ! grep -q '"scheduled": {' data/news.json; then
+          if [ "$MODE" = "echeances" ] && ! grep -qE '"scheduled": \{|"schedules": \[$' data/news.json; then
             echo "Aucune publication programmée."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
@@ -80,7 +80,7 @@ jobs:
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       - name: Enregistrement du statut
-        if: always() && steps.check.outputs.skip != 'true' && contains(fromJSON('["publier","programmer","annuler","echeances"]'), env.MODE)
+        if: always() && steps.check.outputs.skip != 'true' && contains(fromJSON('["publier","programmer","annuler","echeances","connexion"]'), env.MODE)
         run: |
           ./scripts/publish.sh "publication: $MODE $INPUT_ID"
         env:
