@@ -207,8 +207,8 @@
       "reason": "Rendements locatifs élevés, très enregistrable pour les investisseurs.",
       "hook": "Ces 5 villes rapportent jusqu'à 12,7 % brut",
       "notifiedAt": "2026-11-08T15:38:54.430Z",
-      "instructions": "1 page par ville ",
-      "generatedAt": "2026-11-08T16:10:18.422Z",
+      "instructions": "Une page par ville ",
+      "generatedAt": "2026-11-08T16:11:01.827Z",
       "carousel": {
         "dir": "carousels/2026-11-08/21m2-rendement-locatif-ces-5-villes-ou-invest-5149c5cc1b",
         "files": [
@@ -1197,5 +1197,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T16:10:18.422Z"
+  "updatedAt": "2026-11-08T16:11:06.286Z"
 }
