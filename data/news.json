@@ -446,7 +446,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Le Smic touche au pouvoir d'achat, débat assuré.",
       "hook": "Smic au 1er décembre : pas de coup de pouce ?"
@@ -1201,5 +1201,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T17:09:55.777Z"
+  "updatedAt": "2026-11-08T18:36:03.863Z"
 }
