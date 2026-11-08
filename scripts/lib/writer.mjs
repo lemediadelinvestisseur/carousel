@@ -93,14 +93,10 @@ const INNER_GUIDE = `NOMBRE DE PAGES : entre 4 et 9 au total (couverture et CTA 
 - Sujet riche (réforme, crise, résultats détaillés, plusieurs impacts) : 8 ou 9 pages.
 Ne remplis jamais pour remplir : chaque page doit apporter une info nouvelle et utile.
 
-PAGES INTÉRIEURES — LES EXPLICATIONS. Choisis et ordonne les pages utiles parmi (ou adapte) :
-- LE CONTEXTE : ce qui s'est passé et pourquoi.
-- LES CHIFFRES / LES RÉSULTATS : les données clés.
-- CE QUI CHANGE : l'impact concret pour un particulier français.
-- QUI EST … : l'entreprise ou la personne au cœur du sujet, si le public ne la connaît pas bien.
-- LE RISQUE (ou LES CRAINTES) : ce qui peut mal tourner, ce qu'il faut surveiller.
-- LES SOLUTIONS : kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent (ex : un portefeuille Ledger, une plateforme agréée).
-- ET APRÈS ? : les perspectives, comment investir ou en profiter plus tard.
+PAGES INTÉRIEURES — ADAPTE-LES À LA NATURE DE L'ACTU. Choisis et ordonne seulement les pages qui ont du sens pour CETTE actu :
+- Toujours utiles : LE CONTEXTE (ce qui s'est passé et pourquoi), QUI EST … (la personne ou l'entreprise, si le public ne la connaît pas bien), LES CHIFFRES / LES RÉSULTATS (les données clés), LES RÉACTIONS (marché, action en Bourse, concurrents, politiques), ET APRÈS ? (ce qu'il faut surveiller, la suite probable).
+- Seulement si l'actu touche directement l'argent ou les décisions du lecteur (épargne, impôts, crédit, placements, une plateforme qu'il utilise, une action qu'il peut détenir) : CE QUI CHANGE POUR TOI, LE RISQUE, LES SOLUTIONS (kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent).
+- Pour une actu « pure » (scandale, people, enquête, nomination, coulisses d'une entreprise), PAS de page risque ni solutions : raconte l'histoire (contexte, faits, personnages, réactions, impact sur l'entreprise ou son action, suite).
 Chaque page : une étiquette (kicker), un titre court, 1 ou 2 paragraphes de 30 à 55 mots au total, 3 à 6 mots-clés en **gras**.
 
 DERNIÈRE PAGE — CTA : title = une question directe liée au sujet pour faire réagir en commentaire (ex : « Tu avais des cryptos sur **Binance** ? »), body = « Dis-nous en commentaire ce que tu vas en faire 👇 » ou équivalent adapté.`;
