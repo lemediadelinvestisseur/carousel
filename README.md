@@ -101,6 +101,9 @@ Configuration (une fois, après l'accord de LinkedIn pour la *Community Manageme
 
 Le jeton LinkedIn expire au bout de **60 jours** : en cas d'erreur 401, génère-en un nouveau et remplace le secret.
 
+### Photos Unsplash (recommandé)
+Unsplash fournit des photos professionnelles gratuites, idéales pour les villes et les monuments. Crée un compte sur [unsplash.com/developers](https://unsplash.com/developers) → **New Application** → copie l'**Access Key** dans le secret GitHub `UNSPLASH_ACCESS_KEY`. Sans clé, les autres sources d'images sont utilisées.
+
 ## Personnaliser
 
 | Quoi | Où |

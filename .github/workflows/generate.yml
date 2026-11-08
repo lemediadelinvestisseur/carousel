@@ -54,6 +54,7 @@ jobs:
           INPUT_INSTRUCTIONS: ${{ inputs.instructions }}
           INPUT_URL: ${{ inputs.url }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}

@@ -235,6 +235,8 @@ function ago(iso) {
   const h = Math.round(m / 60);
   return h < 24 ? `il y a ${h} h` : `il y a ${Math.round(h / 24)} j`;
 }
+// Version d'un carousel : change à chaque génération, pour ne jamais afficher d'anciennes images en cache.
+const ver = (item) => (item && item.generatedAt ? `?v=${encodeURIComponent(item.generatedAt)}` : "");
 const raw = (p) => `https://raw.githubusercontent.com/${cfg.repo}/${cfg.branch}/${p.split("/").map(encodeURIComponent).join("/")}`;
 
 async function gh(path, opts = {}) {
@@ -320,13 +322,13 @@ function card(i) {
   } else if (i.status === "done" && i.carousel) {
     const pngs = i.carousel.files.filter((f) => /\.(png|jpe?g)$/.test(f));
     actions = `<div class="done">
-        <div class="thumbs">${pngs.map((f, n) => `<img loading="lazy" data-act="zoom" data-n="${n}" src="${raw(i.carousel.dir + "/" + f)}" alt="Page ${n + 1}">`).join("")}</div>
+        <div class="thumbs">${pngs.map((f, n) => `<img loading="lazy" data-act="zoom" data-n="${n}" src="${raw(i.carousel.dir + "/" + f)}${ver(i)}" alt="Page ${n + 1}">`).join("")}</div>
         <div class="caption"><div class="caption-head"><span>📝 Description du post</span><button class="btn sm" data-act="caption">📋 Copier</button></div>
           <div class="caption-text" data-caption="${esc(i.carousel.dir)}">${esc(captionCache[i.carousel.dir] ?? "Chargement…")}</div></div>
       </div>
       ${publishedBadges(i)}
       <div class="row"><button class="btn pub" data-act="publish">🚀 Publier</button><button class="btn primary" data-act="share">📲 Enregistrer les images</button><button class="btn" data-act="zip">⬇️ Télécharger (ZIP)</button>
-      <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}" target="_blank" rel="noopener">PDF</a>
+      <a class="btn" href="${raw(i.carousel.dir + "/carousel.pdf")}${ver(i)}" target="_blank" rel="noopener">PDF</a>
       <button class="btn ghost" data-act="validate">↻ Refaire</button></div>
       ${(i.carousel.hooks || []).length ? `<details class="hooks"><summary>💡 Autres accroches proposées</summary>${i.carousel.hooks.map((h, n) => `<button class="hook-alt" data-act="rehook" data-hook="${n}">${esc(h.replace(/\*\*/g, ""))}</button>`).join("")}</details>` : ""}`;
   } else if (["error", "rejected", "ignored"].includes(i.status)) {
@@ -429,7 +431,7 @@ async function shareImages(item) {
   const pngs = item.carousel.files.filter((f) => /\.(png|jpe?g)$/.test(f));
   try {
     toast("Préparation des images…");
-    const files = await Promise.all(pngs.map(async (f) => new File([await (await fetch(raw(item.carousel.dir + "/" + f))).blob()], f, { type: f.endsWith(".png") ? "image/png" : "image/jpeg" })));
+    const files = await Promise.all(pngs.map(async (f) => new File([await (await fetch(raw(item.carousel.dir + "/" + f) + ver(item))).blob()], f, { type: f.endsWith(".png") ? "image/png" : "image/jpeg" })));
     if (navigator.canShare && navigator.canShare({ files })) {
       await navigator.share({ files, title: item.title });
     } else {
@@ -453,7 +455,7 @@ function loadCaptions() {
 }
 
 const imagesOf = (item) => item.carousel.files.filter((f) => /\.(png|jpe?g)$/.test(f));
-async function blobOf(item, f) { return (await fetch(raw(item.carousel.dir + "/" + f))).blob(); }
+async function blobOf(item, f) { return (await fetch(raw(item.carousel.dir + "/" + f) + ver(item))).blob(); }
 function saveBlob(blob, name) {
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob); a.download = name;
@@ -480,7 +482,7 @@ function openLightbox(item, n) { lb.item = item; lb.n = n; showLb(); $("lb").cla
 function showLb() {
   const imgs = imagesOf(lb.item);
   lb.n = (lb.n + imgs.length) % imgs.length;
-  $("lbImg").src = raw(lb.item.carousel.dir + "/" + imgs[lb.n]);
+  $("lbImg").src = raw(lb.item.carousel.dir + "/" + imgs[lb.n]) + ver(lb.item);
   $("lbCount").textContent = `${lb.n + 1} / ${imgs.length}`;
 }
 $("lbClose").onclick = () => $("lb").classList.remove("on");
