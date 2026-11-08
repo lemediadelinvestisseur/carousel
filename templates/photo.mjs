@@ -61,7 +61,8 @@ function coverPlacement(img) {
   // Haut : le sujet vers 35 % de la zone photo ; l'image doit au moins descendre jusqu'au texte,
   // et couvrir toute la hauteur si elle en est capable.
   const minTop = ih >= H ? H - ih : TEXT_TOP - ih;
-  const top = Math.min(0, Math.max(minTop, TEXT_TOP * 0.45 - cy));
+  // Le haut du sujet (flèche d'un monument, tête d'une personne) reste toujours visible.
+  const top = Math.min(0, Math.max(minTop, TEXT_TOP * 0.45 - cy, -f.y * ih + 30));
   const fade = ih + top < H;
   return `style="inset:auto;object-fit:fill;width:${iw.toFixed(0)}px;height:${ih.toFixed(0)}px;left:${left.toFixed(0)}px;top:${top.toFixed(0)}px${fade ? ";-webkit-mask-image:linear-gradient(180deg,#000 75%,transparent 99%)" : ""}"`;
 }
@@ -84,9 +85,16 @@ function boxImage(img, boxW, boxH) {
   const f = img.focus || { x: 0.25, y: 0.25, w: 0.5, h: 0.5 };
   const s = Math.max(boxW / img.width, boxH / img.height);
   const iw = img.width * s, ih = img.height * s;
+  // Le sujet ne tient pas dans le cadre (ex : tour Eiffel dans un cadre très allongé) :
+  // on montre la photo entière, sur un fond flouté de la même photo, plutôt que de la couper.
+  if (f.h * ih > boxH * 1.02 || f.w * iw > boxW * 1.02) {
+    const c = Math.min(boxW / img.width, boxH / img.height);
+    const cw = img.width * c, chh = img.height * c;
+    return `<img class="fill blurfill" src="${src}" alt=""><img class="placed" style="width:${cw.toFixed(0)}px;height:${chh.toFixed(0)}px;left:${((boxW - cw) / 2).toFixed(0)}px;top:${((boxH - chh) / 2).toFixed(0)}px" src="${src}" alt="">`;
+  }
   const cx = (f.x + f.w / 2) * iw, cy = (f.y + f.h / 2) * ih;
   const left = Math.min(0, Math.max(boxW - iw, boxW / 2 - cx));
-  const top = Math.min(0, Math.max(boxH - ih, boxH / 2 - cy));
+  const top = Math.min(0, Math.max(boxH - ih, boxH / 2 - cy, -f.y * ih + 15));
   return `<img class="placed" style="width:${iw.toFixed(0)}px;height:${ih.toFixed(0)}px;left:${left.toFixed(0)}px;top:${top.toFixed(0)}px" src="${src}" alt="">`;
 }
 
@@ -115,7 +123,7 @@ function textSlide(s, ctx) {
   } else {
     for (const para of String(s.body || "").split(/\n+/).filter(Boolean)) inner += `<p class="tx-p">${bold(para)}</p>`;
   }
-  if (srcOf(ctx.img)) inner += `<div class="tx-photo">${boxImage(ctx.img, 912, 440)}</div>`;
+  if (srcOf(ctx.img)) inner += `<div class="tx-photo">${boxImage(ctx.img, 912, 520)}</div>`;
   const wm = watermarkWord(s.kicker);
   return `${wm ? `<div class="watermark">${esc(wm)}</div>` : ""}
     <div class="tx-head">${logo(ctx.brand, "sm")}<span class="tx-page">${ctx.index + 1}/${ctx.total}</span></div>
@@ -242,9 +250,10 @@ p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 .card.value .big{min-width:0}
 .card .lab{font-size:34px;line-height:1.3;font-weight:600}
 .card .lab b{color:#16205A;font-weight:800}
-.tx-photo{position:relative;height:440px;border-radius:30px;overflow:hidden;margin-top:30px;flex:none}
+.tx-photo{position:relative;height:520px;border-radius:30px;overflow:hidden;margin-top:30px;flex:none}
 .tx-photo .placed{position:absolute;max-width:none}
 .tx-photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.blurfill{filter:blur(28px) brightness(.85) saturate(1.1);transform:scale(1.15)}
 
 /* Dernière page */
 .cta{position:absolute;left:96px;right:96px;top:150px}

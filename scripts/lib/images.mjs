@@ -201,7 +201,8 @@ async function chooseWithClaude(images, { subject, isCover }) {
     text: `${isCover ? "Photo de COUVERTURE plein écran" : "Illustration d'une slide"} d'un carousel Instagram de média financier.
 Ce que la slide doit montrer : ${subject}
 Choisis la meilleure image. Critères éliminatoires : filigrane (Adobe Stock, Shutterstock…), publicité ou visuel marketing (prix, « free shipping », « new arrival »), logo ou nom d'un autre média incrusté, texte incrusté important, montage grossier, capture d'écran de site, image floue.
-Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ""}.
+Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet, la ville), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ", de préférence au format paysage (panorama), car elle s'affiche dans un cadre allongé"}.
+BEAUTÉ AVANT TOUT : choisis la photo la plus belle, digne d'une carte postale ou d'un magazine : lumière dorée ou coucher de soleil, ciel coloré, couleurs vives, composition soignée, vue dégagée ou panorama pour une ville ou un monument. Écarte les photos ternes (ciel gris ou blanc, lumière plate), les photos d'amateur, les cadrages serrés sans contexte, même si elles montrent le bon sujet.
 Réponds 0 si aucune image n'est acceptable. Donne aussi le cadre (focus) du sujet principal dans l'image choisie : il servira à cadrer la photo.`,
   });
   try {
@@ -246,7 +247,7 @@ export async function illustrate({ slides, item }) {
       const cands = await gather({ query, entity, articleUrl: item.link, includeArticle: isCover });
       // Couverture : photo assez grande pour ne jamais être agrandie (largeur ≥ 1000 px, hauteur ≥ 700 px).
       // Jamais d'agrandissement visible : couverture ≥ 1000x700, pages intérieures ≥ 960x540 (zone photo 1080x600).
-      const imgs = await downloadSome(cands, isCover ? 5 : 4, used, 540, isCover ? { width: 1000, height: 700 } : { width: 960, height: 540 });
+      const imgs = await downloadSome(cands, isCover ? 8 : 5, used, 540, isCover ? { width: 1000, height: 700 } : { width: 960, height: 540 });
       const subject = isCover ? `${item.title} (recherche : ${query || entity})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
       const pick = await chooseWithClaude(imgs, { subject, isCover });
       if (pick) {
