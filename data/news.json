@@ -12,7 +12,7 @@
       "collectedAt": "2026-11-08T20:31:19.985Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 7,
       "reason": "Nvidia et son PDG visés par l'espionnage : une intrigue autour d'un géant de la Bourse.",
@@ -2388,5 +2388,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:35:34.974Z"
+  "updatedAt": "2026-11-08T20:37:14.208Z"
 }
