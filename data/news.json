@@ -675,7 +675,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Angle patrimonial accrocheur.",
       "hook": "Les placements des riches que vous pouvez copier"
@@ -2057,5 +2057,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-08T20:11:35.571Z"
+  "updatedAt": "2026-11-08T20:11:46.284Z"
 }
