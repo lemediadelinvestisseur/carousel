@@ -72,6 +72,22 @@ Collez-le dans le dashboard (⚙︎ Réglages). Il est stocké uniquement dans l
 ### 6. Premier test
 *Actions → Collecte des actus → Run workflow*. Après ~1 minute, les actus apparaissent dans le dashboard et les notifications arrivent.
 
+## Publication automatique sur Instagram et Facebook
+
+Dans le dashboard, onglet **Prêts** → **🚀 Publier** : choisis Instagram et/ou la Page Facebook, puis **Test** (tout est préparé chez Meta, rien n'est publié) ou **Publier**.
+
+### Configuration (une fois par marque)
+Prérequis : le compte Instagram est un **compte professionnel** relié à la **Page Facebook** de la marque, et tu es administrateur de la Page.
+
+1. Sur [developers.facebook.com](https://developers.facebook.com) → **Mes apps** → **Créer une app** (type **Entreprise**). Nom : `Carousels LMI`.
+2. **Outils → Explorateur de l'API Graph** : choisis ton app, puis **Obtenir un jeton d'accès utilisateur** avec les autorisations `pages_show_list`, `pages_read_engagement`, `pages_manage_posts`, `instagram_basic`, `instagram_content_publish`, `business_management`. Dans la fenêtre Facebook, sélectionne la Page et le compte Instagram.
+3. Clique sur l'icône **ⓘ** du jeton → **Ouvrir dans l'outil de jeton d'accès** → **Prolonger le jeton d'accès**, et copie le jeton longue durée.
+4. De retour dans l'explorateur, colle ce jeton et lance la requête `me/accounts?fields=name,access_token,instagram_business_account`. Copie l'`access_token` de la Page : c'est un jeton **sans expiration**.
+5. GitHub → **Settings → Secrets and variables → Actions** → secret `META_PAGE_TOKEN_INVESTISSEUR` (et `META_PAGE_TOKEN_21M2` pour 21m2).
+6. **Actions → Publication réseaux sociaux → Run workflow**, mode **connexion** : chaque marque doit afficher ✓ avec sa Page et son compte Instagram.
+
+Si les posts Facebook n'apparaissent pas publiquement, passe l'app en mode **Live** (Paramètres de l'app → Général) avec comme politique de confidentialité : `https://lemediadelinvestisseur.github.io/carousel/confidentialite.html`.
+
 ## Personnaliser
 
 | Quoi | Où |
