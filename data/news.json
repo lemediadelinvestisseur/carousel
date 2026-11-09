@@ -648,10 +648,33 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "done",
       "aiScore": 7,
       "reason": "Record Airbus, fierté française et chiffre frappant.",
-      "hook": "Airbus signe le plus long vol commercial de l'histoire"
+      "hook": "Airbus signe le plus long vol commercial de l'histoire",
+      "generatedAt": "2026-11-09T20:23:03.011Z",
+      "carousel": {
+        "dir": "carousels/2026-11-09/investisseur-airbus-l-a350-1000ulr-decroche-le-record-d4860c4ff9",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 9,
+        "hooks": [
+          "Un Airbus a volé 24 heures sans escale, un record mondial",
+          "23 155 km sans escale : le nouveau record d'Airbus",
+          "Airbus reprend à Boeing le record du plus long vol"
+        ]
+      }
     },
     {
       "id": "54d4f19e28",
@@ -10733,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:40.159Z"
+  "updatedAt": "2026-11-09T20:23:42.147Z"
 }
