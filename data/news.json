@@ -5613,7 +5613,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 3,
       "reason": "Tribune vague."
     },
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:24:57.418Z"
+  "updatedAt": "2026-11-09T20:24:59.017Z"
 }
