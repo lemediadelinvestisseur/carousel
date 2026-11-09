@@ -236,7 +236,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Baisse crypto qui touche les détenteurs français.",
@@ -3710,5 +3710,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T06:13:24.410Z"
+  "updatedAt": "2026-11-09T06:13:32.538Z"
 }
