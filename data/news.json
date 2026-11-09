@@ -3470,7 +3470,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Histoire surprenante : une néobanque fait tomber un président.",
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:02.090Z"
+  "updatedAt": "2026-11-09T13:48:06.077Z"
 }
