@@ -6788,7 +6788,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Anecdote frappante sur la ruée énergétique de l'IA.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:13.999Z"
+  "updatedAt": "2026-11-09T20:23:16.339Z"
 }
