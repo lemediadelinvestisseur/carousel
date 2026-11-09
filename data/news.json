@@ -3368,7 +3368,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 9,
       "reason": "Smic à 1 502 €, touche des millions de Français.",
       "hook": "Le Smic passe à 1 502 € net dès décembre",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:18:59.377Z"
+  "updatedAt": "2026-11-09T20:19:05.320Z"
 }
