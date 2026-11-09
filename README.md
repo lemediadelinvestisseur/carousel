@@ -94,22 +94,9 @@ Si les posts Facebook n'apparaissent pas publiquement, passe l'app en mode **Liv
 ### Photos Unsplash (recommandé)
 Unsplash fournit des photos professionnelles gratuites, idéales pour les villes et les monuments. Crée un compte sur [unsplash.com/developers](https://unsplash.com/developers) → **New Application** → copie l'**Access Key** dans le secret GitHub `UNSPLASH_ACCESS_KEY`. Sans clé, les autres sources d'images sont utilisées.
 
-## LinkedIn : memes pour ton profil perso (projet séparé)
+## LinkedIn : statistiques de ton profil perso (projet séparé)
 
-Les carousels vont sur Instagram et Facebook. LinkedIn est un projet à part : des **posts memes** créés de toutes pièces et publiés sur ton **profil personnel**. Tout se pilote depuis le même dashboard, bouton **💼 LinkedIn** en haut.
-
-- **Chaque matin** (vers 7 h), 3 memes sont proposés et une notification arrive. Ils sont aussi disponibles à tout moment avec **✨ 3 nouvelles propositions**.
-- **💡 Mon idée** (ou **+ Idée**) : tu écris une idée, Claude en fait un meme.
-- Format de l'image : **meme connu** (Drake, Distracted boyfriend… avec le texte en français) ou **vraie photo** avec une légende au-dessus. Claude choisit, ou tu imposes le format.
-- Sur chaque proposition : tu peux modifier le texte (💾), **🚀 Publier** maintenant ou **programmer**, **↻ Refaire** avec des consignes, ou **✕ Écarter**.
-- Onglets : Propositions, En cours, Programmés, Publiés, Erreurs, Écartés.
-
-Réglages dans `config/linkedin.json` :
-- `about` : qui tu es ;
-- `myInvestments` : tes investissements perso. Claude n'invente jamais de fait personnel, il utilise seulement ceux-là ;
-- `topics` : les sujets ;
-- `styleNotes` : ce qui marche chez les concurrents ;
-- `postsPerDay` : nombre de memes par jour.
+Dans le dashboard, le bouton **💼 LinkedIn** en haut n'affiche plus que les **statistiques** de ton profil. Les onglets de memes (Propositions, En cours, Programmés…) et les propositions automatiques du matin ont été retirés. La rédaction de posts sera reconstruite à partir de ces statistiques : le code de rédaction et de publication reste dans `scripts/linkedin.mjs` et `scripts/lib/memes.mjs`.
 
 ### Configuration LinkedIn (une fois)
 1. Sur [developers.linkedin.com](https://developers.linkedin.com) → **My apps** → **Create app** : nom `Memes LinkedIn`, Page LinkedIn associée = l'une de tes Pages, logo au choix.
@@ -121,12 +108,13 @@ Réglages dans `config/linkedin.json` :
 Le jeton expire au bout de **60 jours**. En cas d'erreur 401, génère-en un nouveau et remplace le secret.
 
 ### Statistiques LinkedIn : apprendre de ce qui marche
-Dashboard → 💼 LinkedIn → onglet **📊 Stats**.
+Dashboard → **💼 LinkedIn**.
 
-Le jeton de publication (`w_member_social`) **ne peut pas lire les statistiques** d'un profil perso. On utilise donc l'export officiel de LinkedIn :
-1. Sur linkedin.com : **ton profil → Analytics → Impressions des posts** (linkedin.com/analytics/creator/content).
-2. Période **365 jours** → **Exporter** (fichier `.xlsx`).
-3. Dashboard → 📊 Stats → **📥 Importer l'export** et choisir le fichier. À refaire environ une fois par mois : les imports s'additionnent.
+Le jeton de publication (`w_member_social`) **ne peut pas lire les statistiques** d'un profil perso. On utilise donc les **2 exports officiels** de LinkedIn :
+1. Sur linkedin.com : **ton profil → Analytics**.
+2. **Statistiques sur le contenu** : période **365 jours** → **Exporter** (`.xlsx`).
+3. **Statistiques sur l'audience** : période **365 jours** → **Exporter** (`.xlsx`).
+4. Dashboard → 💼 LinkedIn → **📥 Importer les exports** et sélectionner **les 2 fichiers** en même temps (ou l'un après l'autre). À refaire environ une fois par mois : les imports s'additionnent.
 
 Le workflow **LinkedIn (statistiques)** lit le fichier (posts, impressions, engagements, abonnés, démographie), retrouve l'heure exacte de chaque post grâce à son identifiant, essaie de récupérer le texte des posts publics, puis **Claude analyse** ce qui marche (accroches, longueur, format de meme, jours et heures). Résultats : `data/linkedin-stats.json` et `data/linkedin-insights.json`. Les **règles de rédaction** et tes **meilleurs posts** sont ensuite donnés automatiquement à Claude à chaque nouveau meme. Une nouvelle analyse tourne aussi chaque lundi matin.
 

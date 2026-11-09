@@ -1,11 +1,9 @@
 name: LinkedIn (memes)
 
-run-name: "${{ github.event_name == 'schedule' && 'linkedin: propositions du jour' || format('linkedin: {0} {1}', inputs.mode, inputs.id) }}"
+run-name: "${{ format('linkedin: {0} {1}', inputs.mode, inputs.id) }}"
 
 on:
-  # Nouvelles propositions chaque matin (≈ 7 h 13, heure de Paris en hiver).
-  schedule:
-    - cron: "13 6 * * *"
+  # Plus de propositions automatiques chaque matin : la partie memes a été retirée du dashboard.
   workflow_dispatch:
     inputs:
       mode:
