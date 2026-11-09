@@ -147,16 +147,29 @@ function contentSlide(s, ctx) {
     <div class="text under">${inner}</div><div class="foot">${logo(ctx.brand, "md")}</div>`;
 }
 
+// Dernière page : appel à s'abonner, avec le profil Instagram de la marque dans un téléphone (doigt sur « S'abonner »).
 function cta(s, ctx) {
   const b = ctx.brand;
   const c = b.ctaSlide || {};
-  const actions = c.actions || [["🔖", "Enregistre"], ["📤", "Partage à un ami concerné"], ["❤️", "Like"]];
-  return `<div class="cta"><div class="cta-in">
-      <div class="q">${bold(s.title || "Et toi, qu'en penses-tu ?")}</div>
-      <div class="sub">${bold(s.body || "Dis-le-nous en commentaire 👇")}</div>
-      <div class="actions">${actions.map(([i, t]) => `<div><span>${i}</span>${esc(t)}</div>`).join("")}</div>
-      <div class="follow"><div class="t">${bold(c.title || `Abonne-toi à ${b.name}`)}</div>${c.subtitle ? `<div class="d">${esc(c.subtitle)}</div>` : ""}<div class="h">${esc(b.handle)}</div></div>
-    </div></div><div class="foot">${logo(b, "md")}</div>`;
+  const handle = String(b.handle || "").replace(/^@/, "");
+  const bio = (c.bio || []).slice(0, 3);
+  const thumbs = (ctx.thumbs || []).slice(0, 3);
+  const avatar = b.logoDataUri ? `<img src="${b.logoDataUri}" alt="">` : `<span>${(b.wordmark || [b.name]).map(esc).join("<br>")}</span>`;
+  return `${srcOf(ctx.coverImg) ? `<img class="bg cta-bg" src="${srcOf(ctx.coverImg)}" alt="">` : ""}<div class="cta-shade"></div>
+    <div class="cta-top">
+      <div class="cta-title">🔔 ${bold(c.title || `Abonne-toi à ${b.name}`)}</div>
+      <div class="cta-sub">${esc(c.subtitle || "pour ne pas rater nos prochaines publications")}</div>
+      ${s.title ? `<div class="cta-q">💬 ${esc(plain(s.title))}</div>` : ""}
+    </div>
+    <div class="phone"><div class="screen">
+      <div class="ph-status"><span>9:41</span><i></i><span>●●● ▮</span></div>
+      <div class="ph-head"><span>‹</span><b>${esc(handle)}</b><em>✓</em><span class="sp"></span><span>🔔</span><span>⋯</span></div>
+      <div class="ph-prof"><div class="ph-av">${avatar}</div><div class="ph-name"><b>${esc(b.name)}</b><small>Média</small></div></div>
+      <div class="ph-bio">${bio.map((l) => `<div>${esc(l)}</div>`).join("")}</div>
+      <div class="ph-btns"><div class="follow-btn">S'abonner</div><div>Message</div></div>
+      <div class="ph-grid">${[0, 1, 2].map((k) => (thumbs[k] ? `<img src="${thumbs[k]}" alt="">` : `<div></div>`)).join("")}</div>
+    </div></div>
+    <div class="hand">👉</div>`;
 }
 
 function fontsQuery(t) {
@@ -169,7 +182,7 @@ export function renderHtml({ carousel, brand, images = [] }) {
   let innerIndex = 0;
   const slides = carousel.slides
     .map((s, index) => {
-      const ctx = { brand, index, total: carousel.slides.length, img: images[index], category: carousel.category, innerIndex };
+      const ctx = { brand, index, total: carousel.slides.length, img: images[index], category: carousel.category, innerIndex, coverImg: images[0], thumbs: carousel.ctaThumbs };
       let body;
       if (s.kind === "cover") body = cover(s, ctx);
       else if (s.kind === "cta") body = cta(s, ctx);
@@ -181,7 +194,7 @@ export function renderHtml({ carousel, brand, images = [] }) {
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@800${fontsQuery(t)}&display=block" rel="stylesheet">
 <style>
-:root{--accent:${t.accent};--accent2:${t.accent2 || t.accent};--ft:${t.titleFont ? `'${t.titleFont}',` : ""}Montserrat,system-ui,sans-serif;--fb:${t.bodyFont ? `'${t.bodyFont}',` : ""}Montserrat,system-ui,sans-serif;--shade:${t.shadeRgb || "5,12,32"}}
+:root{--avbg:${t.bg || "#0A1430"};--accent:${t.accent};--accent2:${t.accent2 || t.accent};--ft:${t.titleFont ? `'${t.titleFont}',` : ""}Montserrat,system-ui,sans-serif;--fb:${t.bodyFont ? `'${t.bodyFont}',` : ""}Montserrat,system-ui,sans-serif;--shade:${t.shadeRgb || "5,12,32"}}
 *{box-sizing:border-box;margin:0;padding:0}
 @page{size:1080px 1350px;margin:0}
 body{background:#444;font-family:var(--fb);color:#fff}
@@ -255,19 +268,34 @@ p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 .tx-photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 
 /* Dernière page */
-.cta{position:absolute;left:96px;right:96px;top:110px;bottom:150px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-.cta-in{transform-origin:top center}
-.cta .q{font-family:var(--ft);font-weight:800;font-size:76px;line-height:1.15;margin-bottom:34px}
-.cta .q b{color:var(--accent)}
-.cta .sub{font-size:44px;line-height:1.4;margin-bottom:70px}
-.actions{display:flex;gap:20px;margin-bottom:80px}
-.actions div{flex:1;border:3px solid rgba(255,255,255,.85);border-radius:24px;padding:26px 10px;text-align:center;font-weight:700;font-size:32px}
-.actions span{display:block;font-size:56px;margin-bottom:10px}
-.follow{background:var(--accent2);padding:44px 48px;text-align:center}
-.follow .t{font-weight:800;font-size:46px;line-height:1.2;margin-bottom:14px}
-.follow .t b{font-weight:800}
-.follow .d{font-size:34px;line-height:1.4}
-.follow .h{margin-top:20px;font-weight:700;font-size:34px}
+.k-cta .cta-bg{filter:blur(3px) saturate(1.1);transform:scale(1.04)}
+.cta-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--shade),.82) 0%,rgba(var(--shade),.62) 45%,rgba(var(--shade),.88) 100%)}
+.cta-top{position:absolute;left:70px;right:70px;top:96px;text-align:center}
+.cta-title{font-family:var(--ft);font-weight:800;font-size:68px;line-height:1.12;letter-spacing:-.01em}
+.cta-title b{color:var(--accent)}
+.cta-sub{font-size:42px;line-height:1.3;font-weight:400;margin-top:18px;color:#E8ECF6}
+.cta-q{display:inline-block;margin-top:30px;font-size:32px;line-height:1.3;font-weight:700;background:rgba(255,255,255,.14);border:2px solid rgba(255,255,255,.35);border-radius:22px;padding:12px 24px}
+.phone{position:absolute;left:50%;transform:translateX(-50%);top:600px;width:600px;height:880px;background:#0b0b0d;border-radius:78px;padding:16px;box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.screen{width:100%;height:100%;background:#fff;border-radius:64px;overflow:hidden;color:#111;font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;padding:24px 30px 0}
+.ph-status{display:flex;justify-content:space-between;align-items:center;font-size:24px;font-weight:700;padding:0 14px}
+.ph-status i{width:150px;height:40px;background:#0b0b0d;border-radius:22px}
+.ph-head{display:flex;align-items:center;gap:12px;font-size:30px;margin-top:22px}
+.ph-head b{font-size:31px}
+.ph-head em{font-style:normal;background:#3897f0;color:#fff;border-radius:50%;width:26px;height:26px;font-size:17px;display:flex;align-items:center;justify-content:center}
+.ph-head .sp{flex:1}
+.ph-prof{display:flex;align-items:center;gap:24px;margin-top:26px}
+.ph-av{width:132px;height:132px;border-radius:50%;flex:none;background:${"var(--avbg)"};display:flex;align-items:center;justify-content:center;overflow:hidden;border:4px solid #fff;box-shadow:0 0 0 3px #d62976}
+.ph-av img{width:78%}
+.ph-av span{color:#fff;font-weight:800;font-size:13px;letter-spacing:.08em;text-align:center;line-height:1.25;text-transform:uppercase}
+.ph-name b{display:block;font-size:30px;line-height:1.2}
+.ph-name small{display:block;font-size:24px;color:#737373;margin-top:4px}
+.ph-bio{margin-top:18px;font-size:24px;line-height:1.4;color:#222}
+.ph-btns{display:flex;gap:12px;margin-top:22px}
+.ph-btns div{flex:1;background:#efefef;border-radius:14px;padding:14px 0;text-align:center;font-weight:700;font-size:25px}
+.ph-btns .follow-btn{background:#0095f6;color:#fff}
+.ph-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin:24px -30px 0}
+.ph-grid img,.ph-grid div{width:100%;aspect-ratio:4/5;object-fit:cover;background:#e9e9ee}
+.hand{position:absolute;top:1088px;left:150px;font-size:96px;line-height:1;filter:drop-shadow(0 8px 16px rgba(0,0,0,.45))}
 </style></head><body>${slides}
 <script>
 // Le texte doit tenir dans sa zone : on agrandit d'abord la zone (photo réduite), puis on réduit le texte.
@@ -289,8 +317,9 @@ document.querySelectorAll('.text').forEach(t=>{
 document.querySelectorAll('h1:not(.headline)').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
 document.querySelectorAll('.cover-block').forEach(b=>{const h=b.querySelector('h1'),p=b.querySelector('.cover-sub');for(let k=0;k<12&&b.getBoundingClientRect().top<520;k++){[h,p].forEach(el=>el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px')}});
 }
-function fitCta(){document.querySelectorAll('.cta').forEach(c=>{const inn=c.querySelector('.cta-in');if(!inn)return;let z=1;for(let k=0;k<14&&inn.scrollHeight*z>c.clientHeight-4;k++){z-=0.05;inn.style.zoom=z;}});}
-window.__fitDone=document.fonts.ready.then(()=>{fit();fitCta();});
+function fitCta(){document.querySelectorAll('.cta-top').forEach(c=>{const t=c.querySelector('.cta-title');for(let k=0;k<10&&c.getBoundingClientRect().bottom>570;k++){c.querySelectorAll('.cta-title,.cta-sub,.cta-q').forEach(el=>el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.93)+'px')}});}
+function placeHand(){document.querySelectorAll('.k-cta').forEach(sl=>{const btn=sl.querySelector('.follow-btn'),h=sl.querySelector('.hand');if(!btn||!h)return;const r=btn.getBoundingClientRect(),o=sl.getBoundingClientRect(),hr=h.getBoundingClientRect();h.style.top=(r.top-o.top+r.height/2-hr.height/2+6)+'px';h.style.left=(r.left-o.left-hr.width+18)+'px';});}
+window.__fitDone=document.fonts.ready.then(()=>{fit();fitCta();placeHand();});
 </script>
 </body></html>`;
 }

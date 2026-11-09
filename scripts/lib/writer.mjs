@@ -13,8 +13,8 @@ const Slide = z.object({
   kind: z.enum(["cover", "content", "list", "cta"]),
   kicker: z.string().describe("Étiquette de la page en majuscules, 1 à 3 mots (LE CONTEXTE, CE QUI CHANGE, LE RISQUE, LES SOLUTIONS, ET APRÈS ?…). Vide pour cover et cta"),
   title: z.string().describe("cover : la phrase de couverture. content/list : titre court et naturel. cta : la question posée au lecteur. Mots-clés entre **…**"),
-  body: z.string().describe("content : 1 ou 2 paragraphes (séparés par un saut de ligne), 30 à 55 mots au total. cta : l'invitation à commenter. list : vide. cover : vide, sauf si les consignes du compte demandent un sous-titre de couverture"),
-  bullets: z.array(z.string()).describe("list : 3 étapes ou options concrètes de 10 à 22 mots, sinon tableau vide"),
+  body: z.string().describe("content : 1 ou 2 paragraphes courts (séparés par un saut de ligne), 20 à 38 mots au total. cta : vide. list : vide. cover : vide, sauf si les consignes du compte demandent un sous-titre de couverture"),
+  bullets: z.array(z.string()).describe("list : 3 étapes ou options concrètes de 8 à 16 mots, sinon tableau vide"),
   image_query: z.string().describe("Recherche d'image précise liée au texte de la page (ex : 'Ledger Nano X', 'Changpeng Zhao', 'siège AMF Paris'). Vide pour cta"),
   image_entity: z.string().describe("Titre Wikipédia de la personne, entreprise, produit ou lieu montré, sinon vide"),
 });
@@ -100,9 +100,9 @@ PAGES INTÉRIEURES — ADAPTE-LES À LA NATURE DE L'ACTU. Choisis et ordonne seu
 - Toujours utiles : LE CONTEXTE (ce qui s'est passé et pourquoi), QUI EST … (la personne ou l'entreprise, si le public ne la connaît pas bien), LES CHIFFRES / LES RÉSULTATS (les données clés), LES RÉACTIONS (marché, action en Bourse, concurrents, politiques), ET APRÈS ? (ce qu'il faut surveiller, la suite probable).
 - Seulement si l'actu touche directement l'argent ou les décisions du lecteur (épargne, impôts, crédit, placements, une plateforme qu'il utilise, une action qu'il peut détenir) : CE QUI CHANGE POUR TOI, LE RISQUE, LES SOLUTIONS (kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent).
 - Pour une actu « pure » (scandale, people, enquête, nomination, coulisses d'une entreprise), PAS de page risque ni solutions : raconte l'histoire (contexte, faits, personnages, réactions, impact sur l'entreprise ou son action, suite).
-Chaque page : une étiquette (kicker), un titre court, 1 ou 2 paragraphes de 30 à 55 mots au total, 3 à 6 mots-clés en **gras**.
+Chaque page : une étiquette (kicker), un titre court, 1 ou 2 paragraphes COURTS de 20 à 38 mots au total (une idée par page, ça doit se lire en 5 secondes), 2 à 4 mots-clés en **gras**.
 
-DERNIÈRE PAGE — CTA : title = une question directe liée au sujet pour faire réagir en commentaire (ex : « Tu avais des cryptos sur **Binance** ? »), body = « Dis-nous en commentaire ce que tu vas en faire 👇 » ou équivalent adapté.`;
+DERNIÈRE PAGE — CTA : la page est surtout un appel à s'abonner (déjà mis en page). title = une question TRÈS courte liée au sujet pour faire réagir en commentaire, 4 à 10 mots, sans gras (ex : « Tu avais des cryptos sur Binance ? »), body = vide.`;
 
 const STYLE_GUIDE = `STYLE (très important) :
 - Écris comme un humain, journaliste éco qui tutoie un ami. Pas de formules creuses ou « d'IA » : pas de titres en métaphore bancale (« frais en approche », « perdre la main »), pas de « Décryptage », « Zoom sur », « Ce qu'il faut retenir ».
