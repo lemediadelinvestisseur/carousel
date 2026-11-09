@@ -110,11 +110,11 @@ Le jeton expire au bout de **60 jours**. En cas d'erreur 401, génère-en un nou
 ### Statistiques LinkedIn : apprendre de ce qui marche
 Dashboard → **💼 LinkedIn**.
 
-Le jeton de publication (`w_member_social`) **ne peut pas lire les statistiques** d'un profil perso. On utilise donc les **2 exports officiels** de LinkedIn :
-1. Sur linkedin.com : **ton profil → Analytics**.
-2. **Statistiques sur le contenu** : période **365 jours** → **Exporter** (`.xlsx`).
-3. **Statistiques sur l'audience** : période **365 jours** → **Exporter** (`.xlsx`).
-4. Dashboard → 💼 LinkedIn → **📥 Importer les exports** et sélectionner **les 2 fichiers** en même temps (ou l'un après l'autre). À refaire environ une fois par mois : les imports s'additionnent.
+Le jeton de publication (`w_member_social`) **ne peut pas lire les statistiques** d'un profil perso. On utilise donc l'export officiel de LinkedIn :
+1. Sur linkedin.com : **ton profil → Analytics → Exporter**, période **365 jours**. Tu obtiens un seul fichier `AggregateAnalytics_….xlsx` (découverte, interactions par jour, posts, abonnés, démographie).
+2. Dashboard → 💼 LinkedIn → **📥 Importer l'export** et choisir ce fichier. À refaire environ une fois par mois : les imports s'additionnent.
+
+Le dashboard affiche ensuite les **courbes** (impressions, interactions, abonnés sur 30 j, 90 j ou 12 mois, avec tes posts les plus vus repérés sur la courbe) et le **classement de tes posts** par impressions, interactions, taux d'engagement ou abonnés gagnés.
 
 Le workflow **LinkedIn (statistiques)** lit le fichier (posts, impressions, engagements, abonnés, démographie), retrouve l'heure exacte de chaque post grâce à son identifiant, essaie de récupérer le texte des posts publics, puis **Claude analyse** ce qui marche (accroches, longueur, format de meme, jours et heures). Résultats : `data/linkedin-stats.json` et `data/linkedin-insights.json`. Les **règles de rédaction** et tes **meilleurs posts** sont ensuite donnés automatiquement à Claude à chaque nouveau meme. Une nouvelle analyse tourne aussi chaque lundi matin.
 

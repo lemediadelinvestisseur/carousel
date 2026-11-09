@@ -30,10 +30,17 @@ export function urnTime(urnOrUrl) {
   return ms > Date.parse("2015-01-01") && ms < Date.now() + 864e5 ? ms : null;
 }
 export function urnOf(urnOrUrl) {
-  const m = String(urnOrUrl || "").match(/urn:li:(activity|share|ugcPost):(\d+)/i);
-  if (m) return `urn:li:${m[1]}:${m[2]}`;
-  const a = String(urnOrUrl || "").match(/activity[-:](\d{15,22})/i);
-  return a ? `urn:li:activity:${a[1]}` : null;
+  const m = String(urnOrUrl || "").match(/urn:li:(activity|share|ugcPost):(\d+)/i) || String(urnOrUrl || "").match(/(activity|share|ugcPost)[-:](\d{15,22})/i);
+  return m ? `urn:li:${m[1].toLowerCase() === "ugcpost" ? "ugcPost" : m[1].toLowerCase()}:${m[2]}` : null;
+}
+/** Début du texte du post, tiré du lien (linkedin.com/posts/pseudo_mon-texte-du-post-share-…). */
+export function titleFromUrl(url) {
+  const m = String(url || "").match(/\/posts\/[^_/]+_(.+?)-(?:share|ugcpost|activity)-\d{15,22}/i);
+  if (!m) return null;
+  let t = m[1];
+  try { t = decodeURIComponent(t); } catch {}
+  t = t.replace(/-/g, " ").replace(/\s+/g, " ").trim();
+  return t ? t[0].toUpperCase() + t.slice(1) : null;
 }
 
 // ---------------------------------------------------------------------------
@@ -76,39 +83,67 @@ const isEng = (h) => /engagement|interaction/.test(low(h));
 const isFollow = (h) => /follower|abonne/.test(low(h));
 const isReach = (h) => /reached|touche|atteint|unique/.test(low(h));
 
+// Colonnes des tableaux de posts (export FR ou EN) → champ.
+function postField(h) {
+  const x = low(h).trim();
+  if (!x) return null;
+  if (/^(url|post url)|url du post|lien/.test(x)) return "url";
+  if (/date/.test(x)) return "date";
+  if (/type/.test(x)) return "type";
+  if (/impression/.test(x) && /(dans le|in) ?(reseau|network)|in-network/.test(x)) return "inNetworkPct";
+  if (/impression/.test(x) && /(hors|out)/.test(x)) return "outNetworkPct";
+  if (/impression/.test(x)) return "impressions";
+  if (/touche|reached/.test(x)) return "membersReached";
+  if (/abonne|follower/.test(x)) return "followersGained";
+  if (/vues du profil|profile view/.test(x)) return "profileViews";
+  if (/reaction/.test(x)) return "reactions";
+  if (/comment/.test(x)) return "comments";
+  if (/republication|repost|partage/.test(x)) return "reposts";
+  if (/enregistrement|save/.test(x)) return "saves";
+  if (/envoi|send/.test(x)) return "sends";
+  if (/bouton|button/.test(x)) return null;
+  if (/interaction|engagement/.test(x)) return "engagements";
+  return null;
+}
+
 /** Lit l'export LinkedIn ({ sheets: { nom: lignes[][] } }) et renvoie posts, jours, abonnés, démographie. */
 export function parseExport({ sheets }) {
   const out = { posts: new Map(), daily: {}, followers: null, discovery: {}, demographics: [], period: null };
+  // Format des dates (j/m/a ou m/j/a) décidé sur tout le fichier : un seul jour > 12 suffit à trancher.
+  const toDate = dateParser(Object.values(sheets || {}).flat(2));
   for (const [name, rows0] of Object.entries(sheets || {})) {
     const rows = (rows0 || []).map((r) => (Array.isArray(r) ? r : []));
     const sheet = low(name);
     const allCells = rows.flat();
-    const toDate = dateParser(allCells);
 
-    // 1. Posts : toute cellule contenant un lien LinkedIn.
-    rows.forEach((r, ri) => r.forEach((cell, ci) => {
-      if (!/linkedin\.com\//i.test(String(cell ?? ""))) return;
-      const url = String(cell).trim();
-      const key = urnOf(url) || url;
-      const post = out.posts.get(key) || { url, urn: urnOf(url) };
-      // En-tête de la colonne de valeur : on remonte la colonne jusqu'à un texte.
-      let date = null, value = null, header = "";
-      for (let k = ci + 1; k < Math.min(r.length, ci + 4); k++) {
-        if (!date && toDate(r[k])) { date = toDate(r[k]); continue; }
-        if (value == null && num(r[k]) != null) {
-          value = num(r[k]);
-          for (let up = ri - 1; up >= 0 && !header; up--) if (typeof rows[up][k] === "string" && num(rows[up][k]) == null && rows[up][k].trim()) header = rows[up][k];
-          break;
+    // 1. Tableaux de posts : une ligne d'en-tête avec « URL du post », éventuellement plusieurs tableaux côte à côte.
+    let blocks = null;
+    for (const r of rows) {
+      const urlCols = r.map((c, k) => (postField(c) === "url" && !/linkedin\.com/i.test(String(c)) ? k : -1)).filter((k) => k >= 0);
+      if (urlCols.length) {
+        blocks = urlCols.map((c, i) => {
+          const endCol = i + 1 < urlCols.length ? urlCols[i + 1] : r.length;
+          const cols = [];
+          for (let k = c; k < endCol && String(r[k] ?? "").trim(); k++) cols.push([k, postField(r[k])]);
+          return cols;
+        });
+        continue;
+      }
+      if (!blocks) continue;
+      for (const cols of blocks) {
+        const url = String(r[cols[0][0]] ?? "").trim();
+        if (!/linkedin\.com\//i.test(url)) continue;
+        const key = urnOf(url) || url;
+        const post = out.posts.get(key) || { url, urn: urnOf(url), title: titleFromUrl(url) };
+        for (const [k, f] of cols.slice(1)) {
+          if (!f || r[k] == null || r[k] === "") continue;
+          if (f === "date") post.date = toDate(r[k]) || post.date;
+          else if (f === "type") post.type = String(r[k]);
+          else if (num(r[k]) != null) post[f] = num(r[k]);
         }
+        out.posts.set(key, post);
       }
-      if (date) post.date = date;
-      if (value != null) {
-        if (isImpr(header)) post.impressions = value;
-        else if (isEng(header)) post.engagements = value;
-        else post[post.engagements == null ? "engagements" : "impressions"] = value;
-      }
-      out.posts.set(key, post);
-    }));
+    }
 
     // 2. Séries par jour : une colonne de dates suivie de nombres, avec une ligne d'en-tête.
     let headers = null;
@@ -130,6 +165,7 @@ export function parseExport({ sheets }) {
 
     // 3. Totaux « libellé : valeur » (abonnés, impressions, membres touchés).
     for (const r of rows) {
+      if (r.some((c) => /linkedin\.com/i.test(String(c ?? "")))) continue;
       const label = r.find((c) => typeof c === "string" && c.trim() && num(c) == null);
       const value = r.map(num).find((n) => n != null);
       if (!label || value == null || toDate(r[0])) continue;
@@ -137,36 +173,37 @@ export function parseExport({ sheets }) {
       else if (/discovery|decouverte/.test(sheet) && isImpr(label)) out.discovery.impressions = value;
       else if (/discovery|decouverte/.test(sheet) && isReach(label)) out.discovery.membersReached = value;
     }
-    // Période couverte par l'export (ex. « 10/11/2025 - 08/11/2026 »).
+    // Période couverte par l'export (ex. « 10/11/2025 - 9/11/2026 »).
     for (const c of allCells) {
       const m = String(c ?? "").match(/(\d{1,2}[/.-]\d{1,2}[/.-]\d{2,4})\s*[-–]\s*(\d{1,2}[/.-]\d{1,2}[/.-]\d{2,4})/);
       if (m && !out.period) out.period = { from: toDate(m[1]), to: toDate(m[2]) };
     }
 
-    // 4. Démographie : libellé, valeur, pourcentage.
+    // 4. Démographie : catégorie, valeur, pourcentage (« 36 % », « < 1% » ou 0,36).
     if (/demograph/.test(sheet)) {
-      let cat = "";
+      const scope = /contenu|content/.test(sheet) || /sur le c/.test(sheet) ? "contenu" : "audience";
       for (const r of rows) {
         const cells = r.filter((c) => c !== "" && c != null);
-        if (cells.length >= 2 && typeof cells[0] === "string" && typeof cells[1] === "string" && cells[2] != null) {
-          if (num(cells[2]) != null) {
-            cat = cells[0];
-            let pct = num(cells[2]);
-            if (pct != null && pct <= 1) pct = Math.round(pct * 1000) / 10;
-            out.demographics.push({ category: cat, value: cells[1], percent: pct });
-          }
-        }
+        if (cells.length < 3 || typeof cells[0] !== "string" || typeof cells[1] !== "string") continue;
+        const raw = String(cells[2]);
+        let pct = /^\s*<\s*1/.test(raw) ? 0.5 : num(raw);
+        if (pct == null) continue;
+        if (typeof cells[2] === "number" && pct <= 1) pct = Math.round(pct * 1000) / 10;
+        out.demographics.push({ scope, category: cells[0], value: cells[1], percent: pct });
       }
     }
   }
-  // Date et heure exactes depuis l'identifiant.
   for (const p of out.posts.values()) {
+    // Date et heure exactes depuis l'identifiant.
     const t = urnTime(p.urn || p.url);
-    if (t) { p.publishedAt = new Date(t).toISOString(); p.date = p.date || p.publishedAt.slice(0, 10); }
+    if (t) { p.publishedAt = new Date(t).toISOString(); p.date = parisDayOf(t); }
+    // Pas de colonne « Interactions » (tableau des posts récents) : somme des réactions, commentaires, republications.
+    if (p.engagements == null && [p.reactions, p.comments, p.reposts].some((v) => v != null)) p.engagements = (p.reactions || 0) + (p.comments || 0) + (p.reposts || 0);
   }
   out.posts = [...out.posts.values()].filter((p) => p.impressions != null || p.engagements != null);
   return out;
 }
+const parisDayOf = (t) => new Date(t).toLocaleDateString("fr-CA", { timeZone: "Europe/Paris" });
 
 /** Décode la donnée envoyée par le dashboard : JSON, éventuellement gzip + base64. */
 export function decodePayload(s) {
@@ -334,10 +371,38 @@ export function computeSummary(stats, now = Date.now()) {
     topByEngagements: top("engagements").map(slim),
     topByImpressions: top("impressions").map(slim),
     topByRate: posts.filter((p) => p.rate != null && p.impressions >= 300).sort((a, b) => b.rate - a.rate).slice(0, 10).map(slim),
-    demographics: stats.demographics.slice(0, 12),
+    demographics: stats.demographics,
+    series: dailySeries(stats),
+    ranking: posts.filter((p) => p.impressions != null || p.engagements != null).map(slim),
   };
 }
-const slim = (p) => ({ url: p.url, publishedAt: p.publishedAt || p.date, impressions: p.impressions ?? null, engagements: p.engagements ?? null, rate: p.rate ?? null, angle: p.angle || null, text: p.text ? p.text.slice(0, 280) : null });
+const slim = (p) => ({
+  url: p.url, publishedAt: p.publishedAt || p.date, title: p.title || null, type: p.type || null,
+  impressions: p.impressions ?? null, engagements: p.engagements ?? null, rate: p.rate ?? null,
+  reactions: p.reactions ?? null, comments: p.comments ?? null, reposts: p.reposts ?? null,
+  membersReached: p.membersReached ?? null, followersGained: p.followersGained ?? null,
+  angle: p.angle || null, text: p.text ? p.text.slice(0, 280) : null,
+});
+
+/** Courbes par jour : [date, impressions, interactions, nouveaux abonnés, total d'abonnés]. */
+function dailySeries(stats) {
+  const days = Object.keys(stats.daily).sort();
+  if (!days.length) return [];
+  // Total d'abonnés reconstitué à rebours depuis le dernier total connu.
+  const last = (stats.followersHistory || []).at(-1);
+  const totals = {};
+  if (stats.followers != null) {
+    let total = stats.followers;
+    const anchor = last?.date && last.date < days.at(-1) ? last.date : days.at(-1);
+    for (let k = days.length - 1; k >= 0; k--) {
+      const d = days[k];
+      if (d > anchor) continue;
+      totals[d] = total;
+      total -= stats.daily[d].newFollowers || 0;
+    }
+  }
+  return days.map((d) => { const v = stats.daily[d]; return [d, v.impressions ?? null, v.engagements ?? null, v.newFollowers ?? null, totals[d] ?? null]; });
+}
 
 // ---------------------------------------------------------------------------
 // Analyse par Claude
@@ -364,7 +429,8 @@ export async function analyze({ stats, summary, cfg, log = console.log }) {
       reactions: p.reactions, comments: p.comments, reposts: p.reposts,
       taux: p.impressions ? round((100 * (p.engagements || 0)) / p.impressions, 2) : null,
       format: p.meme ? `${p.meme.source}/${p.meme.format}${p.meme.template ? `/${p.meme.template}` : ""}` : undefined,
-      texte: p.text ? p.text.slice(0, 1200) : "(texte inconnu)",
+      type: p.type, membres_touches: p.membersReached, abonnes_acquis: p.followersGained,
+      texte: p.text ? p.text.slice(0, 1200) : p.title ? `(début du texte seulement) ${p.title}…` : "(texte inconnu)",
     }));
   if (rows.length < 3) { log("  Analyse IA ignorée : moins de 3 posts avec des chiffres"); return null; }
   const { topByEngagements, topByImpressions, topByRate, demographics, ...agg } = summary;
