@@ -2466,7 +2466,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Débat clivant sur dette, retraites et protection sociale.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:04.812Z"
+  "updatedAt": "2026-11-09T20:23:07.059Z"
 }
