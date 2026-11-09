@@ -75,7 +75,7 @@ Collez-le dans le dashboard (⚙︎ Réglages). Il est stocké uniquement dans l
 ## Publication automatique sur Instagram et Facebook
 
 Dans le dashboard, onglet **Prêts** → **🚀 Publier** : choisis Instagram et/ou la Page Facebook, puis :
-- **🕒 Programmer** : date et heure (raccourcis 8 h, 12 h 30, 18 h, 21 h). Un passage automatique toutes les 10 minutes publie ce qui est arrivé à échéance ; la carte affiche « 🕒 Programmé … » avec un bouton **Annuler**. En cas d'échec, une notification te prévient.
+- **🕒 Programmer** : date et heure (raccourcis 8 h, 12 h 30, 18 h, 21 h). Un veilleur, démarré à chaque programmation, publie à l'heure prévue (à 5 minutes près) ; la carte affiche « 🕒 Programmé … » avec un bouton **Annuler**. En cas d'échec, une notification te prévient.
 - **🚀 Publier maintenant**.
 - **🧪 Test** : tout est préparé chez Meta, rien n'est publié.
 

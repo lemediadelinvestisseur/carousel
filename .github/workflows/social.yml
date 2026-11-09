@@ -17,7 +17,7 @@ on:
         required: true
         default: "test"
         type: choice
-        options: [connexion, test, publier, programmer, annuler]
+        options: [connexion, test, publier, programmer, annuler, echeances]
       targets:
         description: "Où publier (instagram, facebook)"
         required: false
@@ -33,6 +33,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   # Un groupe par carousel, et un pour le passage automatique : aucune demande n'en écrase une autre.
@@ -94,3 +95,13 @@ jobs:
           ./scripts/publish.sh "publication: $MODE $INPUT_ID"
         env:
           INPUT_ID: ${{ inputs.id }}
+      # Une programmation vient d'être ajoutée, ou le passage automatique trouve des publications en attente :
+      # on s'assure que le veilleur tourne (les déclencheurs « toutes les 10 minutes » de GitHub ne sont pas fiables).
+      - name: Démarrage du veilleur
+        if: always() && (env.MODE == 'programmer' || (github.event_name == 'schedule' && steps.check.outputs.skip != 'true'))
+        run: |
+          if [ "$MODE" = "programmer" ] || [ -z "$(gh run list --workflow scheduler.yml --status in_progress --json databaseId --jq '.[].databaseId')" ]; then
+            gh workflow run scheduler.yml --ref "$GITHUB_REF_NAME"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

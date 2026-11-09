@@ -1,0 +1,30 @@
+name: Veilleur des publications programmées
+
+# Reste éveillé tant qu'une publication est programmée (carousels et LinkedIn) et lance la publication
+# à l'heure prévue. Démarré automatiquement à chaque programmation.
+run-name: "veilleur des publications programmées"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: scheduler
+  cancel-in-progress: true
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Veille
+        run: node scripts/scheduler.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
