@@ -147,29 +147,24 @@ function contentSlide(s, ctx) {
     <div class="text under">${inner}</div><div class="foot">${logo(ctx.brand, "md")}</div>`;
 }
 
-// Dernière page : appel à s'abonner, avec le profil Instagram de la marque dans un téléphone (doigt sur « S'abonner »).
+// Dernière page : la question pour les commentaires, les dernières couvertures de la marque en éventail
+// (« ce que tu vas recevoir »), puis un gros bouton « S'abonner » avec le compte.
 function cta(s, ctx) {
   const b = ctx.brand;
   const c = b.ctaSlide || {};
-  const handle = String(b.handle || "").replace(/^@/, "");
-  const bio = (c.bio || []).slice(0, 3);
   const thumbs = (ctx.thumbs || []).slice(0, 3);
-  const avatar = b.logoDataUri ? `<img src="${b.logoDataUri}" alt="">` : `<span>${(b.wordmark || [b.name]).map(esc).join("<br>")}</span>`;
+  const fan = thumbs.length
+    ? `<div class="fan n${thumbs.length}">${thumbs.map((t, k) => `<img class="f${k}" src="${t}" alt="">`).join("")}</div>`
+    : "";
   return `${srcOf(ctx.coverImg) ? `<img class="bg cta-bg" src="${srcOf(ctx.coverImg)}" alt="">` : ""}<div class="cta-shade"></div>
-    <div class="cta-top">
-      <div class="cta-title">🔔 ${bold(c.title || `Abonne-toi à ${b.name}`)}</div>
-      <div class="cta-sub">${esc(c.subtitle || "pour ne pas rater nos prochaines publications")}</div>
-      ${s.title ? `<div class="cta-q">💬 ${esc(plain(s.title))}</div>` : ""}
+    ${s.title ? `<div class="cta-q"><div class="qq">${esc(plain(s.title))}</div><div class="qh">Réponds en commentaire 👇</div></div>` : ""}
+    ${fan}
+    <div class="cta-follow${fan ? "" : " alone"}">
+      <div class="cta-line">${esc(c.subtitle || "Chaque jour, l'actu qui compte.")}</div>
+      <div class="sub-btn"><span class="plus">+</span>${esc(c.button || "S'abonner")}</div>
+      <div class="cta-handle">${esc(b.handle || "")}</div>
     </div>
-    <div class="phone"><div class="screen">
-      <div class="ph-status"><span>9:41</span><i></i><span>●●● ▮</span></div>
-      <div class="ph-head"><span>‹</span><b>${esc(handle)}</b><em>✓</em><span class="sp"></span><span>🔔</span><span>⋯</span></div>
-      <div class="ph-prof"><div class="ph-av">${avatar}</div><div class="ph-name"><b>${esc(b.name)}</b><small>Média</small></div></div>
-      <div class="ph-bio">${bio.map((l) => `<div>${esc(l)}</div>`).join("")}</div>
-      <div class="ph-btns"><div class="follow-btn">S'abonner</div><div>Message</div></div>
-      <div class="ph-grid">${[0, 1, 2].map((k) => (thumbs[k] ? `<img src="${thumbs[k]}" alt="">` : `<div></div>`)).join("")}</div>
-    </div></div>
-    <div class="hand">👉</div>`;
+    <div class="foot">${logo(b, "md")}</div>`;
 }
 
 function fontsQuery(t) {
@@ -268,34 +263,24 @@ p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 .tx-photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 
 /* Dernière page */
-.k-cta .cta-bg{filter:blur(3px) saturate(1.1);transform:scale(1.04)}
-.cta-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--shade),.82) 0%,rgba(var(--shade),.62) 45%,rgba(var(--shade),.88) 100%)}
-.cta-top{position:absolute;left:70px;right:70px;top:96px;text-align:center}
-.cta-title{font-family:var(--ft);font-weight:800;font-size:68px;line-height:1.12;letter-spacing:-.01em}
-.cta-title b{color:var(--accent)}
-.cta-sub{font-size:42px;line-height:1.3;font-weight:400;margin-top:18px;color:#E8ECF6}
-.cta-q{display:inline-block;margin-top:30px;font-size:32px;line-height:1.3;font-weight:700;background:rgba(255,255,255,.14);border:2px solid rgba(255,255,255,.35);border-radius:22px;padding:12px 24px}
-.phone{position:absolute;left:50%;transform:translateX(-50%);top:600px;width:600px;height:880px;background:#0b0b0d;border-radius:78px;padding:16px;box-shadow:0 30px 80px rgba(0,0,0,.55)}
-.screen{width:100%;height:100%;background:#fff;border-radius:64px;overflow:hidden;color:#111;font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;padding:24px 30px 0}
-.ph-status{display:flex;justify-content:space-between;align-items:center;font-size:24px;font-weight:700;padding:0 14px}
-.ph-status i{width:150px;height:40px;background:#0b0b0d;border-radius:22px}
-.ph-head{display:flex;align-items:center;gap:12px;font-size:30px;margin-top:22px}
-.ph-head b{font-size:31px}
-.ph-head em{font-style:normal;background:#3897f0;color:#fff;border-radius:50%;width:26px;height:26px;font-size:17px;display:flex;align-items:center;justify-content:center}
-.ph-head .sp{flex:1}
-.ph-prof{display:flex;align-items:center;gap:24px;margin-top:26px}
-.ph-av{width:132px;height:132px;border-radius:50%;flex:none;background:${"var(--avbg)"};display:flex;align-items:center;justify-content:center;overflow:hidden;border:4px solid #fff;box-shadow:0 0 0 3px #d62976}
-.ph-av img{width:78%}
-.ph-av span{color:#fff;font-weight:800;font-size:13px;letter-spacing:.08em;text-align:center;line-height:1.25;text-transform:uppercase}
-.ph-name b{display:block;font-size:30px;line-height:1.2}
-.ph-name small{display:block;font-size:24px;color:#737373;margin-top:4px}
-.ph-bio{margin-top:18px;font-size:24px;line-height:1.4;color:#222}
-.ph-btns{display:flex;gap:12px;margin-top:22px}
-.ph-btns div{flex:1;background:#efefef;border-radius:14px;padding:14px 0;text-align:center;font-weight:700;font-size:25px}
-.ph-btns .follow-btn{background:#0095f6;color:#fff}
-.ph-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin:24px -30px 0}
-.ph-grid img,.ph-grid div{width:100%;aspect-ratio:4/5;object-fit:cover;background:#e9e9ee}
-.hand{position:absolute;top:1088px;left:150px;font-size:96px;line-height:1;filter:drop-shadow(0 8px 16px rgba(0,0,0,.45))}
+.k-cta .cta-bg{filter:blur(6px) saturate(1.1);transform:scale(1.06)}
+.cta-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--shade),.86) 0%,rgba(var(--shade),.7) 50%,rgba(var(--shade),.92) 100%)}
+.cta-q{position:absolute;left:80px;right:80px;top:100px;text-align:center}
+.cta-q .qq{font-family:var(--ft);font-weight:800;font-size:62px;line-height:1.15;letter-spacing:-.01em}
+.cta-q .qh{margin-top:18px;font-size:34px;font-weight:600;color:var(--accent)}
+.fan{position:absolute;left:0;right:0;top:420px;height:470px}
+.fan img{position:absolute;top:0;left:50%;width:300px;height:375px;object-fit:cover;border-radius:22px;border:5px solid #fff;box-shadow:0 24px 50px rgba(0,0,0,.55)}
+.fan .f0{transform:translateX(-50%) translateX(-230px) translateY(48px) rotate(-11deg)}
+.fan .f2{transform:translateX(-50%) translateX(230px) translateY(48px) rotate(11deg)}
+.fan .f1{transform:translateX(-50%) translateY(-6px);z-index:2}
+.fan.n1 .f0{transform:translateX(-50%)}
+.fan.n2 .f0{transform:translateX(-50%) translateX(-140px) rotate(-7deg)}.fan.n2 .f1{transform:translateX(-50%) translateX(140px) rotate(7deg)}
+.cta-follow{position:absolute;left:80px;right:80px;top:930px;text-align:center}
+.cta-follow.alone{top:560px}
+.cta-line{font-size:40px;line-height:1.3;font-weight:500;color:#E8ECF6;margin-bottom:30px}
+.sub-btn{display:inline-flex;align-items:center;gap:22px;background:var(--accent2);color:#fff;border-radius:999px;padding:24px 64px 26px 40px;font-family:var(--ft);font-weight:800;font-size:56px;box-shadow:0 18px 40px rgba(0,0,0,.4)}
+.sub-btn .plus{display:inline-flex;align-items:center;justify-content:center;width:62px;height:62px;border-radius:50%;background:#fff;color:var(--accent2);font-size:52px;line-height:1;padding-bottom:6px}
+.cta-handle{margin-top:22px;font-size:34px;font-weight:700;color:rgba(255,255,255,.85)}
 </style></head><body>${slides}
 <script>
 // Le texte doit tenir dans sa zone : on agrandit d'abord la zone (photo réduite), puis on réduit le texte.
@@ -317,9 +302,8 @@ document.querySelectorAll('.text').forEach(t=>{
 document.querySelectorAll('h1:not(.headline)').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
 document.querySelectorAll('.cover-block').forEach(b=>{const h=b.querySelector('h1'),p=b.querySelector('.cover-sub');for(let k=0;k<12&&b.getBoundingClientRect().top<520;k++){[h,p].forEach(el=>el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px')}});
 }
-function fitCta(){document.querySelectorAll('.cta-top').forEach(c=>{const t=c.querySelector('.cta-title');for(let k=0;k<10&&c.getBoundingClientRect().bottom>570;k++){c.querySelectorAll('.cta-title,.cta-sub,.cta-q').forEach(el=>el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.93)+'px')}});}
-function placeHand(){document.querySelectorAll('.k-cta').forEach(sl=>{const btn=sl.querySelector('.follow-btn'),h=sl.querySelector('.hand');if(!btn||!h)return;const r=btn.getBoundingClientRect(),o=sl.getBoundingClientRect(),hr=h.getBoundingClientRect();h.style.top=(r.top-o.top+r.height/2-hr.height/2+6)+'px';h.style.left=(r.left-o.left-hr.width+18)+'px';});}
-window.__fitDone=document.fonts.ready.then(()=>{fit();fitCta();placeHand();});
+function fitCta(){document.querySelectorAll('.k-cta').forEach(sl=>{const q=sl.querySelector('.cta-q .qq');if(!q)return;const lim=sl.getBoundingClientRect().top+(sl.querySelector('.fan')?400:520);for(let k=0;k<10&&sl.querySelector('.cta-q').getBoundingClientRect().bottom>lim;k++)q.style.fontSize=(parseFloat(getComputedStyle(q).fontSize)*0.93)+'px';});}
+window.__fitDone=document.fonts.ready.then(()=>{fit();fitCta();});
 </script>
 </body></html>`;
 }
