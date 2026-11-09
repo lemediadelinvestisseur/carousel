@@ -71,9 +71,9 @@
     "logo": "",
     "ctaSlide": {
       "title": "Abonne-toi au Média de l'investisseur",
-      "subtitle": "Chaque jour, l'actu qui touche ton argent, expliquée simplement.",
+      "subtitle": "Chaque jour, l'actu qui touche ton argent.",
       "bio": [
-        "📊 L'actu des marchés, décryptée simplement",
+        "📊 L'actu des marchés, en clair",
         "🚀 Bourse, crypto, French Tech",
         "👇 Chaque jour, l'essentiel en 2 minutes"
       ],
@@ -138,8 +138,13 @@
     "audience": "Français qui veulent acheter leur résidence principale ou investir dans la pierre (locatif, SCPI) ; sensibles aux taux, aux prix et à la fiscalité.",
     "template": "photo",
     "ctaSlide": {
-      "title": "Abonne-toi à **21m2**",
-      "subtitle": "Chaque jour, une actu qui touche l'immobilier, expliquée simplement."
+      "title": "Abonne-toi à 21m2",
+      "subtitle": "Chaque jour, l'actu qui touche ton logement.",
+      "bio": [
+        "🏠 L'actu immo qui touche ton patrimoine",
+        "📈 Prix, crédit, locatif, fiscalité",
+        "👇 Chaque jour, l'essentiel en 2 minutes"
+      ]
     },
     "innerStyle": "text",
     "logo": "assets/21m2/logo.png",

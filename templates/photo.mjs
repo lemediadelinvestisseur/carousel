@@ -147,16 +147,24 @@ function contentSlide(s, ctx) {
     <div class="text under">${inner}</div><div class="foot">${logo(ctx.brand, "md")}</div>`;
 }
 
+// Dernière page : la question pour les commentaires, les dernières couvertures de la marque en éventail
+// (« ce que tu vas recevoir »), puis un gros bouton « S'abonner » avec le compte.
 function cta(s, ctx) {
   const b = ctx.brand;
   const c = b.ctaSlide || {};
-  const actions = c.actions || [["🔖", "Enregistre"], ["📤", "Partage à un ami concerné"], ["❤️", "Like"]];
-  return `<div class="cta"><div class="cta-in">
-      <div class="q">${bold(s.title || "Et toi, qu'en penses-tu ?")}</div>
-      <div class="sub">${bold(s.body || "Dis-le-nous en commentaire 👇")}</div>
-      <div class="actions">${actions.map(([i, t]) => `<div><span>${i}</span>${esc(t)}</div>`).join("")}</div>
-      <div class="follow"><div class="t">${bold(c.title || `Abonne-toi à ${b.name}`)}</div>${c.subtitle ? `<div class="d">${esc(c.subtitle)}</div>` : ""}<div class="h">${esc(b.handle)}</div></div>
-    </div></div><div class="foot">${logo(b, "md")}</div>`;
+  const thumbs = (ctx.thumbs || []).slice(0, 3);
+  const fan = thumbs.length
+    ? `<div class="fan n${thumbs.length}">${thumbs.map((t, k) => `<img class="f${k}" src="${t}" alt="">`).join("")}</div>`
+    : "";
+  return `${srcOf(ctx.coverImg) ? `<img class="bg cta-bg" src="${srcOf(ctx.coverImg)}" alt="">` : ""}<div class="cta-shade"></div>
+    ${s.title ? `<div class="cta-q"><div class="qq">${esc(plain(s.title))}</div><div class="qh">Réponds en commentaire 👇</div></div>` : ""}
+    ${fan}
+    <div class="cta-follow${fan ? "" : " alone"}">
+      <div class="cta-line">${esc(c.subtitle || "Chaque jour, l'actu qui compte.")}</div>
+      <div class="sub-btn"><span class="plus">+</span>${esc(c.button || "S'abonner")}</div>
+      <div class="cta-handle">${esc(b.handle || "")}</div>
+    </div>
+    <div class="foot">${logo(b, "md")}</div>`;
 }
 
 function fontsQuery(t) {
@@ -169,7 +177,7 @@ export function renderHtml({ carousel, brand, images = [] }) {
   let innerIndex = 0;
   const slides = carousel.slides
     .map((s, index) => {
-      const ctx = { brand, index, total: carousel.slides.length, img: images[index], category: carousel.category, innerIndex };
+      const ctx = { brand, index, total: carousel.slides.length, img: images[index], category: carousel.category, innerIndex, coverImg: images[0], thumbs: carousel.ctaThumbs };
       let body;
       if (s.kind === "cover") body = cover(s, ctx);
       else if (s.kind === "cta") body = cta(s, ctx);
@@ -181,7 +189,7 @@ export function renderHtml({ carousel, brand, images = [] }) {
   return `<!doctype html><html lang="fr"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@800${fontsQuery(t)}&display=block" rel="stylesheet">
 <style>
-:root{--accent:${t.accent};--accent2:${t.accent2 || t.accent};--ft:${t.titleFont ? `'${t.titleFont}',` : ""}Montserrat,system-ui,sans-serif;--fb:${t.bodyFont ? `'${t.bodyFont}',` : ""}Montserrat,system-ui,sans-serif;--shade:${t.shadeRgb || "5,12,32"}}
+:root{--avbg:${t.bg || "#0A1430"};--accent:${t.accent};--accent2:${t.accent2 || t.accent};--ft:${t.titleFont ? `'${t.titleFont}',` : ""}Montserrat,system-ui,sans-serif;--fb:${t.bodyFont ? `'${t.bodyFont}',` : ""}Montserrat,system-ui,sans-serif;--shade:${t.shadeRgb || "5,12,32"}}
 *{box-sizing:border-box;margin:0;padding:0}
 @page{size:1080px 1350px;margin:0}
 body{background:#444;font-family:var(--fb);color:#fff}
@@ -255,19 +263,24 @@ p.after{font-size:30px;color:#C9D2E3;margin-top:22px}
 .tx-photo .fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 
 /* Dernière page */
-.cta{position:absolute;left:96px;right:96px;top:110px;bottom:150px;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-.cta-in{transform-origin:top center}
-.cta .q{font-family:var(--ft);font-weight:800;font-size:76px;line-height:1.15;margin-bottom:34px}
-.cta .q b{color:var(--accent)}
-.cta .sub{font-size:44px;line-height:1.4;margin-bottom:70px}
-.actions{display:flex;gap:20px;margin-bottom:80px}
-.actions div{flex:1;border:3px solid rgba(255,255,255,.85);border-radius:24px;padding:26px 10px;text-align:center;font-weight:700;font-size:32px}
-.actions span{display:block;font-size:56px;margin-bottom:10px}
-.follow{background:var(--accent2);padding:44px 48px;text-align:center}
-.follow .t{font-weight:800;font-size:46px;line-height:1.2;margin-bottom:14px}
-.follow .t b{font-weight:800}
-.follow .d{font-size:34px;line-height:1.4}
-.follow .h{margin-top:20px;font-weight:700;font-size:34px}
+.k-cta .cta-bg{filter:blur(6px) saturate(1.1);transform:scale(1.06)}
+.cta-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(var(--shade),.86) 0%,rgba(var(--shade),.7) 50%,rgba(var(--shade),.92) 100%)}
+.cta-q{position:absolute;left:80px;right:80px;top:100px;text-align:center}
+.cta-q .qq{font-family:var(--ft);font-weight:800;font-size:62px;line-height:1.15;letter-spacing:-.01em}
+.cta-q .qh{margin-top:18px;font-size:34px;font-weight:600;color:var(--accent)}
+.fan{position:absolute;left:0;right:0;top:420px;height:470px}
+.fan img{position:absolute;top:0;left:50%;width:300px;height:375px;object-fit:cover;border-radius:22px;border:5px solid #fff;box-shadow:0 24px 50px rgba(0,0,0,.55)}
+.fan .f0{transform:translateX(-50%) translateX(-230px) translateY(48px) rotate(-11deg)}
+.fan .f2{transform:translateX(-50%) translateX(230px) translateY(48px) rotate(11deg)}
+.fan .f1{transform:translateX(-50%) translateY(-6px);z-index:2}
+.fan.n1 .f0{transform:translateX(-50%)}
+.fan.n2 .f0{transform:translateX(-50%) translateX(-140px) rotate(-7deg)}.fan.n2 .f1{transform:translateX(-50%) translateX(140px) rotate(7deg)}
+.cta-follow{position:absolute;left:80px;right:80px;top:930px;text-align:center}
+.cta-follow.alone{top:560px}
+.cta-line{font-size:40px;line-height:1.3;font-weight:500;color:#E8ECF6;margin-bottom:30px}
+.sub-btn{display:inline-flex;align-items:center;gap:22px;background:var(--accent2);color:#fff;border-radius:999px;padding:24px 64px 26px 40px;font-family:var(--ft);font-weight:800;font-size:56px;box-shadow:0 18px 40px rgba(0,0,0,.4)}
+.sub-btn .plus{display:inline-flex;align-items:center;justify-content:center;width:62px;height:62px;border-radius:50%;background:#fff;color:var(--accent2);font-size:52px;line-height:1;padding-bottom:6px}
+.cta-handle{margin-top:22px;font-size:34px;font-weight:700;color:rgba(255,255,255,.85)}
 </style></head><body>${slides}
 <script>
 // Le texte doit tenir dans sa zone : on agrandit d'abord la zone (photo réduite), puis on réduit le texte.
@@ -289,7 +302,7 @@ document.querySelectorAll('.text').forEach(t=>{
 document.querySelectorAll('h1:not(.headline)').forEach(h=>{for(let k=0;k<12&&h.getBoundingClientRect().top<560;k++)h.style.fontSize=(parseFloat(getComputedStyle(h).fontSize)*0.93)+'px'});
 document.querySelectorAll('.cover-block').forEach(b=>{const h=b.querySelector('h1'),p=b.querySelector('.cover-sub');for(let k=0;k<12&&b.getBoundingClientRect().top<520;k++){[h,p].forEach(el=>el.style.fontSize=(parseFloat(getComputedStyle(el).fontSize)*0.94)+'px')}});
 }
-function fitCta(){document.querySelectorAll('.cta').forEach(c=>{const inn=c.querySelector('.cta-in');if(!inn)return;let z=1;for(let k=0;k<14&&inn.scrollHeight*z>c.clientHeight-4;k++){z-=0.05;inn.style.zoom=z;}});}
+function fitCta(){document.querySelectorAll('.k-cta').forEach(sl=>{const q=sl.querySelector('.cta-q .qq');if(!q)return;const lim=sl.getBoundingClientRect().top+(sl.querySelector('.fan')?400:520);for(let k=0;k<10&&sl.querySelector('.cta-q').getBoundingClientRect().bottom>lim;k++)q.style.fontSize=(parseFloat(getComputedStyle(q).fontSize)*0.93)+'px';});}
 window.__fitDone=document.fonts.ready.then(()=>{fit();fitCta();});
 </script>
 </body></html>`;

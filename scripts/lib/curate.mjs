@@ -34,12 +34,27 @@ Ce qui fait baisser la note :
 - Doublon d'un sujet déjà présent dans la liste (note le doublon le moins bon à 0).
 - Contenu sponsorisé, communiqué promotionnel, fait divers sans lien avec l'argent.
 
+CHOIX DU COMPTE (très important) :
+- "21m2" UNIQUEMENT pour l'immobilier : logement, prix au m², loyers, crédit immobilier, achat de sa résidence, investissement locatif, SCPI, DPE et rénovation, fiscalité immobilière, construction, promoteurs, notaires, Airbnb.
+- "investisseur" pour tout le reste qui touche l'argent : Bourse, actions, résultats d'entreprises, CAC 40, Wall Street, marchés, pétrole, crypto, banques, BCE et taux directeurs (sauf si l'angle est le crédit immobilier), épargne, assurance vie, impôts, salaires, économie, French Tech.
+- Le site d'origine n'est qu'un indice : un site immobilier publie aussi des actus Bourse ou épargne. Classe selon le SUJET de l'actu, pas selon le site.
+- "aucun" pour ce qui ne concerne pas l'argent (politique pure, sport, faits divers…).
+
 Barème : 9-10 = sujet incontournable du jour ; 7-8 = très bon sujet ; 5-6 = correct ; 0-4 = à ignorer.
 Sois exigeant : en général, seulement 10 à 20 % des actus méritent 7 ou plus.`;
 }
 
-/** items: [{id,title,summary,source,brand}] → Map(id → verdict) */
+/** items: [{id,title,summary,source,brand}] → Map(id → verdict). Par lots, pour que chaque actu soit notée. */
 export async function curate(items, brands) {
+  const out = new Map();
+  for (let k = 0; k < items.length; k += 40) {
+    for (const [id, v] of await curateBatch(items.slice(k, k + 40), brands)) out.set(id, v);
+  }
+  if (items.length) console.log(`[curate] ${out.size}/${items.length} actus notées par Claude au total.`);
+  return out;
+}
+
+async function curateBatch(items, brands) {
   if (!items.length) return new Map();
   if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) return new Map();
   const client = new Anthropic();

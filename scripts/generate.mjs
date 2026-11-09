@@ -73,6 +73,19 @@ async function itemFromUrl(url) {
   return item;
 }
 
+/** Couvertures des derniers carousels de la marque (publiés d'abord), pour le profil affiché sur la dernière page. */
+function recentCovers(brandKey, exceptId) {
+  const isPub = (i) => Object.values(i.published || {}).some((v) => v && (v.id || v.url));
+  return db.items
+    // Jamais une couverture sans photo ; d'abord les carousels publiés (déjà validés), puis ceux avec photo.
+    .filter((i) => i.brand === brandKey && i.id !== exceptId && i.status === "done" && i.carousel?.dir && i.carousel.coverPhoto !== false)
+    .sort((a, b) => Number(isPub(b)) - Number(isPub(a)) || Number(!!b.carousel.coverPhoto) - Number(!!a.carousel.coverPhoto) || (b.generatedAt || "").localeCompare(a.generatedAt || ""))
+    .map((i) => path.join(ROOT, i.carousel.dir, "slide-01.jpg"))
+    .filter((f) => fs.existsSync(f))
+    .slice(0, 3)
+    .map((f) => `data:image/jpeg;base64,${fs.readFileSync(f).toString("base64")}`);
+}
+
 async function processItem(item, { save = true, demo = false } = {}) {
   const brandKey = args.brand || item.brand;
   const brand = brands[brandKey];
@@ -94,6 +107,7 @@ async function processItem(item, { save = true, demo = false } = {}) {
   const outDir = path.join(ROOT, rel);
   fs.rmSync(outDir, { recursive: true, force: true }); // « Refaire » : on repart d'un dossier propre
   const images = brand.template === "photo" && !demo ? await illustrate({ slides: carousel.slides, item }) : [];
+  carousel.ctaThumbs = recentCovers(brandKey, item.id);
   const files = await renderCarousel({ carousel, brand, outDir, sourceLabel: item.source, images });
   // Description du post : le texte seul (ni hashtags ni sources, à la demande de l'éditeur).
   const caption = String(carousel.caption || "").replace(/\n*(?:#[\p{L}\p{N}_]+\s*)+$/u, "").trim();
@@ -102,7 +116,7 @@ async function processItem(item, { save = true, demo = false } = {}) {
 
   item.status = "done";
   item.generatedAt = new Date().toISOString();
-  item.carousel = { dir: rel, files, generator: carousel.generator, slides: carousel.slides.length, hooks: carousel.hook_alternatives || [] };
+  item.carousel = { dir: rel, files, generator: carousel.generator, slides: carousel.slides.length, hooks: carousel.hook_alternatives || [], coverPhoto: !!images[0] };
   if (save) saveNews(db);
   console.log(`  ✓ ${files.length} fichiers dans ${rel}`);
 

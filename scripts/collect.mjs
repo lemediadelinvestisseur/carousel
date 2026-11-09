@@ -90,8 +90,12 @@ function keywordScore(brandKey, title, summary) {
 }
 
 function pickBrand(source, title, summary) {
-  if (source.brand && source.brand !== "auto") return { brand: source.brand, score: keywordScore(source.brand, title, summary) + 1 };
-  return Object.keys(brands).map((b) => ({ brand: b, score: keywordScore(b, title, summary) })).sort((a, b) => b.score - a.score)[0];
+  const best = Object.keys(brands).map((b) => ({ brand: b, score: keywordScore(b, title, summary) })).sort((a, b) => b.score - a.score)[0];
+  if (!source.brand || source.brand === "auto") return best;
+  // Le compte du site n'est qu'un indice : un site immobilier publie aussi des actus Bourse.
+  // On ne le garde que si l'actu contient au moins autant de mots-clés de ce compte que de l'autre.
+  const own = keywordScore(source.brand, title, summary);
+  return own >= best.score && own > 0 ? { brand: source.brand, score: own + 1 } : best;
 }
 
 const cleanTitle = (t) => t.replace(/\s+[-–|]\s+[^-–|]{2,40}$/, "").trim(); // retire « - Nom du site »
@@ -137,9 +141,11 @@ for (const name of Object.keys(status)) if (!cfg.sources.find((s) => s.name === 
 // ---------------------------------------------------------------------------
 // 4. Tri éditorial par Claude
 // ---------------------------------------------------------------------------
-const toCurate = fresh.sort((a, b) => b.score - a.score).slice(0, 80);
+// Les actus encore à valider qui n'ont jamais été notées (lot précédent en échec) sont notées aussi.
+const unrated = db.items.filter((i) => i.status === "new" && i.aiScore == null && now - Date.parse(i.publishedAt) <= maxAgeMs);
+const toCurate = [...fresh.sort((a, b) => b.score - a.score).slice(0, 120), ...unrated.slice(0, 80)];
 const verdicts = await curate(toCurate, brands);
-for (const item of fresh) {
+for (const item of [...fresh, ...unrated]) {
   const v = verdicts.get(item.id);
   if (!v) {
     if (item.international && item.score < 3) item.status = "ignored"; // sans Claude : il faut au moins un vrai mot-clé
@@ -205,7 +211,10 @@ for (const [brandKey, brand] of Object.entries(brands)) {
 }
 
 saveNews(db);
-recordUpdates({ upsert: fresh, prune: true });
+// Actus déjà connues et notées seulement maintenant : on ne journalise que la note (pas le statut complet),
+// pour ne pas écraser une validation faite entre-temps depuis le dashboard.
+const rated = unrated.filter((i) => i.aiScore != null).map(({ id, aiScore, reason, hook, brand, status }) => ({ id, aiScore, reason, hook, brand, ...(status === "ignored" ? { status } : {}) }));
+recordUpdates({ upsert: [...fresh, ...rated], prune: true });
 writeSideFile("data/sources-status.json", status);
 writeSideFile("data/daily.json", daily);
 const kept = fresh.filter((i) => i.status === "new").length;
