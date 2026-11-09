@@ -6055,7 +6055,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Frais cachés méconnus, très partageable.",
       "hook": "44 % des Français paient leur assurance trop cher",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:16.339Z"
+  "updatedAt": "2026-11-09T20:23:19.503Z"
 }
