@@ -1556,7 +1556,7 @@
       "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Date pratique, intérêt correct.",
       "hook": "Prime de Noël : virement le 15 décembre"
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:14.056Z"
+  "updatedAt": "2026-11-09T13:48:15.819Z"
 }
