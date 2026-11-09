@@ -1919,7 +1919,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "21m2",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Chiffre choc sur la crise du logement.",
       "hook": "350 000 sans-domicile : deux fois plus qu'en 2012"
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:49:51.447Z"
+  "updatedAt": "2026-11-09T13:49:58.537Z"
 }
