@@ -1,8 +1,9 @@
-name: Veilleur des publications programmées
+name: Horloge (collecte, LinkedIn, publications programmées)
 
-# Reste éveillé tant qu'une publication est programmée (carousels et LinkedIn) et lance la publication
-# à l'heure prévue. Démarré automatiquement à chaque programmation.
-run-name: "veilleur des publications programmées"
+# Tourne en permanence (se relance toutes les 5 h 30) et lance la collecte des actus, les propositions LinkedIn
+# et les publications programmées à l'heure prévue. Les déclencheurs planifiés de GitHub ne sont qu'un secours :
+# chacun redémarre l'horloge si elle s'est arrêtée.
+run-name: "horloge"
 
 on:
   workflow_dispatch:
@@ -24,7 +25,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Veille
+      - name: Horloge
         run: node scripts/scheduler.mjs
         env:
           GH_TOKEN: ${{ github.token }}

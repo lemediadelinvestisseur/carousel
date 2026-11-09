@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: collect
@@ -37,3 +38,8 @@ jobs:
       - name: Publication
         run: |
           ./scripts/publish.sh "actus: collecte $(date -u +%Y-%m-%dT%H:%M)"
+      - name: Horloge en marche ?
+        if: always()
+        run: ./scripts/ensure-clock.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
