@@ -2903,7 +2903,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 7,
       "reason": "IPO d'Anthropic très attendue, bulle IA = débat chez les investisseurs.",
@@ -3710,5 +3710,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T06:13:35.772Z"
+  "updatedAt": "2026-11-09T06:13:37.659Z"
 }
