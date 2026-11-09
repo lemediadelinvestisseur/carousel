@@ -3687,7 +3687,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Airbus, valeur phare, rachat de 5 Md€.",
       "hook": "Airbus rachète 5 milliards de ses actions"
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:26:28.143Z"
+  "updatedAt": "2026-11-09T20:28:30.103Z"
 }
