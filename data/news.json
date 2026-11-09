@@ -2206,7 +2206,7 @@
       "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Levées French Tech divisées par deux, chiffre parlant.",
       "hook": "Levées French Tech : de 13 à 6,8 milliards"
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:06.077Z"
+  "updatedAt": "2026-11-09T13:48:12.157Z"
 }
