@@ -2227,7 +2227,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 9,
       "reason": "Smic, heures sup et prime carburant : pouvoir d'achat direct des Français.",
       "hook": "Smic à 1 500 € : les 6 annonces qui touchent votre salaire",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T19:41:28.177Z"
+  "updatedAt": "2026-11-09T20:18:59.377Z"
 }
