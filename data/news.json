@@ -217,7 +217,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 8,
       "reason": "Scandale Jensen Huang, géant connu, espionnage et vie privée : très viral.",
@@ -3710,5 +3710,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T06:13:32.538Z"
+  "updatedAt": "2026-11-09T06:13:35.772Z"
 }
