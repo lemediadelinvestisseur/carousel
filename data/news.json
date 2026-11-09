@@ -2262,7 +2262,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Débat bulle IA qui concerne les détenteurs d'ETF monde.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:20:05.323Z"
+  "updatedAt": "2026-11-09T20:20:16.380Z"
 }
