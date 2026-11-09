@@ -2038,7 +2038,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Lilly et les anti-obésité, thème boursier porteur.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:11.802Z"
+  "updatedAt": "2026-11-09T20:23:13.999Z"
 }
