@@ -2220,13 +2220,13 @@
       "source": "TradingView News",
       "via": "google news",
       "publishedAt": "2026-11-09T08:54:57.000Z",
-      "collectedAt": "2026-11-09T13:47:31.791Z",
+      "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
-      "reason": "Valneva, valeur française populaire chez les particuliers.",
+      "reason": "Valneva connue des boursicoteurs français.",
       "hook": "Valneva s'envole après des résultats encourageants"
     },
     {
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:24.004Z"
+  "updatedAt": "2026-11-09T13:48:25.816Z"
 }
