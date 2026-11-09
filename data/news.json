@@ -1774,7 +1774,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "21m2",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Expropriations de propriétaires sur l'île de Ré, sujet choc qui fait débat.",
       "hook": "Île de Ré : l'État pourra exproprier des propriétaires",
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:24:47.252Z"
+  "updatedAt": "2026-11-09T20:24:49.163Z"
 }
