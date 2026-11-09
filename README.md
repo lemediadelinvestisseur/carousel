@@ -75,7 +75,7 @@ Collez-le dans le dashboard (⚙︎ Réglages). Il est stocké uniquement dans l
 ## Publication automatique sur Instagram et Facebook
 
 Dans le dashboard, onglet **Prêts** → **🚀 Publier** : choisis Instagram et/ou la Page Facebook, puis :
-- **🕒 Programmer** : date et heure (raccourcis 8 h, 12 h 30, 18 h, 21 h). Un passage automatique toutes les 10 minutes publie ce qui est arrivé à échéance ; la carte affiche « 🕒 Programmé … » avec un bouton **Annuler**. En cas d'échec, une notification te prévient.
+- **🕒 Programmer** : date et heure (raccourcis 8 h, 12 h 30, 18 h, 21 h). Un veilleur, démarré à chaque programmation, publie à l'heure prévue (à 5 minutes près) ; la carte affiche « 🕒 Programmé … » avec un bouton **Annuler**. En cas d'échec, une notification te prévient.
 - **🚀 Publier maintenant**.
 - **🧪 Test** : tout est préparé chez Meta, rien n'est publié.
 
@@ -91,18 +91,34 @@ Prérequis : le compte Instagram est un **compte professionnel** relié à la **
 
 Si les posts Facebook n'apparaissent pas publiquement, passe l'app en mode **Live** (Paramètres de l'app → Général) avec comme politique de confidentialité : `https://lemediadelinvestisseur.github.io/carousel/confidentialite.html`.
 
-### LinkedIn (Pages entreprise)
-Le carousel est publié en **document PDF** (format à feuilleter) sur la Page LinkedIn de la marque. Coche **LinkedIn** dans la fenêtre 🚀 Publier.
-
-Configuration (une fois, après l'accord de LinkedIn pour la *Community Management API*) :
-1. [developers.linkedin.com](https://developers.linkedin.com) → **My apps** → app **Carousels LMI** → **Docs and tools → OAuth Token Tools** → **Create token**, avec les autorisations `w_organization_social`, `r_organization_social`, `rw_organization_admin`.
-2. GitHub → secret `LINKEDIN_TOKEN` (un seul jeton pour les deux Pages : celle de chaque marque est retrouvée par son nom).
-3. **Actions → Publication réseaux sociaux**, mode **connexion** : chaque marque doit afficher ✓ avec sa Page LinkedIn.
-
-Le jeton LinkedIn expire au bout de **60 jours** : en cas d'erreur 401, génère-en un nouveau et remplace le secret.
-
 ### Photos Unsplash (recommandé)
 Unsplash fournit des photos professionnelles gratuites, idéales pour les villes et les monuments. Crée un compte sur [unsplash.com/developers](https://unsplash.com/developers) → **New Application** → copie l'**Access Key** dans le secret GitHub `UNSPLASH_ACCESS_KEY`. Sans clé, les autres sources d'images sont utilisées.
+
+## LinkedIn : memes pour ton profil perso (projet séparé)
+
+Les carousels vont sur Instagram et Facebook. LinkedIn est un projet à part : des **posts memes** créés de toutes pièces et publiés sur ton **profil personnel**. Tout se pilote depuis le même dashboard, bouton **💼 LinkedIn** en haut.
+
+- **Chaque matin** (vers 7 h), 3 memes sont proposés et une notification arrive. Ils sont aussi disponibles à tout moment avec **✨ 3 nouvelles propositions**.
+- **💡 Mon idée** (ou **+ Idée**) : tu écris une idée, Claude en fait un meme.
+- Format de l'image : **meme connu** (Drake, Distracted boyfriend… avec le texte en français) ou **vraie photo** avec une légende au-dessus. Claude choisit, ou tu imposes le format.
+- Sur chaque proposition : tu peux modifier le texte (💾), **🚀 Publier** maintenant ou **programmer**, **↻ Refaire** avec des consignes, ou **✕ Écarter**.
+- Onglets : Propositions, En cours, Programmés, Publiés, Erreurs, Écartés.
+
+Réglages dans `config/linkedin.json` :
+- `about` : qui tu es ;
+- `myInvestments` : tes investissements perso. Claude n'invente jamais de fait personnel, il utilise seulement ceux-là ;
+- `topics` : les sujets ;
+- `styleNotes` : ce qui marche chez les concurrents ;
+- `postsPerDay` : nombre de memes par jour.
+
+### Configuration LinkedIn (une fois)
+1. Sur [developers.linkedin.com](https://developers.linkedin.com) → **My apps** → **Create app** : nom `Memes LinkedIn`, Page LinkedIn associée = l'une de tes Pages, logo au choix.
+2. Onglet **Products** : demande **Share on LinkedIn** et **Sign In with LinkedIn using OpenID Connect**. Les deux sont accordés tout de suite.
+3. **Docs and tools → OAuth Token Tools → Create token**, avec les autorisations `openid`, `profile` et `w_member_social`.
+4. GitHub → **Settings → Secrets and variables → Actions** → secret `LINKEDIN_TOKEN`.
+5. Dashboard → 💼 LinkedIn → **🔌 Vérifier la connexion** : ton nom doit s'afficher.
+
+Le jeton expire au bout de **60 jours**. En cas d'erreur 401, génère-en un nouveau et remplace le secret.
 
 ## Personnaliser
 
@@ -114,6 +130,7 @@ Unsplash fournit des photos professionnelles gratuites, idéales pour les villes
 | Couleurs, polices, ton éditorial, mots-clés, phrase d'appel à l'action | `config/brands.json` |
 | Mise en page des slides | `templates/carousel.mjs` (puis `npm run examples` pour régénérer les exemples) |
 | Consignes de rédaction données à Claude | `scripts/lib/writer.mjs` |
+| Memes LinkedIn : profil, sujets, style | `config/linkedin.json` (consignes détaillées : `scripts/lib/memes.mjs`) |
 | Fréquence de collecte | `.github/workflows/collect.yml` (`cron`) |
 
 Dans les textes, `**mot**` met le mot en couleur d'accent.

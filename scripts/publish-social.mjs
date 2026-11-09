@@ -11,7 +11,6 @@ import path from "node:path";
 import { parseArgs } from "node:util";
 import { loadNews, saveNews, readJson, recordUpdates, writeSideFile, ROOT } from "./lib/store.mjs";
 import { pageToken, whoAmI, publishInstagram, publishFacebook } from "./lib/meta.mjs";
-import { linkedinToken, myOrganizations, organizationFor, publishLinkedIn } from "./lib/linkedin.mjs";
 import { notify, dashboardUrl } from "./lib/notify.mjs";
 
 const { values: args } = parseArgs({
@@ -32,10 +31,10 @@ const parisTime = (iso) =>
 // ---------------------------------------------------------------------------
 if (args.mode === "connexion") {
   let ok = 0;
-  // État des comptes, affiché dans le dashboard (page LinkedIn notamment).
+  // État des comptes Meta (Instagram, Facebook) de chaque marque.
   const status = { checkedAt: new Date().toISOString(), brands: {} };
   for (const key of Object.keys(brands)) {
-    status.brands[key] = { instagram: null, facebook: null, linkedin: null };
+    status.brands[key] = { instagram: null, facebook: null };
     try {
       const me = await whoAmI(pageToken(key));
       console.log(`✓ ${brands[key].name} : Page « ${me.pageName} » (${me.pageId})${me.igId ? `, Instagram @${me.igUsername} (${me.igId})` : ", ⚠️ aucun Instagram professionnel relié"}`);
@@ -46,22 +45,6 @@ if (args.mode === "connexion") {
       console.log(`✗ ${brands[key].name} : ${e.message}`);
       status.brands[key].facebook = status.brands[key].instagram = { ok: false, error: e.message };
     }
-  }
-  if (process.env.LINKEDIN_TOKEN) {
-    try {
-      const orgs = await myOrganizations(linkedinToken());
-      console.log(`LinkedIn : Pages administrées → ${orgs.map((o) => `${o.name} (${o.id})`).join(", ") || "aucune"}`);
-      for (const key of Object.keys(brands)) {
-        try { const o = await organizationFor(brands[key], linkedinToken()); console.log(`✓ ${brands[key].name} : Page LinkedIn « ${o.name} » (${o.id})`); status.brands[key].linkedin = { ok: true, name: o.name }; }
-        catch (e) { console.log(`✗ ${brands[key].name} : ${e.message}`); status.brands[key].linkedin = { ok: false, error: e.message }; }
-      }
-    } catch (e) {
-      console.log(`✗ LinkedIn : ${e.message}`);
-      for (const key of Object.keys(brands)) status.brands[key].linkedin = { ok: false, error: e.message };
-    }
-  } else {
-    console.log("LinkedIn : pas encore configuré (secret LINKEDIN_TOKEN absent)");
-    for (const key of Object.keys(brands)) status.brands[key].linkedin = { ok: false, error: "pas encore configuré", pending: true };
   }
   writeSideFile("data/social-status.json", status);
   process.exit(ok ? 0 : 1);
@@ -97,16 +80,9 @@ async function publishItem(item, targets, { dryRun = false, force = false } = {}
       continue;
     }
     try {
-      let r;
-      if (target === "linkedin") {
-        const pdf = path.join(ROOT, item.carousel.dir, "carousel.pdf");
-        if (!fs.existsSync(pdf)) throw new Error("PDF du carousel introuvable");
-        r = await publishLinkedIn({ brand: brands[item.brand], token: linkedinToken(), pdfPath: pdf, title: item.title, caption, dryRun });
-      } else {
-        const fn = target === "instagram" ? publishInstagram : target === "facebook" ? publishFacebook : null;
-        if (!fn) throw new Error(`cible inconnue : ${target}`);
-        r = await fn({ igId: me.igId, pageId: me.pageId, token, imageUrls, caption, dryRun });
-      }
+      const fn = target === "instagram" ? publishInstagram : target === "facebook" ? publishFacebook : null;
+      if (!fn) throw new Error(`cible inconnue : ${target}`);
+      const r = await fn({ igId: me.igId, pageId: me.pageId, token, imageUrls, caption, dryRun });
       if (!dryRun) {
         item.published[target] = { ...r, at: new Date().toISOString() };
         done.push([target, r]);
@@ -130,7 +106,7 @@ async function publishItem(item, targets, { dryRun = false, force = false } = {}
 }
 
 // ---------------------------------------------------------------------------
-// Programmations : un carousel peut en avoir plusieurs (ex : Instagram à 18 h, LinkedIn le lendemain à 8 h).
+// Programmations : un carousel peut en avoir plusieurs (ex : Instagram à 18 h, Facebook le lendemain à 8 h).
 // item.schedules = [{ at, targets: "instagram,facebook", createdAt }]. L'ancien format item.scheduled est repris.
 function schedulesOf(item) {
   const list = Array.isArray(item.schedules) ? [...item.schedules] : [];
@@ -200,7 +176,7 @@ if (args.mode === "programmer") {
 
 if (args.mode === "annuler") {
   // Sans cible précisée (ou avec toutes) : tout est annulé ; sinon seulement les réseaux indiqués.
-  const targets = process.env.INPUT_TARGETS || process.argv.includes("--targets") ? parseTargets(args.targets) : ["instagram", "facebook", "linkedin"];
+  const targets = process.env.INPUT_TARGETS || process.argv.includes("--targets") ? parseTargets(args.targets) : ["instagram", "facebook"];
   const before = schedulesOf(item);
   setSchedules(item, withoutTargets(before, targets));
   save([item]);

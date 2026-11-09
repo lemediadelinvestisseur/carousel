@@ -17,9 +17,9 @@ on:
         required: true
         default: "test"
         type: choice
-        options: [connexion, test, publier, programmer, annuler]
+        options: [connexion, test, publier, programmer, annuler, echeances]
       targets:
-        description: "Où publier"
+        description: "Où publier (instagram, facebook)"
         required: false
         default: "instagram,facebook"
       at:
@@ -33,6 +33,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   # Un groupe par carousel, et un pour le passage automatique : aucune demande n'en écrase une autre.
@@ -50,7 +51,7 @@ jobs:
       - name: Rien de programmé ?
         id: check
         run: |
-          if [ "$MODE" = "echeances" ] && ! grep -qE '"scheduled": \{|"schedules": \[$' data/news.json; then
+          if [ "$MODE" = "echeances" ] && ! grep -qE '"scheduled": \{|"schedules": \[$' data/news.json data/linkedin.json 2>/dev/null; then
             echo "Aucune publication programmée."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
@@ -62,6 +63,7 @@ jobs:
       - run: npm ci
         if: steps.check.outputs.skip != 'true'
       - name: Publication
+        id: pub
         if: steps.check.outputs.skip != 'true'
         run: node scripts/publish-social.mjs
         env:
@@ -73,6 +75,14 @@ jobs:
           META_PAGE_TOKEN_INVESTISSEUR: ${{ secrets.META_PAGE_TOKEN_INVESTISSEUR }}
           META_PAGE_TOKEN_21M2: ${{ secrets.META_PAGE_TOKEN_21M2 }}
           META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      - name: Posts LinkedIn programmés
+        if: always() && steps.check.outputs.skip != 'true' && env.MODE == 'echeances'
+        run: node scripts/linkedin.mjs --mode echeances
+        env:
           LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_TOKEN }}
           LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
@@ -85,3 +95,13 @@ jobs:
           ./scripts/publish.sh "publication: $MODE $INPUT_ID"
         env:
           INPUT_ID: ${{ inputs.id }}
+      # Une programmation vient d'être ajoutée, ou le passage automatique trouve des publications en attente :
+      # on s'assure que le veilleur tourne (les déclencheurs « toutes les 10 minutes » de GitHub ne sont pas fiables).
+      - name: Démarrage du veilleur
+        if: always() && (env.MODE == 'programmer' || (github.event_name == 'schedule' && steps.check.outputs.skip != 'true'))
+        run: |
+          if [ "$MODE" = "programmer" ] || [ -z "$(gh run list --workflow scheduler.yml --status in_progress --json databaseId --jq '.[].databaseId')" ]; then
+            gh workflow run scheduler.yml --ref "$GITHUB_REF_NAME"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
