@@ -2777,7 +2777,30 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "21m2",
       "score": 1,
-      "status": "new"
+      "status": "done",
+      "generatedAt": "2026-11-09T17:24:40.829Z",
+      "carousel": {
+        "dir": "carousels/2026-11-09/21m2-location-meublee-qui-echappe-finalement-bd6bb2058f",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 9,
+        "hooks": [
+          "Location meublée : qui échappe à la **facture électronique** ?",
+          "LMNP : la **facture électronique** te concerne-t-elle vraiment ?",
+          "Facture électronique : ce que **ton meublé** doit faire"
+        ]
+      }
     },
     {
       "id": "d6fcd25937",
@@ -9239,5 +9262,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:21:34.879Z"
+  "updatedAt": "2026-11-09T17:24:45.514Z"
 }
