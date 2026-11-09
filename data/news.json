@@ -925,7 +925,7 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Duralex, marque patrimoniale aimée des Français.",
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:24:35.340Z"
+  "updatedAt": "2026-11-09T20:24:40.481Z"
 }
