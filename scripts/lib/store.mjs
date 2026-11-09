@@ -74,8 +74,9 @@ export function parisDay(d = new Date()) {
 }
 
 export function pruneOld(db, now = Date.now()) {
-  const cutoff = now - 7 * 24 * 3600e3;
-  db.items = db.items.filter((i) => !(["new", "rejected"].includes(i.status) && Date.parse(i.publishedAt) < cutoff));
+  // Les actus refusées sont gardées 30 jours : elles servent à apprendre ce que l'éditeur ne veut pas.
+  const cutoff = now - 7 * 24 * 3600e3, cutoffRejected = now - 30 * 24 * 3600e3;
+  db.items = db.items.filter((i) => !((i.status === "new" && Date.parse(i.publishedAt) < cutoff) || (i.status === "rejected" && Date.parse(i.publishedAt) < cutoffRejected)));
 }
 
 export function applyUpdatesFile() {

@@ -44,17 +44,40 @@ Barème : 9-10 = sujet incontournable du jour ; 7-8 = très bon sujet ; 5-6 = co
 Sois exigeant : en général, seulement 10 à 20 % des actus méritent 7 ou plus.`;
 }
 
+/**
+ * Préférences de l'éditeur : règles écrites (config/editorial.json) + exemples appris de ses validations et refus.
+ * prefs = { rules, liked: [{brand,title}], disliked: [{brand,title}], covered: [title] }
+ */
+function prefsPrompt(brands, prefs = {}) {
+  const r = prefs.rules || {};
+  const bl = (k) => {
+    const x = r[k] || {};
+    const liked = (prefs.liked || []).filter((i) => i.brand === k).map((i) => `    ✓ ${i.title}`);
+    const disliked = (prefs.disliked || []).filter((i) => i.brand === k).map((i) => `    ✗ ${i.title}`);
+    return `### ${brands[k]?.name || k}
+- Ce qu'il aime : ${(x.likes || []).join(" ") || "—"}
+- Ce qu'il ne veut PAS (note 0 à 4) : ${(x.dislikes || []).map((d) => `\n  • ${d}`).join("") || "—"}
+${liked.length ? `- Actus qu'il a VALIDÉES récemment :\n${liked.join("\n")}\n` : ""}${disliked.length ? `- Actus qu'il a REFUSÉES récemment (ne propose plus ce genre de sujet) :\n${disliked.join("\n")}\n` : ""}`;
+  };
+  const covered = (prefs.covered || []).map((t) => `- ${t}`).join("\n");
+  return `
+
+PRÉFÉRENCES DE L'ÉDITEUR (prioritaires sur tout le reste) :
+Il refuse la grande majorité de ce qu'on lui propose : sois beaucoup plus sélectif. Inspire-toi de ce qu'il a validé et refusé ; une actu qui ressemble à un refus doit avoir 4 ou moins, même si elle concerne beaucoup de Français.
+${Object.keys(brands).map(bl).join("\n")}${covered ? `\nSUJETS DÉJÀ TRAITÉS EN CAROUSEL (une actu sur le même sujet = doublon, note 0, sauf rebondissement majeur) :\n${covered}` : ""}`;
+}
+
 /** items: [{id,title,summary,source,brand}] → Map(id → verdict). Par lots, pour que chaque actu soit notée. */
-export async function curate(items, brands) {
+export async function curate(items, brands, prefs = {}) {
   const out = new Map();
   for (let k = 0; k < items.length; k += 40) {
-    for (const [id, v] of await curateBatch(items.slice(k, k + 40), brands)) out.set(id, v);
+    for (const [id, v] of await curateBatch(items.slice(k, k + 40), brands, prefs)) out.set(id, v);
   }
   if (items.length) console.log(`[curate] ${out.size}/${items.length} actus notées par Claude au total.`);
   return out;
 }
 
-async function curateBatch(items, brands) {
+async function curateBatch(items, brands, prefs) {
   if (!items.length) return new Map();
   if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) return new Map();
   const client = new Anthropic();
@@ -69,7 +92,7 @@ async function curateBatch(items, brands) {
       betas: ["server-side-fallback-2026-07-01"],
       fallbacks: "default",
       output_config: { effort: "low", format: betaZodOutputFormat(Verdicts) },
-      system: systemPrompt(brands),
+      system: systemPrompt(brands) + prefsPrompt(brands, prefs),
       messages: [{ role: "user", content: `Actualités à noter (${items.length}) :\n${list}\n\nRends un verdict pour chaque identifiant.` }],
     });
     if (res.stop_reason === "refusal" || !res.parsed_output) throw new Error(`stop_reason=${res.stop_reason}`);
