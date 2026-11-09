@@ -850,7 +850,7 @@
       "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Bitcoin chute, -14 % depuis janvier.",
       "hook": "Bitcoin sous 74 000 $ : -14 % depuis janvier",
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:47:15.598Z"
+  "updatedAt": "2026-11-09T13:47:47.625Z"
 }
