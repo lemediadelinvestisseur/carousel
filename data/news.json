@@ -4445,7 +4445,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Info pratique utile.",
       "hook": "Prime de Noël : versement le 15 décembre"
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:38.469Z"
+  "updatedAt": "2026-11-09T20:23:40.159Z"
 }
