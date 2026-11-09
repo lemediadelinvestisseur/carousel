@@ -100,6 +100,14 @@ details summary{cursor:pointer}
 @media (min-width:900px){.meme{grid-template-columns:420px minmax(0,1fr)}}
 .meme img{width:100%;border-radius:12px;background:var(--line);cursor:zoom-in;display:block}
 .meme textarea{width:100%;min-height:220px;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);font-size:14px;line-height:1.5;resize:vertical}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:10px 0}
+.kpi{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px}
+.kpi b{display:block;font-size:20px}.kpi span{font-size:12px;color:var(--muted)}
+.ins h4{margin:14px 0 4px;font-size:14px}.ins ul{margin:0;padding-left:18px;font-size:14px}.ins li{margin:3px 0}
+.ins p,.stp p{display:block;-webkit-line-clamp:unset;color:var(--text)}
+.tp{border-top:1px solid var(--line);padding:10px 0;font-size:13px}.tp a{font-weight:700;color:var(--text)}
+.tp .tx{color:var(--muted);white-space:pre-line;margin-top:4px}
+.grp{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}.grp td,.grp th{padding:5px 4px;border-bottom:1px solid var(--line);text-align:right}.grp td:first-child,.grp th:first-child{text-align:left}
 .wait{border:2px dashed var(--line);border-radius:var(--radius);padding:16px;margin-bottom:12px;color:var(--muted);font-weight:600}
 .adv{margin-top:14px}.adv summary{cursor:pointer;font-weight:700;font-size:13px;color:var(--muted)}
 .hooks summary{font-weight:700;color:var(--muted);padding:6px 0}
@@ -695,6 +703,7 @@ const LI_TABS = [
   { key: "published", label: "Publiés", match: (p) => liPublished(p) },
   { key: "error", label: "Erreurs", match: (p) => p.status === "error" || (!!p.publishError && !liPublished(p)) },
   { key: "rejected", label: "Écartés", match: (p) => p.status === "rejected" },
+  { key: "stats", label: "📊 Stats", stats: true },
 ];
 const liPublished = (p) => !!(p.published && (p.published.url || p.published.id));
 const liPending = () => JSON.parse(store.get("liPending", "{}"));
@@ -717,6 +726,7 @@ async function loadLi() {
     const data = await fetchData("data/linkedin.json").catch(() => ({ posts: [] }));
     li.posts = data.posts || [];
     li.status = await fetchData("data/linkedin-status.json").catch(() => null);
+    li.insights = await fetchData("data/linkedin-insights.json").catch(() => null);
     render();
     loadRuns();
   } catch (e) {
@@ -725,7 +735,8 @@ async function loadLi() {
 }
 
 function renderLi() {
-  $("tabs").innerHTML = LI_TABS.map((t) => `<button class="tab ${t.key === li.tab ? "on" : ""}" data-litab="${t.key}">${t.label}<span class="n">${li.posts.filter(t.match).length}</span></button>`).join("");
+  $("tabs").innerHTML = LI_TABS.map((t) => `<button class="tab ${t.key === li.tab ? "on" : ""}" data-litab="${t.key}">${t.label}${t.stats ? "" : `<span class="n">${li.posts.filter(t.match).length}</span>`}</button>`).join("");
+  if (li.tab === "stats") { $("banner").innerHTML = ""; $("list").innerHTML = renderLiStats(); return; }
   $("banner").innerHTML = cfg.token ? "" : `<div class="banner">Ajoute ton jeton GitHub dans les réglages (⚙︎) pour piloter LinkedIn depuis ce téléphone.</div>`;
   const s = li.status;
   const conn = !s ? "⏳ connexion jamais vérifiée" : s.ok ? `✅ connecté · ${esc(s.name)}` : s.pending ? "⏳ LinkedIn pas encore configuré" : `❌ ${esc(s.error)}`;
@@ -766,6 +777,74 @@ function liCard(p) {
     : `<div class="row">${p.image ? `<button class="btn pub" data-act="li-publish">🚀 Publier</button>` : ""}<button class="btn ghost" data-act="li-redo">↻ Refaire</button>${p.image ? `<button class="btn" data-act="li-dl">⬇️ Image</button>` : ""}<button class="btn danger" data-act="li-reject">✕ Écarter</button></div>`;
   return `<div class="card" data-li="${esc(p.id)}">${head}${body}${status}${actions}</div>`;
 }
+
+// --- Statistiques du compte (export LinkedIn Analytics + analyse par Claude) ---
+const fmtN = (n) => (n == null ? "–" : Number(n).toLocaleString("fr-FR"));
+function renderLiStats() {
+  const ins = li.insights, s = ins?.summary, a = ins?.analysis;
+  const wait = JSON.parse(store.get("liStatsWait", "null") || "null");
+  const waiting = wait && Date.now() - wait < 15 * 60e3 && !(ins && Date.parse(ins.generatedAt) > wait);
+  const help = `<div class="card stp"><h3>📊 Statistiques de ton profil</h3>
+    <p class="hint">LinkedIn ne laisse pas lire les statistiques d'un profil perso avec le jeton de publication. On passe donc par l'export officiel (2 minutes, à refaire 1 fois par mois) :</p>
+    <ol class="hint"><li>Sur linkedin.com : <b>ton profil → Analytics → Impressions des posts</b> (ou linkedin.com/analytics/creator/content).</li><li>Choisis la période la plus longue (<b>365 jours</b>) puis <b>Exporter</b> : un fichier .xlsx est téléchargé.</li><li>Ici : <b>📥 Importer l'export</b> et choisis ce fichier.</li></ol>
+    <div class="row"><button class="btn primary" data-act="li-import">📥 Importer l'export</button><button class="btn" data-act="li-analyze">🧠 Relancer l'analyse</button></div>
+    <input type="file" id="liFile" accept=".xlsx,.xls,.csv" hidden>
+    ${waiting ? `<div class="wait" style="margin-top:10px">⏳ Import et analyse en cours (2 à 4 minutes)…</div>` : ""}
+    <p class="hint">Chaque analyse alimente directement la rédaction des prochains memes. ${ins ? `Dernière mise à jour ${ago(ins.generatedAt)}.` : "Aucune donnée pour l'instant."}</p></div>`;
+  if (!s) return help;
+  const k = (v, l) => `<div class="kpi"><b>${v}</b><span>${l}</span></div>`;
+  const kpis = `<div class="card"><h3>Chiffres clés</h3><div class="kpis">
+    ${k(fmtN(s.followers), "abonnés")}${k(fmtN(s.last30?.impressions), "impressions (30 j)")}${k(fmtN(s.last30?.engagements), "engagements (30 j)")}
+    ${k((s.last30?.newFollowers >= 0 ? "+" : "") + fmtN(s.last30?.newFollowers), "abonnés gagnés (30 j)")}${k(fmtN(s.medianImpressions), "impressions / post (médiane)")}${k(s.medianRate == null ? "–" : String(s.medianRate).replace(".", ",") + " %", "taux d'engagement médian")}</div>
+    <p class="hint">${s.posts} posts suivis, dont ${s.postsWithText} avec leur texte. LinkedIn n'exporte que les 50 meilleurs posts de la période.</p></div>`;
+  const ul = (t, xs) => (xs && xs.length ? `<h4>${t}</h4><ul>${xs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : "");
+  const analysis = a ? `<div class="card ins"><h3>🧠 Ce que montrent tes stats</h3><p>${esc(a.summary)}</p>
+    ${ul("✅ Ce qui marche", a.what_works)}${ul("⛔ À éviter", a.what_to_avoid)}${a.best_times ? `<h4>🕒 Quand publier</h4><p>${esc(a.best_times)}</p>` : ""}
+    ${ul("🪝 Accroches qui marchent", a.hook_patterns)}${ul("✍️ Règles appliquées aux prochains memes", a.writing_rules)}${ul("🧪 À tester", a.topics_to_test)}
+    <p class="hint">Fiabilité : ${esc(a.confidence)} · analyse ${ins.analysisAt ? ago(ins.analysisAt) : ""}</p></div>`
+    : `<div class="card"><p class="hint">L'analyse par Claude apparaîtra ici (il faut au moins 3 posts avec des chiffres et la clé ANTHROPIC_API_KEY).</p></div>`;
+  const post = (p) => `<div class="tp"><a href="${esc(p.url)}" target="_blank" rel="noopener">${p.publishedAt ? esc(fmtParis(p.publishedAt)) : "Post"}</a> · ${fmtN(p.impressions)} impressions · ${fmtN(p.engagements)} engagements${p.rate != null ? ` · ${String(p.rate).replace(".", ",")} %` : ""}
+    ${p.text || p.angle ? `<div class="tx">${esc((p.text || p.angle).slice(0, 220))}${(p.text || "").length > 220 ? "…" : ""}</div>` : ""}</div>`;
+  const tops = `<div class="card"><h3>🏆 Meilleurs posts (engagements)</h3>${(s.topByEngagements || []).slice(0, 5).map(post).join("") || `<p class="hint">Aucun.</p>`}</div>
+    <div class="card"><h3>👀 Plus vus (impressions)</h3>${(s.topByImpressions || []).slice(0, 5).map(post).join("") || `<p class="hint">Aucun.</p>`}</div>`;
+  const grp = (t, rows) => (rows && rows.length ? `<h4>${t}</h4><table class="grp"><tr><th></th><th>posts</th><th>impr. médianes</th><th>taux</th></tr>${rows.map((r) => `<tr><td>${esc(r.key)}</td><td>${r.posts}</td><td>${fmtN(r.medianImpressions)}</td><td>${r.medianRate == null ? "–" : String(r.medianRate).replace(".", ",") + " %"}</td></tr>`).join("")}</table>` : "");
+  const groups = `<div class="card ins"><h3>📐 Détail</h3>${grp("Par jour", s.byWeekday)}${grp("Par heure de publication", s.byHour)}${grp("Par format de meme", s.byMemeFormat)}${grp("Par longueur de texte", s.byLength)}</div>`;
+  return help + kpis + analysis + tops + groups;
+}
+
+// Conversion de l'export .xlsx dans le navigateur (SheetJS), compression, puis envoi au workflow.
+async function loadSheetJs() {
+  if (window.XLSX) return window.XLSX;
+  await new Promise((ok, ko) => { const sc = document.createElement("script"); sc.src = "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"; sc.onload = ok; sc.onerror = () => ko(new Error("Lecteur Excel indisponible (connexion ?)")); document.head.appendChild(sc); });
+  return window.XLSX;
+}
+async function gzip64(text) {
+  const stream = new Blob([text]).stream().pipeThrough(new CompressionStream("gzip"));
+  const bytes = new Uint8Array(await new Response(stream).arrayBuffer());
+  let bin = ""; for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+async function importLiExport(file) {
+  const XLSX = await loadSheetJs();
+  const wb = XLSX.read(await file.arrayBuffer(), { type: "array", cellDates: true });
+  const sheets = {};
+  for (const name of wb.SheetNames) {
+    const rows = XLSX.utils.sheet_to_json(wb.Sheets[name], { header: 1, raw: true, defval: "" });
+    sheets[name] = rows.map((r) => { const x = r.map((c) => (c instanceof Date ? c.toISOString() : c)); while (x.length && x[x.length - 1] === "") x.pop(); return x; }).filter((r) => r.length);
+  }
+  const data = "gz:" + (await gzip64(JSON.stringify({ name: file.name, sheets })));
+  if (data.length > 60000) throw new Error("Fichier trop gros pour être envoyé d'un coup : exporte une période plus courte");
+  if (!cfg.token) { $("dlgSettings").showModal(); throw new Error("Jeton GitHub manquant"); }
+  await gh(`/repos/${cfg.repo}/actions/workflows/linkedin-stats.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "importer", data, name: file.name.slice(0, 100) } }) });
+  store.set("liStatsWait", JSON.stringify(Date.now()));
+  setTimeout(loadRuns, 4000);
+}
+document.addEventListener("change", async (e) => {
+  if (e.target.id !== "liFile" || !e.target.files[0]) return;
+  try { toast("📥 Lecture du fichier…"); await importLiExport(e.target.files[0]); render(); toast("📊 Export envoyé : analyse dans 2 à 4 minutes", 4500); }
+  catch (err) { toast(err.message, 6000); }
+  e.target.value = "";
+});
 
 async function liDispatch(inputs) {
   if (!cfg.token) { $("dlgSettings").showModal(); throw new Error("Jeton GitHub manquant"); }
@@ -841,6 +920,12 @@ async function liAction(t) {
       li.tab = "ready"; render(); toast("✨ 3 memes arrivent dans 3 à 5 minutes", 4000); return;
     }
     if (act === "li-idea") return openIdea();
+    if (act === "li-import") { $("liFile").click(); return; }
+    if (act === "li-analyze") {
+      if (!cfg.token) { $("dlgSettings").showModal(); return; }
+      await gh(`/repos/${cfg.repo}/actions/workflows/linkedin-stats.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "analyser" } }) });
+      store.set("liStatsWait", JSON.stringify(Date.now())); render(); setTimeout(loadRuns, 4000); toast("🧠 Analyse lancée (2 à 4 minutes)", 4000); return;
+    }
     if (act === "li-check") { await liDispatch({ mode: "connexion" }); toast("🔌 Vérification lancée : résultat dans ~1 min (touche ↻)", 4000); return; }
     const post = li.posts.find((p) => p.id === t.closest("[data-li]").dataset.li);
     if (!post) return;

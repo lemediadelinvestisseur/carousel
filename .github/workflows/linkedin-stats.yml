@@ -1,0 +1,61 @@
+name: LinkedIn (statistiques)
+
+run-name: "${{ github.event_name == 'schedule' && 'linkedin: analyse hebdo' || format('linkedin: stats {0}', inputs.mode) }}"
+
+on:
+  # Chaque lundi ≈ 7 h 47 (heure de Paris en hiver) : relevé API si autorisé + nouvelle analyse.
+  schedule:
+    - cron: "47 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "importer (export LinkedIn envoyé par le dashboard) ou analyser"
+        required: true
+        default: "analyser"
+        type: choice
+        options: [importer, analyser]
+      data:
+        description: "Export converti par le dashboard (gzip + base64)"
+        required: false
+        default: ""
+      name:
+        description: "Nom du fichier importé"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: linkedin-stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Statistiques
+        run: node scripts/linkedin-stats.mjs
+        env:
+          INPUT_MODE: ${{ github.event_name == 'schedule' && 'analyser' || inputs.mode }}
+          INPUT_DATA: ${{ inputs.data }}
+          INPUT_NAME: ${{ inputs.name }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          LINKEDIN_TOKEN: ${{ secrets.LINKEDIN_STATS_TOKEN || secrets.LINKEDIN_TOKEN }}
+          LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      - name: Enregistrement
+        if: always()
+        run: ./scripts/publish.sh "linkedin: statistiques"
