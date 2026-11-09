@@ -9,12 +9,12 @@
       "source": "Moneyvox",
       "via": "découverte",
       "publishedAt": "2026-11-09T13:38:24.000Z",
-      "collectedAt": "2026-11-09T13:47:31.791Z",
+      "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
-      "reason": "Aide pouvoir d'achat concrète.",
+      "reason": "Aide carburant de 1 000 € prolongée, pouvoir d'achat.",
       "hook": "Prime carburant jusqu'à 1 000 € prolongée en 2027"
     },
     {
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:27.922Z"
+  "updatedAt": "2026-11-09T13:48:32.055Z"
 }
