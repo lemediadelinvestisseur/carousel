@@ -1,0 +1,4725 @@
+{
+  "generatedAt": "2026-11-09T22:59:06.700Z",
+  "period": {
+    "from": "2025-11-10",
+    "to": "2026-11-09"
+  },
+  "summary": {
+    "generatedAt": "2026-11-09T22:57:46.912Z",
+    "followers": 1123,
+    "last30": {
+      "days": 31,
+      "impressions": 12303,
+      "engagements": 147,
+      "newFollowers": 45
+    },
+    "last90": {
+      "days": 91,
+      "impressions": 24251,
+      "engagements": 229,
+      "newFollowers": 117
+    },
+    "posts": 50,
+    "postsWithText": 40,
+    "medianImpressions": 838,
+    "medianEngagements": 13.5,
+    "medianRate": 1.21,
+    "byWeekday": [
+      {
+        "key": "mercredi",
+        "posts": 9,
+        "medianImpressions": 1781,
+        "medianEngagements": 18,
+        "medianRate": 0.96
+      },
+      {
+        "key": "samedi",
+        "posts": 8,
+        "medianImpressions": 1517.5,
+        "medianEngagements": 12.5,
+        "medianRate": 0.98
+      },
+      {
+        "key": "vendredi",
+        "posts": 4,
+        "medianImpressions": 1378,
+        "medianEngagements": 26.5,
+        "medianRate": 1.93
+      },
+      {
+        "key": "lundi",
+        "posts": 4,
+        "medianImpressions": 1129,
+        "medianEngagements": 13.5,
+        "medianRate": 1.1
+      },
+      {
+        "key": "dimanche",
+        "posts": 12,
+        "medianImpressions": 835,
+        "medianEngagements": 8.5,
+        "medianRate": 1.11
+      },
+      {
+        "key": "mardi",
+        "posts": 6,
+        "medianImpressions": 658.5,
+        "medianEngagements": 13.5,
+        "medianRate": 1.51
+      },
+      {
+        "key": "jeudi",
+        "posts": 7,
+        "medianImpressions": 473,
+        "medianEngagements": 8,
+        "medianRate": 1.55
+      }
+    ],
+    "byHour": [
+      {
+        "key": "13 h",
+        "posts": 1,
+        "medianImpressions": 148409,
+        "medianEngagements": 1504,
+        "medianRate": 1.01
+      },
+      {
+        "key": "21 h",
+        "posts": 1,
+        "medianImpressions": 5441,
+        "medianEngagements": 52,
+        "medianRate": 0.96
+      },
+      {
+        "key": "14 h",
+        "posts": 1,
+        "medianImpressions": 4141,
+        "medianEngagements": 48,
+        "medianRate": 1.16
+      },
+      {
+        "key": "09 h",
+        "posts": 3,
+        "medianImpressions": 1923,
+        "medianEngagements": 9,
+        "medianRate": 0.47
+      },
+      {
+        "key": "15 h",
+        "posts": 2,
+        "medianImpressions": 1833,
+        "medianEngagements": 5.5,
+        "medianRate": 0.32
+      },
+      {
+        "key": "06 h",
+        "posts": 1,
+        "medianImpressions": 1809,
+        "medianEngagements": 22,
+        "medianRate": 1.22
+      },
+      {
+        "key": "00 h",
+        "posts": 5,
+        "medianImpressions": 1781,
+        "medianEngagements": 30,
+        "medianRate": 2.56
+      },
+      {
+        "key": "10 h",
+        "posts": 4,
+        "medianImpressions": 1192,
+        "medianEngagements": 20.5,
+        "medianRate": 1.04
+      },
+      {
+        "key": "16 h",
+        "posts": 1,
+        "medianImpressions": 1011,
+        "medianEngagements": 3,
+        "medianRate": 0.3
+      },
+      {
+        "key": "17 h",
+        "posts": 7,
+        "medianImpressions": 861,
+        "medianEngagements": 17,
+        "medianRate": 1.27
+      },
+      {
+        "key": "12 h",
+        "posts": 2,
+        "medianImpressions": 810.5,
+        "medianEngagements": 21,
+        "medianRate": 2.6
+      },
+      {
+        "key": "07 h",
+        "posts": 3,
+        "medianImpressions": 803,
+        "medianEngagements": 8,
+        "medianRate": 1
+      },
+      {
+        "key": "18 h",
+        "posts": 6,
+        "medianImpressions": 674.5,
+        "medianEngagements": 17.5,
+        "medianRate": 1.96
+      },
+      {
+        "key": "11 h",
+        "posts": 1,
+        "medianImpressions": 628,
+        "medianEngagements": 14,
+        "medianRate": 2.23
+      },
+      {
+        "key": "20 h",
+        "posts": 1,
+        "medianImpressions": 628,
+        "medianEngagements": 9,
+        "medianRate": 1.43
+      },
+      {
+        "key": "01 h",
+        "posts": 1,
+        "medianImpressions": 613,
+        "medianEngagements": 4,
+        "medianRate": 0.65
+      },
+      {
+        "key": "08 h",
+        "posts": 4,
+        "medianImpressions": 488,
+        "medianEngagements": 6.5,
+        "medianRate": 1.3
+      },
+      {
+        "key": "23 h",
+        "posts": 5,
+        "medianImpressions": 484,
+        "medianEngagements": 7,
+        "medianRate": 1.2
+      },
+      {
+        "key": "02 h",
+        "posts": 1,
+        "medianImpressions": 348,
+        "medianEngagements": 4,
+        "medianRate": 1.15
+      }
+    ],
+    "byMemeFormat": [],
+    "byLength": [
+      {
+        "key": "long (> 1000 car.)",
+        "posts": 8,
+        "medianImpressions": 1132.5,
+        "medianEngagements": 19,
+        "medianRate": 1.31
+      },
+      {
+        "key": "moyen (400-1000 car.)",
+        "posts": 29,
+        "medianImpressions": 825,
+        "medianEngagements": 13,
+        "medianRate": 1.16
+      },
+      {
+        "key": "court (< 400 car.)",
+        "posts": 3,
+        "medianImpressions": 454,
+        "medianEngagements": 3,
+        "medianRate": 0.52
+      }
+    ],
+    "topByEngagements": [
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_anthony-bourbon-veut-devenir-milliardaire-share-7446521924110675968-xp3N",
+        "publishedAt": "2026-04-05T11:39:36.395Z",
+        "title": "Anthony bourbon veut devenir milliardaire",
+        "type": null,
+        "impressions": 148409,
+        "engagements": 1504,
+        "rate": 1.01,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J'ai enquêté sur les clubs d'investissement d'Anthony Bourbon, Eric Larchevêque, Jean-Pierre Nadir et Jonathan Anguelov.\n\nJ’ai passé plusieurs heures à analyser les frais, la fiscalité et les rendements réels des clubs d’investissement d’Anthony Bourbon, Eric Larchevêque, Jean-Pi"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_arr%C3%AAtons-de-nous-voiler-la-face-la-share-7448288118723563520-OVyK",
+        "publishedAt": "2026-04-10T08:37:50.005Z",
+        "title": "Arrêtons de nous voiler la face la",
+        "type": null,
+        "impressions": 48388,
+        "engagements": 107,
+        "rate": 0.22,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🇫🇷 Arrêtons de nous voiler la face. La France a 23 licornes. Pas 40. \n\nOn a longtemps célébré les \"presque 40 licornes françaises\" comme une fierté nationale. Mais la réalité est bien plus sombre.\n\n🔴 Sorare : -94 % (240M€ aujourd'hui contre 3,9 milliards au dernier tour de tab"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_les-banques-traditionnelles-sont-vou%C3%A9es-share-7450076953048473600-uV9x",
+        "publishedAt": "2026-04-15T07:06:01.343Z",
+        "title": "Les banques traditionnelles sont vouées",
+        "type": null,
+        "impressions": 47508,
+        "engagements": 83,
+        "rate": 0.17,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🇫🇷 Les banques traditionnelles sont vouées à disparaître \n\nEntre 2021 et 2025, les banques en ligne et les fintechs (dont Revolut et BoursoBank) ont conquis 15 millions de nouveaux clients en France.\n\n⚠️ Et pendant ce temps-là, les banques traditionnelles perdent du terrain.\n\nP"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-profite-de-ce-bel-article-duouest-france-share-7444874082229174273-vKSd",
+        "publishedAt": "2026-03-31T22:31:40.275Z",
+        "title": "Je profite de ce bel article duouest france",
+        "type": null,
+        "impressions": 1781,
+        "engagements": 57,
+        "rate": 3.2,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Je profite de ce bel article du Ouest-France pour vous annoncer officiellement le lancement de ma conciergerie immobilière dans le Pays de Lorient !\n\nC’est un projet qui me tient énormément à cœur.\n\nJ’adore l’immobilier, j’adore ma région et j’avais envie d’entreprendre ici, loca"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_personne-ne-le-voit-mais-je-fais-tout-%C3%A7a-share-7414759121016803329-Mgzw",
+        "publishedAt": "2026-01-07T20:05:34.013Z",
+        "title": "Personne ne le voit mais je fais tout ça",
+        "type": null,
+        "impressions": 5441,
+        "engagements": 52,
+        "rate": 0.96,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_qui-veut-%C3%AAtre-mon-associ%C3%A9-14-millions-deuros-share-7453777171489406978-VHci",
+        "publishedAt": "2026-04-25T12:09:22.166Z",
+        "title": "Qui veut être mon associé 14 millions deuros",
+        "type": null,
+        "impressions": 4141,
+        "engagements": 48,
+        "rate": 1.16,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Il y a 3 semaines, je publiais une vidéo sur les clubs d'investissement des membres du jury de QVEMA. Vous avez été des centaines à réagir.\n\nMais je ne me suis pas arrêté là et j'ai creusé encore plus loin.. \n\nJ'ai enquêté sur les coulisses de l'émission Qui veut être mon associé"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_lerreur-que-jai-faite-avec-mes-investissements-share-7424235187552559104-sDEg",
+        "publishedAt": "2026-02-02T23:40:04.332Z",
+        "title": "Lerreur que jai faite avec mes investissements",
+        "type": null,
+        "impressions": 6908,
+        "engagements": 43,
+        "rate": 0.62,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "L’erreur que j’ai faite avec mes investissements : être all-in.\n\nJe vais être honnête : 99% de mon patrimoine est en Bitcoin.\n\n\nSur le papier, ça fait rêver.\n\nMais je prends de plein fouet chaque baisse…\n\nMon patrimoine peut être :\n\n👉 multiplié par 5\n👉 ou divisé par 2 d’une ann"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_en-2026-je-veux-quon-me-voie-partout-share-7423035574594437120-dK38",
+        "publishedAt": "2026-01-30T16:13:14.315Z",
+        "title": "En 2026 je veux quon me voie partout",
+        "type": null,
+        "impressions": 1960,
+        "engagements": 32,
+        "rate": 1.63,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "En 2026, je veux qu’on me voie partout.\n\nPas par ego, mais par stratégie.\n\n\nJ’ai passé des années à construire dans l’ombre avec le SEO : bosser, tester, apprendre et recommencer.\nMais aujourd’hui, je veux passer un nouveau cap avec le format vidéo.\n\nMes 3 gros objectifs de l’ann"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_2025-a-%C3%A9t%C3%A9-ma-meilleure-ann%C3%A9e-depuis-que-share-7414087353633234944-hWvd",
+        "publishedAt": "2026-01-05T23:36:12.188Z",
+        "title": "2025 a été ma meilleure année depuis que",
+        "type": null,
+        "impressions": 1013,
+        "engagements": 30,
+        "rate": 2.96,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_en-2025-jai-gagn%C3%A939-436-%C3%A0-c%C3%B4t%C3%A9-de-mon-share-7426300020057927680-651C",
+        "publishedAt": "2026-02-08T16:24:58.764Z",
+        "title": "En 2025 jai gagné39 436 à côté de mon",
+        "type": null,
+        "impressions": 2294,
+        "engagements": 29,
+        "rate": 1.26,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "En 2025, j’ai gagné 39 436 € à côté de mon CDI.\n\nJe le partage parce que c’est une des choses dont je suis le plus fier.\n\n\nEn 2025, j’ai multiplié les revenus du média par 2,4.\n\nLe début d’année était plutôt stable. Le milieu d’année aussi.\n\nEt puis à partir de septembre, grosse "
+      }
+    ],
+    "topByImpressions": [
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_anthony-bourbon-veut-devenir-milliardaire-share-7446521924110675968-xp3N",
+        "publishedAt": "2026-04-05T11:39:36.395Z",
+        "title": "Anthony bourbon veut devenir milliardaire",
+        "type": null,
+        "impressions": 148409,
+        "engagements": 1504,
+        "rate": 1.01,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J'ai enquêté sur les clubs d'investissement d'Anthony Bourbon, Eric Larchevêque, Jean-Pierre Nadir et Jonathan Anguelov.\n\nJ’ai passé plusieurs heures à analyser les frais, la fiscalité et les rendements réels des clubs d’investissement d’Anthony Bourbon, Eric Larchevêque, Jean-Pi"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_arr%C3%AAtons-de-nous-voiler-la-face-la-share-7448288118723563520-OVyK",
+        "publishedAt": "2026-04-10T08:37:50.005Z",
+        "title": "Arrêtons de nous voiler la face la",
+        "type": null,
+        "impressions": 48388,
+        "engagements": 107,
+        "rate": 0.22,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🇫🇷 Arrêtons de nous voiler la face. La France a 23 licornes. Pas 40. \n\nOn a longtemps célébré les \"presque 40 licornes françaises\" comme une fierté nationale. Mais la réalité est bien plus sombre.\n\n🔴 Sorare : -94 % (240M€ aujourd'hui contre 3,9 milliards au dernier tour de tab"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_les-banques-traditionnelles-sont-vou%C3%A9es-share-7450076953048473600-uV9x",
+        "publishedAt": "2026-04-15T07:06:01.343Z",
+        "title": "Les banques traditionnelles sont vouées",
+        "type": null,
+        "impressions": 47508,
+        "engagements": 83,
+        "rate": 0.17,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🇫🇷 Les banques traditionnelles sont vouées à disparaître \n\nEntre 2021 et 2025, les banques en ligne et les fintechs (dont Revolut et BoursoBank) ont conquis 15 millions de nouveaux clients en France.\n\n⚠️ Et pendant ce temps-là, les banques traditionnelles perdent du terrain.\n\nP"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_le-co%C3%BBt-cach%C3%A9-du-cdi-ce-nest-pas-le-salaire-share-7419517112861499393-opbc",
+        "publishedAt": "2026-01-20T23:12:07.668Z",
+        "title": "Le coût caché du cdi ce nest pas le salaire",
+        "type": null,
+        "impressions": 19633,
+        "engagements": 29,
+        "rate": 0.15,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-gagne-90-000-par-an-et-ma-banque-a-refus%C3%A9-share-7496947371189166080-f4c6",
+        "publishedAt": "2026-08-22T15:12:19.838Z",
+        "title": "Je gagne 90 000 par an et ma banque a refusé",
+        "type": null,
+        "impressions": 8861,
+        "engagements": 26,
+        "rate": 0.29,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "« Vous êtes un red flag ambulant. »\n\nC'est ce qu'une conseillère bancaire m'a dit… avant de se lever, de faire le tour de son bureau et de m'ouvrir la porte. Rendez-vous terminé. En 5 minutes.\n\nJ'étais venu chercher un financement pour mon 3ᵉ appartement. Mais sur le papier, mon "
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_lerreur-que-jai-faite-avec-mes-investissements-share-7424235187552559104-sDEg",
+        "publishedAt": "2026-02-02T23:40:04.332Z",
+        "title": "Lerreur que jai faite avec mes investissements",
+        "type": null,
+        "impressions": 6908,
+        "engagements": 43,
+        "rate": 0.62,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "L’erreur que j’ai faite avec mes investissements : être all-in.\n\nJe vais être honnête : 99% de mon patrimoine est en Bitcoin.\n\n\nSur le papier, ça fait rêver.\n\nMais je prends de plein fouet chaque baisse…\n\nMon patrimoine peut être :\n\n👉 multiplié par 5\n👉 ou divisé par 2 d’une ann"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_personne-ne-le-voit-mais-je-fais-tout-%C3%A7a-share-7414759121016803329-Mgzw",
+        "publishedAt": "2026-01-07T20:05:34.013Z",
+        "title": "Personne ne le voit mais je fais tout ça",
+        "type": null,
+        "impressions": 5441,
+        "engagements": 52,
+        "rate": 0.96,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_qui-veut-%C3%AAtre-mon-associ%C3%A9-14-millions-deuros-share-7453777171489406978-VHci",
+        "publishedAt": "2026-04-25T12:09:22.166Z",
+        "title": "Qui veut être mon associé 14 millions deuros",
+        "type": null,
+        "impressions": 4141,
+        "engagements": 48,
+        "rate": 1.16,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Il y a 3 semaines, je publiais une vidéo sur les clubs d'investissement des membres du jury de QVEMA. Vous avez été des centaines à réagir.\n\nMais je ne me suis pas arrêté là et j'ai creusé encore plus loin.. \n\nJ'ai enquêté sur les coulisses de l'émission Qui veut être mon associé"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_en-2025-jai-gagn%C3%A939-436-%C3%A0-c%C3%B4t%C3%A9-de-mon-share-7426300020057927680-651C",
+        "publishedAt": "2026-02-08T16:24:58.764Z",
+        "title": "En 2025 jai gagné39 436 à côté de mon",
+        "type": null,
+        "impressions": 2294,
+        "engagements": 29,
+        "rate": 1.26,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "En 2025, j’ai gagné 39 436 € à côté de mon CDI.\n\nJe le partage parce que c’est une des choses dont je suis le plus fier.\n\n\nEn 2025, j’ai multiplié les revenus du média par 2,4.\n\nLe début d’année était plutôt stable. Le milieu d’année aussi.\n\nEt puis à partir de septembre, grosse "
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-commence-lann%C3%A9e-avec-un-gros-d%C3%A9g%C3%A2t-share-7424706923628978176-I3Xl",
+        "publishedAt": "2026-02-04T06:54:34.977Z",
+        "title": "Je commence lannée avec un gros dégât",
+        "type": null,
+        "impressions": 2242,
+        "engagements": 14,
+        "rate": 0.62,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Je commence l’année… avec un (gros) dégât des eaux dans ma colocation.\n\nSur le papier, l’immobilier c’est simple : tu rénoves, tu loues et tu encaisses.\n\n\nMais quand tu commences à investir dans l'immobilier, tu te rends compte que c’est un vrai métier.\n\nLe pire, c'est que je vie"
+      }
+    ],
+    "topByRate": [
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_bonjour-%C3%A0-tous-depuis-3-ans-je-partage-ugcPost-7508565301828128768-sIN_",
+        "publishedAt": "2026-09-23T16:37:50.353Z",
+        "title": "Bonjour à tous depuis 3 ans je partage",
+        "type": null,
+        "impressions": 402,
+        "engagements": 18,
+        "rate": 4.48,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Bonjour à tous,\n\nDepuis 3 ans, je partage ici du contenu autour de l'investissement. Merci pour chaque message, chaque échange et chaque retour. \n\nAu fil de ces années, je me suis de plus en plus orienté vers l'immobilier et je me suis heurté à deux problèmes : comment trouver de"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_quand-tu-d%C3%A9veloppes-un-m%C3%A9dia-depuis-la-bretagne-share-7524141846382428160-cVfp",
+        "publishedAt": "2026-11-05T16:13:27.973Z",
+        "title": "Quand tu développes un média depuis la bretagne",
+        "type": null,
+        "impressions": 473,
+        "engagements": 17,
+        "rate": 3.59,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Quand tu développes un média depuis la Bretagne, tu es obligé d'aller à Paris régulièrement. \n\nCette semaine, j’étais à la Paris Creator Week.\n\nEt je le redis : le business du média et de la création de contenu se joue en grande partie à Paris. Les marques, les agences, les plate"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_le-truc-le-plus-important-pour-r%C3%A9ussir-share-7429425397609439232-BYYW",
+        "publishedAt": "2026-02-17T07:24:06.839Z",
+        "title": "Le truc le plus important pour réussir",
+        "type": null,
+        "impressions": 466,
+        "engagements": 16,
+        "rate": 3.43,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Le truc le plus important pour réussir : passer à l’action.\n\nJe sais que ça sonne comme un cliché.\nMais c’est la vérité.\n\nAu début, ce que tu vas faire sera nul.\n\nMes premières newsletters étaient nulles.\nMes premiers articles aussi.\nMes premières vidéos… n’en parlons pas.\n\nEt c’"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-profite-de-ce-bel-article-duouest-france-share-7444874082229174273-vKSd",
+        "publishedAt": "2026-03-31T22:31:40.275Z",
+        "title": "Je profite de ce bel article duouest france",
+        "type": null,
+        "impressions": 1781,
+        "engagements": 57,
+        "rate": 3.2,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Je profite de ce bel article du Ouest-France pour vous annoncer officiellement le lancement de ma conciergerie immobilière dans le Pays de Lorient !\n\nC’est un projet qui me tient énormément à cœur.\n\nJ’adore l’immobilier, j’adore ma région et j’avais envie d’entreprendre ici, loca"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_2025-a-%C3%A9t%C3%A9-ma-meilleure-ann%C3%A9e-depuis-que-share-7414087353633234944-hWvd",
+        "publishedAt": "2026-01-05T23:36:12.188Z",
+        "title": "2025 a été ma meilleure année depuis que",
+        "type": null,
+        "impressions": 1013,
+        "engagements": 30,
+        "rate": 2.96,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-des-dizaines-de-livres-sur-mon-bureau-share-7426314286303506433-70Ih",
+        "publishedAt": "2026-02-08T17:21:40.102Z",
+        "title": "Jai des dizaines de livres sur mon bureau",
+        "type": null,
+        "impressions": 486,
+        "engagements": 13,
+        "rate": 2.67,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J’ai des dizaines de livres sur mon bureau.\n\nEntrepreneuriat. Investissement. Psychologie.\n\nMais il faut bien comprendre quelque chose :\n👉 tu peux lire 100 livres…\n\nsi tu ne passes jamais à l’action, il ne se passera jamais rien.\n\nLire, ça donne l’impression d’avancer parce qu’o"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-sous-estim%C3%A9-le-travail-que-%C3%A7a-demandait-share-7521900715695542272-EUpG",
+        "publishedAt": "2026-10-30T11:48:00.779Z",
+        "title": "Jai sous estimé le travail que ça demandait",
+        "type": null,
+        "impressions": 796,
+        "engagements": 21,
+        "rate": 2.64,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J’ai sous-estimé le travail que ça demandait de lancer un SaaS seul.\n\nIl y a un mois, je lançais 21m2.fr.\n\n21m2 aide les investisseurs à :\n\n1. Trouver des biens rentables sur le marché\n2. Automatiser leur gestion locative\n\nBilan après 30 jours :\n→ 71 inscrits\n→ 4 utilisateurs pay"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mon-plus-gros-point-faible-sur-youtube-share-7525338605247066112-ArII",
+        "publishedAt": "2026-11-08T23:28:57.521Z",
+        "title": "Mon plus gros point faible sur youtube",
+        "type": "Image",
+        "impressions": 391,
+        "engagements": 10,
+        "rate": 2.56,
+        "reactions": 7,
+        "comments": 3,
+        "reposts": 0,
+        "membersReached": 241,
+        "followersGained": 0,
+        "angle": null,
+        "text": "Mon plus gros point faible sur YouTube ?\n\nC'est la durée moyenne de visionnage. Pendant presque deux ans, j'ai plafonné autour de 3 min 30.\n\nPeu importe le sujet, peu importe le travail mis dans la vidéo.. j'étais incapable de faire rester la personne sur la vidéo.\n\nEt c'est frus"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mon-objectif-1-million-deuros-de-cr%C3%A9dits-ugcPost-7488536409528623105-tyr5",
+        "publishedAt": "2026-07-30T10:10:10.310Z",
+        "title": "Mon objectif 1 million deuros de crédits",
+        "type": null,
+        "impressions": 825,
+        "engagements": 21,
+        "rate": 2.55,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Mon objectif : 1 million d’euros de crédits avant mes 30 ans\n\nPour moi, c’est indispensable de lever de la dette et de faire de l’immobilier.\n\nLa hausse des prix et les taux d’intérêt, c’est une chose.. investir avec de l’argent qui ne nous appartient pas, c’en est une autre.\n\nSi"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-%C3%A9t%C3%A9-cit%C3%A9-dans-un-livre-apr%C3%A8s-avoir-share-7426316391701442560-hc0_",
+        "publishedAt": "2026-02-08T17:30:02.068Z",
+        "title": "Jai été cité dans un livre après avoir",
+        "type": null,
+        "impressions": 863,
+        "engagements": 22,
+        "rate": 2.55,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J’ai été cité dans un livre.\n\nAprès avoir été interviewé par Nicolas Filali 🤠, je viens de découvrir qu’il m’a cité dans son livre.\n\nPour certaines personnes, ce n’est pas grand-chose, mais pour moi, c’est énorme.\n\nParce que derrière cette citation, il y a :\n👉 des nuits blanche"
+      }
+    ],
+    "demographics": [
+      {
+        "scope": "audience",
+        "category": "Entreprise",
+        "value": "NAVAL GROUP",
+        "percent": 2
+      },
+      {
+        "scope": "audience",
+        "category": "Entreprise",
+        "value": "Team for the Planet",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Paris et périphérie",
+        "percent": 36
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Lorient et périphérie",
+        "percent": 6
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Lyon et périphérie",
+        "percent": 4
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Nantes et périphérie",
+        "percent": 3
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Bordeaux et périphérie",
+        "percent": 3
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Rennes et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Toulouse et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Lille et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Marseille et périphérie",
+        "percent": 1
+      },
+      {
+        "scope": "audience",
+        "category": "Lieu",
+        "value": "Vannes",
+        "percent": 1
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "2 - 10 employés",
+        "percent": 29
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "11 - 50 employés",
+        "percent": 14
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "Plus de 10 001 employés",
+        "percent": 8
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "51 - 200 employés",
+        "percent": 8
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "0 - 1 employés",
+        "percent": 7
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "1 001 - 5 000 employés",
+        "percent": 7
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "201 - 500 employés",
+        "percent": 4
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "501 - 1 000 employés",
+        "percent": 3
+      },
+      {
+        "scope": "audience",
+        "category": "Taille de l’entreprise",
+        "value": "5 001 - 10 000 employés",
+        "percent": 1
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "Expérimenté",
+        "percent": 30
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "Premier emploi",
+        "percent": 16
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "Propriétaire",
+        "percent": 16
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "PDG",
+        "percent": 10
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "Directeur",
+        "percent": 7
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "Partenaire",
+        "percent": 5
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "Manager",
+        "percent": 4
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "VP",
+        "percent": 2
+      },
+      {
+        "scope": "audience",
+        "category": "Niveau hiérarchique",
+        "value": "Stagiaire",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Fondateur",
+        "percent": 10
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Co-fondateur",
+        "percent": 9
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "PDG",
+        "percent": 5
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Président",
+        "percent": 2
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Responsable de projet",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Membre du conseil",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Entrepreneur",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Enseignant",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Procureur",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Poste",
+        "value": "Développement commercial",
+        "percent": 0.5
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Services financiers",
+        "percent": 10
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Services et conseil aux entreprises",
+        "percent": 8
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Technologie, information et Internet",
+        "percent": 7
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Immobilier",
+        "percent": 5
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Services et conseil en informatique",
+        "percent": 5
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Développement de logiciels",
+        "percent": 4
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Services de marketing",
+        "percent": 3
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Services de publicité",
+        "percent": 3
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Commerce de détail",
+        "percent": 2
+      },
+      {
+        "scope": "audience",
+        "category": "Secteur",
+        "value": "Services bancaires",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "BNP Paribas",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "LCL",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "Société Générale",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "Deloitte",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "EY",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "Safran",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "Crédit Agricole CIB",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Entreprise",
+        "value": "NAVAL GROUP",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Paris et périphérie",
+        "percent": 44
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Lyon et périphérie",
+        "percent": 5
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Bordeaux et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Lille et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Nantes et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Toulouse et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Marseille et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Bruxelles et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Lieu",
+        "value": "Rennes et périphérie",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "Plus de 10 001 employés",
+        "percent": 17
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "11 - 50 employés",
+        "percent": 14
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "2 - 10 employés",
+        "percent": 14
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "1 001 - 5 000 employés",
+        "percent": 12
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "51 - 200 employés",
+        "percent": 11
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "201 - 500 employés",
+        "percent": 6
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "501 - 1 000 employés",
+        "percent": 5
+      },
+      {
+        "scope": "contenu",
+        "category": "Taille de l’entreprise",
+        "value": "5 001 - 10 000 employés",
+        "percent": 4
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "Expérimenté",
+        "percent": 31
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "Premier emploi",
+        "percent": 18
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "Directeur",
+        "percent": 12
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "Manager",
+        "percent": 8
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "PDG",
+        "percent": 8
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "Propriétaire",
+        "percent": 6
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "VP",
+        "percent": 3
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "Partenaire",
+        "percent": 3
+      },
+      {
+        "scope": "contenu",
+        "category": "Niveau hiérarchique",
+        "value": "Stagiaire",
+        "percent": 1
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "Co-fondateur",
+        "percent": 4
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "Fondateur",
+        "percent": 4
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "PDG",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "Président",
+        "percent": 1
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "Directeur général",
+        "percent": 1
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "Gestionnaire d'affaires",
+        "percent": 1
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "Responsable de projet",
+        "percent": 1
+      },
+      {
+        "scope": "contenu",
+        "category": "Poste",
+        "value": "Ingénieur logiciel",
+        "percent": 0.5
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Services financiers",
+        "percent": 10
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Services et conseil en informatique",
+        "percent": 6
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Services bancaires",
+        "percent": 6
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Services et conseil aux entreprises",
+        "percent": 6
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Technologie, information et Internet",
+        "percent": 5
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Développement de logiciels",
+        "percent": 4
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Immobilier",
+        "percent": 3
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Assurances",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Construction",
+        "percent": 2
+      },
+      {
+        "scope": "contenu",
+        "category": "Secteur",
+        "value": "Commerce de détail",
+        "percent": 2
+      }
+    ],
+    "series": [
+      [
+        "2025-11-10",
+        43,
+        1,
+        0,
+        16
+      ],
+      [
+        "2025-11-11",
+        17,
+        0,
+        0,
+        16
+      ],
+      [
+        "2025-11-12",
+        25,
+        0,
+        2,
+        18
+      ],
+      [
+        "2025-11-13",
+        3,
+        0,
+        0,
+        18
+      ],
+      [
+        "2025-11-14",
+        3,
+        0,
+        0,
+        18
+      ],
+      [
+        "2025-11-15",
+        42,
+        5,
+        0,
+        18
+      ],
+      [
+        "2025-11-16",
+        26,
+        0,
+        0,
+        18
+      ],
+      [
+        "2025-11-17",
+        4,
+        0,
+        0,
+        18
+      ],
+      [
+        "2025-11-18",
+        22,
+        0,
+        1,
+        19
+      ],
+      [
+        "2025-11-19",
+        6,
+        0,
+        0,
+        19
+      ],
+      [
+        "2025-11-20",
+        5,
+        0,
+        0,
+        19
+      ],
+      [
+        "2025-11-21",
+        0,
+        0,
+        1,
+        20
+      ],
+      [
+        "2025-11-22",
+        4,
+        0,
+        1,
+        21
+      ],
+      [
+        "2025-11-23",
+        13,
+        0,
+        0,
+        21
+      ],
+      [
+        "2025-11-24",
+        14,
+        0,
+        0,
+        21
+      ],
+      [
+        "2025-11-25",
+        8,
+        0,
+        2,
+        23
+      ],
+      [
+        "2025-11-26",
+        3,
+        0,
+        0,
+        23
+      ],
+      [
+        "2025-11-27",
+        11,
+        0,
+        0,
+        23
+      ],
+      [
+        "2025-11-28",
+        9,
+        0,
+        0,
+        23
+      ],
+      [
+        "2025-11-29",
+        1,
+        0,
+        0,
+        23
+      ],
+      [
+        "2025-11-30",
+        2,
+        0,
+        0,
+        23
+      ],
+      [
+        "2025-12-01",
+        7,
+        0,
+        2,
+        25
+      ],
+      [
+        "2025-12-02",
+        3,
+        0,
+        0,
+        25
+      ],
+      [
+        "2025-12-03",
+        2,
+        0,
+        1,
+        26
+      ],
+      [
+        "2025-12-04",
+        3,
+        0,
+        0,
+        26
+      ],
+      [
+        "2025-12-05",
+        2,
+        0,
+        0,
+        26
+      ],
+      [
+        "2025-12-06",
+        0,
+        0,
+        0,
+        26
+      ],
+      [
+        "2025-12-07",
+        2,
+        0,
+        0,
+        26
+      ],
+      [
+        "2025-12-08",
+        0,
+        0,
+        0,
+        26
+      ],
+      [
+        "2025-12-09",
+        3,
+        0,
+        2,
+        28
+      ],
+      [
+        "2025-12-10",
+        1,
+        0,
+        2,
+        30
+      ],
+      [
+        "2025-12-11",
+        3,
+        0,
+        0,
+        30
+      ],
+      [
+        "2025-12-12",
+        1,
+        0,
+        1,
+        31
+      ],
+      [
+        "2025-12-13",
+        40,
+        0,
+        0,
+        31
+      ],
+      [
+        "2025-12-14",
+        13,
+        0,
+        1,
+        32
+      ],
+      [
+        "2025-12-15",
+        4,
+        0,
+        0,
+        32
+      ],
+      [
+        "2025-12-16",
+        7,
+        0,
+        1,
+        33
+      ],
+      [
+        "2025-12-17",
+        3,
+        0,
+        0,
+        33
+      ],
+      [
+        "2025-12-18",
+        1,
+        0,
+        0,
+        33
+      ],
+      [
+        "2025-12-19",
+        1,
+        0,
+        0,
+        33
+      ],
+      [
+        "2025-12-20",
+        1,
+        0,
+        0,
+        33
+      ],
+      [
+        "2025-12-21",
+        1,
+        0,
+        0,
+        33
+      ],
+      [
+        "2025-12-22",
+        3,
+        0,
+        0,
+        33
+      ],
+      [
+        "2025-12-23",
+        2,
+        0,
+        2,
+        35
+      ],
+      [
+        "2025-12-24",
+        2,
+        0,
+        1,
+        36
+      ],
+      [
+        "2025-12-25",
+        0,
+        0,
+        0,
+        36
+      ],
+      [
+        "2025-12-26",
+        54,
+        0,
+        2,
+        38
+      ],
+      [
+        "2025-12-27",
+        58,
+        0,
+        1,
+        39
+      ],
+      [
+        "2025-12-28",
+        0,
+        0,
+        0,
+        39
+      ],
+      [
+        "2025-12-29",
+        3,
+        0,
+        0,
+        39
+      ],
+      [
+        "2025-12-30",
+        1,
+        0,
+        4,
+        43
+      ],
+      [
+        "2025-12-31",
+        2,
+        0,
+        2,
+        45
+      ],
+      [
+        "2026-01-01",
+        8,
+        0,
+        2,
+        47
+      ],
+      [
+        "2026-01-02",
+        3,
+        0,
+        0,
+        47
+      ],
+      [
+        "2026-01-03",
+        1,
+        0,
+        0,
+        47
+      ],
+      [
+        "2026-01-04",
+        218,
+        0,
+        0,
+        47
+      ],
+      [
+        "2026-01-05",
+        16,
+        0,
+        4,
+        51
+      ],
+      [
+        "2026-01-06",
+        391,
+        19,
+        1,
+        52
+      ],
+      [
+        "2026-01-07",
+        104,
+        5,
+        0,
+        52
+      ],
+      [
+        "2026-01-08",
+        2076,
+        34,
+        14,
+        66
+      ],
+      [
+        "2026-01-09",
+        718,
+        6,
+        8,
+        74
+      ],
+      [
+        "2026-01-10",
+        1284,
+        14,
+        0,
+        74
+      ],
+      [
+        "2026-01-11",
+        741,
+        5,
+        2,
+        76
+      ],
+      [
+        "2026-01-12",
+        941,
+        10,
+        0,
+        76
+      ],
+      [
+        "2026-01-13",
+        483,
+        1,
+        3,
+        79
+      ],
+      [
+        "2026-01-14",
+        901,
+        10,
+        5,
+        84
+      ],
+      [
+        "2026-01-15",
+        386,
+        5,
+        2,
+        86
+      ],
+      [
+        "2026-01-16",
+        446,
+        7,
+        0,
+        86
+      ],
+      [
+        "2026-01-17",
+        255,
+        2,
+        5,
+        91
+      ],
+      [
+        "2026-01-18",
+        692,
+        9,
+        0,
+        91
+      ],
+      [
+        "2026-01-19",
+        1509,
+        7,
+        2,
+        93
+      ],
+      [
+        "2026-01-20",
+        485,
+        4,
+        0,
+        93
+      ],
+      [
+        "2026-01-21",
+        1928,
+        21,
+        7,
+        100
+      ],
+      [
+        "2026-01-22",
+        9425,
+        3,
+        2,
+        102
+      ],
+      [
+        "2026-01-23",
+        4871,
+        3,
+        5,
+        107
+      ],
+      [
+        "2026-01-24",
+        2352,
+        4,
+        0,
+        107
+      ],
+      [
+        "2026-01-25",
+        1376,
+        2,
+        0,
+        107
+      ],
+      [
+        "2026-01-26",
+        437,
+        0,
+        1,
+        108
+      ],
+      [
+        "2026-01-27",
+        334,
+        2,
+        0,
+        108
+      ],
+      [
+        "2026-01-28",
+        335,
+        3,
+        3,
+        111
+      ],
+      [
+        "2026-01-29",
+        175,
+        1,
+        0,
+        111
+      ],
+      [
+        "2026-01-30",
+        362,
+        8,
+        1,
+        112
+      ],
+      [
+        "2026-01-31",
+        204,
+        4,
+        0,
+        112
+      ],
+      [
+        "2026-02-01",
+        165,
+        2,
+        0,
+        112
+      ],
+      [
+        "2026-02-02",
+        249,
+        2,
+        3,
+        115
+      ],
+      [
+        "2026-02-03",
+        4179,
+        22,
+        5,
+        120
+      ],
+      [
+        "2026-02-04",
+        2467,
+        18,
+        0,
+        120
+      ],
+      [
+        "2026-02-05",
+        1757,
+        11,
+        1,
+        121
+      ],
+      [
+        "2026-02-06",
+        746,
+        2,
+        1,
+        122
+      ],
+      [
+        "2026-02-07",
+        459,
+        2,
+        1,
+        123
+      ],
+      [
+        "2026-02-08",
+        670,
+        -5,
+        0,
+        123
+      ],
+      [
+        "2026-02-09",
+        1617,
+        15,
+        3,
+        126
+      ],
+      [
+        "2026-02-10",
+        573,
+        1,
+        1,
+        127
+      ],
+      [
+        "2026-02-11",
+        840,
+        15,
+        0,
+        127
+      ],
+      [
+        "2026-02-12",
+        670,
+        3,
+        1,
+        128
+      ],
+      [
+        "2026-02-13",
+        548,
+        7,
+        0,
+        128
+      ],
+      [
+        "2026-02-14",
+        295,
+        3,
+        0,
+        128
+      ],
+      [
+        "2026-02-15",
+        173,
+        1,
+        0,
+        128
+      ],
+      [
+        "2026-02-16",
+        130,
+        1,
+        1,
+        129
+      ],
+      [
+        "2026-02-17",
+        387,
+        17,
+        5,
+        134
+      ],
+      [
+        "2026-02-18",
+        306,
+        8,
+        0,
+        134
+      ],
+      [
+        "2026-02-19",
+        116,
+        0,
+        0,
+        134
+      ],
+      [
+        "2026-02-20",
+        113,
+        1,
+        2,
+        136
+      ],
+      [
+        "2026-02-21",
+        75,
+        0,
+        0,
+        136
+      ],
+      [
+        "2026-02-22",
+        59,
+        0,
+        0,
+        136
+      ],
+      [
+        "2026-02-23",
+        99,
+        1,
+        0,
+        136
+      ],
+      [
+        "2026-02-24",
+        87,
+        1,
+        0,
+        136
+      ],
+      [
+        "2026-02-25",
+        224,
+        9,
+        2,
+        138
+      ],
+      [
+        "2026-02-26",
+        313,
+        5,
+        1,
+        139
+      ],
+      [
+        "2026-02-27",
+        190,
+        2,
+        2,
+        141
+      ],
+      [
+        "2026-02-28",
+        54,
+        0,
+        0,
+        141
+      ],
+      [
+        "2026-03-01",
+        32,
+        0,
+        0,
+        141
+      ],
+      [
+        "2026-03-02",
+        50,
+        0,
+        0,
+        141
+      ],
+      [
+        "2026-03-03",
+        51,
+        2,
+        0,
+        141
+      ],
+      [
+        "2026-03-04",
+        16,
+        44,
+        0,
+        141
+      ],
+      [
+        "2026-03-05",
+        37,
+        0,
+        0,
+        141
+      ],
+      [
+        "2026-03-06",
+        14,
+        0,
+        0,
+        141
+      ],
+      [
+        "2026-03-07",
+        35,
+        1,
+        0,
+        141
+      ],
+      [
+        "2026-03-08",
+        13,
+        0,
+        0,
+        141
+      ],
+      [
+        "2026-03-09",
+        257,
+        3,
+        2,
+        143
+      ],
+      [
+        "2026-03-10",
+        115,
+        0,
+        0,
+        143
+      ],
+      [
+        "2026-03-11",
+        41,
+        0,
+        0,
+        143
+      ],
+      [
+        "2026-03-12",
+        39,
+        0,
+        0,
+        143
+      ],
+      [
+        "2026-03-13",
+        15,
+        0,
+        0,
+        143
+      ],
+      [
+        "2026-03-14",
+        2,
+        0,
+        2,
+        145
+      ],
+      [
+        "2026-03-15",
+        2,
+        0,
+        3,
+        148
+      ],
+      [
+        "2026-03-16",
+        11,
+        0,
+        0,
+        148
+      ],
+      [
+        "2026-03-17",
+        8,
+        0,
+        5,
+        153
+      ],
+      [
+        "2026-03-18",
+        5,
+        0,
+        0,
+        153
+      ],
+      [
+        "2026-03-19",
+        15,
+        0,
+        3,
+        156
+      ],
+      [
+        "2026-03-20",
+        14,
+        0,
+        2,
+        158
+      ],
+      [
+        "2026-03-21",
+        0,
+        0,
+        0,
+        158
+      ],
+      [
+        "2026-03-22",
+        2,
+        0,
+        0,
+        158
+      ],
+      [
+        "2026-03-23",
+        8,
+        0,
+        3,
+        161
+      ],
+      [
+        "2026-03-24",
+        6,
+        0,
+        2,
+        163
+      ],
+      [
+        "2026-03-25",
+        17,
+        1,
+        2,
+        165
+      ],
+      [
+        "2026-03-26",
+        9,
+        0,
+        1,
+        166
+      ],
+      [
+        "2026-03-27",
+        6,
+        0,
+        0,
+        166
+      ],
+      [
+        "2026-03-28",
+        1,
+        0,
+        0,
+        166
+      ],
+      [
+        "2026-03-29",
+        0,
+        0,
+        0,
+        166
+      ],
+      [
+        "2026-03-30",
+        2,
+        0,
+        4,
+        170
+      ],
+      [
+        "2026-03-31",
+        4,
+        0,
+        0,
+        170
+      ],
+      [
+        "2026-04-01",
+        699,
+        30,
+        3,
+        173
+      ],
+      [
+        "2026-04-02",
+        122,
+        3,
+        0,
+        173
+      ],
+      [
+        "2026-04-03",
+        57,
+        1,
+        0,
+        173
+      ],
+      [
+        "2026-04-04",
+        40,
+        0,
+        0,
+        173
+      ],
+      [
+        "2026-04-05",
+        593,
+        10,
+        2,
+        175
+      ],
+      [
+        "2026-04-06",
+        37069,
+        455,
+        169,
+        344
+      ],
+      [
+        "2026-04-07",
+        47956,
+        476,
+        149,
+        493
+      ],
+      [
+        "2026-04-08",
+        13105,
+        98,
+        61,
+        554
+      ],
+      [
+        "2026-04-09",
+        10329,
+        101,
+        33,
+        587
+      ],
+      [
+        "2026-04-10",
+        17579,
+        77,
+        50,
+        637
+      ],
+      [
+        "2026-04-11",
+        27143,
+        90,
+        63,
+        700
+      ],
+      [
+        "2026-04-12",
+        16208,
+        101,
+        37,
+        737
+      ],
+      [
+        "2026-04-13",
+        12151,
+        63,
+        16,
+        753
+      ],
+      [
+        "2026-04-14",
+        4807,
+        20,
+        6,
+        759
+      ],
+      [
+        "2026-04-15",
+        4420,
+        32,
+        11,
+        770
+      ],
+      [
+        "2026-04-16",
+        15962,
+        27,
+        11,
+        781
+      ],
+      [
+        "2026-04-17",
+        12321,
+        28,
+        3,
+        784
+      ],
+      [
+        "2026-04-18",
+        4719,
+        10,
+        4,
+        788
+      ],
+      [
+        "2026-04-19",
+        11343,
+        26,
+        8,
+        796
+      ],
+      [
+        "2026-04-20",
+        6870,
+        13,
+        5,
+        801
+      ],
+      [
+        "2026-04-21",
+        609,
+        6,
+        6,
+        807
+      ],
+      [
+        "2026-04-22",
+        472,
+        6,
+        6,
+        813
+      ],
+      [
+        "2026-04-23",
+        333,
+        0,
+        2,
+        815
+      ],
+      [
+        "2026-04-24",
+        175,
+        1,
+        13,
+        828
+      ],
+      [
+        "2026-04-25",
+        1509,
+        21,
+        3,
+        831
+      ],
+      [
+        "2026-04-26",
+        2144,
+        17,
+        8,
+        839
+      ],
+      [
+        "2026-04-27",
+        663,
+        7,
+        1,
+        840
+      ],
+      [
+        "2026-04-28",
+        186,
+        41,
+        3,
+        843
+      ],
+      [
+        "2026-04-29",
+        97,
+        13,
+        5,
+        848
+      ],
+      [
+        "2026-04-30",
+        51,
+        1,
+        4,
+        852
+      ],
+      [
+        "2026-05-01",
+        38,
+        0,
+        8,
+        860
+      ],
+      [
+        "2026-05-02",
+        841,
+        5,
+        4,
+        864
+      ],
+      [
+        "2026-05-03",
+        478,
+        0,
+        4,
+        868
+      ],
+      [
+        "2026-05-04",
+        210,
+        4,
+        5,
+        873
+      ],
+      [
+        "2026-05-05",
+        75,
+        0,
+        1,
+        874
+      ],
+      [
+        "2026-05-06",
+        57,
+        21,
+        2,
+        876
+      ],
+      [
+        "2026-05-07",
+        140,
+        2,
+        4,
+        880
+      ],
+      [
+        "2026-05-08",
+        242,
+        5,
+        4,
+        884
+      ],
+      [
+        "2026-05-09",
+        57,
+        4,
+        2,
+        886
+      ],
+      [
+        "2026-05-10",
+        43,
+        0,
+        0,
+        886
+      ],
+      [
+        "2026-05-11",
+        53,
+        0,
+        8,
+        894
+      ],
+      [
+        "2026-05-12",
+        44,
+        0,
+        0,
+        894
+      ],
+      [
+        "2026-05-13",
+        11,
+        0,
+        4,
+        898
+      ],
+      [
+        "2026-05-14",
+        41,
+        0,
+        0,
+        898
+      ],
+      [
+        "2026-05-15",
+        34,
+        2,
+        2,
+        900
+      ],
+      [
+        "2026-05-16",
+        23,
+        1,
+        0,
+        900
+      ],
+      [
+        "2026-05-17",
+        20,
+        0,
+        0,
+        900
+      ],
+      [
+        "2026-05-18",
+        29,
+        0,
+        0,
+        900
+      ],
+      [
+        "2026-05-19",
+        82,
+        0,
+        4,
+        904
+      ],
+      [
+        "2026-05-20",
+        13,
+        0,
+        4,
+        908
+      ],
+      [
+        "2026-05-21",
+        19,
+        0,
+        1,
+        909
+      ],
+      [
+        "2026-05-22",
+        12,
+        1,
+        1,
+        910
+      ],
+      [
+        "2026-05-23",
+        38,
+        0,
+        2,
+        912
+      ],
+      [
+        "2026-05-24",
+        9,
+        1,
+        0,
+        912
+      ],
+      [
+        "2026-05-25",
+        14,
+        0,
+        1,
+        913
+      ],
+      [
+        "2026-05-26",
+        13,
+        0,
+        4,
+        917
+      ],
+      [
+        "2026-05-27",
+        30,
+        0,
+        7,
+        924
+      ],
+      [
+        "2026-05-28",
+        12,
+        -1,
+        5,
+        929
+      ],
+      [
+        "2026-05-29",
+        10,
+        0,
+        0,
+        929
+      ],
+      [
+        "2026-05-30",
+        16,
+        0,
+        2,
+        931
+      ],
+      [
+        "2026-05-31",
+        3,
+        0,
+        0,
+        931
+      ],
+      [
+        "2026-06-01",
+        6,
+        0,
+        1,
+        932
+      ],
+      [
+        "2026-06-02",
+        5,
+        0,
+        0,
+        932
+      ],
+      [
+        "2026-06-03",
+        14,
+        0,
+        8,
+        940
+      ],
+      [
+        "2026-06-04",
+        5,
+        -1,
+        0,
+        940
+      ],
+      [
+        "2026-06-05",
+        19,
+        0,
+        0,
+        940
+      ],
+      [
+        "2026-06-06",
+        11,
+        0,
+        0,
+        940
+      ],
+      [
+        "2026-06-07",
+        295,
+        1,
+        0,
+        940
+      ],
+      [
+        "2026-06-08",
+        332,
+        2,
+        2,
+        942
+      ],
+      [
+        "2026-06-09",
+        68,
+        0,
+        0,
+        942
+      ],
+      [
+        "2026-06-10",
+        34,
+        0,
+        1,
+        943
+      ],
+      [
+        "2026-06-11",
+        44,
+        0,
+        0,
+        943
+      ],
+      [
+        "2026-06-12",
+        23,
+        1,
+        0,
+        943
+      ],
+      [
+        "2026-06-13",
+        7,
+        0,
+        0,
+        943
+      ],
+      [
+        "2026-06-14",
+        212,
+        1,
+        0,
+        943
+      ],
+      [
+        "2026-06-15",
+        59,
+        1,
+        1,
+        944
+      ],
+      [
+        "2026-06-16",
+        15,
+        0,
+        3,
+        947
+      ],
+      [
+        "2026-06-17",
+        10,
+        0,
+        0,
+        947
+      ],
+      [
+        "2026-06-18",
+        22,
+        0,
+        2,
+        949
+      ],
+      [
+        "2026-06-19",
+        18,
+        0,
+        0,
+        949
+      ],
+      [
+        "2026-06-20",
+        6,
+        0,
+        1,
+        950
+      ],
+      [
+        "2026-06-21",
+        13,
+        0,
+        0,
+        950
+      ],
+      [
+        "2026-06-22",
+        26,
+        0,
+        3,
+        953
+      ],
+      [
+        "2026-06-23",
+        19,
+        0,
+        0,
+        953
+      ],
+      [
+        "2026-06-24",
+        12,
+        0,
+        6,
+        959
+      ],
+      [
+        "2026-06-25",
+        4,
+        -1,
+        0,
+        959
+      ],
+      [
+        "2026-06-26",
+        9,
+        0,
+        0,
+        959
+      ],
+      [
+        "2026-06-27",
+        7,
+        0,
+        0,
+        959
+      ],
+      [
+        "2026-06-28",
+        15,
+        0,
+        0,
+        959
+      ],
+      [
+        "2026-06-29",
+        11,
+        0,
+        0,
+        959
+      ],
+      [
+        "2026-06-30",
+        13,
+        0,
+        2,
+        961
+      ],
+      [
+        "2026-07-01",
+        11,
+        0,
+        2,
+        963
+      ],
+      [
+        "2026-07-02",
+        5,
+        0,
+        0,
+        963
+      ],
+      [
+        "2026-07-03",
+        5,
+        0,
+        0,
+        963
+      ],
+      [
+        "2026-07-04",
+        2,
+        0,
+        0,
+        963
+      ],
+      [
+        "2026-07-05",
+        1,
+        0,
+        0,
+        963
+      ],
+      [
+        "2026-07-06",
+        3,
+        0,
+        4,
+        967
+      ],
+      [
+        "2026-07-07",
+        12,
+        0,
+        2,
+        969
+      ],
+      [
+        "2026-07-08",
+        7,
+        0,
+        0,
+        969
+      ],
+      [
+        "2026-07-09",
+        10,
+        0,
+        1,
+        970
+      ],
+      [
+        "2026-07-10",
+        2,
+        0,
+        0,
+        970
+      ],
+      [
+        "2026-07-11",
+        8,
+        0,
+        2,
+        972
+      ],
+      [
+        "2026-07-12",
+        15,
+        0,
+        4,
+        976
+      ],
+      [
+        "2026-07-13",
+        10,
+        0,
+        2,
+        978
+      ],
+      [
+        "2026-07-14",
+        2,
+        0,
+        0,
+        978
+      ],
+      [
+        "2026-07-15",
+        5,
+        0,
+        0,
+        978
+      ],
+      [
+        "2026-07-16",
+        10,
+        0,
+        1,
+        979
+      ],
+      [
+        "2026-07-17",
+        10,
+        0,
+        3,
+        982
+      ],
+      [
+        "2026-07-18",
+        0,
+        0,
+        1,
+        983
+      ],
+      [
+        "2026-07-19",
+        4,
+        0,
+        0,
+        983
+      ],
+      [
+        "2026-07-20",
+        32,
+        0,
+        4,
+        987
+      ],
+      [
+        "2026-07-21",
+        2,
+        0,
+        2,
+        989
+      ],
+      [
+        "2026-07-22",
+        3,
+        0,
+        0,
+        989
+      ],
+      [
+        "2026-07-23",
+        22,
+        0,
+        0,
+        989
+      ],
+      [
+        "2026-07-24",
+        6,
+        0,
+        0,
+        989
+      ],
+      [
+        "2026-07-25",
+        8,
+        0,
+        2,
+        991
+      ],
+      [
+        "2026-07-26",
+        2,
+        0,
+        0,
+        991
+      ],
+      [
+        "2026-07-27",
+        2,
+        0,
+        0,
+        991
+      ],
+      [
+        "2026-07-28",
+        1,
+        0,
+        0,
+        991
+      ],
+      [
+        "2026-07-29",
+        2,
+        0,
+        0,
+        991
+      ],
+      [
+        "2026-07-30",
+        285,
+        7,
+        2,
+        993
+      ],
+      [
+        "2026-07-31",
+        279,
+        5,
+        2,
+        995
+      ],
+      [
+        "2026-08-01",
+        95,
+        2,
+        0,
+        995
+      ],
+      [
+        "2026-08-02",
+        84,
+        8,
+        1,
+        996
+      ],
+      [
+        "2026-08-03",
+        90,
+        3,
+        4,
+        1000
+      ],
+      [
+        "2026-08-04",
+        45,
+        0,
+        0,
+        1000
+      ],
+      [
+        "2026-08-05",
+        55,
+        1,
+        0,
+        1000
+      ],
+      [
+        "2026-08-06",
+        44,
+        0,
+        0,
+        1000
+      ],
+      [
+        "2026-08-07",
+        42,
+        0,
+        1,
+        1001
+      ],
+      [
+        "2026-08-08",
+        49,
+        0,
+        1,
+        1002
+      ],
+      [
+        "2026-08-09",
+        183,
+        0,
+        0,
+        1002
+      ],
+      [
+        "2026-08-10",
+        162,
+        6,
+        4,
+        1006
+      ],
+      [
+        "2026-08-11",
+        98,
+        0,
+        0,
+        1006
+      ],
+      [
+        "2026-08-12",
+        62,
+        0,
+        0,
+        1006
+      ],
+      [
+        "2026-08-13",
+        24,
+        0,
+        3,
+        1009
+      ],
+      [
+        "2026-08-14",
+        10,
+        0,
+        2,
+        1011
+      ],
+      [
+        "2026-08-15",
+        51,
+        3,
+        0,
+        1011
+      ],
+      [
+        "2026-08-16",
+        61,
+        3,
+        0,
+        1011
+      ],
+      [
+        "2026-08-17",
+        42,
+        0,
+        0,
+        1011
+      ],
+      [
+        "2026-08-18",
+        53,
+        0,
+        0,
+        1011
+      ],
+      [
+        "2026-08-19",
+        26,
+        3,
+        0,
+        1011
+      ],
+      [
+        "2026-08-20",
+        33,
+        0,
+        0,
+        1011
+      ],
+      [
+        "2026-08-21",
+        32,
+        0,
+        2,
+        1013
+      ],
+      [
+        "2026-08-22",
+        1491,
+        9,
+        5,
+        1018
+      ],
+      [
+        "2026-08-23",
+        4264,
+        11,
+        14,
+        1032
+      ],
+      [
+        "2026-08-24",
+        2364,
+        1,
+        2,
+        1034
+      ],
+      [
+        "2026-08-25",
+        514,
+        5,
+        1,
+        1035
+      ],
+      [
+        "2026-08-26",
+        187,
+        0,
+        0,
+        1035
+      ],
+      [
+        "2026-08-27",
+        36,
+        0,
+        0,
+        1035
+      ],
+      [
+        "2026-08-28",
+        28,
+        0,
+        0,
+        1035
+      ],
+      [
+        "2026-08-29",
+        126,
+        1,
+        0,
+        1035
+      ],
+      [
+        "2026-08-30",
+        44,
+        0,
+        0,
+        1035
+      ],
+      [
+        "2026-08-31",
+        38,
+        1,
+        0,
+        1035
+      ],
+      [
+        "2026-09-01",
+        30,
+        1,
+        0,
+        1035
+      ],
+      [
+        "2026-09-02",
+        56,
+        1,
+        5,
+        1040
+      ],
+      [
+        "2026-09-03",
+        140,
+        0,
+        3,
+        1043
+      ],
+      [
+        "2026-09-04",
+        95,
+        1,
+        2,
+        1045
+      ],
+      [
+        "2026-09-05",
+        151,
+        4,
+        0,
+        1045
+      ],
+      [
+        "2026-09-06",
+        48,
+        1,
+        0,
+        1045
+      ],
+      [
+        "2026-09-07",
+        37,
+        0,
+        0,
+        1045
+      ],
+      [
+        "2026-09-08",
+        42,
+        0,
+        2,
+        1047
+      ],
+      [
+        "2026-09-09",
+        43,
+        1,
+        1,
+        1048
+      ],
+      [
+        "2026-09-10",
+        24,
+        0,
+        0,
+        1048
+      ],
+      [
+        "2026-09-11",
+        20,
+        0,
+        0,
+        1048
+      ],
+      [
+        "2026-09-12",
+        21,
+        0,
+        0,
+        1048
+      ],
+      [
+        "2026-09-13",
+        14,
+        1,
+        2,
+        1050
+      ],
+      [
+        "2026-09-14",
+        218,
+        3,
+        2,
+        1052
+      ],
+      [
+        "2026-09-15",
+        48,
+        -1,
+        0,
+        1052
+      ],
+      [
+        "2026-09-16",
+        39,
+        0,
+        0,
+        1052
+      ],
+      [
+        "2026-09-17",
+        42,
+        0,
+        2,
+        1054
+      ],
+      [
+        "2026-09-18",
+        5,
+        0,
+        5,
+        1059
+      ],
+      [
+        "2026-09-19",
+        4,
+        0,
+        1,
+        1060
+      ],
+      [
+        "2026-09-20",
+        12,
+        0,
+        0,
+        1060
+      ],
+      [
+        "2026-09-21",
+        5,
+        0,
+        0,
+        1060
+      ],
+      [
+        "2026-09-22",
+        22,
+        0,
+        2,
+        1062
+      ],
+      [
+        "2026-09-23",
+        184,
+        7,
+        0,
+        1062
+      ],
+      [
+        "2026-09-24",
+        114,
+        4,
+        2,
+        1064
+      ],
+      [
+        "2026-09-25",
+        65,
+        6,
+        0,
+        1064
+      ],
+      [
+        "2026-09-26",
+        141,
+        4,
+        0,
+        1064
+      ],
+      [
+        "2026-09-27",
+        58,
+        0,
+        2,
+        1066
+      ],
+      [
+        "2026-09-28",
+        136,
+        3,
+        1,
+        1067
+      ],
+      [
+        "2026-09-29",
+        181,
+        1,
+        1,
+        1068
+      ],
+      [
+        "2026-09-30",
+        136,
+        1,
+        2,
+        1070
+      ],
+      [
+        "2026-10-01",
+        81,
+        2,
+        0,
+        1070
+      ],
+      [
+        "2026-10-02",
+        20,
+        0,
+        3,
+        1073
+      ],
+      [
+        "2026-10-03",
+        18,
+        2,
+        0,
+        1073
+      ],
+      [
+        "2026-10-04",
+        5,
+        0,
+        0,
+        1073
+      ],
+      [
+        "2026-10-05",
+        35,
+        3,
+        0,
+        1073
+      ],
+      [
+        "2026-10-06",
+        16,
+        0,
+        2,
+        1075
+      ],
+      [
+        "2026-10-07",
+        22,
+        0,
+        2,
+        1077
+      ],
+      [
+        "2026-10-08",
+        18,
+        0,
+        1,
+        1078
+      ],
+      [
+        "2026-10-09",
+        18,
+        0,
+        0,
+        1078
+      ],
+      [
+        "2026-10-10",
+        26,
+        0,
+        1,
+        1079
+      ],
+      [
+        "2026-10-11",
+        6,
+        0,
+        0,
+        1079
+      ],
+      [
+        "2026-10-12",
+        13,
+        0,
+        0,
+        1079
+      ],
+      [
+        "2026-10-13",
+        1,
+        0,
+        0,
+        1079
+      ],
+      [
+        "2026-10-14",
+        15,
+        1,
+        0,
+        1079
+      ],
+      [
+        "2026-10-15",
+        178,
+        2,
+        0,
+        1079
+      ],
+      [
+        "2026-10-16",
+        299,
+        0,
+        0,
+        1079
+      ],
+      [
+        "2026-10-17",
+        169,
+        0,
+        0,
+        1079
+      ],
+      [
+        "2026-10-18",
+        120,
+        0,
+        0,
+        1079
+      ],
+      [
+        "2026-10-19",
+        203,
+        0,
+        1,
+        1080
+      ],
+      [
+        "2026-10-20",
+        39,
+        0,
+        0,
+        1080
+      ],
+      [
+        "2026-10-21",
+        24,
+        0,
+        0,
+        1080
+      ],
+      [
+        "2026-10-22",
+        14,
+        0,
+        0,
+        1080
+      ],
+      [
+        "2026-10-23",
+        9,
+        0,
+        0,
+        1080
+      ],
+      [
+        "2026-10-24",
+        10,
+        0,
+        0,
+        1080
+      ],
+      [
+        "2026-10-25",
+        4,
+        0,
+        0,
+        1080
+      ],
+      [
+        "2026-10-26",
+        2,
+        0,
+        1,
+        1081
+      ],
+      [
+        "2026-10-27",
+        6,
+        0,
+        0,
+        1081
+      ],
+      [
+        "2026-10-28",
+        637,
+        6,
+        2,
+        1083
+      ],
+      [
+        "2026-10-29",
+        229,
+        8,
+        1,
+        1084
+      ],
+      [
+        "2026-10-30",
+        510,
+        15,
+        2,
+        1086
+      ],
+      [
+        "2026-10-31",
+        486,
+        7,
+        1,
+        1087
+      ],
+      [
+        "2026-11-01",
+        1671,
+        5,
+        1,
+        1088
+      ],
+      [
+        "2026-11-02",
+        1526,
+        21,
+        3,
+        1091
+      ],
+      [
+        "2026-11-03",
+        1801,
+        18,
+        11,
+        1102
+      ],
+      [
+        "2026-11-04",
+        567,
+        2,
+        4,
+        1106
+      ],
+      [
+        "2026-11-05",
+        414,
+        3,
+        4,
+        1110
+      ],
+      [
+        "2026-11-06",
+        603,
+        13,
+        2,
+        1112
+      ],
+      [
+        "2026-11-07",
+        485,
+        7,
+        2,
+        1114
+      ],
+      [
+        "2026-11-08",
+        904,
+        23,
+        8,
+        1122
+      ],
+      [
+        "2026-11-09",
+        1332,
+        16,
+        1,
+        1123
+      ]
+    ],
+    "ranking": [
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mon-plus-gros-point-faible-sur-youtube-share-7525338605247066112-ArII",
+        "publishedAt": "2026-11-08T23:28:57.521Z",
+        "title": "Mon plus gros point faible sur youtube",
+        "type": "Image",
+        "impressions": 391,
+        "engagements": 10,
+        "rate": 2.56,
+        "reactions": 7,
+        "comments": 3,
+        "reposts": 0,
+        "membersReached": 241,
+        "followersGained": 0,
+        "angle": null,
+        "text": "Mon plus gros point faible sur YouTube ?\n\nC'est la durée moyenne de visionnage. Pendant presque deux ans, j'ai plafonné autour de 3 min 30.\n\nPeu importe le sujet, peu importe le travail mis dans la vidéo.. j'étais incapable de faire rester la personne sur la vidéo.\n\nEt c'est frus"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_5-ap%C3%A9ros-2-potes-un-seul-est-devenu-propri%C3%A9taire-share-7525329547177816064-6Svf",
+        "publishedAt": "2026-11-08T22:52:57.909Z",
+        "title": "5 apéros 2 potes un seul est devenu propriétaire",
+        "type": "Image",
+        "impressions": 484,
+        "engagements": 4,
+        "rate": 0.83,
+        "reactions": 4,
+        "comments": 0,
+        "reposts": 0,
+        "membersReached": 323,
+        "followersGained": 0,
+        "angle": null,
+        "text": "5 apéros. 2 potes. Un seul est devenu propriétaire.\n\nÉté 2021\nJulien : « Les prix ne font qu’augmenter, c’est n’importe quoi. J’attends que ça baisse. »\nMoi : « Les taux sont à 1 %, je signe. Tu me ressers un verre ? »\n\nÉté 2022\nJulien : « Les taux remontent. Les prix vont forcém"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-trouv%C3%A9-la-solution-pour-faire-des-vues-share-7524763884759453696-qO2f",
+        "publishedAt": "2026-11-07T09:25:13.479Z",
+        "title": "Jai trouvé la solution pour faire des vues",
+        "type": "Image",
+        "impressions": 982,
+        "engagements": 23,
+        "rate": 2.34,
+        "reactions": 17,
+        "comments": 5,
+        "reposts": 0,
+        "membersReached": 644,
+        "followersGained": 0,
+        "angle": null,
+        "text": "J’ai trouvé la solution pour faire des vues sur YouTube\n\nPendant plusieurs mois, j’ai cherché un format pour développer ma chaîne YouTube, me différencier de la concurrence et faire des vues. \n\nJe l’ai enfin trouvé : parler de mes projets et de mes investissements en toute transp"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_quand-tu-d%C3%A9veloppes-un-m%C3%A9dia-depuis-la-bretagne-share-7524141846382428160-cVfp",
+        "publishedAt": "2026-11-05T16:13:27.973Z",
+        "title": "Quand tu développes un média depuis la bretagne",
+        "type": null,
+        "impressions": 473,
+        "engagements": 17,
+        "rate": 3.59,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Quand tu développes un média depuis la Bretagne, tu es obligé d'aller à Paris régulièrement. \n\nCette semaine, j’étais à la Paris Creator Week.\n\nEt je le redis : le business du média et de la création de contenu se joue en grande partie à Paris. Les marques, les agences, les plate"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_11-repas-de-no%C3%ABl-2-s%C5%93urs-une-seule-a-gagn%C3%A9-share-7523079742032453632-v5Ai",
+        "publishedAt": "2026-11-02T17:53:02.563Z",
+        "title": "11 repas de noël 2 sœurs une seule a gagné",
+        "type": null,
+        "impressions": 1748,
+        "engagements": 17,
+        "rate": 0.97,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "11 repas de Noël. 2 sœurs. Une seule a gagné de l’argent en bourse.\n\nNoël 2015\n\nSophie : « J’ai ouvert un PEA. Mais t’as vu le CAC 40 en août ? -5 % en une seule séance. J’attends que ça se calme. »\nClaire : « Moi j’ai mis un virement automatique de 200 € par mois sur un ETF S&P "
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_en-2023-emilien-bidet-et-moi-%C3%A9tions-deux-share-7522887566199603201-lHr2",
+        "publishedAt": "2026-11-02T05:09:24.274Z",
+        "title": "En 2023 emilien bidet et moi étions deux",
+        "type": null,
+        "impressions": 1809,
+        "engagements": 22,
+        "rate": 1.22,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "En 2023, Emilien Bidet ☀️ et moi étions deux jeunes freelances qui ne savaient pas vraiment où ils allaient.\n\nQuand on s'est rencontrés, il m'a aidé à lancer Le média de l'investisseur.\n\nDepuis, on se fait plusieurs week-ends par an dans un Airbnb, juste pour bosser sur nos proje"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-mappr%C3%AAte-%C3%A0-signer-un-nouveau-cr%C3%A9dit-avec-share-7522300278788911104-DqWW",
+        "publishedAt": "2026-10-31T14:15:44.044Z",
+        "title": "Je mapprête à signer un nouveau crédit avec",
+        "type": null,
+        "impressions": 2033,
+        "engagements": 4,
+        "rate": 0.2,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Je m'apprête à signer un nouveau crédit avec un taux autour des 4 % 🫠\n\n1 point de taux, ça ne paraît pas grand-chose. Mais sur un crédit immobilier, ça change tout.\n\n\nJ'ai fait le calcul pour un emprunt de 200 000 € sur 25 ans, à taux fixe (hors assurance) :\n\n-> À 1 % : 754 €/mo"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_immobilier-investissement-colocation-share-7522230914580410368-u-kF",
+        "publishedAt": "2026-10-31T09:40:06.328Z",
+        "title": "Immobilier investissement colocation",
+        "type": null,
+        "impressions": 376,
+        "engagements": 3,
+        "rate": 0.8,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Colocation : mon retour d'expérience après 18 mois\n\n\nIl y a 18 mois, je mettais en location mon premier investissement : un T4 de 95 m², acheté 165 000 €, dans lequel j'ai passé 9 mois pour faire les travaux.\n\nJe viens de publier le bilan complet en vidéo avec :\n\n→ Les chiffres e"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-sous-estim%C3%A9-le-travail-que-%C3%A7a-demandait-share-7521900715695542272-EUpG",
+        "publishedAt": "2026-10-30T11:48:00.779Z",
+        "title": "Jai sous estimé le travail que ça demandait",
+        "type": null,
+        "impressions": 796,
+        "engagements": 21,
+        "rate": 2.64,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J’ai sous-estimé le travail que ça demandait de lancer un SaaS seul.\n\nIl y a un mois, je lançais 21m2.fr.\n\n21m2 aide les investisseurs à :\n\n1. Trouver des biens rentables sur le marché\n2. Automatiser leur gestion locative\n\nBilan après 30 jours :\n→ 71 inscrits\n→ 4 utilisateurs pay"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_10-074-heures-de-visionnage-216-509-vues-share-7521094792139751424-r-2u",
+        "publishedAt": "2026-10-28T06:25:33.630Z",
+        "title": "10 074 heures de visionnage 216 509 vues",
+        "type": null,
+        "impressions": 803,
+        "engagements": 8,
+        "rate": 1,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "10 074 heures de visionnage. 216 509 vues. 282,49 € de revenus.\n\nVoici les statistiques de ma chaîne YouTube. Après avoir passé plusieurs mois à chercher la direction dans laquelle partir.\n\nj’ai publié 44 vidéos cette année. Voici ce que j’en retiens :\n\n1. On me suit pour ma tran"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_arnaque-%C3%A0-la-fran%C3%A7aise-duralex-les-share-7516508891732574208-TsnJ",
+        "publishedAt": "2026-10-15T14:42:49.771Z",
+        "title": "Arnaque à la française duralex les",
+        "type": null,
+        "impressions": 1011,
+        "engagements": 3,
+        "rate": 0.3,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Arnaque à la française 👀 \n\nDuralex : les 7 millions deuros récoltés auprès de particuliers ne seront pas remboursés \n\n👉 À l’origine, il était évoqué un taux dintérêt annuel de 8% bruts pour une durée dinvestissement de 7 ans… \n\nMalheureusement, les 10.523 investisseurs vont per"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_bonjour-%C3%A0-tous-depuis-3-ans-je-partage-ugcPost-7508565301828128768-sIN_",
+        "publishedAt": "2026-09-23T16:37:50.353Z",
+        "title": "Bonjour à tous depuis 3 ans je partage",
+        "type": null,
+        "impressions": 402,
+        "engagements": 18,
+        "rate": 4.48,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Bonjour à tous,\n\nDepuis 3 ans, je partage ici du contenu autour de l'investissement. Merci pour chaque message, chaque échange et chaque retour. \n\nAu fil de ces années, je me suis de plus en plus orienté vers l'immobilier et je me suis heurté à deux problèmes : comment trouver de"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_le-march%C3%A9-immobilier-est-rest%C3%A9-bloqu%C3%A9-en-ugcPost-7501067232941297664-GgCq",
+        "publishedAt": "2026-09-03T00:03:11.423Z",
+        "title": "Le marché immobilier est resté bloqué en",
+        "type": null,
+        "impressions": 348,
+        "engagements": 4,
+        "rate": 1.15,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Le marché immobilier est resté bloqué en 1985.\n\nOn analyse le marché à la main. On envoie les quittances de loyer une par une. On pilote 500 000 € de patrimoine avec un simple fichier Excel.\n\n\nEt tout le monde trouve ça normal.\n\n👉 Dans quelques semaines, je sors mon prochain pro"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_ma-premi%C3%A8re-r%C3%A9novation-a-vir%C3%A9-au-cauchemar-share-7499370847590162432-hldq",
+        "publishedAt": "2026-08-29T07:42:21.638Z",
+        "title": "Ma première rénovation a viré au cauchemar",
+        "type": null,
+        "impressions": 316,
+        "engagements": 5,
+        "rate": 1.58,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Mon tout premier investissement immobilier a failli me dégoûter de l'immobilier.\n\n95 m² à refaire du sol au plafond. Aucune expérience. Et un crédit à rembourser en même temps que les travaux.\n\nJe pensais en avoir pour 4 mois. J'en ai mis 8.\n\nEntre la moisissure dans presque tout"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-gagne-90-000-par-an-et-ma-banque-a-refus%C3%A9-share-7496947371189166080-f4c6",
+        "publishedAt": "2026-08-22T15:12:19.838Z",
+        "title": "Je gagne 90 000 par an et ma banque a refusé",
+        "type": null,
+        "impressions": 8861,
+        "engagements": 26,
+        "rate": 0.29,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "« Vous êtes un red flag ambulant. »\n\nC'est ce qu'une conseillère bancaire m'a dit… avant de se lever, de faire le tour de son bureau et de m'ouvrir la porte. Rendez-vous terminé. En 5 minutes.\n\nJ'étais venu chercher un financement pour mon 3ᵉ appartement. Mais sur le papier, mon "
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mes-investissements-immobiliers-%C3%A0-28-ans-share-7492234264021803008-jhT-",
+        "publishedAt": "2026-08-09T15:04:07.524Z",
+        "title": "Mes investissements immobiliers à 28 ans",
+        "type": null,
+        "impressions": 474,
+        "engagements": 6,
+        "rate": 1.27,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "630 000 € d'immobilier à 28 ans : voici ce que je gagne vraiment\n\nIl y a 3 ans, je ne m’intéressais pas du tout à l’immobilier. \n\nAujourd’hui, j’ai 2 appartements (bientôt 3 🤞)\n\nL'immobilier, quand tu débutes, c’est :\n– du capital que tu rembourses chaque mois\n– de la valeur que"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_clap-de-fin-pour-les-travaux-suite-au-ugcPost-7488895906738597888-B8It",
+        "publishedAt": "2026-07-31T09:58:41.124Z",
+        "title": "Clap de fin pour les travaux suite au",
+        "type": null,
+        "impressions": 628,
+        "engagements": 14,
+        "rate": 2.23,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🚧 Clap de fin pour les travaux suite au dégât des eaux !\n\nEn janvier : message de l'un des locataires de la colocation pour m'annoncer qu'une tache vient d'apparaître au plafond de l'appartement. 9 mois après la fin de la rénovation..\n\n💦 Je n'ai pas mis longtemps à deviner ce q"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mon-objectif-1-million-deuros-de-cr%C3%A9dits-ugcPost-7488536409528623105-tyr5",
+        "publishedAt": "2026-07-30T10:10:10.310Z",
+        "title": "Mon objectif 1 million deuros de crédits",
+        "type": null,
+        "impressions": 825,
+        "engagements": 21,
+        "rate": 2.55,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Mon objectif : 1 million d’euros de crédits avant mes 30 ans\n\nPour moi, c’est indispensable de lever de la dette et de faire de l’immobilier.\n\nLa hausse des prix et les taux d’intérêt, c’est une chose.. investir avec de l’argent qui ne nous appartient pas, c’en est une autre.\n\nSi"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_les-chiffres-monstrueux-de-la-f1-salaires-share-7471956701144076289-13jy",
+        "publishedAt": "2026-06-14T16:08:19.795Z",
+        "title": "Les chiffres monstrueux de la f1 salaires",
+        "type": null,
+        "impressions": 382,
+        "engagements": 2,
+        "rate": 0.52,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Une entreprise secrète a sauvé la F1 🤫\n\nEn 2017, elle rachète un championnat à bout de souffle pour 8 milliards. Aujourd'hui, cet empire vaut 30 milliards $. \n\nDécouvre le business de la F1 comme personne ne t'en a jamais parlé 👇\n\nhttps://lnkd.in/eSHapDYp"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_squeezie-a-trahi-ceux-qui-lont-rendu-millionnaire-share-7469412913905188864-QwMq",
+        "publishedAt": "2026-06-07T15:40:13.656Z",
+        "title": "Squeezie a trahi ceux qui lont rendu millionnaire",
+        "type": null,
+        "impressions": 861,
+        "engagements": 4,
+        "rate": 0.46,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Squeezie cache son empire à ses 20 millions d'abonnés.\n\nEn 2011, Lucas Hauchard a 15 ans et il publie sa première vidéo YouTube.\n\nEn 2015, il investit 3 000€ dans une régie publicitaire avec Cyprien et Norman. Quelques mois plus tard, Webedia rachète le tout pour 25 millions d'eu"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-analys%C3%A9-la-formation-qvema-x-escp-%C3%A0-share-7458177369133002752-mT_X",
+        "publishedAt": "2026-05-07T15:34:11.036Z",
+        "title": "Jai analysé la formation qvema x escp à",
+        "type": null,
+        "impressions": 454,
+        "engagements": 8,
+        "rate": 1.76,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Formation QVEMA : ne payez pas 4 850€ avant d'avoir vu cette vidéo\n\nUne grande école, une émission télé, des entrepreneurs célèbres et une formation à 4 850€..\n\nSur le papier c'est séduisant. \n\nMais dans les détails, c'est une autre histoire 👇\n\nhttps://lnkd.in/eDxvU8Sj"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_devenir-propri%C3%A9taire-est-la-pire-chose-que-share-7456335330233757696-eIK8",
+        "publishedAt": "2026-05-02T13:34:34.739Z",
+        "title": "Devenir propriétaire est la pire chose que",
+        "type": null,
+        "impressions": 1633,
+        "engagements": 7,
+        "rate": 0.43,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "On nous répète depuis l'enfance que louer c'est jeter de l'argent par les fenêtres.\n\nAujourd'hui je vais casser ce mythe.\n\nJ'ai pris l'exemple de Lucas, 28 ans, célibataire, qui achète un 50m² à Lorient. \n\nSur le papier, ça semblait accessible. Dans la réalité, entre les frais de"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_qui-veut-%C3%AAtre-mon-associ%C3%A9-14-millions-deuros-share-7453777171489406978-VHci",
+        "publishedAt": "2026-04-25T12:09:22.166Z",
+        "title": "Qui veut être mon associé 14 millions deuros",
+        "type": null,
+        "impressions": 4141,
+        "engagements": 48,
+        "rate": 1.16,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Il y a 3 semaines, je publiais une vidéo sur les clubs d'investissement des membres du jury de QVEMA. Vous avez été des centaines à réagir.\n\nMais je ne me suis pas arrêté là et j'ai creusé encore plus loin.. \n\nJ'ai enquêté sur les coulisses de l'émission Qui veut être mon associé"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_avoir-un-loyer-%C3%A0-payer-ce-nest-pas-jeter-share-7452240519897886720-Rw_j",
+        "publishedAt": "2026-04-21T06:23:15.877Z",
+        "title": "Avoir un loyer à payer ce nest pas jeter",
+        "type": null,
+        "impressions": 420,
+        "engagements": 4,
+        "rate": 0.95,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Avoir un loyer à payer, ce n’est pas jeter de l’argent par la fenêtre.\n\nJe comprends l’intention, mais aujourd’hui, il faut aussi parler du coût réel.\n\nParce qu’acheter maintenant, c’est avoir :\n\n- des prix de l’immobilier très hauts\n- des frais de notaire + d’agence qui prennent"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_les-banques-traditionnelles-sont-vou%C3%A9es-share-7450076953048473600-uV9x",
+        "publishedAt": "2026-04-15T07:06:01.343Z",
+        "title": "Les banques traditionnelles sont vouées",
+        "type": null,
+        "impressions": 47508,
+        "engagements": 83,
+        "rate": 0.17,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🇫🇷 Les banques traditionnelles sont vouées à disparaître \n\nEntre 2021 et 2025, les banques en ligne et les fintechs (dont Revolut et BoursoBank) ont conquis 15 millions de nouveaux clients en France.\n\n⚠️ Et pendant ce temps-là, les banques traditionnelles perdent du terrain.\n\nP"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_arr%C3%AAtons-de-nous-voiler-la-face-la-share-7448288118723563520-OVyK",
+        "publishedAt": "2026-04-10T08:37:50.005Z",
+        "title": "Arrêtons de nous voiler la face la",
+        "type": null,
+        "impressions": 48388,
+        "engagements": 107,
+        "rate": 0.22,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🇫🇷 Arrêtons de nous voiler la face. La France a 23 licornes. Pas 40. \n\nOn a longtemps célébré les \"presque 40 licornes françaises\" comme une fierté nationale. Mais la réalité est bien plus sombre.\n\n🔴 Sorare : -94 % (240M€ aujourd'hui contre 3,9 milliards au dernier tour de tab"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_anthony-bourbon-veut-devenir-milliardaire-share-7446521924110675968-xp3N",
+        "publishedAt": "2026-04-05T11:39:36.395Z",
+        "title": "Anthony bourbon veut devenir milliardaire",
+        "type": null,
+        "impressions": 148409,
+        "engagements": 1504,
+        "rate": 1.01,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J'ai enquêté sur les clubs d'investissement d'Anthony Bourbon, Eric Larchevêque, Jean-Pierre Nadir et Jonathan Anguelov.\n\nJ’ai passé plusieurs heures à analyser les frais, la fiscalité et les rendements réels des clubs d’investissement d’Anthony Bourbon, Eric Larchevêque, Jean-Pi"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-profite-de-ce-bel-article-duouest-france-share-7444874082229174273-vKSd",
+        "publishedAt": "2026-03-31T22:31:40.275Z",
+        "title": "Je profite de ce bel article duouest france",
+        "type": null,
+        "impressions": 1781,
+        "engagements": 57,
+        "rate": 3.2,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Je profite de ce bel article du Ouest-France pour vous annoncer officiellement le lancement de ma conciergerie immobilière dans le Pays de Lorient !\n\nC’est un projet qui me tient énormément à cœur.\n\nJ’adore l’immobilier, j’adore ma région et j’avais envie d’entreprendre ici, loca"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_lvmh-la-famille-arnault-d%C3%A9tient-plus-share-7436682085437865984-N880",
+        "publishedAt": "2026-03-09T07:59:36.040Z",
+        "title": "Lvmh la famille arnault détient plus",
+        "type": null,
+        "impressions": 510,
+        "engagements": 2,
+        "rate": 0.39,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "🇫🇷 LVMH : la famille Arnault détient plus de 50% du capital\n\nC’était annoncé. C’est désormais acté : Bernard Arnault et ses cinq enfants détiennent désormais 50,01% du capital de LVMH.\n\n⚠️ Et le point que beaucoup sous-estiment : cette majorité au capital s’accompagne de 65,94%"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_10-conseils-que-jaurais-aim%C3%A9-quon-me-donne-share-7429791156919627776-CnPz",
+        "publishedAt": "2026-02-18T07:37:30.654Z",
+        "title": "10 conseils que jaurais aimé quon me donne",
+        "type": null,
+        "impressions": 544,
+        "engagements": 9,
+        "rate": 1.65,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "10 conseils que j’aurais aimé qu’on me donne quand j’ai commencé à entreprendre :\n\n1. Se focaliser sur un seul projet\n\n2. Ne pas rester seul (s’entourer / déléguer)\n\n3. Personne ne viendra t’aider : tu es le seul responsable\n\n4. Si tu as un CDI, c’est la situation idéale pour ent"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_le-truc-le-plus-important-pour-r%C3%A9ussir-share-7429425397609439232-BYYW",
+        "publishedAt": "2026-02-17T07:24:06.839Z",
+        "title": "Le truc le plus important pour réussir",
+        "type": null,
+        "impressions": 466,
+        "engagements": 16,
+        "rate": 3.43,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Le truc le plus important pour réussir : passer à l’action.\n\nJe sais que ça sonne comme un cliché.\nMais c’est la vérité.\n\nAu début, ce que tu vas faire sera nul.\n\nMes premières newsletters étaient nulles.\nMes premiers articles aussi.\nMes premières vidéos… n’en parlons pas.\n\nEt c’"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-%C3%A9t%C3%A9-cit%C3%A9-dans-un-livre-apr%C3%A8s-avoir-share-7426316391701442560-hc0_",
+        "publishedAt": "2026-02-08T17:30:02.068Z",
+        "title": "Jai été cité dans un livre après avoir",
+        "type": null,
+        "impressions": 863,
+        "engagements": 22,
+        "rate": 2.55,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J’ai été cité dans un livre.\n\nAprès avoir été interviewé par Nicolas Filali 🤠, je viens de découvrir qu’il m’a cité dans son livre.\n\nPour certaines personnes, ce n’est pas grand-chose, mais pour moi, c’est énorme.\n\nParce que derrière cette citation, il y a :\n👉 des nuits blanche"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_jai-des-dizaines-de-livres-sur-mon-bureau-share-7426314286303506433-70Ih",
+        "publishedAt": "2026-02-08T17:21:40.102Z",
+        "title": "Jai des dizaines de livres sur mon bureau",
+        "type": null,
+        "impressions": 486,
+        "engagements": 13,
+        "rate": 2.67,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "J’ai des dizaines de livres sur mon bureau.\n\nEntrepreneuriat. Investissement. Psychologie.\n\nMais il faut bien comprendre quelque chose :\n👉 tu peux lire 100 livres…\n\nsi tu ne passes jamais à l’action, il ne se passera jamais rien.\n\nLire, ça donne l’impression d’avancer parce qu’o"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_on-ne-parle-pas-assez-de-la-solitude-du-solopreneur-share-7426309867591794688-wSCg",
+        "publishedAt": "2026-02-08T17:04:06.599Z",
+        "title": "On ne parle pas assez de la solitude du solopreneur",
+        "type": null,
+        "impressions": 1469,
+        "engagements": 20,
+        "rate": 1.36,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "On ne parle pas assez de la solitude du solopreneur.\n\nTravailler seul, depuis chez soi… les premiers mois, c’est confortable.\nEt puis un jour, tu réalises un truc :\n👉 si tu ne fais pas l’effort de sortir, tu ne vois personne.\n\n\nTes journées se ressemblent : PC, WhatsApp et des m"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_en-2025-jai-gagn%C3%A939-436-%C3%A0-c%C3%B4t%C3%A9-de-mon-share-7426300020057927680-651C",
+        "publishedAt": "2026-02-08T16:24:58.764Z",
+        "title": "En 2025 jai gagné39 436 à côté de mon",
+        "type": null,
+        "impressions": 2294,
+        "engagements": 29,
+        "rate": 1.26,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "En 2025, j’ai gagné 39 436 € à côté de mon CDI.\n\nJe le partage parce que c’est une des choses dont je suis le plus fier.\n\n\nEn 2025, j’ai multiplié les revenus du média par 2,4.\n\nLe début d’année était plutôt stable. Le milieu d’année aussi.\n\nEt puis à partir de septembre, grosse "
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mon-plus-gros-d%C3%A9faut-je-manque-dorganisation-share-7425057932440014848-BSsN",
+        "publishedAt": "2026-02-05T06:09:21.999Z",
+        "title": "Mon plus gros défaut je manque dorganisation",
+        "type": null,
+        "impressions": 388,
+        "engagements": 6,
+        "rate": 1.55,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Mon plus gros défaut : je manque d’organisation.\n\nEt dans l’entrepreneuriat, ce défaut peut te faire tout perdre.\n\n\nJe suis trop souvent dans le jus. Je suis dans l’urgence au quotidien et je n’ai pas le temps de faire mieux.\n\nEn 2025, j’ai beaucoup bidouillé. Et ça a marché…\n\nSa"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-commence-lann%C3%A9e-avec-un-gros-d%C3%A9g%C3%A2t-share-7424706923628978176-I3Xl",
+        "publishedAt": "2026-02-04T06:54:34.977Z",
+        "title": "Je commence lannée avec un gros dégât",
+        "type": null,
+        "impressions": 2242,
+        "engagements": 14,
+        "rate": 0.62,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Je commence l’année… avec un (gros) dégât des eaux dans ma colocation.\n\nSur le papier, l’immobilier c’est simple : tu rénoves, tu loues et tu encaisses.\n\n\nMais quand tu commences à investir dans l'immobilier, tu te rends compte que c’est un vrai métier.\n\nLe pire, c'est que je vie"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_lerreur-que-jai-faite-avec-mes-investissements-share-7424235187552559104-sDEg",
+        "publishedAt": "2026-02-02T23:40:04.332Z",
+        "title": "Lerreur que jai faite avec mes investissements",
+        "type": null,
+        "impressions": 6908,
+        "engagements": 43,
+        "rate": 0.62,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "L’erreur que j’ai faite avec mes investissements : être all-in.\n\nJe vais être honnête : 99% de mon patrimoine est en Bitcoin.\n\n\nSur le papier, ça fait rêver.\n\nMais je prends de plein fouet chaque baisse…\n\nMon patrimoine peut être :\n\n👉 multiplié par 5\n👉 ou divisé par 2 d’une ann"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_en-2026-je-veux-quon-me-voie-partout-share-7423035574594437120-dK38",
+        "publishedAt": "2026-01-30T16:13:14.315Z",
+        "title": "En 2026 je veux quon me voie partout",
+        "type": null,
+        "impressions": 1960,
+        "engagements": 32,
+        "rate": 1.63,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "En 2026, je veux qu’on me voie partout.\n\nPas par ego, mais par stratégie.\n\n\nJ’ai passé des années à construire dans l’ombre avec le SEO : bosser, tester, apprendre et recommencer.\nMais aujourd’hui, je veux passer un nouveau cap avec le format vidéo.\n\nMes 3 gros objectifs de l’ann"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_le-truc-le-plus-dur-quand-tu-entreprends-share-7422066275071266816-TgH2",
+        "publishedAt": "2026-01-28T00:01:35.300Z",
+        "title": "Le truc le plus dur quand tu entreprends",
+        "type": null,
+        "impressions": 613,
+        "engagements": 4,
+        "rate": 0.65,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": "Le truc le plus dur quand tu entreprends à côté d’un CDI… ce n’est pas le travail.\nC’est le rythme à tenir sur la durée.\n\n\nParce que tu n’as pas qu’une seule journée à gérer.\nTu en as deux.\n\nLa première jusqu’à 18h.\nLa deuxième à partir de 18h.\n\nEt entre les deux, il n’y a pas de"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mon-organisation-apr%C3%A8s-ma-journ%C3%A9e-de-cdi-share-7420188887278575616-5RVZ",
+        "publishedAt": "2026-01-22T19:41:31.170Z",
+        "title": "Mon organisation après ma journée de cdi",
+        "type": null,
+        "impressions": 628,
+        "engagements": 9,
+        "rate": 1.43,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_le-co%C3%BBt-cach%C3%A9-du-cdi-ce-nest-pas-le-salaire-share-7419517112861499393-opbc",
+        "publishedAt": "2026-01-20T23:12:07.668Z",
+        "title": "Le coût caché du cdi ce nest pas le salaire",
+        "type": null,
+        "impressions": 19633,
+        "engagements": 29,
+        "rate": 0.15,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_les-avantages-davoir-un-cdi-quand-on-est-share-7418781451648700416-_GO6",
+        "publishedAt": "2026-01-18T22:28:52.367Z",
+        "title": "Les avantages davoir un cdi quand on est",
+        "type": null,
+        "impressions": 809,
+        "engagements": 8,
+        "rate": 0.99,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_trade-republic-est-victime-de-son-succ%C3%A8s-share-7418572582934900736-hJN2",
+        "publishedAt": "2026-01-18T08:38:54.185Z",
+        "title": "Trade republic est victime de son succès",
+        "type": null,
+        "impressions": 1923,
+        "engagements": 9,
+        "rate": 0.47,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_mon-erreur-en-2025-ne-pas-avoir-recrut%C3%A9-share-7416975240309825536-oL_q",
+        "publishedAt": "2026-01-13T22:51:38.026Z",
+        "title": "Mon erreur en 2025 ne pas avoir recruté",
+        "type": null,
+        "impressions": 404,
+        "engagements": 7,
+        "rate": 1.73,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_je-dois-recruter-et-mentourer-de-personnes-share-7416974052222902272-nuR4",
+        "publishedAt": "2026-01-13T22:46:54.764Z",
+        "title": "Je dois recruter et mentourer de personnes",
+        "type": null,
+        "impressions": 851,
+        "engagements": 11,
+        "rate": 1.29,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_en-2025-jai-appris-un-truc-sur-limmobilier-share-7416251921230962688-Pj4s",
+        "publishedAt": "2026-01-11T22:57:25.319Z",
+        "title": "En 2025 jai appris un truc sur limmobilier",
+        "type": null,
+        "impressions": 417,
+        "engagements": 5,
+        "rate": 1.2,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_entreprendre-avec-un-cdi-en-parall%C3%A8le-c-share-7415680975151767553-267D",
+        "publishedAt": "2026-01-10T09:08:41.166Z",
+        "title": "Entreprendre avec un cdi en parallèle c",
+        "type": null,
+        "impressions": 1402,
+        "engagements": 18,
+        "rate": 1.28,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_personne-ne-le-voit-mais-je-fais-tout-%C3%A7a-share-7414759121016803329-Mgzw",
+        "publishedAt": "2026-01-07T20:05:34.013Z",
+        "title": "Personne ne le voit mais je fais tout ça",
+        "type": null,
+        "impressions": 5441,
+        "engagements": 52,
+        "rate": 0.96,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      },
+      {
+        "url": "https://www.linkedin.com/posts/plunianalexandre_2025-a-%C3%A9t%C3%A9-ma-meilleure-ann%C3%A9e-depuis-que-share-7414087353633234944-hWvd",
+        "publishedAt": "2026-01-05T23:36:12.188Z",
+        "title": "2025 a été ma meilleure année depuis que",
+        "type": null,
+        "impressions": 1013,
+        "engagements": 30,
+        "rate": 2.96,
+        "reactions": null,
+        "comments": null,
+        "reposts": null,
+        "membersReached": null,
+        "followersGained": null,
+        "angle": null,
+        "text": null
+      }
+    ]
+  },
+  "analysis": null,
+  "analysisAt": null,
+  "examples": [
+    {
+      "text": "J'ai enquêté sur les clubs d'investissement d'Anthony Bourbon, Eric Larchevêque, Jean-Pierre Nadir et Jonathan Anguelov.\n\nJ’ai passé plusieurs heures à analyser les frais, la fiscalité et les rendements réels des clubs d’investissement d’Anthony Bourbon, Eric Larchevêque, Jean-Pierre Nadir et Jonathan Anguelov.\n\nSur le papier, la promesse est séduisante : investir dans des #startups aux côtés de grands entrepreneurs, à partir de 1 000€.\n\n⚠️ Dans la réalité ? Les frais sont tellement élevés que même dans un scénario optimiste (avec une startup qui fait x10 dans votre portefeuille) vous perdez quand même de l’argent.\n\nJ'ai tout décortiqué dans ma dernière vidéo avec des chiffres à l'appui :\n\nhttps://lnkd.in/eTThZ6MU",
+      "impressions": 148409,
+      "engagements": 1504,
+      "meme": null
+    },
+    {
+      "text": "🇫🇷 Arrêtons de nous voiler la face. La France a 23 licornes. Pas 40. \n\nOn a longtemps célébré les \"presque 40 licornes françaises\" comme une fierté nationale. Mais la réalité est bien plus sombre.\n\n🔴 Sorare : -94 % (240M€ aujourd'hui contre 3,9 milliards au dernier tour de table)\n🔴 ManoMano : -78 % (480M€ aujourd'hui contre 2,2 milliards) et cette semaine, les deux fondateurs ont annoncé qu'ils quittaient leurs fonctions opérationnelles.\n🔴 PayFit : -65 % (625M€ aujourd'hui contre 1,8 milliard)\n\nCes chiffres montrent une réalité que personne n'ose assumer. Le vrai problème, ce n'est pas de ne plus être une licorne. C'est de faire semblant de l'être encore.\n\n⚠️ Comptes non publiés. Pas de levée de fonds depuis des années. Des valorisations sur le papier qui ne reflètent plus la réalité.\n\nEt un écosystème qui préfère le silence à la vérité.\n\nL'objectif de Macron : 100 licornes d'ici 2030. Le score aujourd'hui : 23.\n\nOn peut rater un objectif. Ça arrive. Ce qui est inacceptable, c'est de ne pas l'admettre. Les startups qui échouent en apprenant, qui communiquent, qui font preuve d'honnêteté, elles font avancer l'écosystème. Celles qui jouent à cache-cache avec leurs chiffres, elles le plombent.\n\nJe prépare une vidéo à ce sujet. Parce que ce sujet mérite mieux qu'un simple post LinkedIn.",
+      "impressions": 48388,
+      "engagements": 107,
+      "meme": null
+    },
+    {
+      "text": "🇫🇷 Les banques traditionnelles sont vouées à disparaître \n\nEntre 2021 et 2025, les banques en ligne et les fintechs (dont Revolut et BoursoBank) ont conquis 15 millions de nouveaux clients en France.\n\n⚠️ Et pendant ce temps-là, les banques traditionnelles perdent du terrain.\n\nPourquoi ? Parce que les banques en ligne permettent :\n\n1. d’avoir un compte sans frais\n2. d’investir en quelques clics (actions, ETF, crypto selon les acteurs)\n3. d’éviter le “conseiller” qui essaie de te vendre des produits incompréhensibles avec des frais exorbitants \n\nLe problème des banques traditionnelles est structurel : normes, contraintes, architecture lourde… tu ne peux pas pivoter en 6 mois quand ton modèle date de 30 ans.\n\nAujourd’hui, on ne choisit plus une banque pour la vie. On choisit une app qui fait gagner du temps.",
+      "impressions": 47508,
+      "engagements": 83,
+      "meme": null
+    },
+    {
+      "text": "« Vous êtes un red flag ambulant. »\n\nC'est ce qu'une conseillère bancaire m'a dit… avant de se lever, de faire le tour de son bureau et de m'ouvrir la porte. Rendez-vous terminé. En 5 minutes.\n\nJ'étais venu chercher un financement pour mon 3ᵉ appartement. Mais sur le papier, mon profil coche toutes les cases qui font peur à une banque :\n\n– j'enchaîne les financements\n– je suis passé à temps partiel pour développer mes activités\n– et une (énorme) partie de mon épargne est en Bitcoin\n\nDans ma nouvelle vidéo, je te raconte les coulisses de ce refus bancaire en toute transparence : \n\nhttps://lnkd.in/eqVbSmw6",
+      "impressions": 8861,
+      "engagements": 26,
+      "meme": null
+    }
+  ]
+}
