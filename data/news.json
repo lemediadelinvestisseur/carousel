@@ -1364,15 +1364,21 @@
           "Chauffage au gaz ? Oublie la **mention A0**"
         ]
       },
-      "schedules": [
-        {
-          "at": "2026-11-09T10:45:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-08T23:06:03.108Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18138722245735025",
+          "url": "https://www.instagram.com/p/DfhJfivF3KO/",
+          "at": "2026-11-09T10:45:56.250Z"
+        },
+        "facebook": {
+          "id": "1430519546815801_122093860851553165",
+          "url": "https://www.facebook.com/1430519546815801_122093860851553165",
+          "at": "2026-11-09T10:46:12.065Z"
+        }
+      }
     },
     {
       "id": "c9addc8779",
@@ -2613,15 +2619,21 @@
           "Le bitcoin baisse, mais il reprend du terrain face à l'or"
         ]
       },
-      "schedules": [
-        {
-          "at": "2026-11-09T10:45:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-08T22:36:29.538Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18097726448469981",
+          "url": "https://www.instagram.com/p/DfhJmCkF8hG/",
+          "at": "2026-11-09T10:46:47.471Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122102042883541092",
+          "url": "https://www.facebook.com/1428714516991726_122102042883541092",
+          "at": "2026-11-09T10:46:56.865Z"
+        }
+      }
     },
     {
       "id": "8f68ce8681",
@@ -3722,5 +3734,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T07:11:16.015Z"
+  "updatedAt": "2026-11-09T10:46:56.892Z"
 }
