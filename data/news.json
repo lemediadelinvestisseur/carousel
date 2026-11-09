@@ -1704,7 +1704,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Accor, valeur connue, signe une alliance mondiale avec Hard Rock.",
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:28:35.062Z"
+  "updatedAt": "2026-11-09T20:28:42.976Z"
 }
