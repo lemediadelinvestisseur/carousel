@@ -1509,7 +1509,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "SpaceX cotée et suivie par les analystes, nom qui fascine.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:20:16.380Z"
+  "updatedAt": "2026-11-09T20:20:30.862Z"
 }
