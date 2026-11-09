@@ -1031,7 +1031,16 @@
           "23 155 km sans escale : le nouveau record d'Airbus",
           "Airbus reprend à Boeing le record du plus long vol"
         ]
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-10T11:30:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-09T21:47:35.267Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "54d4f19e28",
@@ -11324,5 +11333,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T21:47:21.618Z"
+  "updatedAt": "2026-11-09T21:47:39.601Z"
 }
