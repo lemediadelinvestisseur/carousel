@@ -4661,7 +4661,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Baisse crypto, toujours suivie mais sans chiffre fort.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:00.530Z"
+  "updatedAt": "2026-11-09T20:23:02.138Z"
 }
