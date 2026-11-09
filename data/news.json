@@ -490,15 +490,21 @@
           "Espions chinois et infidélité : la semaine noire du patron de Nvidia"
         ]
       },
-      "schedules": [
-        {
-          "at": "2026-11-09T06:40:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-08T22:33:47.509Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "17911223154663942",
+          "url": "https://www.instagram.com/p/Dfgwy6ujUWJ/",
+          "at": "2026-11-09T07:10:07.989Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122101916763541092",
+          "url": "https://www.facebook.com/1428714516991726_122101916763541092",
+          "at": "2026-11-09T07:10:21.275Z"
+        }
+      }
     },
     {
       "id": "c5cb11024b",
@@ -1492,15 +1498,21 @@
           "Airbnb interdit d'imposer le **ménage de départ**"
         ]
       },
-      "schedules": [
-        {
-          "at": "2026-11-09T06:39:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-08T23:05:26.569Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18219940828348015",
+          "url": "https://www.instagram.com/p/Dfgw5aSjBlk/",
+          "at": "2026-11-09T07:11:00.234Z"
+        },
+        "facebook": {
+          "id": "1430519546815801_122093764059553165",
+          "url": "https://www.facebook.com/1430519546815801_122093764059553165",
+          "at": "2026-11-09T07:11:15.805Z"
+        }
+      }
     },
     {
       "id": "9c8a349b19",
@@ -3710,5 +3722,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T06:13:37.659Z"
+  "updatedAt": "2026-11-09T07:11:16.015Z"
 }
