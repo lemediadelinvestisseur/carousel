@@ -8888,7 +8888,16 @@
           "Lagarde s'en va, et la bataille pour sa place commence demain"
         ]
       },
-      "instructions": "Garde la même chose que la première version mais améliore un peu le texte pour qu'il fasse + humain et mets des photos plus belles quand tu parles d'une personne \n"
+      "instructions": "Garde la même chose que la première version mais améliore un peu le texte pour qu'il fasse + humain et mets des photos plus belles quand tu parles d'une personne \n",
+      "schedules": [
+        {
+          "at": "2026-11-09T17:20:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-09T17:15:52.890Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "2033573836",
@@ -9201,5 +9210,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:07:54.418Z"
+  "updatedAt": "2026-11-09T17:15:52.890Z"
 }
