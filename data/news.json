@@ -2451,14 +2451,14 @@
       "source": "TradingView News",
       "via": "google news",
       "publishedAt": "2026-11-09T08:03:21.000Z",
-      "collectedAt": "2026-11-09T13:47:31.791Z",
+      "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
-      "reason": "Tesla et Musk font réagir, info étrange.",
-      "hook": "Tesla rembourse les acomptes du Cybertruck"
+      "reason": "Tesla et Musk font réagir.",
+      "hook": "Tesla rembourse des acomptes Cybertruck"
     },
     {
       "id": "d85c4fe7a3",
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:20.336Z"
+  "updatedAt": "2026-11-09T13:48:24.004Z"
 }
