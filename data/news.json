@@ -507,7 +507,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "21m2",
       "score": 6,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 8,
       "reason": "Crise du logement, fiscalité et bilan Macron : sujet politique qui divise et touche tous les Français.",
       "hook": "Dix ans de macronisme : le désastre de l'immobilier français",
@@ -9210,5 +9210,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:17:58.960Z"
+  "updatedAt": "2026-11-09T17:18:01.776Z"
 }
