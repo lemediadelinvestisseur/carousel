@@ -1075,7 +1075,7 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 8,
       "reason": "Coupes APL : touche directement le portefeuille et fait débat.",
       "hook": "APL : les 5 euros n'étaient qu'un début",
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:24:40.481Z"
+  "updatedAt": "2026-11-09T20:24:47.252Z"
 }
