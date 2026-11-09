@@ -58,4 +58,4 @@ jobs:
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       - name: Enregistrement
         if: always()
-        run: ./scripts/publish.sh "linkedin: statistiques"
+        run: ./scripts/publish.sh "linkedin - statistiques"
