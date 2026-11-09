@@ -2625,7 +2625,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "21m2",
       "score": 7,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Le DPE pèse directement sur le prix et les choix des acheteurs.",
       "hook": "Le DPE compte désormais autant que le prix pour acheter",
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:49:32.617Z"
+  "updatedAt": "2026-11-09T13:49:51.447Z"
 }
