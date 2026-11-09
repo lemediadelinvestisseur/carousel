@@ -4497,7 +4497,16 @@
           "LMNP : la **facture électronique** te concerne-t-elle vraiment ?",
           "Facture électronique : ce que **ton meublé** doit faire"
         ]
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-10T07:00:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-09T21:46:56.225Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "d6fcd25937",
@@ -11306,5 +11315,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T21:07:47.445Z"
+  "updatedAt": "2026-11-09T21:46:56.225Z"
 }
