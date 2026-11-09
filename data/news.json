@@ -1023,7 +1023,7 @@
       "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 9,
       "reason": "Gel des prestations et hausse TVA, sujet qui divise.",
       "hook": "Hausse de TVA, gel des aides : le plan choc",
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:47:47.625Z"
+  "updatedAt": "2026-11-09T13:47:52.517Z"
 }
