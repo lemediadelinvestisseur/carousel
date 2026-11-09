@@ -77,8 +77,9 @@ async function itemFromUrl(url) {
 function recentCovers(brandKey, exceptId) {
   const isPub = (i) => Object.values(i.published || {}).some((v) => v && (v.id || v.url));
   return db.items
-    .filter((i) => i.brand === brandKey && i.id !== exceptId && i.status === "done" && i.carousel?.dir)
-    .sort((a, b) => Number(isPub(b)) - Number(isPub(a)) || (b.generatedAt || "").localeCompare(a.generatedAt || ""))
+    // Jamais une couverture sans photo ; d'abord les carousels publiés (déjà validés), puis ceux avec photo.
+    .filter((i) => i.brand === brandKey && i.id !== exceptId && i.status === "done" && i.carousel?.dir && i.carousel.coverPhoto !== false)
+    .sort((a, b) => Number(isPub(b)) - Number(isPub(a)) || Number(!!b.carousel.coverPhoto) - Number(!!a.carousel.coverPhoto) || (b.generatedAt || "").localeCompare(a.generatedAt || ""))
     .map((i) => path.join(ROOT, i.carousel.dir, "slide-01.jpg"))
     .filter((f) => fs.existsSync(f))
     .slice(0, 3)
@@ -115,7 +116,7 @@ async function processItem(item, { save = true, demo = false } = {}) {
 
   item.status = "done";
   item.generatedAt = new Date().toISOString();
-  item.carousel = { dir: rel, files, generator: carousel.generator, slides: carousel.slides.length, hooks: carousel.hook_alternatives || [] };
+  item.carousel = { dir: rel, files, generator: carousel.generator, slides: carousel.slides.length, hooks: carousel.hook_alternatives || [], coverPhoto: !!images[0] };
   if (save) saveNews(db);
   console.log(`  ✓ ${files.length} fichiers dans ${rel}`);
 
