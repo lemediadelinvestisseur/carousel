@@ -9664,7 +9664,7 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Piratage record chez Binance, sujet crypto fort.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:20:30.862Z"
+  "updatedAt": "2026-11-09T20:22:43.983Z"
 }
