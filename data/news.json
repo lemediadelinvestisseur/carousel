@@ -165,7 +165,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Politique française et colère sociale, enjeux budgétaires.",
@@ -3710,5 +3710,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T06:13:17.922Z"
+  "updatedAt": "2026-11-09T06:13:24.410Z"
 }
