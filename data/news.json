@@ -2303,7 +2303,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Coupes dans les APL, sujet sensible pour locataires et bailleurs.",
       "hook": "APL rabotées encore : les bailleurs sociaux tirent l'alarme"
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:24:49.163Z"
+  "updatedAt": "2026-11-09T20:24:57.418Z"
 }
