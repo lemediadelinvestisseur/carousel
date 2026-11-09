@@ -1,0 +1,33 @@
+{
+  "_comment": "Préférences de l'éditeur pour le tri des actus, tirées de ses refus et validations. Claude les applique à chaque collecte, avec en plus les derniers titres validés et refusés (appris automatiquement). Modifiable à la main.",
+  "minScoreShown": 6,
+  "investisseur": {
+    "likes": [
+      "Les grosses histoires qui font parler : scandale ou coulisses d'un patron connu, record, chute ou fermeture spectaculaire (Binance qui ferme en France, enquête chez Nvidia, record d'Airbus).",
+      "Les sujets de fond sur l'investissement avec un angle surprenant (Bitcoin face à l'or, qui va remplacer Lagarde à la BCE)."
+    ],
+    "dislikes": [
+      "Le pouvoir d'achat et le social : Smic, salaires, primes (Noël, carburant), prestations sociales, budget de l'État, Cour des comptes, TVA.",
+      "La politique : élections, sondages, candidats, gouvernement, partenaires sociaux, politique étrangère (Paraguay…).",
+      "Les prix de l'énergie pour les particuliers : gaz, électricité, tarifs réglementés, chauffage.",
+      "Les points de marché du jour ou de la semaine : « la Bourse de Paris dans le vert », « les marchés démarrent la semaine », pétrole en repli, agenda des résultats, « pourquoi la crypto recule », Bitcoin qui passe sous tel seuil.",
+      "Les petites actus d'entreprise : nomination d'entraîneur, recommandation d'analyste, lancement de fonds ou d'ETF, résultats d'essais cliniques, nouvelle puce, suppression de postes, contrat de fournisseur, rachat d'actions.",
+      "Les conseils de finance perso génériques : combien garder sur son compte, payer son assurance au mois, parts de capitalisation, « ce que font les riches ».",
+      "Les actus sur un sujet déjà traité en carousel (doublons, suites mineures)."
+    ]
+  },
+  "21m2": {
+    "likes": [
+      "Les changements de règles concrets pour propriétaires, bailleurs et locataires (DPE 2027, facturation électronique en meublé, nouvelles règles Airbnb, fiscalité de l'immobilier).",
+      "Les classements chiffrés utiles pour investir (villes où le locatif rapporte le plus).",
+      "Les placements immobiliers en crise ou en mouvement (SCPI)."
+    ],
+    "dislikes": [
+      "Le logement social et la précarité : APL, bailleurs sociaux, sans-abri, expulsions de locataires fraudeurs.",
+      "Les faits divers et le juridique de voisinage : expropriations locales, droit de passage, perquisitions, litiges.",
+      "Les palmarès « art de vivre » (villages paisibles) et les conseils d'agents ou d'experts (« mieux vaut vendre moins cher »).",
+      "Les tribunes alarmistes générales sur le marché (« le grand désastre de l'immobilier », « le spectre des taux à 5 % ») sans fait nouveau et chiffré.",
+      "Tout ce qui n'est pas de l'immobilier (Bourse, épargne, énergie, consommation), même publié par un site immobilier."
+    ]
+  }
+}

@@ -141,10 +141,21 @@ for (const name of Object.keys(status)) if (!cfg.sources.find((s) => s.name === 
 // ---------------------------------------------------------------------------
 // 4. Tri éditorial par Claude
 // ---------------------------------------------------------------------------
-// Les actus encore à valider qui n'ont jamais été notées (lot précédent en échec) sont notées aussi.
-const unrated = db.items.filter((i) => i.status === "new" && i.aiScore == null && now - Date.parse(i.publishedAt) <= maxAgeMs);
+// Les actus encore à valider sont re-notées à chaque collecte : les nouveaux refus de l'éditeur s'appliquent
+// aussi à elles (et celles jamais notées, lot précédent en échec, sont rattrapées).
+const unrated = db.items.filter((i) => i.status === "new" && now - Date.parse(i.publishedAt) <= maxAgeMs);
 const toCurate = [...fresh.sort((a, b) => b.score - a.score).slice(0, 120), ...unrated.slice(0, 80)];
-const verdicts = await curate(toCurate, brands);
+// Ce que l'éditeur a validé ou refusé récemment : Claude s'en sert pour proposer moins, et mieux.
+const editorial = readJsonIfExists("config/editorial.json", {});
+const byDate = (a, b) => (b.collectedAt || b.publishedAt || "").localeCompare(a.collectedAt || a.publishedAt || "");
+const validated = db.items.filter((i) => ["done", "validated", "generating"].includes(i.status) || i.carousel).sort(byDate);
+const prefs = {
+  rules: editorial,
+  liked: validated.filter((i) => i.aiScore != null).slice(0, 30).map(({ brand, title }) => ({ brand, title })),
+  disliked: db.items.filter((i) => i.status === "rejected").sort(byDate).slice(0, 80).map(({ brand, title }) => ({ brand, title })),
+  covered: validated.filter((i) => now - Date.parse(i.collectedAt || i.publishedAt) < 7 * 24 * 3600e3).map((i) => i.title),
+};
+const verdicts = await curate(toCurate, brands, prefs);
 for (const item of [...fresh, ...unrated]) {
   const v = verdicts.get(item.id);
   if (!v) {
@@ -155,7 +166,7 @@ for (const item of [...fresh, ...unrated]) {
   item.reason = v.reason;
   if (v.hook) item.hook = v.hook;
   if (brands[v.brand]) item.brand = v.brand;
-  if (v.brand === "aucun" || v.score < 5) item.status = "ignored";
+  if (v.brand === "aucun" || v.score < (editorial.minScoreShown ?? 5)) item.status = "ignored";
 }
 db.items.push(...fresh);
 pruneOld(db, now);
