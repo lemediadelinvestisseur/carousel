@@ -12,7 +12,7 @@
       "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Aide carburant de 1 000 € prolongée, pouvoir d'achat.",
       "hook": "Prime carburant jusqu'à 1 000 € prolongée en 2027"
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:47:57.460Z"
+  "updatedAt": "2026-11-09T13:48:02.090Z"
 }
