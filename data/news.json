@@ -6513,7 +6513,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 8,
       "reason": "Retraite à 60 ans et SMIC : sujet clivant qui touche le portefeuille.",
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:47:52.517Z"
+  "updatedAt": "2026-11-09T13:47:54.356Z"
 }
