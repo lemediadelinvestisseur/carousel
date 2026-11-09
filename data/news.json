@@ -1331,7 +1331,7 @@
       "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Facture d'électricité, pouvoir d'achat.",
       "hook": "Électricité : stable cet hiver, hausse au printemps ?"
@@ -7060,5 +7060,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:47:54.356Z"
+  "updatedAt": "2026-11-09T13:47:57.460Z"
 }
