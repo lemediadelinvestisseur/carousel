@@ -884,7 +884,7 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Boeing licencie, rival d'Airbus très suivi.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:19:50.976Z"
+  "updatedAt": "2026-11-09T20:19:57.214Z"
 }
