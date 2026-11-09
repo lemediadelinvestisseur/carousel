@@ -1664,7 +1664,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 8,
       "reason": "Hausse de la facture de gaz, touche directement le pouvoir d'achat.",
       "hook": "Gaz : +5,8 % au 1er décembre, combien vous allez payer"
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:27.500Z"
+  "updatedAt": "2026-11-09T20:23:29.810Z"
 }
