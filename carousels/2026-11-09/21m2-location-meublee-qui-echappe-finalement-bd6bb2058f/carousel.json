@@ -1,0 +1,126 @@
+{
+  "item": {
+    "id": "bd6bb2058f",
+    "title": "Location meublée : qui échappe finalement à la facturation électronique et qui est concerné ?",
+    "summary": "La réforme de la facturation électronique reste mal comprise. Certains se pensent encore dispensés alors qu’ils ne le sont pas. Réception, émission, transmission au fisc : les obligations diffèrent selon votre activité.",
+    "link": "https://www.capital.fr/immobilier/location-meublee-qui-echappe-finalement-a-la-facturation-electronique-et-qui-est-concerne-1531575",
+    "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~05~32f64253-2902-48c8-a4d4-51ce36b0eb52.jpg/1200x900/focus-point/2023%2C1636/location-meublee-qui-echappe-finalement-a-la-facturation-electronique-et-qui-est-concerne.jpg",
+    "source": "Capital Immobilier",
+    "via": "rss",
+    "publishedAt": "2026-11-09T11:00:00.000Z",
+    "collectedAt": "2026-11-09T13:47:31.791Z",
+    "brand": "21m2",
+    "score": 1,
+    "status": "generating"
+  },
+  "carousel": {
+    "category": "Fiscalité",
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "",
+        "title": "Location meublée : es-tu concerné par la **facture électronique** ?",
+        "body": "Depuis le **1er septembre 2026**, les loueurs assujettis à la TVA doivent recevoir leurs factures en électronique. L'émission arrive au plus tard le **1er septembre 2027**.",
+        "bullets": [],
+        "image_query": "Paris Haussmann building facade golden hour",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LE CONTEXTE",
+        "title": "Une réforme votée en 2022, déjà repoussée",
+        "body": "La facturation électronique vient de la **loi de finances rectificative** du 16 août 2022. Prévue au départ pour **juillet 2024**, elle a été décalée.\nDepuis le **1er septembre 2026**, les assujettis à la TVA doivent pouvoir recevoir les factures de leurs fournisseurs via une **plateforme agréée**.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LA VRAIE QUESTION",
+        "title": "LMNP ou LMP, ce n'est pas le sujet",
+        "body": "Ton statut ne compte pas. Une seule question compte : es-tu **assujetti à la TVA** ?\nAttention, **exonéré** ne veut pas dire non-assujetti. Ton meublé d'habitation classique est exonéré de TVA, mais tu peux quand même être considéré comme **assujetti**. C'est l'erreur la plus courante.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "list",
+        "kicker": "QUI EST CONCERNÉ",
+        "title": "Trois profils, trois situations",
+        "body": "",
+        "bullets": [
+          "**Bailleur privé** couvert par la présomption de non-assujettissement : rien à recevoir et rien à émettre.",
+          "**LMNP classique** avec SIREN, considéré comme assujetti : tu dois recevoir tes factures électroniques depuis le 1er septembre 2026.",
+          "**Para-hôtellerie** ou locaux pros équipés soumis à TVA : réception, puis émission et e-reporting au plus tard le 1er septembre 2027."
+        ],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LE FLOU",
+        "title": "Même les spécialistes ne sont pas d'accord",
+        "body": "La **DGFiP** prévoit une **présomption de non-assujettissement** pour le particulier qui loue son bien « à titre privé ».\nPour certains cabinets, elle sort la plupart des bailleurs de la réforme. Pour d'autres, tous les **LMNP avec SIREN** restent concernés. Une clarification a été demandée, sans **réponse officielle** à ce jour.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "CE QUI CHANGE POUR TOI",
+        "title": "Tes loyers, eux, ne changent pas",
+        "body": "Tes **quittances** restent au format classique. Ce sont les factures de tes fournisseurs qui changent : l'abonnement **box internet** que tu déduis en frais LMNP devra arriver par une **plateforme agréée**.\nCôté sanctions, rien d'officiel. Le gouvernement s'est engagé à n'en prononcer **aucune d'ici la fin de l'année**.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "list",
+        "kicker": "LES SOLUTIONS",
+        "title": "Ce que tu peux faire dès maintenant",
+        "body": "",
+        "bullets": [
+          "Fais vérifier si tu es **assujetti** par un expert-comptable, ou appelle la ligne d'aide de la DGFiP au 0806 807 807.",
+          "Si tu bénéficies de la **présomption**, garde les documents qui prouvent que tu loues ton bien à titre privé.",
+          "Si tu es concerné, choisis une **plateforme agréée** dans la liste officielle. Dougs, Indy ou Tiime en proposent une."
+        ],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "ET APRÈS ?",
+        "title": "Un report reste possible",
+        "body": "Le **3 novembre**, les députés ont voté l'exclusion des PME et micro-entreprises. Le lendemain, la partie recettes du **budget 2027** a été rejetée et l'amendement est tombé.\nLe **Sénat** pourrait en voter un similaire. Un **décret** peut aussi repousser l'échéance des PME jusqu'au 1er décembre 2027.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "cta",
+        "kicker": "",
+        "title": "Tu loues un **meublé** : tu as déjà choisi ta plateforme ?",
+        "body": "Dis-nous en commentaire où tu en es 👇",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      }
+    ],
+    "hook_alternatives": [
+      "Location meublée : qui échappe à la **facture électronique** ?",
+      "LMNP : la **facture électronique** te concerne-t-elle vraiment ?",
+      "Facture électronique : ce que **ton meublé** doit faire"
+    ],
+    "caption": "Location meublée : la facture électronique ne dépend pas de ton statut LMNP ou LMP, mais de la TVA.\n\nDepuis le 1er septembre 2026, les bailleurs assujettis à la TVA qui ont un numéro SIREN doivent recevoir les factures de leurs fournisseurs en format électronique. C'est le cas même si tes loyers sont exonérés de TVA, comme pour un meublé d'habitation classique.\n\n• Si tu proposes au moins 3 services para-hôteliers (petit-déjeuner, ménage, linge, accueil) ou si tu loues des locaux professionnels équipés soumis à TVA, tu devras aussi émettre des factures ou faire de l'e-reporting, au plus tard le 1er septembre 2027 pour une PME ou une micro-entreprise.\n\n• Le point qui fait débat : la DGFiP prévoit une présomption de non-assujettissement pour le particulier qui loue son bien à titre privé. Certains spécialistes estiment qu'elle exclut la plupart des bailleurs, d'autres que tous les LMNP avec SIREN restent concernés. Une clarification a été demandée, sans réponse officielle pour l'instant.\n\nCôté calendrier, l'amendement voté le 3 novembre pour exclure PME et micro-entreprises est tombé le lendemain avec le rejet de la partie recettes du budget 2027. Le Sénat peut encore rouvrir le débat, et un décret peut repousser l'échéance des PME jusqu'au 1er décembre 2027.\n\nAttention à un piège : un logiciel de comptabilité n'est pas forcément une plateforme agréée. Vérifie la liste officielle publiée par l'administration avant de t'abonner, et fais confirmer ta situation par un expert-comptable.\n\nTu loues en meublé ? Tu sais déjà si tu es assujetti à la TVA ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
+    "sources": [
+      "Capital",
+      "Le Monde du Chiffre",
+      "DGFiP",
+      "Clubic",
+      "Entrepreneur-facile",
+      "Business Times"
+    ],
+    "dossier": "# Dossier : facturation électronique et location meublée (au 9 novembre 2026)\n\n**À retenir :** pour un loueur en meublé classique, la seule question est de savoir s'il est assujetti à la TVA. Son statut (LMNP ou LMP) ne compte pas. Le problème, c'est que les sources ne répondent pas toutes pareil pour le particulier qui gère son propre patrimoine. J'ai fait 3 recherches et lu en entier deux documents : la fiche officielle de la DGFiP pour les loueurs en meublé (version septembre 2026) et Le Monde du Chiffre (article du 5 ou 6 novembre).\n\n---\n\n## 1. Les faits\n\n**Ce que dit la DGFiP** (fiche « Je suis un loueur en meublé », version septembre 2026) :\n- **Qui est concerné ?** Tous les bailleurs assujettis à la TVA. La fiche cite trois exemples :\n  - la location soumise à TVA de locaux commerciaux ou professionnels équipés ;\n  - le meublé d'habitation avec au moins 3 services para-hôteliers parmi : petit-déjeuner, ménage, linge, accueil ;\n  - les espaces de travail ou entrepôts loués avec option pour la TVA.\n- **Loyers exonérés de TVA (article 261 D du CGI)** : pas de facture électronique à émettre, pas d'e-reporting. En revanche, le bailleur assujetti doit **recevoir** les factures électroniques de ses fournisseurs **depuis le 1er septembre 2026**, à condition d'avoir un numéro SIREN.\n- **Émettre des factures et transmettre ses données** (pour les loyers soumis à TVA) :\n  - grandes entreprises et ETI : depuis le 1er septembre 2026 ;\n  - PME et micro-entreprises : le 1er septembre 2027 **au plus tard**.\n- **Facture ou e-reporting ?** Si le locataire est une entreprise assujettie, il faut émettre une facture électronique. Si c'est un particulier (ou un client à l'étranger), il faut transmettre les données de la transaction : c'est l'e-reporting. S'y ajoute un e-reporting des paiements une fois la prestation payée.\n- **L'exception** : une « présomption de non-assujettissement » existe pour le particulier ou la société civile qui loue son bien « à titre privé » (BOFiP BOI-TVA-IMM-10-10-10-10, § 50), s'il n'est pas assujetti par ailleurs. Il peut renoncer à cette présomption.\n\n**Ce qui s'est passé au Parlement** (Le Monde du Chiffre, Clubic, Entrepreneur-facile) :\n- **3 novembre 2026** : les députés adoptent l'amendement n° I-3426 de Mathilde Hignet (LFI) par 101 voix contre 74 et 5 abstentions. Il excluait micro-entreprises, PME et exploitants agricoles de la facturation électronique et de l'e-reporting, sans date de fin.\n- **4 novembre 2026** : l'Assemblée rejette la partie « recettes » du budget 2027 par 458 voix contre 0. Tous les amendements tombent avec elle. Le texte arrive au Sénat dans la version du gouvernement.\n- **Chiffres de l'Ordre des experts-comptables** (Le Monde du Chiffre) :\n  - 75 % des entreprises assujetties avaient choisi leur plateforme agréée au 4 octobre ;\n  - début novembre, plus de 43 millions de factures électroniques avaient été échangées, pour plus de 145 milliards d'euros.\n\n**Ce que rapporte seulement Capital** (Magalie Vieilledent, du cabinet Dougs, qui propose sa propre plateforme) :\n- selon elle, la réforme touche « 99 % des situations » ;\n- seuls y échappent les particuliers, les associations non assujetties, les syndicats et les SCI familiales qui prêtent gratuitement un bien à leurs associés ;\n- exemple d'un cas inattendu : le propriétaire d'un mobil-home acheté avec TVA, qui la récupère et le loue à des particuliers, devra faire de l'e-reporting.\n\n## 2. Le contexte\n\n- **Origine légale** : l'article 26 de la loi de finances rectificative du 16 août 2022 (Le Monde du Chiffre).\n- **Un calendrier déjà repoussé** : prévue au départ pour juillet 2024, la réforme a été décalée par la loi de finances pour 2024. Une nouvelle tentative de report a échoué au printemps 2025 (Le Monde du Chiffre).\n- **Pourquoi la contestation** : coût des abonnements, complexité, risques de fuite de données, et abandon en 2024 du portail public gratuit (Le Monde du Chiffre).\n- **Pourquoi c'est confus pour les loueurs** : selon Elloha, la DGFiP considérait jusqu'ici que toute activité déclarée en BIC entrait dans la réforme. Elle a ensuite ajouté dans sa fiche la distinction entre gestion privée et activité commerciale.\n- **Le cadre européen** : la réforme prépare aux obligations attendues pour 2030 dans le paquet européen « TVA à l'ère numérique » (ViDA) (Le Monde du Chiffre, citant l'Ordre).\n\n## 3. Ce qui change concrètement pour un particulier\n\n| Profil | Recevoir les factures | Émettre / e-reporting |\n|---|---|---|\n| Bailleur privé couvert par la présomption | Non | Non (DGFiP, Elloha, Eldorado Immobilier) |\n| LMNP en meublé d'habitation exonéré, avec SIREN, considéré comme assujetti | Oui, depuis le 01/09/2026 | Non (DGFiP, Capital, Indy, JD2M) |\n| Para-hôtellerie, locaux pros équipés, location nue avec option TVA, parkings | Oui | Oui, au plus tard le 01/09/2027 pour une PME ou une micro (DGFiP, Capital) |\n| Micro-entrepreneur en franchise de TVA | Oui : il ne facture pas la TVA mais reste assujetti (Capital) | Selon son activité |\n\n- **Exemple concret** (Capital) : un abonnement box internet déduit en frais LMNP doit arriver via une plateforme agréée.\n- **SCI à l'IR qui loue un meublé classique** : Amarris l'assimile à un bailleur en nom propre, donc soumise à l'obligation de réception.\n- **Les loyers ne changent pas** : les quittances restent au format classique (JD2M).\n\n## 4. Risques et points à vérifier\n\n- **Les sources divergent sur le point central.**\n  - D'un côté, Capital/Dougs, Indy, Nopillo et ImmobilierLoyer disent que tous les LMNP avec SIREN doivent recevoir les factures.\n  - De l'autre, Legifiscal (vers le 17 octobre), Elloha (16 octobre) et Eldorado Immobilier estiment que la présomption de la DGFiP sort la plupart des bailleurs privés de la réforme.\n  - JD2M (mise à jour du 23 octobre) note que cette présomption va contre la règle habituelle, qui considère les loueurs en meublé comme assujettis. Plusieurs acteurs, dont JD2M, ont demandé une clarification à la DGFiP. **Je n'ai trouvé aucune réponse officielle à ce jour.**\n  - L'UNPI Bourgogne-Franche-Comté, dans un article plus ancien (vers mai 2026), jugeait le meublé assujetti « dans tous les cas ». C'est probablement une position antérieure à la mise à jour de la fiche.\n- **Le SIREN ne suffit pas à trancher** : pour Eldorado Immobilier, avoir un SIREN ne prouve pas qu'on est assujetti. La DGFiP, elle, fait du SIREN une condition de l'obligation de réception.\n- **Exonéré n'est pas la même chose que non-assujetti** (Eldorado Immobilier, Capital). C'est l'erreur la plus courante.\n- **Sanctions : les informations divergent et sont incomplètes.**\n  - Nopillo évoque une amende de 500 €, puis 1 000 € par trimestre. **Je n'ai pas pu vérifier ce montant dans une source officielle.**\n  - Dougs estime qu'un LMNP classique exonéré risque surtout de perdre le fil de ses factures.\n  - Selon Le Monde du Chiffre, le gouvernement s'est engagé à ne prononcer aucune sanction d'ici la fin de l'année. Cet engagement n'a aucune valeur juridique.\n- **Logiciel ≠ plateforme agréée** : JD2M précise lui-même être un logiciel de comptabilité, pas une plateforme agréée.\n\n## 5. Solutions concrètes\n\n1. **Faire vérifier si l'on est assujetti** par un expert-comptable (conseil de Capital et de l'UNPI), ou appeler la ligne d'aide de la DGFiP au 0806 807 807 (numéro cité par Facture-futée).\n2. **Si l'on bénéficie de la présomption** : garder les éléments qui justifient sa situation (Eldorado Immobilier).\n3. **Si l'on est concerné** : choisir une plateforme agréée dans la liste officielle publiée par l'administration (Capital). La plateforme inscrit ensuite votre SIREN dans l'annuaire du Portail public de facturation (Indy).\n4. **Plateformes citées par les sources** : Dougs (gratuite selon Capital et Dougs), Indy, Tiime. Plusieurs sources signalent des offres de réception gratuites. Si vous avez déjà un comptable ou un logiciel, Amarris conseille de prendre la plateforme qu'il propose.\n5. **Para-hôtellerie et locations soumises à TVA** : préparer dès maintenant l'émission et l'e-reporting pour septembre 2027.\n\n## 6. Perspectives\n\n- **Au Sénat** : l'examen du budget 2027 continue et un amendement similaire pourrait être déposé (Le Monde du Chiffre, Entrepreneur-facile).\n- **Report possible par décret** : la loi permet de repousser l'échéance des PME jusqu'au 1er décembre 2027 au plus tard (Le Monde du Chiffre, Business Times).\n- **Une proposition de loi** garde le débat ouvert (Business Times, sans détails).\n- **L'Ordre des experts-comptables** demande, dans un communiqué du 5 novembre, de garder le calendrier inchangé (Le Monde du Chiffre).\n- **Clarification attendue de la DGFiP** sur la présomption pour les LMNP (JD2M). Pas de date annoncée.\n\n**Ce que je n'ai pas trouvé :** le nombre de loueurs en meublé concernés, le barème officiel des sanctions, la date précise de mise à jour de la fiche DGFiP (le document indique seulement « septembre 2026 ») et une position officielle de Bercy depuis les demandes de clarification.\n\n**Mise en garde pour le carousel :** plusieurs sources sont des éditeurs ou cabinets qui vendent eux-mêmes une solution (Dougs, Indy, Tiime, Nopillo, JD2M, Amarris). Ils ont intérêt à présenter l'obligation de façon large. Pour les faits juridiques, la fiche DGFiP et Le Monde du Chiffre sont les sources les plus neutres.",
+    "generator": "claude-opus-5-5"
+  }
+}

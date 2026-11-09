@@ -1,0 +1,138 @@
+{
+  "item": {
+    "id": "49094f7009",
+    "title": "SCPI : la crise immobilière fait chuter la collecte et les prix des parts en 2026",
+    "summary": "La crise immobilière continue de fragiliser les sociétés civiles de placement immobilier (SCPI) en France. Au troisième trimestre 2026, leur collecte nette recule de 17 % sur un an, tandis que les parts en atte…",
+    "link": "https://www.lerevenu.com/investir-immobilier/scpi-fonds-immobiliers/scpi-la-crise-immobiliere-fait-chuter-la-collecte-",
+    "image": "https://cdn.overlord.media/Duree_placement_scpi_05c3c13186.jpg",
+    "source": "Le Revenu Immobilier",
+    "via": "rss",
+    "publishedAt": "2026-11-09T06:30:01.000Z",
+    "collectedAt": "2026-11-09T13:47:31.791Z",
+    "brand": "21m2",
+    "score": 5,
+    "status": "generating",
+    "aiScore": 8,
+    "reason": "Collecte et prix des parts SCPI en chute, touche l'épargne des Français.",
+    "hook": "SCPI : collecte en chute, prix des parts en baisse",
+    "notifiedAt": "2026-11-09T13:47:31.791Z"
+  },
+  "carousel": {
+    "category": "Données",
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "",
+        "title": "SCPI : **2 milliards d'euros** de parts bloquées",
+        "body": "Au 3e trimestre, la collecte nette des SCPI a reculé de **17 %** sur un an, et **6 SCPI** ont baissé leur prix jusqu'à **−16,8 %**.",
+        "bullets": [],
+        "image_query": "Paris Haussmann office building facade golden hour",
+        "image_entity": ""
+      },
+      {
+        "kind": "list",
+        "kicker": "LES CHIFFRES",
+        "title": "Moins d'argent rentre, plus de parts attendent",
+        "body": "",
+        "bullets": [
+          "**−17 %** de collecte nette sur un an au 3e trimestre 2026, autour de 920 millions d'euros",
+          "**−14 %** de collecte brute sur un an, et −12 % par rapport au 2e trimestre",
+          "**2 Md€** de parts en attente de retrait au 30 septembre, soit 2,6 % de la capitalisation"
+        ],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LES PRIX",
+        "title": "Six SCPI ont baissé leur **prix** cet été",
+        "body": "Entre fin juillet et début septembre, **6 SCPI** ont baissé leur prix de souscription, de **−10,4 % à −16,8 %**. Il n'y avait eu aucune baisse au premier semestre.\nLe 28 août, Amundi Immobilier a baissé **Génépierre**, **Edissimmo** et Rivoli Avenir Patrimoine. **Elysées Pierre** a connu la plus forte baisse de l'année. Efimmo 1 et Praemia Hôtels Europe ont suivi.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "list",
+        "kicker": "DEPUIS 2023",
+        "title": "Certaines parts ont perdu **plus d'un tiers**",
+        "body": "",
+        "bullets": [
+          "**−44,7 %** de baisse cumulée depuis 2023 pour le prix de la part de Primopierre",
+          "**−34,4 %** de baisse cumulée depuis 2023 pour le prix de la part de Laffitte Pierre",
+          "**−19,8 %** pour Efimmo 1, dont le prix a encore été baissé le 1er septembre 2026"
+        ],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "POURQUOI",
+        "title": "Les **taux** et les **bureaux** font baisser les prix",
+        "body": "La hausse brutale des taux a fait baisser la valeur des immeubles, puis le prix des parts. Les bureaux souffrent le plus, à cause du **télétravail**.\nLe prix d'une part doit rester aligné sur la **valeur de reconstitution**, fixée par expertise. Les baisses de cet été ont suivi les **expertises du 30 juin**.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "CE QUI CHANGE POUR TOI",
+        "title": "Pour revendre, il faut **un acheteur**",
+        "body": "Dans une SCPI à capital variable, ton retrait n'est payé que si de **nouveaux épargnants** souscrivent. Sinon, ta demande attend dans une **file sans date prévisible**, et le prix peut baisser entre-temps.\nSur les **marchés secondaires**, les parts se vendent avec des **décotes de plus de 50 %** par rapport au dernier prix de souscription.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "list",
+        "kicker": "LES SOLUTIONS",
+        "title": "Ce que tu peux faire si tu as des parts",
+        "body": "",
+        "bullets": [
+          "Lis le **bulletin trimestriel** de ta SCPI : parts en attente, taux d'occupation financier et niveau de dette",
+          "Si le capital variable est suspendu, passe par le **marché secondaire** ou vends de gré à gré via la société de gestion",
+          "Vote aux **assemblées générales** : un fonds de remboursement, s'il est voté, peut racheter des parts selon ses règles"
+        ],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "ET APRÈS ?",
+        "title": "Prochain rendez-vous : le **31 décembre**",
+        "body": "Les prochaines valeurs d'expertise seront arrêtées au **31 décembre 2026**. Selon Boursorama, de **nouvelles baisses de prix** début 2027 « ne peuvent être exclues ».\nAvant de souscrire, regarde les **parts en attente** et l'écart entre le prix de part et la valeur de reconstitution. Les anciennes SCPI de **bureaux** concentrent les baisses.",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "cta",
+        "kicker": "",
+        "title": "Tu as des parts de **SCPI** ?",
+        "body": "Dis-nous en commentaire si tu les gardes, si tu vends ou si tu attends 👇",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      }
+    ],
+    "hook_alternatives": [
+      "SCPI : **six fonds** ont baissé leur prix cet été",
+      "SCPI : revendre tes parts devient **un casse-tête**",
+      "SCPI : les épargnants **ne suivent plus**"
+    ],
+    "caption": "Les SCPI traversent un trimestre difficile : moins d'argent qui rentre, des prix qui baissent et 2 milliards d'euros de parts en attente de revente.\n\nAu 3e trimestre 2026, la collecte nette a reculé d'environ 17 % sur un an, autour de 920 millions d'euros. La collecte brute a baissé de 14 %. Les épargnants mettent moins d'argent dans la pierre-papier, et c'est un problème pour ceux qui veulent sortir.\n\nDans une SCPI à capital variable, ton retrait n'est payé que si quelqu'un souscrit à ta place. Au 30 septembre, 2 milliards d'euros de parts attendaient un acheteur, soit 2,6 % de la capitalisation. Sur les marchés secondaires, les parts s'échangent avec des décotes de plus de 50 %.\n\n• Côté prix, six SCPI ont baissé leur prix de part cet été, de 10,4 % à 16,8 %. Depuis 2023, la part de Primopierre a perdu 44,7 % et celle de Laffitte Pierre 34,4 %.\n\n• Les loyers ne suffisent plus à compenser : au 3e trimestre, l'indice Ramify des SCPI a reculé de 0,82 %, son premier recul depuis début 2025. Les bureaux ont perdu 2,31 %, la logistique a gagné 1,60 %.\n\nLes prochaines valeurs d'expertise seront arrêtées au 31 décembre, et de nouvelles baisses de prix début 2027 ne sont pas exclues. Avant de souscrire, regarde les parts en attente, la part de bureaux et l'écart entre le prix de part et la valeur de reconstitution.\n\nTu as des SCPI dans ton patrimoine ? Tu les gardes, tu vends ou tu attends ?\n\n🔖 Enregistre ce post et partage-le à quelqu'un de concerné.",
+    "sources": [
+      "Le Revenu",
+      "Pierrepapier.fr",
+      "MeilleureSCPI.com",
+      "Boursorama",
+      "Club Patrimoine",
+      "Esteval",
+      "ASPIM",
+      "Selectra",
+      "Centrale des SCPI",
+      "Kohen Avocats"
+    ],
+    "dossier": "# Dossier SCPI : collecte et prix des parts en baisse au 3e trimestre 2026\n\n**Avertissement sur la méthode.** J'ai fait 3 recherches web. Je n'ai pas pu ouvrir les articles en entier, car la limite d'outils a été atteinte. Ce dossier repose donc sur les extraits des résultats de recherche et sur l'extrait du *Revenu* que vous m'avez fourni. Je n'ai pas lu le communiqué de l'ASPIM sur le 3e trimestre 2026 en direct. Je le connais seulement à travers d'autres médias. Les chiffres « clés » doivent être vérifiés à la source avant publication.\n\n---\n\n## 1. Les faits\n\n| Fait | Chiffre | Source |\n|---|---|---|\n| Collecte nette des SCPI au 3e trimestre 2026 | **−17 % sur un an** | *Le Revenu* (J. Miralles, 09/11/2026) |\n| Collecte nette au 3e trimestre 2026 | **922 M€** | *Pierrepapier.fr* (04/11/2026) |\n| Collecte nette au 3e trimestre 2026 (estimation) | **930 M€, −18 %** (données Rock N Data) | *MeilleureSCPI.com* |\n| Collecte brute des SCPI | **−14 % sur un an**, −12 % par rapport au 2e trimestre | *Pierrepapier.fr* |\n| Collecte nette de tous les fonds immobiliers non cotés (SCPI, OPCI, UC) | environ 0,8 Md€ | *Pierrepapier.fr* |\n| Parts en attente de retrait au 30/09/2026 | **2 Md€, soit 2,6 % de la capitalisation** (statistiques ASPIM/IEIF publiées le **5 novembre 2026**) | Cabinet Kohen Avocats (07/11/2026) ; *Le Revenu* confirme les 2 Md€ |\n| Parts en attente au 30/06/2026 | 1,9 Md€, soit 2,2 % de la capitalisation, −31 % depuis fin 2025 | ASPIM (site officiel) ; repris par *Selectra* et 2ndmarket |\n| Parts en attente au 1er trimestre 2026 | environ 2,4 Md€, soit environ 2,8 % | *Centrale des SCPI* |\n| Hausse des parts en attente au 3e trimestre pour les SCPI restées à capital variable | **+122 M€** | *Pierrepapier.fr* |\n| Part des SCPI diversifiées dans la collecte brute | **70,8 %** contre 74 % au 3e trimestre 2025 | *Pierrepapier.fr* |\n| Baisses de prix de souscription en 2026 | **6 SCPI**, entre fin juillet et début septembre, de **−10,4 % à −16,8 %**. Aucune baisse au 1er semestre | *Boursorama*, *Pierrepapier.fr* |\n| Baisses de prix en 2025, pour comparaison | 13 SCPI | *Pierrepapier.fr* |\n| Prix de part moyen sur le 1er semestre 2026 | −2,4 % (pondéré par la capitalisation). Stable pour les SCPI à capital variable | ASPIM ; repris par *Selectra* |\n| Indice Ramify SCPI Index au 3e trimestre 2026 | **−0,82 %** (contre +1,06 % au 2e trimestre), premier recul depuis début 2025. Bureaux −2,31 %, logistique +1,60 %. L'effet prix est à −1,86 % et les loyers distribués à +1,05 % | *Club Patrimoine* (27/10/2026), *Esteval* |\n\n**SCPI concernées par les baisses de 2026** (*Boursorama*, *Pierrepapier*, *Centrale des SCPI*) :\n- Amundi Immobilier a baissé le prix de trois SCPI le 28 août : Génépierre, Edissimmo et Rivoli Avenir Patrimoine. C'est leur 4e ou 5e ajustement depuis 2023.\n- Elysées Pierre a connu la plus forte baisse de l'année.\n- Praemia Hôtels Europe a aussi baissé son prix. Selon *Boursorama*, la réglementation ne l'y obligeait pas.\n- Efimmo 1 a baissé son prix le 1er septembre.\n- Baisses cumulées depuis 2023 (*Centrale des SCPI*) : Primopierre −44,7 %, Laffitte Pierre −34,4 %, Efimmo 1 −19,8 %.\n\n**Exemples de bulletins du 3e trimestre** :\n- Sélectipierre 2 Paris (Fiducial) : 10 986 parts en attente, taux d'occupation financier de 93,26 % (*Pierrepapier*).\n- Épargne Foncière : 351 M€ de parts en attente au 30/06, soit 8,5 % de sa capitalisation (2ndmarket). Son objectif de distribution 2026 a été revu, mais l'extrait ne donne pas le nouveau chiffre.\n\n### ⚠️ Points où les sources divergent\n- **Recul de la collecte nette** : −17 % selon *Le Revenu*, −18 % selon *MeilleureSCPI*. Le montant est de 922 M€ selon *Pierrepapier* et de 930 M€ selon *MeilleureSCPI*. Cela vient sans doute de bases différentes : ASPIM d'un côté, estimation Rock N Data de l'autre.\n- **Ratio des parts en attente** : on passe de 1,9 Md€ (2,2 %) à 2 Md€ (2,6 %). Le ratio monte davantage que le montant. Je n'ai pas pu vérifier l'explication (base de capitalisation ou périmètre différents). Le pourcentage de hausse cité par Kohen Avocats est tronqué dans l'extrait.\n- **« Les diversifiées résistent mieux »** : *Le Revenu* l'affirme, mais leur part dans la collecte recule légèrement selon *Pierrepapier* (70,8 % contre 74 %).\n\n## 2. Le contexte : pourquoi ça arrive\n- La hausse brutale des taux a fait baisser la valeur des immeubles, puis le prix des parts. Les retraits sont ensuite devenus difficiles (*Le Revenu*, autre article de la rubrique). *Le Revenu* titre aussi que l'OAT dépasse 5 %.\n- Les bureaux sont particulièrement touchés : télétravail et désintérêt des investisseurs, qui se tournent vers la logistique, la santé et le commerce (*MeilleureSCPI*).\n- Le prix d'une part doit rester aligné sur la valeur du patrimoine (valeur de reconstitution), évaluée par expertise. Les baisses de 2026 ont suivi les expertises du 30 juin (*Boursorama*, *Club Patrimoine*). L'extrait ne précise pas la fourchette réglementaire exacte. À vérifier si vous l'affichez.\n- Le chiffre des parts en attente est trompeur. Au 1er semestre, sa baisse s'explique entièrement par 11 SCPI (environ 12 % du marché) qui ont suspendu la variabilité de leur capital et ouvert des marchés secondaires. Pour les SCPI restées à capital variable, le stock a augmenté d'environ 330 M€ (ASPIM). Au 3e trimestre, cet effet n'a pas joué et le stock remonte (*Pierrepapier*).\n\n## 3. Ce qui change pour un particulier\n- **Revendre prend du temps.** Dans une SCPI à capital variable, un retrait n'est payé que si de nouveaux épargnants souscrivent. Sinon, la demande attend dans une file sans date prévisible (*Selectra*).\n- **Attendre peut coûter cher** : si le prix baisse pendant l'attente, la perte augmente (*Selectra*).\n- **Sur les marchés secondaires**, les ventes se font avec des **décotes supérieures à 50 %** par rapport au dernier prix de souscription. Moins de 0,25 % des parts de chaque SCPI s'y sont échangées, hors Novapierre Résidentiel (*Esteval*, *Club Patrimoine*).\n- **Les revenus ne compensent plus.** Au 3e trimestre, les loyers distribués n'ont pas couvert la baisse des prix (*Esteval*).\n\n## 4. Points de vigilance\n- Regarder les parts en attente avant de souscrire. L'ASPIM et chaque société de gestion les publient chaque trimestre (*Centrale des SCPI*).\n- Se méfier des SCPI historiques de bureaux, où se concentrent les baisses (*Club Patrimoine*, *MeilleureSCPI*).\n- Comparer le prix de part à la valeur de reconstitution : une forte surcote est un signal de risque. Efimmo 1, par exemple, était « proche du seuil » (*Boursorama*).\n- Suivre le taux d'occupation financier et la dette. Pour Épargne Foncière, la baisse des loyers et le remboursement de la dette ont pesé sur la distribution (bulletin du 3e trimestre).\n\n## 5. Solutions concrètes citées par les sources\n1. **Lire les bulletins trimestriels** et les statistiques ASPIM/IEIF (*Centrale des SCPI*).\n2. **Passer par le marché secondaire ou vendre de gré à gré** quand le capital variable est suspendu. Ces démarches passent par le registre des ordres de la société de gestion (Kohen Avocats).\n3. **Le fonds de remboursement** : s'il est voté en assemblée générale, il rachète des parts selon ses règles (*Selectra*). Il faut donc voter aux AG.\n4. **Comparer les solutions de sortie**. 2ndmarket, un acteur commercial, publie un guide de « 5 solutions ». Le contenu détaillé n'a pas pu être lu.\n5. **Diversifier** vers des SCPI peu exposées aux bureaux et sans file d'attente. Certaines SCPI récentes affichent zéro part en attente, comme Epsicap Explore (*Pierrepapier*). C'est un constat, pas une recommandation.\n6. **Ce qui manque** : aucune source consultée ne cite l'AMF ni de démarche de réclamation ou de médiation. À compléter si vous voulez en parler.\n\n## 6. Perspectives\n- **Prochaine étape** : les valeurs d'expertise au 31 décembre 2026. *Boursorama* estime que de nouvelles baisses de prix début 2027 « ne peuvent être exclues ».\n- Le bulletin d'Épargne Foncière annonce que des ajustements pourraient se poursuivre en 2027.\n- L'indicateur à suivre est le stock de parts en attente (*Centrale des SCPI*). Sur un an, le marché reste coupé en deux : nouvelles SCPI diversifiées en croissance, anciennes SCPI de bureaux en ajustement.\n\n---\n\n## Idée de déroulé pour le carousel (8 slides)\n1. Titre : « SCPI : 2 Md€ de parts bloquées »\n2. Collecte nette −17/−18 % au 3e trimestre\n3. 6 baisses de prix entre −10 % et −17 %\n4. Pourquoi : taux, bureaux, expertises\n5. Ce que ça change : délais et décotes de plus de 50 %\n6. 4 indicateurs à vérifier\n7. Que faire si vos parts sont bloquées\n8. Et après : rendez-vous au 31/12/2026, puis mention « Ceci n'est pas un conseil en investissement »\n\n**Sources** : Le Revenu ; pierrepapier.fr ; meilleurescpi.com ; boursorama.com ; clubpatrimoine.com ; esteval.fr ; aspim.fr ; selectra.info ; centraledesscpi.com ; kohenavocats.fr ; 2ndmarket.fr ; francescpi.com.",
+    "generator": "claude-opus-5-5"
+  }
+}
