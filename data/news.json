@@ -2670,7 +2670,16 @@
           "SCPI : revendre tes parts devient **un casse-tête**",
           "SCPI : les épargnants **ne suivent plus**"
         ]
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-09T19:30:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-09T13:55:08.098Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "090ea321bb",
@@ -7102,5 +7111,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:52:04.089Z"
+  "updatedAt": "2026-11-09T13:55:08.098Z"
 }
