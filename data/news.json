@@ -5874,15 +5874,21 @@
           "SCPI : les épargnants **ne suivent plus**"
         ]
       },
-      "schedules": [
-        {
-          "at": "2026-11-09T19:30:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-09T13:55:08.098Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18103002632386671",
+          "url": "https://www.instagram.com/p/DfiGvF2DE4u/",
+          "at": "2026-11-09T19:41:08.178Z"
+        },
+        "facebook": {
+          "id": "1430519546815801_122094125625553165",
+          "url": "https://www.facebook.com/1430519546815801_122094125625553165",
+          "at": "2026-11-09T19:41:28.080Z"
+        }
+      }
     },
     {
       "id": "8025daa53d",
@@ -10727,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T19:07:55.549Z"
+  "updatedAt": "2026-11-09T19:41:28.177Z"
 }
