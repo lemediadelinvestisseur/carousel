@@ -1561,7 +1561,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Premier ETF UCITS sur les 7 Magnifiques, accessible aux Européens.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:19:57.214Z"
+  "updatedAt": "2026-11-09T20:20:05.323Z"
 }
