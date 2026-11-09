@@ -46,7 +46,16 @@ const Post = z.object({
 });
 const PostsSchema = z.object({ posts: z.array(Post) });
 
-function systemPrompt(cfg) {
+// Ce que les statistiques du compte ont appris (data/linkedin-insights.json, voir linkedin-stats.mjs).
+function learnedSection(insights) {
+  const a = insights?.analysis;
+  if (!a) return "";
+  const list = (t, xs) => (xs?.length ? `${t} :\n${xs.map((x) => `- ${x}`).join("\n")}\n` : "");
+  return `\nCE QUI MARCHE SUR CE COMPTE (tiré de ses vraies statistiques LinkedIn, fiabilité ${a.confidence}) — à appliquer en priorité :
+${list("Consignes de rédaction", a.writing_rules)}${list("Ce qui performe", a.what_works)}${list("À éviter", a.what_to_avoid)}${list("Accroches qui marchent", a.hook_patterns)}`;
+}
+
+function systemPrompt(cfg, insights) {
   return `Tu écris des posts LinkedIn humoristiques à base de MEMES pour le profil personnel d'un créateur français.
 QUI PUBLIE : ${cfg.about}
 ${cfg.myInvestments ? `SES INVESTISSEMENTS PERSONNELS (faits réels, à utiliser tels quels) : ${cfg.myInvestments}\n` : ""}SUJETS : ${(cfg.topics || []).join(" ; ")}.
@@ -65,10 +74,10 @@ LE TEXTE DU POST (post_text) :
 - 0 à 2 emojis, pas de hashtags, pas de lien.
 - N'invente JAMAIS un fait personnel (achat, montant, perte, gain) : n'utilise que les investissements personnels indiqués ci-dessus ou l'idée fournie. Sinon parle de « on », des investisseurs en général.
 - Pas de conseil en investissement présenté comme tel.
-${cfg.styleNotes ? `\nSTYLE OBSERVÉ CHEZ LES COMPTES QUI MARCHENT (à suivre) :\n${cfg.styleNotes}\n` : ""}`;
+${cfg.styleNotes ? `\nSTYLE OBSERVÉ CHEZ LES COMPTES QUI MARCHENT (à suivre) :\n${cfg.styleNotes}\n` : ""}${learnedSection(insights)}`;
 }
 
-export async function writeMemePosts({ cfg, count = 3, idea = "", instructions = "", format = "", news = [], recent = [] }) {
+export async function writeMemePosts({ cfg, count = 3, idea = "", instructions = "", format = "", news = [], recent = [], insights = null }) {
   if (!hasKey()) throw new Error("Clé ANTHROPIC_API_KEY absente : impossible de créer des memes");
   const templates = await memeTemplates();
   const today = new Date().toLocaleDateString("fr-FR", { timeZone: "Europe/Paris", weekday: "long", day: "numeric", month: "long", year: "numeric" });
@@ -82,7 +91,7 @@ ${news.map((n) => `- ${n.title}${n.hook ? ` (${n.hook})` : ""}`).join("\n") || "
 
 POSTS DÉJÀ FAITS (ne pas répéter la même blague) :
 ${recent.map((r) => `- ${r}`).join("\n") || "(aucun)"}
-${idea ? `\nIDÉE DE L'AUTEUR (à transformer en meme, prioritaire) :\n${idea}\n` : ""}${instructions ? `\nCONSIGNES (prioritaires) :\n${instructions}\n` : ""}${format === "template" ? "\nUtilise un template de meme connu.\n" : format === "photo" ? "\nUtilise une vraie photo.\n" : ""}
+${insights?.examples?.length ? `\nSES POSTS QUI ONT LE MIEUX MARCHÉ (pour le ton, la longueur et la structure ; ne pas copier les blagues) :\n${insights.examples.map((e, k) => `--- Exemple ${k + 1} (${e.impressions ?? "?"} impressions, ${e.engagements ?? "?"} engagements)\n${e.text}`).join("\n")}\n` : ""}${idea ? `\nIDÉE DE L'AUTEUR (à transformer en meme, prioritaire) :\n${idea}\n` : ""}${instructions ? `\nCONSIGNES (prioritaires) :\n${instructions}\n` : ""}${format === "template" ? "\nUtilise un template de meme connu.\n" : format === "photo" ? "\nUtilise une vraie photo.\n" : ""}
 Imagine une quinzaine d'idées, garde les ${count} plus drôles et les plus variées, et rédige ${count === 1 ? "ce post" : `ces ${count} posts`}.`;
   const client = new Anthropic();
   const res = await client.beta.messages.parse({
@@ -90,7 +99,7 @@ Imagine une quinzaine d'idées, garde les ${count} plus drôles et les plus vari
     max_tokens: 12000,
     ...FALLBACK,
     output_config: { effort: "high", format: betaZodOutputFormat(PostsSchema) },
-    system: systemPrompt(cfg),
+    system: systemPrompt(cfg, insights),
     messages: [{ role: "user", content: user }],
   });
   if (res.stop_reason === "refusal") throw new Error("refus du modèle");

@@ -120,6 +120,20 @@ Réglages dans `config/linkedin.json` :
 
 Le jeton expire au bout de **60 jours**. En cas d'erreur 401, génère-en un nouveau et remplace le secret.
 
+### Statistiques LinkedIn : apprendre de ce qui marche
+Dashboard → 💼 LinkedIn → onglet **📊 Stats**.
+
+Le jeton de publication (`w_member_social`) **ne peut pas lire les statistiques** d'un profil perso. On utilise donc l'export officiel de LinkedIn :
+1. Sur linkedin.com : **ton profil → Analytics → Impressions des posts** (linkedin.com/analytics/creator/content).
+2. Période **365 jours** → **Exporter** (fichier `.xlsx`).
+3. Dashboard → 📊 Stats → **📥 Importer l'export** et choisir le fichier. À refaire environ une fois par mois : les imports s'additionnent.
+
+Le workflow **LinkedIn (statistiques)** lit le fichier (posts, impressions, engagements, abonnés, démographie), retrouve l'heure exacte de chaque post grâce à son identifiant, essaie de récupérer le texte des posts publics, puis **Claude analyse** ce qui marche (accroches, longueur, format de meme, jours et heures). Résultats : `data/linkedin-stats.json` et `data/linkedin-insights.json`. Les **règles de rédaction** et tes **meilleurs posts** sont ensuite donnés automatiquement à Claude à chaque nouveau meme. Une nouvelle analyse tourne aussi chaque lundi matin.
+
+**Relevé automatique par l'API (facultatif).** LinkedIn propose l'API « Member Post Analytics » (produit **Community Management API**, autorisations `r_member_postAnalytics` et `r_member_profileAnalytics`), accordée sur dossier. Si LinkedIn te l'accorde, crée un jeton avec ces autorisations et ajoute-le dans le secret `LINKEDIN_STATS_TOKEN` : les memes publiés depuis le dashboard et le nombre d'abonnés seront relevés chaque semaine sans export.
+
+> ⚠️ Le dépôt est public : les statistiques importées (chiffres des posts, démographie agrégée) y sont enregistrées et donc visibles.
+
 ## Personnaliser
 
 | Quoi | Où |
@@ -131,6 +145,7 @@ Le jeton expire au bout de **60 jours**. En cas d'erreur 401, génère-en un nou
 | Mise en page des slides | `templates/carousel.mjs` (puis `npm run examples` pour régénérer les exemples) |
 | Consignes de rédaction données à Claude | `scripts/lib/writer.mjs` |
 | Memes LinkedIn : profil, sujets, style | `config/linkedin.json` (consignes détaillées : `scripts/lib/memes.mjs`) |
+| Lecture de l'export LinkedIn, consignes d'analyse | `scripts/lib/linkedin-stats.mjs` |
 | Fréquence de collecte | `.github/workflows/collect.yml` (`cron`) |
 
 Dans les textes, `**mot**` met le mot en couleur d'accent.

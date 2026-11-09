@@ -14,7 +14,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { parseArgs } from "node:util";
-import { loadLinkedin, saveLinkedin, loadNews, readJson, recordUpdates, writeSideFile, parisDay, ROOT } from "./lib/store.mjs";
+import { loadLinkedin, saveLinkedin, loadNews, readJson, readJsonIfExists, recordUpdates, writeSideFile, parisDay, ROOT } from "./lib/store.mjs";
 import { writeMemePosts, memeImage, placeLabels, renderMeme } from "./lib/memes.mjs";
 import { linkedinToken, me, publishImagePost } from "./lib/linkedin.mjs";
 import { notify, dashboardUrl } from "./lib/notify.mjs";
@@ -65,7 +65,7 @@ function context() {
     .sort((a, b) => (b.aiScore ?? 0) - (a.aiScore ?? 0))
     .slice(0, 25);
   const recent = db.posts.filter((p) => p.angle).slice(0, 30).map((p) => p.angle);
-  return { news, recent };
+  return { news, recent, insights: readJsonIfExists("data/linkedin-insights.json", null) };
 }
 
 async function build(post, meme) {
@@ -97,8 +97,8 @@ async function build(post, meme) {
 }
 
 async function create({ count, idea, instructions, format, existing }) {
-  const { news, recent } = context();
-  const memes = await writeMemePosts({ cfg, count, idea, instructions, format, news, recent });
+  const { news, recent, insights } = context();
+  const memes = await writeMemePosts({ cfg, count, idea, instructions, format, news, recent, insights });
   const done = [];
   for (let k = 0; k < memes.length; k++) {
     const post = existing || { id: crypto.randomBytes(5).toString("hex"), createdAt: new Date().toISOString(), origin: idea ? "idee" : "auto", idea: idea || null };
