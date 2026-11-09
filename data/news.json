@@ -2549,7 +2549,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Sujet sociétal logement solo qui fait débat.",
       "hook": "Vivre seul : la nouvelle norme qui tend le logement"
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:49:58.537Z"
+  "updatedAt": "2026-11-09T13:50:05.269Z"
 }
