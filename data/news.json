@@ -979,7 +979,7 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "21m2",
       "score": 1,
-      "status": "new"
+      "status": "rejected"
     },
     {
       "id": "63c43a0cc2",
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:25:26.376Z"
+  "updatedAt": "2026-11-09T20:25:31.806Z"
 }
