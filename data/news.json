@@ -8177,34 +8177,18 @@
       "collectedAt": "2026-11-08T15:38:54.430Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "done",
+      "status": "new",
       "international": true,
       "aiScore": 6,
       "reason": "Piratage record chez Binance, sujet crypto fort.",
       "hook": "Piratage record : Binance limoge son directeur financier",
-      "generatedAt": "2026-11-08T22:28:57.134Z",
-      "carousel": {
-        "dir": "carousels/2026-11-07/investisseur-binance-evince-son-directeur-financier-a-499133c326",
-        "files": [
-          "slide-01.jpg",
-          "slide-02.jpg",
-          "slide-03.jpg",
-          "slide-04.jpg",
-          "slide-05.jpg",
-          "slide-06.jpg",
-          "slide-07.jpg",
-          "slide-08.jpg",
-          "slide-09.jpg",
-          "carousel.pdf"
-        ],
-        "generator": "claude-opus-5-5",
-        "slides": 9,
-        "hooks": [
-          "6,3 milliards volés : Binance se sépare de son directeur financier",
-          "Après le plus gros vol crypto de l'histoire, Binance change de directeur financier",
-          "Binance s'est fait voler 6,3 milliards de dollars en vingt minutes"
-        ]
-      }
+      "generatedAt": null,
+      "carousel": null,
+      "schedules": [],
+      "scheduled": null,
+      "error": null,
+      "publishError": null,
+      "instructions": null
     },
     {
       "id": "6e5f20b941",
@@ -9262,5 +9246,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:24:45.514Z"
+  "updatedAt": "2026-11-09T17:27:55.517Z"
 }
