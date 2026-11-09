@@ -2164,7 +2164,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 8,
       "reason": "Scandale insolite autour du patron de Nvidia, viral et lié à l'action.",
       "hook": "Jensen Huang infidèle : piège des espions chinois ?",
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:42.147Z"
+  "updatedAt": "2026-11-09T20:23:48.021Z"
 }
