@@ -1769,7 +1769,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "IA et droits d'auteur avec Elvis et Eminem, sujet grand public.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:22:58.268Z"
+  "updatedAt": "2026-11-09T20:23:00.530Z"
 }
