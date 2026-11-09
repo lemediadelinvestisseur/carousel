@@ -525,7 +525,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "21m2",
       "score": 6,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Fraude au logement social et expulsion sans trêve hivernale, sujet qui indigne.",
       "hook": "Logement social obtenu en 7 jours : expulsé en plein hiver"
@@ -9210,5 +9210,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:15:52.890Z"
+  "updatedAt": "2026-11-09T17:17:51.223Z"
 }
