@@ -2643,11 +2643,34 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "21m2",
       "score": 5,
-      "status": "new",
+      "status": "done",
       "aiScore": 8,
       "reason": "Collecte et prix des parts SCPI en chute, touche l'épargne des Français.",
       "hook": "SCPI : collecte en chute, prix des parts en baisse",
-      "notifiedAt": "2026-11-09T13:47:31.791Z"
+      "notifiedAt": "2026-11-09T13:47:31.791Z",
+      "generatedAt": "2026-11-09T13:51:59.819Z",
+      "carousel": {
+        "dir": "carousels/2026-11-09/21m2-scpi-la-crise-immobiliere-fait-chuter-la-49094f7009",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 9,
+        "hooks": [
+          "SCPI : **six fonds** ont baissé leur prix cet été",
+          "SCPI : revendre tes parts devient **un casse-tête**",
+          "SCPI : les épargnants **ne suivent plus**"
+        ]
+      }
     },
     {
       "id": "090ea321bb",
@@ -7079,5 +7102,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:50:21.848Z"
+  "updatedAt": "2026-11-09T13:52:04.089Z"
 }
