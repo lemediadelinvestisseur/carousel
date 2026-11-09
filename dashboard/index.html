@@ -280,8 +280,17 @@ function pending(id) { const t = pendingMap()[id]; return t && Date.now() - t < 
 function inProgress(i) {
   const t = pendingMap()[i.id];
   if (!t || Date.now() - t > 20 * 60e3) return false;
-  return !(i.generatedAt && Date.parse(i.generatedAt) > t) && i.status !== "error";
+  if ((i.generatedAt && Date.parse(i.generatedAt) > t) || i.status === "error") return false;
+  // Demande envoyée mais aucune génération créée par GitHub au bout de 3 minutes : la demande s'est perdue,
+  // la carte revient pour qu'on puisse relancer (au lieu de rester bloquée dans « En cours »).
+  if (genRuns && Date.now() - t > 3 * 60e3) {
+    const run = genRuns.find((r) => (r.display_title || "").includes(i.id) && Date.parse(r.created_at) >= t - 60e3);
+    if (!run) return false;
+    if (run.status === "completed" && run.conclusion !== "success" && !(i.generatedAt && Date.parse(i.generatedAt) > t)) return false;
+  }
+  return true;
 }
+let genRuns = null; // dernières générations connues (pour repérer une demande perdue)
 function setPending(id) { const p = pendingMap(); p[id] = Date.now(); store.set("pending", JSON.stringify(p)); }
 
 const params = new URLSearchParams(location.search);
@@ -355,6 +364,12 @@ async function loadRuns() {
     $("runsCard").hidden = !r.workflow_runs.length;
     if (r.workflow_runs.some((x) => x.status !== "completed")) setTimeout(load, 20000);
   } catch {}
+  try {
+    const g = await (await gh(`/repos/${cfg.repo}/actions/workflows/generate.yml/runs?per_page=60`)).json();
+    const had = genRuns;
+    genRuns = g.workflow_runs || [];
+    if (!had && state.project !== "linkedin") render();
+  } catch {}
 }
 
 function syncProject() {
@@ -405,7 +420,8 @@ function card(i) {
   if (inProgress(i)) {
     actions = `<p class="hint">⏳ Génération en cours (4 à 6 minutes) : la carte reviendra toute seule avec la nouvelle version.</p>`;
   } else if (i.status === "new") {
-    actions = `<div class="row"><button class="btn primary" data-act="validate">✅ Valider</button><button class="btn danger" data-act="reject">✕</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
+    const lost = pendingMap()[i.id] && Date.now() - pendingMap()[i.id] < 20 * 60e3;
+    actions = `${lost ? `<p class="puberr">⚠️ La génération demandée n'est pas partie chez GitHub : valide à nouveau.</p>` : ""}<div class="row"><button class="btn primary" data-act="validate">✅ Valider</button><button class="btn danger" data-act="reject">✕</button><a class="btn ghost" href="${esc(i.link)}" target="_blank" rel="noopener">Lire</a></div>`;
   } else if (i.status === "done" && i.carousel) {
     const pngs = i.carousel.files.filter((f) => /\.(png|jpe?g)$/.test(f));
     actions = `<div class="done">
