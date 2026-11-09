@@ -1870,12 +1870,12 @@
       "source": "Moneyvox",
       "via": "découverte",
       "publishedAt": "2026-11-09T09:56:18.000Z",
-      "collectedAt": "2026-11-09T13:47:31.791Z",
+      "collectedAt": "2026-11-09T13:46:27.378Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
-      "reason": "Budget 2027 impacte les impôts.",
+      "reason": "Budget incertain, impact fiscal.",
       "hook": "Budget 2027 : le Sénat entre en jeu"
     },
     {
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:18.588Z"
+  "updatedAt": "2026-11-09T13:48:20.336Z"
 }
