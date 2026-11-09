@@ -2449,7 +2449,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "La BCE s'inquiète d'une bulle IA dans les banques.",
       "hook": "Bulle IA : la BCE surveille les banques"
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:19:05.320Z"
+  "updatedAt": "2026-11-09T20:19:50.976Z"
 }
