@@ -11,10 +11,10 @@
 :root{
   --bg:#F5F6F8;--card:#FFFFFF;--text:#121722;--muted:#5D6675;--line:#E3E6EB;
   --navy:#0B1F3A;--gold:#F5B700;--coral:#E4572E;--ok:#1F9D55;--danger:#C2362B;
-  --radius:16px;
+  --radius:16px;--chart:#2F6FDB;--mark:#E0A100;
 }
 @media (prefers-color-scheme: dark){
-  :root{--bg:#0D1117;--card:#161B22;--text:#E8ECF2;--muted:#9AA4B2;--line:#2A313C}
+  :root{--bg:#0D1117;--card:#161B22;--text:#E8ECF2;--muted:#9AA4B2;--line:#2A313C;--chart:#5B93F0;--mark:#B88200}
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;padding-bottom:90px}
@@ -108,6 +108,24 @@ details summary{cursor:pointer}
 .tp{border-top:1px solid var(--line);padding:10px 0;font-size:13px}.tp a{font-weight:700;color:var(--text)}
 .tp .tx{color:var(--muted);white-space:pre-line;margin-top:4px}
 .grp{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}.grp td,.grp th{padding:5px 4px;border-bottom:1px solid var(--line);text-align:right}.grp td:first-child,.grp th:first-child{text-align:left}
+.seg{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 10px}
+.lichart{position:relative;margin:4px 0 18px;touch-action:pan-y}
+.lichart h4{margin:0 0 2px;font-size:14px}.lichart .big{font-size:20px;font-weight:800}.lichart .sub{font-size:12px;color:var(--muted)}
+.plot{position:relative;height:150px;margin:22px 0 0 0}
+.plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.plot .yl{position:absolute;left:0;font-size:11px;color:var(--muted);transform:translateY(-100%);padding-bottom:1px}
+.xl{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:4px}
+.pm{position:absolute;width:12px;height:12px;border-radius:50%;background:var(--mark);border:2px solid var(--card);transform:translate(-50%,-50%);pointer-events:none}
+.hd{position:absolute;width:10px;height:10px;border-radius:50%;background:var(--chart);border:2px solid var(--card);transform:translate(-50%,-50%);pointer-events:none;display:none}
+.hl-line{position:absolute;top:0;bottom:0;width:1px;background:var(--muted);opacity:.5;pointer-events:none;display:none}
+.tip{position:absolute;top:-6px;z-index:3;background:var(--text);color:var(--bg);font-size:12px;line-height:1.35;padding:7px 9px;border-radius:8px;pointer-events:none;display:none;max-width:220px;transform:translate(-50%,-100%)}
+.tip b{font-size:13px}
+.rk{display:grid;grid-template-columns:22px 1fr;gap:8px;padding:9px 0;border-top:1px solid var(--line);font-size:13px;text-decoration:none;color:var(--text)}
+.rk .n{font-weight:800;color:var(--muted)}.rk .t{font-weight:700;line-height:1.3}.rk .m{color:var(--muted);font-size:12px;margin-top:2px}
+.rk .b{height:6px;border-radius:0 4px 4px 0;background:var(--chart);margin-top:5px;min-width:2px}
+.hero1{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px;margin:8px 0;text-decoration:none;color:var(--text);display:block}
+.hero1 .t{font-weight:800;font-size:16px;line-height:1.3;margin:4px 0}
+.hero1 .m{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.hero1 .m b{color:var(--text);font-size:15px}
 .wait{border:2px dashed var(--line);border-radius:var(--radius);padding:16px;margin-bottom:12px;color:var(--muted);font-weight:600}
 .adv{margin-top:14px}.adv summary{cursor:pointer;font-weight:700;font-size:13px;color:var(--muted)}
 .hooks summary{font-weight:700;color:var(--muted);padding:6px 0}
@@ -384,7 +402,8 @@ function syncProject() {
   document.querySelectorAll("[data-proj]").forEach((b) => b.classList.toggle("on", b.dataset.proj === state.project));
   const isLi = state.project === "linkedin";
   $("quota").hidden = $("chips").hidden = $("sourcesCard").hidden = isLi;
-  $("openAdd").textContent = isLi ? "+ Idée" : "+ Article";
+  $("openAdd").textContent = "+ Article";
+  $("openAdd").hidden = isLi;
   document.title = isLi ? "LinkedIn — Dashboard" : "Carousels — Dashboard";
 }
 
@@ -734,9 +753,15 @@ async function loadLi() {
   }
 }
 
+// Le projet LinkedIn n'affiche plus que les statistiques : les onglets de memes (Propositions, En cours,
+// Programmés…) ont été retirés. La rédaction des posts sera reconstruite à partir de ces statistiques.
 function renderLi() {
-  $("tabs").innerHTML = LI_TABS.map((t) => `<button class="tab ${t.key === li.tab ? "on" : ""}" data-litab="${t.key}">${t.label}${t.stats ? "" : `<span class="n">${li.posts.filter(t.match).length}</span>`}</button>`).join("");
-  if (li.tab === "stats") { $("banner").innerHTML = ""; $("list").innerHTML = renderLiStats(); return; }
+  $("tabs").innerHTML = "";
+  $("banner").innerHTML = cfg.token ? "" : `<div class="banner">Ajoute ton jeton GitHub dans les réglages (⚙︎) pour importer tes statistiques depuis ce téléphone.</div>`;
+  $("list").innerHTML = renderLiStats();
+}
+
+function renderLiMemes() {
   $("banner").innerHTML = cfg.token ? "" : `<div class="banner">Ajoute ton jeton GitHub dans les réglages (⚙︎) pour piloter LinkedIn depuis ce téléphone.</div>`;
   const s = li.status;
   const conn = !s ? "⏳ connexion jamais vérifiée" : s.ok ? `✅ connecté · ${esc(s.name)}` : s.pending ? "⏳ LinkedIn pas encore configuré" : `❌ ${esc(s.error)}`;
@@ -780,37 +805,135 @@ function liCard(p) {
 
 // --- Statistiques du compte (export LinkedIn Analytics + analyse par Claude) ---
 const fmtN = (n) => (n == null ? "–" : Number(n).toLocaleString("fr-FR"));
+const fmtPct = (n) => (n == null ? "–" : String(Math.round(n * 100) / 100).replace(".", ",") + " %");
+const fmtDay = (d, opt = { day: "numeric", month: "short" }) => new Date(d + "T12:00:00Z").toLocaleDateString("fr-FR", opt);
+const liView = { range: store.get("liRange", "90"), rank: store.get("liRank", "impressions") };
+const RANKS = { impressions: ["👀 Impressions", (p) => p.impressions], engagements: ["💬 Interactions", (p) => p.engagements], rate: ["🎯 Taux d'engagement", (p) => (p.impressions >= 300 ? p.rate : null)], followersGained: ["➕ Abonnés gagnés", (p) => p.followersGained] };
+const postTitle = (p) => p.title || p.angle || (p.text ? p.text.slice(0, 80) : "Post");
+
 function renderLiStats() {
   const ins = li.insights, s = ins?.summary, a = ins?.analysis;
   const wait = JSON.parse(store.get("liStatsWait", "null") || "null");
   const waiting = wait && Date.now() - wait < 15 * 60e3 && !(ins && Date.parse(ins.generatedAt) > wait);
-  const help = `<div class="card stp"><h3>📊 Statistiques de ton profil</h3>
-    <p class="hint">LinkedIn ne laisse pas lire les statistiques d'un profil perso avec le jeton de publication. On passe donc par l'export officiel (2 minutes, à refaire 1 fois par mois) :</p>
-    <ol class="hint"><li>Sur linkedin.com : <b>ton profil → Analytics → Impressions des posts</b> (ou linkedin.com/analytics/creator/content).</li><li>Choisis la période la plus longue (<b>365 jours</b>) puis <b>Exporter</b> : un fichier .xlsx est téléchargé.</li><li>Ici : <b>📥 Importer l'export</b> et choisis ce fichier.</li></ol>
-    <div class="row"><button class="btn primary" data-act="li-import">📥 Importer l'export</button><button class="btn" data-act="li-analyze">🧠 Relancer l'analyse</button></div>
-    <input type="file" id="liFile" accept=".xlsx,.xls,.csv" hidden>
-    ${waiting ? `<div class="wait" style="margin-top:10px">⏳ Import et analyse en cours (2 à 4 minutes)…</div>` : ""}
-    <p class="hint">Chaque analyse alimente directement la rédaction des prochains memes. ${ins ? `Dernière mise à jour ${ago(ins.generatedAt)}.` : "Aucune donnée pour l'instant."}</p></div>`;
-  if (!s) return help;
+  const steps = `<ol class="hint"><li>Sur linkedin.com : <b>ton profil → Analytics</b>, puis <b>Exporter</b>, période <b>365 jours</b>.</li><li>Tu obtiens un seul fichier <b>AggregateAnalytics_….xlsx</b> (contenu + abonnés + démographie).</li><li>Ici : <b>📥 Importer l'export</b> et choisis ce fichier. À refaire 1 fois par mois : les imports s'additionnent.</li></ol>`;
+  const buttons = `<div class="row"><button class="btn primary" data-act="li-import">📥 Importer l'export</button><button class="btn" data-act="li-analyze">🧠 Relancer l'analyse</button></div>
+    <input type="file" id="liFile" accept=".xlsx,.xls,.csv" multiple hidden>
+    ${waiting ? `<div class="wait" style="margin-top:10px">⏳ Import et analyse en cours (2 à 4 minutes)…</div>` : ""}`;
+  if (!s) return `<div class="card stp"><h3>📊 Statistiques de ton profil</h3><p class="hint">LinkedIn ne laisse pas lire les statistiques d'un profil perso avec le jeton de publication : on passe par l'export officiel (2 minutes).</p>${steps}${buttons}</div>`;
+  const head = `<div class="card stp"><h3>📊 Ton profil LinkedIn</h3>${buttons}
+    <p class="hint">Données ${ins.period ? `du ${fmtDay(ins.period.from, { day: "numeric", month: "short", year: "numeric" })} au ${fmtDay(ins.period.to, { day: "numeric", month: "short", year: "numeric" })}` : ""} · mises à jour ${ago(ins.generatedAt)}.</p>
+    <details class="adv"><summary>Comment mettre à jour ?</summary>${steps}</details></div>`;
+
+  // Chiffres clés sur la période choisie
+  const ser = s.series || [];
+  const days = liView.range === "all" ? ser.length : Number(liView.range);
+  const win = ser.slice(-days), prev = ser.slice(-2 * days, -days);
+  const sum = (rows, k) => rows.reduce((t, r) => t + (r[k] || 0), 0);
+  const delta = (k) => { if (prev.length < days) return ""; const b = sum(prev, k), c = sum(win, k); if (!b) return ""; const d = Math.round((100 * (c - b)) / b); return ` <span class="sub">${d >= 0 ? "▲" : "▼"} ${Math.abs(d)} % vs période précédente</span>`; };
+  const rangeLabel = { 30: "30 jours", 90: "90 jours", all: "12 mois" }[liView.range] || `${days} jours`;
+  const seg = `<div class="seg">${[["30", "30 j"], ["90", "90 j"], ["all", "12 mois"]].map(([v, l]) => `<button class="chip ${liView.range === v ? "on" : ""}" data-act="li-range" data-v="${v}">${l}</button>`).join("")}</div>`;
   const k = (v, l) => `<div class="kpi"><b>${v}</b><span>${l}</span></div>`;
-  const kpis = `<div class="card"><h3>Chiffres clés</h3><div class="kpis">
-    ${k(fmtN(s.followers), "abonnés")}${k(fmtN(s.last30?.impressions), "impressions (30 j)")}${k(fmtN(s.last30?.engagements), "engagements (30 j)")}
-    ${k((s.last30?.newFollowers >= 0 ? "+" : "") + fmtN(s.last30?.newFollowers), "abonnés gagnés (30 j)")}${k(fmtN(s.medianImpressions), "impressions / post (médiane)")}${k(s.medianRate == null ? "–" : String(s.medianRate).replace(".", ",") + " %", "taux d'engagement médian")}</div>
-    <p class="hint">${s.posts} posts suivis, dont ${s.postsWithText} avec leur texte. LinkedIn n'exporte que les 50 meilleurs posts de la période.</p></div>`;
+  const kpis = `<div class="card"><h3>Tes chiffres · ${rangeLabel}</h3>${seg}<div class="kpis">
+    ${k(fmtN(s.followers), "abonnés aujourd'hui")}${k(fmtN(sum(win, 1)), "impressions")}${k(fmtN(sum(win, 2)), "interactions")}
+    ${k("+" + fmtN(sum(win, 3)), "nouveaux abonnés")}${k(fmtPct(sum(win, 1) ? (100 * sum(win, 2)) / sum(win, 1) : null), "taux d'engagement")}${k(fmtN(s.medianImpressions), "impressions / post (médiane)")}</div>`;
+
+  // Courbes
+  const charts = ser.length ? `<h3 style="margin-top:14px">📈 Évolution</h3>
+    ${chartHtml("impr", "Impressions", win, 1, sum(win, 1), delta(1), s.ranking)}
+    ${chartHtml("eng", "Interactions", win, 2, sum(win, 2), delta(2), s.ranking)}
+    ${chartHtml("fol", "Abonnés", win, 4, win.at(-1)?.[4], ` <span class="sub">+${fmtN(sum(win, 3))} sur la période</span>`)}
+    <p class="hint">Touche ou glisse sur une courbe pour voir le détail. <span style="color:var(--mark)">●</span> = un de tes 5 posts les plus vus.${liView.range === "all" ? " Sur 12 mois, chaque point = une semaine." : ""}</p></div>` : "</div>";
+
+  // Classement des posts
+  const [rl, rf] = RANKS[liView.rank] || RANKS.impressions;
+  const ranked = (s.ranking || []).filter((p) => rf(p) != null).sort((x, y) => rf(y) - rf(x));
+  const fmtR = (p) => (liView.rank === "rate" ? fmtPct(rf(p)) : fmtN(rf(p)));
+  const max = ranked.length ? rf(ranked[0]) || 1 : 1;
+  const top = ranked[0];
+  const rank = `<div class="card"><h3>🏆 Tes posts qui ont le plus marché</h3>
+    <div class="seg">${Object.entries(RANKS).map(([key, [l]]) => `<button class="chip ${liView.rank === key ? "on" : ""}" data-act="li-rank" data-v="${key}">${l}</button>`).join("")}</div>
+    ${top ? `<a class="hero1" href="${esc(top.url)}" target="_blank" rel="noopener"><span class="st">N°1 · ${esc(rl.replace(/^\S+ /, ""))}</span>
+      <div class="t">${esc(postTitle(top))}…</div>
+      <div class="m"><span><b>${fmtN(top.impressions)}</b> impressions</span><span><b>${fmtN(top.engagements)}</b> interactions</span>${top.rate != null ? `<span><b>${fmtPct(top.rate)}</b> taux</span>` : ""}${top.followersGained != null ? `<span><b>+${fmtN(top.followersGained)}</b> abonnés</span>` : ""}<span>${top.publishedAt ? esc(fmtDay(top.publishedAt.slice(0, 10), { day: "numeric", month: "long", year: "numeric" })) : ""}</span></div></a>` : `<p class="hint">Aucun post avec ce chiffre dans l'export.</p>`}
+    ${ranked.slice(1, 10).map((p, i) => `<a class="rk" href="${esc(p.url)}" target="_blank" rel="noopener"><span class="n">${i + 2}</span><span><div class="t">${esc(postTitle(p))}…</div>
+      <div class="m">${fmtR(p)} ${esc(rl.replace(/^\S+ /, "").toLowerCase())} · ${p.publishedAt ? esc(fmtDay(p.publishedAt.slice(0, 10), { day: "numeric", month: "short", year: "2-digit" })) : ""}</div>
+      <div class="b" style="width:${Math.max(1, (100 * rf(p)) / max)}%"></div></span></a>`).join("")}
+    <p class="hint">${liView.rank === "followersGained" ? "Les abonnés gagnés ne sont donnés que pour les posts récents." : liView.rank === "rate" ? "Posts avec au moins 300 impressions." : "LinkedIn n'exporte que les 50 meilleurs posts de l'année."} Touche un post pour l'ouvrir.</p></div>`;
+
   const ul = (t, xs) => (xs && xs.length ? `<h4>${t}</h4><ul>${xs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : "");
   const analysis = a ? `<div class="card ins"><h3>🧠 Ce que montrent tes stats</h3><p>${esc(a.summary)}</p>
     ${ul("✅ Ce qui marche", a.what_works)}${ul("⛔ À éviter", a.what_to_avoid)}${a.best_times ? `<h4>🕒 Quand publier</h4><p>${esc(a.best_times)}</p>` : ""}
-    ${ul("🪝 Accroches qui marchent", a.hook_patterns)}${ul("✍️ Règles appliquées aux prochains memes", a.writing_rules)}${ul("🧪 À tester", a.topics_to_test)}
+    ${ul("🪝 Accroches qui marchent", a.hook_patterns)}${ul("✍️ Règles pour tes prochains posts", a.writing_rules)}${ul("🧪 À tester", a.topics_to_test)}
     <p class="hint">Fiabilité : ${esc(a.confidence)} · analyse ${ins.analysisAt ? ago(ins.analysisAt) : ""}</p></div>`
-    : `<div class="card"><p class="hint">L'analyse par Claude apparaîtra ici (il faut au moins 3 posts avec des chiffres et la clé ANTHROPIC_API_KEY).</p></div>`;
-  const post = (p) => `<div class="tp"><a href="${esc(p.url)}" target="_blank" rel="noopener">${p.publishedAt ? esc(fmtParis(p.publishedAt)) : "Post"}</a> · ${fmtN(p.impressions)} impressions · ${fmtN(p.engagements)} engagements${p.rate != null ? ` · ${String(p.rate).replace(".", ",")} %` : ""}
-    ${p.text || p.angle ? `<div class="tx">${esc((p.text || p.angle).slice(0, 220))}${(p.text || "").length > 220 ? "…" : ""}</div>` : ""}</div>`;
-  const tops = `<div class="card"><h3>🏆 Meilleurs posts (engagements)</h3>${(s.topByEngagements || []).slice(0, 5).map(post).join("") || `<p class="hint">Aucun.</p>`}</div>
-    <div class="card"><h3>👀 Plus vus (impressions)</h3>${(s.topByImpressions || []).slice(0, 5).map(post).join("") || `<p class="hint">Aucun.</p>`}</div>`;
-  const grp = (t, rows) => (rows && rows.length ? `<h4>${t}</h4><table class="grp"><tr><th></th><th>posts</th><th>impr. médianes</th><th>taux</th></tr>${rows.map((r) => `<tr><td>${esc(r.key)}</td><td>${r.posts}</td><td>${fmtN(r.medianImpressions)}</td><td>${r.medianRate == null ? "–" : String(r.medianRate).replace(".", ",") + " %"}</td></tr>`).join("")}</table>` : "");
-  const groups = `<div class="card ins"><h3>📐 Détail</h3>${grp("Par jour", s.byWeekday)}${grp("Par heure de publication", s.byHour)}${grp("Par format de meme", s.byMemeFormat)}${grp("Par longueur de texte", s.byLength)}</div>`;
-  return help + kpis + analysis + tops + groups;
+    : `<div class="card"><p class="hint">🧠 L'analyse par Claude apparaîtra ici après l'import (clé ANTHROPIC_API_KEY nécessaire).</p></div>`;
+  const grp = (t, rows) => (rows && rows.length ? `<h4>${t}</h4><table class="grp"><tr><th></th><th>posts</th><th>impr. médianes</th><th>taux</th></tr>${rows.map((r) => `<tr><td>${esc(r.key)}</td><td>${r.posts}</td><td>${fmtN(r.medianImpressions)}</td><td>${fmtPct(r.medianRate)}</td></tr>`).join("")}</table>` : "");
+  const demo = (s.demographics || []).filter((d) => d.scope !== "contenu");
+  const demoCats = [...new Set(demo.map((d) => d.category))];
+  const groups = `<div class="card ins"><h3>📐 Détail</h3>${grp("Par jour de publication", s.byWeekday)}${grp("Par heure de publication (8 meilleures)", (s.byHour || []).slice(0, 8))}
+    ${demoCats.length ? `<h4>👥 Qui te suit</h4>${demoCats.map((c) => `<p class="hint"><b>${esc(c)}</b> : ${demo.filter((d) => d.category === c).slice(0, 4).map((d) => `${esc(d.value)} (${d.percent < 1 ? "< 1" : fmtN(d.percent)} %)`).join(", ")}</p>`).join("")}` : ""}</div>`;
+  return head + kpis + charts + rank + analysis + groups;
 }
+
+// Courbe : une seule mesure par graphique (pas de double axe). Sur 12 mois, regroupement par semaine.
+function chartBins(rows, col) {
+  if (rows.length <= 120) return rows.map((r) => ({ from: r[0], to: r[0], v: r[col] }));
+  const out = [];
+  for (let end = rows.length; end >= 7; end -= 7) { // semaines complètes, la dernière finit aujourd'hui
+    const chunk = rows.slice(end - 7, end);
+    const vals = chunk.map((r) => r[col]).filter((v) => v != null);
+    out.unshift({ from: chunk[0][0], to: chunk.at(-1)[0], v: vals.length ? (col === 4 ? vals.at(-1) : vals.reduce((a, b) => a + b, 0)) : null });
+  }
+  return out;
+}
+const liCharts = {};
+function chartHtml(id, label, rows, col, total, extra, ranking) {
+  const bins = chartBins(rows, col).filter((b) => b.v != null);
+  if (bins.length < 2) return "";
+  const vals = bins.map((b) => b.v);
+  let lo = col === 4 ? Math.min(...vals) : 0, hi = Math.max(...vals);
+  if (hi === lo) hi = lo + 1;
+  const pad = col === 4 ? (hi - lo) * 0.1 : 0;
+  lo = Math.max(0, lo - pad); hi += pad;
+  const X = (i) => (100 * i) / (bins.length - 1), Y = (v) => 100 - (100 * (v - lo)) / (hi - lo);
+  const pts = bins.map((b, i) => `${X(i).toFixed(2)},${Y(b.v).toFixed(2)}`).join(" ");
+  // Repères : les 5 posts les plus vus, placés sur le point de leur jour (ou de leur semaine).
+  const marks = (ranking || []).filter((p) => p.impressions != null && p.publishedAt).sort((x, y) => y.impressions - x.impressions).slice(0, 5)
+    .map((p) => { const d = p.publishedAt.slice(0, 10); const i = bins.findIndex((b) => d >= b.from && d <= b.to); return i < 0 ? null : { i, p }; }).filter(Boolean);
+  liCharts[id] = { bins, col, label, marks, X, Y };
+  const mid = (lo + hi) / 2;
+  return `<div class="lichart" data-chart="${id}"><h4>${esc(label)}</h4><div><span class="big">${fmtN(total)}</span>${extra || ""}</div>
+    <div class="plot">
+      <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-label="${esc(label)}">
+        <line x1="0" x2="100" y1="${Y(hi)}" y2="${Y(hi)}" stroke="var(--line)" vector-effect="non-scaling-stroke"/>
+        <line x1="0" x2="100" y1="${Y(mid)}" y2="${Y(mid)}" stroke="var(--line)" vector-effect="non-scaling-stroke"/>
+        <line x1="0" x2="100" y1="100" y2="100" stroke="var(--muted)" stroke-opacity=".5" vector-effect="non-scaling-stroke"/>
+        ${col === 4 ? "" : `<polygon points="0,100 ${pts} 100,100" fill="var(--chart)" fill-opacity=".12"/>`}
+        <polyline points="${pts}" fill="none" stroke="var(--chart)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+      </svg>
+      <span class="yl" style="top:${Y(hi)}%">${fmtN(Math.round(hi))}</span><span class="yl" style="top:${Y(mid)}%">${fmtN(Math.round(mid))}</span>
+      ${col === 1 ? marks.map((m) => `<span class="pm" style="left:${X(m.i)}%;top:${Y(bins[m.i].v)}%"></span>`).join("") : ""}
+      <span class="hl-line"></span><span class="hd"></span><div class="tip"></div>
+    </div>
+    <div class="xl"><span>${esc(fmtDay(bins[0].from))}</span><span>${esc(fmtDay(bins[Math.floor(bins.length / 2)].from))}</span><span>${esc(fmtDay(bins.at(-1).to))}</span></div></div>`;
+}
+function chartHover(e) {
+  const el = e.target.closest?.(".lichart");
+  document.querySelectorAll(".lichart").forEach((c) => { if (c !== el) { c.querySelector(".tip").style.display = c.querySelector(".hl-line").style.display = c.querySelector(".hd").style.display = "none"; } });
+  if (!el) return;
+  const c = liCharts[el.dataset.chart]; if (!c) return;
+  const plot = el.querySelector(".plot"), r = plot.getBoundingClientRect();
+  const i = Math.max(0, Math.min(c.bins.length - 1, Math.round(((e.clientX - r.left) / r.width) * (c.bins.length - 1))));
+  const b = c.bins[i], x = c.X(i), y = c.Y(b.v);
+  const line = plot.querySelector(".hl-line"), dot = plot.querySelector(".hd"), tip = plot.querySelector(".tip");
+  line.style.display = dot.style.display = tip.style.display = "block";
+  line.style.left = x + "%"; dot.style.left = x + "%"; dot.style.top = y + "%";
+  const when = b.from === b.to ? fmtDay(b.from, { weekday: "short", day: "numeric", month: "short" }) : `sem. du ${fmtDay(b.from)}`;
+  const posts = c.col === 1 ? c.marks.filter((m) => m.i === i).map((m) => `<div>⭐ ${esc(postTitle(m.p))}…</div>`).join("") : "";
+  tip.innerHTML = `<div>${esc(when)}</div><b>${fmtN(b.v)}</b> ${esc(c.col === 4 ? "abonnés" : c.label.toLowerCase())}${posts}`;
+  tip.style.left = Math.min(Math.max(x, 22), 78) + "%";
+}
+document.addEventListener("pointermove", chartHover);
+document.addEventListener("pointerdown", chartHover);
 
 // Conversion de l'export .xlsx dans le navigateur (SheetJS), compression, puis envoi au workflow.
 async function loadSheetJs() {
@@ -824,24 +947,30 @@ async function gzip64(text) {
   let bin = ""; for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
   return btoa(bin);
 }
-async function importLiExport(file) {
+// Plusieurs fichiers (« Statistiques sur le contenu » + « Statistiques sur l'audience ») : leurs feuilles
+// sont réunies dans un seul envoi, préfixées par le numéro du fichier pour éviter les doublons de noms.
+async function importLiExport(files) {
   const XLSX = await loadSheetJs();
-  const wb = XLSX.read(await file.arrayBuffer(), { type: "array", cellDates: true });
   const sheets = {};
-  for (const name of wb.SheetNames) {
-    const rows = XLSX.utils.sheet_to_json(wb.Sheets[name], { header: 1, raw: true, defval: "" });
-    sheets[name] = rows.map((r) => { const x = r.map((c) => (c instanceof Date ? c.toISOString() : c)); while (x.length && x[x.length - 1] === "") x.pop(); return x; }).filter((r) => r.length);
+  for (const [k, file] of files.entries()) {
+    const wb = XLSX.read(await file.arrayBuffer(), { type: "array", cellDates: true });
+    for (const name of wb.SheetNames) {
+      const rows = XLSX.utils.sheet_to_json(wb.Sheets[name], { header: 1, raw: true, defval: "" });
+      sheets[files.length > 1 ? `${k + 1}·${name}` : name] = rows.map((r) => { const x = r.map((c) => (c instanceof Date ? c.toISOString() : c)); while (x.length && x[x.length - 1] === "") x.pop(); return x; }).filter((r) => r.length);
+    }
   }
-  const data = "gz:" + (await gzip64(JSON.stringify({ name: file.name, sheets })));
-  if (data.length > 60000) throw new Error("Fichier trop gros pour être envoyé d'un coup : exporte une période plus courte");
+  const name = files.map((f) => f.name).join(" + ").slice(0, 200);
+  const data = "gz:" + (await gzip64(JSON.stringify({ name, sheets })));
+  if (data.length > 60000) throw new Error("Fichiers trop gros pour être envoyés d'un coup : importe-les l'un après l'autre");
   if (!cfg.token) { $("dlgSettings").showModal(); throw new Error("Jeton GitHub manquant"); }
-  await gh(`/repos/${cfg.repo}/actions/workflows/linkedin-stats.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "importer", data, name: file.name.slice(0, 100) } }) });
+  await gh(`/repos/${cfg.repo}/actions/workflows/linkedin-stats.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "importer", data, name } }) });
   store.set("liStatsWait", JSON.stringify(Date.now()));
   setTimeout(loadRuns, 4000);
 }
 document.addEventListener("change", async (e) => {
-  if (e.target.id !== "liFile" || !e.target.files[0]) return;
-  try { toast("📥 Lecture du fichier…"); await importLiExport(e.target.files[0]); render(); toast("📊 Export envoyé : analyse dans 2 à 4 minutes", 4500); }
+  if (e.target.id !== "liFile" || !e.target.files.length) return;
+  const files = [...e.target.files];
+  try { toast(`📥 Lecture de ${files.length > 1 ? `${files.length} fichiers` : "du fichier"}…`); await importLiExport(files); render(); toast(`📊 ${files.length > 1 ? "Exports envoyés" : "Export envoyé"} : analyse dans 2 à 4 minutes`, 4500); }
   catch (err) { toast(err.message, 6000); }
   e.target.value = "";
 });
@@ -921,6 +1050,8 @@ async function liAction(t) {
     }
     if (act === "li-idea") return openIdea();
     if (act === "li-import") { $("liFile").click(); return; }
+    if (act === "li-range") { liView.range = t.dataset.v; store.set("liRange", liView.range); render(); return; }
+    if (act === "li-rank") { liView.rank = t.dataset.v; store.set("liRank", liView.rank); render(); return; }
     if (act === "li-analyze") {
       if (!cfg.token) { $("dlgSettings").showModal(); return; }
       await gh(`/repos/${cfg.repo}/actions/workflows/linkedin-stats.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "analyser" } }) });

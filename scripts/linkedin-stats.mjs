@@ -44,7 +44,9 @@ writeSideFile(STATS_FILE, stats);
 const summary = computeSummary(stats);
 const previous = readJsonIfExists(INSIGHTS_FILE, null);
 const ai = args["no-ai"] ? null : await analyze({ stats, summary, cfg }).catch((e) => { console.log(`  Analyse IA en échec : ${e.message}`); return null; });
-const insights = { generatedAt: new Date().toISOString(), summary, analysis: ai || previous?.analysis || null, analysisAt: ai ? new Date().toISOString() : previous?.analysisAt || null, examples: bestExamples(stats) };
+const days = Object.keys(stats.daily).sort();
+const period = stats.discovery?.period || (days.length ? { from: days[0], to: days.at(-1) } : null);
+const insights = { generatedAt: new Date().toISOString(), period, summary, analysis: ai || previous?.analysis || null, analysisAt: ai ? new Date().toISOString() : previous?.analysisAt || null, examples: bestExamples(stats) };
 writeSideFile(INSIGHTS_FILE, insights);
 
 console.log(`✓ ${summary.posts} post(s) suivis, ${summary.postsWithText} avec texte · médiane ${summary.medianImpressions ?? "?"} impressions / ${summary.medianEngagements ?? "?"} engagements`);
