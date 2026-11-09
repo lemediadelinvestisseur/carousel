@@ -1345,7 +1345,16 @@
           "Les futurs satellites espions français n'arriveront pas avant 2033"
         ],
         "coverPhoto": true
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-10T07:00:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-09T21:47:21.618Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "22f8a9e130",
@@ -11315,5 +11324,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T21:46:56.225Z"
+  "updatedAt": "2026-11-09T21:47:21.618Z"
 }
