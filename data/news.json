@@ -4539,7 +4539,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "21m2",
       "score": 5,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "41 candidats par annonce à Paris, chiffre frappant.",
       "hook": "41 candidats par annonce : la folie locative parisienne",
@@ -9210,5 +9210,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:17:51.223Z"
+  "updatedAt": "2026-11-09T17:17:58.960Z"
 }
