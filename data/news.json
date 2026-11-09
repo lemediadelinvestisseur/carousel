@@ -3094,7 +3094,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 10,
       "reason": "Touche directement des millions d'utilisateurs crypto français.",
@@ -3710,5 +3710,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T00:44:25.634Z"
+  "updatedAt": "2026-11-09T06:13:01.669Z"
 }
