@@ -1,0 +1,121 @@
+{
+  "item": {
+    "id": "d4860c4ff9",
+    "title": "Airbus : l'A350-1000ULR décroche le record du plus long vol commercial jamais réalisé",
+    "summary": "L'A350-1000ULR a officiellement décroché le record du plus long vol jamais réalisé par un avion commercial. L'exploit, accompli entre l'Australie et la France en juillet, vient d'être homologué par le Guinness…",
+    "link": "https://www.lerevenu.com/reussir-bourse/actualite-societe/airbus-l-a350-1000ulr-decroche-le-record-du-plus-l",
+    "image": "https://cdn.overlord.media/odysee_technologies_un_avenir_prometteur_5a155d30_383ca2659b.webp",
+    "source": "Le Revenu Immobilier",
+    "via": "rss",
+    "publishedAt": "2026-11-09T18:09:41.000Z",
+    "collectedAt": "2026-11-09T19:07:17.382Z",
+    "brand": "investisseur",
+    "score": 2,
+    "status": "generating",
+    "aiScore": 7,
+    "reason": "Record Airbus, fierté française et chiffre frappant.",
+    "hook": "Airbus signe le plus long vol commercial de l'histoire"
+  },
+  "carousel": {
+    "category": "Actualité",
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "",
+        "title": "24 heures sans escale : Airbus arrache à Boeing un record vieux de 21 ans",
+        "body": "",
+        "bullets": [],
+        "image_query": "Airbus A350-1000 in flight",
+        "image_entity": "Airbus A350"
+      },
+      {
+        "kind": "content",
+        "kicker": "LES CHIFFRES",
+        "title": "**23 155 km** en 24 h 24, sans escale",
+        "body": "L'A350-1000ULR a décollé de **Melbourne** le 27 juillet à 17h27 et s'est posé à **Toulouse** le lendemain à 9h51, heure locale. Soit 12 503 milles nautiques d'une traite.\nLes données ont été vérifiées par la **Fédération aéronautique internationale** et par **Flightradar24**. Airbus a annoncé le record Guinness ce 9 novembre.",
+        "bullets": [],
+        "image_query": "Melbourne skyline sunset panorama",
+        "image_entity": "Melbourne"
+      },
+      {
+        "kind": "content",
+        "kicker": "LE DÉTOUR",
+        "title": "Un grand détour fait exprès",
+        "body": "La route directe Melbourne-Toulouse ne fait qu'environ **9 100 milles nautiques**, trop peu pour battre le record. L'avion a donc fait le grand tour : **Pacifique**, Amérique du Nord, Atlantique, puis Royaume-Uni.\nAttention, c'était un **vol d'essai** sans passagers payants. À bord, 13 personnes : pilotes Airbus et **Qantas**, ingénieurs et un représentant de la FAI.",
+        "bullets": [],
+        "image_query": "Airbus A350 cockpit pilots",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LE RECORD BATTU",
+        "title": "**Boeing** tenait le record depuis 2005",
+        "body": "L'ancien record appartenait à un **Boeing 777-200LR**. Les 9 et 10 novembre 2005, il avait relié **Hong Kong** à **Londres** en 22 h 42, sur 11 664 milles nautiques.\nAirbus fait mieux de près de **840 milles nautiques** et de 1 h 42 de vol. Il reprend ainsi à son grand rival un record vieux de 21 ans.",
+        "bullets": [],
+        "image_query": "Boeing 777-200LR",
+        "image_entity": "Boeing 777"
+      },
+      {
+        "kind": "content",
+        "kicker": "POURQUOI ?",
+        "title": "Tout ça pour **Qantas**",
+        "body": "La compagnie australienne veut relier **Sydney** à **Londres** et à **New York** sans escale : près de 10 000 milles nautiques et jusqu'à 22 h de vol. C'est son « **Project Sunrise** ».\nPour valider l'avion, Qantas exigeait un vol d'essai de 23 h. Elle a commandé 12 A350-1000ULR, plus 12 A350-1000 classiques.",
+        "bullets": [],
+        "image_query": "Qantas Airbus A350-1000",
+        "image_entity": "Qantas"
+      },
+      {
+        "kind": "content",
+        "kicker": "L'AVION",
+        "title": "Ce qui a changé dans l'avion",
+        "body": "Airbus a ajouté un **réservoir arrière** d'environ 20 000 litres, qui donne près de 1 000 milles nautiques d'autonomie en plus. La masse maximale au décollage a aussi été relevée.\nL'avion vole avec des moteurs **Rolls-Royce Trent XWB-97**. Son système de refroidissement, allégé de 300 kg, sera étendu à toute la gamme **A350** selon Airbus.",
+        "bullets": [],
+        "image_query": "Rolls-Royce Trent XWB engine",
+        "image_entity": "Rolls-Royce Trent XWB"
+      },
+      {
+        "kind": "content",
+        "kicker": "EN BOURSE",
+        "title": "L'action Airbus a pris **4,5 %**",
+        "body": "Ce lundi vers 16h30, l'action **Airbus** gagnait environ 4,5 % à Paris. Mais le record n'explique pas tout : le titre profitait aussi d'une commande de la **DGA**.\nAucune source ne chiffre ce que rapportera le **contrat Qantas**. Fin octobre, la gamme **A350** comptait 1 628 commandes de 70 clients.",
+        "bullets": [],
+        "image_query": "Airbus headquarters Toulouse Blagnac",
+        "image_entity": "Airbus"
+      },
+      {
+        "kind": "content",
+        "kicker": "ET APRÈS ?",
+        "title": "Les premiers passagers en 2027",
+        "body": "Qantas doit recevoir son premier A350-1000ULR, baptisé « **Vega** », en **avril 2027**. Les billets Sydney-Londres seront en vente dès février 2027, pour un lancement prévu en octobre selon la presse spécialisée.\nLe Sydney-New York suivra **mi-2028**. Un retard de livraison décalerait tout le **calendrier**.",
+        "bullets": [],
+        "image_query": "Sydney Opera House sunset panorama",
+        "image_entity": "Sydney Opera House"
+      },
+      {
+        "kind": "cta",
+        "kicker": "",
+        "title": "Tu tiendrais **22 heures** dans un avion sans escale ?",
+        "body": "Dis-nous en commentaire si tu réserverais un Sydney-Londres direct 👇",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      }
+    ],
+    "hook_alternatives": [
+      "Un Airbus a volé 24 heures sans escale, un record mondial",
+      "23 155 km sans escale : le nouveau record d'Airbus",
+      "Airbus reprend à Boeing le record du plus long vol"
+    ],
+    "caption": "Un Airbus a volé 24 heures et 24 minutes sans escale, un record mondial.\n\nL'A350-1000ULR a relié Melbourne à Toulouse les 27 et 28 juillet, sur 23 155 km. Airbus a annoncé ce lundi le record Guinness du plus long vol jamais réalisé par un avion de ligne. Il bat de près de 840 milles nautiques celui du Boeing 777-200LR, qui tenait depuis 2005.\n\nPrécision importante : ce n'était pas un vol avec des passagers. C'était un vol d'essai opéré par Airbus, avec 13 personnes à bord. Pour atteindre la distance, l'avion a même fait exprès un grand détour par le Pacifique et l'Amérique du Nord.\n\n• Le vrai client, c'est Qantas. La compagnie australienne a commandé 12 exemplaires de cette version pour relier Sydney à Londres et à New York sans escale, avec jusqu'à 22 heures de vol.\n\n• Pour y arriver, Airbus a ajouté un réservoir d'environ 20 000 litres, qui donne à peu près 1 000 milles nautiques d'autonomie supplémentaire.\n\nEn Bourse, l'action Airbus gagnait environ 4,5 % ce lundi après-midi à Paris. Le record n'explique pas tout : le titre profitait aussi d'une commande de la DGA, et aucune source ne chiffre ce que le contrat Qantas rapportera.\n\nLa suite à surveiller : la livraison du premier avion en avril 2027, puis le lancement du Sydney-Londres prévu à l'automne 2027.\n\nTu serais prêt à passer 22 heures dans un avion pour éviter une escale ?\n\n🔔 Abonne-toi à @lemediadelinvestisseur pour ne rien rater de l'actu qui touche ton argent.",
+    "sources": [
+      "Airbus",
+      "Boursorama",
+      "Zonebourse",
+      "Aerospace Global News",
+      "Aviation A2Z",
+      "Flying Magazine"
+    ],
+    "dossier": "# Dossier : l'Airbus A350-1000ULR bat le record du plus long vol d'avion de ligne\n\n**À savoir sur mes recherches :** j'ai consulté 5 sources : un communiqué Airbus, Boursorama/Zonebourse (seule source en français), Aerospace Global News, Aviation A2Z et Flying Magazine. Un problème technique m'a limité à une seule vraie recherche web. Je n'ai donc pas pu vérifier les autres sujets Airbus cités dans les liens de Le Revenu (rachat d'actions, Banque européenne d'investissement contre Washington, commande de la DGA). Je n'ai pas lu l'article complet de Le Revenu, seulement l'extrait que vous m'avez donné.\n\n---\n\n## 1. Les faits\n\n| Fait | Détail | Source |\n|---|---|---|\n| **Quoi** | Record Guinness du plus long vol en distance pour un avion de ligne commercial | Communiqué Airbus, Boursorama/Zonebourse, Aerospace Global News |\n| **Trajet** | Melbourne → Toulouse, sans escale, indicatif AIB35LR | Airbus, Aviation A2Z |\n| **Quand** | Départ le lundi 27 juillet 2026 à 17h27 heure locale, arrivée le mardi 28 juillet à 9h51 heure locale. Record annoncé le 9 novembre 2026 | Airbus, Aerospace Global News |\n| **Distance** | 12 503 milles nautiques, soit 23 155 km | Airbus, Boursorama |\n| **Durée** | 24 h 24 min | Airbus, Boursorama |\n| **Validation** | Données vérifiées par la Fédération aéronautique internationale (FAI) et par Flightradar24, un site de suivi des vols | Airbus, Boursorama |\n| **À bord** | 13 personnes : 3 pilotes d'essai Airbus, 2 pilotes Qantas, 5 ingénieurs d'essais, 2 ingénieurs de conception, 1 représentant de la FAI | Airbus |\n| **Record battu** | Boeing 777-200LR, Hong Kong → Londres, 9-10 novembre 2005 : 11 664 milles nautiques en 22 h 42 | Aerospace Global News, Flying Magazine |\n| **Client** | Qantas a commandé 12 A350-1000ULR pour son programme « Project Sunrise », plus 12 A350-1000 classiques | Airbus, Boursorama |\n| **Bourse** | L'action Airbus prenait environ +4,5 % vers 16h30 à Paris, « également » portée par une commande de la DGA | Boursorama/Zonebourse |\n\n**Itinéraire :** l'avion a volontairement fait le grand tour (Pacifique, Amérique du Nord, Atlantique, Royaume-Uni). La route directe ne fait qu'environ 9 100 milles nautiques, trop peu pour battre le record (Aerospace Global News).\n\n## 2. Le contexte : pourquoi ce vol ?\n\n- **La demande de Qantas.** Qantas veut relier Sydney à Londres et à New York sans escale. Cela représente près de 10 000 milles nautiques et jusqu'à 22 h de vol (Airbus, Boursorama).\n- **Une condition du programme d'essais.** Qantas exigeait un vol d'essai de 23 h, du départ à l'arrêt complet, pour simuler ses futures liaisons les plus longues (Airbus).\n- **Les modifications techniques :**\n  - un réservoir arrière supplémentaire d'environ 20 000 litres, qui ajoute environ 1 000 milles nautiques d'autonomie (Airbus, Boursorama, Aviation A2Z) ;\n  - une masse maximale au décollage augmentée ;\n  - un système de refroidissement plus léger d'environ 300 kg, qu'Airbus prévoit d'étendre à toute la gamme A350 (Aerospace Global News) ;\n  - des moteurs Rolls-Royce Trent XWB-97 (Aviation A2Z).\n- **La rivalité avec Boeing.** Airbus reprend un record que Boeing détenait depuis 21 ans (Aerospace Global News).\n\n## 3. Ce qui change concrètement pour un particulier français\n\n- **Pour un actionnaire d'Airbus :** c'est d'abord un succès d'image et de technique. Aucune source ne chiffre d'effet direct sur le chiffre d'affaires. La commande en jeu est connue : 12 avions pour Qantas.\n- **Le contexte de la gamme A350 :** fin octobre 2026, elle comptait 1 628 commandes de 70 clients et plus de 740 avions en service chez 42 compagnies (Airbus, Aviation A2Z).\n- **Pour un voyageur :** aucun effet immédiat. Ces vols partiront de Sydney, pas de France.\n- **Information manquante :** aucune source ne dit combien rapporte chaque avion ni ce que ce contrat pèse dans les comptes d'Airbus.\n\n## 4. Risques et points de vigilance\n\n1. **Titre trompeur.** Le Revenu parle de « plus long vol commercial ». Or c'était un **vol d'essai sans passagers payants**, opéré par Airbus. Le record porte sur un vol réalisé par un *avion de ligne commercial*. Aujourd'hui, les plus longs vols réguliers sont ceux de Singapore Airlines entre Singapour et New York (Aerospace Global News).\n2. **Qui détient le record ?** Le site espagnol Demócrata attribue le record à Qantas. Selon Airbus, c'est Airbus qui a opéré le vol.\n3. **Chiffres différents.** En juillet, Flying Magazine citait des chiffres non officiels : 12 460 milles nautiques (23 076 km). Le chiffre homologué est 12 503 milles nautiques (23 155 km).\n4. **Hausse de l'action due à plusieurs facteurs.** Boursorama lie la hausse de 4,5 % aussi à une commande de la DGA. Il ne faut pas tout attribuer au record.\n5. **Calendrier à surveiller.** Tout dépend de la livraison prévue en avril 2027. Un retard décalerait le lancement des lignes.\n6. **Sujets non vérifiés :** les critiques américaines sur le financement d'Airbus par la BEI et le rachat d'actions de 5 milliards d'euros apparaissent seulement dans les titres de Le Revenu. À vérifier avant publication.\n\n## 5. Solutions concrètes\n\n**Acteurs cités par les sources :**\n- **Airbus**, coté à Paris (Boursorama) ;\n- **Qantas**, client ;\n- **Rolls-Royce**, motoriste remercié par Airbus ;\n- **Flightradar24**, pour suivre les vols.\n\n**Démarches possibles :**\n- Lire le communiqué officiel d'Airbus du 9 novembre 2026 plutôt que les titres de presse.\n- Suivre le cours sur Boursorama.\n- Comparer avec les autres moteurs de la hausse, comme la commande de la DGA.\n\n**Hors sources (connaissances générales, à vérifier) :** on peut acheter des actions Airbus via un compte-titres ou un PEA. Les sources consultées ne disent rien sur l'éligibilité au PEA ni sur les fonds exposés au secteur. Je ne cite aucun fonds et ne donne aucun conseil en investissement.\n\n## 6. Perspectives\n\n| Étape | Date | Source |\n|---|---|---|\n| Ventes de billets Sydney-Londres | à partir de février 2027 | Aviation A2Z |\n| Livraison du 1er A350-1000ULR (baptisé « Vega ») | avril 2027 | Airbus, Boursorama, Aviation A2Z |\n| Lancement Sydney-Londres (vols QF1/QF2, quotidiens) | octobre 2027 selon Aerospace Global News et Aviation A2Z ; « plus tard dans l'année » selon Airbus et Boursorama | **les sources ne donnent pas le même niveau de détail** |\n| Ventes de billets Sydney-New York | août 2027 | Aviation A2Z |\n| Lancement Sydney-New York | mi-2028 | Aerospace Global News, Aviation A2Z |\n\n**Autres points à suivre :**\n- **Cabine :** 238 sièges, dont plus de 40 % en classes premium (6 Première, 52 Affaires, 40 Premium Éco, 140 Éco) (Aviation A2Z).\n- **A350F :** la version cargo a fait son premier vol le 29 septembre, pour neuf mois d'essais (Airbus).\n\n---\n\n**Proposition de carousel en 6 slides :**\n1. « 23 155 km sans escale »\n2. Le trajet en carte\n3. Le record de Boeing de 2005, battu\n4. Pourquoi : Qantas et son Project Sunrise\n5. Attention : un vol d'essai, pas un vol avec passagers\n6. Le calendrier 2027-2028",
+    "generator": "claude-opus-5-5"
+  }
+}
