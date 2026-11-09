@@ -5238,7 +5238,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 5,
       "reason": "Chiffre de la chute du VC français parlant.",
       "hook": "Levées French Tech divisées par deux depuis 2022"
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:19.503Z"
+  "updatedAt": "2026-11-09T20:23:23.054Z"
 }
