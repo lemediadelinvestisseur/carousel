@@ -3991,7 +3991,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Signe de bulle IA qui inquiète les investisseurs.",
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:55.766Z"
+  "updatedAt": "2026-11-09T20:24:35.340Z"
 }
