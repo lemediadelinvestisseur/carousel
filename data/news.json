@@ -46,7 +46,7 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 5,
       "reason": "Meta et course à l'IA, sujet porteur.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:22:43.983Z"
+  "updatedAt": "2026-11-09T20:22:52.341Z"
 }
