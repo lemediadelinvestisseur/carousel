@@ -17,7 +17,7 @@ Chaîne complète pour publier des carousels d'actualité chaque jour :
 
 ## Comment ça marche au quotidien
 
-1. **Toutes les 2 heures (6h–22h)**, GitHub Actions lit les sites listés dans `config/sources.json`.
+1. **Toutes les 2 heures (6h–22h)**, l'horloge (workflow « Horloge ») lance la collecte qui lit les sites listés dans `config/sources.json`.
 2. **Claude trie les actus** : note de 0 à 10 sur « est-ce que ça va faire réagir un public français ? », choix du compte, explication en une phrase et proposition d'accroche. Les actus internationales (TradingView, Zonebourse) sont filtrées sévèrement : on ne garde que ce qui parle aux Français (CAC 40, grandes marques, Bitcoin, BCE/Fed, épargne…).
 3. Les actus notées **7/10 ou plus** déclenchent une **notification push** sur votre téléphone (appli gratuite **ntfy**) avec un bouton **✅ Valider**, dans la limite de 3 par collecte et 10 par jour pour chaque compte.
 4. Le bouton ouvre le **dashboard** : vous choisissez le compte, ajoutez une consigne si besoin (« insister sur… »), et validez.
@@ -75,7 +75,7 @@ Collez-le dans le dashboard (⚙︎ Réglages). Il est stocké uniquement dans l
 ## Publication automatique sur Instagram et Facebook
 
 Dans le dashboard, onglet **Prêts** → **🚀 Publier** : choisis Instagram et/ou la Page Facebook, puis :
-- **🕒 Programmer** : date et heure (raccourcis 8 h, 12 h 30, 18 h, 21 h). Un veilleur, démarré à chaque programmation, publie à l'heure prévue (à 5 minutes près) ; la carte affiche « 🕒 Programmé … » avec un bouton **Annuler**. En cas d'échec, une notification te prévient.
+- **🕒 Programmer** : date et heure (raccourcis 8 h, 12 h 30, 18 h, 21 h). Une « horloge » qui tourne en permanence publie à l'heure prévue (à 1 minute près) ; la carte affiche « 🕒 Programmé … » avec un bouton **Annuler**. En cas d'échec, une notification te prévient.
 - **🚀 Publier maintenant**.
 - **🧪 Test** : tout est préparé chez Meta, rien n'est publié.
 

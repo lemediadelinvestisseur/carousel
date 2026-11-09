@@ -93,8 +93,8 @@ jobs:
           ./scripts/publish.sh "linkedin: $MODE $INPUT_ID"
         env:
           INPUT_ID: ${{ inputs.id }}
-      - name: Démarrage du veilleur des publications programmées
-        if: success() && env.MODE == 'programmer'
-        run: gh workflow run scheduler.yml --ref "$GITHUB_REF_NAME"
+      - name: Horloge en marche ?
+        if: always()
+        run: ./scripts/ensure-clock.sh
         env:
           GH_TOKEN: ${{ github.token }}
