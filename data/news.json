@@ -3854,7 +3854,7 @@
       "collectedAt": "2026-11-09T00:43:50.662Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 9,
       "reason": "Hausse des taux BCE : impact direct sur le crédit immobilier.",
       "hook": "La BCE remonte ses taux : votre crédit immobilier va coûter plus cher",
@@ -7079,5 +7079,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T13:48:33.951Z"
+  "updatedAt": "2026-11-09T13:48:49.865Z"
 }
