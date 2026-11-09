@@ -8912,15 +8912,21 @@
         ]
       },
       "instructions": "Garde la même chose que la première version mais améliore un peu le texte pour qu'il fasse + humain et mets des photos plus belles quand tu parles d'une personne \n",
-      "schedules": [
-        {
-          "at": "2026-11-09T17:20:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-09T17:15:52.890Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18154890853552174",
+          "url": "https://www.instagram.com/p/Dfh2t1PmBQj/",
+          "at": "2026-11-09T17:21:09.280Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122102302293541092",
+          "url": "https://www.facebook.com/1428714516991726_122102302293541092",
+          "at": "2026-11-09T17:21:29.675Z"
+        }
+      }
     },
     {
       "id": "2033573836",
@@ -9233,5 +9239,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:21:23.441Z"
+  "updatedAt": "2026-11-09T17:21:34.879Z"
 }
