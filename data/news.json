@@ -3614,7 +3614,7 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Bitcoin -14 % depuis janvier, fait réagir.",
       "hook": "Bitcoin sous 74 000 $ : -14 % depuis janvier",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:35.925Z"
+  "updatedAt": "2026-11-09T20:23:38.469Z"
 }
