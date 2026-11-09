@@ -2575,7 +2575,7 @@
       "collectedAt": "2026-11-09T15:07:14.008Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Conseil pratique d'épargne très partageable avec chiffre frappant.",
       "hook": "6 617 € sur le compte courant : vous en gardez trop ?"
@@ -10756,5 +10756,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:51.005Z"
+  "updatedAt": "2026-11-09T20:23:55.766Z"
 }
