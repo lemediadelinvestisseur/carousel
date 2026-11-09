@@ -5462,7 +5462,7 @@
       "collectedAt": "2026-11-09T17:07:14.892Z",
       "brand": "investisseur",
       "score": 1,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Crédit Agricole vise une fusion majeure en Italie.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:22:55.839Z"
+  "updatedAt": "2026-11-09T20:22:58.268Z"
 }
