@@ -961,11 +961,34 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "done",
       "international": true,
       "aiScore": 6,
       "reason": "Champions français et défense, thème souverain porteur.",
-      "hook": "Airbus et Thales s'allient pour des satellites militaires"
+      "hook": "Airbus et Thales s'allient pour des satellites militaires",
+      "generatedAt": "2026-11-09T20:53:23.415Z",
+      "carousel": {
+        "dir": "carousels/2026-11-09/investisseur-airbus-et-thales-vont-developper-des-sat-1e7596f00a",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 8,
+        "hooks": [
+          "La France commande ses futurs satellites espions à Airbus et Thales",
+          "La France met plus de 1,5 milliard dans ses satellites espions",
+          "Les futurs satellites espions français n'arriveront pas avant 2033"
+        ],
+        "coverPhoto": true
+      }
     },
     {
       "id": "22f8a9e130",
@@ -10756,5 +10779,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:28:51.205Z"
+  "updatedAt": "2026-11-09T20:53:23.415Z"
 }
