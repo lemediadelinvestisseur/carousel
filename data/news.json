@@ -852,7 +852,7 @@
       "collectedAt": "2026-11-09T19:07:17.382Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Bitcoin et Nvidia, sujets très suivis par les particuliers.",
@@ -10733,5 +10733,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T20:23:32.266Z"
+  "updatedAt": "2026-11-09T20:23:35.925Z"
 }
