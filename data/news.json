@@ -3225,7 +3225,30 @@
       "collectedAt": "2026-11-09T13:47:31.791Z",
       "brand": "21m2",
       "score": 1,
-      "status": "new"
+      "status": "done",
+      "generatedAt": "2026-11-09T17:21:18.635Z",
+      "carousel": {
+        "dir": "carousels/2026-11-09/21m2-ia-etats-unis-les-democrates-veulent-met-a7df665772",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 9,
+        "hooks": [
+          "Les Américains ne veulent plus de **data centers** chez eux",
+          "Data centers : les électeurs américains ont **sanctionné** Trump",
+          "Les démocrates veulent mettre la **Silicon Valley** au pas"
+        ]
+      }
     },
     {
       "id": "91137f7821",
@@ -9210,5 +9233,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-09T17:18:52.765Z"
+  "updatedAt": "2026-11-09T17:21:23.441Z"
 }
