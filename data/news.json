@@ -1222,7 +1222,16 @@
           "GTA VI : des précommandes « sans précédent » et Take-Two s'envole"
         ],
         "coverPhoto": true
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-10T18:30:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-10T18:29:33.648Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "09f761d242",
@@ -24578,5 +24587,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T18:11:23.018Z"
+  "updatedAt": "2026-11-10T18:29:33.649Z"
 }
