@@ -3313,7 +3313,7 @@
       "collectedAt": "2026-11-09T23:45:04.420Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 7,
       "reason": "Coulisses : Nvidia aurait fait suspendre une enquête fédérale, scandale potentiel.",
@@ -13565,5 +13565,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-10T05:07:54.252Z"
+  "updatedAt": "2026-11-10T06:16:50.742Z"
 }
