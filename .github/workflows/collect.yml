@@ -5,6 +5,11 @@ on:
     # Toutes les 2 heures de 6h à 22h (heure de Paris, ~UTC+1)
     - cron: "7 5-21/2 * * *"
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Vide = tout ; data = seulement les sites d'études (Visual Capitalist, Voronoi)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -28,6 +33,7 @@ jobs:
       - name: Collecte + notifications
         run: node scripts/collect.mjs
         env:
+          INPUT_ONLY: ${{ inputs.only }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
           CLAUDE_CURATION_MODEL: ${{ vars.CLAUDE_CURATION_MODEL }}
@@ -37,7 +43,10 @@ jobs:
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       - name: Publication
         run: |
-          ./scripts/publish.sh "actus: collecte $(date -u +%Y-%m-%dT%H:%M)"
+          if [ -n "$INPUT_ONLY" ]; then MSG="etudes: collecte"; else MSG="actus: collecte"; fi
+          ./scripts/publish.sh "$MSG $(date -u +%Y-%m-%dT%H:%M)"
+        env:
+          INPUT_ONLY: ${{ inputs.only }}
       - name: Horloge en marche ?
         if: always()
         run: ./scripts/ensure-clock.sh

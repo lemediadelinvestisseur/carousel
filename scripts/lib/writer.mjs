@@ -30,12 +30,28 @@ export const CarouselSchema = z.object({
 // ---------------------------------------------------------------------------
 // 1. Recherche
 // ---------------------------------------------------------------------------
+// Études et graphiques (Visual Capitalist, Voronoi…) : pas une actu, un sujet chiffré à raconter.
+function dataResearchPrompt(item, today) {
+  return `Nous sommes le ${today}. Prépare un dossier factuel sur cette ÉTUDE / ce GRAPHIQUE pour un carousel Instagram « Données » destiné à des investisseurs particuliers français.
+
+Sujet : ${item.title}
+Source : ${item.source} — ${item.link}
+
+Lis la page de la source (web_fetch), puis fais 1 à 3 recherches pour compléter. Le dossier doit contenir :
+1. Les chiffres du graphique, exacts, avec leur unité, leur année et la source des données (ex : « FMI, 2025 »).
+2. Le classement complet ou les 5 à 10 premiers, et les écarts les plus frappants.
+3. La position de la France (ou de l'Europe) si elle existe, sinon un point de comparaison parlant pour un Français (salaire moyen, Livret A, CAC 40…).
+4. Pourquoi c'est comme ça : 2 ou 3 explications sourcées.
+5. Ce que ça change ou dit pour un investisseur particulier.
+N'invente aucun chiffre : si une donnée manque, dis-le.`;
+}
+
 async function research(client, item, articleText) {
   const today = new Date().toLocaleDateString("fr-FR", { timeZone: "Europe/Paris", day: "numeric", month: "long", year: "numeric" });
   const messages = [
     {
       role: "user",
-      content: `Nous sommes le ${today}. Prépare un dossier factuel sur cette actualité pour un carousel Instagram destiné à des investisseurs particuliers français.
+      content: item.kind === "data" ? dataResearchPrompt(item, today) : `Nous sommes le ${today}. Prépare un dossier factuel sur cette actualité pour un carousel Instagram destiné à des investisseurs particuliers français.
 
 Actualité : ${item.title}
 Source d'origine : ${item.source} — ${item.link}
@@ -103,6 +119,12 @@ PAGES INTÉRIEURES — ADAPTE-LES À LA NATURE DE L'ACTU. Choisis et ordonne seu
 Chaque page : une étiquette (kicker), un titre court, 1 ou 2 paragraphes COURTS de 20 à 38 mots au total (une idée par page, ça doit se lire en 5 secondes), 2 à 4 mots-clés en **gras**.
 
 DERNIÈRE PAGE — CTA : la page est surtout un appel à s'abonner (déjà mis en page). title = une question TRÈS courte liée au sujet pour faire réagir en commentaire, 4 à 10 mots, sans gras (ex : « Tu avais des cryptos sur Binance ? »), body = vide.`;
+
+const DATA_GUIDE = `CE CAROUSEL N'EST PAS UNE ACTU : c'est un carousel « Données » tiré d'une étude ou d'un graphique (category = « Données », ou « Le saviez-vous ? » pour un fait historique).
+- Couverture : l'accroche CLIVANTE repose sur LE chiffre le plus choquant ou la comparaison qui pique (ex : « Un Suisse gagne 3 fois plus qu'un Français pour le même travail », « 10 entreprises valent plus que toute la Bourse européenne »). Pas de date d'actu, pas de « vient de ».
+- Pages intérieures, dans cet ordre : LES CHIFFRES (kind=list, 3 puces qui commencent par la valeur en **gras**), LE CLASSEMENT (kind=list, le top 3 à 5 avec les valeurs), ET LA FRANCE ? (la position de la France ou une comparaison parlante), POURQUOI (2 ou 3 explications), CE QUE ÇA CHANGE POUR TOI (seulement si c'est vrai). 4 à 7 pages au total.
+- Chaque chiffre est exact, avec son année et sa source (ex : « selon le FMI, 2025 ») dans la page ; convertis en euros quand c'est utile en le précisant (« soit environ … € »).
+- Photo de couverture : le sujet du chiffre (le pays, la ville, l'entreprise, l'objet), jamais le graphique de la source.`;
 
 const STYLE_GUIDE = `STYLE (très important) :
 - Écris comme un humain, journaliste éco qui tutoie un ami. Pas de formules creuses ou « d'IA » : pas de titres en métaphore bancale (« frais en approche », « perdre la main »), pas de « Décryptage », « Zoom sur », « Ce qu'il faut retenir ».
@@ -190,7 +212,7 @@ Source d'origine : ${item.source}
 ${item.reason ? `Pourquoi ça intéresse notre public : ${item.reason}\n` : ""}
 DOSSIER DE RECHERCHE :
 ${dossier || articleText || `(seulement le titre et le résumé : ${item.summary || "aucun"})`}
-${instructions ? `\nCONSIGNES SPÉCIFIQUES DE L'ÉDITEUR (prioritaires) :\n${instructions}\n` : ""}
+${item.kind === "data" ? `\n${DATA_GUIDE}\n` : ""}${instructions ? `\nCONSIGNES SPÉCIFIQUES DE L'ÉDITEUR (prioritaires) :\n${instructions}\n` : ""}
 Rédige le carousel. Pour la couverture, imagine une dizaine de phrases, garde la plus forte et mets 3 autres bonnes dans hook_alternatives.`;
 
   try {

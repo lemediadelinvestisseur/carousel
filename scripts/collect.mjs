@@ -40,7 +40,9 @@ async function discoverFeeds(page) {
 function googleNewsUrl(source) {
   const u = new URL(source.page);
   const q = source.googleNews || `site:${u.hostname.replace(/^www\./, "")}${u.pathname.replace(/\/$/, "")}`;
-  return `https://news.google.com/rss/search?q=${encodeURIComponent(q + " when:2d")}&hl=fr&gl=FR&ceid=FR:fr`;
+  // Sites d'études (anglais) : recherche Google News en anglais, sur une période plus longue.
+  const lang = source.kind === "data" ? "hl=en-US&gl=US&ceid=US:en" : "hl=fr&gl=FR&ceid=FR:fr";
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(`${q} when:${source.googleNewsWindow || "2d"}`)}&${lang}`;
 }
 
 async function fetchSource(source) {
@@ -107,23 +109,30 @@ const db = loadNews();
 const known = new Map(db.items.map((i) => [i.id, i]));
 const fresh = [];
 
-for (const source of cfg.sources) {
+// INPUT_ONLY=data : seulement les sites d'études (bouton « 📊 Études » du dashboard).
+const only = process.env.INPUT_ONLY || "";
+// Collecte normale : les sites d'études ne sont lus qu'une fois par jour (le stock est grand, on veut peu de sujets).
+const dailyState = readJsonIfExists("data/daily.json", {});
+const dataToday = dailyState.dataDate === today;
+const useSource = (src) => (only === "data" ? src.kind === "data" : src.kind !== "data" || !dataToday);
+for (const source of cfg.sources.filter(useSource)) {
   try {
     const { url, via, entries } = await fetchSource(source);
     let added = 0;
     for (const e of entries) {
       const published = e.publishedAt ? Date.parse(e.publishedAt) : now;
-      if (!(now - published <= maxAgeMs)) continue;
+      const maxAge = source.maxAgeDays ? source.maxAgeDays * 24 * 3600e3 : maxAgeMs;
+      if (!(now - published <= maxAge)) continue;
       const title = cleanTitle(e.title);
       const id = makeId(title);
       if (known.has(id)) continue;
       const { brand, score } = pickBrand(source, title, e.summary);
       // Sources internationales : on garde tout pour que Claude trie ; sans Claude, il faut au moins un mot-clé.
-      if (score <= 0 && !source.international) continue;
+      if (score <= 0 && !source.international && source.kind !== "data") continue;
       const item = {
         id, title, summary: e.summary === e.title ? "" : e.summary, link: e.link, image: e.image,
         source: source.name, via, publishedAt: new Date(published).toISOString(), collectedAt: new Date(now).toISOString(),
-        brand, score, status: "new", ...(source.international ? { international: true } : {}),
+        brand, score, status: "new", ...(source.international ? { international: true } : {}), ...(source.kind === "data" ? { kind: "data" } : {}),
       };
       known.set(id, item);
       fresh.push(item);
@@ -137,13 +146,14 @@ for (const source of cfg.sources) {
   }
 }
 for (const name of Object.keys(status)) if (!cfg.sources.find((s) => s.name === name)) delete status[name];
+// Collecte « études » seule : les actus déjà à valider n'ont pas besoin d'être re-notées.
 
 // ---------------------------------------------------------------------------
 // 4. Tri éditorial par Claude
 // ---------------------------------------------------------------------------
 // Les actus encore à valider sont re-notées à chaque collecte : les nouveaux refus de l'éditeur s'appliquent
 // aussi à elles (et celles jamais notées, lot précédent en échec, sont rattrapées).
-const unrated = db.items.filter((i) => i.status === "new" && now - Date.parse(i.publishedAt) <= maxAgeMs);
+const unrated = only === "data" ? [] : db.items.filter((i) => i.status === "new" && i.kind !== "data" && now - Date.parse(i.publishedAt) <= maxAgeMs);
 const toCurate = [...fresh.sort((a, b) => b.score - a.score).slice(0, 120), ...unrated.slice(0, 80)];
 // Ce que l'éditeur a validé ou refusé récemment : Claude s'en sert pour proposer moins, et mieux.
 const editorial = readJsonIfExists("config/editorial.json", {});
@@ -168,6 +178,9 @@ for (const item of [...fresh, ...unrated]) {
   if (brands[v.brand]) item.brand = v.brand;
   if (v.brand === "aucun" || v.score < (editorial.minScoreShown ?? 5)) item.status = "ignored";
 }
+// Études et graphiques : ce n'est pas de l'actu, le stock est grand. On ne propose que les meilleures.
+const dataKept = fresh.filter((i) => i.kind === "data" && i.status === "new").sort((a, b) => (b.aiScore ?? -1) - (a.aiScore ?? -1));
+for (const item of dataKept.slice(cfg.dataPerRun ?? 3)) item.status = "ignored";
 db.items.push(...fresh);
 pruneOld(db, now);
 
@@ -179,6 +192,7 @@ const sameDay = (iso) => iso && parisDay(iso) === today;
 const rank = (i) => (i.aiScore ?? -1) * 100 + i.score;
 const daily = readJsonIfExists("data/daily.json", {});
 if (daily.date !== today) Object.assign(daily, { date: today, reminded: {} });
+if (cfg.sources.some((src) => src.kind === "data" && useSource(src))) daily.dataDate = today;
 
 for (const [brandKey, brand] of Object.entries(brands)) {
   const doneToday = db.items.filter((i) => i.brand === brandKey && i.status === "done" && sameDay(i.generatedAt)).length;

@@ -34,6 +34,12 @@ Ce qui fait baisser la note :
 - Doublon d'un sujet déjà présent dans la liste (note le doublon le moins bon à 0).
 - Contenu sponsorisé, communiqué promotionnel, fait divers sans lien avec l'argent.
 
+LES LIGNES MARQUÉES [ÉTUDE] ne sont pas des actualités : ce sont des graphiques et études chiffrées (Visual Capitalist, Voronoi), souvent en anglais, pour le compte "investisseur". On en tire des carousels « Données » qui montrent des chiffres frappants. Note-les avec ce barème :
+- 8 à 10 : un chiffre ou un classement qui choque ou surprend et qui permet une accroche clivante pour un Français (fortunes, salaires, prix, dettes, Bourse, IA et emplois, pays qui s'enrichissent ou s'effondrent, la France comparée aux autres). Thèmes : Bourse, argent, IA, monde.
+- 5 à 7 : intéressant mais moins fort, ou trop américain sans comparaison possible.
+- 0 à 4 : trop technique, de niche (matières premières obscures, énergie industrielle, démographie sans lien avec l'argent), publicité, ou sans chiffre clé.
+Pour une [ÉTUDE], le champ hook = une accroche CLIVANTE en français, construite sur le chiffre le plus fort (ex : « Un Suisse gagne 3 fois plus qu'un Français pour le même travail »).
+
 CHOIX DU COMPTE (très important) :
 - "21m2" UNIQUEMENT pour l'immobilier : logement, prix au m², loyers, crédit immobilier, achat de sa résidence, investissement locatif, SCPI, DPE et rénovation, fiscalité immobilière, construction, promoteurs, notaires, Airbnb.
 - "investisseur" pour tout le reste qui touche l'argent : Bourse, actions, résultats d'entreprises, CAC 40, Wall Street, marchés, pétrole, crypto, banques, BCE et taux directeurs (sauf si l'angle est le crédit immobilier), épargne, assurance vie, impôts, salaires, économie, French Tech.
@@ -82,7 +88,7 @@ async function curateBatch(items, brands, prefs) {
   if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) return new Map();
   const client = new Anthropic();
   const list = items
-    .map((i) => `[${i.id}] (${i.source}) ${i.title}${i.summary ? ` — ${i.summary.slice(0, 280)}` : ""}`)
+    .map((i) => `[${i.id}] ${i.kind === "data" ? "[ÉTUDE] " : ""}(${i.source}) ${i.title}${i.summary ? ` — ${i.summary.slice(0, 280)}` : ""}`)
     .join("\n");
   const out = new Map();
   try {

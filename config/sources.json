@@ -1,7 +1,10 @@
 {
-  "_comment": "Pour chaque site : 'page' = la page d'actus, 'feeds' = flux RSS candidats (facultatif). Si aucun flux ne répond, le flux est cherché automatiquement dans la page, puis en dernier recours via Google News (site:...). 'brand' = investisseur | 21m2 | auto. 'international': true = sources mondiales, filtrées plus sévèrement (ce qui intéresse les Français).",
+  "_comment": "Pour chaque site : 'page' = la page d'actus, 'feeds' = flux RSS candidats (facultatif). Si aucun flux ne répond, le flux est cherché automatiquement dans la page, puis en dernier recours via Google News (site:...). 'brand' = investisseur | 21m2 | auto. 'international': true = sources mondiales, filtrées plus sévèrement (ce qui intéresse les Français). 'kind': 'data' = sites d'études et de graphiques (pas de l'actu) : on pioche les meilleurs sujets chiffrés, jusqu'à 'maxAgeDays' jours, et au plus 'dataPerRun' propositions par collecte.",
   "maxAgeHours": 36,
-  "carouselsPerDay": { "min": 2, "max": 5 },
+  "carouselsPerDay": {
+    "min": 2,
+    "max": 5
+  },
   "notify": {
     "minAiScore": 7,
     "minKeywordScore": 4,
@@ -12,7 +15,9 @@
     {
       "name": "Maddyness",
       "page": "https://www.maddyness.com",
-      "feeds": ["https://www.maddyness.com/feed/"],
+      "feeds": [
+        "https://www.maddyness.com/feed/"
+      ],
       "brand": "investisseur",
       "topic": "French Tech, startups, levées de fonds"
     },
@@ -27,51 +32,98 @@
     {
       "name": "Zonebourse",
       "page": "https://www.zonebourse.com/actualite-bourse/",
-      "feeds": ["https://www.zonebourse.com/rss/"],
+      "feeds": [
+        "https://www.zonebourse.com/rss/"
+      ],
       "brand": "investisseur",
       "international": true
     },
     {
       "name": "Moneyvox",
       "page": "https://www.moneyvox.fr/immobilier/actualites/",
-      "feeds": ["https://www.moneyvox.fr/immobilier/actualites/rss.xml", "https://www.moneyvox.fr/rss/immobilier.xml"],
+      "feeds": [
+        "https://www.moneyvox.fr/immobilier/actualites/rss.xml",
+        "https://www.moneyvox.fr/rss/immobilier.xml"
+      ],
       "googleNews": "site:moneyvox.fr/immobilier",
       "brand": "21m2"
     },
     {
       "name": "Le Figaro Immobilier",
       "page": "https://immobilier.lefigaro.fr/actualites",
-      "feeds": ["https://www.lefigaro.fr/rss/figaro_immobilier.xml", "https://immobilier.lefigaro.fr/rss/figaro_immobilier.xml"],
+      "feeds": [
+        "https://www.lefigaro.fr/rss/figaro_immobilier.xml",
+        "https://immobilier.lefigaro.fr/rss/figaro_immobilier.xml"
+      ],
       "googleNews": "site:immobilier.lefigaro.fr",
       "brand": "21m2"
     },
     {
       "name": "Les Echos Patrimoine Immobilier",
       "page": "https://www.lesechos.fr/patrimoine/immobilier",
-      "feeds": ["https://services.lesechos.fr/rss/les-echos-patrimoine.xml"],
+      "feeds": [
+        "https://services.lesechos.fr/rss/les-echos-patrimoine.xml"
+      ],
       "googleNews": "site:lesechos.fr/patrimoine/immobilier",
       "brand": "21m2"
     },
     {
       "name": "Boursorama Immobilier",
       "page": "https://www.boursorama.com/immobilier/",
-      "feeds": ["https://www.boursorama.com/rss/immobilier/"],
+      "feeds": [
+        "https://www.boursorama.com/rss/immobilier/"
+      ],
       "googleNews": "site:boursorama.com/immobilier",
       "brand": "21m2"
     },
     {
       "name": "Capital Immobilier",
       "page": "https://www.capital.fr/immobilier",
-      "feeds": ["https://www.capital.fr/immobilier/rss", "https://feed.prismamediadigital.com/v1/cap/rss?sources=capital&categories=immobilier"],
+      "feeds": [
+        "https://www.capital.fr/immobilier/rss",
+        "https://feed.prismamediadigital.com/v1/cap/rss?sources=capital&categories=immobilier"
+      ],
       "googleNews": "site:capital.fr/immobilier",
       "brand": "21m2"
     },
     {
       "name": "Le Revenu Immobilier",
       "page": "https://www.lerevenu.com/investir-immobilier/",
-      "feeds": ["https://www.lerevenu.com/investir-immobilier/rss", "https://www.lerevenu.com/rss.xml"],
+      "feeds": [
+        "https://www.lerevenu.com/investir-immobilier/rss",
+        "https://www.lerevenu.com/rss.xml"
+      ],
       "googleNews": "site:lerevenu.com/investir-immobilier",
       "brand": "21m2"
+    },
+    {
+      "name": "Visual Capitalist",
+      "kind": "data",
+      "page": "https://www.visualcapitalist.com/category/money-2/",
+      "feeds": [
+        "https://www.visualcapitalist.com/feed/",
+        "https://www.visualcapitalist.com/category/money-2/feed/"
+      ],
+      "googleNews": "site:visualcapitalist.com",
+      "googleNewsWindow": "30d",
+      "brand": "investisseur",
+      "maxAgeDays": 45,
+      "topic": "graphiques et études chiffrées : Bourse, argent, IA, monde"
+    },
+    {
+      "name": "Voronoi",
+      "kind": "data",
+      "page": "https://www.voronoiapp.com/",
+      "feeds": [
+        "https://www.voronoiapp.com/rss.xml",
+        "https://www.voronoiapp.com/feed"
+      ],
+      "googleNews": "site:voronoiapp.com",
+      "googleNewsWindow": "30d",
+      "brand": "investisseur",
+      "maxAgeDays": 45,
+      "topic": "graphiques et études chiffrées : Bourse, argent, IA, monde"
     }
-  ]
+  ],
+  "dataPerRun": 3
 }
