@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "id": "9f111b884c",
+      "createdAt": "2026-11-10T06:15:10.473Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "41 candidats par annonce à Paris : la visite d'appart ressemble à une file d'attente de concert",
+      "text": "41 candidats par annonce.\n\nC'est la moyenne pour louer à Paris en ce moment.\n\nPour avoir une chance, il faut désormais :\n– un CDI\n– des revenus à 3 fois le loyer\n– un garant\n– un dossier plus épais qu'un compromis de vente\n– et arriver 20 minutes avant l'agent immobilier\n\nPendant ce temps, dans certaines villes de banlieue et de province, des propriétaires galèrent à trouver un locataire.\n\nLe marché locatif français, c'est deux pays qui ne se parlent pas.\n\nC'était quoi ta pire visite d'appart ?",
+      "image": "carousels/linkedin/2026-11-10/9f111b884c.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "very long queue of people waiting outside apartment building for flat viewing Paris",
+        "caption": "Paris, visite d'un 25 m² à 18h30. Le propriétaire demande « juste quelques pièces justificatives ».",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-10T06:15:19.726Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "5f5dab3d98",
+      "createdAt": "2026-11-10T06:15:06.177Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Binance ferme les comptes français le 31 décembre : pas grave, on transfère sur un wallet… sauf que la seed phrase a disparu",
+      "text": "Le 31 décembre, Binance ferme tous les comptes français.\n\nPas de panique : on peut transférer ses cryptos ailleurs. Une autre plateforme, ou un wallet perso.\n\nC'est là que les ennuis commencent.\n\nWallet perso = la fameuse seed phrase. 24 mots à garder précieusement.\n\nEt on connaît tous quelqu'un qui l'a notée « en lieu sûr ». Dans un carnet. Dans une boîte à chaussures. Quelque part dans l'appart. Il y a quatre ans.\n\nBonus : le Bitcoin repasse sous 74 000 $ au même moment. Le timing est parfait.\n\nPetit rappel : n'attends pas le 30 décembre à 23h.\n\nTa seed phrase, elle est où ? (Ne réponds pas vraiment en commentaire 🙃)",
+      "image": "carousels/linkedin/2026-11-10/5f5dab3d98.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Panik Kalm Panik",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Binance ferme les comptes français le 31/12",
+          "Tu peux tout transférer sur ton wallet",
+          "Ta seed phrase était sur un Post-it"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-10T06:15:10.473Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "78333a00a0",
+      "createdAt": "2026-11-10T06:15:02.433Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "La BCE remonte ses taux : les primo-accédants qui attendaient la baisse pour acheter attendent encore",
+      "text": "La BCE vient de remonter ses taux.\n\nEt quelque part en France, un primo-accédant range son simulateur de prêt dans un tiroir.\n\nEn 2023, on attendait que les taux baissent.\nEn 2025, on attendait que les prix baissent.\nEn 2026, on attend que les deux baissent en même temps.\n\nLe squelette sur le banc attendait la même chose.\n\nAvec le retour du spectre des taux à 5 %, la question revient dans tous les dîners : signer maintenant ou attendre encore un peu ?\n\nTu es dans quelle équipe : ceux qui ont signé, ou ceux qui sont toujours sur le banc ?",
+      "image": "carousels/linkedin/2026-11-10/78333a00a0.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Waiting Skeleton",
+        "image_query": null,
+        "caption": "Les primo-accédants qui attendaient que les taux redescendent avant d'acheter leur appart",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-10T06:15:06.176Z",
+      "error": null,
+      "errorAt": null
+    }
+  ],
+  "updatedAt": "2026-11-10T06:15:19.726Z"
+}
