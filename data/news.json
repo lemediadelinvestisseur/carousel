@@ -17422,13 +17422,35 @@
       "collectedAt": "2026-11-10T10:57:37.527Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
+      "status": "done",
       "kind": "data",
       "aiScore": 8,
       "reason": "Concentration de la Bourse sur l'IA, un sujet qui parle aux détenteurs d'ETF S&P 500.",
       "hook": "8 géants de l'IA font la moitié de la croissance du S&P 500",
       "titleOriginal": "The 8 AI Giants Behind Nearly Half of the S&P 500's Growth",
-      "notifiedAt": "2026-11-10T10:57:37.527Z"
+      "notifiedAt": "2026-11-10T10:57:37.527Z",
+      "generatedAt": "2026-11-10T11:07:42.605Z",
+      "carousel": {
+        "dir": "carousels/2026-11-06/investisseur-les-8-geants-de-l-ia-derriere-pres-de-la-a0076142f9",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 7,
+        "hooks": [
+          "8 entreprises ont rapporté presque autant que les 492 autres",
+          "Ton ETF S&P 500 a grimpé grâce à une poignée de géants de l'IA",
+          "Nvidia a fait à elle seule 13 % de la hausse du S&P 500"
+        ],
+        "coverPhoto": true
+      }
     },
     {
       "id": "00b1941826",
@@ -18407,5 +18429,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T11:07:16.413Z"
+  "updatedAt": "2026-11-10T11:07:48.158Z"
 }
