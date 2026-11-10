@@ -19188,7 +19188,16 @@
           "La Grèce réduit sa dette pendant que la France s'enfonce"
         ],
         "coverPhoto": true
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-10T13:32:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-10T12:32:00.464Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "e45eade58a",
@@ -19558,5 +19567,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T12:29:59.282Z"
+  "updatedAt": "2026-11-10T12:32:00.464Z"
 }
