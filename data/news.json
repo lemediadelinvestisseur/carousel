@@ -2025,11 +2025,34 @@
       "collectedAt": "2026-11-10T17:07:30.899Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "done",
       "international": true,
       "aiScore": 6,
       "reason": "TSMC finance OpenAI et Anthropic : circularité de la bulle IA, angle intéressant.",
-      "hook": "Le fabricant des puces d'Nvidia mise 1 milliard sur OpenAI"
+      "hook": "Le fabricant des puces d'Nvidia mise 1 milliard sur OpenAI",
+      "generatedAt": "2026-11-10T18:10:30.022Z",
+      "carousel": {
+        "dir": "carousels/2026-11-10/investisseur-tsmc-va-investir-jusqu-a-1-milliard-de-d-d59bba865a",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 8,
+        "hooks": [
+          "Le roi des puces mise 1 milliard sur OpenAI et Anthropic",
+          "TSMC vend les puces de l'IA et rachète maintenant ses stars",
+          "L'IA se finance elle-même : TSMC entre chez OpenAI et Anthropic"
+        ],
+        "coverPhoto": true
+      }
     },
     {
       "id": "a1ec4a1c43",
@@ -24531,5 +24554,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T17:08:32.584Z"
+  "updatedAt": "2026-11-10T18:10:30.022Z"
 }
