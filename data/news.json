@@ -35,6 +35,23 @@
       "reason": "Point de marché crypto, refusé."
     },
     {
+      "id": "764499dfbb",
+      "title": "Analyse AMZ : pourquoi les constructeurs automobiles chinois évitent l’Allemagne",
+      "summary": "Analyse AMZ : pourquoi les constructeurs automobiles chinois évitent l’Allemagne Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVFJwekNwU01GZVZoZXlwUm1zYndkUm5Rc283MjRRMTZxT1FxeUo1VU45MXlhTXZPZTN6RE9MQUVyZ2E0aWIzNkxjM003X3FjQm94bEtfd3pSTVI5N2h2M0dsSEM5OHNHUkNDcDdDeEV4ZFd2QUF3YXlmeUl1THF4ZDhhUjl0Ung3bFJfTHg0UHpZamNsQ0RfZkFYZ1k0Qy05ZFRfZTNZbzRVT05INUhRS1ktUWNIR3R6X0dsVkFNOFcxVlRKTGFQU0g2ZUsxNFZYUWZxYWVn?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-10T20:47:19.000Z",
+      "collectedAt": "2026-11-10T21:15:44.491Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Analyse sectorielle étrangère trop technique."
+    },
+    {
       "id": "80be1669a6",
       "title": "Nvidia pourrait bientôt faire face à des règles -2-",
       "summary": "Nvidia pourrait bientôt faire face à des règles -2- Zonebourse Suisse",
@@ -114,10 +131,10 @@
       "collectedAt": "2026-11-10T21:07:28.458Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Coinbase devient une banque, tournant crypto notable.",
+      "aiScore": 4,
+      "reason": "Actu crypto américaine réglementaire, peu parlante en France.",
       "hook": "Coinbase devient officiellement une banque aux États-Unis"
     },
     {
@@ -136,6 +153,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "a9c9b5a2c0",
+      "title": "IA générative : une charte pour protéger les plus jeunes",
+      "summary": "IA générative : une charte pour protéger les plus jeunes TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94aU00TXF0QVd1WlJVMXctOFp5VG81dDlaaGs0SzV3VXFfWFhWRkVvUnBJYnBhSmJVTzJyOFEzTDJlc09JTjl0U1dSNWVySXBNcVVSTlhLR0NZeUtHYzBxeF93?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-10T20:27:24.000Z",
+      "collectedAt": "2026-11-10T21:15:44.491Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Charte éthique sur l'IA, sans lien avec l'argent."
     },
     {
       "id": "7452811b37",
@@ -406,8 +440,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 9,
-      "reason": "IPO géante d'Anthropic, record historique potentiel.",
-      "hook": "Anthropic veut lever 64 milliards : la plus grosse IPO de l'histoire"
+      "reason": "IPO record du créateur de Claude, valorisation géante qui fait parler.",
+      "hook": "Anthropic vise 1 400 milliards : la plus grosse IPO de l'histoire ?"
     },
     {
       "id": "83acad1c3e",
@@ -692,9 +726,9 @@
       "brand": "investisseur",
       "score": 6,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Paradoxe surprenant sur les ETF, proche d'un sujet déjà traité.",
-      "hook": "Le S&P 500 baisse alors que 80 % des actions montent"
+      "aiScore": 7,
+      "reason": "Paradoxe surprenant qui touche directement les détenteurs d'ETF.",
+      "hook": "80 % des actions montent… et le S&P 500 baisse"
     },
     {
       "id": "93e6ca0836",
@@ -2180,7 +2214,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Gros mouvement Uber dans la livraison.",
+      "reason": "Grosse opération d'un géant connu dans la livraison.",
       "hook": "Uber met la main sur Delivery Hero"
     },
     {
@@ -3183,9 +3217,9 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Défense franco-allemande, 6,6 Md€, enjeu de souveraineté.",
-      "hook": "Berlin paie 6,6 milliards pour égaler Paris dans KNDS"
+      "aiScore": 6,
+      "reason": "Berlin s'invite à égalité avec Paris dans la défense, débat de souveraineté.",
+      "hook": "L'Allemagne paie 6,6 milliards pour égaler la France chez KNDS"
     },
     {
       "id": "dcbe9c2f9c",
@@ -6142,7 +6176,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Airbus investit en France, mais Airbus déjà traité.",
+      "reason": "Airbus, valeur chouchou, annonce une nouvelle usine en France.",
       "hook": "Airbus va construire une nouvelle usine en France"
     },
     {
@@ -9044,8 +9078,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 7,
-      "reason": "Chiffre fort sur Airbnb à Paris et débat légal pour bailleurs.",
-      "hook": "Airbnb : +52 % de locations à l'année à Paris",
+      "reason": "Chiffre fort sur Airbnb à Paris et débat légal pour les propriétaires.",
+      "hook": "Airbnb à l'année : +52 % en deux ans à Paris",
       "notifiedAt": "2026-11-10T07:07:20.659Z"
     },
     {
@@ -17658,6 +17692,23 @@
       "reason": "Récap obscur."
     },
     {
+      "id": "8f886f72d2",
+      "title": "Weekly Recap: 2026 outlook raised and specialty, Asia sales growth",
+      "summary": "Weekly Recap: 2026 outlook raised and specialty, Asia sales growth TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYXpGbHhDaUhsMGpVWGxHbnpUVlRBcWoycmhNdjEyX0tCQTlzeGd4N09PNUVEN0l0UWZOd09oYkQxMHRQR3NEVzI4alRDY2lGZGpqM2lpRlVVWXFmazVUbkRIazZJWjE1cHU3VnA1S1doLXBHWnZQVHByR3Y1YzhhOUs0NTVSZmRuM2szS1p4XzcxWTFCWWl5UGFtWG52cFdIaUR0UHowWVlQaVdXS3N4ZWp2UFhGR2RUb1ZaMER0SWJMZHM?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "collectedAt": "2026-11-10T21:15:44.491Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Récap hebdo d'une entreprise non identifiée, sans intérêt."
+    },
+    {
       "id": "d6fcd25937",
       "title": "Les États-Unis ouvrent une enquête sur 2 895 véhicules Waymo pour des infractions aux règles de sécurité concernant les bus scolaires",
       "summary": "Les États-Unis ouvrent une enquête sur 2 895 véhicules Waymo pour des infractions aux règles de sécurité concernant les bus scolaires TradingView",
@@ -26114,5 +26165,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T21:07:53.590Z"
+  "updatedAt": "2026-11-10T21:16:00.237Z"
 }
