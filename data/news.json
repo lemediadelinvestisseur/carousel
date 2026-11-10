@@ -5821,15 +5821,21 @@
           "Airbus reprend à Boeing le record du plus long vol"
         ]
       },
-      "schedules": [
-        {
-          "at": "2026-11-10T11:30:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-09T21:47:35.267Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18114484772578889",
+          "url": "https://www.instagram.com/p/DfjzdnKD10I/",
+          "at": "2026-11-10T11:31:11.167Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122103004173541092",
+          "url": "https://www.facebook.com/1428714516991726_122103004173541092",
+          "at": "2026-11-10T11:31:31.596Z"
+        }
+      }
     },
     {
       "id": "ad407c6fc9",
@@ -19543,5 +19549,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T11:08:17.498Z"
+  "updatedAt": "2026-11-10T11:31:31.753Z"
 }
