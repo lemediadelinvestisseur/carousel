@@ -21052,13 +21052,35 @@
       "collectedAt": "2026-11-10T10:57:37.527Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "done",
       "kind": "data",
       "aiScore": 8,
       "reason": "Le classement des pays riches permet de voir si la France décroche, ce qui suscite le débat.",
       "hook": "Pays les plus riches : la France décroche en 20 ans",
       "titleOriginal": "Ranked: The World’s Richest Countries (2006-2026)",
-      "notifiedAt": "2026-11-10T10:57:37.527Z"
+      "notifiedAt": "2026-11-10T10:57:37.527Z",
+      "generatedAt": "2026-11-10T14:23:06.309Z",
+      "carousel": {
+        "dir": "carousels/2026-10-21/investisseur-classement-les-pays-les-plus-riches-du-m-eec31679d4",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 7,
+        "hooks": [
+          "Le Guyana va dépasser les États-Unis en richesse par habitant",
+          "Malte et l'Islande font mieux que la France par habitant",
+          "L'Irlande a plus que triplé sa richesse par habitant en 20 ans"
+        ],
+        "coverPhoto": true
+      }
     },
     {
       "id": "eba771dbce",
@@ -21245,5 +21267,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T13:24:48.125Z"
+  "updatedAt": "2026-11-10T14:23:06.309Z"
 }
