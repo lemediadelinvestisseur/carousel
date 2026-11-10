@@ -63,7 +63,7 @@
       "collectedAt": "2026-11-10T05:07:16.867Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 6,
       "reason": "Taxe sur les milliardaires, sujet qui fait débat en France (taxe Zucman).",
@@ -13565,5 +13565,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-10T06:16:50.742Z"
+  "updatedAt": "2026-11-10T06:16:56.740Z"
 }
