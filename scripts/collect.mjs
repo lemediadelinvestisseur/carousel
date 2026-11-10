@@ -175,6 +175,8 @@ for (const item of [...fresh, ...unrated]) {
   item.aiScore = v.score;
   item.reason = v.reason;
   if (v.hook) item.hook = v.hook;
+  // Études en anglais : le titre affiché dans le dashboard est traduit (l'original est gardé).
+  if (item.kind === "data" && v.title_fr && !item.titleOriginal) { item.titleOriginal = item.title; item.title = v.title_fr; }
   if (brands[v.brand]) item.brand = v.brand;
   if (v.brand === "aucun" || v.score < (editorial.minScoreShown ?? 5)) item.status = "ignored";
 }

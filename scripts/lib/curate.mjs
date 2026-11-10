@@ -10,7 +10,8 @@ const Verdict = z.object({
   score: z.number().int().describe("0 à 10 : potentiel de réaction et de partage auprès du public français du compte"),
   brand: z.enum(["investisseur", "21m2", "aucun"]).describe("Compte le plus adapté, ou 'aucun' si hors ligne éditoriale"),
   reason: z.string().describe("Pourquoi ça intéresse (ou pas) les Français, en une phrase courte"),
-  hook: z.string().describe("Proposition d'accroche pour la 1re slide (max 12 mots), vide si score < 5"),
+  hook: z.string().describe("Proposition d'accroche pour la 1re slide (max 12 mots), en français, vide si score < 5"),
+  title_fr: z.string().describe("Pour une [ÉTUDE] en anglais : son titre traduit en bon français naturel ; sinon vide"),
 });
 const Verdicts = z.object({ verdicts: z.array(Verdict) });
 

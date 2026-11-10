@@ -34,7 +34,7 @@ export const CarouselSchema = z.object({
 function dataResearchPrompt(item, today) {
   return `Nous sommes le ${today}. Prépare un dossier factuel sur cette ÉTUDE / ce GRAPHIQUE pour un carousel Instagram « Données » destiné à des investisseurs particuliers français.
 
-Sujet : ${item.title}
+Sujet : ${item.title}${item.titleOriginal ? ` (titre original : ${item.titleOriginal})` : ""}
 Source : ${item.source} — ${item.link}
 
 Lis la page de la source (web_fetch), puis fais 1 à 3 recherches pour compléter. Le dossier doit contenir :
@@ -124,7 +124,8 @@ const DATA_GUIDE = `CE CAROUSEL N'EST PAS UNE ACTU : c'est un carousel « Donné
 - Couverture : l'accroche CLIVANTE repose sur LE chiffre le plus choquant ou la comparaison qui pique (ex : « Un Suisse gagne 3 fois plus qu'un Français pour le même travail », « 10 entreprises valent plus que toute la Bourse européenne »). Pas de date d'actu, pas de « vient de ».
 - Pages intérieures, dans cet ordre : LES CHIFFRES (kind=list, 3 puces qui commencent par la valeur en **gras**), LE CLASSEMENT (kind=list, le top 3 à 5 avec les valeurs), ET LA FRANCE ? (la position de la France ou une comparaison parlante), POURQUOI (2 ou 3 explications), CE QUE ÇA CHANGE POUR TOI (seulement si c'est vrai). 4 à 7 pages au total.
 - Chaque chiffre est exact, avec son année et sa source (ex : « selon le FMI, 2025 ») dans la page ; convertis en euros quand c'est utile en le précisant (« soit environ … € »).
-- Photo de couverture : le sujet du chiffre (le pays, la ville, l'entreprise, l'objet), jamais le graphique de la source.`;
+- Photo de couverture : le sujet du chiffre (le pays, la ville, l'entreprise, l'objet), jamais le graphique de la source.
+- TOUT EN FRANÇAIS : la source est en anglais, mais le carousel et la description sont 100 % en français naturel. Traduis les noms de pays, d'entreprises quand ils ont un nom français, les catégories et les unités (« $1.2T » → « 1 200 milliards de dollars », « k » → « milliers »). Nombres au format français (1 200,5 ; 12 %). Aucun mot ni titre anglais, sauf un nom propre de marque.`;
 
 const STYLE_GUIDE = `STYLE (très important) :
 - Écris comme un humain, journaliste éco qui tutoie un ami. Pas de formules creuses ou « d'IA » : pas de titres en métaphore bancale (« frais en approche », « perdre la main »), pas de « Décryptage », « Zoom sur », « Ce qu'il faut retenir ».
