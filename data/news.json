@@ -1223,15 +1223,21 @@
         ],
         "coverPhoto": true
       },
-      "schedules": [
-        {
-          "at": "2026-11-10T18:30:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-10T18:29:33.648Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18126179941919979",
+          "url": "https://www.instagram.com/p/DfkmLUjnf6G/",
+          "at": "2026-11-10T18:54:20.908Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122103404931541092",
+          "url": "https://www.facebook.com/1428714516991726_122103404931541092",
+          "at": "2026-11-10T18:54:36.409Z"
+        }
+      }
     },
     {
       "id": "09f761d242",
@@ -23569,15 +23575,21 @@
         ],
         "coverPhoto": true
       },
-      "schedules": [
-        {
-          "at": "2026-11-10T15:15:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-10T12:29:59.281Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18185338216426158",
+          "url": "https://www.instagram.com/p/DfkmSUbGo_o/",
+          "at": "2026-11-10T18:55:16.682Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122103407355541092",
+          "url": "https://www.facebook.com/1428714516991726_122103407355541092",
+          "at": "2026-11-10T18:55:28.097Z"
+        }
+      }
     },
     {
       "id": "00b1941826",
@@ -24187,15 +24199,21 @@
         ],
         "coverPhoto": true
       },
-      "schedules": [
-        {
-          "at": "2026-11-10T13:32:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-10T12:32:00.464Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "17919431781266028",
+          "url": "https://www.instagram.com/p/DfkmYn7DS-3/",
+          "at": "2026-11-10T18:56:09.749Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122103409059541092",
+          "url": "https://www.facebook.com/1428714516991726_122103409059541092",
+          "at": "2026-11-10T18:56:21.850Z"
+        }
+      }
     },
     {
       "id": "e45eade58a",
@@ -24587,5 +24605,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T18:29:33.649Z"
+  "updatedAt": "2026-11-10T18:56:21.955Z"
 }
