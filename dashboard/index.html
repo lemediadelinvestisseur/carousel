@@ -77,6 +77,8 @@ header{position:sticky;top:0;z-index:5;background:var(--navy);color:#fff;padding
 .lb .nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:0;color:#fff;width:52px;height:52px;border-radius:50%;font-size:26px;cursor:pointer}
 .lb .prev{left:12px}.lb .next{right:12px}
 .empty{text-align:center;color:var(--muted);padding:40px 10px}
+.fab2{bottom:calc(env(safe-area-inset-bottom) + 76px)!important;background:var(--card)!important;color:var(--text)!important;border:1px solid var(--line)!important}
+.data-badge{font-weight:700;font-size:11px;padding:3px 8px;border-radius:6px;background:#EDE7FF;color:#4B2BB5}
 .fab{position:fixed;right:16px;bottom:calc(env(safe-area-inset-bottom) + 16px);background:var(--gold);color:var(--navy);border:0;border-radius:99px;padding:14px 20px;font-weight:800;box-shadow:0 6px 20px rgba(0,0,0,.25);cursor:pointer}
 dialog{border:0;border-radius:20px;padding:0;width:min(560px,calc(100% - 24px));background:var(--card);color:var(--text)}
 dialog::backdrop{background:rgba(0,0,0,.5)}
@@ -164,6 +166,7 @@ details summary{cursor:pointer}
   <details class="card" id="sourcesCard"><summary><b>État des sources</b></summary><div class="runs" id="sources"></div></details>
 </div>
 
+<button class="fab fab2" id="findData" title="Chercher des études chiffrées (Visual Capitalist, Voronoi)">📊 Études</button>
 <button class="fab" id="openAdd">+ Article</button>
 <div class="toast" id="toast"></div>
 <div class="lb" id="lb">
@@ -441,7 +444,7 @@ function render() {
 
 function card(i) {
   const st = inProgress(i) ? (i.status === "done" ? "Regénération…" : "Envoyée…") : i.status === "done" && schedulesOf(i).length ? "Programmé 🕒" : i.status === "done" && isPublished(i) ? "Publié ✓" : STATUS[i.status] || i.status;
-  const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.aiScore != null ? `<span class="ai s${Math.floor(i.aiScore / 3)}">${i.aiScore}/10</span>` : i.score ? `<span>· score ${i.score}</span>` : ""}${i.international ? "<span>· 🌍</span>" : ""}</div>
+  const head = `<div class="meta"><span class="badge b-${esc(i.brand)}">${esc(BRANDS[i.brand] || i.brand)}</span><span class="st">${esc(st)}</span><span>${esc(i.source)}</span><span>· ${ago(i.publishedAt)}</span>${i.aiScore != null ? `<span class="ai s${Math.floor(i.aiScore / 3)}">${i.aiScore}/10</span>` : i.score ? `<span>· score ${i.score}</span>` : ""}${i.international ? "<span>· 🌍</span>" : ""}${i.kind === "data" ? '<span class="data-badge">📊 Étude</span>' : ""}</div>
     <h3>${esc(i.title)}</h3>${i.hook ? `<div class="hook">💡 ${esc(i.hook)}</div>` : ""}${i.reason ? `<div class="reason">${esc(i.reason)}</div>` : ""}${i.summary ? `<p>${esc(i.summary)}</p>` : ""}`;
   let actions = "";
   if (inProgress(i)) {
@@ -703,6 +706,14 @@ $("dlgSettings").onclose = () => {
   store.set("branch", $("sBranch").value.trim() || "main");
   store.set("token", $("sToken").value.trim());
   toast("Réglages enregistrés"); load();
+};
+$("findData").onclick = async () => {
+  if (!cfg.token) { $("dlgSettings").showModal(); return; }
+  try {
+    await gh(`/repos/${cfg.repo}/actions/workflows/collect.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { only: "data" } }) });
+    toast("📊 Recherche d'études lancée : les meilleurs sujets arrivent dans « À valider » d'ici 2 à 3 minutes", 5000);
+    setTimeout(loadRuns, 4000);
+  } catch (e) { toast(e.message, 5000); }
 };
 $("openAdd").onclick = () => { if (state.project === "linkedin") return openIdea(); $("aUrl").value = ""; $("aInstr").value = ""; brandOptions($("aBrand"), "investisseur"); $("dlgAdd").showModal(); };
 $("dlgAdd").onclose = async () => {

@@ -68,6 +68,7 @@ async function itemFromUrl(url) {
     score: 99,
     status: "validated",
     manual: true,
+    ...(/visualcapitalist\.com|voronoiapp\.com/i.test(url) ? { kind: "data" } : {}),
   };
   db.items.push(item);
   return item;

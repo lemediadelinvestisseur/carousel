@@ -10,7 +10,8 @@ const Verdict = z.object({
   score: z.number().int().describe("0 à 10 : potentiel de réaction et de partage auprès du public français du compte"),
   brand: z.enum(["investisseur", "21m2", "aucun"]).describe("Compte le plus adapté, ou 'aucun' si hors ligne éditoriale"),
   reason: z.string().describe("Pourquoi ça intéresse (ou pas) les Français, en une phrase courte"),
-  hook: z.string().describe("Proposition d'accroche pour la 1re slide (max 12 mots), vide si score < 5"),
+  hook: z.string().describe("Proposition d'accroche pour la 1re slide (max 12 mots), en français, vide si score < 5"),
+  title_fr: z.string().describe("Pour une [ÉTUDE] en anglais : son titre traduit en bon français naturel ; sinon vide"),
 });
 const Verdicts = z.object({ verdicts: z.array(Verdict) });
 
@@ -33,6 +34,12 @@ Ce qui fait baisser la note :
 - Petites capitalisations étrangères inconnues, résultats trimestriels sans surprise, actus très techniques (obligations obscures, matières premières de niche), marchés locaux étrangers (sauf si énorme).
 - Doublon d'un sujet déjà présent dans la liste (note le doublon le moins bon à 0).
 - Contenu sponsorisé, communiqué promotionnel, fait divers sans lien avec l'argent.
+
+LES LIGNES MARQUÉES [ÉTUDE] ne sont pas des actualités : ce sont des graphiques et études chiffrées (Visual Capitalist, Voronoi), souvent en anglais, pour le compte "investisseur". On en tire des carousels « Données » qui montrent des chiffres frappants. Note-les avec ce barème :
+- 8 à 10 : un chiffre ou un classement qui choque ou surprend et qui permet une accroche clivante pour un Français (fortunes, salaires, prix, dettes, Bourse, IA et emplois, pays qui s'enrichissent ou s'effondrent, la France comparée aux autres). Thèmes : Bourse, argent, IA, monde.
+- 5 à 7 : intéressant mais moins fort, ou trop américain sans comparaison possible.
+- 0 à 4 : trop technique, de niche (matières premières obscures, énergie industrielle, démographie sans lien avec l'argent), publicité, ou sans chiffre clé.
+Pour une [ÉTUDE], le champ hook = une accroche CLIVANTE en français, construite sur le chiffre le plus fort (ex : « Un Suisse gagne 3 fois plus qu'un Français pour le même travail »).
 
 CHOIX DU COMPTE (très important) :
 - "21m2" UNIQUEMENT pour l'immobilier : logement, prix au m², loyers, crédit immobilier, achat de sa résidence, investissement locatif, SCPI, DPE et rénovation, fiscalité immobilière, construction, promoteurs, notaires, Airbnb.
@@ -82,7 +89,7 @@ async function curateBatch(items, brands, prefs) {
   if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) return new Map();
   const client = new Anthropic();
   const list = items
-    .map((i) => `[${i.id}] (${i.source}) ${i.title}${i.summary ? ` — ${i.summary.slice(0, 280)}` : ""}`)
+    .map((i) => `[${i.id}] ${i.kind === "data" ? "[ÉTUDE] " : ""}(${i.source}) ${i.title}${i.summary ? ` — ${i.summary.slice(0, 280)}` : ""}`)
     .join("\n");
   const out = new Map();
   try {
