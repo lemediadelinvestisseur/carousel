@@ -3808,15 +3808,21 @@
         ],
         "coverPhoto": true
       },
-      "schedules": [
-        {
-          "at": "2026-11-10T07:00:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-09T21:47:21.618Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18375578704246120",
+          "url": "https://www.instagram.com/p/DfjVsQEjty3/",
+          "at": "2026-11-10T07:11:02.223Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122102787321541092",
+          "url": "https://www.facebook.com/1428714516991726_122102787321541092",
+          "at": "2026-11-10T07:11:17.983Z"
+        }
+      }
     },
     {
       "id": "22f8a9e130",
@@ -7667,15 +7673,21 @@
           "Facture électronique : ce que **ton meublé** doit faire"
         ]
       },
-      "schedules": [
-        {
-          "at": "2026-11-10T07:00:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-09T21:46:56.225Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18117556499144289",
+          "url": "https://www.instagram.com/p/DfjVz3jFxfx/",
+          "at": "2026-11-10T07:12:06.477Z"
+        },
+        "facebook": {
+          "id": "1430519546815801_122094406713553165",
+          "url": "https://www.facebook.com/1430519546815801_122094406713553165",
+          "at": "2026-11-10T07:12:22.414Z"
+        }
+      }
     },
     {
       "id": "fdff2ffa1a",
@@ -15181,5 +15193,5 @@
       "reason": "Politique étrangère."
     }
   ],
-  "updatedAt": "2026-11-10T07:08:13.232Z"
+  "updatedAt": "2026-11-10T07:12:22.440Z"
 }
