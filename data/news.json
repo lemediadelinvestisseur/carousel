@@ -18009,13 +18009,35 @@
       "collectedAt": "2026-11-10T10:57:37.527Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "done",
       "kind": "data",
       "aiScore": 8,
       "reason": "La dette française comparée à l'UE est un sujet brûlant et clivant.",
       "hook": "La France parmi les pays les plus endettés d'Europe",
       "titleOriginal": "Mapped: Government Debt Across the EU",
-      "notifiedAt": "2026-11-10T10:57:37.527Z"
+      "notifiedAt": "2026-11-10T10:57:37.527Z",
+      "generatedAt": "2026-11-10T11:07:16.413Z",
+      "carousel": {
+        "dir": "carousels/2026-10-27/investisseur-carte-la-dette-publique-dans-l-union-eur-0035275466",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 7,
+        "hooks": [
+          "Seules la Grèce et l'Italie sont plus endettées que la France",
+          "En % du PIB, la France est presque deux fois plus endettée que l'Allemagne",
+          "La Grèce réduit sa dette pendant que la France s'enfonce"
+        ],
+        "coverPhoto": true
+      }
     },
     {
       "id": "e45eade58a",
@@ -18385,5 +18407,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T10:58:46.166Z"
+  "updatedAt": "2026-11-10T11:07:16.413Z"
 }
