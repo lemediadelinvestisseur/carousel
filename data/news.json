@@ -18570,7 +18570,16 @@
           "Nvidia a fait à elle seule 13 % de la hausse du S&P 500"
         ],
         "coverPhoto": true
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-10T15:15:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-10T12:29:59.281Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "00b1941826",
@@ -19549,5 +19558,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-10T11:31:31.753Z"
+  "updatedAt": "2026-11-10T12:29:59.282Z"
 }
