@@ -6047,7 +6047,7 @@
       "collectedAt": "2026-11-11T07:07:24.514Z",
       "brand": "21m2",
       "score": 7,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Loyers à plus de 200 €/m² malgré l'encadrement : un sujet qui choque.",
       "hook": "Un studio à 2 000 €/mois, et c'est tout à fait légal"
@@ -35212,5 +35212,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-11T17:33:06.044Z"
+  "updatedAt": "2026-11-11T17:33:11.831Z"
 }
