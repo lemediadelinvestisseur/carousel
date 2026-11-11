@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-11-09T22:59:06.700Z",
+  "generatedAt": "2026-11-11T22:15:59.826Z",
   "period": {
     "from": "2025-11-10",
     "to": "2026-11-09"
   },
   "summary": {
-    "generatedAt": "2026-11-09T22:57:46.912Z",
+    "generatedAt": "2026-11-11T22:14:41.329Z",
     "followers": 1123,
     "last30": {
-      "days": 31,
-      "impressions": 12303,
+      "days": 29,
+      "impressions": 12271,
       "engagements": 147,
-      "newFollowers": 45
+      "newFollowers": 44
     },
     "last90": {
-      "days": 91,
-      "impressions": 24251,
+      "days": 89,
+      "impressions": 24091,
       "engagements": 229,
       "newFollowers": 117
     },
     "posts": 50,
-    "postsWithText": 40,
+    "postsWithText": 50,
     "medianImpressions": 838,
     "medianEngagements": 13.5,
     "medianRate": 1.21,
@@ -213,18 +213,18 @@
     "byMemeFormat": [],
     "byLength": [
       {
-        "key": "long (> 1000 car.)",
-        "posts": 8,
-        "medianImpressions": 1132.5,
-        "medianEngagements": 19,
-        "medianRate": 1.31
+        "key": "moyen (400-1000 car.)",
+        "posts": 34,
+        "medianImpressions": 856,
+        "medianEngagements": 13.5,
+        "medianRate": 1.19
       },
       {
-        "key": "moyen (400-1000 car.)",
-        "posts": 29,
-        "medianImpressions": 825,
-        "medianEngagements": 13,
-        "medianRate": 1.16
+        "key": "long (> 1000 car.)",
+        "posts": 13,
+        "medianImpressions": 809,
+        "medianEngagements": 17,
+        "medianRate": 1.26
       },
       {
         "key": "court (< 400 car.)",
@@ -313,7 +313,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Personne ne le voit, mais je fais tout ça à côté d’un CDI.\n\nPas de miracle. Pas de routine instagrammable.\n\nJuste :\n\n•⁠ ⁠du travail le soir (et beaucoup la nuit)\n•⁠ ⁠des week-ends sacrifiés\n•⁠ ⁠et des périodes où tu doutes parce que tu avances moins vite que prévu\n\nÇa fait mainte"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_qui-veut-%C3%AAtre-mon-associ%C3%A9-14-millions-deuros-share-7453777171489406978-VHci",
@@ -377,7 +377,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "2025 a été ma meilleure année depuis que je me suis lancé.\n\nJ'entreprends depuis 3 ans et pourtant… j’ai l’impression d’être encore au tout début.\n\nCes derniers mois ont été incroyables :\nDe la traction, des opportunités et un sentiment de “ça y est, ça décolle”.\n\nMais plus ça av"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_en-2025-jai-gagn%C3%A939-436-%C3%A0-c%C3%B4t%C3%A9-de-mon-share-7426300020057927680-651C",
@@ -459,7 +459,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Le coût caché du CDI : ce n’est pas le salaire… c’est le temps.\n\nDepuis 3 ans, j’entreprends à côté d’un CDI.\nEt mes journées commencent à 18h.\n\n\nAvant 18h, je travaille pour mon CDI.\nAprès 18h, je “commence” enfin ma vraie journée : mes projets et mes clients.\n\nLe problème, ce n"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_je-gagne-90-000-par-an-et-ma-banque-a-refus%C3%A9-share-7496947371189166080-f4c6",
@@ -507,7 +507,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Personne ne le voit, mais je fais tout ça à côté d’un CDI.\n\nPas de miracle. Pas de routine instagrammable.\n\nJuste :\n\n•⁠ ⁠du travail le soir (et beaucoup la nuit)\n•⁠ ⁠des week-ends sacrifiés\n•⁠ ⁠et des périodes où tu doutes parce que tu avances moins vite que prévu\n\nÇa fait mainte"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_qui-veut-%C3%AAtre-mon-associ%C3%A9-14-millions-deuros-share-7453777171489406978-VHci",
@@ -637,7 +637,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "2025 a été ma meilleure année depuis que je me suis lancé.\n\nJ'entreprends depuis 3 ans et pourtant… j’ai l’impression d’être encore au tout début.\n\nCes derniers mois ont été incroyables :\nDe la traction, des opportunités et un sentiment de “ça y est, ça décolle”.\n\nMais plus ça av"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_jai-des-dizaines-de-livres-sur-mon-bureau-share-7426314286303506433-70Ih",
@@ -4546,7 +4546,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Mon organisation après ma journée de CDI (ça fait peur)\n\nJe commence mes journées à 18h.\nAvant 18h : CDI.\nAprès 18h : je démarre vraiment ma journée.\n\n\n18h → 20h : je rattrape le retard de la journée.\n👉 Je réponds aux messages : clients, freelances, associés.\nC’est le moment le "
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_le-co%C3%BBt-cach%C3%A9-du-cdi-ce-nest-pas-le-salaire-share-7419517112861499393-opbc",
@@ -4562,7 +4562,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Le coût caché du CDI : ce n’est pas le salaire… c’est le temps.\n\nDepuis 3 ans, j’entreprends à côté d’un CDI.\nEt mes journées commencent à 18h.\n\n\nAvant 18h, je travaille pour mon CDI.\nAprès 18h, je “commence” enfin ma vraie journée : mes projets et mes clients.\n\nLe problème, ce n"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_les-avantages-davoir-un-cdi-quand-on-est-share-7418781451648700416-_GO6",
@@ -4578,7 +4578,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Les avantages d’avoir un CDI… quand on est (ou qu’on veut devenir) freelance\n\n\nOn entend souvent dire qu’un CDI, c’est un frein. \nFranchement, je ne suis pas d’accord.\n\nLe CDI peut être un vrai avantage, surtout quand tu construis quelque chose à côté :\n\n✅ 1) Il te donne une sécu"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_trade-republic-est-victime-de-son-succ%C3%A8s-share-7418572582934900736-hJN2",
@@ -4594,7 +4594,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Trade Republic est victime de son succès \n\nDepuis quelques semaines, je vois pas mal de retours négatifs sur Trade Republic : comptes restreints, fonds temporairement bloqués et surtout, le support client qui est très difficile à contacter. \n\n👉 Malgré ces difficultés, Trade Repu"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_mon-erreur-en-2025-ne-pas-avoir-recrut%C3%A9-share-7416975240309825536-oL_q",
@@ -4610,7 +4610,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Mon erreur en 2025 : ne pas avoir recruté plus tôt.\n\nPas par manque de moyens.\nPas par manque d’envie.\n\n\nMais parce que j’étais trop concentré sur autre chose : investir et construire mon patrimoine immobilier.\n\nEt j’ai été moins focus sur le business.\nJe ne regrette pas.\n\n\nMais "
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_je-dois-recruter-et-mentourer-de-personnes-share-7416974052222902272-nuR4",
@@ -4626,7 +4626,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Je dois recruter et m’entourer de personnes meilleures que moi.\n\nJe crois que je viens de passer un cap.\n\n\nJ’ai fait le démarrage en solo. Et ça a très bien fonctionné…\nmais là, je sens que j’arrive au bout de mes capacités.\n\nAu début, être seul, c’est “simple” :\n\n- tu vas vite\n-"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_en-2025-jai-appris-un-truc-sur-limmobilier-share-7416251921230962688-Pj4s",
@@ -4642,7 +4642,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "En 2025, j’ai appris un truc sur l’immobilier :\n\nL’investissement locatif, c’est un vrai métier.\n\nQuand tout se passe bien, tu n’as presque rien à faire. Mais quand il y a un problème… tu dois vite réagir.\n\n\nCette année, j’ai eu :\n-> des travaux mal estimés (et forcément… ça piqu"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_entreprendre-avec-un-cdi-en-parall%C3%A8le-c-share-7415680975151767553-267D",
@@ -4658,7 +4658,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Entreprendre avec un CDI en parallèle, c’est sous-coté.\n\nOn parle beaucoup de “tout quitter” pour entreprendre.\nMais pour beaucoup, c’est surtout le meilleur moyen de se mettre une pression énorme… et de craquer.\n\nAvec un CDI, tu peux :\n\n- construire sans paniquer\n- dire non aux "
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_personne-ne-le-voit-mais-je-fais-tout-%C3%A7a-share-7414759121016803329-Mgzw",
@@ -4674,7 +4674,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "Personne ne le voit, mais je fais tout ça à côté d’un CDI.\n\nPas de miracle. Pas de routine instagrammable.\n\nJuste :\n\n•⁠ ⁠du travail le soir (et beaucoup la nuit)\n•⁠ ⁠des week-ends sacrifiés\n•⁠ ⁠et des périodes où tu doutes parce que tu avances moins vite que prévu\n\nÇa fait mainte"
       },
       {
         "url": "https://www.linkedin.com/posts/plunianalexandre_2025-a-%C3%A9t%C3%A9-ma-meilleure-ann%C3%A9e-depuis-que-share-7414087353633234944-hWvd",
@@ -4690,7 +4690,7 @@
         "membersReached": null,
         "followersGained": null,
         "angle": null,
-        "text": null
+        "text": "2025 a été ma meilleure année depuis que je me suis lancé.\n\nJ'entreprends depuis 3 ans et pourtant… j’ai l’impression d’être encore au tout début.\n\nCes derniers mois ont été incroyables :\nDe la traction, des opportunités et un sentiment de “ça y est, ça décolle”.\n\nMais plus ça av"
       }
     ]
   },
@@ -4716,9 +4716,9 @@
       "meme": null
     },
     {
-      "text": "« Vous êtes un red flag ambulant. »\n\nC'est ce qu'une conseillère bancaire m'a dit… avant de se lever, de faire le tour de son bureau et de m'ouvrir la porte. Rendez-vous terminé. En 5 minutes.\n\nJ'étais venu chercher un financement pour mon 3ᵉ appartement. Mais sur le papier, mon profil coche toutes les cases qui font peur à une banque :\n\n– j'enchaîne les financements\n– je suis passé à temps partiel pour développer mes activités\n– et une (énorme) partie de mon épargne est en Bitcoin\n\nDans ma nouvelle vidéo, je te raconte les coulisses de ce refus bancaire en toute transparence : \n\nhttps://lnkd.in/eqVbSmw6",
-      "impressions": 8861,
-      "engagements": 26,
+      "text": "Le coût caché du CDI : ce n’est pas le salaire… c’est le temps.\n\nDepuis 3 ans, j’entreprends à côté d’un CDI.\nEt mes journées commencent à 18h.\n\n\nAvant 18h, je travaille pour mon CDI.\nAprès 18h, je “commence” enfin ma vraie journée : mes projets et mes clients.\n\nLe problème, ce n’est pas la motivation.\n\nC’est la réalité :\n👉 je manque constamment de temps, parce que je n’ai pas une vraie journée de travail pour mon business\n👉 je suis “dans le jus”, parce qu’il faut répondre à tout : messages, demandes, suivi, imprévus\n👉 et parfois, je sens que je passe à côté d’opportunités… juste parce que je ne peux pas être disponible\n\n\nJe ne dis pas ça pour me plaindre.\nJe dis ça parce que c’est la vérité du “CDI + entrepreneuriat” qu’on ne montre pas souvent.\n\nLe CDI m’a beaucoup aidé à démarrer.\nMais plus ça avance, plus je comprends : la sécurité te protège… et le manque de temps te freine.",
+      "impressions": 19633,
+      "engagements": 29,
       "meme": null
     }
   ]
