@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "id": "bcfda40668",
+      "title": "Google lance l’API Gemini Decisions",
+      "summary": "Google lance l’API Gemini Decisions Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd0tPbkdnQ2RsRHM5NXRvTnNsU0NzNHZpOHM0NjMzakhMaVlQTHZqSDRnS2t5MFQ5OTJ3enFZOE5Ocm5sWlhYQ3RMdTg5NjJLZFk2clJsbXBCZFd6eGxqNHBKVDdvMUF1NWpNRFVWcVFJMU5VNE5uendiYmlWREhxRUM2ZkwxSWswRWR6YTB2dlM0bjgyNWdSVE9PeGk?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T19:47:16.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Lancement produit tech mineur, type refusé."
+    },
+    {
+      "id": "6b11ee2582",
+      "title": "La victoire des démocrates pourrait changer les leaders à Wall Street",
+      "summary": "La victoire des démocrates pourrait changer les leaders à Wall Street Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVG5uMDI4UnlSdGRSQU0zRUVscWIwWmZqZU1JSm9oRG1yWkFmZzAxMHpWMWFaOGdpY1BPWFpjVW9IQlhac1E4THhHdkFWa0dzOGhtbUlQVG1LYXVsUFZtTFRrWlg0TWxVMXRmbEUzRW9xZHl5cU5mN0RZN2xBbm5ZU2x5amJFRUFBX0UtWmx4S0RpTWswU052YklVUnpQLXZQdVJaVEVSd0UxN0Y5UlpBTnZqeTVGNnpHaEFHT3VkaktfSlpOZlk0QQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T19:33:19.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Angle politique US proche d'un sujet déjà traité et refusé."
+    },
+    {
+      "id": "895e48e5d2",
+      "title": "Lululemon Athletica attire de nouveau Michael Burry comme acheteur du titre",
+      "summary": "Lululemon Athletica attire de nouveau Michael Burry comme acheteur du titre Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNal8zcTJUeW5UUGVaWnZSNUNtcHZkYm1zUnJ2NjJCS2pXLTZQdlZPMXFyRVB5Xzh6ODJ0eFpmWFFxNy1JTGRlRjVvTV9xZURQaG5FandiRHN2Z0NVQ0dUSjl0YnY2ZmdKMGc0NXhJWkp1V3RDWmh5V3AyUHVvZUh3ZXdNTXh4NXV2Z1pUY2pHTGJscEpJcmRIRlRQZGJNMzJsNGNoSDhTM2FKOXlWMG82eUdXZldmd2ZlNW5kVkU3dlFNb0tLVjVhTlVWYzBraXFU?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T19:18:15.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Michael Burry connu mais mouvement de portefeuille mineur."
+    },
+    {
+      "id": "d7ba636ee3",
+      "title": "Actions étrangères : la défense cède la main aux banques",
+      "summary": "Après la vague démocrate, Booking et Fresenius mènent la hausse du portefeuille d’actions étrangères et Intesa Sanpaolo profite du rebond des banques. Micron chute avec l’IA, Leonardo avec la défense.",
+      "link": "https://www.lerevenu.com/reussir-bourse/conseils-bourse/actions-etrangeres-la-defense-cede-la-main-aux-ban",
+      "image": "https://cdn.overlord.media/les_bourses_mondiales_inquietes_des_hausses_de_tarifs_douaniers_promises_par_trump_7e77b01f_7cf6c3a92a.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-11T19:07:21.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Point de portefeuille sans surprise, type refusé."
+    },
+    {
+      "id": "c05764bca7",
+      "title": "Principaux titres en hausse à la mi-séance",
+      "summary": "Principaux titres en hausse à la mi-séance Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZXVHRWNrYzhtcnJyQVFGdDdBellmcTFFaE40d0tISERCTUp2YnltNVUwbkJaaWJqMDFMSko1djExbzBHRFg0SzNPNS1nNGxQZDBGbFpRdjBBTGpEOW1tODZFWmxyLUo1bEpRSDk2WklqRFFablNVTVFlaXEzaFA0YmM4d0s2a01jN3NaU01yV3BmUGhCdnM3V0NCd1pIRGp0TjgzVw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T19:05:15.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché du jour."
+    },
+    {
       "id": "a457295a72",
       "title": "LifeStance Health Group, Inc. : Barclays favorable sur le dossier",
       "summary": "LifeStance Health Group, Inc. : Barclays favorable sur le dossier Zonebourse",
@@ -84,6 +168,22 @@
       "international": true,
       "aiScore": 0,
       "reason": "Fait divers."
+    },
+    {
+      "id": "5122a4c0b3",
+      "title": "Espagne: des dizaines de milliers de manifestants en clôture d'une journée de grève générale pour le logement",
+      "summary": "Espagne: des dizaines de milliers de manifestants en clôture d'une journée de grève générale pour le logement Boursorama",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQQXU3MUxIQ2NfWEN4X0J1REp1VXpfWGEyQnNWdUxYRWwwOFF1UGp5UjhyMmxYbzAtdHhxUUw4dkJHN1V1aGMtcXB4dXZBdGZzTkJSTU90V1hQeEV0TTUyUUVIR3ZyNFFWVk9IQXFiWEhZZHpoQnFNRHQ1U296Wmlmd0hQSFJiNEtKYUhyY283elNuUVRGZlVTemJOUjVSMHdJaFlBd3pnbHZMRDNmeGhnbXpZT0dOSnZUUzZvQmhkbVllZTNXNF93T1JJLXVzTTZMOGh3eHBsa1U1bGZxeVRTSHUyYlpnYjJ4UW0tQUV2ekJNNWNRaF8tMUJZV1NLNjN1d1lJb0EyUHhaZW1ZZGxLSVJjdzMzdTVuWEE?oc=5",
+      "image": null,
+      "source": "Boursorama Immobilier",
+      "via": "google news",
+      "publishedAt": "2026-11-11T18:39:00.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Manifestation étrangère sur le logement, peu d'impact concret pour les Français."
     },
     {
       "id": "c1e3f6061d",
@@ -1593,6 +1693,23 @@
       "reason": "Cession locale suédoise."
     },
     {
+      "id": "487a46ed69",
+      "title": "Cosmos Health Inc. (COSM) Reports $1.83M Monthly Subscription Value",
+      "summary": "Cosmos Health Inc. (COSM) Reports $1.83M Monthly Subscription Value TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONEVncUNqTUZnMld3NHdmU0VrNVFac1AyT0xTVF9WN2lMNVNwMlFUaXBsaUJWOEsyMm55QllTYzI2RFZ5Rm9fT2hyT2YzOWFFazFsSWhzTGt2Qk16QWRnbWpLTnlVRUpEdTl4dzB0YmJWRUVoUGRtU2hSUnV0OEpQMmExd2JBaVNwQXpnVmVCanczOFZxazk4NTFyRnEwLTBvYTFBSWlIWWlvWjc5LWM1ZWdOZDRvek55UXFVNnFEdHNPZw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T14:30:00.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Microcap inconnue."
+    },
+    {
       "id": "257e7bce18",
       "title": "Siemens Energy AG : RBC optimiste sur le dossier",
       "summary": "Siemens Energy AG : RBC optimiste sur le dossier Zonebourse Suisse",
@@ -2253,6 +2370,23 @@
       "reason": "Grève et politique espagnoles, trop loin des préoccupations françaises."
     },
     {
+      "id": "a3622b3993",
+      "title": "Big Sky Industrial Q3 2026 Earnings Call Is Live",
+      "summary": "Big Sky Industrial Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaDViU1l5WEJGX084dl9wRzNZYTZSNlFDWkw4U1p6dUNkMk8wMlFtT3BaTjNiLVc3endZNVg1ZE83TFNiMDI2UEw3TWZsak8tSmdWbGUyZC1lSnQwV1NmNTMyVmpRNzBwcEIwcUxSOXBTSWRuM0JzZGtZd0lmaHExM2phM3N0Q1lubThDT25qTkNLdnB0LUFfblZZbWJTWjhXMTh4cWZaNFpYaVhreTRaZFBoa25jRFk?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T13:57:04.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Entreprise inconnue, sans intérêt."
+    },
+    {
       "id": "db8b180801",
       "title": "New Wave Group – Présentation du T3 2026",
       "summary": "New Wave Group – Présentation du T3 2026 Zonebourse Suisse",
@@ -2472,6 +2606,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Petite capitalisation britannique inconnue en France."
+    },
+    {
+      "id": "03770dbaf7",
+      "title": "Le rôle de RWE dans l'opération Uniper serait “de portée limitée”, selon son directeur financier",
+      "summary": "Le rôle de RWE dans l'opération Uniper serait “de portée limitée”, selon son directeur financier TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xNWh0SkJwODFyd1VzWjRxRHNZXzVscjRQdmowdDYyVWI1VE85cmZLTnI0WXZQX0VrZXBlZmltWk5qMDFsMnlXdnJSeFctWFNySDBqMUNUZUdGM0RHb3JGeGxqLUJJdEtHWF9KMnJNa0VpaUtEYUdN?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T13:14:35.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Actu corporate allemande obscure."
     },
     {
       "id": "c646522492",
@@ -3201,6 +3352,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Simple recommandation d'analyste."
+    },
+    {
+      "id": "d7f9078b80",
+      "title": "SXTP Q3'26 Earnings: EPS estimate is (0.61) USD",
+      "summary": "SXTP Q3'26 Earnings: EPS estimate is (0.61) USD TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYmNaMXFFNm1ZbGV5em9pVFBiWmJJZU5nejdoejRCRlI3Y21PMWVOLURlVVY4NVVhREVMZzRZMnI3OHYxUmExSVdsN1dKSzJuak5Hcl90WWNQN1Q5d3lmZk9SS0paU2NTRUhmTXlBTWZTaHJ2M3pLQjg1LWw0bVBxTkVLTWZ1LXdZUlpfM1diM2h1YXZwSzh1MWc5NVZnQmdzeS1zOFNiVzA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T12:00:46.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation inconnue."
     },
     {
       "id": "abfbc7c13f",
@@ -4045,8 +4213,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret pour les copropriétaires face aux obligations de rénovation énergétique.",
-      "hook": "Rénovation en copro : l'État ne paie que 38 % de la facture"
+      "reason": "Chiffre concret sur le reste à charge des copropriétaires face aux obligations DPE.",
+      "hook": "Rénovation en copro : les aides ne paient que 38 % des travaux"
     },
     {
       "id": "a5d200b1ee",
@@ -8889,7 +9057,7 @@
       "score": 2,
       "status": "new",
       "aiScore": 9,
-      "reason": "IPO historique d'un géant de l'IA, chiffres records, sujet incontournable.",
+      "reason": "IPO record potentielle du créateur de Claude, chiffres vertigineux.",
       "hook": "Anthropic vise 1 400 milliards : la plus grosse IPO de l'histoire ?"
     },
     {
@@ -9347,7 +9515,7 @@
       "score": 6,
       "status": "new",
       "aiScore": 7,
-      "reason": "Paradoxe surprenant qui touche directement les détenteurs d'ETF S&P 500.",
+      "reason": "Paradoxe surprenant qui concerne directement les détenteurs d'ETF S&P 500.",
       "hook": "80 % des actions montent… et pourtant votre ETF baisse"
     },
     {
@@ -10415,6 +10583,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Résultats sans surprise."
+    },
+    {
+      "id": "b293294948",
+      "title": "Euro zone yields rise echoing dramatic move in Treasuries",
+      "summary": "Euro zone yields rise echoing dramatic move in Treasuries TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVWRlME93Zm1rS29WeTVodVZRY1NZeGRMZV96aVYtOWd4OVdwcTZRSlA5YzRNcEdCajViT0FCRGROR3l5QUticTY3NmlVaHhPbHVPUEpqQmJjY1FCMW5nV0QzMFc2cjFRWkloMGlfWlNQRzd4T09qS05mSFVKTHFJNnhLLXpoLTdZTXpkbC1FNjF6ZXI2Ykpkc1ZEdDVLZkNQZGZMVEYyTnQ5U1VmbHdaUEdLVTMwNm9vOTVPbWtIcTRKajN2?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-10T16:04:58.000Z",
+      "collectedAt": "2026-11-11T20:08:20.583Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Mouvement obligataire technique, point de marché."
     },
     {
       "id": "ea278d4097",
@@ -35943,5 +36128,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-11T19:08:04.507Z"
+  "updatedAt": "2026-11-11T20:08:36.173Z"
 }
