@@ -12354,7 +12354,7 @@
       "collectedAt": "2026-11-11T05:07:32.668Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 8,
       "reason": "Chiffre frappant or contre immobilier, angle placement surprenant.",
@@ -37697,5 +37697,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:44:46.001Z"
+  "updatedAt": "2026-11-11T22:44:47.961Z"
 }
