@@ -1,0 +1,103 @@
+{
+  "item": {
+    "id": "2a44bc0250",
+    "title": "Nvidia se prépare à évincer Jensen Huang",
+    "summary": "Selon le Wall Street Journal, le conseil d'administration de Nvidia se prépare à évincer Jensen Huang, après une enquête sur sa relation avec une femme soupçonnée d'espionnage pour la Chine et un nouveau article du New York Times sur une relation avec une dirigeante de Nvidia.",
+    "link": "https://www.techmeme.com/261111/p44",
+    "source": "Wall Street Journal",
+    "publishedAt": "2026-11-11T22:38:52.880Z",
+    "collectedAt": "2026-11-11T22:38:52.880Z",
+    "brand": "investisseur",
+    "score": 99,
+    "status": "generating",
+    "manual": true
+  },
+  "carousel": {
+    "category": "Actualité",
+    "generator": "manuel",
+    "slides": [
+      {
+        "kind": "cover",
+        "kicker": "",
+        "title": "Nvidia se prépare à **évincer** Jensen Huang",
+        "body": "",
+        "bullets": [],
+        "image_query": "Jensen Huang Nvidia keynote leather jacket",
+        "image_entity": "Jensen Huang"
+      },
+      {
+        "kind": "content",
+        "kicker": "L'INFO",
+        "title": "Le board veut s'en séparer",
+        "body": "Selon le **Wall Street Journal**, le conseil d'administration de Nvidia se prépare à **évincer son PDG**.\nIl pourrait se réunir **dès cette semaine** pour décider de son avenir. Rien n'est encore officiel.",
+        "bullets": [],
+        "image_query": "Nvidia headquarters Santa Clara",
+        "image_entity": "Nvidia"
+      },
+      {
+        "kind": "content",
+        "kicker": "LE DÉBUT DU SCANDALE",
+        "title": "Une relation avec une espionne présumée",
+        "body": "Le week-end dernier, Jensen Huang a **reconnu une relation** avec une femme que des services de renseignement soupçonnent d'espionner pour la **Chine**.\nLe board a lancé une **enquête indépendante**. Pékin dément tout complot.",
+        "bullets": [],
+        "image_query": "Jensen Huang Nvidia CEO",
+        "image_entity": "Jensen Huang"
+      },
+      {
+        "kind": "content",
+        "kicker": "NOUVELLE RÉVÉLATION",
+        "title": "Une 2ᵉ relation, cette fois en interne",
+        "body": "Ce mercredi, le **New York Times** affirme que Jensen Huang a eu une autre relation extraconjugale, avec une **vice-présidente de Nvidia**.\nUne relation avec une subordonnée : c'est souvent ce qui fait tomber un patron aux États-Unis.",
+        "bullets": [],
+        "image_query": "Nvidia office building logo",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LA BOURSE",
+        "title": "L'action décroche",
+        "body": "L'action Nvidia avait déjà perdu **environ 4 %** lundi, après l'ouverture de l'enquête.\nCe soir, elle chute de **9 %** après la clôture des marchés. Nvidia est la **plus grosse capitalisation** au monde.",
+        "bullets": [],
+        "image_query": "stock market screen red decline Nvidia",
+        "image_entity": ""
+      },
+      {
+        "kind": "content",
+        "kicker": "LE VRAI PROBLÈME",
+        "title": "Nvidia, c'est Jensen Huang",
+        "body": "Il a **cofondé** Nvidia en 1993 et la dirige depuis plus de **30 ans**.\nPas de directeur général délégué, environ **60 personnes** qui lui rendent compte directement : aucun successeur évident. La directrice financière **Colette Kress** est citée pour un intérim.",
+        "bullets": [],
+        "image_query": "Colette Kress Nvidia CFO",
+        "image_entity": "Colette Kress"
+      },
+      {
+        "kind": "list",
+        "kicker": "CE QU'IL FAUT SURVEILLER",
+        "title": "Les prochains jours",
+        "body": "",
+        "bullets": [
+          "La réunion du conseil d'administration et un éventuel communiqué officiel.",
+          "Le nom du successeur, même provisoire.",
+          "L'effet sur tout le secteur de l'IA : Nvidia pèse lourd dans les ETF Monde et S&P 500."
+        ],
+        "image_query": "",
+        "image_entity": ""
+      },
+      {
+        "kind": "cta",
+        "kicker": "",
+        "title": "Nvidia peut-elle survivre sans Jensen Huang ?",
+        "body": "",
+        "bullets": [],
+        "image_query": "",
+        "image_entity": ""
+      }
+    ],
+    "hook_alternatives": [
+      "Jensen Huang bientôt viré de Nvidia ?",
+      "Le patron le plus puissant de l'IA sur la sellette",
+      "Espionne chinoise, 2ᵉ relation : Nvidia lâche Jensen Huang"
+    ],
+    "caption": "Le conseil d'administration de Nvidia se prépare à évincer Jensen Huang, selon le Wall Street Journal.\n\nTout a commencé le week-end dernier. Jensen Huang a reconnu une relation avec une femme que des services de renseignement soupçonnent d'espionner pour la Chine. Le board a lancé une enquête indépendante, tout en affirmant n'avoir aucune raison de penser que des secrets de Nvidia ou la sécurité nationale américaine aient été compromis. Pékin dément.\n\nCe mercredi, le New York Times a ajouté une deuxième révélation : une autre relation extraconjugale, cette fois avec une vice-présidente de Nvidia. Quelques heures plus tard, le Wall Street Journal annonçait que le board pourrait se réunir dès cette semaine pour décider de son avenir. Rien n'est officiel à ce stade.\n\nRésultat : l'action Nvidia chute de 9 % après la clôture des marchés, après avoir déjà perdu environ 4 % lundi.\n\nLe vrai sujet pour les investisseurs, c'est la succession. Jensen Huang a cofondé Nvidia en 1993 et la dirige depuis plus de 30 ans. Il n'y a pas de numéro 2 désigné, et une soixantaine de dirigeants lui rendent compte directement. La directrice financière Colette Kress est citée comme possible PDG par intérim.\n\nSi tu as un ETF Monde ou S&P 500, tu es exposé à Nvidia, qui en est l'une des plus grosses lignes. Ceci n'est pas un conseil en investissement.\n\nNvidia peut-elle rester le roi de l'IA sans Jensen Huang ?\n\n🔔 Abonne-toi à @lemediadelinvestisseur pour ne rien rater de l'actu qui touche ton argent."
+  }
+}

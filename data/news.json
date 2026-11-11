@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "id": "2a44bc0250",
+      "title": "Nvidia se prépare à évincer Jensen Huang",
+      "summary": "Selon le Wall Street Journal, le conseil d'administration de Nvidia se prépare à évincer Jensen Huang, après une enquête sur sa relation avec une femme soupçonnée d'espionnage pour la Chine et un nouveau article du New York Times sur une relation avec une dirigeante de Nvidia.",
+      "link": "https://www.techmeme.com/261111/p44",
+      "source": "Wall Street Journal",
+      "publishedAt": "2026-11-11T22:38:52.880Z",
+      "collectedAt": "2026-11-11T22:38:52.880Z",
+      "brand": "investisseur",
+      "score": 99,
+      "status": "done",
+      "manual": true,
+      "generatedAt": "2026-11-11T22:38:56.991Z",
+      "carousel": {
+        "dir": "carousels/2026-11-11/investisseur-nvidia-se-prepare-a-evincer-jensen-huang-2a44bc0250",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "manuel",
+        "slides": 8,
+        "hooks": [
+          "Jensen Huang bientôt viré de Nvidia ?",
+          "Le patron le plus puissant de l'IA sur la sellette",
+          "Espionne chinoise, 2ᵉ relation : Nvidia lâche Jensen Huang"
+        ],
+        "coverPhoto": true
+      }
+    },
+    {
       "id": "c1f9015779",
       "title": "BHP Group nomme Adrian Wood au poste de directeur financier",
       "summary": "BHP Group nomme Adrian Wood au poste de directeur financier Zonebourse Suisse",
@@ -37744,5 +37780,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:36:19.032Z"
+  "updatedAt": "2026-11-11T22:38:56.991Z"
 }
