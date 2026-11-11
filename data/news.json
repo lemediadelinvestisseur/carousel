@@ -978,7 +978,7 @@
       "collectedAt": "2026-11-11T22:34:38.762Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 7,
       "reason": "L'IPO d'Anthropic intrigue les particuliers et peut devenir un record historique.",
@@ -37731,5 +37731,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:44:51.240Z"
+  "updatedAt": "2026-11-11T22:44:55.774Z"
 }
