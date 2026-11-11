@@ -5441,7 +5441,7 @@
       "collectedAt": "2026-11-11T11:07:28.064Z",
       "brand": "21m2",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "Chiffre concret pour les copropriétaires : les aides couvrent seulement 38 % des travaux.",
       "hook": "Rénovation en copro : l'État ne paie que 38 % de la facture"
@@ -37731,5 +37731,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:44:55.774Z"
+  "updatedAt": "2026-11-11T22:45:00.925Z"
 }
