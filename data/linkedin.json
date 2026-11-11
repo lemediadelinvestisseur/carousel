@@ -1,6 +1,77 @@
 {
   "posts": [
     {
+      "id": "1a67df75ba",
+      "createdAt": "2026-11-11T06:14:30.450Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le gaz augmente de 5,8 % au 1er décembre : les Français passent l'hiver en doudoune dans leur propre salon",
+      "text": "Le nouveau dress code de l'hiver vient de tomber.\n\nPrix de référence du gaz : +5,8 % au 1er décembre.\n\nDonc chez beaucoup de Français, la saison va ressembler à ça :\n\n– thermostat bloqué à 18°C « parce que c'est recommandé »\n– plaid obligatoire pour regarder Netflix\n– bonnet à table, sans aucune honte\n– le fameux « mets un pull » qui revient en force\n\nEt pendant ce temps-là, le propriétaire qui découvre le DPE de son appart se demande s'il chauffe son logement… ou le quartier entier.\n\nLe vrai luxe en 2026, ce n'est plus la Rolex. C'est un logement bien isolé.\n\nChez toi, le chauffage est réglé à combien cet hiver ?",
+      "image": "carousels/linkedin/2026-11-11/1a67df75ba.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "man wearing winter coat scarf and beanie sitting on sofa inside living room cold at home",
+        "caption": "Le gaz augmente de 5,8 % au 1er décembre. Les Français dans leur salon à partir du 2 :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-11T06:14:53.135Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "6fda1e0bea",
+      "createdAt": "2026-11-11T06:14:22.908Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Bitcoin sous 74 000 $ : l'investisseur crypto de 2022 qui renforçait à -75 % face à celui de 2026 qui panique à -14 %",
+      "text": "Bitcoin repasse sous les 74 000 $. -14 % depuis janvier.\n\nEt sur les réseaux, ambiance fin du monde.\n\nC'est fascinant.\n\nEn 2022, le bitcoin perdait plus de 75 %. Les plus convaincus disaient « c'est les soldes » et continuaient tranquillement leur DCA.\n\nEn 2026, une petite baisse de 14 % et tout le monde se demande s'il faut tout vendre avant Noël.\n\nPlus le prix monte, plus on a de mal à supporter les baisses. C'est humain : à 74 000 $, 14 %, ça fait un sacré trou à l'écran.\n\nPersonnellement, une bonne partie de mon épargne est en bitcoin. Alors j'ai appris un truc : la meilleure appli pour traverser une baisse, c'est celle qu'on ne regarde pas.\n\nToi, tu fais quoi quand le bitcoin baisse : tu regardes, tu renforces ou tu supprimes l'appli ?",
+      "image": "carousels/linkedin/2026-11-11/6fda1e0bea.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Buff Doge vs. Cheems",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Investisseur crypto en 2022",
+          "Investisseur crypto en 2026",
+          "Bitcoin -75 % : « je renforce »",
+          "Bitcoin -14 % : « c'est la fin »"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-11T06:14:30.450Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "30e2a46b40",
+      "createdAt": "2026-11-11T06:14:21.848Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Anthropic vise 1 400 milliards pour son IPO : on demande à son IA si elle est surévaluée, et elle détourne le regard",
+      "text": "J'ai trouvé le seul analyste financier qui ne peut pas être objectif.\n\nAnthropic vise une valorisation de 1 400 milliards pour son entrée en Bourse. Peut-être la plus grosse IPO de l'histoire.\n\nDu coup, réflexe d'investisseur moderne : on demande directement à l'IA ce qu'elle en pense.\n\nSauf que c'est un peu comme demander à un vendeur de voitures si sa voiture est trop chère.\n\nOu demander à ton agent immobilier si le 2 pièces avec vue sur le périph vaut vraiment ce prix.\n\nLa réponse sera forcément nuancée, équilibrée… et très bien rédigée 🙃\n\nBref, l'IA peut t'aider à analyser plein de choses. Mais sur sa propre valorisation, il y a comme un léger conflit d'intérêts.\n\nToi, tu demandes déjà à une IA de t'aider sur tes investissements, ou pas du tout ?",
+      "image": "carousels/linkedin/2026-11-11/30e2a46b40.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Monkey Puppet",
+        "image_query": null,
+        "caption": "Moi : « Claude, l'IPO d'Anthropic à 1 400 milliards, franchement, c'est pas un peu surévalué ? »",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-11T06:14:22.908Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "9f111b884c",
       "createdAt": "2026-11-10T06:15:10.473Z",
       "origin": "auto",
@@ -71,5 +142,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-10T06:15:19.726Z"
+  "updatedAt": "2026-11-11T06:14:53.135Z"
 }
