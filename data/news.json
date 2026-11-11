@@ -19882,7 +19882,7 @@
       "collectedAt": "2026-11-10T07:07:20.659Z",
       "brand": "21m2",
       "score": 7,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Taux à 3,82% sur 20 ans : impact direct sur les acheteurs, chiffre concret.",
       "hook": "Crédit immobilier : 3,82% sur 20 ans, la hausse continue",
@@ -37697,5 +37697,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:44:42.250Z"
+  "updatedAt": "2026-11-11T22:44:46.001Z"
 }
