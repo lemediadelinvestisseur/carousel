@@ -10489,7 +10489,7 @@
       "collectedAt": "2026-11-10T19:07:32.253Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 9,
       "reason": "IPO historique du créateur de Claude, chiffres records qui font parler.",
       "hook": "Anthropic vise 1 400 milliards : la plus grosse IPO de l'histoire ?"
@@ -37744,5 +37744,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:35:18.197Z"
+  "updatedAt": "2026-11-11T22:36:19.032Z"
 }
