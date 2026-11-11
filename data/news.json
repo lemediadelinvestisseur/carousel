@@ -1,6 +1,124 @@
 {
   "items": [
     {
+      "id": "5d443171b2",
+      "title": "Le CAC 40 nage dans le vert, TotalEnergies carbure : les infos bourse du 11 novembre",
+      "summary": "La Bourse de Paris a terminé dans le vert, au terme d'une séance dominée par un enthousiasme renouvelé pour les valeurs liées à l'intelligence...",
+      "link": "https://www.moneyvox.fr/bourse/actualites/111198/le-cac-40-nage-dans-le-vert-totalenergies-carbure-les-infos-bourse-du-11-novembre",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20250627_016562_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-11T20:59:06.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 7,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Point de marché du jour, refusé par l'éditeur."
+    },
+    {
+      "id": "25efc8aed0",
+      "title": "Les principales cryptomonnaies progressent ; le bitcoin dépasse 74 000 dollars",
+      "summary": "Les principales cryptomonnaies progressent ; le bitcoin dépasse 74 000 dollars Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaXZhZjBTcE5aUjhtQmItZ0ZkVmcyN2xhQnhyTWdNT1JqSFh0STI4bUVFQnczOEwwYUJnUXpreHdnWFREamNPZWszaWRSSVZXUzY1R1AwRG9sb3BiNGttejlNUTB0MG9ybHRrOW51amNOU1ptbW04R1ZNMzJOVnhoR1RiRjZlODV6WFA0enpSdmk4UEx3ZDlGNFJDYlFqR1lJREZWRzBfT09sZ2ppLWdURW5kM1lQQmtuc2cyTTRpV3d2cEstS2dCYlliWEVBMzZjWlE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T20:50:12.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Seuil de Bitcoin du jour, type refusé."
+    },
+    {
+      "id": "16ae1785dc",
+      "title": "JetBlue mise sur une première classe pour redresser ses comptes",
+      "summary": "JetBlue mise sur une première classe pour redresser ses comptes Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVVFFUENjVkxKVWJIWkJrQTRieXpGYWoxYW1tRVlsakEwV3JPM0JSaEdIU2RuZTlzZGxQZS1NSUxkQzVkRVlWRlo4b2JENEtZUWt2NGx6YXdEWi1qeHJGQmt3MlhXa3JKcWJHampBcC1fRVZTdW9pYjZCNi0xY3NnUjhJQk55cmhWb0RQa1A1U3VCeGhlLXdpLXZLY0xFd21SaktkaUpJamZPRWVFZkFrNEJtTXZLTkNoMnlNLTFyMmo?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T20:48:16.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Compagnie US peu connue en France."
+    },
+    {
+      "id": "31de7978dd",
+      "title": "Les actions de Carlsmed progressent après les résultats du T3",
+      "summary": "Les actions de Carlsmed progressent après les résultats du T3 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUkpKN3U0bUNMbjIwUFNBZjQtVElacnVHMTdhZkpBRFAzUkRfSnpqcjd3cjljYTA0dzlvMmIzT3pKLTR5RlQ0QVV0SmhoYUJXU0RES2lFOC03Q0czUlpKejRTc1hqZlFVQVpMdlR0aFQ3Y0hLMHF6N0NJckFwdzMwUUZmamROWms5dFg3NUVYbXk1VXJMRVNtSkdZZTRTaWFUbmpGVzc2ZGJ1QWtCT0xxcFJiYXBQM2VIYmNZYTh3?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T20:38:17.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation US inconnue."
+    },
+    {
+      "id": "71f87f035e",
+      "title": "Le pétrole augmente, faute d'avancée entre Washington et Téhéran",
+      "summary": "Le pétrole augmente, faute d'avancée entre Washington et Téhéran TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95S1NFbVF0N29SUlh0NlA3djVBRUg3Z0ZEM1BDbjgtb2ktNTRqdFNseFBjSEJDcEFOZWkzTjFVS2FSNGlpcVJvekx2X3BndWR0aGJSX3V0WnlCclktWlpWUWdn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T20:28:57.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Mouvement du pétrole du jour, refusé."
+    },
+    {
+      "id": "eacbf21ddf",
+      "title": "Allianz: résultat d'exploitation record sur 9 mois, prévisions relevées",
+      "summary": "Allianz: résultat d'exploitation record sur 9 mois, prévisions relevées Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVW5kNzFPbG9KTEFrQmROdk5VTDhCR3ozSklXQlIta045dFhXYkJtd2ZhakpEVkpFMlFFbzd6T29CdFpmZ1pOS0R3UnpnbzRJaTFQSzlNNGp5VGtmYzFyMkQzdXRna0JMYWNtcThfd2RuRTFWVWRNdWFwQkh6T2RGNEp6dUZJZG9JQ2RJQnd1SVJabzFJdFhxLUZkWkl3STc4bmJmRGxjMTZYeXNPMjJNQ0FZVlhBQ1pqcnpxVVo0cUZ1V3kxbXZwYg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T20:27:16.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Résultats d'assureur allemand, peu de surprise."
+    },
+    {
+      "id": "fdd1839279",
+      "title": "Rigetti devrait enregistrer des progrès techniques réguliers, selon Wedbush",
+      "summary": "Rigetti devrait enregistrer des progrès techniques réguliers, selon Wedbush Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZURXTzY1RXBPeXBhSFdhaGpDNEF4OExPYnN2MTBVQktfZTBmOE5PNWJwSVZ1NGZwRWRybWMzRGFIeW04YnRWZWRpQlAwS1VyT0hjckE1YlNBNXY2WlB3Q2JncV81RjFQeHJwNmQ4aVJqVjdIX0FHQ2pXamtLN3NuQl9wdDVyOWh5a1JKeWs2WVZrQTRSQ1BCOG1aWlF1aWVtbWZydGtVZnluTlFRZGRBeGxUblFKU29OZVBRY3lmbXVBTHFBaGdPWm1ZLTl6VjNH?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T20:16:11.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste, refusée."
+    },
+    {
       "id": "bcfda40668",
       "title": "Google lance l’API Gemini Decisions",
       "summary": "Google lance l’API Gemini Decisions Zonebourse Suisse",
@@ -136,6 +254,23 @@
       "reason": "Résultats sans surprise."
     },
     {
+      "id": "bedc665867",
+      "title": "Nomura étudie la cession de son activité dans les cryptomonnaies",
+      "summary": "Nomura étudie la cession de son activité dans les cryptomonnaies Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMjZnOC1ETThDV0k4Wl8tV29mcTQ1dGlEcnMwX2JoYWF0Z2xlSVFzSVNnbE55WDl1ZnptZ0MtSmkwWDhaYUlVYW1mUWlEM25Tb0pZZThMa21IUy1YenV2bEpLdEFRZUlDcHhLY3FvLVozendaS2lpVHFpdzMweGZvVHVVd2JoejA3eWhjcnp2UTZTMTFwc3lJeU5vQjEyUklIcG11cmFTd2RmSU9WQ1Q5YkdMbEtYUWkyRlFfLU1WUnc1dw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T18:54:12.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Cession mineure d'une banque japonaise."
+    },
+    {
       "id": "6d08d73f26",
       "title": "Allianz relève ses perspectives de bénéfice pour 2026",
       "summary": "Allianz relève ses perspectives de bénéfice pour 2026 Zonebourse Suisse",
@@ -269,6 +404,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Statistique étrangère mineure."
+    },
+    {
+      "id": "dbc31acba0",
+      "title": "IHeartMedia étudie la vente de ses activités de podcasts, rapporte Bloomberg",
+      "summary": "IHeartMedia étudie la vente de ses activités de podcasts, rapporte Bloomberg Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZGNyMkZKWjBsU2dSQjdrZlBOd1FnZWZJZENxd0g0Y0RzeVpoWGsxbHBhQ0Q3Wmhmc29uVWZULXNzU3ltYm9kVmNkengxTFlIUFBKc1pTaDJ1NVV5ajBzS01mWkROQ3NKVnozQ1A2cm9UMTJhWmVua0kwQl9jcWRzSm9KdFZrNkhiZEE1M0ZLUjJja0pZWFBKc1IyV0NsRnBmODZPekJfYnpuQTJhLTEtdXlkYVlQTElSNEdsQ2tyeGdSUlA0bHloQ25NejBJcXNt?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T18:23:17.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Acteur US peu connu en France."
     },
     {
       "id": "d87ee1a784",
@@ -591,6 +743,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "e91630c8e6",
+      "title": "UNIQA INSURANCE GROUP AG",
+      "summary": "UNIQA INSURANCE GROUP AG Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPellQV0RJYmVrcjlnYU9BbExQbWt6Zjc5YWNDUEJjQ280LWpHTWZjOGNjTGxvQXV5S1hWdnY0UWptdGVpSl82N3JnZGh5ekZQY2s1ZHE3cDFERzBfQjNHNGR5cHJpMEtVY0VJcW1iSk0welVLaXVNQkcxcUxsNERMYktfeXVHR2lEbV9CcGIwN2tOZ0ZFUzdHcmZUSkoydkVPa0djeGJISUR3RlJZUXd5eFRiMlgzaUVDMXVaYUdPV1ZZeU8yN25rSExaSWZBcTdIbHJ3RE5qa25pdU1hTTA2a2JxOGNqb09Pdm1YRQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-11T16:58:49.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Aucun contenu."
     },
     {
       "id": "3e7bfa9783",
@@ -2370,6 +2539,23 @@
       "reason": "Grève et politique espagnoles, trop loin des préoccupations françaises."
     },
     {
+      "id": "07dbb943fa",
+      "title": "Amgen's Sjogren's drug cuts disease activity in trial",
+      "summary": "Amgen's Sjogren's drug cuts disease activity in trial TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYmloUnJGOGxQMUl1Rl9NdHMtWTdkS1dKWkdOWTBscW56bmJaQzRJQjg2cEhZMjlLVWJ5TW1QU25kSFZrdWVYS3VobUpEZ0hnN1JmWlBrVkZ0VUVxcUhRbzg5Qk9jLXl1QU1kVmVDX2Rud2xEWEp1M05GLWkzemV2VlRQajZOWm1Xd2RDdUJwbW50TUFFRVFyUGN0NDJJLXJKNldkNlNlbVl6NzJBMGhMTm5BQkMwb1A3bkpGOU5jVQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T13:58:53.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Essai clinique, type refusé."
+    },
+    {
       "id": "a3622b3993",
       "title": "Big Sky Industrial Q3 2026 Earnings Call Is Live",
       "summary": "Big Sky Industrial Q3 2026 Earnings Call Is Live TradingView",
@@ -2572,6 +2758,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Politique brésilienne, faible lien avec l'argent."
+    },
+    {
+      "id": "2c6a760b4c",
+      "title": "Snam enters exclusive talks to sell Agri Biomethane business",
+      "summary": "Snam enters exclusive talks to sell Agri Biomethane business TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMVc3eFlGNmozcTBhM2ZDSlZMZnRta2cyNWVnTnJNam9kc29BdEl0T0dtSlJZT0NRZl8yTWdnaUdYSVdJVHR2bllJckZZRFFBRmhPVUJabG52LXZlN0VEazBZSUNLTjNSbU1rVGlOMWJrcW5CRHFDai10UnJZbWdVc3ZrZWNzUF8xMS1tMHM5eHY1SW1kTzhER1ppRnR3XzNVUGcyWmk2ODZxc1FPbGZQQzl5Sjh2MXIxdHpMZDlGbHQtY3RqOTR5eg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T13:23:23.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Cession de niche italienne."
     },
     {
       "id": "5e7488b990",
@@ -2963,6 +3166,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Position courte mineure."
+    },
+    {
+      "id": "eb531e638c",
+      "title": "Philippine central bank assessing slower growth's impact on inflation",
+      "summary": "Philippine central bank assessing slower growth's impact on inflation TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQb3lkSUc5Zy11Uk9ZLWJnNDVnTnRrcmtMNmdSZXJkbUVfdVNaSmNZOXh6NDExcXEzN2xYRFpmQmM4VGlBUDd6SGwyQzBNM01jMGJmbHZKVElsR19hdjJiT2dtZnZGQktCYXFURGxTVFFVaWlGZHEzOENKYk1YRjRKWmYycnctdEZFWGdOdHZ1WFd2elpPQTZMSHl0Z1lHUzFMd1JSMlVRU0EzTl9kNnQ2ZDJYSTk0MEg5d2ZhOE1FNFRJUXhLdWxZam5mZDFsM1V4SHJ1bg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T12:43:06.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Banque centrale philippine, hors radar."
     },
     {
       "id": "76aac00741",
@@ -3371,6 +3591,23 @@
       "reason": "Petite capitalisation inconnue."
     },
     {
+      "id": "1bfadea526",
+      "title": "EPR Properties Announces Proposed $500.0 Million Convertible Senior Notes Offering",
+      "summary": "EPR Properties Announces Proposed $500.0 Million Convertible Senior Notes Offering TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdFFhWWp6cEh6Mng5OHNwTXh0YVFBMDNPV3pJQjJGTU1kZEFhRVJGb1BMWjF4RGVMVGNlZTF6bGlWWkQxSjBkam1uN3lrWnN6VmYyWjcycURBYm5sTHhDVzJ5WXR3OHJWNDNPMkYzOTZVYWhTX19tenJQTjhySUpFU3AzRTZ3ZnYtbzJpYXRhNmVQQnozY3JTNHdHdVB3ZzM1X19BRmFIZS1EMWJCNGxIU1NUTlNsSWVRcDFfUHhjN2dVQVI2VE14NFZDSzRmcUpmeDJvdXpHdXBJQXM1ZVhhSmVoQVQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T12:00:43.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Émission obligataire technique."
+    },
+    {
       "id": "abfbc7c13f",
       "title": "SPCE Q3'26 Earnings: EPS estimate is (0.47) USD",
       "summary": "SPCE Q3'26 Earnings: EPS estimate is (0.47) USD TradingView",
@@ -3741,6 +3978,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Small cap allemande inconnue."
+    },
+    {
+      "id": "06deff0924",
+      "title": "EU threatens significant fines for unfair online trade practices",
+      "summary": "EU threatens significant fines for unfair online trade practices TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZjN1cmNQa0l4Z3hCMmxvUjY1Yk5fV2JDR0pzR2VGVzdtanQ5NEJrMWhsRE1CNUVOeXdrWk4yb3pkZlNLaHVFdDdCSDMxQTl3NWUtS3dtaDNBWWJGWm4wdEk3X2lwR0xnSkZuVzBqeW55Y0JiQTJDclYyekVGZnd5S3dsSC1lQ3h6UWlKWUM3cHRnUTFfQkNZSnU1YW1CYTgyTFBoVGZoTDVoa3phbENBWXRRSTdzOTlYOTRzbnFBZXBEUzF1NkF0RE04WXYxdw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T11:18:05.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Menace réglementaire vague sans acteur précis."
     },
     {
       "id": "a526eb310b",
@@ -4213,8 +4467,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret sur le reste à charge des copropriétaires face aux obligations DPE.",
-      "hook": "Rénovation en copro : les aides ne paient que 38 % des travaux"
+      "reason": "Chiffre concret sur le reste à charge des copropriétaires face au DPE.",
+      "hook": "Rénovation en copro : l'État ne paie que 38 % de la facture"
     },
     {
       "id": "a5d200b1ee",
@@ -4501,6 +4755,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Résultats sans surprise d'une valeur suisse."
+    },
+    {
+      "id": "d2c6225ef5",
+      "title": "Heineken Malaysia Posts Q3 Profit 69.2 Million RGT",
+      "summary": "Heineken Malaysia Posts Q3 Profit 69.2 Million RGT TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVEdXWWlMZEVlYkdoZ0luY2RqdWVRUm1YOG83MmV1Y0ZOU3F6R1dDRlo0U1hVZ0ZEZGZIVHpSeVpOVVREZFUybkFPOGlmZjNEcnJFNDNnaVhVT2J1MlBfWU5GX05iU2tMWHBWWGhLNXVXRXFJOEtZVjd5dFZrUS1VSWVNRFVfV2pzSUg0aWw1QTJVUVRSNUNKa0VWRkh1NE5WOWo2QnoxMUxEbVUxWUwtbDFjYVgwUG45LTNV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T10:31:33.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Filiale locale, résultats sans intérêt."
     },
     {
       "id": "e2e14deece",
@@ -5194,6 +5465,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Sans intérêt pour le public."
+    },
+    {
+      "id": "1fab36a252",
+      "title": "Euro, zayıf petrol fiyatları amidinde Kanada Doları karşısında konumunu koruyor",
+      "summary": "Euro, zayıf petrol fiyatları amidinde Kanada Doları karşısında konumunu koruyor TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QRkxubVpGU0d6T2JMckJpa2pJNmlNakk2SHpHV0xFa2F3dUpiNTl3Y1prT1YydUlueWFiRzAwSGhGWWNkNXMxMVV4V2pSbUktVGFkY2RQckQ0LXMtYmtUTVVNSkV3ckhh?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T08:56:19.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Change EUR/CAD en turc, hors sujet."
     },
     {
       "id": "d855868c0a",
@@ -6025,6 +6313,23 @@
       "reason": "Petite valeur américaine."
     },
     {
+      "id": "38c08e4022",
+      "title": "Clarivate Plc (CLVT) Adds Patent and Litigation Data to Claude",
+      "summary": "Clarivate Plc (CLVT) Adds Patent and Litigation Data to Claude TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRjlyOGVHa3JDSnc5VHlJYXh5VXJTNHhBemJmcEJiWVhUZFRaT2JYWGg2aUhDYUF6R2kyZDlYRGh6ZDMtOXdRdklvU01TV3lvemVQanJkeWVQWmpOWjBXeDRuMjkyeU1sRFctdXhHaTNHbkR6bGJtSndBVnFmRnlUaVRVQXNGVHVXdm5lZjFkVXpMOGhMZWItZUpjd2dwbnF4NnUxQ1VrdlpobzU3Ny12enhnS09aSG5FWXhmY3p3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T08:00:00.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Partenariat technique mineur."
+    },
+    {
       "id": "c8df097b33",
       "title": "EON SE : Jefferies réitère son opinion positive sur le titre",
       "summary": "EON SE : Jefferies réitère son opinion positive sur le titre Zonebourse Suisse",
@@ -6057,6 +6362,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Revue d'avis d'analystes."
+    },
+    {
+      "id": "1b69c284e8",
+      "title": "Wemade Max Q3 Operating Loss 13.5 Billion Won",
+      "summary": "Wemade Max Q3 Operating Loss 13.5 Billion Won TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUt1WS00aWN0ZWM0MDMxb3k1TVRkVlJUMU54c1RpbjV4Y25DdWdQaWtNcVJfMWp3QVNJZy1ZM1A3N0tEeXFJSUk2TE5fY1JNczg4RHRsYzRubHlObmk1dWRQcXJqTG1pV29FQUllbFFqVGlVYVNNMzFncUpjQURqM1k0TkVZMmg4REZZR3hFX0pUX0t3M1lGeEluME1uQl9YRUp5RkE0ZkZad2kyOElNVEVab1M?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-11T07:55:33.000Z",
+      "collectedAt": "2026-11-11T21:07:31.350Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société coréenne inconnue."
     },
     {
       "id": "d7909634b4",
@@ -9057,7 +9379,7 @@
       "score": 2,
       "status": "new",
       "aiScore": 9,
-      "reason": "IPO record potentielle du créateur de Claude, chiffres vertigineux.",
+      "reason": "IPO record potentielle du créateur de Claude, sujet incontournable.",
       "hook": "Anthropic vise 1 400 milliards : la plus grosse IPO de l'histoire ?"
     },
     {
@@ -9513,9 +9835,9 @@
       "collectedAt": "2026-11-10T19:07:32.253Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new",
-      "aiScore": 7,
-      "reason": "Paradoxe surprenant qui concerne directement les détenteurs d'ETF S&P 500.",
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Angle intéressant mais proche du carousel sur les géants de l'IA dans le S&P 500.",
       "hook": "80 % des actions montent… et pourtant votre ETF baisse"
     },
     {
@@ -36128,5 +36450,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-11T20:08:36.173Z"
+  "updatedAt": "2026-11-11T21:07:50.669Z"
 }
