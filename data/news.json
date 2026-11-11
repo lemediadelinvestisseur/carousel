@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "id": "d9b3db6170",
+      "title": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
+      "summary": "",
+      "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
+      "source": "wsj.com",
+      "publishedAt": "2026-11-11T22:42:36.937Z",
+      "collectedAt": "2026-11-11T22:42:36.937Z",
+      "brand": "investisseur",
+      "score": 99,
+      "status": "done",
+      "manual": true,
+      "instructions": "Hook : Nvidia se prépare à licencier son CEO \n\navec une belle photo de lui heureux qui lève la main par exemple \n\n\nEt voici du contexte : pas besoin de faire 6 pages \n\n\nJensen Huang aurait eu une autre relation extraconjugale, cette fois avec une employée de Nvidia\n\nLe conseil d’administration, qui enquête déjà sur sa relation avec une espionne chinoise, se prépare à le licencier... \n\nRésultat : -9% après la clôture des marchés ⚠️",
+      "generatedAt": "2026-11-11T22:44:37.383Z",
+      "carousel": {
+        "dir": "carousels/2026-11-11/investisseur-https-www-wsj-com-business-nvidia-is-pre-d9b3db6170",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 5,
+        "hooks": [
+          "Nvidia se prépare à licencier son CEO",
+          "Jensen Huang pourrait être viré de l'entreprise qu'il a fondée",
+          "Le patron de Nvidia aurait eu une nouvelle liaison, avec une employée"
+        ],
+        "coverPhoto": true
+      }
+    },
+    {
       "id": "c1f9015779",
       "title": "BHP Group nomme Adrian Wood au poste de directeur financier",
       "summary": "BHP Group nomme Adrian Wood au poste de directeur financier Zonebourse Suisse",
@@ -37697,5 +37731,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:44:47.961Z"
+  "updatedAt": "2026-11-11T22:44:51.240Z"
 }
