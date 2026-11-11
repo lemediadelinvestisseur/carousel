@@ -19882,35 +19882,18 @@
       "collectedAt": "2026-11-10T07:07:20.659Z",
       "brand": "21m2",
       "score": 7,
-      "status": "done",
+      "status": "new",
       "aiScore": 7,
       "reason": "Taux à 3,82% sur 20 ans : impact direct sur les acheteurs, chiffre concret.",
       "hook": "Crédit immobilier : 3,82% sur 20 ans, la hausse continue",
       "notifiedAt": "2026-11-10T07:07:20.659Z",
-      "generatedAt": "2026-11-10T14:23:14.105Z",
-      "carousel": {
-        "dir": "carousels/2026-11-10/21m2-credit-immobilier-les-taux-continuent-de-1a800db997",
-        "files": [
-          "slide-01.jpg",
-          "slide-02.jpg",
-          "slide-03.jpg",
-          "slide-04.jpg",
-          "slide-05.jpg",
-          "slide-06.jpg",
-          "slide-07.jpg",
-          "slide-08.jpg",
-          "slide-09.jpg",
-          "carousel.pdf"
-        ],
-        "generator": "claude-opus-5-5",
-        "slides": 9,
-        "hooks": [
-          "Crédit immo : **3,82 %** sur 20 ans en novembre",
-          "Les taux du crédit immo filent vers **4 %**",
-          "Avec 1 000 € par mois, tu empruntes **moins qu'en octobre**"
-        ],
-        "coverPhoto": true
-      }
+      "generatedAt": null,
+      "carousel": null,
+      "schedules": [],
+      "scheduled": null,
+      "error": null,
+      "publishError": null,
+      "instructions": null
     },
     {
       "id": "f8eea08bf0",
@@ -37729,5 +37712,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:40:17.551Z"
+  "updatedAt": "2026-11-11T22:40:32.829Z"
 }
