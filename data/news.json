@@ -5241,13 +5241,35 @@
       "collectedAt": "2026-11-11T05:07:32.668Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "done",
       "kind": "data",
       "aiScore": 8,
       "reason": "Retraites comparées : sujet brûlant, la France face aux autres.",
       "hook": "Meilleures retraites du monde : où se classe vraiment la France ?",
       "titleOriginal": "Ranked: Countries With the Best Pensions in 2026",
-      "notifiedAt": "2026-11-11T05:07:32.668Z"
+      "notifiedAt": "2026-11-11T05:07:32.668Z",
+      "generatedAt": "2026-11-11T08:18:51.368Z",
+      "carousel": {
+        "dir": "carousels/2026-11-10/investisseur-classement-les-pays-qui-ont-les-meilleur-d7e48f04f5",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 7,
+        "hooks": [
+          "Les États-Unis n'arrivent que 33e du classement mondial des retraites",
+          "Les Pays-Bas ont le meilleur système de retraite au monde",
+          "Seuls 6 pays au monde ont une retraite notée A"
+        ],
+        "coverPhoto": true
+      }
     },
     {
       "id": "cab024aed7",
@@ -28278,5 +28300,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-11T08:16:46.200Z"
+  "updatedAt": "2026-11-11T08:18:56.678Z"
 }
