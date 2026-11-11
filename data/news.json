@@ -5167,7 +5167,16 @@
           "L'IA se finance elle-même : TSMC entre chez OpenAI et Anthropic"
         ],
         "coverPhoto": true
-      }
+      },
+      "schedules": [
+        {
+          "at": "2026-11-11T08:21:00.000Z",
+          "targets": "instagram,facebook",
+          "createdAt": "2026-11-11T08:16:46.200Z"
+        }
+      ],
+      "scheduled": null,
+      "publishError": null
     },
     {
       "id": "a1ec4a1c43",
@@ -28269,5 +28278,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-11T07:08:13.230Z"
+  "updatedAt": "2026-11-11T08:16:46.200Z"
 }
