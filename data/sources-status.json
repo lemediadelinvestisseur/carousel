@@ -76,15 +76,15 @@
     "via": "rss",
     "url": "https://www.visualcapitalist.com/feed/",
     "entries": 10,
-    "added": 5,
-    "checkedAt": "2026-11-11T05:07:32.668Z"
+    "added": 4,
+    "checkedAt": "2026-11-11T22:14:33.423Z"
   },
   "Voronoi": {
     "ok": true,
     "via": "google news",
     "url": "https://news.google.com/rss/search?q=site%3Avoronoiapp.com%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
-    "entries": 81,
-    "added": 4,
-    "checkedAt": "2026-11-11T05:07:32.668Z"
+    "entries": 85,
+    "added": 9,
+    "checkedAt": "2026-11-11T22:14:33.423Z"
   }
 }
