@@ -7751,15 +7751,21 @@
         ],
         "coverPhoto": true
       },
-      "schedules": [
-        {
-          "at": "2026-11-11T08:21:00.000Z",
-          "targets": "instagram,facebook",
-          "createdAt": "2026-11-11T08:16:46.200Z"
-        }
-      ],
+      "schedules": [],
       "scheduled": null,
-      "publishError": null
+      "publishError": null,
+      "published": {
+        "instagram": {
+          "id": "18156283753495627",
+          "url": "https://www.instagram.com/p/Dfmb_lQjYmE/",
+          "at": "2026-11-11T12:03:51.215Z"
+        },
+        "facebook": {
+          "id": "1428714516991726_122104068609541092",
+          "url": "https://www.facebook.com/1428714516991726_122104068609541092",
+          "at": "2026-11-11T12:04:00.001Z"
+        }
+      }
     },
     {
       "id": "a1ec4a1c43",
@@ -30917,5 +30923,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-11T11:08:19.094Z"
+  "updatedAt": "2026-11-11T12:04:00.051Z"
 }
