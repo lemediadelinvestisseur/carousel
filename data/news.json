@@ -6,6 +6,41 @@
       "summary": "",
       "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
       "source": "wsj.com",
+      "publishedAt": "2026-11-11T22:54:19.036Z",
+      "collectedAt": "2026-11-11T22:54:19.036Z",
+      "brand": "investisseur",
+      "score": 99,
+      "status": "done",
+      "manual": true,
+      "instructions": "Fais moi un carousel de cette actualité avec le book suivant \"Nvidia va licencier son CEO\" mets ce hook et rien de plus sur la première page et mets une photo où il est heureux et il lève la main par exemple\n\npas besoin de faire trop de carousel faut qu'on sorte l'actualité rapidement \n\nvoici du contexte. \n\n🚨 Jensen Huang aurait eu une autre relation extraconjugale, cette fois avec une employée de Nvidia\n\nLe conseil d’administration, qui enquête déjà sur sa relation avec une espionne chinoise, se prépare à le licencier... \n\nRésultat : -9% après la clôture des marchés ⚠️",
+      "generatedAt": "2026-11-11T22:57:12.677Z",
+      "carousel": {
+        "dir": "carousels/2026-11-11/investisseur-https-www-wsj-com-business-nvidia-is-pre-d9b3db6170",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 6,
+        "hooks": [
+          "Jensen Huang pourrait être viré de sa propre entreprise",
+          "Deux liaisons pourraient coûter sa place au patron de Nvidia",
+          "Le fondateur de Nvidia serait sur le point d'être évincé"
+        ],
+        "coverPhoto": true
+      }
+    },
+    {
+      "id": "d9b3db6170",
+      "title": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
+      "summary": "",
+      "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
+      "source": "wsj.com",
       "publishedAt": "2026-11-11T22:42:36.937Z",
       "collectedAt": "2026-11-11T22:42:36.937Z",
       "brand": "investisseur",
@@ -37735,5 +37770,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:51:13.154Z"
+  "updatedAt": "2026-11-11T22:57:12.677Z"
 }
