@@ -37423,7 +37423,7 @@
       "collectedAt": "2026-11-10T10:57:37.527Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 8,
       "reason": "Le classement des pays riches permet de voir si la France décroche, ce qui suscite le débat.",
@@ -37697,5 +37697,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:40:37.405Z"
+  "updatedAt": "2026-11-11T22:44:35.313Z"
 }
