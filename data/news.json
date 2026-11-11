@@ -13908,7 +13908,7 @@
       "collectedAt": "2026-11-11T05:07:32.668Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 8,
       "reason": "Retraites comparées : sujet brûlant, la France face aux autres.",
@@ -37697,5 +37697,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-11T22:44:35.313Z"
+  "updatedAt": "2026-11-11T22:44:42.250Z"
 }
