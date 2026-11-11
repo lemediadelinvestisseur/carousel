@@ -80,7 +80,7 @@
       "collectedAt": "2026-11-11T17:07:26.451Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 6,
       "reason": "easyJet, marque connue des Français, rachetée et retirée de la Bourse.",
       "hook": "easyJet quitte la Bourse : Apollo rafle la compagnie pour 5,7 Md£"
@@ -35212,5 +35212,5 @@
       "titleOriginal": "Born Here, Won There"
     }
   ],
-  "updatedAt": "2026-11-11T17:33:11.831Z"
+  "updatedAt": "2026-11-11T17:33:25.951Z"
 }
