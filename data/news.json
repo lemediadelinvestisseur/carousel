@@ -42001,13 +42001,35 @@
       "collectedAt": "2026-11-12T02:12:44.761Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "done",
       "kind": "data",
       "aiScore": 7,
       "reason": "Pays plus pauvres qu'en 2008 : comparaison clivante possible avec la France.",
       "hook": "24 pays sont plus pauvres aujourd'hui qu'en 2008",
       "titleOriginal": "Ranked: 24 Economies Still Poorer Than in 2008",
-      "notifiedAt": "2026-11-12T02:12:44.761Z"
+      "notifiedAt": "2026-11-12T02:12:44.761Z",
+      "generatedAt": "2026-11-12T09:16:43.214Z",
+      "carousel": {
+        "dir": "carousels/2026-10-25/investisseur-classement-les-24-economies-encore-plus-cbaa2d60fd",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "slides": 7,
+        "hooks": [
+          "24 pays sont encore plus pauvres qu'en 2008",
+          "Le Venezuela a perdu deux tiers de sa richesse depuis 2008",
+          "17 ans après la crise, la Grèce n'a toujours pas rattrapé 2008"
+        ],
+        "coverPhoto": true
+      }
     },
     {
       "id": "30cc3b418c",
@@ -42440,5 +42462,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-12T09:08:14.202Z"
+  "updatedAt": "2026-11-12T09:16:43.214Z"
 }
