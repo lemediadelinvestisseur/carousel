@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "b1ca184bd9",
+      "createdAt": "2026-11-12T06:14:22.158Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Un studio à 2 000 €/mois tout à fait légal malgré l'encadrement des loyers : la douche est dans la cuisine.",
+      "text": "2 000 € par mois pour un studio. Et c'est tout à fait légal.\n\nMalgré l'encadrement des loyers, certaines annonces dépassent les 200 €/m².\nLa loi a ses exceptions, et certaines annonces savent très bien s'y glisser.\n\nRésultat : des locataires qui comparent les annonces comme on compare des forfaits mobiles.\n« Celui-là a une fenêtre. »\n« Celui-ci a la douche séparée de la plaque de cuisson. Luxe. »\n\nDe l'autre côté, des propriétaires qui découvrent que le cadre légal est un vrai labyrinthe.\n\nPersonne ne sort vraiment gagnant de ce jeu-là.\n\nC'est quoi l'annonce la plus improbable que tu aies vue en cherchant un appart ?",
+      "image": "carousels/linkedin/2026-11-12/b1ca184bd9.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "tiny Paris studio apartment shower in kitchen",
+        "caption": "Le studio parisien à 2 000 €/mois, tout à fait légal. Bonus : tu peux te doucher en surveillant tes pâtes.",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-12T06:14:29.575Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "cdd40a1d7e",
+      "createdAt": "2026-11-12T06:14:21.136Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Take-Two s'envole grâce à GTA VI, un jeu que tout le monde attend depuis des années.",
+      "text": "Il y a deux façons d'attendre GTA VI.\n\nManette en main.\nOu portefeuille en main.\n\nCette semaine, Take-Two a bondi en Bourse grâce aux perspectives de GTA VI.\nUne action qui monte grâce à un jeu… qui n'est toujours pas sorti.\n\nC'est tout le principe des marchés : on n'achète pas ce qui existe, on achète ce qu'on imagine.\n\nPendant ce temps, les joueurs ont eu le temps de finir leurs études, de changer trois fois de console et de faire un crédit immo à 3,82 %.\n\nEt toi, tu l'attends en joueur ou en actionnaire ? 🎮",
+      "image": "carousels/linkedin/2026-11-12/cdd40a1d7e.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Waiting Skeleton",
+        "image_query": null,
+        "caption": "Les fans de GTA qui attendent la suite depuis la sortie de GTA V en 2013",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-12T06:14:22.158Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "a1095c2cf9",
+      "createdAt": "2026-11-12T06:14:16.600Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Rénovation énergétique en copro : l'État ne couvre que 38 % des travaux, façon Trade Offer.",
+      "text": "Rénover sa copro, c'est comme aller au resto avec quelqu'un qui prend l'entrée… et te laisse l'addition.\n\nLes aides couvrent en moyenne 38 % des travaux de rénovation énergétique en copropriété.\nLe reste ? Pour les copropriétaires.\n\nEt c'est là que l'AG devient sportive.\nIl y a celui qui veut tout isoler.\nCelui qui vend dans deux ans et vote contre tout.\nEt celui qui demande pour la quatrième fois si on ne peut pas juste changer les ampoules.\n\nLe piège, c'est que ne rien faire coûte cher aussi : avec le calendrier du DPE, un logement qui ne peut plus se louer ne rapporte plus rien.\n\nDans ta copro, l'AG sur les travaux, ça s'est passé dans le calme… ou version Koh-Lanta ?",
+      "image": "carousels/linkedin/2026-11-12/a1095c2cf9.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Trade Offer",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "L'État, pour la rénovation de ta copro",
+          "Je reçois : un immeuble mieux classé au DPE",
+          "Tu reçois : 62 % de la facture"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-12T06:14:21.136Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "1a67df75ba",
       "createdAt": "2026-11-11T06:14:30.450Z",
       "origin": "auto",
@@ -142,5 +212,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-11T06:14:53.135Z"
+  "updatedAt": "2026-11-12T06:14:29.576Z"
 }
