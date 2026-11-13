@@ -1,6 +1,157 @@
 {
   "items": [
     {
+      "id": "edeff37201",
+      "title": "CSG assurance-vie : taux, hausses et déduction",
+      "summary": "La contribution sociale généralisée (CSG) représente 9,2 % des gains soumis aux prélèvements sociaux sur l'assurance-vie, dans le régime de droit commun applicable en 2026. L'assurance-vie conserve un taux g…",
+      "link": "https://www.lerevenu.com/diversifier-placements/assurance-vie/csg-assurance-vie-taux-hausses-et-deduction-le-rev",
+      "image": "https://cdn.overlord.media/retraites_62_ans_executif_insiste_necessite_atteindre_equilibre_26f51e46_2a461ea672.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-13T13:05:34.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Fiche explicative générique sur la CSG, sans nouveauté."
+    },
+    {
+      "id": "a078b62edd",
+      "title": "NVIDIA Corporation : GF Securities neutre sur le dossier",
+      "summary": "NVIDIA Corporation : GF Securities neutre sur le dossier Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV1BabTl5VGpudWFHMnVBcUJCaU8wUHAwQ3VVODdQUTlLWkMycHF5RzI2X1ZTekNZOU5TdjE5YkVsQ21HeElpTjlxWTY5cm5lM255YlEtR04tM1dQb2FNSUl5UjFHSEV5dEl0T3Y4S0JpT1lxTUswLUV3aTVmQ3Z0aXJXRWdvQk1IUUVEUTlycWVGa2ZKWm1nWElvMmF0c2dWU3VrblNyMFFXcFk3WjR3a2RVY2M?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:03:31.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste, refusée par principe."
+    },
+    {
+      "id": "8d052cd072",
+      "title": "JPMorgan Chase dépasse les 10% du capital d'Ubisoft",
+      "summary": "JPMorgan Chase dépasse les 10% du capital d'Ubisoft Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb2dZemlqTEFWMzlQc3hiQ3FmU2lmU1RMMFRCN2lVZlZfbnJrS2VneTQ2dVBlc21xbXZVTVdacFVnZko0eC03VVR1X1YxQmw4ekxCQ2VxM05vOU1ESldCdTdiUVRTSnFWVzFSaFhiTVdjcHNpNl9zakNHZ1JQTV9GdUU4YWFaeWNWOHN3Z3dGXzcxM2FCSU1mZ0NqaEdmSlhZVlp2eTdNWGI4elZrTDRn?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:02:24.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Ubisoft parle aux Français mais simple franchissement de seuil."
+    },
+    {
+      "id": "d67e979dc5",
+      "title": "NVIDIA Corporation : Truist Securities révise son opinion et passe à neutre",
+      "summary": "NVIDIA Corporation : Truist Securities révise son opinion et passe à neutre Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa3cwdVdNV3BUWFZENW8ta3kzd05iZ2p5Mzg3ZzdRWUdUbm93UW1zYXhmRkl3NnFIWjJzYUljRmdWekoxZmc3TVRoakZqVDV3ZngyQ2RwYjNSeHdRRjZIZDdaLVhTa3dzZ3doWDRKVzlybWhleVBHemlZbUVWbnRZREl0ZHNYRU1DWkNBX29tVkFXT05oUl9xeGs2LWYtZWNPaWpiR2hYMGs3MEtUVWJuZnRtWVlpMlM4Q3FPS0o5Nk5LM2Nvb19UQkQwTUpvZw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:02:23.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste sans intérêt."
+    },
+    {
+      "id": "a41f4943e5",
+      "title": "Bechtle AG : DZ Bank favorable sur le dossier",
+      "summary": "Bechtle AG : DZ Bank favorable sur le dossier Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUJyRWlpVjRxT00yYzY1aDRUNGI2N29sWUpzQzhGLURPR0ttcmE1UFp0cEV3TDJjdTBPMDZlX254Rmozd3NiOWR3anVTeFNMVnpFLW4zRWgwUzcwV0ZmQlJieVgyNEhUNDUwdG5JUGhYdGlrc2FMbTJIYk1ZZlZCVTdzU1Y4R2ZZQmxCSGRVVldRSzJaOWFxSzN5ZUtTNk9DTThidmdlbw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:02:01.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "6fb8032d0a",
+      "title": "Talanx AG : DZ Bank reste à l'achat",
+      "summary": "Talanx AG : DZ Bank reste à l'achat Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZk83WVE5WmZieVA1M2tjU0JocUNiczVvS2FnbnNMWWRGSUY3YWNZUFM0aEQxM0FsaEdJbE9qNjlMdEMyVU9saWRCTEd5MklhT3VfN2FPRUpUZXdxamlGVWtJaXZUamE4UzU4RU5sMXBMeW9TYVhjVEJBZUlYWTNFdlBMY3BWZ0lROHlXS1hFOUNxTEE4QUVKMA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:01:32.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste sur un assureur allemand."
+    },
+    {
+      "id": "0596a8e500",
+      "title": "Bombardier décroche une commande de 568MUSD auprès de THC",
+      "summary": "Bombardier décroche une commande de 568MUSD auprès de THC Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeXJ6ZnluRDM4SEhZT0dPbGpoX1ZldDVaVHloNXNOaF8ySUJpRWhfazBsSkktV0g2Rk9JMDkzY28zdGRjYnFaUFFBQjlOXy1CTW5WVklEUEZIdTBpWnNmdGp4cmJRdkROSjlyNVFRdjZUb0FhS3lrekxpVWdacEx4cDZiS3lOQldFX0RXQmpEeG9fZ0hzejdXNXRKcnlLeTBrU3BLYmJiUU9WVVF3S19vN1JaV2puQmdDRWc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:00:22.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Contrat commercial mineur."
+    },
+    {
+      "id": "fdfa171401",
+      "title": "Présidentielle 2027 : ce que proposent les candidats pour les propriétaires",
+      "summary": "Suppression de l’encadrement des loyers, de l’interdiction de location des passoires thermiques, accélération des expulsions locatives… Alors que le logement devrait peser dans le choix de vote des Français, les candidats à la présidentielle avancent des propositions très différentes.",
+      "link": "https://www.capital.fr/immobilier/presidentielle-2027-ce-que-proposent-les-candidats-pour-les-proprietaires-1531813",
+      "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~13~0eab5bb1-d5ff-4df6-80b4-a26959d04c2e.jpg/1200x900/quality/80/presidentielle-2027-ce-que-proposent-les-candidats-pour-les-proprietaires.jpg",
+      "source": "Capital Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-13T13:00:00.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Politique présidentielle, l'éditeur refuse la politique."
+    },
+    {
+      "id": "4d2285e4c3",
+      "title": "ProCredit Holding AG : Berenberg toujours à l'achat",
+      "summary": "ProCredit Holding AG : Berenberg toujours à l'achat Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUkhrRk9ObFpYSkg4Z0JybE1vTFRfbkVlUk1kd2NqT1dBVk1XTFhKZmh5cVVuS1lBUDNyeFprZmxyVHRrRTg5cENod2hwbE9YUmtwd294NmUyakpBazR0MjBaU0NCRXZPNVNkZWVoc1FucTVPTGtqRU9DZFFZZkU1STZIOU5pYzQyWjctZ0piZXNFNmloOEpNVUMwSkhxU29ZNUU4LTBGU2xxZ1I3Ql9V?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T12:58:31.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste obscure."
+    },
+    {
       "id": "32dca7d493",
       "title": "La société saoudienne The Helicopter Company passe une commande ferme de 12 jets Bombardier",
       "summary": "La société saoudienne The Helicopter Company passe une commande ferme de 12 jets Bombardier TradingView",
@@ -18,6 +169,23 @@
       "reason": "Contrat commercial mineur."
     },
     {
+      "id": "fc81494dfa",
+      "title": "Artience Co., Ltd. autorise un programme de rachat d’actions.",
+      "summary": "Artience Co., Ltd. autorise un programme de rachat d’actions. Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcUh1ajNadzYta1dEb3A1Rm5HNmZyeFIyQ1c5V3hLdE5CNjVDUUxmUXVVV3g3NW0wRTVoVjNlLVBfdW5WNE5Gb2RFak5aV280ZjRlUTRsM1drcTA0OE45aDMzT0hOckdQOTM1dGVTcDFyZHA0Tzltb3g0MUpGdlAxaW9hUmRadlU2RGRhS1M4b0txLUxVZGZudUE2UG9YaHJ6UV9Md09hd0F4WUs5ZkRDQllESVZDUmlsNHB3?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T12:51:10.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite société japonaise inconnue."
+    },
+    {
       "id": "322087756b",
       "title": "Flat tax ou PFL en assurance-vie : que choisir ?",
       "summary": "Trois régimes fiscaux peuvent intervenir lors d'un rachat d'assurance-vie : le prélèvement forfaitaire unique (PFU), l'ancien prélèvement forfaitaire libératoire (PFL) et le barème progressif de l'impôt sur le…",
@@ -32,6 +200,23 @@
       "status": "ignored",
       "aiScore": 3,
       "reason": "Conseil fiscal générique sur l'assurance-vie."
+    },
+    {
+      "id": "3ee489754e",
+      "title": "Landsec : abandon (tactique ?) d’un projet résidentiel au Royaume-Uni",
+      "summary": "Landsec : abandon (tactique ?) d’un projet résidentiel au Royaume-Uni Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQM2dSRkVKVVZPNkhBRWVCdEVmQVVrRlJncjRxVF8wdDhaZ2d1OW95Vm9TY2J5alNlTHBqUjF0YnFiZU5uWVp4NmxVZXh0Sm83TTcyQ0I4ZWZVUHhqQnR2Zm5pMi02NVdrak5MbHlNMEtUQ0hLY2JvVDduWVFhSXZJTUtlMTV6eGszMlpQckJLQUlBNWlNUGxxazFvb2VST0FoMjEyUWstXzRMa1h1bFBwRnlyVGFCcFFSbFgzQ3V0QTQ2Zw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T12:49:15.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Immobilier britannique de niche."
     },
     {
       "id": "61132b7701",
@@ -374,6 +559,23 @@
       "reason": "Simple recommandation d'analyste."
     },
     {
+      "id": "f3acc61a7f",
+      "title": "Marriott International, Inc. : Bernstein favorable sur le dossier",
+      "summary": "Marriott International, Inc. : Bernstein favorable sur le dossier Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeFhEOTl3clBsd2RRZFJNQmFlc0o0T3NtUG1DbTdJazF4RWtJZnU2MnV4YUl2SlNFakczcEx5NmhTSlZIbkdNVFNSLUJDREZTelBLUURhWmNFY2FxVEFlakVJOEdXTGw4cjZ3M1ExdDI5WXp4MmQxZmlTaEU0Ul9BT050VFBvb2pHZlhlcnQ0ckpMNkhvUk9QUG1TT2tjWGRDTlVSQTc2bzJ6X01OU05VWnFkSnJDbTlFLTVRelV3?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T12:10:20.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
+    },
+    {
       "id": "ff5139d21d",
       "title": "Roche: recommandation européenne pour Gazyva contre le lupus",
       "summary": "Roche: recommandation européenne pour Gazyva contre le lupus TradingView",
@@ -527,6 +729,23 @@
       "reason": "Récapitulatif générique, fait doublon avec la panne Microsoft."
     },
     {
+      "id": "aae75d437b",
+      "title": "Applied Materials, Inc. : Mizuho Securities toujours positif",
+      "summary": "Applied Materials, Inc. : Mizuho Securities toujours positif Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeDdpTzJZVmtvWjVkMHJ1bGhSU05BalJ4TUdEdkxQVnJaUzZzeUJORFFjQmR6bV8zOW52OVAzcXg3UHVkclVCNXRBY09tRUpJbzQxWlUwVUNKTlBnTndCb3VFdVAtSW8xeWxSRG9zNjBnRGpxaEJUZkRuLW55d0NQZGpzZXdYNFE1TURPNUoxMmxKUlY0ZmhWaTV1UnZka0t5cm5DMVM0U0RuVkhCeHZhUXlGS0twQ3c?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T12:06:32.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
+    },
+    {
       "id": "f414b5693e",
       "title": "Applied Materials, Inc. : Stifel Nicolaus à l'achat",
       "summary": "Applied Materials, Inc. : Stifel Nicolaus à l'achat Zonebourse Suisse",
@@ -674,11 +893,11 @@
       "collectedAt": "2026-11-13T12:58:31.745Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 7,
-      "reason": "Panne mondiale spectaculaire d'un géant connu, qui touche tout le monde.",
-      "hook": "Microsoft en panne : la planète entière paralysée",
+      "aiScore": 5,
+      "reason": "Panne mondiale Microsoft, fait marquant mais peu lié à l'argent.",
+      "hook": "Microsoft en panne : le monde entier à l'arrêt",
       "notifiedAt": "2026-11-13T12:58:31.745Z"
     },
     {
@@ -1336,9 +1555,9 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "aiScore": 9,
-      "reason": "Rebondissement majeur du feuilleton Nvidia : Trump veut Tim Cook à sa tête.",
-      "hook": "Trump veut Tim Cook à la tête de Nvidia",
+      "aiScore": 8,
+      "reason": "Rebondissement spectaculaire : Trump veut Tim Cook à la tête de Nvidia.",
+      "hook": "Trump veut l'ex-patron d'Apple à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -1489,10 +1708,10 @@
       "collectedAt": "2026-11-13T12:58:31.745Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Engie et Google pour un data center en France, un angle IA intéressant.",
+      "aiScore": 3,
+      "reason": "Simple protocole d'accord, petite actu d'entreprise.",
       "hook": "Google va installer un data center IA à Châteauroux"
     },
     {
@@ -1611,8 +1830,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Montant colossal porté par Musk, mais sujet d'investissement assez classique.",
-      "hook": "SpaceX met 74 milliards sur la table pour l'IA"
+      "reason": "Montant colossal sur l'IA par Musk, mais annonce d'investissement classique.",
+      "hook": "74 milliards : le pari fou de SpaceX sur l'IA"
     },
     {
       "id": "7bf7881cb8",
@@ -2014,10 +2233,10 @@
       "collectedAt": "2026-11-13T11:07:29.686Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Concerne l'épargne de tous les Français, mais c'est le même sujet que le plafond du Livret A.",
-      "hook": "Livret A : une hausse plus forte que prévu en février"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Livret A touche tout le monde, mais doublon partiel avec le plafond.",
+      "hook": "Livret A : la hausse de février sera plus forte que prévu"
     },
     {
       "id": "bbd036841c",
@@ -2114,10 +2333,10 @@
       "collectedAt": "2026-11-13T12:58:31.745Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Anecdote surprenante : la Bourse européenne revient au téléphone.",
+      "aiScore": 2,
+      "reason": "Anecdote secondaire de la panne Microsoft, doublon.",
       "hook": "Panne d'Outlook : Euronext revient au téléphone"
     },
     {
@@ -2336,7 +2555,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Premier relèvement du plafond du Livret A depuis des années : fort impact sur l'épargne.",
+      "reason": "Hausse du plafond du Livret A, changement concret et historique pour tous les épargnants.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 €",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -5208,10 +5427,27 @@
       "score": 3,
       "status": "new",
       "international": true,
-      "aiScore": 9,
-      "reason": "Une fusion SpaceX-Tesla serait une histoire géante de Musk.",
-      "hook": "Tesla et SpaceX pourraient fusionner dès décembre",
+      "aiScore": 8,
+      "reason": "Fusion SpaceX-Tesla, énorme histoire boursière qui fait parler.",
+      "hook": "Tesla et SpaceX bientôt fusionnés ? Musk prépare un coup géant",
       "notifiedAt": "2026-11-13T05:07:24.588Z"
+    },
+    {
+      "id": "878eae53e8",
+      "title": "York Space Systems Q3 2026 Earnings Call Is Live",
+      "summary": "York Space Systems Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSXZXMHBIVUtPbUx4bEZfQmhHXzZ1a3ZwZzBaN2ZYRThoVkluSXJVekRWeDUtaFhuYmUzMFhyR1gzaUdRY3h4YnROdVV2TzFxMjJOTEpxZUstUXhjYmFyMXdSVGxBUURSSkcxcWJiZXFZUGFqeEJwdGY3T3FQTDdtQ2xpVnl1TlVUYlRZXzZEWllpRHZGQmVSMFNDeW13Y2J4azA3WkFwNS1fejY4WXQwVm1iT215bWlobFNHT1A1QlhoRmF0aE5vZTBwY2FJUnFK?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T22:02:08.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Small cap inconnue."
     },
     {
       "id": "c22452d052",
@@ -5229,6 +5465,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Suite mineure de l'affaire Nvidia déjà traitée."
+    },
+    {
+      "id": "f386a931bb",
+      "title": "Jefferson Capital Q3 2026 Earnings Call Is Live",
+      "summary": "Jefferson Capital Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUZfSFZkMzROSDU5RUYycjdNS0hGSmduelJaa0VKYXU1VmIwc3kyakdUMV9CcnNJNFY1YmFtSTdSd0V6Znd0NlVteklxUUxkZzcwcUpDUEs3cUs3b0IzR1VhWVozTUpHSnl1LVpWTHZvelBrbGdjY1ZzRlk3ZXdMcEM5V1o4X05MZ2ZKek9id2NxUWVVYTJlbjZXQW1mOG1GNWpTS2JydHVycVRrVXFsZV9XUlNwZw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T21:57:04.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Small cap inconnue."
     },
     {
       "id": "16b9927a4d",
@@ -5514,10 +5767,10 @@
       "collectedAt": "2026-11-13T12:58:31.745Z",
       "brand": "investisseur",
       "score": 7,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Démission de Jensen Huang : rebondissement majeur, mais angle chinois secondaire et sujet Huang déjà traité.",
+      "aiScore": 4,
+      "reason": "Suite mineure de la démission de Huang, marché chinois.",
       "hook": "Huang quitte Nvidia : les actions IA chinoises s'effondrent"
     },
     {
@@ -6252,7 +6505,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Signal fort de la crise de l'automobile allemande, mais proche d'un sujet de fermetures et de postes.",
+      "reason": "Crise de l'automobile allemande, marque très connue.",
       "hook": "Mercedes envisage de fermer des usines"
     },
     {
@@ -7339,9 +7592,9 @@
       "brand": "21m2",
       "score": 6,
       "status": "new",
-      "aiScore": 6,
+      "aiScore": 7,
       "reason": "Changement de règle concret sur l'assurance emprunteur.",
-      "hook": "Assurance de prêt : ce qui change en juillet 2027"
+      "hook": "Crédit immo : ce qui change pour votre assurance en 2027"
     },
     {
       "id": "ca72e484e6",
@@ -7629,8 +7882,8 @@
       "score": 6,
       "status": "new",
       "aiScore": 7,
-      "reason": "Fiscalité du LMNP et PTZ : des règles concrètes pour les bailleurs.",
-      "hook": "LMNP : le Sénat veut sauver vos avantages fiscaux",
+      "reason": "Fiscalité LMNP et PTZ, changements concrets pour bailleurs et acheteurs.",
+      "hook": "LMNP, PTZ : ce que le Sénat veut changer en 2027",
       "notifiedAt": "2026-11-12T17:07:25.119Z"
     },
     {
@@ -8308,9 +8561,9 @@
       "score": 0,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Chiffre choc sur un géant automobile connu.",
-      "hook": "Volkswagen ne gagne que 12 € par voiture vendue",
+      "aiScore": 7,
+      "reason": "Chiffre choc sur un géant auto connu.",
+      "hook": "Volkswagen ne gagne plus que 12 € par voiture vendue",
       "notifiedAt": "2026-11-12T17:07:25.119Z"
     },
     {
@@ -9068,9 +9321,9 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Démission historique de Jensen Huang, gros rebondissement, mais à fusionner avec le sujet Tim Cook.",
-      "hook": "Jensen Huang quitte Nvidia après 33 ans",
+      "aiScore": 9,
+      "reason": "Démission de Jensen Huang, rebondissement majeur du scandale Nvidia.",
+      "hook": "Jensen Huang quitte Nvidia après 33 ans : la chute",
       "notifiedAt": "2026-11-12T15:07:29.719Z"
     },
     {
@@ -9515,6 +9768,40 @@
       "international": true,
       "aiScore": 0,
       "reason": "Petite valeur allemande inconnue."
+    },
+    {
+      "id": "48d7ef0e42",
+      "title": "SAF-HOLLAND SE (SFQ) Reports Voting Rights Threshold Notification",
+      "summary": "SAF-HOLLAND SE (SFQ) Reports Voting Rights Threshold Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbzB6WE5Gc1ZCS2dYdUFmXzl1N0U5VHdXT0FOQ0lGQmF1dzlTN21sVkxjc2I0YXllQ0hFUmdpZTYxM2Y4OU91OUhTeDBQbGN3cmhMaDJUSW96cHlETkU3Zy1sajZaakxQSDczanNFR0t6VWFxQ2Q4RE4taDJPc3FuNkZJbnJHR1o4U0JNTHVySjJxNFRQSGVheFE0a1pSSzB5RUtqVVYyMnQ4dmFIcFpZUW1SZ3ZCcGJQelhqYUkzc3Y0Zw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T13:57:11.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Notification réglementaire sans intérêt."
+    },
+    {
+      "id": "fad34b85b2",
+      "title": "New Found Gold Q3 2026 Earnings Call Is Live",
+      "summary": "New Found Gold Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVGYxQ3RVU1ZEcS1yaVVnMXd6b2REOWRMLVRac19lakVKNGdEbzBNUFVaTTJGTzJ0RllCZGQ1XzROWUxhZ25RR1BBd1B0VklwRnNOdXZmUHM5ZnVHMV9ySzJLLVc5NmF1Y000Y0xCQUVyd25NOTV6ZXlQZGVsbjV5bnUwV0xYYmdxeDN5eGo0SEYwdG0xVnBVRGhMTk45NkF4STM5YlROZjNGQjk0dGR1OEl3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T13:57:03.000Z",
+      "collectedAt": "2026-11-13T13:07:26.562Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats d'une small cap inconnue."
     },
     {
       "id": "c5919999a3",
@@ -14126,8 +14413,8 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Coup dur pour le plus gros détenteur de Bitcoin coté.",
-      "hook": "MSCI exclut Strategy, la société qui achète du Bitcoin",
+      "reason": "Exclusion de Strategy des indices MSCI, choc pour l'écosystème Bitcoin.",
+      "hook": "MSCI éjecte Strategy, le plus gros détenteur de Bitcoin",
       "notifiedAt": "2026-11-12T09:07:20.571Z"
     },
     {
@@ -56693,5 +56980,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-13T12:59:44.664Z"
+  "updatedAt": "2026-11-13T13:07:53.297Z"
 }
