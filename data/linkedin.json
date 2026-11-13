@@ -1,6 +1,81 @@
 {
   "posts": [
     {
+      "id": "107f217eb3",
+      "createdAt": "2026-11-13T06:14:40.328Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Volkswagen ne gagne plus que 12 € par voiture vendue : prendre les tapis de sol en option double leur marge.",
+      "text": "12 €.\nC'est ce que Volkswagen gagne en moyenne sur une voiture vendue, selon une étude.\n\nUne voiture. Des milliers de pièces, des usines, des ingénieurs, des années de développement.\nEt à la fin, la marge d'un menu au fast-food.\n\nLe vendeur de la concession touche sûrement plus de commission que le groupe ne fait de bénéfice sur la voiture.\nLe lavage à la station du coin est probablement plus rentable.\n\nEt ce n'est pas qu'un problème Volkswagen : Mercedes parle aussi de fermer des usines. L'auto allemande traverse une sacrée zone de turbulences.\n\nQuestion sérieuse : vous garderiez des actions d'un constructeur auto dans votre portefeuille aujourd'hui ? 🚗",
+      "image": "carousels/linkedin/2026-11-13/107f217eb3.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "Volkswagen Golf new car dealership showroom",
+        "caption": "Volkswagen ne gagne plus que 12 € par voiture vendue. Si tu prends les tapis de sol en option, tu doubles leur marge.",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-13T06:14:48.417Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "b85030f4c5",
+      "createdAt": "2026-11-13T06:14:36.365Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Bercy refuse d'assouplir la règle des 35 % d'endettement : le plan parfait d'achat immo se fracasse sur le calcul de la banque.",
+      "text": "Le plan était parfait. Jusqu'à la virgule.\n\nBercy refuse d'assouplir la règle des 35 % d'endettement pour les crédits immo.\n\nTraduction pour les futurs acheteurs :\nTu peux avoir un apport, un CDI, zéro découvert, et un banquier qui t'adore…\nSi tu tombes à 35,4 %, c'est non.\n\nOn connaît tous quelqu'un qui a dû rayer un abonnement, renégocier un crédit auto ou rajouter 2 ans de durée juste pour passer sous la barre.\n\nLe gouvernement dit que c'est pour éviter une crise.\nLes acheteurs disent que la crise, ils sont déjà dedans.\n\nVous, vous l'avez trouvé où, votre 0,5 % à gratter ?",
+      "image": "carousels/linkedin/2026-11-13/b85030f4c5.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Gru's Plan",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Plan : acheter mon appart en 2027",
+          "J'économise pendant 3 ans pour l'apport",
+          "La banque calcule mon taux d'endettement : 35,4 %",
+          "La banque calcule mon taux d'endettement : 35,4 %"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-13T06:14:40.327Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "e83d535246",
+      "createdAt": "2026-11-13T06:14:24.419Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Vendredi 13 : la moitié de la France joue au Loto pendant que les deux extrémités de la courbe font juste du DCA sur un ETF.",
+      "text": "Aujourd'hui, c'est vendredi 13.\n\nLe jour où des millions de Français se découvrent une âme de stratège.\n\n« Statistiquement c'est mon jour. »\n« J'ai joué la date de naissance du chat, ça va passer. »\n« Si je gagne, j'investis TOUT intelligemment, promis. »\n\nPendant ce temps, l'ETF World ne sait même pas qu'on est vendredi 13.\nIl s'en fiche.\nIl continue sa vie, mois après mois, sans superstition.\n\nLe plus drôle, c'est qu'il faut parfois réfléchir très longtemps pour revenir à l'idée la plus simple.\n\nAlors, ce soir : grille de Loto ou virement programmé ? 🍀",
+      "image": "carousels/linkedin/2026-11-13/e83d535246.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Bell Curve",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "DCA sur un ETF World, point",
+          "C'est vendredi 13, je tente le Loto, c'est un signe",
+          "DCA sur un ETF World, point"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-13T06:14:36.365Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "b1ca184bd9",
       "createdAt": "2026-11-12T06:14:22.158Z",
       "origin": "auto",
@@ -212,5 +287,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-12T06:14:29.576Z"
+  "updatedAt": "2026-11-13T06:14:48.417Z"
 }
