@@ -1,6 +1,158 @@
 {
   "items": [
     {
+      "id": "6aa37cd585",
+      "title": "Windward Bio réussit ses débuts à Wall Street",
+      "summary": "Windward Bio réussit ses débuts à Wall Street Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTzI0b0RoZVlRaVZES0MzeUJmMHY4UU1Ia2FybnRjaVZxWDVrUWN6SVB1Sk4xLW9VX1pjZ1VhcFpQM1YzWlBfaS1DMi1qcGtuU3J1dDAtODFuTUVreExoU3FTMk5tM1JvanEwR0pPMVdveDBkVTU3SWIyNExwV3NDOG55VHBTb1ZuT2wwZ2tjakxlMHdmbFRkZk9WcTlsdmFjLUsxZzdjU1A?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T20:10:20.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "IPO d'une biotech inconnue."
+    },
+    {
+      "id": "d5b3843d17",
+      "title": "Devises : l’euro recule encore",
+      "summary": "Devises : l’euro recule encore Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYUYwRFgycUlFdW1mVGRjU1hoMl9CQU1RRU5TeTdfRUhpU0FsNmpkQ1g3QWJ6SnV5bGFPNDZpQkdJOF9xdlNsQUhaNGdxZWlJQXljS08zTXU5T2FJWjJPellmb0NMZVNnYjFsckJEb1U5d1pCUEdNV0pLZExHQk5USFZJSW5sbU5wRFhTVld0Q19YS00?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T20:03:13.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Point de marché du jour."
+    },
+    {
+      "id": "f2a9830abe",
+      "title": "Siemens AG : Opinion positive de JP Morgan",
+      "summary": "Siemens AG : Opinion positive de JP Morgan Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZVFTcUdIalY3M1VYekczS01MZWtQWHhmMFUtbkNpcmFKMGIwOU1SV1VKN0hXRnZzT01zUEZ0Umx0UE5XQ0pNNTVfWjM0Szl6UTlLenA0UlFsZVg2aDBaa2Z2bFBqSnktY3NxR016RkRhaTRVa3RCZ0thaUlVX2ZZOC1aLXpaSXpZbWFsRFlVRVpFdHFEUHpqb1VYaFJzdGRpekE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T19:53:29.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste, refusée."
+    },
+    {
+      "id": "7c0ae3ee75",
+      "title": "Eramet lance une augmentation de capital de 500 millions d'euros",
+      "summary": "Eramet lance une augmentation de capital de 500 millions d'euros Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWWFCNWpKYU1xWFV6dEhyZmdvOERGbEhIalFsMjJRYmFBeVlpMU5PbGNCMV82RURXVWt6Y250SDZWamNENG9uT1ZXdGtWSjdQQ1VEdjFwYUUtSndkLV9DT0JxYlhHUG1DWWZvUER3Qkp3Q3ZQblItRkcxMDFJOG1mcHh0cWdGMmd0b3p6dExxSlNjNnhXU0wzQThKNXZudjUzcWxpVWFBbWVYaEFzcW5DVlZZX0JteDJTcERma0NaLU53QQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T19:46:15.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Opération financière technique d'une valeur moyenne."
+    },
+    {
+      "id": "17904d6ffa",
+      "title": "«Il faut rayer le macronisme de l’immobilier» : ce rapport qui étrille dix ans de politique du logement",
+      "summary": "DÉCRYPTAGE - L’économiste Robin Rivaton, qui a alerté sur le risque de «bombe sociale» en 2022, pointe du doigt deux erreurs du chef de l’État qui a provoqué la crise actuelle du logement.",
+      "link": "https://immobilier.lefigaro.fr/article/il-faut-rayer-le-macronisme-de-l-immobilier-ce-rapport-qui-etrille-dix-ans-de-politique-du-logement-20261113",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/13/bcc24ddbaa5b2199625d70ac785111a46dbb46a5d65cfcf572b26724e5d22659.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-13T19:35:43.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "21m2",
+      "score": 5,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Tribune critique générale sur la politique du logement, sans fait concret nouveau."
+    },
+    {
+      "id": "d542ae0506",
+      "title": "AstraZeneca supprime 600 postes commerciaux aux Etats-Unis",
+      "summary": "AstraZeneca supprime 600 postes commerciaux aux Etats-Unis Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNc1pUTG1XRVd3QW54RXZzMkpHT2RlZ1ROaXFyeU0yX0djUlNUSnBWajh0Vzk1RV9McWRYejRObFRRVk8tT3hFLXhlNWlxLXVtenR2Vi04bmVlVml2eDc3X05RNFI5bDlQN0xrQmJ3NXc3NmxqTmtHV09TMkVqX01Ia0hyS0FxNEdRTnRrTUx4Z0hSblk2Y3hDeTJPQjloTXg3WWNsZEl4Nkp1NEx6SHRaN2RJMExjTEZSWHc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T19:27:13.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Suppression de postes, type refusé."
+    },
+    {
+      "id": "81285ad5ec",
+      "title": "Principales baisses à la mi-séance",
+      "summary": "Principales baisses à la mi-séance Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOUxLMUxicDNmRUxMS1h0T0I3MHQya1NsWG5TRGxTLXFURXZEMVExYWlaUV9velc4TmdVaWRONlBWYnktb1dnajk5ZzZOQ2VBbmdRbmNKbXhLRHZyRXoxRE9rMk5LSU9GRUFkS1ZLZENzX1ZaUTZZZDF2QnkyNmszUWJWVmNEVGhJV0dJMTBwRGtDSERVeXd4a1M3cw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T19:24:13.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché."
+    },
+    {
+      "id": "cbf6e7a47c",
+      "title": "Les plus fortes hausses à la mi-séance",
+      "summary": "Les plus fortes hausses à la mi-séance Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYU1jTFROZ1A0YXhVd3F5TEowQnRtVkIybTBqZEQxNVZXWElheV9RWHJEZEJwYnk2VWk2SlRSNVZLMVNIVjlUdHJxYmpaQkhKTU82Y1FtM2VGVS00MGlQeFFWTUpwcy1TdVFVeUZoQ0ItLS1OSmNyekM1Q2tOR2hsZ2xkWGh0TzlzTkVON3YzSnBtd1lvckpCS1RDcVY5aGM?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T19:14:18.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché."
+    },
+    {
+      "id": "1b7f9f7180",
+      "title": "Le directeur financier Michael Cusick quitte Robinson pour Churchill China",
+      "summary": "Le directeur financier Michael Cusick quitte Robinson pour Churchill China Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUkRfQzFiR2ZGUjNZeDhRMXQyQUtxemFXX1pxN1JpVk1tMUMyM3VNT0YzYVRCeHZuMGI4aW9HN2xSYTVZOEFob3lMc2tJWEc4bFQ4R20yV0hpbmtsVGhQcXZnSU94ZURvMzJ2aUFBNThIRmVMZ1diTk1DbklIdXFLU0xkYVRWMEplWGtIck1yRU1KSGlvbi11WEpGSEZrWERkWnZjNm40MjA1cWxUc3pGcHJBdDFBd0wwTkVjMDhZeG9VVEh0WThkbWV4RnNFNHc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T19:08:15.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination obscure."
+    },
+    {
       "id": "8209619791",
       "title": "Impôt des retraités, nouveau taux du Livret A : les 3 infos argent du vendredi 13 novembre",
       "summary": "L'inflation pourrait pousser à la hausse le taux du Livret A comme la taxe foncière en 2027. Du côté des retraités, le projet de budget examiné au...",
@@ -113,11 +265,11 @@
       "collectedAt": "2026-11-13T19:07:37.480Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Panne mondiale Microsoft, grand public et spectaculaire.",
-      "hook": "Panne mondiale : Microsoft s'excuse, des millions d'utilisateurs bloqués"
+      "aiScore": 5,
+      "reason": "Panne mondiale Microsoft, géant connu, mais peu d'angle argent.",
+      "hook": "Panne mondiale : Microsoft présente ses excuses"
     },
     {
       "id": "baaa575d51",
@@ -2609,8 +2761,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Hausse de la taxe foncière, touche tous les propriétaires.",
-      "hook": "Taxe foncière 2027 : préparez-vous à payer plus"
+      "reason": "Fiscalité concrète pour les propriétaires.",
+      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
     },
     {
       "id": "b7b3d76e2b",
@@ -4523,9 +4675,9 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Rebondissement majeur : Trump veut Tim Cook chez Nvidia.",
-      "hook": "Trump veut Tim Cook pour remplacer Jensen Huang chez Nvidia",
+      "aiScore": 9,
+      "reason": "Rebondissement majeur : démission de Huang et Trump pousse Tim Cook.",
+      "hook": "Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -4681,6 +4833,23 @@
       "aiScore": 3,
       "reason": "Simple protocole d'accord, petite actu d'entreprise.",
       "hook": "Google va installer un data center IA à Châteauroux"
+    },
+    {
+      "id": "24b9835af9",
+      "title": "SHF Holdings Wins Extension to Register Preferred-Stock Conversion Shares",
+      "summary": "SHF Holdings Wins Extension to Register Preferred-Stock Conversion Shares TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSTVxdEZiVkFqQ1FtOFl2SmdEZl9oOS1EVjBMN3J3amtraFFZaHJoSHRITHhjRnpJelhpdll3WHpQRUlwWXlUa01GMGtIWl9UY1paY0YxS0dQQW41RXY0WWFGMFhfZGlLY3Z0cWZ1VHdXTV9LZEJLVXVUWkM5d3J6blFvblpUbFhKTzNDMUkzeHVtcEowTVhreDIwbFpNSzFVTEo1cVlxNWxJX0ZIYnQ3SUxWTlRqMGFtLWhSVUZRYkt2dDFfSmY1VkhIbk0yb0U?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T10:31:57.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Actu technique obscure."
     },
     {
       "id": "0229e83579",
@@ -5523,7 +5692,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Le Livret A, placement n°1 des Français, voit son plafond relevé.",
+      "reason": "Livret A, épargne de tous les Français, changement concret.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 €",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -6901,6 +7070,23 @@
       "reason": "Résultats sans surprise."
     },
     {
+      "id": "3c083a8769",
+      "title": "Eolus AB (EOLU_B) Publishes Q3 2026 Interim Report",
+      "summary": "Eolus AB (EOLU_B) Publishes Q3 2026 Interim Report TradingView",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjFTNGNIU2EwbXVmVmF5SjNSSjVabGhWQzRRN2tNbE5GVU9OY2xYZXZBTm5zMXpGYXpINTR0ZGtmSlFVc0J3UFplMkRST2lNVEl2QlNnZjFzM19xc3hXTHk4UEY3MHd4a2dhY2xNVk94N3BIYkhyNmVzemlwYmR1cU5ZSGFJbGs5aWRVNFhFY09lSU50ZnVxTjB0a1U3ZU1HcmEzVGpSYURvQU1KN0E?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T06:45:00.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une petite société suédoise."
+    },
+    {
       "id": "2f79a50432",
       "title": "Pologne - Facteurs à surveiller le 13 novembre",
       "summary": "Pologne - Facteurs à surveiller le 13 novembre Zonebourse Suisse",
@@ -7526,6 +7712,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Marchés africains, agenda sans intérêt."
+    },
+    {
+      "id": "89332cede7",
+      "title": "Willamette Valley Vineyards, Inc. (WVVI) Declares $0.22 Preferred Dividend",
+      "summary": "Willamette Valley Vineyards, Inc. (WVVI) Declares $0.22 Preferred Dividend TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRHQ3MUM3cktadnJfYmRJRE9ZcUNmSDA5bHJzZDcwZV9uVkJIdFRhWjQyeVFRN29nQWJxa2xoeVdUTzZidzd0TkxYVE1DQ1pwUFhJajh0bzZTTE16RGdNTXBNUGlvUTFIWnZBek9VTVVoZ0pXSjV1NEtRckx2ZjJySk5acVlySkduOHlXRHg1eFpsMlF3UTNkRGpBaUxPaWIyME9udHdJdERTS3h0RW54SGk3VDRuTjBoaTZpSlh0Z0daUmUxa3JPd0V3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T04:04:00.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Dividende d'une microcap inconnue."
     },
     {
       "id": "d1e30603d3",
@@ -8463,9 +8666,9 @@
       "score": 3,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Fusion géante Musk SpaceX-Tesla, sujet spectaculaire.",
-      "hook": "Tesla et SpaceX bientôt une seule entreprise ?",
+      "aiScore": 9,
+      "reason": "Fusion SpaceX-Tesla, énorme histoire Musk.",
+      "hook": "Tesla et SpaceX pourraient fusionner dès décembre",
       "notifiedAt": "2026-11-13T05:07:24.588Z"
     },
     {
@@ -9558,7 +9761,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Crise de l'automobile allemande, marque connue.",
+      "reason": "Signal fort de crise de l'automobile allemande.",
       "hook": "Mercedes envisage de fermer des usines"
     },
     {
@@ -9764,6 +9967,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Titre vide, assureur allemand inconnu."
+    },
+    {
+      "id": "ba40fb9895",
+      "title": "Leifheit Aktiengesellschaft (LEI) Reports Major Holdings Notification",
+      "summary": "Leifheit Aktiengesellschaft (LEI) Reports Major Holdings Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT0NlWmFtbTIwQWYzbDRnX0psR3pnZjkzOGVySlpfSnhmZU5VeGRCMzlRSnZDMFVBa24wLWxSOWM0R29KOEVxbG44dFlURjZzc0hFNFFkbEV6ZE1sTm9vNUpkbGRZaE1sUG9KdjNqNGVLNDhDQlVzTXZ4cTV2dFJMVUt4MXVHWTdYMU1PMzRHZkM1V1BBbFhCdndxWEVKVE1VLWV6eF9KcFVveW9xWktYVWNZYmw5OUlWLWNnbGQ0WDY1bHhjSzR3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T17:55:01.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration de participation sans intérêt."
     },
     {
       "id": "84a0a101c9",
@@ -10952,7 +11172,7 @@
       "score": 6,
       "status": "new",
       "aiScore": 7,
-      "reason": "Fiscalité LMNP et PTZ, règles concrètes pour bailleurs.",
+      "reason": "Fiscalité LMNP et PTZ, règles concrètes pour investisseurs.",
       "hook": "LMNP : le Sénat veut sauver vos avantages fiscaux",
       "notifiedAt": "2026-11-12T17:07:25.119Z"
     },
@@ -11666,7 +11886,7 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Chiffre choc sur un géant automobile connu.",
+      "reason": "Chiffre frappant sur un géant connu.",
       "hook": "Volkswagen ne gagne plus que 12 € par voiture",
       "notifiedAt": "2026-11-12T17:07:25.119Z"
     },
@@ -14921,6 +15141,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Foncière suédoise inconnue."
+    },
+    {
+      "id": "6b7827fdf0",
+      "title": "AleAnna 3Q 2026: Revenue $20.51M — 10-Q Summary",
+      "summary": "AleAnna 3Q 2026: Revenue $20.51M — 10-Q Summary TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZzdHX05mR09CY3RGM1RFSk11QXFJS0xXUWptMUlKWUxVYkJkTG1jU1haM2dQcVdlZWp0N3NvQXVEOFpOQUh3aG1RbkttME55TUhNMW9QcFRDV3pvaTNwV1JXMW10b1B6UUoxUVRmRVJqRkI0RHY1WHZtVll6QzdPTno1cHlQSWR1MzhsbkNzTXJvX2l0a2lod3pmaEJrNEdWN1lDSjdTX0J2MzlXOGZRcHhQdHdZZXBaLW8xaHlrVDE?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T11:41:00.000Z",
+      "collectedAt": "2026-11-13T20:27:35.122Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite société étrangère inconnue."
     },
     {
       "id": "a2d122a282",
@@ -60288,5 +60525,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-13T19:08:20.999Z"
+  "updatedAt": "2026-11-13T20:27:56.184Z"
 }
