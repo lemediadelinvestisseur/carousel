@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "54709c7f14",
+      "title": "Réunion du \"Quad\" prévue mardi à Manille-sources",
+      "summary": "Réunion du \"Quad\" prévue mardi à Manille-sources Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbnFBTUpVanp3NEZEQmtlUFVtc3pGZGpMY3hnS2Z6cWJJTUpKYnBGMFlGdy1zUV9hRFFvOHRCUGtRaG5tcW0zdV9sbzNub2RvWnNXanVNMWlrZ2k1M0szNUN0SE1OYm5yUVQ1dTMyUkNSa0QxbkZsa3RqUjRCZy1EcEg5M3REMklLT2MzY0s2T05HbUItcE5wT2JvamdVdUIxanhTTGNxV0s3Zw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T05:52:13.000Z",
+      "collectedAt": "2026-11-14T07:07:28.138Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère sans lien direct avec l'argent."
+    },
+    {
       "id": "096dc88cf2",
       "title": "Microsoft affirme que les services touchés sont pleinement rétablis",
       "summary": "Microsoft affirme que les services touchés sont pleinement rétablis Zonebourse",
@@ -510,6 +527,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Small cap US inconnue."
+    },
+    {
+      "id": "4eeba318a3",
+      "title": "Le \"made in France\" c'est quoi, comment, combien?",
+      "summary": "Le \"made in France\" c'est quoi, comment, combien? TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iSEQ1a1R1ZmY1THltWnRXT0ZqTnVIS240U2o2MWpfS25CQ19PTm1RWXc5LTZjNnU1dV95X3o2bmJyWUhPbFRULWVJLXIxT2R3Y2I4d2NmaXZqSHBHQlFud19n?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:00:00.000Z",
+      "collectedAt": "2026-11-14T07:07:28.138Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Sujet générique sans fait nouveau ni chiffre fort."
     },
     {
       "id": "739f21afe4",
@@ -2434,8 +2468,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Feuilleton Hermès-LVMH, héritier et fortune : scandale très parlant en France.",
-      "hook": "Héritier Hermès : la justice ordonne des tests cognitifs face à LVMH",
+      "reason": "Coulisses spectaculaires d'une saga Hermès-LVMH, des marques que tout le monde connaît.",
+      "hook": "Hermès : la justice exige des tests cognitifs pour l'héritier",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -2453,7 +2487,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "ChatGPT qui paie à votre place : sujet IA grand public qui fait débat.",
+      "reason": "Lancement produit marquant d'OpenAI, mais ressemble aux nouveautés produit souvent refusées.",
       "hook": "ChatGPT pourra bientôt payer vos achats à votre place"
     },
     {
@@ -3863,8 +3897,8 @@
       "brand": "21m2",
       "score": 2,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Taxe foncière en hausse en 2027 : impact direct pour tous les propriétaires.",
+      "aiScore": 6,
+      "reason": "La taxe foncière touche tous les propriétaires, chiffrage concret pour 2027.",
       "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
     },
     {
@@ -5105,6 +5139,23 @@
       "reason": "Crypto qui passe sous un seuil, refusé."
     },
     {
+      "id": "8e7a6bbe1b",
+      "title": "Inox Wind Q2 2027 Earnings Call Is Live",
+      "summary": "Inox Wind Q2 2027 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdWhzVWFNVU1mSU91Rk5IdlZHQ2FaWE00Rk5Va3Bqb1BpeXJpWXJaR3Q0RTVHMGd3Rl9LMUhjbDV3UXdGNHFrR2UxeUZzYzhJNlRJWHk3ZTN6WEs5S21zcl95eVdwczdXZnZPdGhuRXpCQlpjMkVWU2NPdm5QaUNzRUE2T0liU1VCNVBlb0l1blloX050Tk5TYkVtUk9YY05xMGpKaWIxMUxiMjA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T11:57:37.000Z",
+      "collectedAt": "2026-11-14T07:07:28.138Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation indienne inconnue, simple conférence de résultats."
+    },
+    {
       "id": "6d6e05adc7",
       "title": "Selon le gouvernement, la panne de Microsoft devrait avoir un impact significatif sur l'économie allemande",
       "summary": "Selon le gouvernement, la panne de Microsoft devrait avoir un impact significatif sur l'économie allemande TradingView",
@@ -5937,8 +5988,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Démission de Huang et Trump qui propose Tim Cook : rebondissement majeur.",
-      "hook": "Jensen Huang démissionne, Trump veut Tim Cook à la tête de Nvidia",
+      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump pousse Tim Cook chez Nvidia.",
+      "hook": "Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -6952,9 +7003,9 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Hausse du plafond du Livret A, placement préféré des Français.",
-      "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
+      "aiScore": 7,
+      "reason": "Hausse du plafond du Livret A, placement détenu par presque tous les Français.",
+      "hook": "Livret A : le plafond pourrait grimper à 30 000 €",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -7665,6 +7716,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Micro-actu biotech."
+    },
+    {
+      "id": "1e14940f8d",
+      "title": "Key facts: Guidance Cut; Remote Care, IGE, Adolescent Studies Advance",
+      "summary": "Key facts: Guidance Cut; Remote Care, IGE, Adolescent Studies Advance TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa2ZaWWE3OXBOM05mUnluNHhHZTRVdmo4WmdPVU5VcHA3UUV2TGVlYzh1dlJ4RWVKRnk1djFaUXpXNkl4dzBmSHBJOUhKR3p4TEhpenRpQ19IRjJsczJQOG9iZnQtUkFSYTVoMXZ3d29qelNLa2FDZXVqYVk1VEd2OVdBWi1lOUNFOHJnWjVpVVQ5NFlZTmFLazVPNEFuQUhlQUMzQXd1T0RsNWF5ejA4UG94X1Y0ZVZSVnc1czJZVzlEMVNx?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "collectedAt": "2026-11-14T07:07:28.138Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Actu biotech technique et anonyme."
     },
     {
       "id": "58680843f6",
@@ -8568,6 +8636,23 @@
       "reason": "Doublon du sujet sur le plafond du Livret A.",
       "hook": "Livret A : le plafond augmente enfin, voici combien",
       "notifiedAt": "2026-11-13T07:07:22.786Z"
+    },
+    {
+      "id": "a19cbc741c",
+      "title": "Asmodee Group AB (ASMDEE_B) Interim Report Covers April–September 2026",
+      "summary": "Asmodee Group AB (ASMDEE_B) Interim Report Covers April–September 2026 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWGh5dnVNZ1d0dnowVHB3M0RzVVZpMm93eGh2M01wOWM3M01VMXhFMzF3VUJucnhTeWFSc0sxS2pYMm1kcmV1MnJRQ2JRMFBvV0tDZWw0bElJci1QQ2tvbVJfZWlyeERSd0ZEcW9pLW1zaFVDZktmYng4RVUyanE1UjBaMkpCMHR1a3Q4VkxqeDJUb0ZaUF9uVFdmNlhxVHJ2T0FZUUdCTVh6R1hpcmRkbUpyVGdjTUlJWDlzejJ5bzE2ZXNKczZNVQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T06:00:00.000Z",
+      "collectedAt": "2026-11-14T07:07:28.138Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Rapport intermédiaire sans surprise d'une société peu connue."
     },
     {
       "id": "2db741b6cd",
@@ -10000,7 +10085,7 @@
       "status": "new",
       "international": true,
       "aiScore": 9,
-      "reason": "Fusion SpaceX-Tesla : opération géante signée Musk.",
+      "reason": "Fusion géante Tesla-SpaceX d'Elon Musk, énorme sujet qui fait parler.",
       "hook": "Tesla et SpaceX pourraient fusionner dès décembre",
       "notifiedAt": "2026-11-13T05:07:24.588Z"
     },
@@ -62050,5 +62135,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T05:07:42.460Z"
+  "updatedAt": "2026-11-14T07:07:43.738Z"
 }
