@@ -151,8 +151,8 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et aux locataires.",
-      "hook": "Loyers : Marseille +4,6 %, les villes où ça flambe en 2026",
+      "reason": "Classement chiffré des villes où les loyers flambent, utile pour bailleurs et locataires.",
+      "hook": "Marseille : +4,6 % de loyer en un an, record en France",
       "notifiedAt": "2026-11-14T13:07:22.822Z"
     },
     {
@@ -185,8 +185,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret sur la négociation, utile aux acheteurs.",
-      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise en moyenne"
+      "reason": "Chiffre concret pour les acheteurs : 9 ventes sur 10 négociées, 14 400 € de remise moyenne.",
+      "hook": "9 acheteurs sur 10 négocient : 14 400 € gagnés en moyenne"
     },
     {
       "id": "bc6df7aed5",
@@ -696,6 +696,23 @@
       "reason": "Microcap inconnue."
     },
     {
+      "id": "23a712a4cd",
+      "title": "Navient Holdings director Frederick Arnold retires from board",
+      "summary": "Navient Holdings director Frederick Arnold retires from board TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZzh5RDdvSUc0XzNvanhZTGtDOTg3X205STh3ZWVEWFVJNzNwYjJPM2d6X0lxQ2dvd1lKSTBrWHlVeDVZRGxUTFVNREdiczQ1VFdVaEtUQ2JwMldSOWlQamFrdERjR1NsM09zRThrai11YXhCMEgxSnpVTnhwNUpjYVlZLWhlWG9DNG1ieFV6QlpJTHBJcVRoMXBrQVFkQ0xrV3JmeVAzVjBxUDRJOXdTV2dfbmY4eDVkbE1zZjNLME9lX3IyN1FVOFFSWjdDcThoRnVQWVp3dFY?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T22:23:00.000Z",
+      "collectedAt": "2026-11-14T19:07:22.046Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Départ d'un administrateur d'une société américaine obscure."
+    },
+    {
       "id": "98600802ac",
       "title": "West Coast Community Bancorp autorise un programme de rachat d’actions.",
       "summary": "West Coast Community Bancorp autorise un programme de rachat d’actions. Zonebourse",
@@ -1017,6 +1034,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Document technique de fusion sans intérêt grand public."
+    },
+    {
+      "id": "7af825d260",
+      "title": "Genprex 3Q 2026: EPS ($5.3) — 10-Q Summary",
+      "summary": "Genprex 3Q 2026: EPS ($5.3) — 10-Q Summary TradingView",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX3pOWGloMllHdU04ZndMQUp5LWNrZktFcW1kaFdRdlJIY2RFT3pWb3pndjFINDZHZlhhd0ZvVUpKblcxMHVwUzJMdjVDZUd6bEpVTHYxM19GS28xb2dLcUZhLXVSX0NHcGQxZ3UyVm1zTXZMaFdVT2pyOXhoRV9nR0g1RWxjRnRKT3hid1hOVERzenBMUkNaNWZSQ3lMUQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:21:00.000Z",
+      "collectedAt": "2026-11-14T19:07:22.046Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une microcap américaine inconnue."
     },
     {
       "id": "d8ce7091d7",
@@ -2501,6 +2535,23 @@
       "reason": "Point de marché du jour, format refusé."
     },
     {
+      "id": "b7f6519e04",
+      "title": "Redwood AI Corp. (AIRX) Adds Chemical Safety Screening to Reactosphere",
+      "summary": "Redwood AI Corp. (AIRX) Adds Chemical Safety Screening to Reactosphere TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ0ZROTQ5QWs0dWl5MDVYOGNYV2ZmQm9kMDRadzJodm1DdjEzMUs5UGdRTm83UGNHWmg0a09rcGhvTk1lbk9KVUlUTU16WUdBaGtuWmVvRUpGQ25MZVNxWWJ1dFZObFVRRHBlMDVfdm15REtQZlNpVE54YXRiVHpxUkVQY2Z5bUdzbC1na09lRHBQenh2LXhWaVdvcTNKZl9sZE55bm8yRERxZ1VOZmdjSjg0R0oyZ3prOFljT1dzSEFpRVlLTDFZ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T16:47:42.000Z",
+      "collectedAt": "2026-11-14T19:07:22.046Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Communiqué produit d'une petite société inconnue."
+    },
+    {
       "id": "4a4120aea6",
       "title": "CMA CGM-Ebitda +61,6% au T3 avec la hausse des taux de fret et la forte demande",
       "summary": "CMA CGM-Ebitda +61,6% au T3 avec la hausse des taux de fret et la forte demande TradingView",
@@ -3145,8 +3196,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses spectaculaires du feuilleton Hermès-LVMH avec des personnages connus.",
-      "hook": "Héritier Hermès : la justice exige des tests cognitifs dans l'affaire LVMH",
+      "reason": "Coulisses spectaculaires de la saga Hermès-LVMH, fortune et scandale qui fascinent.",
+      "hook": "L'héritier Hermès soumis à des tests cognitifs face à LVMH",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -4647,6 +4698,23 @@
       "reason": "Conférence de résultats d'une société inconnue."
     },
     {
+      "id": "7698c2ecdc",
+      "title": "Milestone Pharmaceuticals Q3 2026 Earnings Call Is Live",
+      "summary": "Milestone Pharmaceuticals Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWTlfOExNZlZIY1ZUaGpfMmpOZ0RpZTB4YVM2QUxWdEpiZlYyRjR4ZTl6TDFVbnJ1TkZXOEZwMU5GbEZkaXcyaHRGWEp5cTZpTUlnZWEyZEgyUVlrYXltcUJIYUI1cEtrcDdzSy1lUV9fOENQRWhIOE5NbHBHVkNSem5lb0VQbE5xRmF2R2N5cU5fZUtlUnB4SmExdW5YeHh1a3lDVHk4UHA2bXAyWkxXM0FNQjFvQlM3MndxTHQ0azA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:27:03.000Z",
+      "collectedAt": "2026-11-14T19:07:22.046Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite biotech américaine inconnue, simple conférence de résultats."
+    },
+    {
       "id": "65eb5442d4",
       "title": "GH Research fait état d’une perte moins importante au T3",
       "summary": "GH Research fait état d’une perte moins importante au T3 Zonebourse Suisse",
@@ -4676,9 +4744,9 @@
       "brand": "21m2",
       "score": 2,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Hausse annoncée de la taxe foncière, ce qui touche directement tous les propriétaires.",
-      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
+      "aiScore": 6,
+      "reason": "Hausse de taxe foncière annoncée, touche directement les propriétaires.",
+      "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
     },
     {
       "id": "b7b3d76e2b",
@@ -6886,8 +6954,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Huang et Trump qui pousse Tim Cook à la tête de Nvidia.",
-      "hook": "Trump veut Tim Cook à la tête de Nvidia après le départ de Huang",
+      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump pousse Tim Cook chez Nvidia.",
+      "hook": "Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -7953,7 +8021,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Le relèvement du plafond du Livret A concerne des millions d'épargnants.",
+      "reason": "Relèvement du plafond du Livret A, placement préféré des Français.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -63255,5 +63323,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T18:42:35.107Z"
+  "updatedAt": "2026-11-14T19:07:36.076Z"
 }
