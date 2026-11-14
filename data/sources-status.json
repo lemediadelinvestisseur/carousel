@@ -5,23 +5,23 @@
     "url": "https://www.maddyness.com/feed/",
     "entries": 10,
     "added": 0,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "TradingView News": {
     "ok": true,
     "via": "google news",
     "url": "https://news.google.com/rss/search?q=site%3Atradingview.com%2Fnews%20when%3A2d&hl=fr&gl=FR&ceid=FR:fr",
     "entries": 100,
-    "added": 4,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "added": 5,
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Zonebourse": {
     "ok": true,
     "via": "google news",
     "url": "https://news.google.com/rss/search?q=site%3Azonebourse.com%2Factualite-bourse%20when%3A2d&hl=fr&gl=FR&ceid=FR:fr",
     "entries": 100,
-    "added": 1,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "added": 3,
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Le Figaro Immobilier": {
     "ok": true,
@@ -29,7 +29,7 @@
     "url": "https://www.lefigaro.fr/rss/figaro_immobilier.xml",
     "entries": 20,
     "added": 0,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Les Echos Patrimoine Immobilier": {
     "ok": true,
@@ -37,15 +37,15 @@
     "url": "https://news.google.com/rss/search?q=site%3Alesechos.fr%2Fpatrimoine%2Fimmobilier%20when%3A2d&hl=fr&gl=FR&ceid=FR:fr",
     "entries": 2,
     "added": 0,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Boursorama Immobilier": {
     "ok": true,
     "via": "google news",
     "url": "https://news.google.com/rss/search?q=site%3Aboursorama.com%2Fimmobilier%20when%3A2d&hl=fr&gl=FR&ceid=FR:fr",
-    "entries": 7,
-    "added": 0,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "entries": 8,
+    "added": 1,
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Capital Immobilier": {
     "ok": true,
@@ -53,15 +53,15 @@
     "url": "https://feed.prismamediadigital.com/v1/cap/rss?sources=capital&categories=immobilier",
     "entries": 10,
     "added": 0,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Le Revenu Immobilier": {
     "ok": true,
     "via": "rss",
     "url": "https://www.lerevenu.com/rss.xml",
     "entries": 50,
-    "added": 0,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "added": 2,
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Moneyvox": {
     "ok": true,
@@ -69,7 +69,7 @@
     "url": "https://www.moneyvox.fr/actu/rss.php",
     "entries": 60,
     "added": 0,
-    "checkedAt": "2026-11-14T07:07:28.138Z"
+    "checkedAt": "2026-11-14T09:07:22.839Z"
   },
   "Visual Capitalist": {
     "ok": true,

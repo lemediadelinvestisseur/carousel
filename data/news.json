@@ -1,6 +1,88 @@
 {
   "items": [
     {
+      "id": "243eed3fcd",
+      "title": "Le Soudan du Sud reporte l’élection au 11 février 2027",
+      "summary": "Le Soudan du Sud reporte l’élection au 11 février 2027 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2FHb3I4Q1oyUGpnWHFja1dMMVNUZ0tfTl92TmRvMlFpQWwyVjZ0U3k2X2R1LWoydnlNQTNtSzRGcnRxWm1FUWJWeElxWlAyQS12MTF1bDdRWW9vUG0wVEVoamdmUlFJNlhKWjdfbkVyd29GV2lxUVhLSEptbzBnRkpZdmljeF9nWURoOGdMYVJ4djJJUlRmMnE1ZnJhX21UTkFSWWNYNjQ3UU1hNXlsQkVrekFjOUk?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T08:33:13.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère sans lien avec l'argent."
+    },
+    {
+      "id": "de34a81d40",
+      "title": "Logement en France : les personnes seules pénalisées par la pénurie de petites surfaces",
+      "summary": "En France, 12 millions de personnes vivent seules et rencontrent des difficultés croissantes pour se loger. Les petites surfaces restent insuffisantes face à la demande, particulièrement dans les grandes villes…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/logement-en-france-les-personnes-seules-penalisees",
+      "image": "https://cdn.overlord.media/logement_58_des_francais_sont_proprietaires_moins_de_50_en_region_parisienne_084512eb_1fff577a66.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-14T08:30:00.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Sujet société proche du refus « vivre seul »."
+    },
+    {
+      "id": "60a7dac1e7",
+      "title": "CAC40 : Eramet, Soitec, Ubisoft... les valeurs à suivre la semaine prochaine",
+      "summary": "Plusieurs entreprises françaises ont des rendez-vous importants avec les investisseurs du 16 au 20 novembre. Les publications de résultats côtoieront des opérations financières et des dossiers sensibles, notamm…",
+      "link": "https://www.lerevenu.com/reussir-bourse/points-marches/valeurs-a-suivre-bourse-semaine-16-20-novembre-era",
+      "image": "https://cdn.overlord.media/faillites_entreprises_france_cac40_decalage_703741dd_649c455158.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-14T08:00:00.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Agenda de résultats, un type de sujet refusé."
+    },
+    {
+      "id": "c6aa4a4900",
+      "title": "Immobilier : comment réduire fortement ses impôts en investissant dans la vieille pierre ?",
+      "summary": "Immobilier : comment réduire fortement ses impôts en investissant dans la vieille pierre ? Boursorama",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaXFzLTdzRnFzQ0dPMGtKeXYwalhYM3MzaTIyMlVBelFYZTdtMGdJUm5VUTBfX1BaeDh3ZE5FY1dlS0JVa2VXdkp1dVBpb1JTQ0ZUNlV3c0VLMDZLT0Ffa0s0aVBHMTM4c3MyTlF1c1BMcDB4aUx4NktnOEV3bllKeU5WcFdFb0pjVDhkMnNNeVVOU244OGs0VGdOczJ3RTBqSjVLelN2bkxob1ZWTVRHYWdkam1UTS03eWtSVU84RDhCWXF1cTNaR1hmYk1zY3EydHR2SlIxcUtSNTlHT2ZLTl9RNERIR1hpNnNKa3NQWUc0MWNPRXJaQVNWQnY?oc=5",
+      "image": null,
+      "source": "Boursorama Immobilier",
+      "via": "google news",
+      "publishedAt": "2026-11-14T07:30:10.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Conseil défiscalisation générique sans fait nouveau."
+    },
+    {
+      "id": "faf9f87576",
+      "title": "Parfumerie : comment les nez adoptent l'intelligence artificielle",
+      "summary": "Parfumerie : comment les nez adoptent l'intelligence artificielle TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxN1BIYkFRZkVPQjhtRW1JX01tWTBhWmFmdjRlcGlVSC1zR3N4ZnpCa1AyOTZyV0VrdlQtUDNYMzQ0N01ZSEdJa3V3djU2VlpYZDBkOC1wbUpMWi0tRWFPTFgtTQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Sujet anecdotique sans lien avec l'argent des Français."
+    },
+    {
       "id": "54709c7f14",
       "title": "Réunion du \"Quad\" prévue mardi à Manille-sources",
       "summary": "Réunion du \"Quad\" prévue mardi à Manille-sources Zonebourse Suisse",
@@ -50,6 +132,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Levée d'immobilisation des vols US, peu de lien direct avec l'argent des Français."
+    },
+    {
+      "id": "2ff7a4cfe4",
+      "title": "USA-Le trafic aérien va reprendre après une panne de communications",
+      "summary": "USA-Le trafic aérien va reprendre après une panne de communications Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZUJ2TUQ1SnJUd3lDRm5RYXlkZ2c1Rk1Ka0xlZE9CVHEwYTdCX2VyRnhSaXNXTG8yR1Zwdi1hSlE1NkZJYTh6U3VxSHFTNG1iQXdIVGRMTVpBTWpnN0xJUzRWdF9tVklxNGRVNW5qaHAwbVowazdualptRDlqNHRLaFZWY204NFhqaFFpbi1TbzR6RXFrY0FxZDY0NGF0LTA5aHFNWDEyVGQ4MkF0TWRF?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T01:54:16.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Fait divers sans lien avec l'argent."
     },
     {
       "id": "2d292e1674",
@@ -357,6 +456,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Communiqué d'une microcap inconnue."
+    },
+    {
+      "id": "0d7807671f",
+      "title": "Travel + Leisure Co. lance Sports Illustrated Resorts Nashville",
+      "summary": "Travel + Leisure Co. lance Sports Illustrated Resorts Nashville Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNndQdEZ1eVZqS2JaVUlBRDZDTWtzZDJBdGxZd0tYcXYyOFRMUTJEWnJJdWpCU3NXa1NZSzBGc0VpSVVJb29aN1haaU1mbzNJa0hjV2VtX3MxSndUMW8tckNpU0E4UGNvcklMNnNwNzhaSWk1VEpQR285T0RyNDFrdHBsQzZfUllQUlpGYlB4ajRBWXNNOTRWR3N5cUhMYUZCbDRnODNCV0IzcjExVU9ybXNISk9XRmZpQXhfdE9B?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T22:00:00.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Communiqué promotionnel."
     },
     {
       "id": "9858e742e7",
@@ -2468,8 +2584,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses spectaculaires d'une saga Hermès-LVMH, des marques que tout le monde connaît.",
-      "hook": "Hermès : la justice exige des tests cognitifs pour l'héritier",
+      "reason": "Coulisses d'une saga Hermès–LVMH avec un héritier, une histoire qui fait parler.",
+      "hook": "Hermès : la justice ordonne des tests cognitifs à l'héritier milliardaire",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -2487,8 +2603,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Lancement produit marquant d'OpenAI, mais ressemble aux nouveautés produit souvent refusées.",
-      "hook": "ChatGPT pourra bientôt payer vos achats à votre place"
+      "reason": "ChatGPT devient un moyen de paiement, un vrai tournant grand public.",
+      "hook": "ChatGPT pourra désormais payer vos achats à votre place"
     },
     {
       "id": "5832652c80",
@@ -3898,7 +4014,7 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "La taxe foncière touche tous les propriétaires, chiffrage concret pour 2027.",
+      "reason": "Hausse de la taxe foncière, un sujet concret pour les propriétaires.",
       "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
     },
     {
@@ -4508,6 +4624,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Rachat d'actions d'une société japonaise inconnue."
+    },
+    {
+      "id": "5d3f1c914a",
+      "title": "YYForce Inc. (YFOR) Begins UAE Hospitality Deployments",
+      "summary": "YYForce Inc. (YFOR) Begins UAE Hospitality Deployments TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWFJIMGgwc0FlblVKRjJ0elBnQURydlZwWUxPb2JoZDZEUl9GS005bGFFQTdxMDJPNmJubkY3MFI3YWtLUVRLU3loRnoyRk53c2R6R1BST3kwVnI1ci1VWklaLWVvZlNrU0ZTVl9rQUZoY1pwQmFIY1ZTQUtEak9KWHFRSG9WY2w0aGtDVzhLZ0NiWHFJdkx2QnVXYWstQWJNOUI4bF9xNDRFczhreUhSaVl3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T12:35:00.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Microcap inconnue."
     },
     {
       "id": "306cf71bce",
@@ -5988,7 +6121,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump pousse Tim Cook chez Nvidia.",
+      "reason": "Rebondissement majeur : démission de Huang et Trump qui pousse Tim Cook.",
       "hook": "Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -7003,9 +7136,9 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Hausse du plafond du Livret A, placement détenu par presque tous les Français.",
-      "hook": "Livret A : le plafond pourrait grimper à 30 000 €",
+      "aiScore": 8,
+      "reason": "Hausse du plafond du Livret A, qui touche des millions d'épargnants.",
+      "hook": "Livret A : le plafond grimpe jusqu'à 30 000 €",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -8620,6 +8753,24 @@
       "reason": "Actu commerciale locale suisse."
     },
     {
+      "id": "51ded82996",
+      "title": "L'ex-PDG de Nvidia convoqué pour témoigner devant le Sénat américain",
+      "summary": "L'ex-PDG de Nvidia convoqué pour témoigner devant le Sénat américain TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5EQVJWMi1UZWdQRTJWN1JOaHUxYzdKelkyT2JJRG1YOWRxWWVjb21tVWRKYkFPeUlJTWlRNmoxczlLb2VIUTNmdTlFaVlRb1pjcVNWdWF1OHp5bGVMQUZQWXRZUQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T06:02:00.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Suite de la saga Nvidia/Jensen Huang, mais elle risque de faire doublon.",
+      "hook": "Jensen Huang convoqué devant le Sénat américain"
+    },
+    {
       "id": "f1b18d975a",
       "title": "Livret A : nos réponses à vos questions sur le nouveau plafond du 1er février 2027",
       "summary": "C'est officiel : le plafond de versement du Livret A, qui limite les montants qui peuvent y être déposés, va être relevé le 1er février 2027. De...",
@@ -10084,8 +10235,8 @@
       "score": 3,
       "status": "new",
       "international": true,
-      "aiScore": 9,
-      "reason": "Fusion géante Tesla-SpaceX d'Elon Musk, énorme sujet qui fait parler.",
+      "aiScore": 8,
+      "reason": "Une fusion Musk spectaculaire entre deux géants connus.",
       "hook": "Tesla et SpaceX pourraient fusionner dès décembre",
       "notifiedAt": "2026-11-13T05:07:24.588Z"
     },
@@ -10326,6 +10477,40 @@
       "international": true,
       "aiScore": 0,
       "reason": "Donnée technique hebdomadaire de la Fed."
+    },
+    {
+      "id": "817c9484fa",
+      "title": "SKYX Platforms Q3 2026 Earnings Call Is Live",
+      "summary": "SKYX Platforms Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZFk1bVhyRDQ1NXlXZk5VMUNDZ19UdG1XLWNqSjdDMDVvakdlTk1MQUhfdllQZU8wdlhhaVkxWHpKRThjU0RGVG9mNzFIZmotejdXY29Sb2dYdnoyRl83cFp3OFZ1YzFNS1l5SFd3SG90YlgzWmIwMFFNcjJ6ZTZmcE13VHJ3QUtjelVBdjd5QUhDbGRBSmlmSTd2b2p4R3p1N3Y5U2t2TGlmdU5LRF9ZWWVR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T21:27:04.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation US inconnue."
+    },
+    {
+      "id": "7d6f786348",
+      "title": "HawkEye 360 Q3 2026 Earnings Call Is Live",
+      "summary": "HawkEye 360 Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTEtWUzhCR1lqbTIyYXQtT1hLcmxUanRYY2J6Vi0weWFhWmtyR3N2RC1GV0VhVVZ5NWNSZC1jM1NVYWVqRi1Mck9XLVVOQzlZcmlVRkYwY2JJU3o5VkFicldNdmwyT2xFcXd3SmdONDhoeXB6dHdQRzJvVjNwR2NEbzNtUV9PWU9xeUt3ckVVcHV2QVR6RDB3WjV2ckxDUGNCbF9hekdZenRtRlpPSmc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T21:27:03.000Z",
+      "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation US inconnue."
     },
     {
       "id": "cad7736a0e",
@@ -62135,5 +62320,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T07:07:43.738Z"
+  "updatedAt": "2026-11-14T09:07:38.724Z"
 }
