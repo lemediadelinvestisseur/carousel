@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "4042f7d38c",
+      "title": "Immobilier : 9 logements sur 10 se vendent après une négociation du prix",
+      "summary": "En France, neuf ventes immobilières sur dix font désormais l’objet d’une négociation, selon le réseau Laforêt. Au troisième trimestre 2026, les acheteurs obtiennent une remise moyenne de 4,8 %, soit 14 400 euro…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-9-logements-sur-10-se-vendent-apres-une",
+      "image": "https://cdn.overlord.media/le_creancier_dun_seul_epoux_peut_saisir_et_vendre_le_logement_familial_7b4080a9_469d00d88f.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-14T11:15:10.000Z",
+      "collectedAt": "2026-11-14T12:02:16.767Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Chiffre concret utile aux acheteurs : remise moyenne de 4,8 % à la négociation.",
+      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise en moyenne"
+    },
+    {
       "id": "bc6df7aed5",
       "title": "Ces deux erreurs majeures de Macron qui ont précipité le logement dans une crise sévère",
       "summary": "DÉCRYPTAGE - L’économiste Robin Rivaton, qui a alerté sur le risque de «bombe sociale» en 2022, étrille le bilan décennal du chef de l’État qui a échoué à relancer le logement comme il l’avait promis en 2017.",
@@ -28,10 +45,10 @@
       "collectedAt": "2026-11-14T11:07:25.212Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Comparaison fiscale Italie/France concrète, chiffrée et qui fait réagir les propriétaires.",
-      "hook": "Pas de taxe foncière : l'Italie séduit les investisseurs immobiliers"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Comparaison fiscale avec l'Italie qui intrigue, mais pas de changement de règle en France.",
+      "hook": "Pas de taxe foncière : l'Italie séduit les propriétaires"
     },
     {
       "id": "482f23e5a6",
@@ -540,6 +557,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Communiqué promotionnel."
+    },
+    {
+      "id": "ce65a50124",
+      "title": "SoundHound AI, Inc. annonce des changements au sein de sa direction",
+      "summary": "SoundHound AI, Inc. annonce des changements au sein de sa direction Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbjctVlZRNVd4NmlIemZmVERZWmNNY1pWTU9LZTJwNzk2SlFXN1NyWUwzNUdtTlp2N0xUbDJ1ZnN1bGRpTU93Z0ZwckNRUEtUbFRyNU9iSE5EckEwTmFyN21HQ3NhZk1wZnBablBLb2xwUzFlMjNnTU9RNkczVXFuTmdlVmhGUDl5V01UZXRQMV9OZzFNVHJhNEFuNFV5R2tTYWVIMlhJV2xtTWdmUllSVC15S1pKRWpGYnREQlBRSEkxTVJL?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T22:00:00.000Z",
+      "collectedAt": "2026-11-14T12:02:16.767Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Petite actu de direction d'une société peu connue en France."
     },
     {
       "id": "9858e742e7",
@@ -2702,8 +2736,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Feuilleton Hermès-LVMH, coulisses rocambolesques autour d'une fortune française.",
-      "hook": "L'héritier d'Hermès sommé de passer des tests cognitifs",
+      "reason": "Coulisses spectaculaires de la saga Hermès-LVMH, deux géants du CAC 40.",
+      "hook": "L'héritier d'Hermès soumis à des tests cognitifs : l'affaire LVMH rebondit",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -2721,8 +2755,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "ChatGPT qui paie à votre place, sujet grand public qui divise.",
-      "hook": "ChatGPT pourra désormais payer vos achats à votre place"
+      "reason": "Nouveauté marquante d'OpenAI sur le paiement par IA, mais lancement produit.",
+      "hook": "ChatGPT va pouvoir payer vos achats à votre place"
     },
     {
       "id": "5832652c80",
@@ -4166,8 +4200,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Hausse de la taxe foncière touchant tous les propriétaires.",
-      "hook": "Taxe foncière 2027 : la facture va nettement remonter"
+      "reason": "La hausse de la taxe foncière touche tous les propriétaires.",
+      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
     },
     {
       "id": "b7b3d76e2b",
@@ -6273,8 +6307,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : Trump veut Tim Cook à la tête de Nvidia.",
-      "hook": "Trump veut Tim Cook pour remplacer Jensen Huang chez Nvidia",
+      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump qui pousse Tim Cook à la tête de Nvidia.",
+      "hook": "Trump veut Tim Cook à la tête de Nvidia après Jensen Huang",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -7323,7 +7357,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Plafond du Livret A relevé, touche l'épargne de millions de Français.",
+      "reason": "Réforme du Livret A, le placement préféré des Français.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -62574,5 +62608,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T11:07:46.280Z"
+  "updatedAt": "2026-11-14T12:02:29.858Z"
 }
