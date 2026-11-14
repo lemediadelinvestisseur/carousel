@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "0127b0aa3b",
+      "createdAt": "2026-11-14T06:14:33.863Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "La taxe foncière va nettement rebondir en 2027 : le sourire crispé du propriétaire qui ouvre son avis.",
+      "text": "Devenir propriétaire, c'est le rêve.\nJusqu'au jour où l'avis de taxe foncière arrive.\n\nEt on annonce déjà une nette hausse pour 2027.\n\nLe parcours classique :\n→ On se bat pour obtenir le crédit\n→ On paie les frais de notaire\n→ On refait la salle de bain\n→ Et chaque année, une petite enveloppe vient rappeler qu'on est « chez soi »… avec un loyer à la commune.\n\nQuand on calcule ce que coûte vraiment un achat, beaucoup oublient cette ligne.\nElle, elle ne nous oublie jamais.\n\nC'est quoi la dépense qui t'a le plus surpris après ton achat ?",
+      "image": "carousels/linkedin/2026-11-14/0127b0aa3b.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Hide the Pain Harold",
+        "image_query": null,
+        "caption": "Moi, fier propriétaire, en ouvrant mon avis de taxe foncière 2027 :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-14T06:14:34.775Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "abeaeb1d0e",
+      "createdAt": "2026-11-14T06:14:29.363Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "ChatGPT Wallet permet à l'IA de payer nos achats : rassurant parce qu'il faut valider… sauf qu'on clique « Accepter » sans lire depuis toujours.",
+      "text": "OpenAI lance ChatGPT Wallet. Ton IA va pouvoir payer tes achats.\n\nSur le papier, c'est génial : plus besoin de sortir sa carte.\n\nDans la vraie vie, on parle de gens qui acceptent les conditions générales sans les lire.\nLes cookies sans les lire.\nLes mises à jour à 2h du matin sans savoir ce qu'elles font.\n\nJe vois déjà l'agent IA « optimiser le budget » en commandant 14 robots aspirateurs parce qu'il y avait une promo.\n\nPlus sérieusement : déléguer ses paiements, c'est déléguer une partie de ses décisions. Ça mérite au moins de lire les réglages une fois.\n\nTu laisserais une IA dépenser ton argent, toi ?",
+      "image": "carousels/linkedin/2026-11-14/abeaeb1d0e.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Panik Kalm Panik",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "ChatGPT va pouvoir payer mes achats à ma place",
+          "Il faudra que je valide chaque paiement",
+          "Je clique « Accepter » sans lire depuis 2009"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-14T06:14:33.863Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "7853f8e9dd",
+      "createdAt": "2026-11-14T06:14:28.071Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le plafond du Livret A passe à 30 000 € en 2027, alors que la plupart des Français n'ont jamais rempli celui à 22 950 €.",
+      "text": "Grande nouvelle : le plafond du Livret A grimpe à 30 000 € en février 2027.\n\nLes journaux s'empressent déjà de calculer « combien vous pourrez gagner ».\n\nPetit détail : la plupart des Livrets A en France sont très loin du plafond actuel.\n\nPour beaucoup, relever le plafond, c'est comme agrandir le coffre d'une voiture qu'on n'a jamais réussi à remplir.\n\nLe vrai sujet, ce n'est pas la taille du livret.\nC'est ce qu'on met dedans chaque mois.\nEt ce qu'on laisse dormir dessus un peu trop longtemps.\n\nTon Livret A, il est plutôt « plein à craquer » ou « trophée imaginaire » ?",
+      "image": "carousels/linkedin/2026-11-14/7853f8e9dd.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "This Is Where I'd Put My Trophy If I Had One",
+        "image_query": null,
+        "caption": "Le plafond du Livret A passe à 30 000 € en février 2027. Moi, qui n'ai jamais atteint les 22 950 € :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-14T06:14:29.363Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "107f217eb3",
       "createdAt": "2026-11-13T06:14:40.328Z",
       "origin": "auto",
@@ -287,5 +357,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-13T06:14:48.417Z"
+  "updatedAt": "2026-11-14T06:14:34.776Z"
 }
