@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "id": "096dc88cf2",
+      "title": "Microsoft affirme que les services touchés sont pleinement rétablis",
+      "summary": "Microsoft affirme que les services touchés sont pleinement rétablis Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcHpsdllCTXY5RThuSjRSQW9wcGxLV1BuM1FscVhNQm54OUJZTmphcnVTUllmYWZFYlZJOWVGYzZLemxYRnZUdm4yQ3V4amNHYWJXTjBTT090N0t4RHh6NmQ5bl95U09NLUQ4ODBLbjFueVFQUi1rbUhfNzFKYzZvX1NneV9OUkRfM1dVd2MwR2tiZWozcm5wRGtLR0Z5RUlFVFlUNWV1VTRiZS1heWNJY1Job1lZdkJ5Ti0takFpLThoRThfWmxB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T05:00:33.000Z",
+      "collectedAt": "2026-11-14T05:07:24.827Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Suite mineure d'une panne, peu d'intérêt."
+    },
+    {
+      "id": "fc618f91f3",
+      "title": "USA-L'ordre d'immobilisation des vols aériens levé",
+      "summary": "USA-L'ordre d'immobilisation des vols aériens levé Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZUJ2TUQ1SnJUd3lDRm5RYXlkZ2c1Rk1Ka0xlZE9CVHEwYTdCX2VyRnhSaXNXTG8yR1Zwdi1hSlE1NkZJYTh6U3VxSHFTNG1iQXdIVGRMTVpBTWpnN0xJUzRWdF9tVklxNGRVNW5qaHAwbVowazdualptRDlqNHRLaFZWY204NFhqaFFpbi1TbzR6RXFrY0FxZDY0NGF0LTA5aHFNWDEyVGQ4MkF0TWRF?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T01:54:16.000Z",
+      "collectedAt": "2026-11-14T05:07:24.827Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Levée d'immobilisation des vols US, peu de lien direct avec l'argent des Français."
+    },
+    {
+      "id": "2d292e1674",
+      "title": "Après avoir échoué à rattraper le premier étage de Starship, SpaceX se concentre sur le second",
+      "summary": "Après avoir échoué à rattraper le premier étage de Starship, SpaceX se concentre sur le second TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4dzhZN3hfSm5Ra05mSWw1c3dMMm03TlVIOGJoaDRLZlRNdWZUNFJ1aF9VZGtaUFBzcGVPSVhjbDZRU25uTEp2M1VXbGxVSzRPSTV3V1FZSmtTMWhGbnAzWW13?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T01:53:00.000Z",
+      "collectedAt": "2026-11-14T05:07:24.827Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Actu technique SpaceX sans enjeu financier fort."
+    },
+    {
+      "id": "c6e58856f8",
+      "title": "La suspension nationale des vols a été annulée, annonce la FAA",
+      "summary": "La suspension nationale des vols a été annulée, annonce la FAA Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa0d2azJnOHczWk9LbnptT0h2NGlOSlBhYTZrYXpxU0lPTUlBS2dsVkd0Vjh2SHBTV0NoMFpKcHZUZ2MtSGoyZHdqbEtmSG5tVnEzTFo0Uy1MVUVxNUIxcWlLdUxXMDNkVnhWeDNpOTVmVWhOVXpnYTdDNjlwekdXWFRMMVFPY3NFQW5DbmJrZUhMNW5YVzJoSElNRG91TUNQWmUwUWttQ0NSVURnNkhrdWpwNGdRNU5tMmdDa0hB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T01:31:18.000Z",
+      "collectedAt": "2026-11-14T05:07:24.827Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de la levée des vols FAA."
+    },
+    {
       "id": "44f00c4b8a",
       "title": "Ce que l’on sait de l’entrepreneuse chinoise Alice Huang",
       "summary": "Ce que l’on sait de l’entrepreneuse chinoise Alice Huang Zonebourse Suisse",
@@ -12,11 +80,11 @@
       "collectedAt": "2026-11-14T01:23:39.506Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Coulisses possibles de l'affaire Jensen Huang, mais suite d'un sujet déjà traité.",
-      "hook": "Qui est Alice Huang, la femme au cœur de l'affaire Nvidia ?"
+      "aiScore": 5,
+      "reason": "Coulisses de l'affaire Huang, mais suite d'un sujet déjà traité.",
+      "hook": "Qui est Alice Huang, la femme au cœur du séisme Nvidia ?"
     },
     {
       "id": "3521d6187f",
@@ -1647,10 +1715,10 @@
       "collectedAt": "2026-11-14T01:23:39.506Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Succession de Jensen Huang chez Nvidia, rebondissement mais suite d'un sujet traité.",
+      "aiScore": 0,
+      "reason": "Doublon de la succession Nvidia, la piste Tim Cook est plus forte.",
       "hook": "Qui pour remplacer Jensen Huang à la tête de Nvidia ?"
     },
     {
@@ -2366,8 +2434,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses spectaculaires Hermès/LVMH avec l'héritier Puech, feuilleton connu des Français.",
-      "hook": "Hermès contre LVMH : la justice exige des tests cognitifs pour l'héritier",
+      "reason": "Feuilleton Hermès-LVMH, héritier et fortune : scandale très parlant en France.",
+      "hook": "Héritier Hermès : la justice ordonne des tests cognitifs face à LVMH",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -2385,8 +2453,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "ChatGPT paie à votre place : innovation grand public qui fait débat.",
-      "hook": "ChatGPT pourra désormais dépenser votre argent à votre place"
+      "reason": "ChatGPT qui paie à votre place : sujet IA grand public qui fait débat.",
+      "hook": "ChatGPT pourra bientôt payer vos achats à votre place"
     },
     {
       "id": "5832652c80",
@@ -3796,8 +3864,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Hausse de taxe foncière annoncée, touche tous les propriétaires.",
-      "hook": "Taxe foncière 2027 : préparez-vous à payer plus"
+      "reason": "Taxe foncière en hausse en 2027 : impact direct pour tous les propriétaires.",
+      "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
     },
     {
       "id": "b7b3d76e2b",
@@ -5680,10 +5748,10 @@
       "collectedAt": "2026-11-14T01:23:39.506Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 7,
-      "reason": "Rebondissement majeur : Huang écarté, sa contradictrice prend Nvidia.",
+      "aiScore": 0,
+      "reason": "Doublon de la succession Nvidia.",
       "hook": "Jensen Huang éjecté : celle qui le contestait dirige Nvidia",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
@@ -5869,8 +5937,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump propose Tim Cook.",
-      "hook": "Trump veut Tim Cook à la tête de Nvidia",
+      "reason": "Démission de Huang et Trump qui propose Tim Cook : rebondissement majeur.",
+      "hook": "Jensen Huang démissionne, Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -6885,8 +6953,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Plafond du Livret A relevé, concerne des millions d'épargnants.",
-      "hook": "Livret A : le plafond grimpe jusqu'à 30 000 €",
+      "reason": "Hausse du plafond du Livret A, placement préféré des Français.",
+      "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -9932,7 +10000,7 @@
       "status": "new",
       "international": true,
       "aiScore": 9,
-      "reason": "Fusion SpaceX-Tesla, énorme histoire Musk.",
+      "reason": "Fusion SpaceX-Tesla : opération géante signée Musk.",
       "hook": "Tesla et SpaceX pourraient fusionner dès décembre",
       "notifiedAt": "2026-11-13T05:07:24.588Z"
     },
@@ -10020,6 +10088,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Annonce de conférence."
+    },
+    {
+      "id": "f1c246ca27",
+      "title": "Grown Rogue International Q3 2026 Earnings Call Is Live",
+      "summary": "Grown Rogue International Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWQzbzN5cWpsZzVOZFgyVGtLb0RxZW1HYkZMcUFYNXhLTE1Xcnp2UlQ0bVY0NThGa2dPTnBHU1ZFMnVUMG8wd29JNjF1aTItNEcyX2M5d0kxOFlydXpITDZVeVJWVTlCREgzSUlsZ3JpMTZnUVZ2UzdBeUNmU0RxUXRydFQ4dk5mbUJNQ1pCUzNaY2ZMTUJFUXN3S3BWSWpYcDNudm5OdGtUNWJGLXpjRTEwRzZDRmNjVGp0VUFvU1Y?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T21:57:03.000Z",
+      "collectedAt": "2026-11-14T05:07:24.827Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation étrangère inconnue."
     },
     {
       "id": "16b9927a4d",
@@ -10258,6 +10343,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Petite société énergétique canadienne."
+    },
+    {
+      "id": "96156a6b4f",
+      "title": "Azitra 3Q 2026: EPS ($0.29) — 10-Q Summary",
+      "summary": "Azitra 3Q 2026: EPS ($0.29) — 10-Q Summary TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdVdoTmwzNmx0Z3RQdldZWlZYc180aE9STWswOHI0V3BOSHpHeTZHSUxKM0F2c1l1VEtzdFE5b25NQUU5NlR1OUF0Nm45Y3hvMzNQdldWN19FY3NheVFCdFFxbUFlMnZCYjlpZFdxRzdGdk5GVk9ELVFNN1VvZVFscW5BMm9RaTVhWGlzb2ZJOXYtNE9nZU5ITGlWZUx0alVjYk9qYzBDampTeTJMenBUdF8yZjNEV1E?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-12T21:21:01.000Z",
+      "collectedAt": "2026-11-14T05:07:24.827Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une microcap inconnue."
     },
     {
       "id": "502fe0b3bd",
@@ -11060,7 +11162,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Crise de l'automobile allemande avec une marque très connue, mais fermetures d'usines proches des suppressions de postes refusées.",
+      "reason": "Chute spectaculaire de l'auto allemande, signal fort pour l'Europe.",
       "hook": "Mercedes envisage de fermer des usines : l'auto allemande vacille"
     },
     {
@@ -61948,5 +62050,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T01:24:40.226Z"
+  "updatedAt": "2026-11-14T05:07:42.460Z"
 }
