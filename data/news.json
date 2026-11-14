@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "id": "dde77aac8c",
+      "title": "SpaceX rattrape l'étage supérieur de sa mégafusée Starship, une première",
+      "summary": "SpaceX rattrape l'étage supérieur de sa mégafusée Starship, une première Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNVN5Y1RiR3JfUlU5N2h0aV9mT3FObGxieEVOT09ubnZoMWk4UkpfdHJFdi1iSmVrZGN4Z0FfeWRtNkk1VWJhTDdNMEtlYXVxTjl4M2lEbUZ6WmdqOHdEak9qX1VXQmNvdjE4VTl3al9yREhxN2NSVUlycTR3eUxrTlFQUHZaQjRMWWRXMmUtYVNQOVR5Q2JkeGp6cVlzZDJoTTFTal9mN2IxTV9Zb1FnbWtCN1FkdG84QzVLb19SR2MyM0VCV19LVGJNaw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T22:08:21.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "new",
+      "international": true,
+      "aiScore": 6,
+      "reason": "Première spectaculaire pour SpaceX, société très suivie avant son IPO.",
+      "hook": "SpaceX vient de réussir l'impossible : rattraper Starship en vol"
+    },
+    {
+      "id": "eb911f2a92",
+      "title": "Le Starship de SpaceX réussit son premier retour au Texas",
+      "summary": "Le Starship de SpaceX réussit son premier retour au Texas Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRUdlQ2J1d3puX013SndLMzhlaXF1ZlBJMnBlbHpoR2ZXUVk4T01Ba3ZmQmg1a2t1dzlIbjVzVkVmUk9RM1ExeXR3Q1gxTE1pbkFQUTBpWnlHUnY4U2xXdkRhNGtEeU1HalRyQ1pmVlZjTU44dHZ4SzRzZUJVckhqbXZPOXhpUF9hQW1RMlk2cUIzek1CTFVqeHZ1XzM5Wk9saXlVY0xSMXNTamZXaEJMOENIX2tUVk1t?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T21:23:13.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de l'exploit Starship."
+    },
+    {
+      "id": "129a5b68e3",
+      "title": "Le bitcoin recule d’environ 5,3 %, à 64 734 dollars",
+      "summary": "Le bitcoin recule d’environ 5,3 %, à 64 734 dollars Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkFZQjQ0Z0hyNXlLZWxvWUFxUl9VRThYN3NvYlp2ZkpFVE9Ld2FVUzM4VG9ZSGxzc01pSlVmVWZHR0FlSXAxVnNsZXdUYU40OWVpelQ1bnJFaEZDVzkybF9ZeVV0dlBqTUFmVDhBRlVKMEs1VVNKLWtjSVdXbV92elR0NGhULVNtQUlTNGRvS0xKRGYtR0tZcXpEbmg2QTdUajN0dm8tNDZzeEVLLVE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T21:05:10.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Point de marché crypto du jour, type de sujet refusé."
+    },
+    {
+      "id": "8b4bd46d51",
+      "title": "Bitcoin : Les positions des market makers fragilisent la stabilité du marché",
+      "summary": "Bitcoin : Les positions des market makers fragilisent la stabilité du marché TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TNG5SdjZDVFVKRFdxcVp0TnZUMnFhS1NsX21uemR0NnZBRDFWLTVVRkM1eGM0bmFOem5OSHF1NlFLS3Q3N3lYZ0thNUxBczc4MGtUOGtkLUNwYVAwV1ZxS1BJZmRXc0s4Y3BPaw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T20:00:00.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Actu crypto technique sans fait marquant."
+    },
+    {
+      "id": "0e05ef3483",
+      "title": "Selon des données issues de la pratique clinique, le comprimé Wegovy de Novo permet aux patients de perdre environ 6 % de leur poids en trois mois",
+      "summary": "Selon des données issues de la pratique clinique, le comprimé Wegovy de Novo permet aux patients de perdre environ 6 % de leur poids en trois mois TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HNXVKRFZzaHNLYldEcFRoZGR2ei1TakEzaG9tX1lUa0dqcGtjdDNoQTJZN3cxendQZXFndkRWSExSaUhmOW5vWVNyVnJKajBEeFZPaDhtNzRXVmo0NU1JU21TanNyUkp0RUpaVjRtWFozQXNRbi04?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T17:15:41.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Données cliniques, sujet refusé par l'éditeur."
+    },
+    {
       "id": "87b26c02c4",
       "title": "Les aides solaires pour les petites installations devraient être maintenues",
       "summary": "Les aides solaires pour les petites installations devraient être maintenues Zonebourse Suisse",
@@ -33,6 +119,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Suite mineure d'une panne, sans enjeu financier fort."
+    },
+    {
+      "id": "7ac770cfed",
+      "title": "Microsoft annonce avoir complètement \"rétabli le service\" après sa panne mondiale",
+      "summary": "Microsoft annonce avoir complètement \"rétabli le service\" après sa panne mondiale TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90b1NhbG00NTNxWk1uV3ptOE14YnZEdFB6bjluLWxpUHBvUlRwVks5YmhSQk1jcXItNGdGeWZyNTJOSDdWYkJTSWZNUlRRODhjaFJ1LUs2S05Xa0R5MWRleUd3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T15:38:32.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Panne Microsoft déjà résolue, peu d'angle argent."
     },
     {
       "id": "c63d927a2c",
@@ -185,8 +288,8 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et aux locataires.",
-      "hook": "Loyers : Marseille explose tout avec +4,6 % en un an",
+      "reason": "Classement chiffré des villes, utile aux bailleurs et locataires.",
+      "hook": "Loyers : Marseille explose de +4,6 % en un an",
       "notifiedAt": "2026-11-14T13:07:22.822Z"
     },
     {
@@ -219,7 +322,7 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret et actionnable pour les acheteurs : 4,8 % de remise en moyenne.",
+      "reason": "Chiffre concret et utile pour les acheteurs.",
       "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise moyenne"
     },
     {
@@ -489,6 +592,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Actu technique SpaceX sans enjeu financier fort."
+    },
+    {
+      "id": "2db675e273",
+      "title": "Suspension des vols aux États-Unis : pas de cyberattaque ni de lien avec la panne de Microsoft (ministre américain)",
+      "summary": "Suspension des vols aux États-Unis : pas de cyberattaque ni de lien avec la panne de Microsoft (ministre américain) TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3QzhuQU9zbnJvUTA4aVZab2dlRnZ3VjVsaGRLdVhjdW9xNXl3UHNLWW4tRHV6NEViVEw1YlB2TXBpa2NuT1IyNVh2TzgzeUQ2UU1RWlR4Mk1DZ05tSXAxb19n?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T01:35:59.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de la suspension des vols."
     },
     {
       "id": "c6e58856f8",
@@ -1119,6 +1239,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Point de marché quotidien."
+    },
+    {
+      "id": "07da928f99",
+      "title": "aTyr Pharma Regains Nasdaq Minimum Bid Price Compliance",
+      "summary": "aTyr Pharma Regains Nasdaq Minimum Bid Price Compliance TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaXVyQXRZME9vLXdYc2hiTmlTSVlaVFJMYThRWVZPbzNWdkxjNEVld0FtMFpKTXo3YUxVdkFjdkZIRW9DeW11VUI5blJWVlpUNEpOaDUxZkFPbjNWTXh6R0U4NWplSURDYXgtcGpOdHdxZ3MwVlJvendfdV9JY1pLU1A2eGMxbTdkVjFqeE8yYWFIdVVqajB0WWRqRThKWVRxeGpFN0tIMldpeHowVEN5MXYwZzNPM1U?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:03:01.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite biotech américaine inconnue."
     },
     {
       "id": "c2bf26f4d4",
@@ -2055,6 +2192,23 @@
       "reason": "CMA CGM est connu mais résultats trimestriels sans surprise majeure."
     },
     {
+      "id": "0b291f3429",
+      "title": "Suspension des vols aux États-Unis : \"L'espace aérien a été rouvert\" (ministre)",
+      "summary": "Suspension des vols aux États-Unis : \"L'espace aérien a été rouvert\" (ministre) TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwUF91OWJORG44SXNrNS1lYVNiZGc5VnhaUnRzcnIyTTV0UHZMbXdSWXhjSk9QTFNCM0ZZTl9LcjN2eGw0Rm1LZWRTNVpaYXdQQy1TX3pNSm1EZU12OUR6ZHlB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T17:42:00.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Fait d'actualité aérienne sans lien argent."
+    },
+    {
       "id": "3d10e63aff",
       "title": "La CFTC prévoit de réformer le système de fixation des prix de l'aluminium aux États-Unis",
       "summary": "La CFTC prévoit de réformer le système de fixation des prix de l'aluminium aux États-Unis TradingView",
@@ -2482,6 +2636,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Opération technique obscure."
+    },
+    {
+      "id": "de92c9c168",
+      "title": "Paraguay: \"plusieurs pays\" ont confirmé la présence chez eux d'actifs liés à la banque Ueno (parquet)",
+      "summary": "Paraguay: \"plusieurs pays\" ont confirmé la présence chez eux d'actifs liés à la banque Ueno (parquet) TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iUkNqaVNMWjBlTWVpOEhsc1lKbUNvemJLdkttZ0lXUUxNWkRYSDJkQW9uUVN6WkdnaTNkVldFdDM4SmxUUnBLXzc0NGR6V2ZlSFc3eFNsWGROS0tLdUYxRURR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T16:55:52.000Z",
+      "collectedAt": "2026-11-14T22:55:57.914Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Affaire bancaire au Paraguay, hors radar français."
     },
     {
       "id": "3d11de35c0",
@@ -3230,8 +3401,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses d'un feuilleton spectaculaire Hermès-LVMH autour d'un héritier milliardaire.",
-      "hook": "Hermès : la justice ordonne des tests cognitifs à l'héritier milliardaire",
+      "reason": "Coulisses rocambolesques Hermès-LVMH, grandes marques françaises.",
+      "hook": "L'héritier d'Hermès sommé de passer des tests cognitifs",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -4778,8 +4949,8 @@
       "brand": "21m2",
       "score": 2,
       "status": "new",
-      "aiScore": 6,
-      "reason": "La hausse de la taxe foncière touche directement le portefeuille des propriétaires.",
+      "aiScore": 7,
+      "reason": "Fiscalité concrète touchant tous les propriétaires.",
       "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
     },
     {
@@ -63357,5 +63528,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T21:07:37.091Z"
+  "updatedAt": "2026-11-14T22:56:15.177Z"
 }
