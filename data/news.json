@@ -102,6 +102,24 @@
       "reason": "Doublon de la déclaration de Musk sur Nvidia."
     },
     {
+      "id": "9874b6daae",
+      "title": "Selon Musk, Nvidia perdrait des contrats « critiques » sans Jensen Huang",
+      "summary": "Selon Musk, Nvidia perdrait des contrats « critiques » sans Jensen Huang Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdjAwQ3I1eXlrYmZ3amczWVZCU2Yxa0lFcnhIX3Q2MUdhVHNybmZfdk9nWlRTX1d3aVBSUzdhMUprSmFib3IwZ2N6SjlxVndLeDhqcGhPMzd6Z2ZTWTd2MFUzR2RDeGc0RkFXZDBjam4zekZQcTVpOFIwc0ZXRnFVakZOazczT0JrTUdpa3J1QkJYYnlJT1lLeS10Z2daZlN2d0ttZ3hvZmpELTZjM3JRZFpCdDVXVDVfa3JzQXZlZzNIZzQ5c1FzaElaWlV4dEU?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T14:47:18.000Z",
+      "collectedAt": "2026-11-14T18:42:15.873Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Suite de la saga Nvidia/Huang déjà traitée, l'angle Musk reste secondaire.",
+      "hook": "Musk prévient : sans Jensen Huang, Nvidia perdrait des contrats critiques"
+    },
+    {
       "id": "59929f4595",
       "title": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers",
       "summary": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers Zonebourse Suisse",
@@ -133,8 +151,8 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et locataires.",
-      "hook": "Loyers : Marseille +4,6 %, les villes qui flambent en 2026",
+      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et aux locataires.",
+      "hook": "Loyers : Marseille +4,6 %, les villes où ça flambe en 2026",
       "notifiedAt": "2026-11-14T13:07:22.822Z"
     },
     {
@@ -167,8 +185,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret utile aux acheteurs : 14 400 € de remise moyenne.",
-      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise moyenne"
+      "reason": "Chiffre concret sur la négociation, utile aux acheteurs.",
+      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise en moyenne"
     },
     {
       "id": "bc6df7aed5",
@@ -506,6 +524,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Incident américain sans angle financier."
+    },
+    {
+      "id": "1374152956",
+      "title": "Ionic Digital Director Purchased Shares Worth Over $1.2M",
+      "summary": "Ionic Digital Director Purchased Shares Worth Over $1.2M TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM3pRajhQTWFQcnQyY25HeWt6OGxVTmJZdFg0UmdaTmtsdXE2eTVTNnhRelUyR3VJdXUzRGQ5UFh5eG8wTzRSU2xCdmp1THpRMHR1am9hSXc2czdDdW5DZWI0dDMwdjFEbjR0Z2UxbmZBRDJ2dGpZd3h6blRzSGlHcHJrRU1tNnJzOWY2ZmtGSHZic3VDWkhkcUd3RmxxS3JIQXVySU9CME11U1drOUZFM080RENSR3M?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "collectedAt": "2026-11-14T18:42:15.873Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Achat d'initié sur une small cap inconnue."
     },
     {
       "id": "574dc85f07",
@@ -965,6 +1000,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Rachat d'actions obscur."
+    },
+    {
+      "id": "4d061b4d5d",
+      "title": "Valaris Supplements Merger Proxy With Updated Financial Analyses",
+      "summary": "Valaris Supplements Merger Proxy With Updated Financial Analyses TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdExpODZvT212WFR2TnNZNzhMSDBlN3o0ZjlOOHpPVTh5Nm9ZNzNKSzRPVjVDSExaYjBWVlZCaVQzdlJhM3NweFNjU0dya1ZXd2Vmb0lmTTJWMGRWdDB4S1RyYmVrQkx0R1FtTTl3anA2cS1HdTVCcE1aTVJadG1CUGlvVGNwX3FpSnZuSHdQWElxSzFiVmJBQVdTZnJBaGY5MEppaUVqQTBWYzBmakk0czVLWjQ2Zzk2OE5kcDFlVVJuTVE?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:23:00.000Z",
+      "collectedAt": "2026-11-14T18:42:15.873Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Document technique de fusion sans intérêt grand public."
     },
     {
       "id": "d8ce7091d7",
@@ -2821,6 +2873,23 @@
       "reason": "Sujet French Tech local, sans chiffre ni enjeu fort."
     },
     {
+      "id": "902384a5e4",
+      "title": "DeFi Technologies Q3 2026 Earnings Call Is Live",
+      "summary": "DeFi Technologies Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTFJiRWVZLVdxelJ6SUU2a1Y4aHhTVm9BNHVCLUsxX3NBUTlLYkJFZ1FLZ01VZXdBaWhQa2I0VW1FYjMxdE9zd3VyNzRVUkxzT2VtZWd4aXJEZUc5TEs3ZTZBdXRTaTZaZk5xTXZwVGJSTHpZOElNalB0WXpyX3g1RnluQmdjbG4yTXlOaDhrUE80cmN2Nmt5NFZYRXlmMlIwU191cDRRTnZkbWpLOEt2MTRpcG9Ddw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T16:00:20.000Z",
+      "collectedAt": "2026-11-14T18:42:15.873Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Simple annonce de conférence de résultats, sans intérêt."
+    },
+    {
       "id": "ef6e92b5f8",
       "title": "Nvidia perd encore du terrain, Wedbush réduit sa cible",
       "summary": "Nvidia perd encore du terrain, Wedbush réduit sa cible Zonebourse Suisse",
@@ -3075,9 +3144,9 @@
       "score": 5,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Coulisses rocambolesques Hermès-LVMH, deux géants du luxe français.",
-      "hook": "Hermès : la justice exige des tests cognitifs pour l'héritier",
+      "aiScore": 8,
+      "reason": "Coulisses spectaculaires du feuilleton Hermès-LVMH avec des personnages connus.",
+      "hook": "Héritier Hermès : la justice exige des tests cognitifs dans l'affaire LVMH",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -4607,9 +4676,9 @@
       "brand": "21m2",
       "score": 2,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Hausse de la taxe foncière concrète pour tous les propriétaires.",
-      "hook": "Taxe foncière 2027 : pourquoi la note va grimper"
+      "aiScore": 7,
+      "reason": "Hausse annoncée de la taxe foncière, ce qui touche directement tous les propriétaires.",
+      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
     },
     {
       "id": "b7b3d76e2b",
@@ -6635,6 +6704,23 @@
       "reason": "Donnée macro attendue, sans surprise."
     },
     {
+      "id": "80b0bad491",
+      "title": "KPI Green Energy Q2 2027 Earnings Call Is Live",
+      "summary": "KPI Green Energy Q2 2027 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcndVSVF2LXJ6bEM1UklLd0dSQ25VNEVQWVp3MGFfRklsczZmdUhoNG1qMGhnQVB1UElHckVac0lHc3lMaWJMQmIyNHJZMVNteHF5VVFIdWxjNV9ySkhGdkZMcUxMY2xscTdYZE8zSzBGTFpxNEp0RHlBVUFISERiVXRwdlFZdFUzZGk3OVBhUG4ySEM3UHNCemdJaUlxR1I5aW5lMld2UW82MWcxbzVqTjcyd3g?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T10:57:35.000Z",
+      "collectedAt": "2026-11-14T18:42:15.873Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société indienne inconnue."
+    },
+    {
       "id": "1d42d16393",
       "title": "Bitcoin sous les 70 000 dollars : les retraits des ETF accentuent la chute des cours",
       "summary": "Le Bitcoin passe sous les 70 000 dollars ce vendredi 13 novembre 2026, dans un contexte de retraits importants des ETF et de liquidité insuffisante. La cryptomonnaie perd 9,2 % sur sept jours, tandis que l'indi…",
@@ -6800,8 +6886,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Huang et Trump pousse Tim Cook chez Nvidia.",
-      "hook": "Trump veut Tim Cook à la tête de Nvidia",
+      "reason": "Rebondissement majeur : démission de Huang et Trump qui pousse Tim Cook à la tête de Nvidia.",
+      "hook": "Trump veut Tim Cook à la tête de Nvidia après le départ de Huang",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -7867,7 +7953,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Relèvement historique du plafond du Livret A, touche des millions d'épargnants.",
+      "reason": "Le relèvement du plafond du Livret A concerne des millions d'épargnants.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -63169,5 +63255,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T17:07:52.539Z"
+  "updatedAt": "2026-11-14T18:42:35.107Z"
 }
