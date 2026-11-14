@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "id": "c63d927a2c",
+      "title": "France/Manifestation-La situation est calme et maîtrisée, selon Beauvau",
+      "summary": "France/Manifestation-La situation est calme et maîtrisée, selon Beauvau Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQREQxUHBzRWRWZ1VDZnFiUFRHT3NqZ0I1d1lfMDJLcDMzUTVLSktIalpoY0hzZzJJUDE1ZWVuRkZrNk1xb3AydUdLZ01ESExYOGhwX1ExZ2U1eW1kVUtLNEZIcUZ5NGVZZzl4dGU0UlZPV3Y0X3IzOVEtQ3VuU3dUaEZnU1hBOTRMVzY0LV81bWJGT09rUzY2cWhNNGVrakxDMm13Ri11eWgwd255Nm16dE9SVEsxOGZ4b00yV2d0UTBQdW9peWhyS3NKdw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T15:03:16.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Fait d'actualité politique sans lien avec l'argent."
+    },
+    {
+      "id": "a29c6cda15",
+      "title": "Crédit immobilier : jusqu’à quel âge peut-on emprunter ?",
+      "summary": "Souscrire un crédit immobilier reste possible à 70, 75 ou même 80 ans. La loi ne fixe aucune limite d’âge pour emprunter. Cependant, la durée de remboursement acceptée par les banques et les conditions d’assurance peuvent restreindre l’accès au prêt, y compris pour les ménages déjà propriétaires de leur résidence principale.",
+      "link": "https://www.capital.fr/immobilier/credit-immobilier-jusqua-quel-age-peut-on-emprunter-1531825",
+      "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~13~ff15a1a8-8197-45a2-be41-40022ead9a63.jpg/1200x900/focus-point/1397%2C794/credit-immobilier-jusqu-a-quel-age-peut-on-emprunter.jpg",
+      "source": "Capital Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "21m2",
+      "score": 5,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Conseil générique sur l'âge d'emprunt, sans fait nouveau."
+    },
+    {
+      "id": "c9401553fd",
+      "title": "Musk estime que Nvidia perdrait des contrats « critiques » sans Jensen Huang",
+      "summary": "Musk estime que Nvidia perdrait des contrats « critiques » sans Jensen Huang Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUdHODZNT1BMTDdzQ1hQWS03dUExcHRpVDB3dUVKSUc3OWR6Nm1ma1ZjUGZmS2NRV1EtV3c4MkQ0Z3VuTldfZ3Zuc0RCZ3c1YVc1V242UzZYWjlTR2ZqTnZ2aU0zaWphTFRPTWEzMDN0Q1lkM29hbDd2Wjl5YWVVRC14cGwzMEpDVWhLb0UyV1dZaFA1TExqX255d1l2bEp5MG5NVmNyanVCZWk0cjhvQnNnaUp0OERIZlRocDB3Mkt6MkNuSmN0NmVjbVptQQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T14:47:18.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Suite mineure de l'affaire Huang déjà traitée."
+    },
+    {
+      "id": "9d18620deb",
+      "title": "Musk affirme que Nvidia perdrait des contrats « critiques » sans Jensen Huang",
+      "summary": "Musk affirme que Nvidia perdrait des contrats « critiques » sans Jensen Huang Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdjAwQ3I1eXlrYmZ3amczWVZCU2Yxa0lFcnhIX3Q2MUdhVHNybmZfdk9nWlRTX1d3aVBSUzdhMUprSmFib3IwZ2N6SjlxVndLeDhqcGhPMzd6Z2ZTWTd2MFUzR2RDeGc0RkFXZDBjam4zekZQcTVpOFIwc0ZXRnFVakZOazczT0JrTUdpa3J1QkJYYnlJT1lLeS10Z2daZlN2d0ttZ3hvZmpELTZjM3JRZFpCdDVXVDVfa3JzQXZlZzNIZzQ5c1FzaElaWlV4dEU?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T14:47:18.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de la déclaration de Musk sur Nvidia."
+    },
+    {
+      "id": "59929f4595",
+      "title": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers",
+      "summary": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZkEtdTBkUVRnTlBmYnlFWDh5VG5qUnRLRTNXQmdXV2kyRGlMYnZlVmRHUFFGVjJYMGtTS3diaHRKWFlnN1ZKeVlESTA1MEJTYmVLWmp1c0doY2EwMUo3UnRXQWVIZ2pXVnFDM25mMTB3ZjU0Zkp4N1drdEJ4VnQwTEU2RVJYSjcyT0VjTEtSaUcwMHhGRXlfNzFwYXpwdDhUanB6T1NjVnZvMmtYNHJQQ19XYVdodmotd0RrenpraDN3cE85X243RU1YNA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T13:41:19.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Tesla vend son robotaxi aux particuliers, marque connue mais actu produit.",
+      "hook": "Tesla vend désormais son robotaxi Cybercab aux particuliers"
+    },
+    {
       "id": "08f5693c32",
       "title": "Immobilier locatif : les villes où les loyers augmentent le plus en 2026",
       "summary": "Les loyers repartent à la hausse en France en 2026, avec une progression moyenne de 2,1 % sur un an. Marseille arrive en tête des villes les plus touchées, avec une augmentation de 4,6 %, devant Nice à 4,4 % et…",
@@ -14,8 +99,8 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et locataires.",
-      "hook": "Marseille, Nice : les villes où les loyers explosent en 2026",
+      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs.",
+      "hook": "Loyers : Marseille +4,6 %, les villes qui flambent en 2026",
       "notifiedAt": "2026-11-14T13:07:22.822Z"
     },
     {
@@ -48,8 +133,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret utile aux acheteurs : 9 ventes sur 10 négociées, -4,8 % en moyenne.",
-      "hook": "Immobilier : 9 acheteurs sur 10 négocient, et obtiennent 14 400 €"
+      "reason": "Chiffre concret utile aux acheteurs : 14 400 € de remise moyenne.",
+      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise en moyenne"
     },
     {
       "id": "bc6df7aed5",
@@ -145,6 +230,23 @@
       "via": "google news",
       "publishedAt": "2026-11-14T08:33:13.000Z",
       "collectedAt": "2026-11-14T09:07:22.839Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère sans lien avec l'argent."
+    },
+    {
+      "id": "f1311a86dc",
+      "title": "Le Soudan du Sud reporte les élections au 11 février 2027",
+      "summary": "Le Soudan du Sud reporte les élections au 11 février 2027 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2FHb3I4Q1oyUGpnWHFja1dMMVNUZ0tfTl92TmRvMlFpQWwyVjZ0U3k2X2R1LWoydnlNQTNtSzRGcnRxWm1FUWJWeElxWlAyQS12MTF1bDdRWW9vUG0wVEVoamdmUlFJNlhKWjdfbkVyd29GV2lxUVhLSEptbzBnRkpZdmljeF9nWURoOGdMYVJ4djJJUlRmMnE1ZnJhX21UTkFSWWNYNjQ3UU1hNXlsQkVrekFjOUk?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T08:33:13.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
       "brand": "investisseur",
       "score": 2,
       "status": "ignored",
@@ -474,6 +576,23 @@
       "reason": "Angle politique d'un sujet Nvidia déjà traité."
     },
     {
+      "id": "310acfed19",
+      "title": "Magnite Director Sold Shares Worth Over $583K",
+      "summary": "Magnite Director Sold Shares Worth Over $583K TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzNNQzhvUUxjOHVWdFcxRVNSM3B2U1V1dUo5bkVIRjg2Z0tZb1lteV9DTzVhV1M5N2FTdWhzVHJjaURRSmt2V2RUanhIdVZ0alkzSVZ4QlFjMXIzZU5SYkM1MVhCcW9QOERTY1hsYjBCU1NmeW1uNzNuM1c2U2NWZjFYV2lESzhqb2Z1ZHF6RGVQRWV3OGI0ejJWUTh1M1BRV2QyTW1fcUY?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T22:50:11.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Vente d'initié insignifiante."
+    },
+    {
       "id": "44158f5d18",
       "title": "SpaceX lance le 15e vol de Starship dans l'espoir de réaliser son premier aller-retour",
       "summary": "SpaceX lance le 15e vol de Starship dans l'espoir de réaliser son premier aller-retour TradingView",
@@ -712,6 +831,23 @@
       "reason": "Minière inconnue."
     },
     {
+      "id": "a02ff72fa7",
+      "title": "Sysco Corporation annonce un dividende trimestriel, payable le 29 janvier 2027",
+      "summary": "Sysco Corporation annonce un dividende trimestriel, payable le 29 janvier 2027 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaGVJaHV0ckc5aFBNaXhfd2daTEZXXzkwZU52UGFwMExFeF90emtyVERWZmo1M3Y1aUVLbm1ULVJaUWdyVEl4S2p2YWg0Y3lWVTYzNWFCRGE1TDByVmhPRzZrNDUwdkhWSmQ4UWQ2Z0NPRmtkVTByNzZlUFp6UjVuNU5rUnh1T01aQVZmTGpONmMwQmloYXFMd3JoZTdSU3VjcWR3MlE4QTFQekJyY0lRb2s2WFRROUhwRUhIdkxpaEk5eW5ITUxvVVM2a0JDblIyVDZj?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:35:00.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Dividende d'une société américaine inconnue en France."
+    },
+    {
       "id": "b958a39acd",
       "title": "Les résultats de Nvidia et l'introduction en bourse d'Anthropic mettent à l'épreuve un secteur de l'IA en pleine effervescence",
       "summary": "Les résultats de Nvidia et l'introduction en bourse d'Anthropic mettent à l'épreuve un secteur de l'IA en pleine effervescence TradingView",
@@ -727,6 +863,40 @@
       "international": true,
       "aiScore": 3,
       "reason": "Point de marché sur l'IA, déjà largement couvert, angle IPO Anthropic refusé."
+    },
+    {
+      "id": "dba265d204",
+      "title": "Cathay General Bancorp annonce un dividende, payable le 7 décembre 2026",
+      "summary": "Cathay General Bancorp annonce un dividende, payable le 7 décembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOHlTaU11NVZIakhDMXVpdUtLbUl0T1pMb3UtMlp3d1NnQm1MRXJhRGQzUlVfUEZEbkF0emJJYzFONmJ0VmdhOWJQWFM5NmJ2cHRIdkQwdFB0VVpqZmZUV194YlpTdVA2ekRRdzNpdEx6Z2JsOG1LbEd4aUNNX0ZUYTNPWGFzMVRjZE5TY3FfOEd4UmI0UGZ4czdseDBUTGZlZ0xRcW9JbnJrWXptMlRnaGZWMzRkR1pLWFNSWUFIMkdtTElPYlhsdGUzaw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:30:00.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite banque américaine inconnue."
+    },
+    {
+      "id": "0e6260a50a",
+      "title": "Arxis Officer Sold Shares Worth Over $783K",
+      "summary": "Arxis Officer Sold Shares Worth Over $783K TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ0lzczlsN0hVNEJOQUZybjRfb240bWh5WE9xbk9reFhCbkdZeUtua2wzUUN0WXpfbUpuXzBobWVROThNZjhDcm1keGxmQ1p0Ql9vUG11ekVna2ZyVmQ2OFg5c3E4SmtMQnpEOGJIT3lER1g1cVVUQWljRGNnMTQ3RllPd2xuT3VkNzA3ckVpTUQ2b205aXVSemZaSl80eUx3dng2OQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:30:00.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Vente d'initié insignifiante."
     },
     {
       "id": "0052ef3638",
@@ -2313,6 +2483,23 @@
       "reason": "Géopolitique, sans angle argent clair."
     },
     {
+      "id": "f3f8226eb2",
+      "title": "LANXESS Aktiengesellschaft (LXS) Receives JPMorgan Chase Holdings Notification",
+      "summary": "LANXESS Aktiengesellschaft (LXS) Receives JPMorgan Chase Holdings Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQThpNDhXZ2NuNTFKZ1k1TDFZXzNDZXBaRVpUWmVoQ21ZVE83Q0UyM0NWNlMxaWt5ZTVUaEVGWWtZeVRWcXZtdUIyT2JrVTBEWEpDQ3VOU2w2NV9TNE5tSTlMaTJaUmVxSWQ1OHdNamFQSG5iXzVVWjdnRWZuV1pDdk80VlpTWWd3encyUGc3NHF6NVcwdmVVdVJrZDRqYUtKWDFROENidmM1R3RqVWVocm9Fd0VSeW1ESm1NaVc2dXotVVV6Qk1KM2FrMWU4VmF5LUJB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T16:31:01.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Notification réglementaire technique."
+    },
+    {
       "id": "fc42d908d1",
       "title": "Une prime de 330 euros et une Nissan Micra à gagner : Hello bank ! chouchoute ses nouveaux clients",
       "summary": "(Offre sponsorisée par Hello bank !) C'est Noël avant l'heure chez Hello bank ! Jusqu'au 8 décembre, la banque en ligne accorde jusqu'à 330 euros...",
@@ -2601,6 +2788,23 @@
       "reason": "Simple déclaration autour d'une crypto, sans enjeu fort."
     },
     {
+      "id": "61920e8a98",
+      "title": "SSH Communications Security Oyj (SSH1V) CEO Acquires 2,173 Shares",
+      "summary": "SSH Communications Security Oyj (SSH1V) CEO Acquires 2,173 Shares TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXRVb0c0TkJlUmh4M1lGVnIyR2Q4ZWp2YXo0Ykd5ZThQTE4zaXA5VXo5enYzZ1MzeGgyWkVFMGJnWWVjX0pDU0s3UHIxbDBhNGhyRkNEaXQ4N0I5anlFZkxDZEtVVGMzZWtmMDdPSW9YbzkzUDlxOG1XVVFOM2JORnozNnJtYTJYLTV3cXNsZDBCN0ladXVDdG1ra1hvZmZmS2l2UjBKbWdMYl9YYV9yYVhEUGpINFdnVWl3WDlZVUtGZw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T16:00:00.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Achat d'actions minime d'un PDG finlandais."
+    },
+    {
       "id": "59b0eeab82",
       "title": "Selon Collins, la Fed devra encore relever ses taux directeurs - Bloomberg",
       "summary": "Selon Collins, la Fed devra encore relever ses taux directeurs - Bloomberg Zonebourse Suisse",
@@ -2787,8 +2991,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses d'une saga Hermès-LVMH avec un rebondissement spectaculaire, très parlant en France.",
-      "hook": "Hermès : la justice exige des tests cognitifs pour l'héritier",
+      "reason": "Coulisses spectaculaires d'une saga Hermès-LVMH qui passionne.",
+      "hook": "Héritier Hermès : la justice exige des tests cognitifs",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -4221,6 +4425,23 @@
       "reason": "Microcap inconnue."
     },
     {
+      "id": "e0d51830bb",
+      "title": "Cipher Pharmaceuticals Q3 2026 Earnings Call Is Live",
+      "summary": "Cipher Pharmaceuticals Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdWFBWUZjUmZKdE5uaUJKNlN4ZDBQQ2FCNi1WUnR3aVVMei1pTWdTUDhzQjdmUkl2cExFQUgxdlVKVTh2ekN1b1JQOGtxRFJZUnUzbzVlMkJiMnoxX0FpX0psTTJ2Rm96ZXpUb2ViR3ZnaVlKNGVJTWZqRko4TFFXYUpyclR0enNIeklZTVVlbmQ3Tld0YlRXNkpuOTFaM1p3VmJkNDRlVW0zeHlsc3dFMFBNamdPWEdJV1JsdA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:27:03.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats d'une petite pharma étrangère."
+    },
+    {
       "id": "65eb5442d4",
       "title": "GH Research fait état d’une perte moins importante au T3",
       "summary": "GH Research fait état d’une perte moins importante au T3 Zonebourse Suisse",
@@ -4250,9 +4471,9 @@
       "brand": "21m2",
       "score": 2,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Fiscalité immobilière concrète qui touche tous les propriétaires.",
-      "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
+      "aiScore": 6,
+      "reason": "Taxe foncière touche tous les propriétaires, rebond annoncé.",
+      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
     },
     {
       "id": "b7b3d76e2b",
@@ -5544,6 +5765,23 @@
       "hook": "Une panne Microsoft peut-elle plomber toute l'économie allemande ?"
     },
     {
+      "id": "dd46d22262",
+      "title": "Talabat Q3 2026 Earnings Call Is Live",
+      "summary": "Talabat Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQThfcDRKZWlzaU92a19vSGtqUE1ILW5VcFN2SDAzc1FsdTFidzEtT2xoRTZmS1BweWRvR1VSanEzaEV5NGxUSUhyZEYzaGFKUjZ5LV9aall6LTBoSEhHdVVwVFZQVERidVlzTXc0M1ZlWWFjMEJKWmQyT01zZTZHNFQ4eEdiLVFiSkJDWE9DVGtSQVRiVFFIRWpMcnZYSFM3UDM0QWZ3NnM?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T11:57:03.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société du Golfe inconnue."
+    },
+    {
       "id": "871e663527",
       "title": "Le choc Nvidia, l'évolution des anticipations concernant la Fed et le pari de l'Europe sur l'électrique : la semaine financière en cinq graphiques",
       "summary": "Le choc Nvidia, l'évolution des anticipations concernant la Fed et le pari de l'Europe sur l'électrique : la semaine financière en cinq graphiques TradingView",
@@ -5610,6 +5848,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Cession immobilière américaine sans intérêt pour un Français."
+    },
+    {
+      "id": "13672f56bd",
+      "title": "Eicher Motors Q2 2027 Earnings Call Is Live",
+      "summary": "Eicher Motors Q2 2027 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQjh4djJFc0xIeUUwS0JIcUhZdmNDTnZlVUhwX3NLaVNYaGdVaUZUSFBYRzZGVXp0V0Nja0hJV015aEhVWHR4SVNIc1dWcGptQU4wcU54T1ZIdy1BV19SbE5aZkc1cHJGQ0pmUDlkZ2ZhRmhESW1SdnhIUHRSb0xmVVlBT0pva2ozOFNqX3ZSQ0ZUbGdCM1RzT0J4dUh1YXVQQUthUG16ZTFNa0FpUFpwXw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T11:42:35.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'un constructeur indien."
     },
     {
       "id": "19505fd345",
@@ -6056,6 +6311,23 @@
       "reason": "Simple recommandation d'analyste."
     },
     {
+      "id": "ee3b8b913b",
+      "title": "Nektar Therapeutics Reports $952.9 Million in Cash and Investments",
+      "summary": "Nektar Therapeutics Reports $952.9 Million in Cash and Investments TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLVgwTVE0QjBCemhUV0U1NDcwME9MN2Rvci1tNDV6WV90cWl1N25qQXcyWnA1S3VWRmVxamdBZE1sUjJiZWFNTmh3RjNyLW51OGg4bWxWMlZxdloxM2hsMDBvcFJ4OHFyTW5VMFRIRWNLX3lIcHBnRnVHQzdhMzlqUXZVRk9rZkdMNnZzekdPRTQ5WVFORzMwWW1MbjJoaFBwTVhsMkl6ZDVRRlFxYzdFeEM0MHc2a3FFNi1VSTBrSTh0MlE3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T11:13:00.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Trésorerie d'une biotech inconnue."
+    },
+    {
       "id": "ebe6c19a09",
       "title": "Acciona : 9 mois 2026",
       "summary": "Acciona : 9 mois 2026 Zonebourse Suisse",
@@ -6156,6 +6428,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste, société inconnue."
+    },
+    {
+      "id": "5c704a8547",
+      "title": "Intuitive Machines 3Q 2026: Revenue $269.35M — 10-Q Summary",
+      "summary": "Intuitive Machines 3Q 2026: Revenue $269.35M — 10-Q Summary TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZV9tbmVMdjJ1SWs1bWtjbElrN2JSUEpBaGtGd0dQN01jVkVtbWhrM1d6Q3RRcGM0aE9seENSVzJGUlZkbGpxdDlTOGZINW5mOUFrSXZnVG9Gem4wQnZHdklWN09fWFloaUtrd21YdnpOb0FUQ2JXWERaLVFDYWlZek5FQVB5ZUgxM3l4WHBzQjl1WGZGSDRXU0pwVEFqN2JJVDZRVUtqYWVSOFRlVTI1S29lWnlMRE0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T11:01:00.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Résultats d'une small cap spatiale américaine."
     },
     {
       "id": "24dc290faf",
@@ -6358,7 +6647,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump pousse Tim Cook chez Nvidia.",
+      "reason": "Rebondissement majeur : démission de Huang et Trump pousse Tim Cook.",
       "hook": "Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -7408,7 +7697,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Le Livret A concerne tous les épargnants français, relèvement du plafond historique.",
+      "reason": "Le Livret A, placement n°1 des Français, voit son plafond relevé.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -8069,6 +8358,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "c3e00eb668",
+      "title": "Wolfe Research downgrades 3M to Peer Perform from Outperform",
+      "summary": "Wolfe Research downgrades 3M to Peer Perform from Outperform TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU1ZKczVyUFFfeVdhczZMRmtMdDRoVE5QRTlnbC11OW04bUJudTVGZDRjOXVIZzN3Y3ZPTy1FSzBpMDFUNnI4RlFQR2JzUWpHSEdDSzZSN2ZGdVVLZ0ZoVWZPQmtOalFKcW5qcGxxaGZVYTNTOUxnUHhxUGdpNnZkZFhVcFJ0U2laeGdmaTcwcWVnbzE0Y2ZGNUYwelQ5NUk4UVNPOUI1VVd4cHFCbkNUeGtuSDQtZmdtNVZFYXdR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T08:04:49.000Z",
+      "collectedAt": "2026-11-14T15:07:23.773Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste, sujet refusé."
     },
     {
       "id": "9e2e99a33c",
@@ -62659,5 +62965,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T13:07:39.115Z"
+  "updatedAt": "2026-11-14T15:07:43.257Z"
 }
