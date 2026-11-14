@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "id": "08f5693c32",
+      "title": "Immobilier locatif : les villes où les loyers augmentent le plus en 2026",
+      "summary": "Les loyers repartent à la hausse en France en 2026, avec une progression moyenne de 2,1 % sur un an. Marseille arrive en tête des villes les plus touchées, avec une augmentation de 4,6 %, devant Nice à 4,4 % et…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-locatif-les-villes-ou-les-loyers-augmen",
+      "image": "https://cdn.overlord.media/immobilier_locatif_faut_il_louer_vide_ou_meuble_d74a00e2_d35ea11f84.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-14T13:00:00.000Z",
+      "collectedAt": "2026-11-14T13:07:22.822Z",
+      "brand": "21m2",
+      "score": 8,
+      "status": "new",
+      "aiScore": 7,
+      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et locataires.",
+      "hook": "Marseille, Nice : les villes où les loyers explosent en 2026",
+      "notifiedAt": "2026-11-14T13:07:22.822Z"
+    },
+    {
+      "id": "dd111a9297",
+      "title": "Livret Goodvest : 4,20% pendant 6 mois pour une épargne qui finance la transition énergétique",
+      "summary": "(Article sponsorisé par Goodvest) Jusqu'au 15 décembre 2026, Goodvest propose un taux boosté de 4,20% brut pendant 6 mois aux nouveaux souscripteurs...",
+      "link": "https://www.moneyvox.fr/livret/actualites/111213/livret-goodvest-4-20-pendant-6-mois-pour-une-epargne-qui-finance-la-transition-energetique",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20261112_154001_15.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-14T12:24:24.000Z",
+      "collectedAt": "2026-11-14T13:07:22.822Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Article sponsorisé, contenu promotionnel."
+    },
+    {
       "id": "4042f7d38c",
       "title": "Immobilier : 9 logements sur 10 se vendent après une négociation du prix",
       "summary": "En France, neuf ventes immobilières sur dix font désormais l’objet d’une négociation, selon le réseau Laforêt. Au troisième trimestre 2026, les acheteurs obtiennent une remise moyenne de 4,8 %, soit 14 400 euro…",
@@ -14,8 +48,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret utile aux acheteurs : remise moyenne de 4,8 % à la négociation.",
-      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise en moyenne"
+      "reason": "Chiffre concret utile aux acheteurs : 9 ventes sur 10 négociées, -4,8 % en moyenne.",
+      "hook": "Immobilier : 9 acheteurs sur 10 négocient, et obtiennent 14 400 €"
     },
     {
       "id": "bc6df7aed5",
@@ -49,6 +83,23 @@
       "aiScore": 5,
       "reason": "Comparaison fiscale avec l'Italie qui intrigue, mais pas de changement de règle en France.",
       "hook": "Pas de taxe foncière : l'Italie séduit les propriétaires"
+    },
+    {
+      "id": "5cf2c11607",
+      "title": "Le Bitcoin peut-il encore rebondir vers 90 000 dollars ?",
+      "summary": "Le Bitcoin peut-il encore rebondir vers 90 000 dollars ? TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sa2JIa2xJSHZNUy1jZkFDVFFMT1RGQ3JtSThUNW12c1MyM0cxVWZucjNrdjZfekZjazR4RVV0alZtbVB5S0JhMkZDbjlxa2h6MHJoU1gyczJ6Qm50SkNBRThmTjRFNnpsWFV5LQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T11:00:00.000Z",
+      "collectedAt": "2026-11-14T13:07:22.822Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Point de marché crypto spéculatif, type de sujet refusé."
     },
     {
       "id": "482f23e5a6",
@@ -2736,8 +2787,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses spectaculaires de la saga Hermès-LVMH, deux géants du CAC 40.",
-      "hook": "L'héritier d'Hermès soumis à des tests cognitifs : l'affaire LVMH rebondit",
+      "reason": "Coulisses d'une saga Hermès-LVMH avec un rebondissement spectaculaire, très parlant en France.",
+      "hook": "Hermès : la justice exige des tests cognitifs pour l'héritier",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -2752,11 +2803,11 @@
       "collectedAt": "2026-11-14T01:23:39.506Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Nouveauté marquante d'OpenAI sur le paiement par IA, mais lancement produit.",
-      "hook": "ChatGPT va pouvoir payer vos achats à votre place"
+      "aiScore": 5,
+      "reason": "Lancement produit IA notable mais proche des annonces tech refusées.",
+      "hook": "ChatGPT pourra bientôt payer vos achats à votre place"
     },
     {
       "id": "5832652c80",
@@ -4199,9 +4250,9 @@
       "brand": "21m2",
       "score": 2,
       "status": "new",
-      "aiScore": 6,
-      "reason": "La hausse de la taxe foncière touche tous les propriétaires.",
-      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
+      "aiScore": 7,
+      "reason": "Fiscalité immobilière concrète qui touche tous les propriétaires.",
+      "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
     },
     {
       "id": "b7b3d76e2b",
@@ -6307,8 +6358,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump qui pousse Tim Cook à la tête de Nvidia.",
-      "hook": "Trump veut Tim Cook à la tête de Nvidia après Jensen Huang",
+      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump pousse Tim Cook chez Nvidia.",
+      "hook": "Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -7357,7 +7408,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Réforme du Livret A, le placement préféré des Français.",
+      "reason": "Le Livret A concerne tous les épargnants français, relèvement du plafond historique.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -62608,5 +62659,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T12:02:29.858Z"
+  "updatedAt": "2026-11-14T13:07:39.115Z"
 }
