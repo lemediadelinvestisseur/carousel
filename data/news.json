@@ -52,6 +52,23 @@
       "reason": "Fait d'actualité politique sans lien avec l'argent."
     },
     {
+      "id": "7726b65355",
+      "title": "France-Une mobilisation en baisse mais des incidents dans plusieurs villes",
+      "summary": "France-Une mobilisation en baisse mais des incidents dans plusieurs villes Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQREQxUHBzRWRWZ1VDZnFiUFRHT3NqZ0I1d1lfMDJLcDMzUTVLSktIalpoY0hzZzJJUDE1ZWVuRkZrNk1xb3AydUdLZ01ESExYOGhwX1ExZ2U1eW1kVUtLNEZIcUZ5NGVZZzl4dGU0UlZPV3Y0X3IzOVEtQ3VuU3dUaEZnU1hBOTRMVzY0LV81bWJGT09rUzY2cWhNNGVrakxDMm13Ri11eWgwd255Nm16dE9SVEsxOGZ4b00yV2d0UTBQdW9peWhyS3NKdw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T15:03:16.000Z",
+      "collectedAt": "2026-11-14T21:07:23.830Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Mobilisation sociale et politique, sans lien direct avec l'investissement."
+    },
+    {
       "id": "a29c6cda15",
       "title": "Crédit immobilier : jusqu’à quel âge peut-on emprunter ?",
       "summary": "Souscrire un crédit immobilier reste possible à 70, 75 ou même 80 ans. La loi ne fixe aucune limite d’âge pour emprunter. Cependant, la durée de remboursement acceptée par les banques et les conditions d’assurance peuvent restreindre l’accès au prêt, y compris pour les ménages déjà propriétaires de leur résidence principale.",
@@ -66,6 +83,23 @@
       "status": "ignored",
       "aiScore": 4,
       "reason": "Conseil générique sur l'âge d'emprunt, sans fait nouveau."
+    },
+    {
+      "id": "46da8ec27d",
+      "title": "Le Bitcoin perd une grande partie des gains de son rebond estival",
+      "summary": "Le Bitcoin perd une grande partie des gains de son rebond estival TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XSmRJbU5VM0ZHRFRIUk1zVG9UMmRfOVE3V2ozRXhXN3JYNThTeVRYMW82X3FBWEIxSGxIal9xUjB6MUZYd2xVWUtOVmYwNTF2bGY0ell6bjdEMDctSVgxaEkxVG9Sc0t5YTJ5UQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "collectedAt": "2026-11-14T21:07:23.830Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Point de marché crypto banal, type de sujet systématiquement refusé."
     },
     {
       "id": "c9401553fd",
@@ -151,8 +185,8 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré des villes où les loyers flambent, utile pour bailleurs et locataires.",
-      "hook": "Marseille : +4,6 % de loyer en un an, record en France",
+      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et aux locataires.",
+      "hook": "Loyers : Marseille explose tout avec +4,6 % en un an",
       "notifiedAt": "2026-11-14T13:07:22.822Z"
     },
     {
@@ -185,8 +219,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Chiffre concret pour les acheteurs : 9 ventes sur 10 négociées, 14 400 € de remise moyenne.",
-      "hook": "9 acheteurs sur 10 négocient : 14 400 € gagnés en moyenne"
+      "reason": "Chiffre concret et actionnable pour les acheteurs : 4,8 % de remise en moyenne.",
+      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise moyenne"
     },
     {
       "id": "bc6df7aed5",
@@ -3196,8 +3230,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses spectaculaires de la saga Hermès-LVMH, fortune et scandale qui fascinent.",
-      "hook": "L'héritier Hermès soumis à des tests cognitifs face à LVMH",
+      "reason": "Coulisses d'un feuilleton spectaculaire Hermès-LVMH autour d'un héritier milliardaire.",
+      "hook": "Hermès : la justice ordonne des tests cognitifs à l'héritier milliardaire",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -4745,8 +4779,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Hausse de taxe foncière annoncée, touche directement les propriétaires.",
-      "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
+      "reason": "La hausse de la taxe foncière touche directement le portefeuille des propriétaires.",
+      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
     },
     {
       "id": "b7b3d76e2b",
@@ -6954,8 +6988,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Jensen Huang et Trump pousse Tim Cook chez Nvidia.",
-      "hook": "Trump veut Tim Cook à la tête de Nvidia",
+      "reason": "Rebondissement majeur de la saga Nvidia : Jensen Huang démissionne et Trump pousse Tim Cook.",
+      "hook": "Trump veut Tim Cook à la tête de Nvidia après Huang",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -8021,7 +8055,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Relèvement du plafond du Livret A, placement préféré des Français.",
+      "reason": "Relèvement historique du plafond du Livret A, qui concerne des millions d'épargnants.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -63323,5 +63357,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T19:07:36.076Z"
+  "updatedAt": "2026-11-14T21:07:37.091Z"
 }
