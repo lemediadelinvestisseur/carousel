@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "id": "87b26c02c4",
+      "title": "Les aides solaires pour les petites installations devraient être maintenues",
+      "summary": "Les aides solaires pour les petites installations devraient être maintenues Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNWUyVjlwNjBXeDFHR1NSb1ZEVzdrYjMxTTlQUi11UTdGOUQzLXhaNTE3WVlIVzhQeElyLTNsWGNpVTlyVldsTTFxSE11MW04d2tSalZZZklZa1lPbmI2NHRiSmFXc1pDbndOVDFrX0NKRmV0a0ZRYUVJNVQtVE1RSlg0NmNhRjFLM3hMZlNVSnItUWdOOGVCWkJPWm8wVE9jNkpYSl9BR3Q3U1pDOHJueU9DUnBGazJjdTdUaDFoLUVmekNad2hfekNHd09wOXJR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T16:22:18.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Aides solaires suisses, hors cible."
+    },
+    {
+      "id": "6539e1a2fd",
+      "title": "Microsoft a complètement \"rétabli le service\" après sa panne mondiale",
+      "summary": "Microsoft a complètement \"rétabli le service\" après sa panne mondiale Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaVlHUEc4LXlNbVNXS3F3bFl4ZExTS2RZY3lZbHBUQm9wNmJEREhiQUljZFNiQWZGVS01TzU5dC1ac0lZVlhUSDg3eTNGdkRBeVdLTDBZUEE3eW83NF9CN0R3NGJmMElBLUNkc2gtc0l0TGttUUQ3TXotUXhBQzBYd1Bzc004UzRad3NFaEZjY2JFckJVcEh3UVNKam5KYkdiS19MdWtpV0xBMWxlRmREM1hZV3g4ejRsNFM5cmhjTDhjdmRydlE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T16:05:19.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Suite mineure d'une panne, sans enjeu financier fort."
+    },
+    {
       "id": "c63d927a2c",
       "title": "France/Manifestation-La situation est calme et maîtrisée, selon Beauvau",
       "summary": "France/Manifestation-La situation est calme et maîtrisée, selon Beauvau Zonebourse",
@@ -99,7 +133,7 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs.",
+      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs et locataires.",
       "hook": "Loyers : Marseille +4,6 %, les villes qui flambent en 2026",
       "notifiedAt": "2026-11-14T13:07:22.822Z"
     },
@@ -134,7 +168,7 @@
       "status": "new",
       "aiScore": 6,
       "reason": "Chiffre concret utile aux acheteurs : 14 400 € de remise moyenne.",
-      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise en moyenne"
+      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise moyenne"
     },
     {
       "id": "bc6df7aed5",
@@ -933,6 +967,23 @@
       "reason": "Rachat d'actions obscur."
     },
     {
+      "id": "d8ce7091d7",
+      "title": "Onity Group Inc. annonce des changements au sein de sa direction",
+      "summary": "Onity Group Inc. annonce des changements au sein de sa direction Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanJuWmpobmdhZ2szaXIzbnBrRnNZN0xWVnd0NzVkc1g1ZF9IbkJ2akx2YndPeTBYNjNCUDFrWk1ZWXNWbDFPVEcyYm05bU9KNDVWa2tHMlVzLXFXeVMzN3U2UGJPc3ZHZS1za1VoTUpBQTI5ZzJXR3VyVkVKc3I5T2dVQkxud28zZGRsWm54LXVxdmZQdkVHUWdGeGhyQlRFTlRQUWJZclpGVkplSW5MZ285WlA3a095SFMxaGtESVctUQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:16:00.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Changement de direction d'une société inconnue."
+    },
+    {
       "id": "61193f44fe",
       "title": "Wall Street termine orientée en baisse, le secteur des puces boudé",
       "summary": "Wall Street termine orientée en baisse, le secteur des puces boudé Zonebourse Suisse",
@@ -1459,6 +1510,23 @@
       "aiScore": 5,
       "reason": "Panne mondiale Microsoft, géant connu, mais peu d'angle argent.",
       "hook": "Panne mondiale : Microsoft présente ses excuses"
+    },
+    {
+      "id": "5f3d1e4257",
+      "title": "Bitwise Hyperliquid ETF 3Q 2026 — 10-Q Summary",
+      "summary": "Bitwise Hyperliquid ETF 3Q 2026 — 10-Q Summary TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNWV4ZEt3X2pidzBrX0JDMUFkRmdsNzZmTnNWZnNJeTRFTVJQbEVRSnlGQldqWTA1N2o1NXFzNlU2NktkQlBTRk5fdl9hWkdFSWwzUVFSN0lKb3pBSkNvSWJyc2Etb3JSR2tEOXVYUE8yMTl4SkpwLXp5RURqMkVTRkNZZGpTbDlHTzdYV2hjWXhHNTZCZEVQNVd1OHRaZl9fY1dDRXBuaGQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T18:31:00.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Rapport réglementaire d'un ETF de niche."
     },
     {
       "id": "86c16e1d8c",
@@ -2296,6 +2364,23 @@
       "reason": "Opération technique obscure."
     },
     {
+      "id": "3d11de35c0",
+      "title": "LANXESS Aktiengesellschaft (LXS) Receives Morgan Stanley Holdings Notification",
+      "summary": "LANXESS Aktiengesellschaft (LXS) Receives Morgan Stanley Holdings Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT0tPQmc3X2lQNWRIOFNkelRxb0N2SmY1N2txSlpGUTFseWJvMWtaT1JqUG5ybUF6TkQzdXhGaW5UN2R0eWJuSGVNVi1rY2xpT1VEYjZrTExFc2pKcEllWW0xWHpKcklDaFlxd3ZtZ0pCNFBWRklWblpEc2RSRDAwZVlDNzRkMVR6SlBWZXhYYjhZRWM4RFE2bWlOX0p1YjE5S3VqQ2VvVG9LWFJ5ZGpLMnZLTVN4Ynh6WTBGOFJvdW9qWFY5SFJTUUhzMDFEakxrblFN?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T16:55:01.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Notification de participation technique."
+    },
+    {
       "id": "62ae398804",
       "title": "Clabo, ventes en baisse de 12 % ; restructuration en attente d’homologation",
       "summary": "Clabo, ventes en baisse de 12 % ; restructuration en attente d’homologation Zonebourse Suisse",
@@ -2990,9 +3075,9 @@
       "score": 5,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Coulisses spectaculaires d'une saga Hermès-LVMH qui passionne.",
-      "hook": "Héritier Hermès : la justice exige des tests cognitifs",
+      "aiScore": 7,
+      "reason": "Coulisses rocambolesques Hermès-LVMH, deux géants du luxe français.",
+      "hook": "Hermès : la justice exige des tests cognitifs pour l'héritier",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -3131,6 +3216,40 @@
       "international": true,
       "aiScore": 0,
       "reason": "Actualité suisse sans lien avec l'argent."
+    },
+    {
+      "id": "3f51428642",
+      "title": "CECONOMY AG (CEC) Receives Goldman Sachs Voting Rights Notification",
+      "summary": "CECONOMY AG (CEC) Receives Goldman Sachs Voting Rights Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV2dISlBKUEg4eXpraXBDRFBDN1llRWkwcTNtXzRLczduUmdJOXRVejJDaEZwNjNla1ZTZWc0MUwwWUMwWUV3cUNQVU9JbUxCcy1XaXdOcjI3V1lrRExlNjNraExfeUUxaWczeUJLV25Xb2FZdTYxRS1tdnNhME1LekR2MktvdC1QYVUxMFZ5T05VanlqSHk5QU9EMnpaalBPOHpnSVZzOC1RS09UcjNVajMza3BUcDFPdi00ZnFtdW9xbll3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T15:30:01.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Notification de droits de vote technique."
+    },
+    {
+      "id": "68628fcbc8",
+      "title": "Cairn Homes Plc (CRN) Files Major Holdings Notification",
+      "summary": "Cairn Homes Plc (CRN) Files Major Holdings Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQmtFeEFCZWpqZVJ6MGZIZXVHazAxT1k0UnNCVEVNYmlKc0I0eURDbmIxNS1yNmktNjNMaGNoLW8yOWkwR25nM2p6a3lxbnkxa0ZyX0Y1d3Y4Nk9LOVdqdXpJTF94Rlo2UmVhYUc0N3Rnanl2Vi1mTzMtS2w0V0o2Y2J6MG9HSEFLaTViTHZFblREeEYxQmRZaFJlVWxJRERDS0ZyNEtzT0FxWURza1RMczl3QWM?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T15:26:03.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration de participation sans intérêt."
     },
     {
       "id": "39e289ae5e",
@@ -4442,6 +4561,23 @@
       "reason": "Conférence de résultats d'une petite pharma étrangère."
     },
     {
+      "id": "e49c6edb79",
+      "title": "Prairie Operating Q3 2026 Earnings Call Is Live",
+      "summary": "Prairie Operating Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYUZSR29UQnBYVFE3bzNUYkZJdUZYcGNsYk9VcmxLakZaRXVBaE1aYl9vZXQ3LV9KWXY0cl9fWWRNS2J5NndKT2Y5eFNQQ3MyN2Vib1RQeG8tV3g1ODRyZm1vM2Y0V21fNW9KZDEtanN3bk9MSnZjZFl2U2s1ZUJGc253b2UwajFaeUIzVE9RNnpwNmFhOHBac2NBRzRZajBmWFQ1LUFjTy16blN5NVFhbXgzMkFWZw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:27:03.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats d'une société inconnue."
+    },
+    {
       "id": "65eb5442d4",
       "title": "GH Research fait état d’une perte moins importante au T3",
       "summary": "GH Research fait état d’une perte moins importante au T3 Zonebourse Suisse",
@@ -4472,8 +4608,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Taxe foncière touche tous les propriétaires, rebond annoncé.",
-      "hook": "Taxe foncière 2027 : préparez-vous à un net rebond"
+      "reason": "Hausse de la taxe foncière concrète pour tous les propriétaires.",
+      "hook": "Taxe foncière 2027 : pourquoi la note va grimper"
     },
     {
       "id": "b7b3d76e2b",
@@ -4980,6 +5116,23 @@
       "international": true,
       "aiScore": 4,
       "reason": "Amende modeste, marque connue mais peu d'enjeu financier."
+    },
+    {
+      "id": "fba02ce96b",
+      "title": "Decisive Dividend Corporation (DE) Declares $0.045 December Dividend",
+      "summary": "Decisive Dividend Corporation (DE) Declares $0.045 December Dividend TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb1NrSDRkWkF5ano4bDdyUkJ4SlhHaWlZaENaTWJhT2ZYenc5YW9RV2xCeVZ1NFJsNGtXXzVjUTJSdkVjbzQzdnUyc0NzN1BHS2JUSUpwWHhldnlmRjRHR2RfRmw2MTRFdkdsbl9HVXNHLWlVcGFieTR4X244aDNmcld4Qk5ieWNmSDRiRUh5NjVOd0lTVGVzellqYmdHalp6ZXQ5ZGhvVGlMVXhCVkNhODBlVTZjNEtmazNhVmF2eUdrZDcy?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T12:45:00.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Dividende d'une petite société inconnue."
     },
     {
       "id": "61132b7701",
@@ -6647,7 +6800,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Huang et Trump pousse Tim Cook.",
+      "reason": "Rebondissement majeur : démission de Huang et Trump pousse Tim Cook chez Nvidia.",
       "hook": "Trump veut Tim Cook à la tête de Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -6838,6 +6991,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Affaire Megaspeed déjà refusée."
+    },
+    {
+      "id": "548cf886a0",
+      "title": "NATCO Pharma Limited à la recherche d’acquisitions",
+      "summary": "NATCO Pharma Limited à la recherche d’acquisitions Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMjNKdE9uenUtYmdaSzhjUzBxMG5RUm1SOEZUNHJqb0JvWm1PTldWWXJQQ25rRHkyTkhEQUdUMFdiVkZVRnpRYzRsd0lmZV9XOUlqZzJNOXVHUUt0R29Xb3JNalR5U1E3UGt1RHBidWJQY21zRC13V0Y4aV9LYnZrYVh3RFBaSmE1ektUc3Vza29od0dqVHZOdDN1bmJQQktqcFk4Z1FPZGc4NXJzZVJMN3JR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-13T10:30:00.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Pharma indienne inconnue."
     },
     {
       "id": "c85b435ac7",
@@ -7697,7 +7867,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Le Livret A, placement n°1 des Français, voit son plafond relevé.",
+      "reason": "Relèvement historique du plafond du Livret A, touche des millions d'épargnants.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
@@ -7920,6 +8090,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "9db86f3b61",
+      "title": "Gotlandsbolaget Q3 2026 Earnings Call Is Live",
+      "summary": "Gotlandsbolaget Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY3lJdWIwbXM3NzIwVm9fZUZSSWdHWmlXYWlQdVFjeVpDRk9SNXRwcE9TRkV1ZmRQZlladzd5OG4taFpYUnhuRnROdXRscDlneWo2Q1pPQzFLOWlhWE4tOWcyN0hMWVBockoybVF2MGk4OGotRnZfNlZhbGFEdHZwSGdMOVpVS3g2My1LR3FQaGF5T05vNkJuTlpFMWFpWF9lRlRMRV8xNWwxWjNsQWloMmo2WQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T08:58:58.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société suédoise inconnue."
     },
     {
       "id": "93ce7df265",
@@ -8460,6 +8647,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Lancement produit technique, type nouvelle puce refusé."
+    },
+    {
+      "id": "f8f2888b7f",
+      "title": "Key facts: INVH Targets Fall; Evercore Cuts; Connolly Joins Board",
+      "summary": "Key facts: INVH Targets Fall; Evercore Cuts; Connolly Joins Board TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUEJSUFBhN1dwZ2JxV1FHWmgzamJPRmx4WWMxLWNhekNJelZabVJFZmZtTkVBSlRHcUxQM2kwdHRNandLQ0tGcVlRd3BmZV8yVE0tWkFoS2RXeW9icmxlemFkWE05bDl2a0FEOTk0MUxBWmNScjZWeGxmSzVBc3J1N2YxRUdpWDdqVEFiQVcxWU55eU14WjJ2ZzNMcTVfVDZmOEhXVng5T0R1aGdGLTQ4THpxN2N0UGJkLWI5UWtKS2o?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "collectedAt": "2026-11-14T17:07:34.303Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste sur une foncière américaine."
     },
     {
       "id": "58680843f6",
@@ -62965,5 +63169,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T15:07:43.257Z"
+  "updatedAt": "2026-11-14T17:07:52.539Z"
 }
