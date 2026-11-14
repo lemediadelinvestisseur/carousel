@@ -1,6 +1,73 @@
 {
   "items": [
     {
+      "id": "bc6df7aed5",
+      "title": "Ces deux erreurs majeures de Macron qui ont précipité le logement dans une crise sévère",
+      "summary": "DÉCRYPTAGE - L’économiste Robin Rivaton, qui a alerté sur le risque de «bombe sociale» en 2022, étrille le bilan décennal du chef de l’État qui a échoué à relancer le logement comme il l’avait promis en 2017.",
+      "link": "https://immobilier.lefigaro.fr/article/il-faut-rayer-le-macronisme-de-l-immobilier-ce-rapport-qui-etrille-dix-ans-de-politique-du-logement-20261113",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/13/bcc24ddbaa5b2199625d70ac785111a46dbb46a5d65cfcf572b26724e5d22659.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-14T11:02:45.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Tribune critique générale sans fait nouveau chiffré, du type déjà refusé."
+    },
+    {
+      "id": "386127eaff",
+      "title": "«Il y a un certain pragmatisme italien» : la fiscalité immobilière italienne fait les yeux doux aux retraités et aux investisseurs",
+      "summary": "DÉCRYPTAGE - Exonération de taxe foncière sur les résidences principales, droits de mutation de 2% de la valeur cadastrale, exonération d’impôt sur la plus-value au bout de 5 années de détention… L’Italie sort le grand jeu sur le plan de la fiscalité.",
+      "link": "https://immobilier.lefigaro.fr/article/il-y-a-un-certain-pragmatisme-italien-la-fiscalite-immobiliere-italienne-fait-les-yeux-doux-aux-retraites-et-aux-investisseurs-20261114",
+      "image": "https://i.f1g.fr/media/cms/2048x1366_crop/2026/11/13/a1b5cf07cbab7d8570d767712ea966f18a322f02ee61db5c7fe332d096efb2c4.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-14T11:00:00.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Comparaison fiscale Italie/France concrète, chiffrée et qui fait réagir les propriétaires.",
+      "hook": "Pas de taxe foncière : l'Italie séduit les investisseurs immobiliers"
+    },
+    {
+      "id": "482f23e5a6",
+      "title": "COP31-Le responsable climat de l'Onu appelle à agir vite",
+      "summary": "COP31-Le responsable climat de l'Onu appelle à agir vite Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRnloVllNM2ZJeXdRM3FtemVfMkVLd25Kamw2WlRqcHdIbWNfRW44Mm5nekJLMWo5UDZmd2d3MTZlZGNxSzc4RWZvMVpYMkdEWldnSV9mRktZSVlWa1Q2dmRjdEtKS2NoX2VFaHMtOXVCT0VfaUpGcG9WNjFQQkNNU2NNOG8xaC1MemoxSWJmblZMbjFTZG1WSmxtNk95Y2lETVhRV2x0bnphR1lrV0VRZEsyYk1fRU0?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T10:39:16.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Climat et politique, sans lien avec l'argent."
+    },
+    {
+      "id": "8ceb2bace5",
+      "title": "L'après Jensen Huang",
+      "summary": "L'après Jensen Huang Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnVnQ2ZKY09KaXZZU2VvQTh2MXRKVGkwaTg2NV95ajBSZDQ5dUl0TFNyMmhhMjVVRXhna3BHSzFud2hibXc4Uy1BOXlEel9XQmp5Z2pvWUhkMk14REdvZjBhaWpSSUlyb3p0ZDlhb2NTY0ZtcmdSbHBZWDhuQnlQb1hwMWZxOVk?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T10:10:49.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de la démission de Jensen Huang, moins fort que l'angle Tim Cook."
+    },
+    {
       "id": "243eed3fcd",
       "title": "Le Soudan du Sud reporte l’élection au 11 février 2027",
       "summary": "Le Soudan du Sud reporte l’élection au 11 février 2027 Zonebourse",
@@ -1394,6 +1461,23 @@
       "hook": "Le patron de Mistral tire la sonnette d'alarme sur l'IA européenne"
     },
     {
+      "id": "48500fe358",
+      "title": "Jalles Machado Q2 2027 Earnings Call Is Live",
+      "summary": "Jalles Machado Q2 2027 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd3JMYkR5YU1xd1k1WGFENUhiZG1tcGxiVmhJa2t6U1FKSjFISW5tQ1VOdm1FNkxvdXJlY01RNUlfblZIeWpHVEN1dmJIWmR3bzRlTHNFa2I5bTlBY1VUOU85UFY5UHczVFNiOUhNa2YyRTVTVDlWaF9vbDR2anlyWmRCTS1sa2VYZ05uRUNGY2puVmlPRmt3RGRDU2hpTEM0UjBpUmd6ek9JbVFIVG93UmFB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T17:58:09.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite société brésilienne inconnue."
+    },
+    {
       "id": "c1cdc688f1",
       "title": "Ecopetrol négocie un accord d’approvisionnement en gaz avec le Venezuela",
       "summary": "Ecopetrol négocie un accord d’approvisionnement en gaz avec le Venezuela Zonebourse Suisse",
@@ -1923,6 +2007,23 @@
       "reason": "Rachat d'actions d'une petite valeur."
     },
     {
+      "id": "9618e9e2ef",
+      "title": "NORMA Group SE (NOEJ) Receives JPMorgan Voting Rights Notification",
+      "summary": "NORMA Group SE (NOEJ) Receives JPMorgan Voting Rights Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa1c3TndsU3JUWExKemJKUF95dE9ZZ2R0alV5dEIwLUs4X095WmRmU2JsSHRNVnJKRXlzSmk5WXlIX2ctYTRFdGFnSmJETFdoU29zbDgzeS1JamdFdmVLMHNZTVcwbVpRMDM3RU5hNG8xdEJGWFZQdEZKTEx4UTZMekNxYjc3T1RwSUNWS0pPbUdabTM1UWJTbjlXbE90bkU1bC15bFVkNUdaVVpqNlJtTnBXSU1tYkpmdlhHMXMyemxCUkk?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T17:00:01.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration réglementaire sans intérêt."
+    },
+    {
       "id": "aa04e5a31c",
       "title": "Forcendra annonce un regroupement d’actions de 1 pour 5",
       "summary": "Forcendra annonce un regroupement d’actions de 1 pour 5 Zonebourse Suisse",
@@ -2057,6 +2158,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Bitcoin sous un seuil : type de sujet refusé."
+    },
+    {
+      "id": "8697d4296d",
+      "title": "LANXESS Aktiengesellschaft (LXS) Reports JPMorgan Chase Voting-Rights Threshold Notice",
+      "summary": "LANXESS Aktiengesellschaft (LXS) Reports JPMorgan Chase Voting-Rights Threshold Notice TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbm1wWktYU0s0bk1VdEh4d2kwU0FWbFJ2VjYtWGY0eTNxS0MzVTd3NG56TXpaVWp4cEZmdl9fRXdObnFmcTdBQzg5X2FlUHYyZ2pjdEtLMGVZVzRDYThoQVpoNkNxdm5xeDhzdlRxeXhSSk9QcGNBaEhLNjBrcjVLT3FxdE5HSVUxdnJyZEFQdkg4aHlaNDBOak5wUzNCSnhCY3hfcVVLZG5JQmZna2RSQW9wcG9HLWZTdEh6X2gxVFAwMWZ2MFF1dlpPcEZsZ1FGekt4Q0hWMlowRnp3anc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T16:38:41.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration de seuil sans intérêt."
     },
     {
       "id": "5385bb2b11",
@@ -2584,8 +2702,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Coulisses d'une saga Hermès–LVMH avec un héritier, une histoire qui fait parler.",
-      "hook": "Hermès : la justice ordonne des tests cognitifs à l'héritier milliardaire",
+      "reason": "Feuilleton Hermès-LVMH, coulisses rocambolesques autour d'une fortune française.",
+      "hook": "L'héritier d'Hermès sommé de passer des tests cognitifs",
       "notifiedAt": "2026-11-14T01:23:39.506Z"
     },
     {
@@ -2603,7 +2721,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "ChatGPT devient un moyen de paiement, un vrai tournant grand public.",
+      "reason": "ChatGPT qui paie à votre place, sujet grand public qui divise.",
       "hook": "ChatGPT pourra désormais payer vos achats à votre place"
     },
     {
@@ -3984,6 +4102,40 @@
       "reason": "Recommandation d'analyste sur small cap."
     },
     {
+      "id": "0e2b46b66d",
+      "title": "Owlet Q3 2026 Earnings Call Is Live",
+      "summary": "Owlet Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVkxPNDdVdTR1eDB6ZU50R1VMWnJUQThENVZndldmbUVibFpIeUJQV0o0UkhrcUtmRFpfejRpNXFhQ0UwUlR5QUhZNks4d0xBcU05UklTRTdvQmd0d3M2QnVrS1F1eHJ4Nkw0MS1IN1V1TlR5OVY3YUJEYlRDeXp5aHgxSWsyYWp4NE1nQjl1VVN2RnFYakw5T2U2M1J2bFNKRHJTWEFB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:27:53.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation américaine sans intérêt."
+    },
+    {
+      "id": "cbe70d0f4f",
+      "title": "PAVmed Q3 2026 Earnings Call Is Live",
+      "summary": "PAVmed Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSnBKSTFtVExMMEpjN1ptSGJyZFJjb3NNdUZyNHBGTjJaQUJCQmlJZGo4aWxNc0VTUU9ZZFhiWkgybmFfaUhGS19lYUxXakpjNFo0QU1LNExaV2kzYmIzLVNidk9Pc2V5TnE5NjFiSWhxMTg2MXA2cE1TbExab21VT2NtSTdkSHMtLTd1VU1GNnctQVpnRjM2Rnk4QnFWaTBSZmszb3kzVQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T13:27:03.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Microcap inconnue."
+    },
+    {
       "id": "65eb5442d4",
       "title": "GH Research fait état d’une perte moins importante au T3",
       "summary": "GH Research fait état d’une perte moins importante au T3 Zonebourse Suisse",
@@ -4014,8 +4166,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Hausse de la taxe foncière, un sujet concret pour les propriétaires.",
-      "hook": "Taxe foncière 2027 : préparez-vous à une nette hausse"
+      "reason": "Hausse de la taxe foncière touchant tous les propriétaires.",
+      "hook": "Taxe foncière 2027 : la facture va nettement remonter"
     },
     {
       "id": "b7b3d76e2b",
@@ -6121,8 +6273,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 9,
-      "reason": "Rebondissement majeur : démission de Huang et Trump qui pousse Tim Cook.",
-      "hook": "Trump veut Tim Cook à la tête de Nvidia",
+      "reason": "Rebondissement majeur : Trump veut Tim Cook à la tête de Nvidia.",
+      "hook": "Trump veut Tim Cook pour remplacer Jensen Huang chez Nvidia",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -6312,6 +6464,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Affaire Megaspeed déjà refusée."
+    },
+    {
+      "id": "c85b435ac7",
+      "title": "Fiem Industries Q2 2027 Earnings Call Is Live",
+      "summary": "Fiem Industries Q2 2027 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR3NlNkRyU040a3gtTmVZS1hZZG5oNTdhb1lpNTdLZDhTMEJFcW1fOWdlM3hCOEdhdEFkUW9UcHV2MjFfTU0ycDBrMkxBLU9reHk1RVVJdExxQ2RhLUZ1aG8wQ3ZTN0RIeDFmX1NBUER3dWZqNlBfa3JjVjlvS2FBelNKT2JHV1p3SGJ4UHRpcTB3alZTSDBIM1N3R1o2QjFzdEV3LWlUVmhrYVpfNnhmWnVTTQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T10:27:32.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite société indienne inconnue."
     },
     {
       "id": "2a541fe346",
@@ -6650,6 +6819,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Résultats sans surprise."
+    },
+    {
+      "id": "5c5acf602f",
+      "title": "Edelweiss Financial Services Q2 2027 Earnings Call Is Live",
+      "summary": "Edelweiss Financial Services Q2 2027 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcUdOYjZHQmxDZ3ZCQm1iMDQ0Wnl1dTRXZmpSblU5R0hyMUJ0MWozaTViWnp2QWU4aklweTNsVENPN1E2OTRyTVpWajVFejBRN01sN214cGctS3FGY2hEM3lGMUlSdDFQR21LQnJ0ck9MdkMyLXdpMjRfc1dpNW9mV2ozLWFEa2Fqb3FEaWFJcWJ3NDhhTUR3eU5WeFJlaDJYZC1rbDV5QmQ3RXlXTkoySTYtdHhLQk81cEJoTWZjT2R4Vm9C?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T09:57:36.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats d'une société indienne inconnue."
     },
     {
       "id": "e1f2616f46",
@@ -7137,8 +7323,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Hausse du plafond du Livret A, qui touche des millions d'épargnants.",
-      "hook": "Livret A : le plafond grimpe jusqu'à 30 000 €",
+      "reason": "Plafond du Livret A relevé, touche l'épargne de millions de Français.",
+      "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
       "notifiedAt": "2026-11-13T11:07:29.686Z"
     },
     {
@@ -7868,6 +8054,23 @@
       "reason": "Actu biotech technique et anonyme."
     },
     {
+      "id": "c7c79bfabe",
+      "title": "Key facts: IBM Unveils Nighthawk R3; Upgrades Quantum Platform",
+      "summary": "Key facts: IBM Unveils Nighthawk R3; Upgrades Quantum Platform TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOWZjSU4zeFdoUmFIYkFuWEw0c01VbkZ0dHNHREJFQVNzRDFSZ0F0U0JtNVcyM2dvRWl6bDZQejJfeVVDX3EydHJyNDRrWFhmb0tuZTk4dkxfdEdxTDhMTXVpMmZRM09MQ0VjNzNJSVJRdXc5SF85bHF1TVE3T09qbE9fUXFwcFJJYzhhSE1DdW1qWl96RUhxTG1xVDVOc3FiZVBVQlZ3c1FhbDcwUTlWNFhtWVpyVjVOZjkxLUpn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Lancement produit technique, type nouvelle puce refusé."
+    },
+    {
       "id": "58680843f6",
       "title": "Brenntag SE : JP Morgan toujours vendeur",
       "summary": "Brenntag SE : JP Morgan toujours vendeur Zonebourse Suisse",
@@ -8447,6 +8650,23 @@
       "reason": "Titre sans contenu identifiable."
     },
     {
+      "id": "708cd4e28d",
+      "title": "InterContinental Hotels Group PLC (IHG) Purchased Shares for Cancellation",
+      "summary": "InterContinental Hotels Group PLC (IHG) Purchased Shares for Cancellation TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbXN6NlRHVFkzYXdrbUhNM0VUNWlyenJwNm1qTkVBYmhpTWlCOEhCaU9NclRGaWtEdjVCUHZqYW9pcUJyM2FTNDNHbFhIZDhUcGQ4alNSUmhRMnZDUURLSll5TW1DdzBrX3dxWVhvcFV3a184S2g3TjVONll2NHRqWHZKdkVGWEdfcGw3XzBiSEV6WmlHZG9PdGpzTTBUeUNPN2dhcE5laklCdVVWZ0tfWVNGWW5Cd0dxNnhJaGx2X0RQZDlNMGxnaHNJTDc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T07:00:00.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Rachat d'actions, sujet refusé."
+    },
+    {
       "id": "cfaee71ea3",
       "title": "NVIDIA Corporation : Bernstein confirme sa recommandation neutre",
       "summary": "NVIDIA Corporation : Bernstein confirme sa recommandation neutre Zonebourse",
@@ -8668,6 +8888,23 @@
       "reason": "Opération interne d'une petite société."
     },
     {
+      "id": "4954d39670",
+      "title": "Sasol Limited (SOL) Names Stanley Subramoney Audit Committee Chairman",
+      "summary": "Sasol Limited (SOL) Names Stanley Subramoney Audit Committee Chairman TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPalZPdlV2amN3X29wdW8tN080VTR6T1dRSExvQ251aUJBRk5JUDMxdWxqTWt1SDU4N2w4S0FWQ2xLX2doVVZsSEw0VDdwOEFWV1JRMUlFaThVcHdZQWFmZnFXWnNzdUtoRHJDeUtWSnNhalp3cExYM0xwLTlyY09NQ3F2ZVcwZGNzSGdFd0xXVER2aFNMTUQzT3lzV251TUpOZERfejIxaWlPV21jNWJZTEM5ZThwZWliQmtKS2tBSXZnZUJXX3h3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T06:30:00.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination mineure chez une société sud-africaine."
+    },
+    {
       "id": "ec691ae09c",
       "title": "Assicurazioni Generali augmente tous ses indicateurs sur neuf mois",
       "summary": "Assicurazioni Generali augmente tous ses indicateurs sur neuf mois Zonebourse Suisse",
@@ -8683,6 +8920,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Résultats trimestriels sans surprise."
+    },
+    {
+      "id": "24d98df2ef",
+      "title": "BizLink Q3 2026 Earnings Call Is Live",
+      "summary": "BizLink Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYW1iMWt5cHFtYzA5bks3VXhFcnBfODNWTzFERXlMVEJWVElzdkpQRU1YRG9EeGxNcVo3NnFrSVlhYjZzLU1HSTZwSkJrZnJPT09Kbzhndy1MQzV1QzBNeTh1em53b056SjA5eFNpb3Q2SUQ4MG4zQWZsZWJXRWN6cmpLcVcwb28tRHpURzN5QUdaQlhROTE2T09ZUVVZQmo3bTdwdGhOMEc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T06:27:04.000Z",
+      "collectedAt": "2026-11-14T11:07:25.212Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société taïwanaise inconnue en France."
     },
     {
       "id": "63a081adef",
@@ -62320,5 +62574,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T09:07:38.724Z"
+  "updatedAt": "2026-11-14T11:07:46.280Z"
 }
