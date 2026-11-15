@@ -358,11 +358,26 @@
       "collectedAt": "2026-11-14T13:07:22.822Z",
       "brand": "21m2",
       "score": 8,
-      "status": "new",
+      "status": "done",
       "aiScore": 7,
       "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs.",
       "hook": "Loyers : Marseille +4,6 %, les villes qui flambent en 2026",
-      "notifiedAt": "2026-11-14T13:07:22.822Z"
+      "notifiedAt": "2026-11-14T13:07:22.822Z",
+      "generatedAt": "2026-11-15T06:17:31.913Z",
+      "carousel": {
+        "dir": "carousels/2026-11-14/21m2-immobilier-locatif-les-villes-ou-les-loy-08f5693c32",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "fallback",
+        "slides": 4,
+        "hooks": [],
+        "coverPhoto": true
+      }
     },
     {
       "id": "dd111a9297",
@@ -63777,5 +63792,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-15T05:07:43.845Z"
+  "updatedAt": "2026-11-15T06:17:31.913Z"
 }
