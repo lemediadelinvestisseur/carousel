@@ -15,8 +15,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Première spectaculaire pour SpaceX, société très suivie avant son IPO.",
-      "hook": "SpaceX vient de réussir l'impossible : rattraper Starship en vol"
+      "reason": "Première technique spectaculaire de SpaceX avant une IPO attendue.",
+      "hook": "SpaceX réussit l'impossible : rattraper l'étage supérieur du Starship"
     },
     {
       "id": "eb911f2a92",
@@ -68,6 +68,42 @@
       "international": true,
       "aiScore": 2,
       "reason": "Actu crypto technique sans fait marquant."
+    },
+    {
+      "id": "e84e3aaaa9",
+      "title": "Carte : les prénoms de garçon les plus populaires dans chaque État américain",
+      "summary": "Liam is America's No. 1 boy's name, but it leads only 15 states. See the most popular boy's baby name in every U.S. state in 2025.",
+      "link": "https://www.visualcapitalist.com/mapped-most-popular-boys-baby-name-every-state/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/BabyNamesBoys-share.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-14T18:30:12.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 0,
+      "reason": "Prénoms américains, hors sujet.",
+      "titleOriginal": "Mapped: The Most Popular Boys’ Names in Every U.S. State"
+    },
+    {
+      "id": "ee4643b6ad",
+      "title": "Classement : les pays qui passent le plus de temps à jouer aux jeux vidéo",
+      "summary": "Where do people spend the most time gaming? Explore weekly gaming hours by country and see which markets lead the global ranking.",
+      "link": "https://www.visualcapitalist.com/time-spent-gaming-by-country/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/Hours-Spent-Gaming-Shareable.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-14T17:22:45.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 3,
+      "reason": "Loisir, peu de lien avec l'argent.",
+      "titleOriginal": "Ranked: Countries That Spend the Most Time Gaming"
     },
     {
       "id": "0e05ef3483",
@@ -136,6 +172,24 @@
       "international": true,
       "aiScore": 4,
       "reason": "Panne Microsoft déjà résolue, peu d'angle argent."
+    },
+    {
+      "id": "93aa88739e",
+      "title": "Classement : les villes les plus et les moins stressantes du monde",
+      "summary": "Which are the world's most and least stressed cities? Explore how living costs, traffic, healthcare, and safety shape the rankings.",
+      "link": "https://www.visualcapitalist.com/most-least-stressed-cities-world/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/most-stressed-cities.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-14T15:11:09.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 3,
+      "reason": "Palmarès art de vivre, peu financier.",
+      "titleOriginal": "Ranked: The World’s Most and Least Stressful Cities"
     },
     {
       "id": "c63d927a2c",
@@ -257,6 +311,24 @@
       "hook": "Musk prévient : sans Jensen Huang, Nvidia perdrait des contrats critiques"
     },
     {
+      "id": "d0a30715c0",
+      "title": "Classement : les meilleures universités américaines selon 3 palmarès",
+      "summary": "See the top U.S. universities 2026 across Forbes, QS, and Shanghai Ranking, revealing where America’s leading institutions stand.",
+      "link": "https://www.visualcapitalist.com/ranked-americas-best-universities-across-3-rankings/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/Ranked-Americas-Top-50-Universities-in-2026_Shareables_11062026.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-14T13:46:07.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 3,
+      "reason": "Classement universitaire américain, sans lien avec l'argent.",
+      "titleOriginal": "Ranked: America’s Best Universities Across 3 Rankings"
+    },
+    {
       "id": "59929f4595",
       "title": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers",
       "summary": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers Zonebourse Suisse",
@@ -288,8 +360,8 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré des villes, utile aux bailleurs et locataires.",
-      "hook": "Loyers : Marseille explose de +4,6 % en un an",
+      "reason": "Classement chiffré des villes où les loyers flambent, utile aux bailleurs.",
+      "hook": "Loyers : Marseille +4,6 %, les villes qui flambent en 2026",
       "notifiedAt": "2026-11-14T13:07:22.822Z"
     },
     {
@@ -309,6 +381,25 @@
       "reason": "Article sponsorisé, contenu promotionnel."
     },
     {
+      "id": "6dad7f6674",
+      "title": "Classement : les 40 sites web les plus visités en 2026",
+      "summary": "Google and YouTube dominate global web traffic, while ChatGPT ranks fourth among the world’s most visited websites.",
+      "link": "https://www.visualcapitalist.com/ranked-worlds-40-most-visited-websites-2026/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/most-visited-websites-share.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-14T11:22:04.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "new",
+      "kind": "data",
+      "aiScore": 6,
+      "reason": "ChatGPT 4e site mondial : angle IA intéressant mais peu clivant.",
+      "hook": "ChatGPT est déjà le 4e site le plus visité au monde",
+      "titleOriginal": "Ranked: The 40 Most Visited Websites in 2026"
+    },
+    {
       "id": "4042f7d38c",
       "title": "Immobilier : 9 logements sur 10 se vendent après une négociation du prix",
       "summary": "En France, neuf ventes immobilières sur dix font désormais l’objet d’une négociation, selon le réseau Laforêt. Au troisième trimestre 2026, les acheteurs obtiennent une remise moyenne de 4,8 %, soit 14 400 euro…",
@@ -321,9 +412,9 @@
       "brand": "21m2",
       "score": 4,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Chiffre concret et utile pour les acheteurs.",
-      "hook": "9 acheteurs sur 10 négocient : 14 400 € de remise moyenne"
+      "aiScore": 7,
+      "reason": "Chiffre concret utile aux acheteurs : 14 400 € de remise moyenne.",
+      "hook": "9 ventes sur 10 se négocient : 14 400 € de remise moyenne"
     },
     {
       "id": "bc6df7aed5",
@@ -476,6 +567,23 @@
       "reason": "Agenda de résultats, un type de sujet refusé."
     },
     {
+      "id": "049ad5cc88",
+      "title": "Key facts: Robinhood October Assets; IPO Appeal; Goldman Trims Target",
+      "summary": "Key facts: Robinhood October Assets; IPO Appeal; Goldman Trims Target TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSzhkMGt4TzI0UUZFNGZCVjFOclhQYUxXcWQ1LXBjWHAyUmxSTGprYkEzaDRqTS1TWWxlOUhOa1NVSjFZYUZKRzV4Y01FamxtdldkclA5NmJxWHpjNThJVHAyQ1N0UTZJdngwYy1OTFhqWmNhNzdxOHQ5NXhHTDcyVWUwQS1OemhfTmIwQWxQZXpaUVJtbkpILTlEVjI5N0F4UnE4YmNhQXV0dFlzLWZwYUlONVlzQXUwYXNON3dDYkdxSm5YSnc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-14T08:00:00.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Points de marché et recommandation d'analyste, refusés."
+    },
+    {
       "id": "c6aa4a4900",
       "title": "Immobilier : comment réduire fortement ses impôts en investissant dans la vieille pierre ?",
       "summary": "Immobilier : comment réduire fortement ses impôts en investissant dans la vieille pierre ? Boursorama",
@@ -524,6 +632,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Politique étrangère sans lien direct avec l'argent."
+    },
+    {
+      "id": "ba63403455",
+      "title": "NorthStar Earth & Space publie ses résultats du troisième trimestre 2026",
+      "summary": "NorthStar Earth & Space publie ses résultats du troisième trimestre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdmYyU28zMkJBTGZFQmJlTGRGN3Q5VVZtdEYwdGxEX3BzVkhGSE40VEE1ZEVhS0U3RDNzS09MSWo3RDVXVlJhWWZjRVR6NmNFSF8wRGk2d1JscTV0Y3o4M2daQk9hQ1E4QWNISFQ0TVM0NDRXOVdMS2ZVc2E1blVyRlpiZnlraWpfNlB5Z0owbWZuNndqaVJRWmVfd0JTbjZnNHVqRWRONGNlMWdIM0NiUk1sdFI2WWxFMnY3SWNOVmxrcWwxZVVmNlRvVQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-14T05:02:06.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Petite capitalisation inconnue, résultats sans intérêt."
     },
     {
       "id": "096dc88cf2",
@@ -1207,6 +1332,23 @@
       "reason": "Résultats d'une microcap américaine inconnue."
     },
     {
+      "id": "d2ace95f57",
+      "title": "TXO Partners 10% Owner Purchased Shares Worth Over $945K",
+      "summary": "TXO Partners 10% Owner Purchased Shares Worth Over $945K TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTlkbE9Lck1qQTE0TUNfeDNBVzJVNG1yTVVnUGJZTXgwYWt0NXZlNTdUR0dlWUZrOThSOC1lbVZUMnJvTUl0SGNjRkthaGdKdXFmS1lBUlQ0QnZ6aG5ONnNlR1VaWXBxV29rd2NwTXoxOTgzcGxfYmszMEtyX3VOUFNYUF9MRG1oRDJJaUE5cHloU3FTUWRfeFowM2N5cW1neTl3ekd5Tk9wb1hzMF9NSGlhTXlMQQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T21:20:01.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Achat d'initié sur une small cap US inconnue."
+    },
+    {
       "id": "d8ce7091d7",
       "title": "Onity Group Inc. annonce des changements au sein de sa direction",
       "summary": "Onity Group Inc. annonce des changements au sein de sa direction Zonebourse",
@@ -1426,6 +1568,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Point de marché du jour."
+    },
+    {
+      "id": "43e914fdf6",
+      "title": "CMS Energy (CMS) Declares $0.2625 Series C Preferred Dividend",
+      "summary": "CMS Energy (CMS) Declares $0.2625 Series C Preferred Dividend TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYzV3QkIwdWVUb0twdm9HWi0tcU5sc2JZNkNwSGhHVmxjVHoyMWdncnI0Mm95REdncUJuWTBJRzM5VUxQS0tHZk9iRTFiVjNuckFhc2VNVzNXYjFNVlpmell6TDZyS1gtVVJhWnVneFNCY01ZWDVFZUxoWmZIOVhLc2hRYmRaLU13XzljU0V0T1o5SVpXSlZKV1ZhVmt6WUhmMmpWRUdvY3RvUHFzYXRHM08wYkU4WTQ0M0pN?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T20:00:00.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Dividende d'action préférentielle obscure."
     },
     {
       "id": "f2a9830abe",
@@ -1698,6 +1857,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Point de séance sans fait marquant."
+    },
+    {
+      "id": "a532729985",
+      "title": "Revelation Biosciences May Disclose Material Information Through Social Media",
+      "summary": "Revelation Biosciences May Disclose Material Information Through Social Media TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMndZcXQ3U0xSenFXTF9jaGhRRnF3SUk2NGV2MmszOWt1UUpvYkN6TVZzeVJKU1dmRnVkeWtfdGt4cm1vb3oxYTlMODdqWW1XM1h2WjBiVHYtZXFVSGFQenJDY3Y1NDV3aVRNbFRCd2V3M29tVzhZeEQtT0JDdGpFWVg0VzdZZlpjNHpUVGI3UFNiMGNDTEF0bk1lYVEzYjJtbjVDX1hZUllCMXRrNkhUZkJwOXBWN3ctRUVudDJZck9zYjhCUzhzNnBvSVNzb0pWWFdnWA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-13T18:43:01.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Communiqué réglementaire d'une biotech inconnue."
     },
     {
       "id": "2d2ab2264b",
@@ -10349,6 +10525,25 @@
       "international": true,
       "aiScore": 0,
       "reason": "Niche totale."
+    },
+    {
+      "id": "61ddd89ced",
+      "title": "Les États-Unis dépensent 2,3 fois plus par habitant pour la santé que le Japon, pour une espérance de vie inférieure de 5,7 ans",
+      "summary": "The US spends 2.3 times as much per person on health as Japan. Life expectancy: 5.7 years shorter. Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTWd6dTR1aFk2aTlXVGIwaktCc1ZHRzR0VFJGZ3c0SHljSmJBOTFEUE9HZnVFaHFvUkl4Vm5pMEpJb1BKem9Vc2JTa2V1MGlKU0tjSVg1ekh4d2loeDl0M0NTRFhHNVZLNFN4elRYMXhESjNUc2VWMzUyZXM5SFpEWGROdUxST1R2RmliUnBiVExkem1qZjBVcDNiNS1Idy1rOEVUeW1ib0dOcjNvWmpIN2RCaVdBdFlLS1NvOVFRc2dMb3k4TFdQMVA5RWJwcmI5cXc?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-13T04:47:00.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 5,
+      "reason": "Chiffre frappant mais très américain, sans France.",
+      "hook": "Les Américains dépensent 2,3 fois plus en santé et vivent moins",
+      "titleOriginal": "The US spends 2.3 times as much per person on health as Japan. Life expectancy: 5.7 years shorter."
     },
     {
       "id": "6ae502f5bf",
@@ -19559,6 +19754,24 @@
       "status": "ignored",
       "aiScore": 0,
       "reason": "Prime de Noël : sujet social refusé, et doublon."
+    },
+    {
+      "id": "6290b39ebf",
+      "title": "Compléments de vitamine D seuls : 5 % des adultes américains en 1999-2000, 29 % en 2021-2023",
+      "summary": "Vitamin D supplements taken on their own: 5% of US adults in 1999-2000, 29% in 2021-2023. Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0dVTjJkN1RPMlJIY21hRlRyek81WHZDTGdjdjVlQkVsUTQ5QXFTOGVocURQN0dDZDhGUzlWcmlLYjI4R0llazlVbHZOeUVLSGdobzduLVlCLVBXMTRoLWlpUG9HaVA5RTRBV05NckhKUWV0S1RDNjN1SWFEMTF3cVhGQUNSeHc4TVhGX0hxVnU3dW9ITjRrRUR6aFF6bTRCREpWdkY0ZE1lSE1GeVh1T1JVVEdOaUUweVp1TExYVXBIT29LN2c?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-12T09:45:01.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 1,
+      "reason": "Santé de niche, sans lien avec l'argent.",
+      "titleOriginal": "Vitamin D supplements taken on their own: 5% of US adults in 1999-2000, 29% in 2021-2023."
     },
     {
       "id": "eafd16c233",
@@ -62707,6 +62920,24 @@
       "titleOriginal": "Ranked: The jobs where your state matters most for pay"
     },
     {
+      "id": "2b5993ba9c",
+      "title": "La mortalité liée à l'alcool a baissé de 35 % dans le monde depuis 2000, mais a augmenté de 26 % aux États-Unis",
+      "summary": "Alcohol death rates fell 35% worldwide since 2000. In the US, they rose 26%. Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeHZCUHcyZ0xLRTJocHYwQWFVeWpJT3VsTlpQbXlmNFRONjRwWFo3TUlUbzZ1QWk4a1hseDg2aDhoaUF1SzJCOVdMQVZoZVJOeThGdXRaTFZ3bzBYcHc5TWVMWGpSbkpfeHZRSU5ieUp6VDU3NHo4ZWVWQVVuTG84X1JCRzZ2SHpOT0xISEVtRHRzbU54QTdqWXBHc2k1NTAxb1kzRU1wOGFEcTI3TXhHbk84aHE?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-01T07:00:00.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 2,
+      "reason": "Santé publique américaine, hors ligne.",
+      "titleOriginal": "Alcohol death rates fell 35% worldwide since 2000. In the US, they rose 26%."
+    },
+    {
       "id": "089febe821",
       "title": "Carte : les dépenses publicitaires politiques par État américain en 2026",
       "summary": "Mapped: Political Ad Spending by U.S. State in 2026 Voronoi by Visual Capitalist",
@@ -62833,6 +63064,24 @@
       "aiScore": 2,
       "reason": "Sujet commercial de niche.",
       "titleOriginal": "Oman: A Trade Gateway on the Rise"
+    },
+    {
+      "id": "16588d3908",
+      "title": "Classement : les pays où l'attente pour un entretien de visa américain est la plus longue",
+      "summary": "Ranked: Where U.S. Visa Interview Waits Are Longest Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeFlsV24yNE9LR3lfWU5jdDBXdnAyZ1ZXazdZZlBBYjZWX19NVk4tVlpWZFZGeG9WR19sTHVuTEFqZ0c2eW1sbHNHUTJJUkdDMzJFdkNiMkRQSGZlM21mbUhsQkFLbnJZOTQ4YmhuSEFnOGJZSUtLcjU1V1hMdFo3dTQ1ZWFNS1NuQ1I3MzVMRVo?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-10-28T07:00:00.000Z",
+      "collectedAt": "2026-11-15T05:07:24.577Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 1,
+      "reason": "Délais de visa américains, hors ligne.",
+      "titleOriginal": "Ranked: Where U.S. Visa Interview Waits Are Longest"
     },
     {
       "id": "0035275466",
@@ -63528,5 +63777,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-14T22:56:15.177Z"
+  "updatedAt": "2026-11-15T05:07:43.845Z"
 }
