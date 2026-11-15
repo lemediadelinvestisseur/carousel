@@ -1,6 +1,80 @@
 {
   "posts": [
     {
+      "id": "23124b5308",
+      "createdAt": "2026-11-15T06:14:27.718Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le dimanche « repos » de l'entrepreneur créateur de contenu qui finit à 23h sur un script de vidéo.",
+      "text": "Le dimanche d'un entrepreneur, c'est un plan parfait en 4 étapes.\n\nÉtape 1 : décider de se reposer.\nÉtape 2 : « juste » jeter un œil aux stats de la semaine.\nÉtape 3 : une idée de vidéo débarque.\nÉtape 4 : il est 23h et on réécrit l'intro pour la troisième fois.\n\nQuand on entreprend à côté d'un job, le week-end devient vite la seule vraie journée de travail.\nLe repos, on le planifie. On ne le prend pas.\n\nLe pire ? On adore ça.\nOn aimerait juste, une fois, finir le dimanche sans l'ordi sur les genoux.\n\nTu arrives à vraiment couper le week-end, toi ? Ou tu « jettes juste un œil » aussi ?",
+      "image": "carousels/linkedin/2026-11-15/23124b5308.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Gru's Plan",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Dimanche : je me repose enfin",
+          "Je regarde juste les stats de la semaine",
+          "Il est 23h et je réécris un script de vidéo",
+          "Il est 23h et je réécris un script de vidéo"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-15T06:14:33.357Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "28ce006b9b",
+      "createdAt": "2026-11-15T06:14:20.672Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "SpaceX rattrape l'étage supérieur du Starship en plein vol, alors qu'en Bourse personne n'arrive à rattraper un couteau qui tombe.",
+      "text": "SpaceX vient de réussir un truc que personne ne croyait possible.\n\nRattraper l'étage supérieur du Starship avec des bras géants. Une première.\n\nEn Bourse, on a une vieille règle : « ne jamais essayer de rattraper un couteau qui tombe ».\nTraduction : acheter une action en chute libre en se disant « là, c'est forcément le plus bas ».\n\nSpoiler : il y a souvent un étage en dessous.\n\nLes ingénieurs de SpaceX ont des années de calculs, des capteurs partout et des milliards de budget.\nNous, on a un graphique sur l'appli et une intuition à 23h.\n\nTu as déjà essayé de rattraper un couteau ? Il s'est arrêté à combien ? 🚀",
+      "image": "carousels/linkedin/2026-11-15/28ce006b9b.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "SpaceX Starship ship caught by launch tower chopsticks Mechazilla",
+        "caption": "SpaceX sait rattraper une fusée en plein vol. Toujours aucune nouvelle de ceux qui essaient de rattraper un couteau qui tombe en Bourse.",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-15T06:14:27.718Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "b4e366daef",
+      "createdAt": "2026-11-15T06:14:16.556Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "9 ventes immo sur 10 se négocient (14 400 € de remise moyenne) : le « prix ferme » des annonces n'a jamais été ferme.",
+      "text": "« Prix ferme. » Les deux mots les plus négociables de l'immobilier français.\n\nD'après les derniers chiffres, 9 ventes sur 10 se concluent après une négociation.\nRemise moyenne : 14 400 €.\n\nLe « prix ferme » de l'annonce, c'est donc surtout un prix d'ouverture.\nComme le vendeur au marché qui te jure que « c'est mon dernier prix »… avant de te rajouter les tomates.\n\nLe plus drôle, c'est que tout le monde le sait.\nLe vendeur gonfle un peu.\nL'acheteur rabote un peu.\nEt tout le monde fait semblant d'être surpris au moment de signer.\n\nC'est quoi la plus grosse négo que tu as vue passer (ou tentée) ?",
+      "image": "carousels/linkedin/2026-11-15/b4e366daef.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Always Has Been",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Attends… le « prix ferme » de l'annonce était négociable ?",
+          "Always has been"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-15T06:14:20.672Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "0127b0aa3b",
       "createdAt": "2026-11-14T06:14:33.863Z",
       "origin": "auto",
@@ -357,5 +431,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-14T06:14:34.776Z"
+  "updatedAt": "2026-11-15T06:14:33.357Z"
 }
