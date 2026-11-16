@@ -12604,11 +12604,26 @@
       "collectedAt": "2026-11-13T11:07:29.686Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "done",
       "aiScore": 8,
       "reason": "Relèvement historique du plafond du Livret A, qui concerne des millions d'épargnants.",
       "hook": "Livret A : le plafond grimpe jusqu'à 30 000 € en 2027",
-      "notifiedAt": "2026-11-13T11:07:29.686Z"
+      "notifiedAt": "2026-11-13T11:07:29.686Z",
+      "generatedAt": "2026-11-16T08:00:55.534Z",
+      "carousel": {
+        "dir": "carousels/2026-11-13/investisseur-livret-a-le-plafond-releve-jusqu-a-30-00-88c03aedb6",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "fallback",
+        "slides": 4,
+        "hooks": [],
+        "coverPhoto": true
+      }
     },
     {
       "id": "468064c5e3",
@@ -67948,5 +67963,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T08:00:43.088Z"
+  "updatedAt": "2026-11-16T08:01:01.358Z"
 }
