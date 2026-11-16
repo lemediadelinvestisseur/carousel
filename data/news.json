@@ -2935,7 +2935,22 @@
       "collectedAt": "2026-11-15T07:07:23.033Z",
       "brand": "21m2",
       "score": 2,
-      "status": "new"
+      "status": "done",
+      "generatedAt": "2026-11-16T07:59:48.468Z",
+      "carousel": {
+        "dir": "carousels/2026-11-15/21m2-prix-immobiliers-la-baisse-touche-8-gran-60a7d6dd31",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "fallback",
+        "slides": 4,
+        "hooks": [],
+        "coverPhoto": true
+      }
     },
     {
       "id": "021ef9a906",
@@ -67933,5 +67948,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T07:59:52.785Z"
+  "updatedAt": "2026-11-16T08:00:01.813Z"
 }
