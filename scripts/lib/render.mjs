@@ -3,9 +3,10 @@ import path from "node:path";
 import { chromium } from "playwright";
 import { renderHtml as classic } from "../../templates/carousel.mjs";
 import { renderHtml as photo } from "../../templates/photo.mjs";
+import { renderHtml as story } from "../../templates/story.mjs";
 import { ROOT } from "./store.mjs";
 
-const TEMPLATES = { classic, photo };
+const TEMPLATES = { classic, photo, story };
 
 async function launch() {
   const opts = process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {};

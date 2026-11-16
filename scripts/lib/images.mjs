@@ -204,7 +204,7 @@ const hasKey = () => !!(process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_A
 export async function chooseWithClaude(images, { subject, isCover }) {
   const usable = images.filter((im) => im.buf.length < 4_500_000 && ["image/jpeg", "image/png", "image/webp"].includes(im.type));
   if (!usable.length) return null;
-  if (!hasKey()) return usable[0];
+  if (!hasKey()) return null;
   const content = [];
   usable.forEach((im, i) => {
     content.push({ type: "text", text: `Image ${i + 1} (${im.width}x${im.height}) :` });
@@ -214,7 +214,7 @@ export async function chooseWithClaude(images, { subject, isCover }) {
     type: "text",
     text: `${isCover ? "Photo de COUVERTURE plein écran" : "Illustration d'une slide"} d'un carousel Instagram de média financier.
 Ce que la slide doit montrer : ${subject}
-Choisis la meilleure image. Critères éliminatoires : filigrane (Adobe Stock, Shutterstock…), publicité ou visuel marketing (prix, « free shipping », « new arrival »), logo ou nom d'un autre média incrusté, texte incrusté important, montage grossier, capture d'écran de site, image floue.
+Choisis la meilleure image. Critères ÉLIMINATOIRES : image générée par IA ou illustration (rendu lisse, détails incohérents, texte déformé), infographie, carte, graphique, tableau, visuel avec du texte ou des titres incrustés (bannière d'article, miniature YouTube), filigrane (Adobe Stock, Shutterstock…), publicité ou visuel marketing, logo ou nom d'un autre média incrusté, montage ou collage, capture d'écran, image floue. On veut une VRAIE photo, de presse ou de magazine.
 Critères de qualité : représente clairement le sujet (la personne, l'entreprise, l'objet, la ville), photo réelle nette et esthétique${isCover ? ", personne ou entreprise du sujet clairement reconnaissable, cadrage compatible avec un format vertical 4:5" : ""}.
 ${isCover ? "La photo doit illustrer DIRECTEMENT le sujet de l'accroche : si elle parle d'une personne, c'est cette personne qu'on doit voir (portrait, conférence, interview). Sont ÉLIMINATOIRES : produits dérivés et goodies (t-shirt, sac, mug, casquette), photos de stand ou de salon, objets sans rapport direct, personnes qui ne sont pas le sujet. Mieux vaut répondre 0 qu'une photo hors sujet.\n" : ""}
 BEAUTÉ AVANT TOUT : choisis la photo la plus belle, digne d'une carte postale ou d'un magazine : lumière dorée ou coucher de soleil, ciel coloré, couleurs vives, composition soignée, vue dégagée ou panorama pour une ville ou un monument. Pour une ville, préfère une VUE D'ENSEMBLE (skyline, panorama, vue aérienne, quais, toits) à un gros plan sur un bâtiment.
@@ -240,8 +240,9 @@ Réponds 0 si aucune image n'est acceptable. Donne aussi le cadre (focus) du suj
     const focus = f && f.w > 0 && f.h > 0 ? { x: clamp(f.x), y: clamp(f.y), w: clamp(f.w), h: clamp(f.h) } : null;
     return { ...usable[idx - 1], focus };
   } catch (e) {
-    console.log(`  [images] choix par Claude impossible (${e.message}), première image retenue`);
-    return usable[0];
+    if (/credit balance is too low|authentication|invalid x-api-key/i.test(e.message)) throw e;
+    console.log(`  [images] choix par Claude impossible (${e.message}), aucune image retenue`);
+    return null;
   }
 }
 
@@ -249,33 +250,56 @@ Réponds 0 si aucune image n'est acceptable. Donne aussi le cadre (focus) du suj
  * Trouve une illustration par slide.
  * slides: [{kind, image_query, image_entity}] → tableau de dataUri (ou null) aligné sur les slides.
  */
+const NEEDS_PHOTO = new Set(["cover", "photo", "content", "list", "rank"]);
+
+/** Requête de secours plus large : « Mulhouse panorama golden hour » → « Mulhouse ». */
+function broader(query, entity) {
+  if (entity && entity !== query) return entity;
+  const words = String(query || "").split(/\s+/).filter(Boolean);
+  return words.length > 2 ? words.slice(0, 2).join(" ") : "";
+}
+
+/**
+ * Trouve une illustration par page qui en a besoin (cover, photo, rank).
+ * Retourne un tableau aligné sur les slides : { src, width, height, focus } ou null.
+ * Les pages graphiques (stat, bars) et le cta n'ont pas de photo propre : le template met la couverture floutée en fond.
+ */
 export async function illustrate({ slides, item }) {
   const used = new Set();
   const result = new Array(slides.length).fill(null);
   for (let i = 0; i < slides.length; i++) {
     const s = slides[i];
-    if (s.kind === "cta") continue;
-    const query = s.image_query?.trim();
-    const entity = s.image_entity?.trim();
-    if (!query && !entity) continue;
+    if (!NEEDS_PHOTO.has(s.kind)) continue;
     const isCover = s.kind === "cover";
-    try {
-      const cands = await gather({ query, entity, articleUrl: item.link, includeArticle: isCover });
-      // Couverture : photo assez grande pour ne jamais être agrandie (largeur ≥ 1000 px, hauteur ≥ 700 px).
-      // Jamais d'agrandissement visible : couverture ≥ 1000x700, pages intérieures ≥ 960x540 (zone photo 1080x600).
-      // Pages intérieures : photo paysage obligatoire, pour remplir tout le cadre sans flou ni coupure.
-      const imgs = await downloadSome(cands, isCover ? 8 : 6, used, 540, isCover ? { width: 1000, height: 700 } : { width: 1080, height: 600, landscape: 1.3 });
-      const subject = isCover ? `${String(s.title || item.title).replace(/\*\*/g, "")} (sujet à montrer : ${entity || query})` : `${s.title.replace(/\*\*/g, "")} — ${query || entity}`;
-      const pick = await chooseWithClaude(imgs, { subject, isCover });
-      if (pick) {
-        used.add(pick.url);
-        result[i] = { src: pick.dataUri, width: pick.width, height: pick.height, focus: pick.focus || null };
-        console.log(`  [images] slide ${i + 1} : ${pick.source} ${pick.width}x${pick.height}`);
-      } else console.log(`  [images] slide ${i + 1} : aucune image retenue`);
-    } catch (e) {
-      console.log(`  [images] slide ${i + 1} : ${e.message}`);
+    const fullBleed = isCover || s.kind === "rank";
+    const name = s.kind === "rank" ? s.rank?.name : "";
+    let query = s.image_query?.trim() || (name ? `${name} panorama` : "");
+    let entity = s.image_entity?.trim() || name || "";
+    const what = String(s.kind === "rank" ? name : s.title || item.title).replace(/\*\*/g, "");
+    for (let attempt = 0; attempt < 2 && !result[i] && (query || entity); attempt++) {
+      try {
+        const cands = await gather({ query, entity, articleUrl: item.link, includeArticle: isCover && attempt === 0 });
+        // Plein cadre (couverture, classement) : ≥ 1000x700 ; photo du haut d'une page : paysage ≥ 1080x560.
+        const imgs = await downloadSome(cands, fullBleed ? 8 : 6, used, 540, fullBleed ? { width: 1000, height: 700 } : { width: 1080, height: 560, landscape: 1.3 });
+        const subject = `${what} (sujet à montrer : ${entity || query})${fullBleed ? " — photo affichée en plein cadre vertical" : ""}`;
+        const pick = await chooseWithClaude(imgs, { subject, isCover: fullBleed });
+        if (pick) {
+          used.add(pick.url);
+          result[i] = { src: pick.dataUri, width: pick.width, height: pick.height, focus: pick.focus || null };
+          console.log(`  [images] slide ${i + 1} (${s.kind}) : ${pick.source} ${pick.width}x${pick.height}`);
+        }
+      } catch (e) {
+        if (/credit balance is too low|authentication/i.test(e.message)) throw e;
+        console.log(`  [images] slide ${i + 1} : ${e.message}`);
+      }
+      if (!result[i]) {
+        const wider = broader(query, entity);
+        console.log(`  [images] slide ${i + 1} : rien de bon pour « ${query || entity} »${wider ? `, nouvel essai avec « ${wider} »` : ""}`);
+        if (!wider) break;
+        query = wider;
+        entity = entity === wider ? "" : entity;
+      }
     }
   }
-  // Chaque entrée : { src, width, height, focus } ou null. Les slides sans image réutilisent la couverture floutée.
   return result;
 }

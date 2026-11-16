@@ -11,7 +11,12 @@ export function readJson(rel) {
 
 export function loadNews() {
   if (!fs.existsSync(NEWS_FILE)) return { items: [] };
-  return JSON.parse(fs.readFileSync(NEWS_FILE, "utf8"));
+  const db = JSON.parse(fs.readFileSync(NEWS_FILE, "utf8"));
+  // Une actu ne doit exister qu'une fois (des doublons faisaient « revenir » des actus supprimées).
+  const byId = new Map();
+  for (const i of db.items || []) byId.set(i.id, byId.has(i.id) ? { ...byId.get(i.id), ...i } : i);
+  db.items = [...byId.values()];
+  return db;
 }
 
 export function saveNews(db) {
@@ -97,9 +102,15 @@ export function applyUpdatesFile() {
   }
   const db = loadNews();
   const byId = new Map(db.items.map((i) => [i.id, i]));
+  // Une décision de l'éditeur (rejet, validation, carousel fait) n'est jamais écrasée par la collecte
+  // (qui ne pose que « new » ou « ignored ») : sinon une actu rejetée pendant une collecte revenait.
+  const DECIDED = new Set(["rejected", "validated", "generating", "done", "error"]);
   for (const u of upsert) {
-    if (byId.has(u.id)) Object.assign(byId.get(u.id), u);
-    else db.items.push(u);
+    const cur = byId.get(u.id);
+    if (!cur) { db.items.push(u); byId.set(u.id, u); continue; }
+    const next = { ...u };
+    if (DECIDED.has(cur.status) && ["new", "ignored"].includes(next.status)) delete next.status;
+    Object.assign(cur, next);
   }
   if (prune) pruneOld(db);
   saveNews(db);

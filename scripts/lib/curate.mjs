@@ -78,7 +78,10 @@ ${Object.keys(brands).map(bl).join("\n")}${covered ? `\nSUJETS DÉJÀ TRAITÉS E
 export async function curate(items, brands, prefs = {}) {
   const out = new Map();
   for (let k = 0; k < items.length; k += 40) {
-    for (const [id, v] of await curateBatch(items.slice(k, k + 40), brands, prefs)) out.set(id, v);
+    const batch = await curateBatch(items.slice(k, k + 40), brands, prefs);
+    if (batch.failed) out.failed = batch.failed;
+    for (const [id, v] of batch) out.set(id, v);
+    if (out.failed) break;
   }
   if (items.length) console.log(`[curate] ${out.size}/${items.length} actus notées par Claude au total.`);
   return out;
@@ -86,7 +89,7 @@ export async function curate(items, brands, prefs = {}) {
 
 async function curateBatch(items, brands, prefs) {
   if (!items.length) return new Map();
-  if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) return new Map();
+  if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) return Object.assign(new Map(), { failed: "pas de clé ANTHROPIC_API_KEY" });
   const client = new Anthropic();
   const list = items
     .map((i) => `[${i.id}] ${i.kind === "data" ? "[ÉTUDE] " : ""}(${i.source}) ${i.title}${i.summary ? ` — ${i.summary.slice(0, 280)}` : ""}`)
@@ -106,7 +109,8 @@ async function curateBatch(items, brands, prefs) {
     for (const v of res.parsed_output.verdicts) out.set(v.id, v);
     console.log(`[curate] ${out.size}/${items.length} actus notées par Claude.`);
   } catch (err) {
-    console.error(`[curate] Tri par Claude indisponible (${err.message}) : score par mots-clés utilisé.`);
+    console.error(`[curate] Tri par Claude indisponible (${err.message}).`);
+    out.failed = /credit balance is too low/i.test(err.message) ? "crédit Claude épuisé" : err.message.slice(0, 200);
   }
   return out;
 }

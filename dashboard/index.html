@@ -182,6 +182,8 @@ details summary{cursor:pointer}
   <div class="hint" id="vTitle"></div>
   <label for="vBrand">Compte</label>
   <select id="vBrand"></select>
+  <label for="vFormat">Format</label>
+  <select id="vFormat"><option value="">Auto (Claude choisit)</option><option value="single">Image unique (une seule page, gros hook)</option><option value="carousel">Carousel (plusieurs pages)</option></select>
   <label for="vInstr">Consignes (facultatif)</label>
   <textarea id="vInstr" placeholder="Ex : insister sur l'impact pour les primo-accédants, 5 slides max…"></textarea>
   <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">✅ Générer le carousel</button></div>
@@ -214,6 +216,8 @@ details summary{cursor:pointer}
   <input id="aUrl" type="url" placeholder="https://…">
   <label for="aBrand">Compte</label>
   <select id="aBrand"></select>
+  <label for="aFormat">Format</label>
+  <select id="aFormat"><option value="">Auto (Claude choisit)</option><option value="single">Image unique (une seule page, gros hook)</option><option value="carousel">Carousel (plusieurs pages)</option></select>
   <label for="aInstr">Consignes (facultatif)</label>
   <textarea id="aInstr"></textarea>
   <div class="row"><button class="btn ghost" value="cancel">Annuler</button><button class="btn primary" value="ok">Générer</button></div>
@@ -320,6 +324,19 @@ function inProgress(i) {
   return true;
 }
 let genRuns = null; // dernières générations connues (pour repérer une demande perdue)
+// Actus rejetées ou supprimées depuis ce téléphone : masquées tout de suite, même si les données
+// (mises à jour ~1 min plus tard par GitHub) ne le reflètent pas encore.
+const goneMap = () => JSON.parse(store.get("gone", "{}"));
+function markGone(id) { const g = goneMap(); g[id] = Date.now(); store.set("gone", JSON.stringify(g)); }
+function applyGone(items) {
+  const g = goneMap(), now = Date.now();
+  for (const [id, t] of Object.entries(g)) if (now - t > 24 * 3600e3) delete g[id];
+  store.set("gone", JSON.stringify(g));
+  for (const i of items) if (g[i.id] && !["rejected", "ignored"].includes(i.status) && !(i.generatedAt && Date.parse(i.generatedAt) > g[i.id])) { i.status = "rejected"; i.carousel = null; }
+  // Une seule carte par actu (des doublons faisaient « revenir » une actu supprimée).
+  const seen = new Set();
+  return items.filter((i) => (seen.has(i.id) ? false : (seen.add(i.id), true)));
+}
 function setPending(id) { const p = pendingMap(); p[id] = Date.now(); store.set("pending", JSON.stringify(p)); }
 
 const params = new URLSearchParams(location.search);
@@ -366,7 +383,7 @@ async function load() {
     } else {
       data = await (await fetch(raw("data/news.json") + `?t=${Date.now()}`)).json();
     }
-    state.items = data.items || [];
+    state.items = applyGone(data.items || []);
     render();
     loadRuns();
     loadSources();
@@ -550,12 +567,14 @@ function openValidate(item, instr = "") {
   $("vTitle").textContent = item.title;
   brandOptions($("vBrand"), item.brand);
   $("vInstr").value = instr;
+  $("vFormat").value = item.format || "";
   const dlg = $("dlgValidate");
   dlg.onclose = async () => {
     if (dlg.returnValue !== "ok") return;
     try {
-      await dispatch({ id: item.id, action: "valider", brand: $("vBrand").value, instructions: $("vInstr").value });
+      await dispatch({ id: item.id, action: "valider", brand: $("vBrand").value, instructions: $("vInstr").value, format: $("vFormat").value });
       setPending(item.id);
+      { const g = goneMap(); delete g[item.id]; store.set("gone", JSON.stringify(g)); }
       if (item.status !== "new") { item.status = "validated"; }
       toast("✅ C'est parti ! Le carousel arrive dans 4 à 6 minutes (onglet « En cours »).", 4000);
       render(); setTimeout(loadRuns, 4000);
@@ -688,12 +707,12 @@ document.addEventListener("click", async (ev) => {
   }
   if (act === "zoom") openLightbox(item, Number(t.dataset.n));
   if (act === "delete") {
-    if (!confirm("Supprimer ce carousel ? L'actu reviendra dans « À valider ».")) return;
-    try { await dispatch({ id: item.id, action: "supprimer" }); Object.assign(item, { status: "new", carousel: null, generatedAt: null, schedules: [], scheduled: null }); render(); toast("Carousel supprimé"); }
+    if (!confirm("Supprimer ce carousel ? L'actu sera écartée et ne reviendra pas.")) return;
+    try { await dispatch({ id: item.id, action: "supprimer" }); markGone(item.id); Object.assign(item, { status: "rejected", carousel: null, generatedAt: null, schedules: [], scheduled: null }); render(); toast("Carousel supprimé"); }
     catch (e) { toast(e.message, 5000); }
   }
   if (act === "reject") {
-    try { await dispatch({ id: item.id, action: "rejeter" }); item.status = "rejected"; render(); toast("Actu rejetée"); }
+    try { await dispatch({ id: item.id, action: "rejeter" }); markGone(item.id); item.status = "rejected"; render(); toast("Actu rejetée"); }
     catch (e) { toast(e.message, 5000); }
   }
 });
@@ -715,11 +734,11 @@ $("findData").onclick = async () => {
     setTimeout(loadRuns, 4000);
   } catch (e) { toast(e.message, 5000); }
 };
-$("openAdd").onclick = () => { if (state.project === "linkedin") return openIdea(); $("aUrl").value = ""; $("aInstr").value = ""; brandOptions($("aBrand"), "investisseur"); $("dlgAdd").showModal(); };
+$("openAdd").onclick = () => { if (state.project === "linkedin") return openIdea(); $("aUrl").value = ""; $("aInstr").value = ""; $("aFormat").value = ""; brandOptions($("aBrand"), "investisseur"); $("dlgAdd").showModal(); };
 $("dlgAdd").onclose = async () => {
   if ($("dlgAdd").returnValue !== "ok" || !$("aUrl").value) return;
   try {
-    await dispatch({ url: $("aUrl").value.trim(), brand: $("aBrand").value, instructions: $("aInstr").value, action: "valider" });
+    await dispatch({ url: $("aUrl").value.trim(), brand: $("aBrand").value, instructions: $("aInstr").value, format: $("aFormat").value, action: "valider" });
     state.tab = "wip"; toast("✅ Génération lancée (~2 min)"); setTimeout(load, 5000);
   } catch (e) { toast(e.message, 5000); }
 };
