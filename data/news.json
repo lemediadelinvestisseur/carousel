@@ -67377,7 +67377,7 @@
       "collectedAt": "2026-11-11T22:14:33.423Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 6,
       "reason": "Comparaison internationale du budget alimentaire, France comparable.",
@@ -67948,5 +67948,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T08:00:25.795Z"
+  "updatedAt": "2026-11-16T08:00:29.586Z"
 }
