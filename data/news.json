@@ -11537,7 +11537,7 @@
       "collectedAt": "2026-11-13T11:07:29.686Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 9,
       "reason": "Rebondissement majeur de la saga Nvidia : Jensen Huang démissionne et Trump pousse Tim Cook.",
       "hook": "Trump veut Tim Cook à la tête de Nvidia après Huang",
@@ -67948,5 +67948,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T08:00:29.586Z"
+  "updatedAt": "2026-11-16T08:00:43.088Z"
 }
