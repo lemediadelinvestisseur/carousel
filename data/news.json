@@ -206,8 +206,23 @@
       "collectedAt": "2026-11-16T07:07:28.802Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
-      "notifiedAt": "2026-11-16T07:07:28.802Z"
+      "status": "done",
+      "notifiedAt": "2026-11-16T07:07:28.802Z",
+      "generatedAt": "2026-11-16T07:59:12.038Z",
+      "carousel": {
+        "dir": "carousels/2026-11-16/21m2-immobilier-de-luxe-les-stations-de-ski-l-e6f688b122",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "fallback",
+        "slides": 4,
+        "hooks": [],
+        "coverPhoto": true
+      }
     },
     {
       "id": "43c3123c48",
@@ -67918,5 +67933,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T07:59:23.689Z"
+  "updatedAt": "2026-11-16T07:59:26.689Z"
 }
