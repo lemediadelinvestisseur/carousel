@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-11T22:15:59.826Z",
+  "generatedAt": "2026-11-16T16:27:59.719Z",
   "period": {
     "from": "2025-11-10",
     "to": "2026-11-09"
   },
   "summary": {
-    "generatedAt": "2026-11-11T22:14:41.329Z",
+    "generatedAt": "2026-11-16T16:27:59.355Z",
     "followers": 1123,
     "last30": {
-      "days": 29,
-      "impressions": 12271,
-      "engagements": 147,
+      "days": 24,
+      "impressions": 11765,
+      "engagements": 144,
       "newFollowers": 44
     },
     "last90": {
-      "days": 89,
-      "impressions": 24091,
-      "engagements": 229,
-      "newFollowers": 117
+      "days": 84,
+      "impressions": 23903,
+      "engagements": 223,
+      "newFollowers": 112
     },
     "posts": 50,
     "postsWithText": 50,
