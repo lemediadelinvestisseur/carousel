@@ -27539,6 +27539,26 @@
       "publishError": null
     },
     {
+      "id": "d9b3db6170",
+      "title": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
+      "summary": "",
+      "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
+      "source": "wsj.com",
+      "publishedAt": "2026-11-11T22:54:19.036Z",
+      "collectedAt": "2026-11-11T22:54:19.036Z",
+      "brand": "investisseur",
+      "score": 99,
+      "status": "rejected",
+      "manual": true,
+      "instructions": null,
+      "generatedAt": null,
+      "carousel": null,
+      "schedules": [],
+      "scheduled": null,
+      "error": null,
+      "publishError": null
+    },
+    {
       "id": "481c3bdb13",
       "title": "Also s'étend aux Etats-Unis via une coentreprise",
       "summary": "Also s'étend aux Etats-Unis via une coentreprise TradingView",
@@ -27656,26 +27676,6 @@
       "international": true,
       "aiScore": 0,
       "reason": "Société brésilienne inconnue."
-    },
-    {
-      "id": "d9b3db6170",
-      "title": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
-      "summary": "",
-      "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
-      "source": "wsj.com",
-      "publishedAt": "2026-11-11T22:42:36.937Z",
-      "collectedAt": "2026-11-11T22:42:36.937Z",
-      "brand": "investisseur",
-      "score": 99,
-      "status": "new",
-      "manual": true,
-      "instructions": null,
-      "generatedAt": null,
-      "carousel": null,
-      "schedules": [],
-      "scheduled": null,
-      "error": null,
-      "publishError": null
     },
     {
       "id": "4ead408a1a",
@@ -67948,5 +67948,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T08:00:09.115Z"
+  "updatedAt": "2026-11-16T08:00:16.876Z"
 }
