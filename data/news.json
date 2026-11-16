@@ -12058,7 +12058,7 @@
       "collectedAt": "2026-11-15T05:07:24.577Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 6,
       "reason": "ChatGPT 4e site mondial : angle IA intéressant mais peu clivant.",
@@ -75555,5 +75555,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T20:09:28.459Z"
+  "updatedAt": "2026-11-16T20:09:37.036Z"
 }
