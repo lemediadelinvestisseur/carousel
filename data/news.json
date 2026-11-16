@@ -4435,7 +4435,7 @@
       "collectedAt": "2026-11-14T12:02:16.767Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "Chiffre concret utile aux acheteurs : 14 400 € de remise moyenne.",
       "hook": "9 ventes sur 10 se négocient : 14 400 € de remise moyenne"
@@ -67918,5 +67918,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T07:59:19.609Z"
+  "updatedAt": "2026-11-16T07:59:23.689Z"
 }
