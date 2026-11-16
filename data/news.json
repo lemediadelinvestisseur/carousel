@@ -75039,7 +75039,7 @@
       "collectedAt": "2026-11-11T05:07:32.668Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 6,
       "reason": "Fiasco des droits de douane Trump, chiffre surprenant.",
@@ -75555,5 +75555,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T20:09:37.036Z"
+  "updatedAt": "2026-11-16T20:11:53.845Z"
 }
