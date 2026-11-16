@@ -22665,7 +22665,7 @@
       "collectedAt": "2026-11-13T05:07:24.588Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 6,
       "reason": "Classement richesse européenne, proche d'un classement refusé mais comparaison France possible.",
@@ -75555,5 +75555,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T20:18:18.365Z"
+  "updatedAt": "2026-11-16T20:45:53.954Z"
 }
