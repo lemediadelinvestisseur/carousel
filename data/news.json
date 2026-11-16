@@ -15920,7 +15920,7 @@
       "collectedAt": "2026-11-14T01:23:39.506Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
+      "status": "rejected",
       "kind": "data",
       "aiScore": 6,
       "reason": "Inflation G20 comparable à la France, chiffres forts sur Argentine/Turquie.",
@@ -75555,5 +75555,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T20:09:12.396Z"
+  "updatedAt": "2026-11-16T20:09:20.005Z"
 }
