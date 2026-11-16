@@ -1,5 +1,7 @@
 {
   "date": "2026-11-16",
-  "reminded": {},
+  "reminded": {
+    "investisseur": true
+  },
   "dataDate": "2026-11-16"
 }
