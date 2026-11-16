@@ -57,7 +57,7 @@
       "collectedAt": "2026-11-16T07:07:28.802Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "rejected"
     },
     {
       "id": "9c13425211",
@@ -67933,5 +67933,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T07:59:34.270Z"
+  "updatedAt": "2026-11-16T07:59:38.134Z"
 }
