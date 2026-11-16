@@ -7778,7 +7778,7 @@
       "collectedAt": "2026-11-14T01:23:39.506Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 8,
       "reason": "Coulisses rocambolesques Hermès-LVMH, grandes marques françaises.",
@@ -67948,5 +67948,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T08:00:16.876Z"
+  "updatedAt": "2026-11-16T08:00:25.795Z"
 }
