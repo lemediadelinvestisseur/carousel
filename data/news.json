@@ -23467,7 +23467,7 @@
       "collectedAt": "2026-11-13T05:07:24.588Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 8,
       "reason": "Une fusion Musk spectaculaire entre deux géants connus.",
@@ -35144,26 +35144,6 @@
       "international": true,
       "aiScore": 0,
       "reason": "Petite valeur inconnue."
-    },
-    {
-      "id": "d9b3db6170",
-      "title": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
-      "summary": "",
-      "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=WSJ_home_mediumtopper_pos_1",
-      "source": "wsj.com",
-      "publishedAt": "2026-11-11T22:54:19.036Z",
-      "collectedAt": "2026-11-11T22:54:19.036Z",
-      "brand": "investisseur",
-      "score": 99,
-      "status": "new",
-      "manual": true,
-      "instructions": null,
-      "generatedAt": null,
-      "carousel": null,
-      "schedules": [],
-      "scheduled": null,
-      "error": null,
-      "publishError": null
     },
     {
       "id": "d9b3db6170",
@@ -75575,5 +75555,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T19:07:40.083Z"
+  "updatedAt": "2026-11-16T20:09:06.128Z"
 }
