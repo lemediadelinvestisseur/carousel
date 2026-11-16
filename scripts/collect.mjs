@@ -146,6 +146,28 @@ for (const source of cfg.sources.filter(useSource)) {
   }
 }
 for (const name of Object.keys(status)) if (!cfg.sources.find((s) => s.name === name)) delete status[name];
+
+// Même sujet repris par un autre site (titre différent, donc nouvel identifiant) : si l'éditeur l'a déjà
+// rejeté, supprimé ou traité dans les 10 derniers jours, il ne doit pas revenir dans « À valider ».
+const STOPWORDS = new Set("les des une pour dans avec sans plus moins sur par aux est sont qui que quoi dont mais ses son leur leurs cette ces tout tous elle ils vous nous avoir etre fait faire entre apres avant comme encore deja selon".split(" "));
+const words = (t) => new Set(normalizeTitle(t).split(" ").filter((w) => w.length > 3 && !STOPWORDS.has(w)));
+const decided = db.items
+  .filter((i) => ["rejected", "done", "validated", "generating"].includes(i.status) && now - Date.parse(i.collectedAt || i.publishedAt) < 10 * 24 * 3600e3)
+  .map((i) => ({ i, w: words(i.title) }));
+for (const item of fresh) {
+  const w = words(item.title);
+  if (w.size < 3) continue;
+  const twin = decided.find((d) => {
+    let common = 0;
+    for (const x of w) if (d.w.has(x)) common++;
+    return common >= 3 && common / Math.min(w.size, d.w.size) >= 0.6;
+  });
+  if (twin) {
+    item.status = "ignored";
+    item.reason = `Doublon de « ${twin.i.title.slice(0, 80)} » (${twin.i.status === "rejected" ? "déjà rejeté" : "déjà traité"})`;
+    item.duplicateOf = twin.i.id;
+  }
+}
 // Collecte « études » seule : les actus déjà à valider n'ont pas besoin d'être re-notées.
 
 // ---------------------------------------------------------------------------
@@ -154,7 +176,7 @@ for (const name of Object.keys(status)) if (!cfg.sources.find((s) => s.name === 
 // Les actus encore à valider sont re-notées à chaque collecte : les nouveaux refus de l'éditeur s'appliquent
 // aussi à elles (et celles jamais notées, lot précédent en échec, sont rattrapées).
 const unrated = only === "data" ? [] : db.items.filter((i) => i.status === "new" && i.kind !== "data" && now - Date.parse(i.publishedAt) <= maxAgeMs);
-const toCurate = [...fresh.sort((a, b) => b.score - a.score).slice(0, 120), ...unrated.slice(0, 80)];
+const toCurate = [...fresh.filter((i) => i.status === "new").sort((a, b) => b.score - a.score).slice(0, 120), ...unrated.slice(0, 80)];
 // Ce que l'éditeur a validé ou refusé récemment : Claude s'en sert pour proposer moins, et mieux.
 const editorial = readJsonIfExists("config/editorial.json", {});
 const byDate = (a, b) => (b.collectedAt || b.publishedAt || "").localeCompare(a.collectedAt || a.publishedAt || "");
@@ -196,6 +218,17 @@ const daily = readJsonIfExists("data/daily.json", {});
 if (daily.date !== today) Object.assign(daily, { date: today, reminded: {} });
 if (cfg.sources.some((src) => src.kind === "data" && useSource(src))) daily.dataDate = today;
 
+// Claude indisponible (crédit épuisé…) : une alerte par jour, pour que l'éditeur le sache tout de suite.
+if (verdicts.failed && toCurate.length && daily.claudeAlert !== today) {
+  const ok = await notify({
+    title: "⚠️ Claude indisponible : actus non triées",
+    message: `Raison : ${verdicts.failed}.\nAucune actu ne sera proposée ni rédigée tant que ce n'est pas réglé (console.anthropic.com → Plans & Billing).`,
+    tags: ["warning"],
+    priority: 4,
+  });
+  if (ok) daily.claudeAlert = today;
+}
+
 for (const [brandKey, brand] of Object.entries(brands)) {
   const doneToday = db.items.filter((i) => i.brand === brandKey && i.status === "done" && sameDay(i.generatedAt)).length;
   const notifiedToday = db.items.filter((i) => i.brand === brandKey && sameDay(i.notifiedAt)).length;
@@ -203,7 +236,8 @@ for (const [brandKey, brand] of Object.entries(brands)) {
     console.log(`${brand.name} : quota atteint (${doneToday}/${quota.max}), pas de notification.`);
     continue;
   }
-  const good = (i) => (i.aiScore != null ? i.aiScore >= N.minAiScore : i.score >= N.minKeywordScore);
+  // Sans tri par Claude, on ne notifie rien : les mots-clés seuls proposaient trop de sujets sans intérêt.
+  const good = (i) => i.aiScore != null && i.aiScore >= N.minAiScore;
   const picks = fresh
     .filter((i) => i.brand === brandKey && i.status === "new" && good(i))
     .sort((a, b) => rank(b) - rank(a))

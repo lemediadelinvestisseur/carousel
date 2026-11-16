@@ -10,21 +10,39 @@ const MODEL = () => process.env.CLAUDE_MODEL || "claude-opus-5-5";
 const FALLBACK = { betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" };
 
 const Slide = z.object({
-  kind: z.enum(["cover", "content", "list", "cta"]),
-  kicker: z.string().describe("Étiquette de la page en majuscules, 1 à 3 mots (LE CONTEXTE, CE QUI CHANGE, LE RISQUE, LES SOLUTIONS, ET APRÈS ?…). Vide pour cover et cta"),
-  title: z.string().describe("cover : la phrase de couverture. content/list : titre court et naturel. cta : la question posée au lecteur. Mots-clés entre **…**"),
-  body: z.string().describe("content : 1 ou 2 paragraphes courts (séparés par un saut de ligne), 20 à 38 mots au total. cta : vide. list : vide. cover : vide, sauf si les consignes du compte demandent un sous-titre de couverture"),
-  bullets: z.array(z.string()).describe("list : 3 étapes ou options concrètes de 8 à 16 mots, sinon tableau vide"),
-  image_query: z.string().describe("Recherche d'image précise liée au texte de la page (ex : 'Ledger Nano X', 'Changpeng Zhao', 'siège AMF Paris'). Vide pour cta"),
-  image_entity: z.string().describe("Titre Wikipédia de la personne, entreprise, produit ou lieu montré, sinon vide"),
+  kind: z.enum(["cover", "photo", "stat", "bars", "rank", "cta"]),
+  kicker: z.string().describe("Étiquette de la page en MAJUSCULES, 1 à 3 mots (L'EXPLICATION, LES FOYERS, LE SOMMET, LE CONTEXTE, ET APRÈS ?…). Vide pour cover, rank et cta"),
+  title: z.string().describe("cover : l'accroche avec 2 à 4 groupes de mots-clés entre **…**. photo/stat/bars : titre court (3 à 7 mots), sans **. rank : le nom de l'élément classé. cta : question courte"),
+  body: z.string().describe("photo : 1 ou 2 paragraphes courts séparés par un saut de ligne, 18 à 40 mots au total, mots-clés entre **…**. stat/bars : UNE phrase de 12 à 28 mots. rank : une phrase de 10 à 22 mots. cover/cta : vide"),
+  stat: z.object({
+    value: z.string().describe("Le chiffre affiché en très gros, format français : « 47,7 % », « 92,6 Md€ », « x3 », « 1 322 € »"),
+    label: z.string().describe("Ce que mesure le chiffre, 2 à 6 mots (« des foyers imposés »)"),
+    percent: z.number().nullable().describe("Si value est un pourcentage entre 0 et 100 : sa valeur numérique (47.7) → affiché en jauge. Sinon null"),
+    marker_percent: z.number().nullable().describe("Repère de comparaison sur la jauge (ex : 52.3 pour le niveau de 2012), sinon null"),
+    marker_label: z.string().describe("Texte du repère (« 2012 : 52,3 % »), sinon vide"),
+  }).describe("Seulement pour kind=stat ; sinon value et label vides, nombres à null"),
+  bars: z.array(z.object({
+    label: z.string().describe("Ce qu'on compare (« Les 1 % les plus aisés », « Paris »)"),
+    amount: z.number().describe("Valeur numérique qui fixe la longueur de la barre (valeur absolue)"),
+    value_text: z.string().describe("Valeur affichée dans la barre, format français (« -5,1 % », « 12,7 % »)"),
+    note: z.string().describe("Précision à droite du libellé, courte (« 69 125 € »), sinon vide"),
+  })).describe("Seulement pour kind=bars : 2 à 6 lignes ; sinon tableau vide"),
+  rank: z.object({
+    position: z.string().describe("Rang affiché (« N°1 », « #3 »)"),
+    name: z.string().describe("Nom de la ville, du pays ou de l'entreprise"),
+    figures: z.array(z.object({ value: z.string(), label: z.string() })).describe("1 à 3 chiffres clés (« 12,7 % » / « rendement brut »)"),
+  }).describe("Seulement pour kind=rank ; sinon champs vides et tableau vide"),
+  image_query: z.string().describe("cover, photo, rank : recherche d'une VRAIE photo précise (ex : 'Jensen Huang keynote', 'Palais Brongniart Paris', 'Mulhouse panorama'). stat, bars, cta : vide"),
+  image_entity: z.string().describe("Titre Wikipédia de la personne, entreprise ou lieu montré (cover, photo, rank), sinon vide"),
 });
 
 export const CarouselSchema = z.object({
+  format: z.enum(["single", "carousel"]).describe("single = une seule image (la couverture) qui se suffit à elle-même ; carousel = plusieurs pages"),
   category: z.string().describe("Étiquette de la couverture, parmi les étiquettes autorisées"),
-  slides: z.array(Slide).describe("4 à 9 pages selon la richesse du sujet : cover, 2 à 7 pages intérieures, cta"),
-  hook_alternatives: z.array(z.string()).describe("3 autres phrases de couverture possibles, même format que le titre de couverture"),
-  caption: z.string().describe("Description du post Instagram (150 à 280 mots), selon les règles DESCRIPTION DU POST, sans hashtags ni sources"),
-  sources: z.array(z.string()).describe("Noms des médias utilisés comme sources (ex : Cointelegraph, Les Echos)"),
+  slides: z.array(Slide).describe("single : uniquement la cover. carousel : cover, 3 à 10 pages intérieures, cta"),
+  hook_alternatives: z.array(z.string()).describe("3 autres accroches possibles, même format que le titre de couverture"),
+  caption: z.string().describe("Description du post Instagram selon les règles DESCRIPTION DU POST, sans hashtags ni sources"),
+  sources: z.array(z.string()).describe("Noms des médias utilisés comme sources (ex : Les Echos)"),
 });
 
 // ---------------------------------------------------------------------------
@@ -92,59 +110,58 @@ Indique pour chaque fait le média qui le rapporte, et signale les points où le
 // ---------------------------------------------------------------------------
 // 2. Écriture
 // ---------------------------------------------------------------------------
-const COVER_GUIDE = `COUVERTURE (le plus important : elle décide si les gens swipent).
-Une accroche COURTE et CLIVANTE : une seule phrase de 6 à 14 mots, qui se lit en 2 secondes. Elle fait réagir (choc, surprise, indignation, curiosité) et donne envie de swiper.
-- AUCUN mot en gras : n'utilise jamais **…** dans le titre de couverture ni dans hook_alternatives (sauf si les consignes propres au compte demandent un format différent).
-- Va droit au fait le plus fort, avec des mots simples et percutants. Une seule idée : pas de deuxième phrase d'explication, pas de date précise ni de détail secondaire (ils vont dans les pages suivantes).
-- Exemples du style attendu (le premier a été publié et validé) :
-  • « Binance France : moins de deux mois pour sortir tes cryptos »
-  • « Le patron de Nvidia aurait trompé sa femme avec une espionne présumée »
-  • « Christine Lagarde quitte la BCE avant la fin de son mandat »
-  • « Ton Livret A va pouvoir monter à 30 000 € »
-  • « Barbie a 67 ans et rapporte encore 1 milliard par an »
-  Trop long (à éviter) : « Christine Lagarde quittera la BCE le 7 février 2027, près de neuf mois avant la fin de son mandat. Deux candidats se disputent déjà sa place. »
-- PHOTO DE COUVERTURE : elle doit montrer le SUJET DE L'ACCROCHE. Si l'accroche parle d'une personne (dirigeant, banquier central, ministre…), image_query = son nom complet et image_entity = son titre Wikipédia, même si elle n'est pas nommée dans l'accroche (ex : « Binance change de directeur financier » → le nom du dirigeant concerné, ou à défaut celui du patron de Binance). Sinon, l'entreprise (son siège, son logo sur un bâtiment, son produit phare), le lieu ou l'objet dont parle l'accroche. Jamais d'image vague ou de produit dérivé.
-- LIMITE JURIDIQUE (impérative) : clivant ne veut pas dire faux. N'affirme jamais comme un fait une accusation non prouvée contre une personne ou une entreprise réelle (espionnage, fraude, infidélité, crime…). Utilise « aurait », « soupçonné(e) de », « accusé(e) de », « selon <média> ». Aucun chiffre ni fait inventé.`;
+const FORMAT_GUIDE = `DEUX FORMATS POSSIBLES (champ format) :
+- « single » : UNE SEULE IMAGE, la couverture. Pour un fait unique et fort qui se comprend en une phrase (une annonce, un retournement, un chiffre choc, une décision). L'accroche dit TOUT l'essentiel ; la description du post donne les détails. slides = [cover] uniquement, sans cta.
+- « carousel » : couverture + 3 à 10 pages intérieures + cta. Pour un sujet qui a de la matière : chiffres à montrer, classement, réforme avec plusieurs effets, histoire avec rebondissements.
+Si l'éditeur impose un format, respecte-le.`;
 
-const INNER_GUIDE = `NOMBRE DE PAGES : entre 4 et 9 au total (couverture et CTA compris), selon ce que le sujet mérite.
-- Sujet simple ou fait étonnant (« Le saviez-vous ? ») : 4 ou 5 pages.
-- Actualité classique : 6 ou 7 pages.
-- Sujet riche (réforme, crise, résultats détaillés, plusieurs impacts) : 8 ou 9 pages.
-Ne remplis jamais pour remplir : chaque page doit apporter une info nouvelle et utile.
+const COVER_GUIDE = `COUVERTURE (elle décide de tout : on doit comprendre l'info et avoir envie de swiper en 2 secondes).
+- Étiquette (category) en haut, puis une phrase INFORMATIVE de 10 à 22 mots qui donne le fait le plus fort, avec 2 à 4 groupes de mots-clés en **gras** (noms, chiffres, verbe-clé). Le gras doit se lire seul et résumer l'info.
+- Exemples du style attendu :
+  • « Trois jours après sa démission, **Jensen Huang** envisage un **retour** à la tête de **NVIDIA** »
+  • « **L'impôt** sur le revenu rapporte **92,6 milliards** d'euros mais les **plus riches** en **paient moins** »
+  • « **Édouard Philippe** veut supprimer les **frais de notaire** pour les **moins de 35 ans** »
+  • « **Leopold Aschenbrenner** déclarait **20 milliards** de dollars d'actions fin juin. Elles en **valent 11** aujourd'hui. »
+  • « Ton **Livret A** va pouvoir monter jusqu'à **30 000 €** dès **février 2027** »
+- Un chiffre précis vaut mieux qu'un adjectif. Pas de question en couverture, pas de « découvrez », pas de point d'exclamation.
+- PHOTO DE COUVERTURE (image_query + image_entity) : la PERSONNE dont parle l'accroche (portrait de presse : conférence, interview, sortie officielle), sinon le lieu ou le bâtiment emblématique (siège, Bourse de Paris, Bercy, BCE à Francfort), sinon l'objet concret (pièce de monnaie, carte bancaire, immeuble, clés). Si l'accroche parle d'une mesure politique, montre la personnalité qui la porte. JAMAIS d'infographie, de carte, de graphique ou d'image avec du texte.
+- LIMITE JURIDIQUE (impérative) : n'affirme jamais comme un fait une accusation non prouvée contre une personne ou une entreprise réelle. Utilise « aurait », « accusé de », « selon <média> ». Aucun chiffre ni fait inventé.`;
 
-PAGES INTÉRIEURES — ADAPTE-LES À LA NATURE DE L'ACTU. Choisis et ordonne seulement les pages qui ont du sens pour CETTE actu :
-- Toujours utiles : LE CONTEXTE (ce qui s'est passé et pourquoi), QUI EST … (la personne ou l'entreprise, si le public ne la connaît pas bien), LES CHIFFRES / LES RÉSULTATS (les données clés), LES RÉACTIONS (marché, action en Bourse, concurrents, politiques), ET APRÈS ? (ce qu'il faut surveiller, la suite probable).
-- Seulement si l'actu touche directement l'argent ou les décisions du lecteur (épargne, impôts, crédit, placements, une plateforme qu'il utilise, une action qu'il peut détenir) : CE QUI CHANGE POUR TOI, LE RISQUE, LES SOLUTIONS (kind=list, 3 actions concrètes et réalistes, en nommant les acteurs ou produits réels quand les sources les citent).
-- Pour une actu « pure » (scandale, people, enquête, nomination, coulisses d'une entreprise), PAS de page risque ni solutions : raconte l'histoire (contexte, faits, personnages, réactions, impact sur l'entreprise ou son action, suite).
-Chaque page : une étiquette (kicker), un titre court, 1 ou 2 paragraphes COURTS de 20 à 38 mots au total (une idée par page, ça doit se lire en 5 secondes), 2 à 4 mots-clés en **gras**.
+const INNER_GUIDE = `PAGES INTÉRIEURES (format carousel). RÈGLE D'OR : chaque page montre quelque chose — une photo OU un graphique. Jamais une page de texte seul.
+Types de pages :
+- kind=photo : une photo en haut + étiquette + titre court + 1 ou 2 paragraphes courts. Pour raconter, expliquer, contextualiser. image_query OBLIGATOIRE et précise (la personne, le lieu, le bâtiment, l'objet dont parle la page).
+- kind=stat : UN chiffre clé affiché en très gros. Si c'est un pourcentage de 0 à 100, remplis stat.percent (jauge) et, si utile, un repère de comparaison (marker_percent + marker_label, ex : niveau d'une année passée). Une phrase de contexte dans body.
+- kind=bars : comparaison chiffrée de 2 à 6 éléments (catégories, années, pays, villes, entreprises) en barres horizontales. Mets les éléments dans un ordre logique (croissant, décroissant ou chronologique).
+- kind=rank : UN élément d'un classement par page, en photo plein cadre (ville, pays, entreprise, personne). Pour un classement (« les 5 villes où… », « les pays les plus… »), fais UNE PAGE kind=rank PAR ÉLÉMENT, jusqu'à 10, dans l'ordre du classement (N°1 d'abord, ou compte à rebours si c'est plus fort). image_query = « <ville> panorama » / « <ville> skyline golden hour » / « <pays> landmark » / « <entreprise> headquarters ». rank.figures = 1 à 3 chiffres clés de l'élément.
+Construction :
+- Dès qu'il y a des chiffres, MONTRE-LES avec stat ou bars plutôt que de les écrire dans un paragraphe.
+- Alterne les types : pas plus de 2 pages photo d'affilée (sauf une suite de pages rank).
+- Une idée par page, lisible en 5 secondes. Chaque page apporte une info nouvelle.
+- Sujet simple : 3 ou 4 pages intérieures. Sujet riche ou classement : jusqu'à 10.
+- Étiquettes (kicker) courtes et concrètes en majuscules : LES FOYERS, LE SOMMET, L'EXPLICATION, LE CONTEXTE, LA SUITE…
+DERNIÈRE PAGE — cta : title = une question TRÈS courte liée au sujet (4 à 10 mots, sans gras), body vide, image_query vide.`;
 
-DERNIÈRE PAGE — CTA : la page est surtout un appel à s'abonner (déjà mis en page). title = une question TRÈS courte liée au sujet pour faire réagir en commentaire, 4 à 10 mots, sans gras (ex : « Tu avais des cryptos sur Binance ? »), body = vide.`;
-
-const DATA_GUIDE = `CE CAROUSEL N'EST PAS UNE ACTU : c'est un carousel « Données » tiré d'une étude ou d'un graphique (category = « Données », ou « Le saviez-vous ? » pour un fait historique).
-- Couverture : l'accroche CLIVANTE repose sur LE chiffre le plus choquant ou la comparaison qui pique (ex : « Un Suisse gagne 3 fois plus qu'un Français pour le même travail », « 10 entreprises valent plus que toute la Bourse européenne »). Pas de date d'actu, pas de « vient de ».
-- Pages intérieures, dans cet ordre : LES CHIFFRES (kind=list, 3 puces qui commencent par la valeur en **gras**), LE CLASSEMENT (kind=list, le top 3 à 5 avec les valeurs), ET LA FRANCE ? (la position de la France ou une comparaison parlante), POURQUOI (2 ou 3 explications), CE QUE ÇA CHANGE POUR TOI (seulement si c'est vrai). 4 à 7 pages au total.
-- Chaque chiffre est exact, avec son année et sa source (ex : « selon le FMI, 2025 ») dans la page ; convertis en euros quand c'est utile en le précisant (« soit environ … € »).
-- Photo de couverture : le sujet du chiffre (le pays, la ville, l'entreprise, l'objet), jamais le graphique de la source.
-- TOUT EN FRANÇAIS : la source est en anglais, mais le carousel et la description sont 100 % en français naturel. Traduis les noms de pays, d'entreprises quand ils ont un nom français, les catégories et les unités (« $1.2T » → « 1 200 milliards de dollars », « k » → « milliers »). Nombres au format français (1 200,5 ; 12 %). Aucun mot ni titre anglais, sauf un nom propre de marque.`;
+const DATA_GUIDE = `CE CAROUSEL N'EST PAS UNE ACTU : c'est un carousel tiré d'une étude ou d'un graphique (category = « Classement » ou « Le saviez-vous »).
+- Couverture : l'accroche repose sur LE chiffre le plus frappant ou la comparaison qui pique (ex : « Un **Suisse** gagne **3 fois plus** qu'un Français pour le même travail »). Photo : le pays, la ville, l'entreprise ou l'objet du chiffre, jamais le graphique de la source.
+- S'il y a un classement : une page kind=rank par élément (5 à 10), puis une page bars ou stat pour situer la France si elle n'est pas dans le top, puis éventuellement une page photo « POURQUOI ».
+- Chaque chiffre est exact, avec son année ; convertis en euros quand c'est utile en le précisant.
+- TOUT EN FRANÇAIS : traduis noms de pays, catégories et unités (« $1.2T » → « 1 200 milliards de dollars »). Nombres au format français (1 200,5 ; 12 %).`;
 
 const STYLE_GUIDE = `STYLE (très important) :
-- Écris comme un humain, journaliste éco qui tutoie un ami. Pas de formules creuses ou « d'IA » : pas de titres en métaphore bancale (« frais en approche », « perdre la main »), pas de « Décryptage », « Zoom sur », « Ce qu'il faut retenir ».
-- Titres : simples et concrets, comme on le dirait à l'oral (« Plus de dépôts, et bientôt des frais », « Recalé par l'Europe », « Après le 31 décembre, c'est Binance qui décide »).
-- Phrases complètes et précises : jamais « impossible de déposer » sans dire quoi (« impossible de déposer de l'argent »).
-- Temps des verbes : futur pour ce qui n'a pas encore eu lieu (« fermera »), conditionnel seulement pour ce qui n'est pas confirmé (« pourrait »), passé pour ce qui est fait. Jamais de conditionnel bizarre (« tu ne choisirais plus » → « tu ne pourras plus choisir »).
+- Écris comme un journaliste éco qui tutoie un ami. Pas de formules creuses ou « d'IA » (« Décryptage », « Zoom sur », « Ce qu'il faut retenir », métaphores bancales).
+- Titres simples et concrets, comme à l'oral (« Un record depuis 2012 », « Plus riche, moins d'impôt », « Des dividendes avancés »).
+- Phrases complètes et précises, bon temps des verbes (futur pour ce qui va arriver, conditionnel seulement pour ce qui n'est pas confirmé).
 - Décompte (« il te reste X jours ») : calcule-le exactement à partir de la date du jour.
-- N'écris jamais de mention du type « pas un conseil en investissement » sur les pages (elle peut figurer dans la légende).
-- Interdits : points d'exclamation, emojis (sauf 👇 dans le CTA), clickbait mensonger.
+- Interdits sur les images : points d'exclamation, emojis (sauf 👇 au cta), mention « pas un conseil en investissement ».
 - N'utilise QUE les faits du dossier de recherche. N'invente aucun chiffre, aucune date, aucun nom.
 
-ILLUSTRATIONS (une photo différente par page, liée à ce que dit la page) :
-- image_query doit correspondre au texte de la page : si la page cite Ledger, cherche « Ledger Nano X » ; si elle parle du dirigeant, cherche son nom ; si elle parle du régulateur, cherche « AMF Paris ».
-- Couverture : photo de presse de qualité (logo de l'entreprise sur sa façade ou sur un smartphone, dirigeant en conférence, produit phare).
-- Varie les sujets d'une page à l'autre (entreprise, dirigeant, produit, lieu, objet symbolique comme une pièce Bitcoin ou un graphique boursier).
-- Écris la requête dans la langue où l'on trouve les meilleures photos (souvent l'anglais).
-- Vise de BELLES photos : pour une ville, un lieu ou un monument, ajoute « golden hour », « sunset », « panorama » ou « aerial view » à la requête (ex : « Paris Eiffel Tower sunset panorama », « Lyon Fourvière golden hour »).`;
+PHOTOS (image_query) — on veut des photos de PRESSE ou de MAGAZINE, réelles et belles :
+- Personne : son nom complet (+ « portrait », « keynote », « interview »). Lieu : son nom + « panorama », « golden hour », « aerial view ». Entreprise : « <nom> headquarters » ou son produit phare.
+- Écris la requête dans la langue où l'on trouve les meilleures photos (souvent l'anglais), sauf pour les lieux français.
+- Varie les sujets d'une page à l'autre ; jamais deux fois la même requête.
+- Jamais d'infographie, de carte, de graphique, d'illustration ou de visuel avec du texte : nos graphiques sont faits par les pages stat et bars.`;
 
-const CAPTION_GUIDE = (brand) => `DESCRIPTION DU POST (caption) — c'est le texte affiché sous le carousel, il complète les images :
+const CAPTION_GUIDE = (brand) => `DESCRIPTION DU POST (caption) — c'est le texte affiché sous le post, il complète les images (150 à 280 mots ; en format single, c'est là que se trouvent tous les détails) :
 - 1re ligne : la phrase d'accroche qui résume l'info (elle apparaît avant « … plus »). Factuelle et forte.
 - Puis 4 à 7 paragraphes courts (1 à 3 phrases), séparés par une ligne vide. Tu peux commencer un ou deux paragraphes par « • ».
 - Donne plus de détails que les images : chiffres précis, comparaisons parlantes (« la commande pèse moins d'une journée de ventes »), contexte, ce que ça change pour le lecteur, ce qu'il faut surveiller.
@@ -176,7 +193,9 @@ Ligne éditoriale : ${brand.description}
 Public : ${brand.audience || "particuliers français"}
 Ton : ${brand.tone}
 
-Tu transformes une actualité en carousel Instagram de 4 à 9 pages (format 4:5), à partir d'un dossier de recherche.
+Tu transformes une actualité en post Instagram (format 4:5) — image unique ou carousel — à partir d'un dossier de recherche.
+
+${FORMAT_GUIDE}
 
 ${COVER_GUIDE}
 
@@ -186,15 +205,25 @@ ${STYLE_GUIDE}
 
 ${CAPTION_GUIDE(brand)}
 
-${brand.writerNotes ? `CONSIGNES PROPRES À CE COMPTE (prioritaires) :\n${brand.writerNotes}\n\n` : ""}ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["Actualité"]).map((c) => `« ${c} »`).join(", ")}.
-« Le saviez-vous ? » pour un fait étonnant ou historique, « Résultats » pour des résultats d'entreprise, « Données » pour une statistique ou une étude, sinon « Actualité ».`;
+${brand.writerNotes ? `CONSIGNES PROPRES À CE COMPTE (prioritaires) :\n${brand.writerNotes}\n\n` : ""}ÉTIQUETTE DE COUVERTURE (category) : ${(brand.categories || ["À l'instant"]).map((c) => `« ${c} »`).join(", ")}.
+« À l'instant » pour une actu chaude, « Le saviez-vous » pour un fait étonnant ou une statistique, « Classement » pour un classement, « Résultats » pour des résultats d'entreprise, « Ce qui change » pour une nouvelle règle.`;
 }
 
-export async function writeCarousel({ item, brand, articleText, instructions }) {
-  if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) {
-    console.log("[writer] Pas de clé Anthropic : génération simplifiée sans IA.");
-    return fallbackCarousel(item, brand);
-  }
+/** Erreur « Claude indisponible » (pas de clé, crédit épuisé, clé invalide) : on ne publie rien plutôt qu'un carousel au rabais. */
+export class ClaudeUnavailable extends Error {}
+
+function explain(err) {
+  const msg = String(err?.message || err);
+  if (/credit balance is too low/i.test(msg)) return new ClaudeUnavailable("Crédit Claude épuisé : recharge sur console.anthropic.com (Plans & Billing), puis relance.");
+  if (err instanceof Anthropic.AuthenticationError) return new ClaudeUnavailable("Clé ANTHROPIC_API_KEY invalide.");
+  if (err instanceof Anthropic.PermissionDeniedError) return new ClaudeUnavailable(`Accès Claude refusé : ${msg}`);
+  return null;
+}
+
+const FORMATS = { single: "« single » (une seule image)", carousel: "« carousel » (plusieurs pages)" };
+
+export async function writeCarousel({ item, brand, articleText, instructions, format }) {
+  if (!process.env.ANTHROPIC_API_KEY && !process.env.ANTHROPIC_AUTH_TOKEN) throw new ClaudeUnavailable("Pas de clé ANTHROPIC_API_KEY : impossible de rédiger.");
   const client = new Anthropic();
 
   let dossier = "";
@@ -202,6 +231,8 @@ export async function writeCarousel({ item, brand, articleText, instructions }) 
     dossier = await research(client, item, articleText);
     console.log(`[writer] Dossier de recherche : ${dossier.length} caractères.`);
   } catch (err) {
+    const fatal = explain(err);
+    if (fatal) throw fatal;
     console.error(`[writer] Recherche impossible (${err.message}), rédaction à partir de l'article seul.`);
   }
 
@@ -213,48 +244,40 @@ Source d'origine : ${item.source}
 ${item.reason ? `Pourquoi ça intéresse notre public : ${item.reason}\n` : ""}
 DOSSIER DE RECHERCHE :
 ${dossier || articleText || `(seulement le titre et le résumé : ${item.summary || "aucun"})`}
-${item.kind === "data" ? `\n${DATA_GUIDE}\n` : ""}${instructions ? `\nCONSIGNES SPÉCIFIQUES DE L'ÉDITEUR (prioritaires) :\n${instructions}\n` : ""}
-Rédige le carousel. Pour la couverture, imagine une dizaine de phrases, garde la plus forte et mets 3 autres bonnes dans hook_alternatives.`;
+${item.kind === "data" ? `\n${DATA_GUIDE}\n` : ""}${FORMATS[format] ? `\nFORMAT IMPOSÉ PAR L'ÉDITEUR : ${FORMATS[format]}.\n` : ""}${instructions ? `\nCONSIGNES SPÉCIFIQUES DE L'ÉDITEUR (prioritaires) :\n${instructions}\n` : ""}
+Choisis le format, puis rédige. Pour la couverture, imagine une dizaine d'accroches, garde la plus forte et mets 3 autres bonnes dans hook_alternatives.`;
 
+  let res;
   try {
-    const res = await client.beta.messages.parse({
+    res = await client.beta.messages.parse({
       model: MODEL(),
-      max_tokens: 16000,
+      max_tokens: 20000,
       ...FALLBACK,
       output_config: { effort: "high", format: betaZodOutputFormat(CarouselSchema) },
       system: systemPrompt(brand),
       messages: [{ role: "user", content: userContent }],
     });
-    if (res.stop_reason === "refusal") throw new Error("refus du modèle");
-    if (!res.parsed_output) throw new Error(`sortie non exploitable (stop_reason=${res.stop_reason})`);
-    return { ...res.parsed_output, dossier, generator: res.model };
   } catch (err) {
-    if (err instanceof Anthropic.AuthenticationError) console.error("[writer] Clé ANTHROPIC_API_KEY invalide.");
-    else if (err instanceof Anthropic.RateLimitError) console.error("[writer] Limite de débit atteinte.");
-    else console.error(`[writer] Erreur Claude : ${err.message}`);
-    console.log("[writer] Repli sur la génération simplifiée.");
-    return fallbackCarousel(item, brand);
+    throw explain(err) || err;
   }
+  if (res.stop_reason === "refusal") throw new Error("Claude a refusé de rédiger ce sujet.");
+  if (!res.parsed_output) throw new Error(`Rédaction inexploitable (stop_reason=${res.stop_reason}).`);
+  return normalize({ ...res.parsed_output, dossier, generator: res.model }, format);
 }
 
-function sentences(t) {
-  return (t || "").split(/(?<=[.!?])\s+/).map((s) => s.trim()).filter((s) => s.length > 20);
-}
-
-export function fallbackCarousel(item, brand) {
-  const title = item.title.replace(/\s+-\s+[^-]+$/, "");
-  const base = { kicker: "", body: "", bullets: [], image_query: "", image_entity: "" };
-  const slides = [{ ...base, kind: "cover", title, image_query: title }];
-  sentences(item.summary)
-    .slice(0, 3)
-    .forEach((s, i) => slides.push({ ...base, kind: "content", kicker: i === 0 ? "L'ACTU" : "EN DÉTAIL", title: "", body: s }));
-  slides.push({ ...base, kind: "cta", title: "Et toi, qu'en penses-tu ?", body: "Dis-le-nous en commentaire 👇" });
-  return {
-    category: (brand.categories || ["Actualité"])[0],
-    slides,
-    hook_alternatives: [],
-    caption: `${title}\n\n${item.summary || ""}`.trim(),
-    sources: [item.source],
-    generator: "fallback",
-  };
+/** Garde-fous sur la structure : format respecté, une couverture en tête, un cta à la fin d'un carousel. */
+export function normalize(c, forced) {
+  const fmt = FORMATS[forced] ? forced : c.format === "single" ? "single" : "carousel";
+  let slides = (c.slides || []).filter(Boolean);
+  const coverSlide = slides.find((s) => s.kind === "cover") || slides[0];
+  if (!coverSlide) throw new Error("Rédaction sans couverture.");
+  coverSlide.kind = "cover";
+  if (fmt === "single") slides = [coverSlide];
+  else {
+    const inner = slides.filter((s) => s !== coverSlide && s.kind !== "cta");
+    const ctaSlide = slides.find((s) => s.kind === "cta") || { kind: "cta", kicker: "", title: "Et toi, tu en penses quoi ?", body: "", image_query: "", image_entity: "" };
+    if (!inner.length) slides = [coverSlide];
+    else slides = [coverSlide, ...inner, ctaSlide];
+  }
+  return { ...c, format: slides.length === 1 ? "single" : "carousel", slides };
 }

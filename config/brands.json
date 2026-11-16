@@ -16,7 +16,13 @@
       "highlightText": "#FFFFFF",
       "accent2": "#2E6BF0",
       "gradientEnd": "rgba(20,45,110,1)",
-      "bodyFont": "Montserrat"
+      "bodyFont": "Montserrat",
+      "storyBg": "#07080C",
+      "pop": "#6E9BFF",
+      "popText": "#061233",
+      "tag": "#E8323C",
+      "underline": "#2E6BF0",
+      "glow": "rgba(46,107,240,.42)"
     },
     "keywords": [
       "bourse",
@@ -67,7 +73,7 @@
     ],
     "cta": "Abonnez-vous pour ne rien rater de l'actu des marchés",
     "audience": "Particuliers français 25-45 ans qui investissent (PEA, ETF, actions, crypto) ou s'y intéressent ; suivent la French Tech.",
-    "template": "photo",
+    "template": "story",
     "logo": "",
     "ctaSlide": {
       "title": "Abonne-toi au Média de l'investisseur",
@@ -84,10 +90,11 @@
       "l'investisseur"
     ],
     "categories": [
-      "Actualité",
-      "Le saviez-vous ?",
+      "À l'instant",
+      "Le saviez-vous",
+      "Classement",
       "Résultats",
-      "Données"
+      "Ce qui change"
     ]
   },
   "21m2": {
@@ -107,7 +114,13 @@
       "bodyFont": "Manrope",
       "slideBg": "radial-gradient(70% 45% at 0% 100%,rgba(47,92,255,.45) 0%,rgba(47,92,255,0) 70%),radial-gradient(60% 40% at 100% 0%,rgba(47,92,255,.28) 0%,rgba(47,92,255,0) 70%),#16205A",
       "shadeRgb": "22,32,90",
-      "gradientEnd": "rgba(38,62,190,1)"
+      "gradientEnd": "rgba(38,62,190,1)",
+      "storyBg": "#0A0F2C",
+      "pop": "#9DB2FF",
+      "popText": "#0E1650",
+      "tag": "#2F5CFF",
+      "underline": "#2F5CFF",
+      "glow": "rgba(47,92,255,.5)"
     },
     "keywords": [
       "immobilier",
@@ -136,7 +149,7 @@
     ],
     "cta": "Suivez 21m2 pour investir plus malin dans l'immobilier",
     "audience": "Français qui veulent acheter leur résidence principale ou investir dans la pierre (locatif, SCPI) ; sensibles aux taux, aux prix et à la fiscalité.",
-    "template": "photo",
+    "template": "story",
     "ctaSlide": {
       "title": "Abonne-toi à 21m2",
       "subtitle": "Chaque jour, l'actu qui touche ton logement.",
@@ -146,15 +159,14 @@
         "👇 Chaque jour, l'essentiel en 2 minutes"
       ]
     },
-    "innerStyle": "text",
     "logo": "assets/21m2/logo.png",
     "categories": [
-      "Actualité",
-      "Le saviez-vous ?",
-      "Données",
+      "À l'instant",
+      "Le saviez-vous",
+      "Classement",
+      "Ce qui change",
       "Fiscalité"
     ],
-    "writerNotes": "PAGES INTÉRIEURES DE 21m2 : elles sont en texte seul, sans photo. Laisse image_query et image_entity VIDES pour toutes les pages intérieures, SAUF si la page parle d'une ville précise : mets alors image_query = « <ville> <monument emblématique> golden hour » ou « … sunset panorama » (ex : « Lyon basilique de Fourvière golden hour », « Paris tour Eiffel sunset panorama ») : on veut une photo de carte postale, lumière dorée et ciel coloré.\nCOUVERTURE DE 21m2 : si l'actu concerne une ville, la plus belle photo possible de cette ville avec un monument emblématique (lumière dorée, coucher de soleil, panorama) ; sinon une belle photo immobilière (façade haussmannienne, immeuble, toits de Paris, clés, chantier, maison), pas de personne en gros plan sauf si l'actu porte sur elle.\nCHIFFRES : pour présenter des chiffres (prix, rendements, montants), utilise kind=list avec des puces qui commencent par la valeur en gras (ex : « **12,7 %** de rendement brut à Mulhouse », « **3 412 €** le m² à Montpellier ») : elles s'affichent en cartes avec un gros chiffre.\nFORMAT DE LA COUVERTURE DE 21m2 : title = un TITRE court et fort de 4 à 9 mots, qui annonce le contenu du carousel (ex : « Les **5 villes** où le locatif rapporte le plus », « DPE 2027 : **ce qui change** pour ton logement »), avec 1 ou 2 mots-clés entre **…** ; body = une phrase d'information de 15 à 25 mots avec les chiffres clés en gras (ex : « À **Mulhouse**, un appartement rapporte **12,7 %** brut par an. À **Paris**, c'est **4,1 %**. »).",
-    "coverStyle": "headline"
+    "writerNotes": "21m2 parle d'IMMOBILIER. PHOTOS : villes et lieux en photo de carte postale (« <ville> panorama golden hour », « <ville> <monument emblématique> sunset ») ; pour un sujet national, de belles photos immobilières concrètes (façades haussmanniennes, toits de Paris, immeuble neuf, maison, chantier, clés, signature chez le notaire) ; la personnalité politique si une mesure est portée par quelqu'un. CLASSEMENTS DE VILLES : une page kind=rank PAR VILLE, avec sa photo, son rang et 2 ou 3 chiffres clés (prix au m², rendement, évolution des loyers) ; puis une page bars qui compare toutes les villes (et Paris ou la moyenne nationale en repère), puis une page photo « LE PIÈGE » ou « À VÉRIFIER » si c'est utile (rendement brut ≠ net, DPE, vacance locative). CHIFFRES : taux de crédit, prix, loyers, rendements → pages stat (jauge si pourcentage) ou bars, jamais noyés dans un paragraphe."
   }
 }

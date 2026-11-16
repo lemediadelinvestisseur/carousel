@@ -1,7 +1,8 @@
 // Génère les carousels des actus validées.
 // Usage :
 //   node scripts/generate.mjs --id <id>[,<id>...] [--brand 21m2] [--instructions "angle..."]
-//   node scripts/generate.mjs --id <id> --action rejeter
+//   node scripts/generate.mjs --id <id> --format single|carousel   (image unique ou carousel ; défaut : Claude choisit)
+//   node scripts/generate.mjs --id <id> --action rejeter|supprimer
 //   node scripts/generate.mjs --url https://... [--brand investisseur]   (actu ajoutée à la main)
 //   node scripts/generate.mjs --demo                                      (exemple hors-ligne)
 //   node scripts/generate.mjs                                             (toutes les actus au statut "validated")
@@ -10,7 +11,7 @@ import path from "node:path";
 import { parseArgs } from "node:util";
 import { loadNews, saveNews as saveDb, readJson, makeId, slugify, recordUpdates, ROOT } from "./lib/store.mjs";
 import { fetchArticleText, fetchText, stripHtml } from "./lib/rss.mjs";
-import { writeCarousel } from "./lib/writer.mjs";
+import { writeCarousel, ClaudeUnavailable } from "./lib/writer.mjs";
 import { renderCarousel } from "./lib/render.mjs";
 import { illustrate } from "./lib/images.mjs";
 import { notify, dashboardUrl } from "./lib/notify.mjs";
@@ -22,6 +23,7 @@ const { values: args } = parseArgs({
     brand: { type: "string", default: process.env.INPUT_BRAND || "" },
     instructions: { type: "string", default: process.env.INPUT_INSTRUCTIONS || "" },
     url: { type: "string", default: process.env.INPUT_URL || "" },
+    format: { type: "string", default: process.env.INPUT_FORMAT || "" }, // "", "single" ou "carousel"
     demo: { type: "boolean", default: false },
   },
 });
@@ -58,8 +60,11 @@ async function itemFromUrl(url) {
   } catch (e) {
     console.warn(`Impossible de lire ${url}: ${e.message}`);
   }
+  const id = makeId(title + url);
+  const existing = db.items.find((i) => i.id === id);
+  if (existing) return Object.assign(existing, { status: "validated", brand: args.brand || existing.brand });
   const item = {
-    id: makeId(title + url),
+    id,
     title, summary, link: url,
     source: new URL(url).hostname.replace(/^www\./, ""),
     publishedAt: new Date().toISOString(),
@@ -101,13 +106,14 @@ async function processItem(item, { save = true, demo = false } = {}) {
   const articleText = demo || item.link.includes("news.google.com") ? "" : await fetchArticleText(item.link);
   const carousel = demo && !hasKey
     ? { ...readJson("templates/demo.json"), slides: readJson("templates/demo.json").slides.map((s) => (s.kind === "cta" ? { ...s, title: brand.cta, body: brand.handle } : s)) }
-    : await writeCarousel({ item, brand, articleText, instructions: args.instructions || item.instructions });
+    : await writeCarousel({ item, brand, articleText, instructions: args.instructions || item.instructions, format: args.format || item.format });
 
   const day = (item.publishedAt || new Date().toISOString()).slice(0, 10);
   const rel = path.posix.join("carousels", day, `${brandKey}-${slugify(item.title, 40)}-${item.id}`);
   const outDir = path.join(ROOT, rel);
   fs.rmSync(outDir, { recursive: true, force: true }); // « Refaire » : on repart d'un dossier propre
-  const images = brand.template === "photo" && !demo ? await illustrate({ slides: carousel.slides, item }) : [];
+  const images = ["photo", "story"].includes(brand.template) && !demo ? await illustrate({ slides: carousel.slides, item }) : [];
+  if (["photo", "story"].includes(brand.template) && !demo && !images[0]) throw new Error("Aucune photo de couverture correcte trouvée. Relance avec une consigne (ex : « photo de la Bourse de Paris »).");
   carousel.ctaThumbs = recentCovers(brandKey, item.id);
   const files = await renderCarousel({ carousel, brand, outDir, sourceLabel: item.source, images });
   // Description du post : le texte seul (ni hashtags ni sources, à la demande de l'éditeur).
@@ -117,7 +123,8 @@ async function processItem(item, { save = true, demo = false } = {}) {
 
   item.status = "done";
   item.generatedAt = new Date().toISOString();
-  item.carousel = { dir: rel, files, generator: carousel.generator, slides: carousel.slides.length, hooks: carousel.hook_alternatives || [], coverPhoto: !!images[0] };
+  item.carousel = { dir: rel, files, generator: carousel.generator, format: carousel.format, slides: carousel.slides.length, hooks: carousel.hook_alternatives || [], coverPhoto: !!images[0] };
+  item.error = null;
   if (save) saveNews(db);
   console.log(`  ✓ ${files.length} fichiers dans ${rel}`);
 
@@ -146,12 +153,12 @@ if (args.action === "rejeter") {
   process.exit(0);
 }
 
-// « Supprimer » : on efface les images et l'actu revient dans « À valider », prête à être refaite.
+// « Supprimer » : on efface les images et l'actu est écartée pour de bon (elle ne revient plus dans « À valider »).
 if (args.action === "supprimer") {
   for (const i of targets) {
     if (i.published && Object.keys(i.published).length) { console.log(`  ${i.title} : déjà publié, conservé`); continue; }
     if (i.carousel?.dir) fs.rmSync(path.join(ROOT, i.carousel.dir), { recursive: true, force: true });
-    Object.assign(i, { status: "new", carousel: null, generatedAt: null, schedules: [], scheduled: null, error: null, publishError: null, instructions: null });
+    Object.assign(i, { status: "rejected", deletedAt: new Date().toISOString(), carousel: null, generatedAt: null, schedules: [], scheduled: null, error: null, publishError: null, instructions: null });
     touched.add(i.id);
     console.log(`  🗑 ${i.title}`);
   }
@@ -160,6 +167,7 @@ if (args.action === "supprimer") {
 }
 
 if (args.instructions) targets.forEach((i) => (i.instructions = args.instructions));
+if (args.format) targets.forEach((i) => (i.format = args.format));
 let failed = 0;
 for (const item of targets) {
   try {
@@ -170,6 +178,20 @@ for (const item of targets) {
     item.error = err.message;
     saveNews(db);
     console.error(`  ✗ ${item.title}: ${err.stack || err.message}`);
+    // Jamais de carousel au rabais : on prévient plutôt l'éditeur.
+    const dash = dashboardUrl();
+    await notify({
+      title: err instanceof ClaudeUnavailable ? "⚠️ Claude indisponible : carousel non généré" : "❌ Carousel non généré",
+      message: `${item.title}\n→ ${err.message}`,
+      click: dash ? `${dash}/?item=${item.id}` : undefined,
+      tags: ["warning"],
+      priority: 4,
+    }).catch(() => {});
+    if (err instanceof ClaudeUnavailable) {
+      for (const rest of targets.slice(targets.indexOf(item) + 1)) { Object.assign(rest, { status: "error", error: err.message }); touched.add(rest.id); }
+      saveNews(db);
+      break;
+    }
   }
 }
 if (!targets.length) console.log("Rien à générer.");

@@ -13,7 +13,17 @@ Chaîne complète pour publier des carousels d'actualité chaque jour :
 
 | Exemple — Le média de l'investisseur | Exemple — 21m2 |
 |---|---|
-| <img src="docs/exemples/investisseur/couverture.jpg" width="200"> <img src="docs/exemples/investisseur/page-interieure.jpg" width="200"> <img src="docs/exemples/investisseur/derniere-page.jpg" width="200"> | <img src="docs/exemples/21m2/couverture.jpg" width="200"> <img src="docs/exemples/21m2/page-chiffres.jpg" width="200"> <img src="docs/exemples/21m2/derniere-page.jpg" width="200"> |
+| <img src="docs/exemples/investisseur/image-unique.jpg" width="200"> <img src="docs/exemples/investisseur/page-chiffre.jpg" width="200"> <img src="docs/exemples/investisseur/page-barres.jpg" width="200"> | <img src="docs/exemples/21m2/couverture.jpg" width="200"> <img src="docs/exemples/21m2/page-classement.jpg" width="200"> <img src="docs/exemples/21m2/page-barres.jpg" width="200"> |
+
+### Formats et mise en page (template `templates/story.mjs`)
+- **Image unique** : une seule image, photo plein cadre + étiquette (« À L'INSTANT », « LE SAVIEZ-VOUS »…) + accroche informative avec les mots-clés en gras. Pour un fait fort qui se comprend en une phrase ; les détails vont dans la légende.
+- **Carousel** : couverture + 3 à 10 pages + page d'abonnement. **Aucune page de texte seul** : chaque page a une photo ou un graphique.
+  - *photo* : photo en haut, étiquette, titre souligné, texte court ;
+  - *chiffre* : un gros chiffre, en jauge si c'est un pourcentage (avec un repère de comparaison) ;
+  - *barres* : comparaison de 2 à 6 éléments ;
+  - *classement* : **une page par élément** (ville, pays, entreprise) avec sa photo plein cadre, son rang et ses chiffres clés.
+- Le format est choisi par Claude, ou imposé dans le dashboard (menu **Format** au moment de valider).
+- **Plus de version « dégradée »** : si Claude est indisponible (crédit épuisé, clé invalide), rien n'est généré et une notification ⚠️ explique pourquoi.
 
 ## Comment ça marche au quotidien
 
@@ -57,7 +67,7 @@ Sur iPhone : ouvrez-le dans Safari → Partager → **Sur l'écran d'accueil** p
 
 ### 4. Clé Claude (tri des actus + rédaction des carousels)
 Créez une clé sur [console.anthropic.com](https://console.anthropic.com) puis ajoutez le secret `ANTHROPIC_API_KEY`.
-Sans clé, le système fonctionne quand même, mais en mode dégradé : tri par mots-clés et carousels basiques (titre + résumé).
+Sans clé (ou sans crédit), rien n'est proposé ni généré : une notification ⚠️ prévient tout de suite. Pense à surveiller ton crédit sur console.anthropic.com.
 
 Modèle utilisé par défaut : `claude-opus-5-5` (modifiable via la variable `CLAUDE_MODEL`). Les éventuels refus du modèle sont automatiquement redirigés vers un modèle de secours (`fallbacks: "default"`), puis, en dernier recours, vers la version simplifiée.
 
@@ -130,7 +140,7 @@ Le workflow **LinkedIn (statistiques)** lit le fichier (posts, impressions, enga
 | Objectif quotidien, seuil et nombre de notifications | `config/sources.json` (`carouselsPerDay`, `notify`) |
 | Critères de tri « ce qui fait réagir en France » | `scripts/lib/curate.mjs` |
 | Couleurs, polices, ton éditorial, mots-clés, phrase d'appel à l'action | `config/brands.json` |
-| Mise en page des slides | `templates/carousel.mjs` (puis `npm run examples` pour régénérer les exemples) |
+| Mise en page des slides | `templates/story.mjs` (couleurs par compte : `theme.pop`, `theme.tag`, `theme.storyBg` dans `config/brands.json`) |
 | Consignes de rédaction données à Claude | `scripts/lib/writer.mjs` |
 | Memes LinkedIn : profil, sujets, style | `config/linkedin.json` (consignes détaillées : `scripts/lib/memes.mjs`) |
 | Lecture de l'export LinkedIn, consignes d'analyse | `scripts/lib/linkedin-stats.mjs` |
