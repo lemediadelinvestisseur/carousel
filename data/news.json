@@ -32930,7 +32930,7 @@
       "collectedAt": "2026-11-12T09:07:20.571Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "rejected",
       "international": true,
       "aiScore": 7,
       "reason": "Coup dur pour la plus grande société détentrice de Bitcoin.",
@@ -75555,5 +75555,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T20:09:06.128Z"
+  "updatedAt": "2026-11-16T20:09:12.396Z"
 }
