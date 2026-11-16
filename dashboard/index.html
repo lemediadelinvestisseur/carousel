@@ -847,7 +847,8 @@ function renderLiStats() {
   const waiting = wait && Date.now() - wait < 15 * 60e3 && !(ins && Date.parse(ins.generatedAt) > wait);
   const steps = `<ol class="hint"><li>Sur linkedin.com : <b>ton profil → Analytics</b>, puis <b>Exporter</b>, période <b>365 jours</b>.</li><li>Tu obtiens un seul fichier <b>AggregateAnalytics_….xlsx</b> (contenu + abonnés + démographie).</li><li>Ici : <b>📥 Importer l'export</b> et choisis ce fichier. À refaire 1 fois par mois : les imports s'additionnent.</li></ol>`;
   const buttons = `<div class="row"><button class="btn primary" data-act="li-import">📥 Importer l'export</button><button class="btn" data-act="li-analyze">🧠 Relancer l'analyse</button></div>
-    <input type="file" id="liFile" accept=".xlsx,.xls,.csv" multiple hidden>
+    <input type="file" id="liFile" accept=".xlsx,.xls,.csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,text/csv" multiple hidden>
+    ${li.importMsg ? `<p class="${li.importErr ? "puberr" : "hint"}">${esc(li.importMsg)}</p>` : ""}
     ${waiting ? `<div class="wait" style="margin-top:10px">⏳ Import et analyse en cours (2 à 4 minutes)…</div>` : ""}`;
   if (!s) return `<div class="card stp"><h3>📊 Statistiques de ton profil</h3><p class="hint">LinkedIn ne laisse pas lire les statistiques d'un profil perso avec le jeton de publication : on passe par l'export officiel (2 minutes).</p>${steps}${buttons}</div>`;
   const head = `<div class="card stp"><h3>📊 Ton profil LinkedIn</h3>${buttons}
@@ -972,6 +973,8 @@ async function loadSheetJs() {
   return window.XLSX;
 }
 async function gzip64(text) {
+  // Safari ancien (iOS < 16.4) : pas de compression dans le navigateur → envoi en JSON brut (le workflow accepte les deux).
+  if (typeof CompressionStream === "undefined") return null;
   const stream = new Blob([text]).stream().pipeThrough(new CompressionStream("gzip"));
   const bytes = new Uint8Array(await new Response(stream).arrayBuffer());
   let bin = ""; for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
@@ -990,8 +993,11 @@ async function importLiExport(files) {
     }
   }
   const name = files.map((f) => f.name).join(" + ").slice(0, 200);
-  const data = "gz:" + (await gzip64(JSON.stringify({ name, sheets })));
-  if (data.length > 60000) throw new Error("Fichiers trop gros pour être envoyés d'un coup : importe-les l'un après l'autre");
+  if (!Object.keys(sheets).length) throw new Error("Fichier vide ou illisible : choisis l'export .xlsx de LinkedIn (AggregateAnalytics_….xlsx)");
+  const json = JSON.stringify({ name, sheets });
+  const gz = await gzip64(json);
+  const data = gz ? "gz:" + gz : json;
+  if (data.length > 60000) throw new Error(`Fichier trop gros pour être envoyé (${Math.round(data.length / 1000)} ko, max 60) : importe les fichiers l'un après l'autre`);
   if (!cfg.token) { $("dlgSettings").showModal(); throw new Error("Jeton GitHub manquant"); }
   await gh(`/repos/${cfg.repo}/actions/workflows/linkedin-stats.yml/dispatches`, { method: "POST", body: JSON.stringify({ ref: cfg.branch, inputs: { mode: "importer", data, name } }) });
   store.set("liStatsWait", JSON.stringify(Date.now()));
@@ -1000,8 +1006,16 @@ async function importLiExport(files) {
 document.addEventListener("change", async (e) => {
   if (e.target.id !== "liFile" || !e.target.files.length) return;
   const files = [...e.target.files];
-  try { toast(`📥 Lecture de ${files.length > 1 ? `${files.length} fichiers` : "du fichier"}…`); await importLiExport(files); render(); toast(`📊 ${files.length > 1 ? "Exports envoyés" : "Export envoyé"} : analyse dans 2 à 4 minutes`, 4500); }
-  catch (err) { toast(err.message, 6000); }
+  try {
+    toast(`📥 Lecture de ${files.length > 1 ? `${files.length} fichiers` : "du fichier"}…`);
+    await importLiExport(files);
+    Object.assign(li, { importErr: false, importMsg: `📊 « ${files.map((f) => f.name).join(", ")} » envoyé à ${new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })} : les chiffres se mettent à jour dans 2 à 4 minutes.` });
+    render(); toast("📊 Export envoyé : mise à jour dans 2 à 4 minutes", 4500);
+  } catch (err) {
+    // Message gardé à l'écran (un toast passe trop vite) pour savoir ce qui bloque.
+    Object.assign(li, { importErr: true, importMsg: `❌ Import impossible : ${err.message || err}` });
+    render(); toast(`❌ ${err.message || err}`, 8000);
+  }
   e.target.value = "";
 });
 
