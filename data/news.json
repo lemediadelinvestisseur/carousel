@@ -18418,7 +18418,7 @@
       "collectedAt": "2026-11-12T17:07:25.119Z",
       "brand": "21m2",
       "score": 6,
-      "status": "new",
+      "status": "rejected",
       "aiScore": 7,
       "reason": "La fiscalité du LMNP et le PTZ touchent directement les bailleurs et les acheteurs, un sujet que l'éditeur apprécie.",
       "hook": "LMNP, PTZ : le Sénat veut changer les règles",
@@ -67918,5 +67918,5 @@
       "titleOriginal": "China Makes 58.8% of the World’s Electronics; Here’s How"
     }
   ],
-  "updatedAt": "2026-11-16T07:07:36.742Z"
+  "updatedAt": "2026-11-16T07:58:42.593Z"
 }
