@@ -1,6 +1,703 @@
 {
   "items": [
     {
+      "id": "94e9457a8c",
+      "title": "Fed : Christopher Waller plaide pour une réponse monétaire plus musclée",
+      "summary": "Fed : Christopher Waller plaide pour une réponse monétaire plus musclée Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeTZIM0J1eXJ6ODh0dmRCQWQ0T2VPTnVyZk5EbTJ5TkQtMDRCNzZRb0NoZnhPODFyT1EtVUFkcXdMRTdxRjVKMlYyLU9mcnBBSGlSd0NreThBVUVoZVMzY2pIOVNTM1NoQW93ODFueUFhREtEUjQyRlNIRFhMdjRySWhWNi1uRFpPaERMdnMzNWNsTWxxMjNhNTJCdlNpcUxSaHdKVDh6ckV0TFNFTnNXeFFoWFI0cEdsdHhfSGxyM1RUOVd6aWZWVHFR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T19:03:14.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Déclaration d'un membre de la Fed, trop technique."
+    },
+    {
+      "id": "6e10c59712",
+      "title": "Réduction d'impôt, stress de l'épargnant, nouveauté BoursoBank... Les 3 infos argent du mercredi 18 novembre",
+      "summary": "Une réduction d'impôt pouvant atteindre 1 500 euros grâce aux dons ; des Français de plus en plus inquiets pour leur épargne ; de nouvelles...",
+      "link": "https://www.moneyvox.fr/impot/actualites/111303/reduction-impot-stress-de-epargnant-nouveaute-boursobank-les-3-infos-argent-du-mercredi-18-novembre",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20261118_165157_12.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-18T19:00:09.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Récap infos argent générique, type refusé."
+    },
+    {
+      "id": "2c48aefddc",
+      "title": "Dispositif Jeanbrun : SCPI, travaux, location à un proche, ce que les députés ont voté",
+      "summary": "Ce mercredi 18 novembre, les députés ont poursuivi l’examen, en séance publique, du projet de loi de relance du logement. Ils ont notamment adopté, en le modifiant, l’article 4, destiné à renforcer le dispositif d’investissement locatif Jeanbrun, qui a succédé au Pinel. Le point sur ces votes, qui ne sont pas encore définitifs.",
+      "link": "https://www.capital.fr/immobilier/dispositif-jeanbrun-scpi-travaux-location-a-un-proche-ce-que-les-deputes-ont-vote-1531967",
+      "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~18~eb85b057-201b-4e4c-9cf0-d00904c13054.jpg/1200x900/focus-point/1290%2C498/dispositif-jeanbrun-scpi-travaux-location-a-un-proche-ce-que-les-deputes-ont-vote.jpg",
+      "source": "Capital Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-18T18:57:31.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "21m2",
+      "score": 6,
+      "status": "new",
+      "aiScore": 7,
+      "reason": "Changement de règles concret sur le dispositif Jeanbrun qui remplace le Pinel.",
+      "hook": "Jeanbrun : ce que les députés viennent de changer pour investir",
+      "notifiedAt": "2026-11-18T19:07:23.095Z"
+    },
+    {
+      "id": "57ad744d86",
+      "title": "Skydance va regrouper Paramount Television Studios et Warner Bros. Television Group",
+      "summary": "Skydance va regrouper Paramount Television Studios et Warner Bros. Television Group Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOExJbkJLcUZoNTQ5WTVBekJtNFdnd3ZEMkJtM3VLS04zcnBmNjFzZjVxVW54dXJ1b2laOXE2blp2OXdQOGJ2Z1hrdzZva0NTRHdZSElVRlVMQWcwcklZWDZKUWNEQlVfRzRIdUVfZHlQaFlxSjlIN1B6WVZwTFVfY0UzS0l2STRqRnNkaE1GVEl2RWFBTnZZcFhNSmN5Y0I1Y0MxWldtOExkTGNpMDV1RVd2T3k4ajRyb2pnQk44NklhaVFaTnl6OFhtVmtVTzgzbExWRGN3TWc2QQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:41:14.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Réorganisation hollywoodienne, peu d'impact en France."
+    },
+    {
+      "id": "5962c438c7",
+      "title": "Nvidia, Take-Two, Lowe's Companies",
+      "summary": "Nvidia, Take-Two, Lowe's Companies TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95dExfTVVYWlJ6SExfTjVxVk1FWGRsX004NDVudFlvY3Z5WnVLZWZZakxyRnlvcUpyWmFJb1VMTXNqYXY5QmM2LVVQUlFiaWFyNEplU3lrSUZvOWU3THNYRVRWdGlrbG5vU0lPU3NpbEpKMko5eWQ0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:41:13.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Titre fourre-tout sans angle."
+    },
+    {
+      "id": "e7fa98bc8b",
+      "title": "Tamtron Group Oyj lance un nouveau service One Cloud",
+      "summary": "Tamtron Group Oyj lance un nouveau service One Cloud Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONFFuWFZtejU1N3JjbndUM1VLYjAyNU94QTdsVGZXOUlJNXcxWVpZR1FDZWl5WEZTbFFmSUVrWGFzWFgzSy1QNFJIa3RWTElvSk1OQkZPbmNrS25VNWY0bWJ3UzZzNC1OZl9kYTluazVCTjlaaGZwV3Ntb2pfZXFFc1FrU0JpSEw4NC0ySi1CVGhVNU80eXg3ZDQ3RjM1MjVMakFBSU9SY0FRVlFZWVB6eDdXRQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:38:03.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société finlandaise inconnue."
+    },
+    {
+      "id": "0e4a6a6af3",
+      "title": "Eastnine AB (publ) prolonge son contrat de location avec Danske Bank",
+      "summary": "Eastnine AB (publ) prolonge son contrat de location avec Danske Bank Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOVNXYktmMWxQeWtSOUdDM1FuUVFVc2RNYW5naWNsLTlQU1dzdk1sdXNjTENmQktTVVJESl96aFJqSEI5aktEOVk5X1RyZUxYdWUxMFJMUTg4YVN1X1VQVkEwcEF6RVBKdERZejBPWmVHdHk2Z2xtS3VQazFUVFFnRGg0TGFnLTV6ZVg4aXozWWt3YnFvNGdTQ3RJTHpCVUdPSDVPV2xlb0MwN1ZkaU1RQXVMN2RKNUFPNXU2eDN2MHhNaEdmLWc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:37:52.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Bail commercial suédois de niche."
+    },
+    {
+      "id": "f92cc608f0",
+      "title": "Les actions reculent avec Nvidia, le dollar progresse légèrement",
+      "summary": "Les actions reculent avec Nvidia, le dollar progresse légèrement Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMEtEMnBqemhRMkQyaGJaVTVubEh5RUNLRzhYNFVlZWgwX21vb21kNkVGOFJCR0xlbDRtVmpEQV9kNXdZcVZNdHBrYS1wak10bnFNZEZCb3p6Tmk2TGxCSnpQcks3OTNTSGQwOHZiNDg0R0lTM21NNjlZNk5NdFZsaEd3cW5xQjVCU0xJUHVOZmdaZVgxRGpoZXdJZXRQXzYwaVBIYkhoY3hNRExyWkNSTkdRdDF6Vl9kYmVyaVNSb2M?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:36:26.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché du jour."
+    },
+    {
+      "id": "3a50a732dd",
+      "title": "Toujours plus d'adeptes du plan d'épargne retraite",
+      "summary": "Toujours plus d'adeptes du plan d'épargne retraite TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMV0tvWGQtc2c2OTUxbS0tY3NPb1ZsN2VWalhXdklkLTMyMF9VamxJdkphelhLS3dwbU5VWlY1VDZTbXRCa0dEN0x3VWhaSWRXVFZUcmpFNGV4UmFqX1NEN29n?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:33:12.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Tendance épargne retraite sans chiffre fort ni surprise."
+    },
+    {
+      "id": "fcf73b5b95",
+      "title": "Oman Cement Company SAOG approuve une distribution",
+      "summary": "Oman Cement Company SAOG approuve une distribution Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeDFsLUJub0M4ZERwa09USWdBamNMYnF0WnU0MkhuWG9rTmF3U2FrMTBWc2pRRHc5T2x4TlBJcjJ1TUVWWTQ2OGpyYkhrbzFUaFFKeUxnR0RIZ0VCOExuckZRWTF5X2ZXSWUzTzBzN2s1aXo4LWlYNlF6aDdGVG13WG9PcHlqNGdjRktrYlducjNZSHE5NVB5LW5UekdTV1d3THZnS3RSWEg5alhqUGxkTw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:22:09.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société omanaise inconnue."
+    },
+    {
+      "id": "d4ff7bc909",
+      "title": "Le directeur général de De' Longhi cède 8.160 actions",
+      "summary": "Le directeur général de De' Longhi cède 8.160 actions Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZEtueXlVbHl3bklLdzNXTDFhb3I2V2VoNG12N3dfVHNvUTBTUnBJWEZqbzJEUnhuQ21zT080QlZvdFpITEdBZnc4dWxPS2wxMkRoMV9rZlJ6QWg2a2FKb0lCaF9wcGsxZG95WnJ1QjhnVUNqcG82SENPT2pjWDFTbVVnU3VDSmZwaDlkVFZnYzFJWmJidmRWWEVhUGhUNFQ2MzJGeXJkN2hLbkxyWWthRnZB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:21:20.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Cession d'actions anecdotique."
+    },
+    {
+      "id": "62a3e5b4bd",
+      "title": "L'heure de vérité pour l'IA ? Le journal de la bourse du mercredi 18 novembre 2026",
+      "summary": "Le journal de la bourse du mercredi 18 novembre 2026 avec les experts de Meilleurtaux Placement....",
+      "link": "https://www.moneyvox.fr/bourse/actualites/111307/heure-de-verite-pour-ia-le-journal-de-la-bourse-du-mercredi-18-novembre-2026",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20261118_191345_12.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-18T18:14:24.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Journal de Bourse quotidien."
+    },
+    {
+      "id": "0f8b45305b",
+      "title": "Alerte attribuée par erreur à Mind CTI, retirée",
+      "summary": "Alerte attribuée par erreur à Mind CTI, retirée Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc3o0YlUwOXZaaG9NMWlhRDRzNnZGTi1SLXViWmhMNHE0RjNvUkN4Vngzb1pZVnhGSG9lcHdaRlpCQUM0X2dNRnZGVzQxSk9YdTVjZlV1SDlHc2tPcHBYWWdqanRBWG44eFFVMnVFeS02ZUQydVBERjNuMGVZZ0EtTFFRZ1RveU02c2VfMjJkVFZBd2pVTGU5eHNCd1Q2T3NheTc3T3dMb0ZGQQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:08:11.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Erratum technique sans intérêt."
+    },
+    {
+      "id": "5726477e6c",
+      "title": "Income Financial annonce une distribution mensuelle, payable le 10 décembre 2026",
+      "summary": "Income Financial annonce une distribution mensuelle, payable le 10 décembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbm9lN3lIQm5yb016dC1sUFNxaUJsNkRwTW42NVF2eDJ1eGQ3Zll5VWdBcTBVRDNRUHdSWEpvZ2pGWmRXcGdTeXN2OUp1aFNIRE1VN0VhaFB6a1M1WVg4SUw0aTQ5TVp3LURGVTVLUHhnbEI4bWZ6NUdLTk9taVowX0hlQklWTnIyQWhxUGhzZWFNZnBXQVpqVWdJUnFUMFdhUnVFU1I0S0lHSmpuWU1xdXRjemQ1N2pZUXlXd0dzSjJIVzlIS3B0TnRLeVJDQ1d6Q2k5Wk5WUQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:07:49.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Communiqué de distribution."
+    },
+    {
+      "id": "b2ae2f992f",
+      "title": "Adecco : coûts exceptionnels en hausse, perspectives inchangées",
+      "summary": "Adecco : coûts exceptionnels en hausse, perspectives inchangées Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaURxVjFRNnZzcnBkRVNOdndBa2ItQWNBUThwdjc5TU1ZcG9JZ3hzSDdSakQwOFNZS2pibEtnTlVJWnB6eEdqSXJ0WTlWZkJtdlV2TS1ZZ0J1aGpxbXhLWU85SzBkUU0ybDl0b3phdlBHTkUxb25Yc3ozOEZNTm9TXzhVNFdocWJZUmhUclVUZkt1cmRxTXRQZzM3c3lZWjJPZmczb21tMTlxeDNpR1pzamwyLVR5QUljM2Z4Zw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T18:00:37.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Résultats sans surprise."
+    },
+    {
+      "id": "a8accf262b",
+      "title": "Medios annonce un programme de rachat d’actions",
+      "summary": "Medios annonce un programme de rachat d’actions Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamVIWmFCLU9TeW1HYkVvRHp4ci1CUTZNS2xrcFN4TG5VMkZHZ1VkM09XNjhtb0tfb1c0Tjl1SnRDS1pTUXVQNVNtTm9ydjhsN1JaLWVNS3FiSlJXOTA1b2N1bkdGLWxrWWdPa0hhNHBWTm5SZEVCYjNIRkRHTUZ0R2VQd1lWblA3WWc3RGh0S0RTWGtYOFF0NThKV0sxOEtmYTgzNlhoQmFxR3dPb3c?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:57:16.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "reason": "Doublon de « Airbus lance un programme de rachat d’actions de 5 milliards d’euros jusqu’en 20 » (déjà rejeté)",
+      "duplicateOf": "72742e9f7f"
+    },
+    {
+      "id": "c23e6e4c5c",
+      "title": "Selon Chant, les opérations structurées conviennent aux capitaux des assureurs",
+      "summary": "Selon Chant, les opérations structurées conviennent aux capitaux des assureurs Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZjN4Wm1iZ0o3OXRmVHQtanhCLTY3Y0QxbVRtdDM2cDRFUGlTeERycHJUZTN1NE90ZmRoMW5jUFRYWWtmWmRELUVtM1J4LWRMNGhBWU9FSmtLeW5wT1gyMDVMa283YVZiVnpwS3Rfa1ZULWJoZGwzX3VDTldqbFFBNEtybFJlN3k2TzdUcDFJLTBGdExBX0IyTG11RUZ0UllVUk51ay1DNVpNLXd1Z2hxMTZqWktWeEZYVnVXOFowWVh0T3lQQWJBb2JJMGFvQnp2NjJj?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:52:06.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Très technique."
+    },
+    {
+      "id": "c528c32ebf",
+      "title": "Circle8 renonce à racheter le cabinet de recrutement britannique SThree",
+      "summary": "Circle8 renonce à racheter le cabinet de recrutement britannique SThree TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vbm80SXNSaUFIRFhiRjZVX29WWmhRd0daSDNxU096a1JOZ0pBRjRhVk92ekZDX3FnenFxREdDZkVHTVE2UXpFOTFZV1VNTUFtcFdsakN2aGw3cmI1ZFdJa183WDhmeUIwODBhNjhUY1czcGg4VTRv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:50:07.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Opération britannique obscure."
+    },
+    {
+      "id": "fbfc5e3dea",
+      "title": "Paris termine dans le rouge",
+      "summary": "Paris termine dans le rouge Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWVVuUTJsbDU3YnV6LURDUmhDRHV2Zkg0cVZnR3dkb0sycmhMQThQMm1IZUc5TEdWNWhfNVl5WmRuUm1hdFdQajY1aHlIU0xNdDVhWTcxS3VON1BzdmUtUjhCNmJEbHA3RDhEVmRYTDdmV3gtZm04YkNjaTdQR1pfUGJsVS1xZXk0cXpzUkVIWHA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:46:24.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon point de marché."
+    },
+    {
+      "id": "9fbf1ea802",
+      "title": "La Bourse de Paris termine dans le rouge",
+      "summary": "La Bourse de Paris termine dans le rouge TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Ud0hwU1BxRWdhcmVoVWF0R0JFRlhZeEl3cTY5LUpOSk5VUHhIaU83RHpjZDRIOHdkMkw5bl9GU0NSaVRqcEdwR2dqUG91bXFLVVo5dzU3MkFCNl85VnNhVFZR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:45:22.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché."
+    },
+    {
+      "id": "a8d45235d4",
+      "title": "Translational et ProLogium annoncent des investissements potentiels",
+      "summary": "Translational et ProLogium annoncent des investissements potentiels Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVo3Zng1REkzZk1zdGVwZFNKLUJjbGtoNHZyTEs0cnVfemZ0WXV0Z0JndVJrZmhvRXZjbFVnSjQ1NmV0N0ZHRVRlWEd4ajF1Yl8zRldrTW1YOFRlU2NONExzVmpHN0MwOG5OeVBJakpYd2NrSURSZ01oVTVmdXNYNjEtRWpxcVRWWXZTVWVFR3BZNERmUnJlejh6enFLVmszbkh0UGN5ZHBXV3paVkJJUFFFSndNZlJIaU9XUlkyaF9UMW5kZlE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:41:22.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Petites sociétés étrangères inconnues."
+    },
+    {
+      "id": "bf377def7f",
+      "title": "La vendange mondiale 2026 confirme une tendance à la baisse",
+      "summary": "La vendange mondiale 2026 confirme une tendance à la baisse Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYV85aXFtUFpJemU3bWQtTmIzTUxBQVYyRHhPUnlnNFg4S2thY1B2QnJmRUZoejJIRjZOMnI0eUhqbjFWV21mQTl2MVJHRjZFSzJEYTlpcjhuaWVYM2tzd3hQc0V6TXBIX04xeWRvQjN5OXo5eThiZGxWNjQ3bE50aFM0Qndvc1dDVTRURWd1OXR2S0pYWUJwd0RRcTlfc3lnSXlYRWlyNl9SWGlqb0oxaFM4SmJrb1lwcFdN?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:41:22.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Vendanges en baisse, sujet de niche."
+    },
+    {
+      "id": "641f0731b8",
+      "title": "Goldman Sachs ramène sa position globale dans Avio à 5 %",
+      "summary": "Goldman Sachs ramène sa position globale dans Avio à 5 % Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYUM3Q1NLTEFiY0k1V3NnNjUwZ2YxMUZnQTYtWU1oU1pEM0lJMy11aGU2U3JObnV3R2V3S013MXJTZnEyR081VWZBemdSRVZDTG00RG9CV0NHNjlHSkZHS2RhZUlDVnlZamNyWXA1bUN5clhXQUozQkZPRlZXcDlYdlpNSHpKY0N1STdpQlpSak5wZjgxNW1zMTZNODdTQUJYUnpTSm9pNE5TbmxHbmlEVjdEeWprZw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:36:17.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Franchissement de seuil technique."
+    },
+    {
+      "id": "ff6303b4fe",
+      "title": "SoundThinking, Inc. annonce des changements au sein de sa direction",
+      "summary": "SoundThinking, Inc. annonce des changements au sein de sa direction Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZUFkdERfOWNNVXVUX3VRSURfRGRNWDl5MVRDcjNURVhvUVdNZ0VET0x4SmtfTFhZN3RxOVQzQVFFUGpTMkFxaEdPaFhTVlh2QU9vazRnWFZxNkRZUjFfRTd6aGY0MkNOTzZwQVlUSlNCcHJ0MU0tWWZqaWJpajRFWEtPSlVjbTd1N0FkTWotNDJxOFRkcmg5QTdBSmxIS0ZqOHV6RkhZUHJ3Y2syaFVwRlB3ME53VnBIRDVkbk5ZQTk0SzVl?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:35:42.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Changement de direction d'une petite société US."
+    },
+    {
+      "id": "9216168e1f",
+      "title": "Forsee Power dévoile la batterie ZEN 8 LFP",
+      "summary": "Forsee Power dévoile la batterie ZEN 8 LFP Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYmpoLXprY21wcEh6eTNBTTlfZS0waHE4dXJIaDF1c1FhSW1NMUhyX014WFBOUW1IWjNGeVNQaW5DRGtFZ3ZWcU9TS0NNVWFweWVyUTBLalFkUlhHa1BUYjJidzVXWVo2WTdiaXBuRkk2VTJHWVU2Mmo1LWg4UF9KemxwVkJRaWh5dl9NVkdmeWJOTE4wa1RzNDZybmxSNDQ2VUhVTw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:35:29.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Nouveau produit d'une petite cap."
+    },
+    {
+      "id": "3fd756550c",
+      "title": "Versalis d’Eni et Lummus élargissent leur accord sur les élastomères",
+      "summary": "Versalis d’Eni et Lummus élargissent leur accord sur les élastomères Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa19OYnRMSFo0ZF9LaUcwZjVFaG4yN2k4bUdyekFha3lyMHdWUWhGVElyNFpyS1dETE5rYWw1STlZcmxYLU5rN0o5akdHeWRyOWJDal8tcjFRSU11WWo0R2dsbVRyckt1NVNpZ05QcjJ6bXdzRlFnc1A5bWN4U1hlRHJRY3lyXzF3OEVOYVNUZzhrUU1rYUpEZzBOdWJoY244U0swN0k0TzVGdGF0dGtVNzdCai1qOVE2M3UxTndWR2RpLUtWc3hwWg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:29:15.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Accord industriel de niche."
+    },
+    {
+      "id": "e2c27c457a",
+      "title": "Canal+ S.A annonce la nomination de membres au Conseil de surveillance",
+      "summary": "Canal+ S.A annonce la nomination de membres au Conseil de surveillance Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTmRqTVI5S3lIeXVKQkZsbGpfV0VJc1hwSGdWNjl2Wjl3NkN6dWF6allYUVBpWnJRaXRqa2NLUGV5QW0yYURwQXMtWWdIdlBrSmN5Z2w4V0RFSE1ta2dGQlp1V1I0QVVtTVFNV3lpdEpDTEVrUFZtSDNFajBWYlJFWV9SWnpMWk1sbXlZTHdrRWtUaHozeDMxSkxBbHExal9QS0lIU0FWbjc2NUFKazRTNEhPM1N5QkdnZWViaDhzd0tCVlRkRVpCajl3?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:20:50.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Nominations au conseil, petite actu d'entreprise."
+    },
+    {
+      "id": "17fc50e512",
+      "title": "Aperam confirme son objectif de rentabilité à l'horizon 2028",
+      "summary": "Aperam confirme son objectif de rentabilité à l'horizon 2028 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQThUX1hZX2ZxZGVBdjc0MEl3YUVDYVRpZG5EUktyRndmVVB3RHoxWkE0MTlaY1Vhd0llV09HZXFRRGVpaExHSlhjZkdpOEFaVHFGbDlpTnRpb200Vks3aXhXVWh6dkpHM0lxWmI0TkNPV2RrRzFCcFFSbEdwWUVpZ2dCNVp6LVZSNHIwRjltbUxydm9TS0hrR29iLUVBaHFyV01maTFpYy1kTzJuS1Y5WjROVllESEN4QWNSaA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:19:16.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Objectif confirmé, sans surprise."
+    },
+    {
+      "id": "ab0ea1dd35",
+      "title": "Booking conteste l'interdiction d'acheter son concurrent Etraveli",
+      "summary": "Booking conteste l'interdiction d'acheter son concurrent Etraveli Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLW5XaDhpejUzbFIydEQzRFFsYUx2RFB2QjdDd2NqQlh4azFTeXdiTi1md00waE84NFAtd1phc2NkNmFfajR3ZGhwcnBkOXpGT050OS1jVlRKREwzX0V4eXZaam5IMmJzakd3cDFfNUttNzllRnZ4N1BjZGdvMnltQUZuUVNGdFdLd1p6dFBSaWhZY0pBQy1lM3VxYTVqLTNjS3lWc3J2UUp2VDBQVG9NNGpoTDNqWXIxeUl6VnBnQXVXckU?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:16:52.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Litige concurrence peu parlant."
+    },
+    {
+      "id": "fd558315be",
+      "title": "Moody’s relève la note de la dette subordonnée de BPER Banca",
+      "summary": "Moody’s relève la note de la dette subordonnée de BPER Banca Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOTBmNzZwSExNSmRwY3J6NWMzX2xaNzd2TWJLZEZMMXhiaDBZS0tHVXpfSlhVNXRRdUlTNGwzbXB3MFk2Sy1BdHRkMk1QWjBwT25VVWlKOTFPUGV3T2hnWUZMTDV0ZVlfVXRwS09hcjNSWWFHZDNSOE5YVHRod3U4bTAtd2J1SXhoeGswYTM5d213Z0g1ekJwZy1NR0VCX003YVE0bW9VdERTRTdyOGhFQ1FneTB2bGM4bDJnMUR3?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:15:18.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Notation de dette obscure."
+    },
+    {
+      "id": "01296cf618",
+      "title": "Groupe Airwell : DeclarationDirigeants",
+      "summary": "Groupe Airwell : DeclarationDirigeants Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRjNiYU9pUVhlbnVtakM4TUduMnNvRlBIOHkyNXNqeWp1ZG1WSTg2N2otRWxfY0s3UDJDUnhlNFgwZ1phOUtQNE4wRFRJTzlHS3hRd1RfamRjUHNRU1JYSDV6QnkzRzd3dFdSRkxIeVdZTlQ5b0lOYkh4dTNHc3hzMjI3bklBMmJRMnJTYkNpSUJOSUFFcWpaRW9HT2E?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:13:57.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration réglementaire sans intérêt."
+    },
+    {
+      "id": "51d21726f6",
+      "title": "Les Bourses européennes grimacent avant les débuts d'Anthropic",
+      "summary": "Les Bourses européennes grimacent avant les débuts d'Anthropic Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR1NPMlZKNWJuLVZOWFlGdWM4dWNiUk01d1h6QVNRWlU1WWpzdzF2UU8tdnJOYnd3RzNUZ3ZwV3g0dlJwcDY2LWFIc3RTbnpIaEdPVTAxRjZfTlBZaXl2Qnh3MTV6YnR4TTZxQzF0ZHFHOERlSmRidWtFUFZOTVBYQmIzMXpYMXRTVnhDVXBYcVlTWWFQZUI0NXNkSlNGc01NaGlNeGF4RnFzd1QzYVpieDlFZUNrUXVqLVFHdVQ5dw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:13:26.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Débuts d'Anthropic en Bourse, mais angle point de marché déjà refusé."
+    },
+    {
+      "id": "d485b43f74",
+      "title": "TotalEnergies : DeclarationDirigeants",
+      "summary": "TotalEnergies : DeclarationDirigeants Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSkN2ZTlDRVlvY0QzM2lGa0JCMVBOTlQ0Qm45bklubVVPN0NudjQxWWNJV1N1Vk5hOXliSUltajlxRkkxV3R0Mm8zRTBSVDctZ1YtZEdFWTNTTUl6bzlxVmRKOFFTQ3I0TWh1YWtNdU9pZWxfZUVLU1BVWjF0OFBzQ0lhWmhUNnhXV0k2RXhVVW1vVG9laDhDSHhKaw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:11:32.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration réglementaire."
+    },
+    {
+      "id": "d8a0701b59",
+      "title": "Patrimoine et Commerce : DeclarationDirigeants",
+      "summary": "Patrimoine et Commerce : DeclarationDirigeants Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb19ReWFTdWFjUmFDUlotVVRGdVI3cGVkTUVQV2stdkhacVZ1TkpJdFN3YTVGaE9FT3BuRVFkSER2TXBzWXY0ZFdkRm11ekoweGotYWVRcjg0Y04yT2lvNTd6SmYxd1hhYU5sM2RHdzFDQml6ZjJNODFkOEc1V0c1dC1MeVVrOWtMVnk3eDF5WEJyQnNoZTl2UTFfSkVzbnVBVlFEV3JRVQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:11:30.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration réglementaire."
+    },
+    {
+      "id": "f4b5adb523",
+      "title": "M6 Metropole Television : DeclarationDirigeants",
+      "summary": "M6 Metropole Television : DeclarationDirigeants Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMGFUNFNYNmk0TVBvMHZZRGVmanBpemxIWXRzNkNEUzNpWDNkQ0xmUHV5YkkxOGhxSFJmcy10N2dGckYweU8yUEZRUXNUSXJVYXlVUFNhZ24yYTdKeWZKNVcwVmJDUHBvT19vbTA4dmRrS1Q5WUJ2UXNBbnJIdWNPVEd0Z2kyUU5SQUVXNmh0NmNUZDBuMVFzbkdoUTVSWWo3UkpkUHcybkQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:11:21.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration réglementaire."
+    },
+    {
+      "id": "f12df463b7",
+      "title": "Compagnie de l'Odet : DeclarationDirigeants",
+      "summary": "Compagnie de l'Odet : DeclarationDirigeants Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY2dpX0R0RWtEVm80d0ZOeVBLY0x6SXBIdGc5dXpvQnZXVFRoZDFvX1VoSkdfMnc3RFRSM2F5N202MFdWOWZYdlY2RUFZckI4MjBobnpvQVFPaEd4cmlhYTRwSi1PVmN1WmpjSlZ6ei02Q2djRE9YbW1hcExUM3lOQktQeFZOdnZaVENxNXBGZkxSTDF3YWhZZi1rWG5qYVdyUzFn?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:11:15.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration réglementaire sans intérêt."
+    },
+    {
+      "id": "98c3082b67",
+      "title": "KKO International : DeclarationDirigeants",
+      "summary": "KKO International : DeclarationDirigeants Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeEp6YmgxRTYycnI3b0w4MzN1NjU4cXB6VmRJM2ZuQ295ZXBZdWFiZlpTR3RvZEhFN1ZjQU9vTVBuMVZtU1YzTDJZcHVlNHV6Y1YxRVVjRDRuaEFoRFJxdDZuc3J6bjV2Sl9tUXpTSmM4QjBXYVU0b05nRlJDOUwzSU5tNTlJR05oT09hWU53SkdRaFFWV2pEcERITHRKdGEw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:11:13.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration réglementaire."
+    },
+    {
+      "id": "07c985b09d",
+      "title": "Royal Philips lance l’application cloud Skylight Device Manager",
+      "summary": "Royal Philips lance l’application cloud Skylight Device Manager Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYTl4WG13UjUxM3ZXLXFZT1NaaldIa1BiVk9tV0YwNzI3dFBMYzMxQU5Wbmx0Y0xsdWdGbUdzWUZHT0F1SkhtMjJXb3RoNGh1VnlqZmlFc3J4TkVzMTNfT3psbFN3MzIzUXdBRVpIbzljOXppTmVBNjRMb0d6WHlnMDNlS1lKMTl0UVBTOVVrRm1JQ0VhNHF5RXFJRzlkUGJzUnZGQ2dxMlBscnpzcnQwa2lseGt1RjZyMlZPbGh0QTQ2Zw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:06:52.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Lancement produit de niche."
+    },
+    {
+      "id": "b0a17b920b",
+      "title": "Commvault annonce son intégration avec Microsoft Defender for Endpoint",
+      "summary": "Commvault annonce son intégration avec Microsoft Defender for Endpoint Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUWE0NGhxVXFnOEpOc3Y3bTBnUUJvWHA3VURpQUpJMnZsSVIwOEJHczN3Q3JzQnlmTVBDaG9QMUhBZVdScXl4RzJ5OVhWcDZRT05tbE5meWl3MHR4YVV2WHhQcEtFSExVeWF6MEZyRHpMSFNoUUo0anpOZVl1T3RKd0pwZ2N2VVFxV0tOaTFmSVo5b2xYRXU3QTZrVnJDSndmVkEwSE1fR3laQWI0SkxKai02em5taXV2OTVqUHFfaWRzem9EV0hKZnpB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:05:44.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Partenariat technique."
+    },
+    {
+      "id": "64e406b058",
+      "title": "Soitec vise une croissance annuelle de 40%, porté par l'IA",
+      "summary": "Soitec vise une croissance annuelle de 40%, porté par l'IA Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcnlWZmFXQXA0MXdoUW1sMno1U2E3THdnVFY3NGtreEo0bXpHTmpGcUprc1RaUmVqT19MWnF2TVh5bUF2TVJfN3h6WWtqSTJHM001dC1TYWxvLUttanFUcGE1aEkwSFVDZFM0Tm41NV9zUk8ycEJOcE90d2FlSW9VMFVCS3NHMEpEaElELTNSUlRCNndwYjlRSl83LXhEc3I0NEpwN3I0b0ZYWjM5dU5uZzNLYUczQVU?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:05:14.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Soitec, pépite française connue, objectif de croissance ambitieux grâce à l'IA.",
+      "hook": "Soitec promet +40 % par an grâce à l'IA"
+    },
+    {
+      "id": "3448af11e7",
+      "title": "Burelle SA : Calendrier de publication 2027",
+      "summary": "Burelle SA : Calendrier de publication 2027 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaW9yRW9JcC1vTG1JbU5tMFExZ1dtWjVQTTVEQVFtQUZ2d1RMWGpQRWZOenV0SkhXay0yVGR4Rlp3SEpWYzRsT2dnUFp4RnBBa1RLejdhbllrZEVqTkhHdVJtR0V1WmJ6UnB3blV3b2ZXZzNsOHpiRFJYSUVSakdrWnIxRzVFd25jdXBlZ0xNZVUwWUQxaXlGQmZFelZyTElBdVJ4QQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:05:07.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Calendrier financier."
+    },
+    {
       "id": "41c04c4b85",
       "title": "Soitec continue de capitaliser sur l'IA et la photonique",
       "summary": "Soitec continue de capitaliser sur l'IA et la photonique Zonebourse",
@@ -12,8 +709,27 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Actu Soitec sans fait marquant."
+    },
+    {
+      "id": "fb8dfd7cbc",
+      "title": "AECOM : Truist Securities réitère son opinion positive sur le titre",
+      "summary": "AECOM : Truist Securities réitère son opinion positive sur le titre Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdVB2MGlPZ3hEXzZUSGVGS1hrRmtEWHlzWG1kUTFsQXBrUFBVaTJDQ2ZfbU03OXJTQTg2VGdlTVkyY0JvajJvdHRPdXVoVEo1MnhFekk5Q2tMVDJXRVBYSV9rMHBhN1dyTDdWM2tRb2FrbklqUFhadTM4WWF5VXNNVkVOeU96SUZ6M3JoWGgwdjVubU1HMGNVV1hiSTRaTEZibS1FQVdDQWI1cU9ybEw5aHFyd04wenlsRXB4Ujlrb3pnN0k?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:02:44.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "f0c52f8752",
@@ -29,6 +745,23 @@
       "score": 2,
       "status": "ignored",
       "international": true
+    },
+    {
+      "id": "bbb3773724",
+      "title": "Viral Patel évoque l’essor des investissements dans l’intelligence artificielle",
+      "summary": "Viral Patel évoque l’essor des investissements dans l’intelligence artificielle Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaU9RcVROWEs4TFBJR1Ayc0V5RHN1VTk5YmVGTGpSbWQxbUk0RmNPbTBPMmJGMjdTLXNIY0lrYWJHMnZ1MGd3ZEhtRGFJUFRXTTkwU1NNWlZBdFFjcmc2ZXlJeTN4NE9QYzRTdHl5WHVFLWhFTEQ2UE40OUdla1NaWU9vcHJONFNldVdjcl92SmY3SjVzcWZvVVhHaXBOMXpNSFlLLTk4cWd6ZEN0OUpKVzBNWVgyeEJsUlRueHN0Skw0Y0xVc0Z6OG1idDRlWjVuZlVpNE40cE8?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T17:01:00.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Avis d'expert générique sur l'IA."
     },
     {
       "id": "36a9453b60",
@@ -72,7 +805,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "new",
+      "aiScore": 8,
+      "reason": "Changement de règle majeur pour les bailleurs avec rebondissement parlementaire.",
+      "hook": "Passoires thermiques : la fin de l'interdiction de louer déjà menacée ?"
     },
     {
       "id": "9bde9b8d45",
@@ -116,8 +852,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Rachat d'actions, refusé par l'éditeur."
     },
     {
       "id": "337c86e147",
@@ -150,6 +888,23 @@
       "international": true
     },
     {
+      "id": "b76e004953",
+      "title": "Infotel : Calendrier de communication financière 2027.",
+      "summary": "Infotel : Calendrier de communication financière 2027. Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObXZrTk1mQng0b3VSckRXdjBBOHYyTlY1ZU0ySFRoSjM1TS1NWm1KcGIxRnZwMjlLMTQ3M1BPc2JsQ3RVT2kxUDlqblFCellFdnVsaTNuWHp5b29BYUJnRVRZSnVuVDMxWGpvbXlFM0cybVVwdng1alJZd3V1WWx2YkpiLUkzOWZKb2dhaTFadVhpQ0xucGROLUJRbk1yZ0ZFQkRjQ2w0WGhmbkdLV2pBWg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T16:49:07.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Calendrier financier."
+    },
+    {
       "id": "ced5a56328",
       "title": "Les Bourses européennes terminent dans le rouge",
       "summary": "Les Bourses européennes terminent dans le rouge TradingView",
@@ -163,6 +918,40 @@
       "score": 0,
       "status": "ignored",
       "international": true
+    },
+    {
+      "id": "75c6d4947e",
+      "title": "FIGEAC AÉRO: CHIFFRE D’AFFAIRES S1 2026/27",
+      "summary": "FIGEAC AÉRO: CHIFFRE D’AFFAIRES S1 2026/27 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BeE5GX0xrdjVyei1pZGZYNjYwUVN2QnBRYmE0ZXo4dk5SeUJfcE9LWVZPeE95WVktZGJCLWtkeXJ3ajNiOHNNcFctWGhGOTM2M2dtb2dESjhfQlQ3eDZua2ZB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T16:46:25.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Chiffre d'affaires d'une petite valeur."
+    },
+    {
+      "id": "314c5020da",
+      "title": "Soitec - Mise à disposition du Rapport financier semestriel 2026 – 2027",
+      "summary": "Soitec - Mise à disposition du Rapport financier semestriel 2026 – 2027 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbDFNLWU4VmVETGY3c1NGYTlRem5QazRQRHNVdWNqUE9BRVhJcXRoYzFtVXUxbEhTRnBTOFQzS3NkbFlmaEZnQ3pRTkxzXzduLU5lVlJ0Z2VCM0pWT0NBek82bTBPLWdxVHRCd19kek9zZy1JWHhQZ3lyRVZrNG15U1BKanA5c1daQUxscHpNcTZxTzhnVVpDemwyZ0hXWU5QN25Tb3NkR1JuZVQ0TXZyRVdCOXVPXzUtY182d01Qa095c0o3Smp3TA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T16:45:04.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon Soitec, simple mise à disposition."
     },
     {
       "id": "0bd2131ce3",
@@ -191,8 +980,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Agenda des résultats, refusé."
     },
     {
       "id": "edf8b64343",
@@ -251,7 +1042,9 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Calendrier pratique, sujet social peu viral."
     },
     {
       "id": "1d5d98cfa3",
@@ -280,8 +1073,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Avis d'analyste, refusé."
     },
     {
       "id": "bc40740bbc",
@@ -295,8 +1090,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Mouvement d'actions mineur."
     },
     {
       "id": "2a2d35478c",
@@ -355,8 +1152,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Microcap suédoise inconnue."
     },
     {
       "id": "e7ebdc5cbf",
@@ -385,8 +1184,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Événement investisseurs de niche."
     },
     {
       "id": "f710d1f6d3",
@@ -400,7 +1201,9 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Contenu promotionnel."
     },
     {
       "id": "03a48cd755",
@@ -489,7 +1292,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Nvidia coupe la Chine, tension géopolitique notable.",
+      "hook": "Nvidia coupe ses livraisons de puces à la Chine"
     },
     {
       "id": "468aca8d6c",
@@ -518,8 +1324,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société inconnue."
     },
     {
       "id": "609c2a0f47",
@@ -535,6 +1343,23 @@
       "score": 0,
       "status": "ignored",
       "international": true
+    },
+    {
+      "id": "d0d9d18e1f",
+      "title": "Nvidia : deux questions clés restent sans réponse pour les investisseurs",
+      "summary": "Nvidia : deux questions clés restent sans réponse pour les investisseurs TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vZFp6YWZRQmh4T3o3Q183TVZVT2hvY2dXd0tpdEpIeUZkUmw5X09sMlNKdlZOX3JUbTlCWl9GaG1CbkNHaE9Ja2VxMlpTeUZRb3Fwc3lQYWw1V2JQOEY4bDNVUVpJQQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T15:46:45.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Analyse Nvidia proche des sujets refusés."
     },
     {
       "id": "490b6424f6",
@@ -563,8 +1388,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "IPO Anthropic, sujet déjà refusé plusieurs fois."
     },
     {
       "id": "a99a2c5fd1",
@@ -698,7 +1525,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Chiffre record sur un placement populaire.",
+      "hook": "PER : 165 milliards d'euros, les Français ne s'arrêtent plus"
     },
     {
       "id": "e5a6544044",
@@ -712,8 +1542,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats sans intérêt."
     },
     {
       "id": "44e14ea6d3",
@@ -757,7 +1589,9 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "21m2",
       "score": 6,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Point juridique pratique mais mineur."
     },
     {
       "id": "3404cf70c3",
@@ -786,8 +1620,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché, refusé."
     },
     {
       "id": "8ece3764de",
@@ -996,8 +1832,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "5b5145b8ee",
@@ -1026,7 +1864,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new"
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Prédiction choc d'un ex-patron de la SEC sur la bulle IA.",
+      "hook": "L'ex-gendarme de Wall Street prédit un krach de l'IA avant 2028"
     },
     {
       "id": "d1ab4dfe92",
@@ -1055,8 +1896,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Actu technique peu parlante."
     },
     {
       "id": "e5ec26f82c",
@@ -1100,8 +1943,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Résultats Nvidia, angle déjà refusé."
     },
     {
       "id": "74482c3141",
@@ -1115,8 +1960,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon."
     },
     {
       "id": "f0b142598c",
@@ -1130,8 +1977,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché."
     },
     {
       "id": "5a6748c2a4",
@@ -1160,8 +2009,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché."
     },
     {
       "id": "0ec4f41a63",
@@ -1203,9 +2054,11 @@
       "via": "rss",
       "publishedAt": "2026-11-18T14:36:44.000Z",
       "collectedAt": "2026-11-18T15:07:29.535Z",
-      "brand": "21m2",
+      "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Annonce politique sur matière de niche."
     },
     {
       "id": "cd82640eb2",
@@ -1219,8 +2072,10 @@
       "collectedAt": "2026-11-18T17:07:29.638Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Suite mineure de l'éviction de Huang."
     },
     {
       "id": "7c914b9138",
@@ -1279,8 +2134,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon recommandation d'analyste."
     },
     {
       "id": "9e81bc65dc",
@@ -1339,8 +2196,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché."
     },
     {
       "id": "2b2a772cd3",
@@ -1354,7 +2213,9 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Info pratique retraite sans enjeu."
     },
     {
       "id": "32d3c4b79d",
@@ -1381,9 +2242,11 @@
       "via": "découverte",
       "publishedAt": "2026-11-18T14:15:54.000Z",
       "collectedAt": "2026-11-18T15:07:29.535Z",
-      "brand": "21m2",
+      "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Sanction d'un assureur connu, intérêt limité."
     },
     {
       "id": "f4a750d8f6",
@@ -1397,8 +2260,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Lancement d'ETF, refusé."
     },
     {
       "id": "8805b9709f",
@@ -1637,8 +2502,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste, refusé par l'éditeur."
     },
     {
       "id": "ae876cd768",
@@ -1815,9 +2682,11 @@
       "via": "rss",
       "publishedAt": "2026-11-18T13:56:42.000Z",
       "collectedAt": "2026-11-18T15:07:29.535Z",
-      "brand": "21m2",
+      "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Opération financière d'Accor peu grand public."
     },
     {
       "id": "181e624498",
@@ -1831,8 +2700,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "b0848a3564",
@@ -1861,7 +2732,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "new",
+      "aiScore": 7,
+      "reason": "Feuilleton Huang qui passionne : l'ex-patron de Nvidia convoqué au Congrès.",
+      "hook": "Jensen Huang convoqué au Congrès : les puces Nvidia en Chine"
     },
     {
       "id": "f2a92b660f",
@@ -1965,8 +2839,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Actu suédoise de niche."
     },
     {
       "id": "83205d745a",
@@ -1980,8 +2856,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Prévision macro technique, peu engageante."
     },
     {
       "id": "8b15857934",
@@ -1996,7 +2874,10 @@
       "brand": "investisseur",
       "score": 5,
       "status": "new",
-      "international": true
+      "international": true,
+      "aiScore": 6,
+      "reason": "Résultats Nvidia, sujet fort mais déjà largement couvert.",
+      "hook": "Nvidia cartonne, mais qui remplacera Jensen Huang ?"
     },
     {
       "id": "e90aea323d",
@@ -2040,8 +2921,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Revue crypto hebdo générique."
     },
     {
       "id": "ec0bd10572",
@@ -2055,8 +2938,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon résultats Nvidia, point de marché."
     },
     {
       "id": "6382c310ca",
@@ -2085,8 +2970,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Distributeur US peu connu en France."
     },
     {
       "id": "74fb8c88fa",
@@ -2415,8 +3302,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 7,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché, doublon Nvidia."
     },
     {
       "id": "1f708f47de",
@@ -2430,8 +3319,10 @@
       "collectedAt": "2026-11-18T15:07:29.535Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Mouvement de cours ponctuel."
     },
     {
       "id": "ea7b572c95",
@@ -2520,8 +3411,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Entreprise étrangère inconnue."
     },
     {
       "id": "4cb1200fb8",
@@ -2595,8 +3488,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Résultats trimestriels de niche."
     },
     {
       "id": "f9c5000916",
@@ -2657,8 +3552,10 @@
       "collectedAt": "2026-11-18T13:07:25.460Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Titre vide, doublon."
     },
     {
       "id": "a6da9dac92",
@@ -2717,8 +3614,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Minière inconnue."
     },
     {
       "id": "94fe5b2b6e",
@@ -2897,8 +3796,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "4ca68fe886",
@@ -2927,8 +3828,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Dégradation d'analyste, sujet refusé."
     },
     {
       "id": "43b2daa85d",
@@ -2972,8 +3875,10 @@
       "collectedAt": "2026-11-18T13:07:25.460Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contenu sans intérêt."
     },
     {
       "id": "0b260d0a45",
@@ -3062,7 +3967,10 @@
       "collectedAt": "2026-11-18T13:07:25.460Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Faillite d'un assureur vie, inquiète les épargnants.",
+      "hook": "Assurance vie en faillite : les épargnants lésés appelés à agir"
     },
     {
       "id": "104c011d70",
@@ -3076,7 +3984,9 @@
       "collectedAt": "2026-11-18T13:07:25.460Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Matière première, point de marché."
     },
     {
       "id": "da26ce099e",
@@ -3120,7 +4030,9 @@
       "collectedAt": "2026-11-18T13:07:25.460Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Expansion asiatique de Binance, peu d'impact France."
     },
     {
       "id": "1fe5e59a49",
@@ -3149,8 +4061,10 @@
       "collectedAt": "2026-11-18T13:07:25.460Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Résultats sans surprise."
     },
     {
       "id": "53bd71fc10",
@@ -3179,8 +4093,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Entreprise US peu connue."
     },
     {
       "id": "b8f232ecf0",
@@ -3194,7 +4110,9 @@
       "collectedAt": "2026-11-18T13:07:25.460Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Sujet institutionnel peu engageant."
     },
     {
       "id": "04aff6a036",
@@ -3223,8 +4141,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Lancement d'ETF, refusé."
     },
     {
       "id": "13322867b0",
@@ -3238,7 +4158,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Budget/politique, rejeté par l'éditeur."
     },
     {
       "id": "d9e724356d",
@@ -3252,8 +4174,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "0f1a6a279f",
@@ -3342,7 +4266,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "21m2",
       "score": 6,
-      "status": "new"
+      "status": "new",
+      "aiScore": 8,
+      "reason": "Chiffre record sur l'encadrement des loyers, très clivant.",
+      "hook": "75 000 € remboursés : le record d'un locataire parisien"
     },
     {
       "id": "345af10b22",
@@ -3371,7 +4298,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Sujet bulle IA technique."
     },
     {
       "id": "8a84d5f03f",
@@ -3445,7 +4374,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Inflation confirmée, peu de surprise."
     },
     {
       "id": "4536b08d42",
@@ -3459,7 +4390,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Point pétrole refusé."
     },
     {
       "id": "968676ff90",
@@ -3471,9 +4404,12 @@
       "via": "rss",
       "publishedAt": "2026-11-18T10:48:03.000Z",
       "collectedAt": "2026-11-18T11:07:24.842Z",
-      "brand": "21m2",
+      "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "new",
+      "aiScore": 6,
+      "reason": "GTA 6 grand public mais Take-Two déjà validé.",
+      "hook": "GTA 6 : les chiffres fous du jeu le plus attendu"
     },
     {
       "id": "2da77bc148",
@@ -3500,9 +4436,11 @@
       "via": "rss",
       "publishedAt": "2026-11-18T10:44:05.000Z",
       "collectedAt": "2026-11-18T11:07:24.842Z",
-      "brand": "21m2",
+      "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Doublon GTA 6."
     },
     {
       "id": "6c268a8c6e",
@@ -3531,8 +4469,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché."
     },
     {
       "id": "532c24e319",
@@ -3559,9 +4499,11 @@
       "via": "rss",
       "publishedAt": "2026-11-18T10:37:30.000Z",
       "collectedAt": "2026-11-18T11:07:24.842Z",
-      "brand": "21m2",
+      "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Sujet similaire déjà refusé."
     },
     {
       "id": "cc87228e8c",
@@ -3590,7 +4532,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Seuil Bitcoin, type refusé."
     },
     {
       "id": "2712cfc7c0",
@@ -3604,8 +4548,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 8,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon point Bitcoin."
     },
     {
       "id": "da64a010c6",
@@ -3619,7 +4565,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "21m2",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Prestations sociales, refusé."
     },
     {
       "id": "8b3648c0c5",
@@ -3633,7 +4581,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "21m2",
       "score": 5,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Sujet séparation déjà refusé."
     },
     {
       "id": "a731bfee9f",
@@ -3677,8 +4627,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Petite actu produit technique, typique des refus de l'éditeur."
     },
     {
       "id": "250d41cd44",
@@ -3708,8 +4660,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Point de marché du jour, refusé systématiquement."
     },
     {
       "id": "c6f75be0cc",
@@ -3738,7 +4692,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Inquiétude sur l'épargne qui parle aux Français, mais simple sondage sans fait nouveau.",
+      "hook": "Un Français sur trois a peur pour son épargne"
     },
     {
       "id": "bea5928f17",
@@ -3752,8 +4709,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché sans intérêt."
     },
     {
       "id": "3ca9e2f549",
@@ -3782,8 +4741,11 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Une inflation à 4 % en zone euro, c'est un chiffre fort qui pèse sur les taux de la BCE, mais il ne fait que confirmer un chiffre déjà publié.",
+      "hook": "Inflation à 4 % : la BCE va-t-elle remonter ses taux ?"
     },
     {
       "id": "5f2f80edad",
@@ -3797,7 +4759,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Budget de l'État et politique, sujets que l'éditeur refuse."
     },
     {
       "id": "57a971ea6c",
@@ -3811,8 +4775,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Pétrole en repli, déjà refusé."
     },
     {
       "id": "cd3dd853e3",
@@ -3871,7 +4837,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Changement de règle concret pour bailleurs et locataires.",
+      "hook": "Encadrement des loyers : prolongé de deux ans, ce qui change"
     },
     {
       "id": "0e879f1bb6",
@@ -3885,7 +4854,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Simples revendications d'un lobby adressées aux candidats, sans changement de règle effectif."
     },
     {
       "id": "4bfae560f8",
@@ -4319,6 +5290,23 @@
       "score": 2,
       "status": "ignored",
       "international": true
+    },
+    {
+      "id": "5035a849cc",
+      "title": "Crystal Intelligence Previews AI Agent for Crypto Investigations",
+      "summary": "Crystal Intelligence Previews AI Agent for Crypto Investigations TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb3d0aVJ0dS1Gc1dNUnM0SV9OdkRXYWJoQ3RGVy1IZ3I1Q2NIcXRJOXRheWtIREwwTklva2I1dzc5bDlQMzIxbkpNUTViNy1PZjRlcll0VGJVakN5YUZKNGlLQUROWVZVWkw3NGxyTlluRm1Fckp2UTZmV0ZRVEJJdkVRMVVmd1pYZlVLTEczV0RTcC1rcFFOUy12dXdBYmdMd25tUTd4d2lHU1lxX2NSd1NkT2F5MGNtLVBka00tc1ZSSWM?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T08:55:40.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Lancement produit de niche."
     },
     {
       "id": "5ea8ab0874",
@@ -7440,6 +8428,23 @@
       "international": true
     },
     {
+      "id": "c8784e65a2",
+      "title": "DraftKings Director Purchased Shares Worth Over $1M",
+      "summary": "DraftKings Director Purchased Shares Worth Over $1M TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQXzF3bDZRSnhQaTUwZnBueFN5VDFEUllCM1NKYnk0MHZtUF9seU1xT05PME4tanpkWEIyMkkwNWdWZ0xjaWl4aGRoV0FEWEc0a29HQVRQMmNINnFncnE1UVVKQndGT0JYUmlGQkYwcFZBcVNseGh5VmxDNy1uZ2JCWWxCSWFnNnRXS0VnenVUZThhYnBQMkIyei1uU1Ayd2U0ZnM0R0xtQnFMZUNIdU85Uw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-17T21:20:01.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Achat d'initié étranger."
+    },
+    {
       "id": "9d6aaf5c44",
       "title": "United Parcel Service va acquérir Smartways Logistics",
       "summary": "United Parcel Service va acquérir Smartways Logistics Zonebourse Suisse",
@@ -10482,6 +11487,23 @@
       "score": 0,
       "status": "ignored",
       "international": true
+    },
+    {
+      "id": "0cb41fd271",
+      "title": "Energizer Q4 2026 Earnings Call Is Live",
+      "summary": "Energizer Q4 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbmVMR0lYU21fYjB0UDVocUthRTgtM2d0dUpITUpQeTNvZU16U3pvbWRMMnRPeTVaMl9vbWl1N3E4NGdvdEtSbW5GdnBYakxEQjBIdUVPd2VEYnFKTHF2WXB2OTdBYnRqTnFnUC1XV2JFM3I5WDF1SnZPb0lVNnJYSXFZM0l3cUdVaW9LclZlMXZ5dHdCMVJqaGhDS2d6T3I1STViT1JoQ3FLdHc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-17T14:57:02.000Z",
+      "collectedAt": "2026-11-18T19:07:23.095Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats sans intérêt."
     },
     {
       "id": "89286991fd",
@@ -95566,5 +96588,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-18T17:07:35.935Z"
+  "updatedAt": "2026-11-18T19:08:37.164Z"
 }
