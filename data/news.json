@@ -1,6 +1,177 @@
 {
   "items": [
     {
+      "id": "9ac1f85279",
+      "title": "OptiBiotix Health signe un accord avec CK Ingredients",
+      "summary": "OptiBiotix Health signe un accord avec CK Ingredients Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV3JvR0gyTDNSZ0pHRTE1ZU5FSEItbHg1aXI4RFQyT2ZQQ2R2NHdRdkhBOThYeFFQMWdNS3BrSTNjWFRYYkVNTGJHX3ZRei1UWkJfUUVKY3dJTVBqSmpTMmpBd2lEX1hfTFVWdk9mWjk2aHExMHdobDdreUVpLWhMWDhoa2kwR0N3LWY5X2ZwSlJGTnZBR3hueUR6WmdjX09vUkZYdm1USU9obm05bE5SSGNrMA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T20:53:19.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petit contrat d'une small cap inconnue."
+    },
+    {
+      "id": "89525619c5",
+      "title": "Anthropic dépose son prospectus définitif au Canada",
+      "summary": "Anthropic dépose son prospectus définitif au Canada Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSWMteTZXVEdfbUdoRm1kTTU2VHNWcFFnY3FwWk9JZ1FUSF9hSWdVYkxrWV80TlpiZ0NvUFF4SWpsSDRYQm01X3pZS0NmNUFXOU9tei1SU0xKLWpmQUo4VmFFYVdySjVuaUk5b1ZqN0dvSkR2ZHdudVFvcWI0SUg2SFZoSEJMeXNGbDlySHpKb0VIbFItRURTRHBraXVsdHNkZVZfbWQ0VmVZMjlud3BJNA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T20:51:19.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Détail administratif de l'IPO Anthropic, doublon."
+    },
+    {
+      "id": "9ef4b0beaa",
+      "title": "La perspective d'une Fed ferme soutient le dollar",
+      "summary": "La perspective d'une Fed ferme soutient le dollar TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hdGlOQ2xNUmRpRFVMbHN1MEY0ODd1X01weUpJVmZwZGRpNXpIZS1nS2hzSTZ3b3dXY3NNZ1UteVRDeGlxRm8zQVVSTnN2MXJ0UXdRNzdHRFZDWHl0WlJQU2N3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T20:20:36.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Doublon technique sur la Fed et le dollar."
+    },
+    {
+      "id": "4de8237c39",
+      "title": "Une commission de la Chambre des représentants américaine demande à Microsoft de faire le point sur les négociations qui auraient eu lieu concernant un accord dans le domaine de l'IA avec la société chinoise ByteDance",
+      "summary": "Une commission de la Chambre des représentants américaine demande à Microsoft de faire le point sur les négociations qui auraient eu lieu concernant un accord dans le domaine de l'IA avec la société chinoise ByteDance TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JU3hFbkU3Nm1RZnc4dkExaUMtTmVkV1Z2XzdROXVFWWZsTHRfd3RsVzdXU1ZtYU5DSzcxR09kTGNDay1FSU4zY3QwOVhfZzBWZFd3MlBuOG50bnFqMVpvZWpnX1Z3bWpnZGFrOUtUOFBoZDhuaGtJ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T20:19:52.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Enquête parlementaire US technique, peu d'impact pour les Français."
+    },
+    {
+      "id": "8cd588d063",
+      "title": "Un relèvement des taux directeurs semble inéluctable (minutes Fed)",
+      "summary": "Un relèvement des taux directeurs semble inéluctable (minutes Fed) Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWlFUSS1XTlJucjFxNUNWVnpjRS1CcVR0Y0llMDcybWZRTFpiS0RKYXJLbU9vTEU2X1hQMEVWRnJHdmtOaWR3QlFZb25UcFQ3bkNYX3VyS2ZPNVZ3V3RhQmg1QmdSNjdTRjlqQUNxd19CcGpYS2c4T2hLWVVVeWFHeUthUGZ0amZsLW9WRmU5Zm9CX1JPUkZpM3FCTGU3RWhvOVBSOUU0WVBzQTRZM2RuTU56ZmlLU281N3JZMXpWUmJjZw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T19:46:20.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "new",
+      "international": true,
+      "aiScore": 6,
+      "reason": "Hausse des taux de la Fed inéluctable : surprise forte pour les marchés et le crédit.",
+      "hook": "La Fed s'apprête à remonter ses taux : qui va payer ?"
+    },
+    {
+      "id": "732bfed1fe",
+      "title": "Plus fortes baisses à mi-séance",
+      "summary": "Plus fortes baisses à mi-séance Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSVdnYS0tQmJFYTZ0bzc4ejR2bmljZk9NWlFkSVBzYmdGOHQwUkdwVEtYUmpOUHNnQUhTeFpBOHlpY0ZuTUp2SUlCYkZuZnpqRF9nNzJOVGtQQ1lFWFZWXzFRWmlmdFBiVm02T2VoWm1iUGV1cHZuMDlRLXNHMkhDOW0wOHo0QXZBc1d0ZHpvZFdLa3Z1U1E?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T19:26:14.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché du jour."
+    },
+    {
+      "id": "5e6bddfb8e",
+      "title": "Macron chez Airbus lundi à Toulouse",
+      "summary": "Macron chez Airbus lundi à Toulouse TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HeHhoLTBmcmUtdFJTYnBaUEh2NW9SRHFsMExJaTBpNTZwOTd2VUJQRkdQUFpKTTk1YVZRLVFoX3NJbUZ0aTRjbU5UaFZqdUIzSkoyWlp6b013Ui1MRllHbzRR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T19:21:24.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Visite présidentielle sans annonce chiffrée, trop politique."
+    },
+    {
+      "id": "f50f81ae95",
+      "title": "PlayStation de Sony signale des problèmes de service",
+      "summary": "PlayStation de Sony signale des problèmes de service Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLUFjNmcxOE0yem02TnJpaGVFTEVTSklDS0NGb1NtQjFiWXRWSjVwdEhkN3pTSXRCYW1MNnlLZFRqT2ZtODMwaTBPN2w0YkVOcTEtNloybEFuU3lwYVJjVDc0UXRjM1NmUVZ2WHp3dG1xY1dNdk5LaEFCajQxRG9hdS1WZXRrcEo2N3ZQZzdmdG5HR0M4aWN0SEEwZy02RFJpNUkyOGNxSVpPM0tyWUM1WlpB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T19:14:26.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Panne de service sans enjeu financier."
+    },
+    {
+      "id": "c0bf5f9976",
+      "title": "90 emplois à la trappe finalement chez Zenith au Locle",
+      "summary": "90 emplois à la trappe finalement chez Zenith au Locle Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZjJkTWZCeGdjZFdOMlN2cjB0QzdLOW5LQmtUeW5pVHl2NVRYUWkyQWtBREd6VTRQYzhYSmhIUGNsUTRpNDVRVDZGNnQ5dFBkTUdnNGtzZE1Xa2h0QzlqUEM4Z1pJVTJiLXltNjEyLTV5Vjc5OG9SVGxXUWpKWW11MUQ4c2xyb3A3bXhVcXhVYi1pQkZYMVd4c1oxUVJjS1prZnJvbHR0Q1hGMjY0V014RTc4NVQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T19:07:19.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Suppression de postes locale en Suisse."
+    },
+    {
+      "id": "ea47b09929",
+      "title": "The Trade Desk annonce des changements au sein de sa direction",
+      "summary": "The Trade Desk annonce des changements au sein de sa direction Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbm9UWXV4MEhqY3I1MWg1ZWVMQ1dtLTFicVAyeXBKcUdZNkNqZnJyRnF3RGk1bUNqd1o0bGZqNmFYaFRmUGJtQ1J5QjRYOEhNM1U1aU5YVG9JTHhlbWk2Y0xBbmJwR1ZBek1yblRUd0ZEUzlTYVRZZ3praU0xM2NEeDZadXNMZm1KcFdmM1gtV2QzcF9pcHoxWjRGMW4wSlEzQXZkVUVxYWhac09iUTYzMF8tOW5kbmI2Y0pZRnBkR3A?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-18T19:06:02.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Changement de direction d'une société peu connue."
+    },
+    {
       "id": "94e9457a8c",
       "title": "Fed : Christopher Waller plaide pour une réponse monétaire plus musclée",
       "summary": "Fed : Christopher Waller plaide pour une réponse monétaire plus musclée Zonebourse",
@@ -47,8 +218,8 @@
       "score": 6,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement de règles concret sur le dispositif Jeanbrun qui remplace le Pinel.",
-      "hook": "Jeanbrun : ce que les députés viennent de changer pour investir",
+      "reason": "Changements concrets du dispositif Jeanbrun pour les investisseurs locatifs.",
+      "hook": "Jeanbrun : ce que les députés changent pour votre investissement locatif",
       "notifiedAt": "2026-11-18T19:07:23.095Z"
     },
     {
@@ -807,8 +978,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Changement de règle majeur pour les bailleurs avec rebondissement parlementaire.",
-      "hook": "Passoires thermiques : la fin de l'interdiction de louer déjà menacée ?"
+      "reason": "Coup de théâtre sur l'interdiction de louer les passoires F et G, enjeu énorme pour les bailleurs.",
+      "hook": "Passoires F et G : l'interdiction de louer va-t-elle vraiment sauter ?"
     },
     {
       "id": "9bde9b8d45",
@@ -1626,6 +1797,23 @@
       "reason": "Point de marché, refusé."
     },
     {
+      "id": "f85b0b9537",
+      "title": "L'Afrique du Nord devient la première destination aérienne pour l'Europe",
+      "summary": "L'Afrique du Nord devient la première destination aérienne pour l'Europe TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4dWZETm5hMjkzLXVTVEZaN0Q1cU9wd3JIc09RTkkzMEhsSEJCOVR2X1NoQ0tKYU80OGJDRldQMTMtNTFILUNtR3gxXzRJaHhObjdJb0lBVWtrWXUwTlk0OVFB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T15:14:17.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Tendance tourisme aérien, peu d'angle argent."
+    },
+    {
       "id": "8ece3764de",
       "title": "Merck KGaA : DZ Bank favorable sur le dossier",
       "summary": "Merck KGaA : DZ Bank favorable sur le dossier Zonebourse Suisse",
@@ -1865,8 +2053,8 @@
       "brand": "investisseur",
       "score": 4,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Prédiction choc d'un ex-patron de la SEC sur la bulle IA.",
+      "aiScore": 7,
+      "reason": "L'ex-patron de la SEC prédit un crash de l'IA : prédiction choc qui fait débattre.",
       "hook": "L'ex-gendarme de Wall Street prédit un krach de l'IA avant 2028"
     },
     {
@@ -2732,9 +2920,9 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "aiScore": 7,
-      "reason": "Feuilleton Huang qui passionne : l'ex-patron de Nvidia convoqué au Congrès.",
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Suite mineure de la saga Huang déjà largement couverte.",
       "hook": "Jensen Huang convoqué au Congrès : les puces Nvidia en Chine"
     },
     {
@@ -2873,10 +3061,10 @@
       "collectedAt": "2026-11-18T13:48:11.379Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Résultats Nvidia, sujet fort mais déjà largement couvert.",
+      "aiScore": 3,
+      "reason": "Résultats Nvidia sur fond de succession, sujet saturé.",
       "hook": "Nvidia cartonne, mais qui remplacera Jensen Huang ?"
     },
     {
@@ -3881,6 +4069,23 @@
       "reason": "Contenu sans intérêt."
     },
     {
+      "id": "f4b71fd2f8",
+      "title": "MMS Q4'26 Earnings: EPS estimate is 1.85 USD",
+      "summary": "MMS Q4'26 Earnings: EPS estimate is 1.85 USD TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMGFCMUJ1VmxJanNsNDNkX1J2U2lNODYtNF83eXJJV2FDQ095WTB0MHQ0LXZuTHR5Vnl5aFZKeEc0U01QazhBRmJiYmdfRUl0OGtVTkVDeWpnTGN6RDBJaVpUTGJITnBMd3FFX1BWRnNVY21Ra0k0eS1zaU9uZExuTFdmcTVvWHY1ZnV1UEZoQXVkV1VOZGhQOWRiWDhfdVFQelZNTGF3NA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-18T12:00:04.000Z",
+      "collectedAt": "2026-11-18T21:07:27.620Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Estimation de résultats d'une société inconnue."
+    },
+    {
       "id": "0b260d0a45",
       "title": "Protocole IBC : La preuve compte, pas le messager",
       "summary": "Protocole IBC : La preuve compte, pas le messager TradingView",
@@ -4268,8 +4473,8 @@
       "score": 6,
       "status": "new",
       "aiScore": 8,
-      "reason": "Chiffre record sur l'encadrement des loyers, très clivant.",
-      "hook": "75 000 € remboursés : le record d'un locataire parisien"
+      "reason": "Remboursement record de 75 000 € : chiffre choc qui fait réagir bailleurs et locataires.",
+      "hook": "75 000 € remboursés à un locataire parisien : un record historique"
     },
     {
       "id": "345af10b22",
@@ -4406,9 +4611,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "GTA 6 grand public mais Take-Two déjà validé.",
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Chiffres impressionnants de GTA 6, mais Take-Two déjà traité.",
       "hook": "GTA 6 : les chiffres fous du jeu le plus attendu"
     },
     {
@@ -4839,8 +5044,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 6,
-      "reason": "Changement de règle concret pour bailleurs et locataires.",
-      "hook": "Encadrement des loyers : prolongé de deux ans, ce qui change"
+      "reason": "Prolongation de l'encadrement des loyers, règle concrète pour les bailleurs.",
+      "hook": "Encadrement des loyers prolongé : ce qui change pour vous"
     },
     {
       "id": "0e879f1bb6",
@@ -4870,7 +5075,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Doublon du vote sur l'encadrement des loyers."
     },
     {
       "id": "ab9cb370ed",
@@ -4884,8 +5091,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Enquête politique US, trop éloignée des Français."
     },
     {
       "id": "cd40eaf56e",
@@ -4899,8 +5108,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Lancement de produit d'épargne promotionnel."
     },
     {
       "id": "06eeac41d2",
@@ -4944,8 +5155,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Actu technique Nvidia-Chine, sujet saturé."
     },
     {
       "id": "3216798a97",
@@ -4959,8 +5172,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Lancement d'ETF refusé par l'éditeur."
     },
     {
       "id": "0c620ba63c",
@@ -4974,8 +5189,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Communiqué promotionnel de mutuelle."
     },
     {
       "id": "6a7a98868d",
@@ -4989,7 +5206,9 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Point de marché du jour."
     },
     {
       "id": "58ad45b2f7",
@@ -5123,8 +5342,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Analyse d'une entreprise japonaise sans surprise."
     },
     {
       "id": "2c534a36d9",
@@ -5198,8 +5419,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon point de marché."
     },
     {
       "id": "10e49adb08",
@@ -5350,8 +5573,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché du jour."
     },
     {
       "id": "ff131a6aad",
@@ -5365,8 +5590,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Résultats Nvidia, sujet déjà saturé."
     },
     {
       "id": "551290c7b6",
@@ -5410,8 +5637,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Note d'analyste sur une société obscure."
     },
     {
       "id": "f3fa3c47e2",
@@ -5455,8 +5684,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché du jour."
     },
     {
       "id": "f32d259a1d",
@@ -5500,7 +5731,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Ouverture de marché quotidienne."
     },
     {
       "id": "f7a6ddd388",
@@ -5514,8 +5747,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Révision de prévision peu connue en France."
     },
     {
       "id": "3e42ed67ef",
@@ -5529,8 +5764,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Analyse de résultats Adidas sans surprise majeure."
     },
     {
       "id": "5842dfdeca",
@@ -5604,8 +5841,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché de Francfort."
     },
     {
       "id": "112e6499f0",
@@ -5619,8 +5858,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Titre sans contenu exploitable."
     },
     {
       "id": "e4fa08eb0e",
@@ -5634,7 +5875,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new"
+      "status": "new",
+      "aiScore": 6,
+      "reason": "IPO historique proche de 100 Md$, mais l'éditeur a refusé plusieurs sujets Anthropic.",
+      "hook": "Anthropic : l'introduction en Bourse qui pourrait frôler 100 milliards"
     },
     {
       "id": "4d69e40a0e",
@@ -5678,7 +5922,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Feuille de route d'une filiale italienne, peu engageant."
     },
     {
       "id": "665548c59b",
@@ -5692,8 +5938,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste, sujet refusé par l'éditeur."
     },
     {
       "id": "e7c33a24f7",
@@ -5707,7 +5955,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "new",
+      "aiScore": 7,
+      "reason": "Rebondissement majeur dans la saga Nvidia : retour de Huang exclu et enquête de la SEC.",
+      "hook": "Nvidia : Jensen Huang ne reviendra pas, la SEC enquête"
     },
     {
       "id": "bf39aa79dd",
@@ -5751,7 +6002,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Réaction de marché secondaire à l'étranger."
     },
     {
       "id": "8fa6227242",
@@ -5810,7 +6063,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 8,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Point de marché du jour."
     },
     {
       "id": "369b11cca5",
@@ -5837,9 +6092,11 @@
       "via": "rss",
       "publishedAt": "2026-11-18T08:00:15.000Z",
       "collectedAt": "2026-11-18T09:07:22.422Z",
-      "brand": "investisseur",
+      "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Sujet technique de niche pour les promoteurs."
     },
     {
       "id": "abc9042c87",
@@ -5853,7 +6110,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Clôture de la Bourse de Tokyo, sans intérêt."
     },
     {
       "id": "a8f64a544f",
@@ -5882,7 +6141,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Inflation britannique, peu d'impact en France."
     },
     {
       "id": "e364eb4060",
@@ -5926,8 +6187,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Déclaration politique sur l'IA."
     },
     {
       "id": "139cc5560c",
@@ -5941,8 +6204,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Rachat d'actions d'une petite société inconnue."
     },
     {
       "id": "0245fab263",
@@ -5956,7 +6221,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Marché immobilier étranger."
     },
     {
       "id": "1cedd0babd",
@@ -5970,7 +6237,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Doublon de l'actu sur le vote des passoires thermiques."
     },
     {
       "id": "f9b7eb12d2",
@@ -6014,8 +6283,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon sur l'inflation britannique."
     },
     {
       "id": "047fe4d50d",
@@ -6059,8 +6330,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché du jour."
     },
     {
       "id": "767d4707a0",
@@ -6104,8 +6377,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Banque centrale lointaine."
     },
     {
       "id": "029355ea2a",
@@ -6194,8 +6469,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon."
     },
     {
       "id": "38b3d50134",
@@ -6209,8 +6486,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon."
     },
     {
       "id": "23981d9a19",
@@ -6254,7 +6533,9 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "21m2",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Financement de la rénovation, ressemble aux sujets refusés."
     },
     {
       "id": "821b704f34",
@@ -6313,8 +6594,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon."
     },
     {
       "id": "ec2c15e12d",
@@ -6373,7 +6656,9 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "21m2",
       "score": 6,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Prix local, déjà couvert par le carousel sur les prix des grandes villes."
     },
     {
       "id": "f70eb4c081",
@@ -6477,8 +6762,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Agenda d'un marché étranger."
     },
     {
       "id": "2516cd9d87",
@@ -6522,8 +6809,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "3495daa2cb",
@@ -6537,7 +6826,9 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Angle local peu fédérateur."
     },
     {
       "id": "6f35d520e6",
@@ -6596,8 +6887,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Analyse Nvidia/Anthropic proche des sujets refusés."
     },
     {
       "id": "429ab4b88e",
@@ -6671,8 +6964,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "b975ca825d",
@@ -6701,8 +6996,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste."
     },
     {
       "id": "401c1a7c72",
@@ -6776,8 +7073,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Agenda d'un marché étranger."
     },
     {
       "id": "425ffd9cad",
@@ -6791,8 +7090,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Chiffre d'affaires d'une petite capitalisation."
     },
     {
       "id": "12e828f4cd",
@@ -6821,8 +7122,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Agenda d'un marché étranger."
     },
     {
       "id": "3a13b7676e",
@@ -6836,7 +7139,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "21m2",
       "score": 8,
-      "status": "new"
+      "status": "new",
+      "aiScore": 8,
+      "reason": "Classement chiffré frappant et utile à ceux qui veulent acheter.",
+      "hook": "1 000 €/mois : 17 m² à Paris, 135 m² ailleurs"
     },
     {
       "id": "6029cdccfa",
@@ -6850,7 +7156,9 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Conseil patrimonial générique."
     },
     {
       "id": "41e5f0c71f",
@@ -6924,8 +7232,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Portrait d'Anthropic, sujet refusé à plusieurs reprises."
     },
     {
       "id": "8f0f0eb550",
@@ -6969,8 +7279,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Sondage tourisme sans enjeu financier."
     },
     {
       "id": "bdd782c6f0",
@@ -6999,7 +7311,9 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Statistique French Tech peu spectaculaire."
     },
     {
       "id": "017bf2378f",
@@ -7013,7 +7327,10 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new"
+      "status": "new",
+      "aiScore": 9,
+      "reason": "Changement de règle majeur et clivant pour les bailleurs : fin des interdictions de louer les passoires thermiques.",
+      "hook": "Passoires thermiques : les députés autorisent à nouveau leur location"
     },
     {
       "id": "57e1a3ff68",
@@ -7027,7 +7344,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "21m2",
       "score": 3,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Coulisses de M6 et de l'après-Stéphane Plaza, une marque connue.",
+      "hook": "Après Stéphane Plaza, M6 lance son propre réseau d'agences"
     },
     {
       "id": "309468fc69",
@@ -7206,7 +7526,9 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new"
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Conseil fiscal générique."
     },
     {
       "id": "a7549bd592",
@@ -7220,8 +7542,10 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Agenda d'un marché étranger."
     },
     {
       "id": "1feef425bf",
@@ -7265,8 +7589,10 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Déclaration politique."
     },
     {
       "id": "20307f234c",
@@ -7325,8 +7651,10 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 7,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché d'un marché étranger."
     },
     {
       "id": "3f7a8e8a27",
@@ -7415,8 +7743,10 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Cours de change de niche."
     },
     {
       "id": "f8d9f4f35b",
@@ -7640,8 +7970,10 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché local étranger, refusé par l'éditeur."
     },
     {
       "id": "456fc18748",
@@ -7670,8 +8002,10 @@
       "collectedAt": "2026-11-18T11:07:24.842Z",
       "brand": "investisseur",
       "score": 7,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Point de marché asiatique, sans intérêt pour l'éditeur."
     },
     {
       "id": "ac549834ef",
@@ -7760,8 +8094,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point d'ouverture de la Bourse de Paris, explicitement refusé."
     },
     {
       "id": "4c954c0ecc",
@@ -7820,8 +8156,10 @@
       "collectedAt": "2026-11-18T09:07:22.422Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "L'inflation touche le pouvoir d'achat, mais c'est une donnée macro brute que l'éditeur rejette."
     },
     {
       "id": "0883f04413",
@@ -7850,8 +8188,10 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Suite mineure de la saga Nvidia, déjà couverte."
     },
     {
       "id": "958738b33b",
@@ -7865,8 +8205,11 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Rebondissement dans le feuilleton Huang, mais il risque de faire doublon.",
+      "hook": "Nvidia ferme définitivement la porte à Jensen Huang"
     },
     {
       "id": "cabd114dde",
@@ -7895,8 +8238,11 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Sujet de société sur les paris financiers, mais très américain.",
+      "hook": "Les marchés de prédiction fabriquent des joueurs addicts"
     },
     {
       "id": "0e181f2b1f",
@@ -7925,8 +8271,10 @@
       "collectedAt": "2026-11-18T07:07:24.849Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Clôture du Nikkei, point de marché sans intérêt."
     },
     {
       "id": "029dcf7d10",
@@ -7940,8 +8288,10 @@
       "collectedAt": "2026-11-17T22:50:52.416Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Doublon des résultats Nvidia."
     },
     {
       "id": "10e080916e",
@@ -8180,8 +8530,10 @@
       "collectedAt": "2026-11-17T22:50:52.416Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Rachat d'actions d'une société inconnue en France."
     },
     {
       "id": "d2b019fbba",
@@ -8242,8 +8594,10 @@
       "collectedAt": "2026-11-17T22:50:52.416Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "international": true
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Ventes doublées, mais des résultats trimestriels sur un sujet déjà saturé."
     },
     {
       "id": "b30824b8dc",
@@ -8288,7 +8642,10 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "international": true
+      "international": true,
+      "aiScore": 6,
+      "reason": "Meilleur angle de synthèse : le patron chute mais les milliards restent.",
+      "hook": "Nvidia a perdu son roi, pas ses milliards"
     },
     {
       "id": "da3c8fc8cc",
@@ -96588,5 +96945,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-18T19:08:37.164Z"
+  "updatedAt": "2026-11-18T21:08:27.475Z"
 }
