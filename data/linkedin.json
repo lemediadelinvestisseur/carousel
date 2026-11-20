@@ -1,6 +1,79 @@
 {
   "posts": [
     {
+      "id": "afa383a7f5",
+      "createdAt": "2026-11-20T06:14:40.424Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "L'IA au travail devait nous faire gagner du temps, mais le temps gagné est immédiatement rempli par plus de travail.",
+      "text": "L'IA devait nous faire gagner des heures. Elles sont passées où ?\n\nOn écrit nos mails en 30 secondes.\nOn résume une réunion d'une heure en 5 lignes.\nOn sort une présentation avant la fin du café.\n\nRésultat : on a enfin le temps… de faire trois fois plus de mails, de réunions et de présentations.\n\nLe temps gagné grâce à l'IA a une particularité : il est immédiatement réinvesti dans du travail.\nDes intérêts composés, mais pour la to-do list.\n\nCe vendredi, quelqu'un a vraiment quitté le bureau plus tôt grâce à ChatGPT ? Je veux des preuves.",
+      "image": "carousels/linkedin/2026-11-20/afa383a7f5.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Anakin Padme 4 Panel",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "J'utilise l'IA au boulot pour gagner du temps",
+          "Pour finir plus tôt le vendredi, hein ?",
+          "Pour finir plus tôt le vendredi, hein ?"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-20T06:14:47.575Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "d7a33c8679",
+      "createdAt": "2026-11-20T06:14:36.165Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Les Français délaissent la pierre pour la Bourse, et c'est le créateur d'un média immo qui le constate.",
+      "text": "Les Français délaissent la pierre pour la Bourse. Et j'ai un média immo. 🙃\n\nEn douze ans, la part de l'immobilier dans le patrimoine des Français a reculé, au profit des actifs financiers.\n\nOn peut comprendre.\nD'un côté : un crédit sur 25 ans, un notaire, un DPE, une taxe foncière qui grimpe et un chauffe-eau qui lâche un dimanche.\nDe l'autre : un ETF qu'on achète en trois clics, en pyjama.\n\nBon, la pierre n'a pas dit son dernier mot.\nPersonne n'a encore réussi à habiter dans un ETF.\n\nEt toi, team brique ou team bouton « Acheter » ?",
+      "image": "carousels/linkedin/2026-11-20/d7a33c8679.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Drake Hotline Bling",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Bloquer 25 ans de salaire dans un T2",
+          "Acheter 1 500 entreprises depuis son canapé"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-20T06:14:40.424Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "7d1cbcde57",
+      "createdAt": "2026-11-20T06:14:28.731Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Un locataire parisien récupère 75 000 € de loyers trop payés : tout Paris ressort son vieux bail ce week-end.",
+      "text": "75 000 €. C'est ce qu'un locataire parisien vient de récupérer en loyers trop payés.\n\nCe week-end, à Paris, il va se passer un truc inédit.\nDes gens vont ouvrir le carton « PAPIERS » qu'ils n'ont pas touché depuis trois déménagements.\nRessortir le bail.\nChercher la surface exacte.\nSortir la calculatrice du téléphone.\n\nEt en prime, l'encadrement des loyers vient d'être prolongé de deux ans.\nCôté bailleurs, le vendredi soir s'annonce un peu moins détendu.\n\nPetit rappel quand même : le loyer de référence, ça se vérifie avant de signer. Pas seulement après avoir lu les journaux.\n\nToi, tu sais exactement combien de m² fait ton logement ? Ou c'est « environ 30, je crois » ?",
+      "image": "carousels/linkedin/2026-11-20/7d1cbcde57.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "person sitting on floor surrounded by boxes of old paperwork documents searching",
+        "caption": "Un locataire parisien vient de récupérer 75 000 € de loyers trop payés. Tous les locataires de Paris ce week-end :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-20T06:14:36.165Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "23124b5308",
       "createdAt": "2026-11-15T06:14:27.718Z",
       "origin": "auto",
@@ -431,5 +504,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-15T06:14:33.357Z"
+  "updatedAt": "2026-11-20T06:14:47.575Z"
 }
