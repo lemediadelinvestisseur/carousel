@@ -1,6 +1,227 @@
 {
   "items": [
     {
+      "id": "657ca49e34",
+      "title": "Claude, comment faire rebondir le marché ?",
+      "summary": "Claude, comment faire rebondir le marché ? Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYlJBS19qTkxKOV93WWZjSmJycmlHUXFqbmhjc3UwSE9WZFNEckxjaDdOUElUcHZiMWtqYmtOel94eTUyVkI4cThDZUdKaWpvWUd6bTJvVGxQMHl5b2RaN0I0R1pEMDVaNklrLWxhcUhYZFhDQ0J5THNfdmppWERMOHhIUml0RDExTTVQb3l1Y0J6ZW9nbzRXdEtUUk1LY3VEYXc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:00:50.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Chronique marché vague."
+    },
+    {
+      "id": "5c21c78c78",
+      "title": "Wall Street termine en baisse, pénalisée par l'IA",
+      "summary": "Wall Street termine en baisse, pénalisée par l'IA Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRkFWcWZZZkkzLXNBU2tVMlZVZzI1STBYaTJOTG03aFZDajRYQVp6MGxBSXptZWpxQy1LcTRvRUxXZ3dxeDdIZGFfcEJ3VEY3U2hkbzdPWHNMamdXUEhfdXZfdXhQYzB3M1FlZHQyQzJxVDV6Wk16TkkzQmZJRC1CbUppdFU4alEtT1lxMEM2XzA2VW1jaVR0QXhuZUhqajVZMGxreXVSVXdtS1lt?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:59:15.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon du point de marché."
+    },
+    {
+      "id": "095461bea3",
+      "title": "CrowdStrike en discussions pour acquérir Zscaler",
+      "summary": "CrowdStrike en discussions pour acquérir Zscaler Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS25VWGhvS1p6emd6UUhLOTMtbVQzQlE2MjY2ekxOSHNSLVN0WXc5STA5VXUwOGFzX0VVUHFSVE15Wk1EaEZNaGRRQVpJZnRMTjhQQ2xYMXVXUGtvMHRNWG5rTVhWNVFTblpfWFlzOEJ4U2pwMXlRSVpmNEFZalJLMlRmT3JrRXFDdkF4bWR6U1hmei0zcTZ2YV90TVBhVFZZVTZHeXpYX24xOVh5?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:54:17.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Grosse fusion cyber mais acteurs peu connus du grand public français."
+    },
+    {
+      "id": "20a504c295",
+      "title": "MasTec finalise l’acquisition de l’entreprise de construction mécanique Murphy",
+      "summary": "MasTec finalise l’acquisition de l’entreprise de construction mécanique Murphy Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWldUcWYyaDB4elZvYlZsX05TMThBdTdheDBRdTZ6VjlKaUFsM0dHVWVoTjBzbTZsekYzaVlfNVQ4aTlYakdpVGxvQjAtTHpHMFhzSmV4S1hfaV9HWmcyYW1NRW04SzBoR3NMTmo4dXdqOThhNXFTSHpMTGU5N0hQeUJnTVNhY0pZaXlOUW5Ua3dmN1JTUVpCbjlsV1pBOHJ6MWtwdjFzbWZPU2RvX2Mxdkx2Rkg2YWZidDBTZElodTA3OGY0ZmhuMHJxUV9iV1VkWnYzcWJsMjU?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:50:14.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Acquisition américaine sans écho en France."
+    },
+    {
+      "id": "4a1e02fe4a",
+      "title": "Point marchés-Wall Street termine en baisse, pénalisée par l'IA",
+      "summary": "Point marchés-Wall Street termine en baisse, pénalisée par l'IA Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSTM3N1F2OHZUMm9GbzdadHEtdlpCaXhzYmtEYzRuT2lkeHhhdkozS3VMLVRzbjdOajAwZWNlSlpSUmY0ZVkxNkJ0V25KUE9qcEJJVlN4amsxNDh4RUQxTlNJUmgtc21vNDdXZkZQZmlZRm9fYU9fYmJqb0Q2Z19qTjd2d3lXV1hWakNLLWNUVzN2RC1nVG03Qm9hTFZ0dWZBT1hpb29NejVEaGVJVjlxdHd2SnRJRVVFQTk1LWdCNA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:48:19.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon du point de marché sur Wall Street."
+    },
+    {
+      "id": "e0fbb2b098",
+      "title": "PepsiCo dépose un prospectus préalable mixte",
+      "summary": "PepsiCo dépose un prospectus préalable mixte Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY01qcFpRUmtaNV9sUDRnc3ZXWDdXSjBrbGp6WWxtckVvY29fUWRrUGhQS19RV1J6OEdxOGZ6QWFWRlB0RzZLaHVnUGJ5SjhHamM4OVFwaXZDRkxTQ2hHYzlmSDZOVHVqd0pKeDg5bzJndFpIQTdJOUNiVGU3M0EtWm1UZm1CN2hOOTVXWk0xcXdrcUNnUXlzRmxtOHkySWRsRmVFY3Q1QQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:45:22.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Formalité réglementaire."
+    },
+    {
+      "id": "3fb244bc60",
+      "title": "Ten finalise une offre d’actions de 1 million de dollars",
+      "summary": "Ten finalise une offre d’actions de 1 million de dollars Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZXZMMEFKSFlwbk9kMG45dGJnR00tcXRDb3hqaEZpaDc3c0lLTEdBWk02X2ZPMXluMW15czRqSktYakVhSHVkV1ZoWTBabmo2ZTJGTF9WdG9Bd1d0WGJYdjJzcEpzV1M0enRPQl9EbG5kaXM2VW5KWVNWZk1Jekc0MFdCZFhJLXlxejhPMUtFTndOZElXTmJMZTZwdE9QSFp5ZEc1NEstT2ZfZmlodUdsc0lPX19uVk1CMEE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:29:13.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Micro-opération inconnue."
+    },
+    {
+      "id": "3eec529173",
+      "title": "Braemar Hotels & Resorts nomme sept nouveaux administrateurs",
+      "summary": "Braemar Hotels & Resorts nomme sept nouveaux administrateurs Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeGRGLWV4RXVjdmpVVUF2LTNvc3ZGRkptLTdoVXBSRGllNUVWczlENGhzckF1enNuanhhTkpIN3pWTFNVQnVQMk5DU2pFX21VUzFnVi02WmVtTUVPaUd6c1hDbnJPX25IRUQtYUhqemc1YXM2Zm4xRVdsS0pVcS1aX0MtSExhVmdFWGY1XzBwTkZaTFhZeDhQQzJ6OTdVcEpJMzdEc1RuOXQ5U0pUSnBPZjlFajNlU1hvMGc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:22:16.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination sans intérêt."
+    },
+    {
+      "id": "66d67e4008",
+      "title": "CrowdStrike en discussions pour racheter Zscaler, selon une source",
+      "summary": "CrowdStrike en discussions pour racheter Zscaler, selon une source Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQjFScjBrR0pJY0dlWDVBeEVzcGQ4LU9XT052allhTGxxZWt2ZFJXdk96X1dNOG5QcWV2ODhtam0tNlF3VFZUS05XQldoYXFVdkJfSDRQMmcwNnhOUk9hSWZnTXZSWlVfdWlCTmNCNGtNWXRtYzVwc1RYNDROQ2F5bW12NmwwQXQwQ0JfMFh2WWdZSmRNVlV5WDk3YXY2OE5ndWU3T0x5NW1fdGVQWUwxWmp6ajNNcmUwVU5LbXFYTjZrQk5W?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:21:22.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon CrowdStrike/Zscaler."
+    },
+    {
+      "id": "b86ef0d88c",
+      "title": "Australian Oilseeds reçoit un avis de non-conformité de Nasdaq",
+      "summary": "Australian Oilseeds reçoit un avis de non-conformité de Nasdaq Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOczVxRG92Vmw4a3gxOHRPbk9pOXNTMllUbWZTMEZ6N3k0cVhrNURFRFNQZDBXWTdOZ1RFaFd3VkRPVjdnM20wWFQyNm9ESV9YRWF6dFM2bG5YXzZndnJOTDBfRl9Gcy0tOFM4eVJjdjlvcHpPbF9ydFpMTFN1OWNmck5yTmd2dUMxYW5FOTVoYlFWamE5TUo1THpCX19XQW1sc1IySWNtRi1RQlEyMEd1UFlPUVVxYVRZczFTSFVhdw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:16:13.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation inconnue."
+    },
+    {
+      "id": "20c06961be",
+      "title": "Journée noire à Wall Street, le S&P 500 entre en correction",
+      "summary": "Journée noire à Wall Street, le S&P 500 entre en correction Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMk42V3hUWWtDUHRYT3JvYXdtNEE0QlpOVUtaRTNNQVVWWUxKSlhicnNSV05ZOV9MMGtBbklHdDJGRGIzRGpRQmljQnVkUndtNzJVSkpWUUoyZk9CcUhtNVpwb0c3VkhObldwd1l1bU4xdXp6VHdHS2IxMVRWcUhfdGZEMVo1SXgtU1lnUG41TDB1VWVaLUhoc0VFeEJjSUlCemRTb0RLUkxacHdPOG5fd3Y4cllqRXMzeXc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:08:18.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de la correction de Wall Street."
+    },
+    {
+      "id": "4726a46efe",
+      "title": "Wall Street chute lourdement, l'IA déraille",
+      "summary": "Wall Street chute lourdement, l'IA déraille TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE44ZzFncnlVT215NnFfMXQtZEVtcHFYZ2hRTkh2LUg3S0JBSUNQelFlbHJHTU5IdDJ3YjhUZFN2UllsZmZaa2xxUWhUaUpTck1uVkNDd1ctZzA2amV3Z0ZSRW9R?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:08:14.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon du point de marché."
+    },
+    {
+      "id": "7593dd9cb6",
+      "title": "Wall Street clôture en forte baisse sous l'effet d'une vague de ventes dans le secteur de l'IA ; le S&P 500 et le Dow Jones entrent en phase de correction",
+      "summary": "Wall Street clôture en forte baisse sous l'effet d'une vague de ventes dans le secteur de l'IA ; le S&P 500 et le Dow Jones entrent en phase de correction TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85ZlVCazZOMFN1ODQxb0Z4ZFBoa1NmNzV0eEZ3TnU5YjJfVHVIb2tMZm9BTzF2c2VzbGVZQWpkbThRRVh4WXg2QklUcjlfSF9ZeS12Q0N2elVUQTRnZVhXcEUtbW80R2hORmtxUjZwSWVvY2ZnN213?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:02:05.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Point de marché du jour, même si la correction est notable ; l'éditeur refuse ce format."
+    },
+    {
       "id": "c57641b72b",
       "title": "Le yen profite des déboires de l'intelligence artificielle",
       "summary": "Le yen profite des déboires de l'intelligence artificielle Zonebourse Suisse",
@@ -16,6 +237,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Devises, trop technique."
+    },
+    {
+      "id": "ce4be11851",
+      "title": "Les contrats à terme sur le soja progressent, tirés par la farine de soja ; le maïs et le blé reculent légèrement",
+      "summary": "Les contrats à terme sur le soja progressent, tirés par la farine de soja ; le maïs et le blé reculent légèrement TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rNFF5OGZxMDQyemxGM1NoRnVNYlZBY1p3amY4M1hXWTBVVk9HQkQ5T1hYaml4ckY2cE5ZUG5GYXFydE1LWktkWmxMOU9oc0gwSGlBVzZ0TWNsTkFkWjFrMjJ5dHFfOGo0MkV5eFkzaC12WUR3am0w?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T20:53:22.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Matières premières agricoles de niche."
     },
     {
       "id": "df6be95312",
@@ -167,9 +405,9 @@
       "score": 3,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Enquête SEC sur la comptabilité de Nvidia : scandale majeur pour la première valeur mondiale.",
-      "hook": "Nvidia dans le viseur du gendarme boursier américain",
+      "aiScore": 7,
+      "reason": "Rebondissement majeur : enquête SEC sur la comptabilité de la plus grosse entreprise tech.",
+      "hook": "Nvidia dans le viseur du gendarme boursier américain pour sa comptabilité",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
     {
@@ -255,6 +493,23 @@
       "status": "ignored",
       "aiScore": 2,
       "reason": "Format « infos argent du jour » déjà refusé."
+    },
+    {
+      "id": "7a3b152a3e",
+      "title": "GTCR étudie le rachat de Global Payments, selon une source",
+      "summary": "GTCR étudie le rachat de Global Payments, selon une source Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUUtFR3BqNGwtbi1BU0p4Snl3aXlPQlJkZ0pQRlplM0M4TXo5eFpsNVVZWkZ3aWRFd2FxaUozUmx3OHdHWHVWMjFUTmIzLWNOMHQyOHk4ZnQ2clVILW1FcFhCN1Bwd3BNQ2N6R0Y3emxjQk1zUVdvQVZreWNDVWxhazBicUhvTVQyS0NyRng0eXNrUTNRQllKcXdlbURPaXF0OExqa1EtZEE2RElGdGdrOVVVYVE3UzhOWEtCenp2NWJLZ1JCdndVMnZDa1FLUjdhUGJicFc1MVRQUlRXdWZFTHdUSERMbXphM2JQUWZ5XzN0dw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T18:56:43.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Rumeur de rachat peu parlante en France."
     },
     {
       "id": "5ca1e996ba",
@@ -408,6 +663,23 @@
       "reason": "Communiqué de niche."
     },
     {
+      "id": "4f3fb93e73",
+      "title": "Trump exhorte Nvidia à donner une \"deuxième chance\" à Jensen Huang",
+      "summary": "Trump exhorte Nvidia à donner une \"deuxième chance\" à Jensen Huang TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UWkpCWU9Kd2xOem9BcW0zTFcyakphZFRRRHZraHRKWEw2QjF4V2RoeVpOTmtCRmd4THhjTC11VWlnVmNIYUZvLUtKci1GZGJGWmZLQUU3X3hJNEZ4SV9IM3Fn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T18:34:01.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Suite mineure du feuilleton Huang déjà refusée à plusieurs reprises."
+    },
+    {
       "id": "6c2814fc7c",
       "title": "Trump attribue les récentes pannes techniques aux travaux de modernisation menés par le secteur privé",
       "summary": "Trump attribue les récentes pannes techniques aux travaux de modernisation menés par le secteur privé TradingView",
@@ -440,6 +712,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Résultats d'une petite valeur allemande."
+    },
+    {
+      "id": "80a098eabc",
+      "title": "Trump affirme vouloir voir Jensen Huang revenir chez Nvidia",
+      "summary": "Trump affirme vouloir voir Jensen Huang revenir chez Nvidia Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdW03dExGakRaZjBTQlJfSGZBSDZRcDRERlNRa3RoRENGRmJ3NWdJcUtHdkFoX2VCN1hHQ3VyamoxSDRQRTFQTmQ3UWRiTmJBMkZaWkJHZTlSSVdEX1ZiWDltSkJZX1JvNlpsdUg1emdVYjlqWFNFZjFNZDktSUZHQ2wwUXpfbmlKT0F1eWxZcFRBaHJ3elJ5SWd4TWptQ2k1ZV8xZnN3U3hSanUxcmpBenV4WXRlSkdPV053?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T18:22:43.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de l'intervention de Trump sur Huang."
     },
     {
       "id": "7474d0c2d1",
@@ -915,7 +1204,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Une Française vers la BCE, suite du sujet succession Lagarde.",
+      "reason": "Une Française à la BCE, dans la lignée du sujet succession Lagarde validé.",
       "hook": "Une Française bientôt aux commandes de la BCE ?"
     },
     {
@@ -964,10 +1253,10 @@
       "collectedAt": "2026-11-20T17:07:23.298Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Patron d'un géant de l'assurance démis sur fond d'enquête.",
-      "hook": "Le patron de Malakoff Humanis limogé après une enquête"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Patron d'un géant de l'assurance et de l'épargne démis sur fond d'enquête.",
+      "hook": "Le patron de Malakoff Humanis démis en pleine enquête"
     },
     {
       "id": "54479b58eb",
@@ -1290,8 +1579,8 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Nvidia détrônée par Alphabet, retournement spectaculaire.",
-      "hook": "Nvidia n'est plus la reine : Alphabet la dépasse",
+      "reason": "Chute symbolique de Nvidia détrônée par Alphabet, classement spectaculaire.",
+      "hook": "Nvidia n'est plus le roi : Alphabet le dépasse en Bourse",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -2271,7 +2560,7 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin de l'interdiction de louer les passoires thermiques : changement majeur pour bailleurs.",
+      "reason": "Fin de l'interdiction de louer les passoires thermiques : changement concret pour bailleurs.",
       "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
@@ -5840,6 +6129,23 @@
       "reason": "Estimation de bénéfice d'une société obscure."
     },
     {
+      "id": "9f4a45877c",
+      "title": "HPE Q4'26 Earnings: EPS estimate is 1.28 USD",
+      "summary": "HPE Q4'26 Earnings: EPS estimate is 1.28 USD TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUhoSG1semdIQ1B3UzZvWUxjb2VIUXdZbnpya3RQZU1FaGYzZmFQbHVpYU5wQnFhMFpmS0xKTWx0eURBZmhTcVJOa3NyVElhOTItRDI0MzFqTWw4azV0d0t1SHRzVGQ2cndLUXRRb1RCUGk2S3FDang4Wi1HdzVoZU5rSS1ieUhPaXl3S0kxaVNlMTczUFlIUUVocktUZzg4TVAtWU5lTQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Simple estimation de résultats."
+    },
+    {
       "id": "08cc413030",
       "title": "Succès en phase 3 pour un conjugué anticorps-médicament de Merck",
       "summary": "Succès en phase 3 pour un conjugué anticorps-médicament de Merck Zonebourse Suisse",
@@ -7448,8 +7754,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Ubisoft, entreprise française connue, en difficulté financière.",
-      "hook": "Ubisoft s'effondre : le géant français au bord du gouffre ?"
+      "reason": "Chute d'un fleuron français connu, tensions financières.",
+      "hook": "Ubisoft s'effondre en Bourse : la faillite menace-t-elle ?"
     },
     {
       "id": "63e37e1c24",
@@ -7632,9 +7938,9 @@
       "brand": "investisseur",
       "score": 6,
       "status": "new",
-      "aiScore": 8,
-      "reason": "IPO historique d'Anthropic, valorisation record.",
-      "hook": "Anthropic dépasse SpaceX : l'IPO la plus folle de l'histoire",
+      "aiScore": 9,
+      "reason": "IPO historique d'Anthropic, valorisation record, événement du jour.",
+      "hook": "Anthropic entre en Bourse et pulvérise tous les records",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -7951,8 +8257,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "GTA 6 : 2,36 Md$ de ventes, chiffre frappant.",
-      "hook": "GTA 6 : 2,36 milliards de dollars en quelques jours",
+      "reason": "Lancement record de GTA 6 avec chiffre frappant, sujet déjà validé.",
+      "hook": "GTA 6 : 2,36 milliards de dollars dès le premier jour",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -9925,6 +10231,23 @@
       "reason": "Petite banque US inconnue."
     },
     {
+      "id": "0a1b5c30be",
+      "title": "Dukshinepc Wins 11.4 Billion Won Order",
+      "summary": "Dukshinepc Wins 11.4 Billion Won Order TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmlSR1Z6YS1ic1R4NVNGQXpLSHdVUXhPZWV2dUgxcjZEaW5oanpZNFRIV21kVUxaRlVMVHJDclF2UE5FRGdxYW1LOXhIamZSV0pPN1VEN2JJUTNwODA3c1RybHJkUW8xNmM3ZndIV0k1SGVCSmRSY0xGUUp0dGFuU2hOb004NjVwckNJMk1xQ2VNSzdEbnM0WmFqUUo0VDBnZzNpZGNnNERXTW8?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T00:31:23.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contrat coréen inconnu."
+    },
+    {
       "id": "bc85986914",
       "title": "Arena REIT autorise un programme de rachat d’actions.",
       "summary": "Arena REIT autorise un programme de rachat d’actions. Zonebourse",
@@ -9958,6 +10281,23 @@
       "reason": "Doublon de la prolongation de l'encadrement.",
       "hook": "Encadrement des loyers : c'est prolongé, les bailleurs fulminent",
       "notifiedAt": "2026-11-20T05:07:30.286Z"
+    },
+    {
+      "id": "dc0f578e63",
+      "title": "Kolmar BNH Launches 16 Products With Boots in the UK",
+      "summary": "Kolmar BNH Launches 16 Products With Boots in the UK TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkNvWWtxY0ZuVmdiNXIxb2VUdHR5S3RJOXVHT25FWEdEeUdmRlFFNExJSjFwdmR6VlA4RFFESVpkNWhNMy16aElGb0wzT2YybmdyZVZRTkc4Rm82dGMyei01RlNUcGxOYWZ6dlV1OGc1N1piM1lVcGh3RzQ2NGNhYXQxSDlVMnNld0MyZXIybXV3bm5Gc1E5bFA4bGVYUS02dHYtTnpJblpJbW43blZkQnFXQQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Lancement produit de niche."
     },
     {
       "id": "c087cc5001",
@@ -10216,7 +10556,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Fonds activiste contre le patron d'Accor, coulisses CAC 40.",
+      "reason": "Bataille au sommet d'un groupe du CAC 40.",
       "hook": "Un fonds activiste veut la tête du patron d'Accor"
     },
     {
@@ -10422,6 +10762,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Rachat d'actions d'une petite valeur étrangère."
+    },
+    {
+      "id": "4fb7032dc9",
+      "title": "Red River Bancshares Declares $0.25 Quarterly Cash Dividend",
+      "summary": "Red River Bancshares Declares $0.25 Quarterly Cash Dividend TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaF9PSi1mNDRoZERJOC1kNFFVVGRzWDN0cmpRNUdjbThhVDZUaWJ1dWtVTDdQdlZhbS03T1MxTERhZWNQLVNZcE9aQzlRX2FZMkhHUDlWTUlmdWt2QUxzNDRNTF9ueEdJS3IwdWlYWVd2ZUM3eG5FOUVmczhPeVR1d1o0YzR1djZfZ3VkamJ6dEtEY001RHNfbldlUDFmTlhDSWdPRWItdmVmOGwtT01GZmMtS3VnUnUwVjJrSnFnUnNpc29ZVk1Oa1E5SDF6OVV0VGszNA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-19T21:53:00.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Banque régionale américaine inconnue."
     },
     {
       "id": "4c0fb208bc",
@@ -10643,6 +11000,23 @@
       "international": true,
       "aiScore": 4,
       "reason": "Rachat notable mais peu grand public en France."
+    },
+    {
+      "id": "caaa659aef",
+      "title": "International Bancshares 10% Owner Sold Shares Worth Over $3.3M",
+      "summary": "International Bancshares 10% Owner Sold Shares Worth Over $3.3M TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQenp1RWhGNjBsUFVua3RQckVicjMtMVdkLUJuRTI1d0ttYUwxYThrZlZmck5wWmR3bUgxRWlMdmN6enI4R2FmUFVlVGpjeDRRbnlxTFd4Nkt0dTJHOE9ydmQ3aXA4M0pjV2FQZVFCMEJ3SkJDd1ZzYzU4REkyNjhocnFZV0FNUWVpcDFzaW9jTk82dzV4TFB2OFl2R0Z3aGVkMnBhQW11RnBoSTBYOGZBTzM0MldKd01mUHdQaEQxcw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-19T21:10:01.000Z",
+      "collectedAt": "2026-11-20T22:13:00.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Mouvement d'actionnaire sans intérêt."
     },
     {
       "id": "ecb4b1ad8f",
@@ -11644,7 +12018,7 @@
       "status": "new",
       "aiScore": 7,
       "reason": "Règle concrète pour bailleurs et locataires dans 70 villes.",
-      "hook": "Encadrement des loyers : prolongé de deux ans dans 70 villes",
+      "hook": "Encadrement des loyers : prolongé deux ans dans 70 villes",
       "notifiedAt": "2026-11-19T19:07:24.983Z"
     },
     {
@@ -13721,7 +14095,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Mistral, pépite French Tech, attire Deutsche Telekom.",
+      "reason": "Mistral, star de la French Tech, attire un géant européen.",
       "hook": "Deutsche Telekom mise 100 millions sur Mistral",
       "notifiedAt": "2026-11-19T15:07:34.631Z"
     },
@@ -118676,5 +119050,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-20T21:08:00.698Z"
+  "updatedAt": "2026-11-20T22:13:28.098Z"
 }
