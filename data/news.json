@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "a0b2efb5fb",
+      "title": "Coal India Limited annonce des changements au sein de sa direction",
+      "summary": "Coal India Limited annonce des changements au sein de sa direction Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMFBHekZCYk9yQ09vR00tT1FuSlktY2FnSGszblZILVpvVmw3UVRJQ3lHVHlGQmVKQ05rejMwTDBGT2V6REJDdGlKOUxwcW96RGhzbUxMdUVTSjQtNnluNHFWMGtIemFSSmZETmhxYzltSFJOSXNhUlNSQ0pxRkMtTHRpY2twWnpkOVJHTkJ6WldPNUkxM1BDeGU4Rmt3ZnFjVkFjQTF1QkR5MUJ6UDM5VVdLdHo2dVpYTFJ6Y0JCekJLU0hR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T12:20:24.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Changement de direction d'une entreprise indienne sans intérêt pour les Français."
+    },
+    {
+      "id": "1feb888689",
+      "title": "Un cargo attaqué dans le golfe de Finlande, selon Moscou",
+      "summary": "Un cargo attaqué dans le golfe de Finlande, selon Moscou Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdlJIeVo5cTc5cTcybTE2d2VXRGNNTFhGRkp3WVRSRC12Vk1McVRSVGZ1TkVvdUVpc01Pdk1udlc4clYwZmlIbmF6U0JSYjNHU2kyU0hock9BMjNaX0FLaVdvelN4dGl1RXRobC13UlFuV1pUc3RMOHBEcEpMUTkzZk9lZlN2T0JCdmxSMEt2dGdNOV93RFF1NzcyUC1vZHlEU2VESTIxbTEtTDdNa0ZEUEtUWjg5dw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T11:42:17.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Actualité géopolitique sans angle argent."
+    },
+    {
+      "id": "5473fdc257",
+      "title": "\"GTA VI\" pulvérise le record de ventes au lancement",
+      "summary": "\"GTA VI\" pulvérise le record de ventes au lancement Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWS1HZ01FMUVFTGdYUHRXMTh1LWktWHp4UEVnZFlUZEo1dkNFS04yREpaeUZFM0dQU21OckNrbE0tWkUxaEg1UUszQnlmbk5KSi1SRExCTG0tcDZ5VFQxY09Za1A0NVhLZWxNRlFtbTFhN1Itd1AyRHJBTUFkWnZsYUNiRnhJQlNOM0Q4WnpTa2NGeGh6Z2lSOE44V0hiQ3NsaFNlV05INGlWQlVSbEE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T11:21:18.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Doublon de l'article plus complet sur le lancement record de GTA 6."
+    },
+    {
       "id": "1f14bc6c82",
       "title": "Budget de l'UE : Antonio Costa propose une nouvelle taxe sur les grandes entreprises numériques",
       "summary": "Budget de l'UE : Antonio Costa propose une nouvelle taxe sur les grandes entreprises numériques TradingView",
@@ -78,10 +129,10 @@
       "collectedAt": "2026-11-21T09:07:23.197Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Une Française à la BCE, suite du sujet Lagarde validé.",
-      "hook": "Laurence Boone, ex-ministre, entre au cœur de la BCE",
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Une Française au directoire de la BCE, proche du sujet validé sur Lagarde mais moins fort.",
+      "hook": "Laurence Boone, l'ex-ministre française qui entre à la BCE",
       "notifiedAt": "2026-11-21T09:07:23.197Z"
     },
     {
@@ -275,8 +326,8 @@
       "brand": "investisseur",
       "score": 11,
       "status": "new",
-      "aiScore": 9,
-      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, touche tous les portefeuilles.",
+      "aiScore": 8,
+      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, CAC -5 %, même l'or chute.",
       "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
@@ -382,6 +433,24 @@
       "reason": "Cession américaine peu connue en France."
     },
     {
+      "id": "d81b01c2ca",
+      "title": "Le Bitcoin plonge à 56300 $ et balaye 2,4 milliards $ de positions",
+      "summary": "Le Bitcoin plonge à 56300 $ et balaye 2,4 milliards $ de positions TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvY2lEN2ZpakpVWW8xMk9VRklSQUsyeHY4bGktZHRCMWJ3UENGcE1PalJ2aFgyZ0Q5SmFVX1hVM1V5dEgxeFRvM2lBR1dkV2Yzd21RYVU5WVlxNmNfN1YxWlJWVVl6Nm5OSjFfNg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:30:00.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Chute brutale du Bitcoin avec liquidations massives, mais l'éditeur refuse souvent les points de cours crypto.",
+      "hook": "Bitcoin à 56 300 $ : 2,4 milliards balayés en quelques heures"
+    },
+    {
       "id": "51b0dc1d25",
       "title": "L’ex-président brésilien Bolsonaro hospitalisé pour une occlusion intestinale",
       "summary": "L’ex-président brésilien Bolsonaro hospitalisé pour une occlusion intestinale Zonebourse Suisse",
@@ -451,6 +520,23 @@
       "reason": "Politique numérique norvégienne."
     },
     {
+      "id": "482587032c",
+      "title": "American Atomics Inc. annonce des changements au sein de sa direction",
+      "summary": "American Atomics Inc. annonce des changements au sein de sa direction Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbWpWWDNUNFRBVHRIRXBVRkNCaVd2dFJmeVlBNzhYUGpkMjY2ZU5sQVVTcGVWN00tRnBpa3B1Mi1oRVFYaWJpV1NpQUxxQXcxakliVWgyYzJUTjBFUjIxLXlXelFjT2FCN0lhdGNQQjlBaUEycndQNloxeWl2X3pmSjVjQ0t0S0s3VmZmLWxFX2ViTUFUc01VWGxLR2M1VXVkOVROY1lKR1B6QlpkZnFzZUJmSUlfRTBjYzBsTU9xTmRBbmhrWl9XZg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:53:00.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société inconnue en France."
+    },
+    {
       "id": "b0ab3a06bc",
       "title": "Enphase Energy va licencier environ 320 salariés",
       "summary": "Enphase Energy va licencier environ 320 salariés TradingView",
@@ -500,6 +586,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon Enphase."
+    },
+    {
+      "id": "cf37473d2b",
+      "title": "Quantum Cyber N.V. annonce des changements au sein de sa direction",
+      "summary": "Quantum Cyber N.V. annonce des changements au sein de sa direction Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLVdWZWJld25QeUN5M0x0VEx6VWFNRzRsaFQta2MtMVI3LTZkc3dYbHBzd0kwbXB1RTdzZ0t2VS13OFZvdzRrMFIyZlpqZ19FZFZiVVhRbENuSm9HRGpKempHZzlneEZkX3A4UEI5UVdKa19xcnVzazNuVmpzV1BOaVNzdlVXc2N5dGtFUnJHeDdpT0taSzRrRTBlZE81YUVYeDItTzR6YkY3SHItY3ZTc2ZPcXlJYlFIMkJHeTdhUWZGZ2pM?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:15:00.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société inconnue en France."
     },
     {
       "id": "657ca49e34",
@@ -723,6 +826,23 @@
       "aiScore": 5,
       "reason": "Méga-fusion cyber possible mais acteurs peu connus en France.",
       "hook": "CrowdStrike veut avaler Zscaler : la méga-fusion de la cybersécurité"
+    },
+    {
+      "id": "e785de911b",
+      "title": "Davion Healthcare plc annonce un changement de directeur général",
+      "summary": "Davion Healthcare plc annonce un changement de directeur général Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLWZVQ1ZLX1VfTGxkYUd5aXNsaXhzSktPU3BVODdGbnRKLS1tUWlWRFZ4dTloUm9YeFA5Vlk1YWl3eGhqZ096QXVEZXBUWTNqNE1VX3FQUnNGc3pjQkRYZjZQZ25IRXdmVTh4OWJzYUFzOXlpek5PZDQyMnhPZjRYaDd6RDI3cHpORy1sOWQwTnk5VTVvMGxiczRmY1BPZkl0M1NKVGZ4Z1VkZHprQXBJU3d3LWpBb0NyR2RVR0tzOFBmU1k?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:21:00.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société inconnue en France."
     },
     {
       "id": "a89ae84ba6",
@@ -1062,7 +1182,7 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Enquête SEC sur la comptabilité de Nvidia, scandale majeur.",
+      "reason": "Enquête de la SEC sur la comptabilité de Nvidia, un scandale majeur.",
       "hook": "Nvidia dans le viseur du gendarme boursier américain",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
@@ -2018,6 +2138,23 @@
       "reason": "Ubisoft, chute connue des Français, mais résultats décevants récurrents."
     },
     {
+      "id": "4f02715586",
+      "title": "Coinbase Says Some Users May Experience Latency While Trading Derivatives",
+      "summary": "Coinbase Says Some Users May Experience Latency While Trading Derivatives TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdFREWFZZME02aXlzeFZJVXAwZklIWWVoQlFlQzlHOXlJNU5zY3N0ZndKdERrZTRpQWtCUl9ReWNfeFRVYUV3SnJKYk4zZGdRLWFnNF9TR3RWS3oyRWhQSlNGMUJheW50Ym44NWtoazNnMDN3dUc2LU52dDdzd25xLVdoNlU3N3FZczVJZTFiQlprZHF0c2h1LWFkOHhqVGxMakdnWXo5N2UyM3hQLWUzUkoyb1d3OXNuUzk4WlpHRnFXNWpqaUl0Y2ZyWlJ6cTJ6ejNENDE1OGxPUQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T16:32:47.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Simple incident technique mineur chez Coinbase."
+    },
+    {
       "id": "31249cea26",
       "title": "Les bouilloires boursières chauffent plus vite que l'AMF",
       "summary": "Les bouilloires boursières chauffent plus vite que l'AMF Zonebourse Suisse",
@@ -2287,8 +2424,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Changement de leader mondial des capitalisations, mais suite du sujet Nvidia.",
-      "hook": "Nvidia détrônée : Alphabet devient plus gros qu'elle",
+      "reason": "Nvidia détrônée par Alphabet, un changement symbolique dans le classement des géants.",
+      "hook": "Nvidia n'est plus la reine : Alphabet la dépasse",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -3353,7 +3490,7 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin de l'interdiction de louer les passoires : énorme impact pour les bailleurs.",
+      "reason": "Fin de l'interdiction de louer les passoires thermiques, un changement majeur pour les bailleurs.",
       "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
@@ -4238,6 +4375,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Banque inconnue en France."
+    },
+    {
+      "id": "eb46ce249b",
+      "title": "Cenergy Q3 2026 Earnings Call Is Live",
+      "summary": "Cenergy Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd281N1ZhYWVWU2lRMmNoTDNZYXFDVHY0WkkzdVl3ckpiR2Q5a0RPOUZvNWxPREJJb0hEdTJqRGRfN0R0d2hnaDJBWjY4aHJsckFObzA3Y0dBMWROVENGU2E5NDhuLUlRRWFnVUZwQkdZYkpUVjc4NmhobEJOY0VDYnRaQ2p4SmRMODcxRlJjZF9DVlBnZWVQSmltTURfa18xSXpITmxENno?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T14:06:01.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats d'une société grecque inconnue en France."
     },
     {
       "id": "dc2c719f58",
@@ -7285,6 +7439,23 @@
       "hook": "Stellantis abandonne le sport automobile : la fin d'une époque"
     },
     {
+      "id": "d268f9e3dc",
+      "title": "SureShotFX Launches KIRIN, All-in-One Buy Sell Indicator TradingView",
+      "summary": "SureShotFX Launches KIRIN, All-in-One Buy Sell Indicator TradingView TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcllMcU1JamNfdktIUzhuS29WaGNJTWlGOWJHVkxuY2R0Zk83QzV1RjB0RXpuU1NBc3A5aFFBRVVualRnWDlTbklCX3EzMEJzUk83NVR0WllWUHhrS2FnNnlTUi1xbTVmMFJ5YXByYWRTUWIzbVFxNW5yalFIRTEzNU1XT3QxRGxNaEd4ejNBUm1aMGhER21CWl9famtGMC11TEZ0bzNkNE9YYTBCS09pTlB1Y3pwaFpfM3ZKNnNZYm41RXJ1WUI4?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T11:38:55.000Z",
+      "collectedAt": "2026-11-21T13:07:26.918Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Communiqué promotionnel pour un indicateur de trading."
+    },
+    {
       "id": "1a6236d8fb",
       "title": "Le yen japonais surfe sur la glissade des valeurs technologiques",
       "summary": "Le yen japonais surfe sur la glissade des valeurs technologiques TradingView",
@@ -8809,8 +8980,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Ubisoft, marque française connue, en difficulté financière.",
-      "hook": "Ubisoft s'effondre en Bourse : le géant français vacille"
+      "reason": "Ubisoft, fleuron français connu de tous, en difficulté financière.",
+      "hook": "Ubisoft s'effondre en Bourse : la faillite menace-t-elle ?"
     },
     {
       "id": "63e37e1c24",
@@ -9010,9 +9181,9 @@
       "brand": "investisseur",
       "score": 6,
       "status": "new",
-      "aiScore": 7,
-      "reason": "IPO historique d'Anthropic à 1 760 Md$, chiffre frappant.",
-      "hook": "Anthropic dépasse SpaceX : 1 760 milliards dès le premier jour",
+      "aiScore": 8,
+      "reason": "Introduction en Bourse historique d'Anthropic, valorisée à près de 1 760 milliards de dollars.",
+      "hook": "Anthropic entre en Bourse et dépasse déjà SpaceX",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -9329,8 +9500,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Record de ventes GTA 6, jeu ultra populaire, dans la lignée du sujet validé.",
-      "hook": "GTA 6 : 2,36 milliards de dollars en quelques jours",
+      "reason": "GTA 6 bat des records avec 2,36 milliards de dollars de ventes, dans la lignée du sujet Take-Two validé.",
+      "hook": "GTA 6 : 2,36 milliards de dollars dès le lancement",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -56541,51 +56712,6 @@
       }
     },
     {
-      "id": "dcda8f910b",
-      "title": "Riwind Green Energy Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Riwind Green Energy Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse Suisse",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaDQ4SDFFRTZoWFVuaU04djMwYWM4VnhYX1B1SEZ4OWxjZ25tM1lZR3B1TnhpQjRBMDg1YldIamItdmRMcU91cy1PbUtMYlQxWElHc25KdlVkbWNpVDNGNnRrYkxsSHVVNXdoUEdaZ1EtTTNNSFJ4TlZ3VFExSjA5dmhiTFFQMTRlSnBDRFoyZ2VkUFozZWJ1RGxpekpiT2wtZ0dxWV9ERlNMSFRjM3VhbEM0V3FfN05nS3EtelhHbGwwZUZIdEVLN3RPdDd2RzNPdE5qSVN6SlVjYnMxcGNKbjlUQ2l0X0FZakFBV3pyS1Y?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:59:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "bbf1caea12",
-      "title": "Alfavision Overseas (India) Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026",
-      "summary": "Alfavision Overseas (India) Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYk13a0sxSjRNRHZRbk5lWXlYUjFJc2YzeDVrTHZwVENBemVYX2tCLVFNTXVvYmRheTQ5dU5CVXNPV19qT2FfOEstRmNpenVJM1JmX2VKaWlDQzh3emRETE1jOTRYTjM1alZIbXAwREJ0OHFQVkkzTER6ZzhlZkRFQW1xMHBTRFlQOXB4VUtheW1OY0Mxem9VMTk1bU9qellPYWdWdG1takxVeTBrek9abEJKOHVvZU5YYW8tMDNseWtkT1JnSmlHRWtNQjBmVGlnaC11aHJRX2xXU3VOTFNvMkdyWENQT1VjbGRYUlVrakw?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:57:00.000Z",
-      "collectedAt": "2026-11-15T19:20:08.964Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "8a74b81d54",
-      "title": "Vantage Knowledge Academy Limited publie ses résultats financiers pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Vantage Knowledge Academy Limited publie ses résultats financiers pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZ0VFdWNnclAzeHkzZFRoNU5IRFdrc2g3Qm1CWHcwaVBPbTFJcmNvemtDWUtwZmtvVVY4WDk2TW4zUkp0QWtMXzhpb054Vkp2VzJsUkRQMDRjMGdLYmdKYlhYWUNhZXZSYXI1S0UyaW9RQTBfSG53MmRKQWFiSTVDajNRbDF5Q3lreWswejF5RVp4LXpDRjJCcFlNcnlERS16RnRodVl0dF9TWEVCcmpVRXBHQ3dnajhsdHdhWVRqQlpadUUzUjFZRlA2TkRDTm1OME5ZYlV5V1BvS1pSTml5LWdtS0R4dWQ1S2t4NGtGM1R4UQ?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:48:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "d1ab8f9c95",
       "title": "L’Italie affirme soutenir l’adhésion de l’Allemagne au projet d’avion de chasse de nouvelle génération",
       "summary": "L’Italie affirme soutenir l’adhésion de l’Allemagne au projet d’avion de chasse de nouvelle génération Zonebourse",
@@ -56598,51 +56724,6 @@
       "brand": "investisseur",
       "score": 0,
       "status": "ignored",
-      "international": true
-    },
-    {
-      "id": "fc31feadb1",
-      "title": "Airfloa Rail Technology Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Airfloa Rail Technology Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNURTcjRrY1A0VlVXQ1VTaXBKRElQYmJIMm1jWTZEaEpRY3h5MGYzWnZMRFI4NVkzWXhMelBXcjJnbHRrcFd4aC1NZDFORGlmb044cUNqOVR1X0NUbGhxa3hyVUtGZHNHbGFoODB0OFVJRXB0dm5udkhib1BEZFlSaXpJODZLTHVrMTRvbFU0MmsxMUF6YXRJVzdsM3R2R0tYcGZEMWdvUTlyR1ZVYWNXZTlqSlpuNkF2elEzVk0weXJYOGJCWDVCQ0tmMlllYmNQc2NjdGhsUjNsMUFkbGM0bXJSMzNWTVp4Ylp1cA?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:40:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "554e3044c7",
-      "title": "Arab Palestinian Investment Company publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
-      "summary": "Arab Palestinian Investment Company publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaklEVTVKZW45RjNtb2s1YjZETkw2U2E2MWhEMm5FSDA0c0JKYjdVcnlqeGIya25HZ0dRYzFzekpZbnNoVnR0S1RKOF9fQ2o4UXB6eFlCeTRkbE5takxQb0tXa3h1dEFRLTRtWXFvc1hmZ3QxZ1NtQ3NVN2V4ZlBNbW1WcmphS2dRM2FRQWVJd0lrTWgxUHhYRUdzcVI4eDduYVBadDh6TmNIeWR3Ym5ld3FHVUVCTlR4akxoblhNOUtCa3BuUHhHd05IOWtZZmt0cXBObjdsVHdFNmJyZUlRMHlmeXNBMVY4ODB0Z0dmNWtNNm8?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:38:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "4d6dd03ade",
-      "title": "Supertech EV Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Supertech EV Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYkpYNDlKU09kRm11SVpQZ1FiUXQ0d1VpSHpaa3lDUUsxUnNhVHVwWXNvZDFheUNkMnhJOV9LangtU3NWc2xLT3VBNmk0S3pRQWs5U2RMc3RZclQyQTI2ZUhWZFBFdkExb0tLclkwZEJWSFBoVGRvbG9CczJ2WXloMnVUYVV5R0RCakJRM1plVi1uYU9heVdWRkROR29TZ2JudWk3UlZKS1Q1SW4tOG1Sak1LbjFkc1Y5THo1Wi1CcENNVjZndElYdTBfRVVReGtEZTZ1OFUtc0M5NE00bHc?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:35:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
       "international": true
     },
     {
@@ -56675,52 +56756,6 @@
       "status": "ignored",
       "aiScore": 0,
       "reason": "Article sponsorisé, contenu promotionnel."
-    },
-    {
-      "id": "ce3c34f381",
-      "title": "Shah Investor's Home Limited publie ses résultats du deuxième trimestre et des six mois clos le 30 septembre 2026",
-      "summary": "Shah Investor's Home Limited publie ses résultats du deuxième trimestre et des six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaWlqbnVRdmhsNzVORUpkNm9ibVduVVhhQjBXMk5wRV94RDFDdnFEZWVMZ01uc1RUa0FtdGMwa2dtM1pOZFhiamlqTkxXem1EUUxBSUZDbllzTFlFYnMxNVhTZFhMY3dCQm1RMU1CaENWal8zNHFKeEx6TVl6d2FweDkxSjZkRVJWcm1uQXo1RTZud2JZLUV1cmR6cUV4UGI5Zmw3bWQ4SnRzQlpjYURiMWlTbGtURzRkNkc1TE1VN1dyWUFBYmhvZzY3alBsRi1zYjR4dzRqM2xWeW1fVTNXRXlfdnhHa1dQMTZGdm03aWNaZkE?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:02:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "2d2ff35f28",
-      "title": "Key facts: Bitcoin ETF outflows hit $1.44 billion; dollar firms",
-      "summary": "Key facts: Bitcoin ETF outflows hit $1.44 billion; dollar firms TradingView",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa1FpWVhqSjhOdXJRRlQ5bFJOUXhMamVTYmlnVkNDZ0NPMzNEUENfUnNpbnBvWjROSVJuelZBRnRkTzZ1Rjh1RE5LRnZrVVhiSEwxeDF5OVZ0XzZkd0JZYm14NHBrbWlMV1lmQXZ5Y3V3d1A1V0xPNkdGbEllZEVCVV9sVEx3YWh5RzVxeXVLSU0tdnMtRHNIQk0xaDNPTVZhaUxFdVRIaGtobkxGN3Q5U1Y1ZDFxQmpmZDNmZ1Rn?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-14T12:00:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 6,
-      "status": "new",
-      "international": true,
-      "notifiedAt": "2026-11-15T19:07:22.394Z"
-    },
-    {
-      "id": "bf84896874",
-      "title": "Indian Link Chain Manufactures Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Indian Link Chain Manufactures Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ1ZmcHc3VVlTUE92RERQTVNnN3Y1NTBJN2l2bDF1d2wtQTl6RkZLTDBCWkk1SmJ0RU91R0NvVXotMGNsSjNJNEw3Ykg4RS00aGdLcG55TFN3TXg3MzlaV1lHRncwdzNWYkdfUC1LOGU2UDFZTjF1LWNiNG10YWFObDUxaklaQmJveDQ5UjEzOHNkbVV4NmthZmhQLUhqSTkwUVoxeXNoTUJGOE5Pb2lQN05vREZXR0dmU1h2U3NRMkZVSW1rQmxRWU95a0k3LWQ4cWttRWhpM2kwWXpGeE5lTEZMN1hyb1kwS3FYLWM2OTM4bFE?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T11:40:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
     },
     {
       "id": "6dad7f6674",
@@ -120254,5 +120289,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T11:07:48.174Z"
+  "updatedAt": "2026-11-21T13:07:50.618Z"
 }
