@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "id": "dfda1eed32",
+      "title": "Taux d’usure : ces dossiers de crédit immobilier qui frôlent le plafond",
+      "summary": "La remontée des taux de crédit immobilier accélère depuis le mois de septembre. Avec des barèmes désormais proches de 4% sur les durées longues, la problématique du taux d’usure commence à se poser pour certaines catégories d’emprunteurs et certains types de prêts. Qui est concerné, et comment éviter que le dossier soit bloqué.",
+      "link": "https://www.capital.fr/immobilier/taux-dusure-ces-dossiers-de-credit-immobilier-qui-frolent-le-plafond-1532039",
+      "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~20~171a2803-8b80-43c2-883a-76239f4d2f19.jpg/1200x900/quality/80/taux-d-usure-ces-dossiers-de-credit-immobilier-qui-frolent-le-plafond.jpg",
+      "source": "Capital Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T15:00:00.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "21m2",
+      "score": 5,
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Taux proches de 4 % et usure : concret pour les emprunteurs, mais sujet taux déjà souvent refusé.",
+      "hook": "Crédit immobilier : ces dossiers bientôt bloqués par le taux d'usure"
+    },
+    {
+      "id": "dea5ea4aa6",
+      "title": "Immobilier à Toulouse : les prix résistent en 2026, vers une nouvelle hausse en 2027 ?",
+      "summary": "Le marché immobilier de Toulouse affiche une résistance remarquable en 2026, malgré un contexte national difficile. Le prix moyen des appartements atteint 3 569 euros par mètre carré, en hausse de 0,7 % sur un…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-a-toulouse-les-prix-resistent-en-2026-v",
+      "image": "https://cdn.overlord.media/pour_profiter_de_la_vitalite_de_laeronautique_82e9bc6d_110b9622ff.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T14:00:00.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Marché local sans surprise, proche d'un sujet déjà traité sur les prix des villes."
+    },
+    {
+      "id": "7c16729d39",
+      "title": "Shakti Pumps (India) Limited investit dans sa filiale",
+      "summary": "Shakti Pumps (India) Limited investit dans sa filiale Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdUh5NFpkdjg3QkZyQkRQWTI5RDItZkRXa1MzWERDbkl0VjZBeTNXTWh1a1JLNUc2UHRFMEhRc1Y1bnl4YVhZcGxVN25zRzR3azlPYl9OVzZrbTItTzdKZU91V2ZydkdwVGQyZ3JrS1BFNzlma01zUTNUY0p3VEc1UTZyQ3FZSWNjcHNXS1ZXeTkwRFI4MVRPTlBpS1FuRTNyM19NYWFaT3JVRVdvdTl6eA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T13:50:21.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Actu micro d'une société indienne."
+    },
+    {
+      "id": "41b20c72d6",
+      "title": "L'armée iranienne dit avoir endommagé un chasseur F-16 américain",
+      "summary": "L'armée iranienne dit avoir endommagé un chasseur F-16 américain Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd3JhZnR5R2hQcFRlUk5CcjR5bU1SX1ppa0lGUEpwcUFaX09KVTFYSld2eWVOeUxfblJyVnVuUTRYOVRLSW9FdTlUM0hSSTRmOEttSEdqbVpGdGZDa3pRV2tVenYxZzYtSVUyWFBOcnlMc0ViVFQtOF92Q28tczVzTjk1aE1pb1pmZXdGYk9pY2RGNmNtaXEyZnd2MjJpcFNLT09qVzRQQXlPRHNzLVBEcEpIcnppWHo4RjR5d1F3SE80dw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T13:49:11.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Géopolitique militaire sans angle argent."
+    },
+    {
+      "id": "38e2bde985",
+      "title": "Nouveau samedi de mobilisation sociale en France",
+      "summary": "Nouveau samedi de mobilisation sociale en France TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wMGFjZ0xBVzdlRVRjd1BLcWJucEV6MmZXWm9rQ1ptQzdnVTdOM3FCT3huZUVtMGwtUzh6YXdlaDhJMkFoWldvTUVDUXVIRjNsUVlHY3hQNU9veWtBSUJGLVhKdUlqbDB2NEdIaDF6VV92SW9yZzBv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T13:31:27.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Mobilisation sociale : sujet social et politique que l'éditeur refuse."
+    },
+    {
       "id": "40e1ce4505",
       "title": "Costa propose de nouvelles coupes et une taxe sur le numérique",
       "summary": "Costa propose de nouvelles coupes et une taxe sur le numérique Zonebourse Suisse",
@@ -361,7 +445,7 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach spectaculaire chiffré qui touche le CAC 40 et l'or.",
+      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine et CAC 40 -5 %, tous les épargnants sont concernés.",
       "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
@@ -691,6 +775,23 @@
       "reason": "Point de marché du jour, refusé par l'éditeur."
     },
     {
+      "id": "1972e4aa0b",
+      "title": "SBM Holdings Ltd annonce un changement de directeur général",
+      "summary": "SBM Holdings Ltd annonce un changement de directeur général Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc3cyc3JKVHNYODNyVlp1ajV6YWdvajl2YkNHWTM3VW1QclNHRFAwbXFod0lWZDlsdkhYMzlVWFhvUDB4WTNmNjR0bjJqSEtDYjlBUlhWWVYxRzJTRC0yZER1eTBNTGljOEw1a2MwTkdTRU9BcGRzZnJPZDBQQkVyTnVHNVd3RmhrNVRycTAyejNnUnBQUXo0OWlMMk9oTEJlRWFua1N4OGFTcFZZcWk2OGJQT2Y5Ukl5WklxUQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:32:00.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination dans une entreprise mauricienne inconnue."
+    },
+    {
       "id": "b0ab3a06bc",
       "title": "Enphase Energy va licencier environ 320 salariés",
       "summary": "Enphase Energy va licencier environ 320 salariés TradingView",
@@ -857,9 +958,9 @@
       "score": 2,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Rachat à 1 000 milliards : chiffre fou et coulisses d'un patron célèbre.",
-      "hook": "Masayoshi Son a rêvé d'un rachat à 1 000 milliards",
+      "aiScore": 6,
+      "reason": "Le chiffre de 1 000 milliards frappe, mais SK Hynix reste peu connu en France.",
+      "hook": "SoftBank a rêvé d'un rachat à 1 000 milliards de dollars",
       "notifiedAt": "2026-11-21T13:21:27.985Z"
     },
     {
@@ -1016,6 +1117,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Société inconnue en France."
+    },
+    {
+      "id": "786036bcde",
+      "title": "Secondo alcune fonti, CrowdStrike sarebbe in trattative per acquisire Zscaler",
+      "summary": "Secondo alcune fonti, CrowdStrike sarebbe in trattative per acquisire Zscaler TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9va2s5Nno3SFNDdXEtajdBM2VCZ2NLZVFRQzVZUUhzd0tsaFFmZVRjTThKRUZCSDc1ajRKaTA5QWhfejJwSDNsR05qbEZTcWplUjhBYndwV2RNWnVuLVRqRGNwTjUyOUlNWmVUOUR6c2V2UUxhS1pV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:20:25.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Grosse fusion dans la cybersécurité, mais les deux acteurs sont peu connus en France."
     },
     {
       "id": "a89ae84ba6",
@@ -1372,8 +1490,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Enquête SEC sur la comptabilité de Nvidia, scandale majeur.",
-      "hook": "Nvidia dans le viseur du gendarme boursier américain",
+      "reason": "Une enquête de la SEC sur la comptabilité de Nvidia est un scandale majeur autour d'un géant connu.",
+      "hook": "Nvidia dans le viseur de la SEC pour sa comptabilité",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
     {
@@ -1915,6 +2033,23 @@
       "status": "ignored",
       "aiScore": 1,
       "reason": "Journal de Bourse quotidien et doublon du recul du CAC 40."
+    },
+    {
+      "id": "866964076d",
+      "title": "TradingView Adds Aggregated Spot Volume for 2,300+ Cryptoassets",
+      "summary": "TradingView Adds Aggregated Spot Volume for 2,300+ Cryptoassets TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY2xaSFVxc09lTzdsNkhFek41TEZ6RjlSYldKVzdSQVZSMWVWU0EtRFcyWmpjMFVTZ282NlhkVU1CS1ZLOGV2X2VoTC1ZNzN4OWZwTVlWV2hZRFhoM3hnV0dzQkdzbDJkTXBtbFNWdlcteUxHZUFkS3k2MHl2MG5HOUVsNTRYd054blBsZkVid1hxUzEwUkY4ZjR0bWlma3JCUHpySm5QOFZsWkFGaVU5a2M3QVVRMTB2ZFd5TnA0dzFGZUxEa3c?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T17:28:00.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Annonce produit promotionnelle de TradingView."
     },
     {
       "id": "82f26e9f78",
@@ -2614,8 +2749,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Changement de leader symbolique, mais suite du feuilleton Nvidia.",
-      "hook": "Nvidia détrônée par Alphabet en Bourse",
+      "reason": "Changement de leader en capitalisation, mais c'est la suite d'une saga Nvidia déjà largement couverte.",
+      "hook": "Nvidia détrônée : Alphabet repasse devant en Bourse",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -3697,8 +3832,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin de l'interdiction de louer les passoires : changement concret pour bailleurs.",
-      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée ?",
+      "reason": "Fin de l'interdiction de louer les passoires thermiques : un changement de règle majeur pour les bailleurs.",
+      "hook": "Passoires thermiques : l'interdiction de louer bientôt supprimée ?",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
     {
@@ -8599,6 +8734,23 @@
       "reason": "Actu d'une seule SCPI, peu de portée."
     },
     {
+      "id": "2ed9a0e01f",
+      "title": "Mahindra EPC Says Resignation Of Giriraj Mohta As CFO",
+      "summary": "Mahindra EPC Says Resignation Of Giriraj Mohta As CFO TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa29PY25VblhFT05HVGVMUmpadnVzclJMdllEUzdLajhZNVdoY0NTMF9jRno0LXBWSnZpYzBkV3JfWFk1VHZHZlRKYTZvcFVxdWVra3F4SFBYMVM2djJXdFptNkpmbGJyRDNWVkEwVG5MWWVreXVDSDFMSV9pZDU1bFozQVVVYXozaEdFS1VJdmpxSFNOZlFLbVE0Z3VxM2ZFSmhZdE1BYTUxQ3E4V2VGN3ozYndtMVdmN1g2WGVNZw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T10:01:51.000Z",
+      "collectedAt": "2026-11-21T15:07:20.768Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation indienne inconnue."
+    },
+    {
       "id": "2f82f1e799",
       "title": "L’indice de confiance des consommateurs belges stable en novembre",
       "summary": "L’indice de confiance des consommateurs belges stable en novembre Zonebourse Suisse",
@@ -9187,8 +9339,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Ubisoft, marque française connue, en difficulté financière.",
-      "hook": "Ubisoft plonge : le géant français du jeu vidéo vacille"
+      "reason": "Ubisoft, marque française connue, en difficulté : chute boursière qui fait réagir.",
+      "hook": "Ubisoft plonge en Bourse : la chute continue"
     },
     {
       "id": "63e37e1c24",
@@ -9388,9 +9540,9 @@
       "brand": "investisseur",
       "score": 6,
       "status": "new",
-      "aiScore": 8,
-      "reason": "IPO historique qui dépasse SpaceX, record marquant.",
-      "hook": "Anthropic dépasse SpaceX dès son premier jour en Bourse",
+      "aiScore": 7,
+      "reason": "IPO historique d'Anthropic avec une valorisation record, malgré les refus antérieurs sur le sujet pré-IPO.",
+      "hook": "Anthropic fait +17 % pour son premier jour de cotation",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -9707,8 +9859,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Lancement record de GTA 6, sujet validé auparavant.",
-      "hook": "GTA 6 : 2,36 milliards de dollars en quelques jours",
+      "reason": "GTA 6 génère 2,36 milliards de dollars au lancement : un record grand public, suite d'un sujet déjà validé.",
+      "hook": "GTA 6 : 2,36 milliards de dollars dès le lancement",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -56507,21 +56659,6 @@
       "reason": "Mobilisation sociale et politique, sans lien direct avec l'investissement."
     },
     {
-      "id": "d40a7f43d7",
-      "title": "Dhenu Buildcon Infra Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Dhenu Buildcon Infra Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVlFlal9BakpTYm1mRHpRLU5CbnFXV0ZEV05FaDZTM1U2UlFKQ0x1cXkzNktkN2x0SFN1eWdob1VBNFdqU2tTZzU3aTJzQk10c2RycU5UZV9RU3AtRWNHVUNEMFJFbWlwdzltX0t5Y1J6NlF2WDBaVllDWl9ZWHNtY2tDUXZuR1BwS2NPeHV4U1U1WFAyVTZKU3hkNzhLbmNSM0pNNjBhTl81Ty1fcWh1cWgxbTd6Z1Y1Y0llUHNsa3pxZXRnRUdqcjJ3aXhNald4VG5NUldhRGp4cy16cWs5QVVCOTVQQ3ZDZTBNbU13NFhJeXc?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T15:01:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "a29c6cda15",
       "title": "Crédit immobilier : jusqu’à quel âge peut-on emprunter ?",
       "summary": "Souscrire un crédit immobilier reste possible à 70, 75 ou même 80 ans. La loi ne fixe aucune limite d’âge pour emprunter. Cependant, la durée de remboursement acceptée par les banques et les conditions d’assurance peuvent restreindre l’accès au prêt, y compris pour les ménages déjà propriétaires de leur résidence principale.",
@@ -56553,51 +56690,6 @@
       "international": true,
       "aiScore": 2,
       "reason": "Point de marché crypto banal, type de sujet systématiquement refusé."
-    },
-    {
-      "id": "9980204fad",
-      "title": "SSMD Agrotech India Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "SSMD Agrotech India Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWk55N1AtR05admI1NU5wR2swM1I5eWpoUEhZTGxodkZyZC1ZUVIyaXM3UGNySmNwcFVESjcxNWVXTGlmOWpUYkxCUUh5bERmSlo2TFZrOWFNNjhwbFJXRHpkUVJTUVpUdTVxcXVnVnFkLXhvRWxWZ19YRTNSeDBNOE9pMW8zSmhQN01hc3R4YW9pdXdwa1RDX281b2ZwcnJfZWRsb1hnRWR4dzh3M3YyWk5iQi15Y3JwN1FSQzZueUdicXZ4SkN3ckxvcE9xOU5zNmNmRTBEaFBHSzk5bnEzeGlucFVIa3M?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:58:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "2a60a11a12",
-      "title": "Tanachira Retail Corporation Public Company Limited publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
-      "summary": "Tanachira Retail Corporation Public Company Limited publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPZU1RVVQwXy1mN281MHdhRUNCY1FaTmNGcElpd3VOWXdyQi1EdVN5bHl4N0p5RFlpV2lRdmw3cXI0dVVHZF9LSmRvdGVFcC1yTjBCZE52NE9tcUt1MTRBTVdCVjQ3WXQtcHQ3Nk5LdUt0U0JyZ20xZ3hfX00xaUI1R2ljM1ZVNUlTNFJhTFFjZ0p5R3RrSmFJY3dDc0FYWjN4Q1RmN2hGOFQ1SWVYUDJJVmFCU1NDQ0FPNXlZcENlNlRZaXR4TDVNWDFKd1VENlI4OTZDcUI1a0RzcUZKZ05LaG9uZXZxSG5fcnJncFU1bjFhVms?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:54:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "07473115b2",
-      "title": "Copperwired Public Company Limited publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
-      "summary": "Copperwired Public Company Limited publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMG5DMXVseDRKNk93bXFncWd1MzRDbHVCSkl6MENkaGdRLVF3VTV5bjI5TnhrNlotb0NDV3BLTmR0dTdFcV9WNnVTbVpvM1lUV2RTVkdwNnZpMmVwNm1LUUpKV0pFdEM3VjgzQmE5Sk1RZzJZRjN0T0JRVnZXN2lOaXh4dlZLNTdMUktyelNKc2RlY2FYN1ZWWW4yZk9iNGtOWGF5Z2g5TDhGcjRoaWNKMW1id3hzTmlZTERsM2RBeGJua1R2OHdydFFqTU02eTFnS3ZaSFIwdXBuZGx0WXZ5T1QyN0hOZ2w1bGtyaTRUekJCd0U?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:53:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
     },
     {
       "id": "c9401553fd",
@@ -56652,84 +56744,6 @@
       "hook": "Musk prévient : sans Jensen Huang, Nvidia perdrait des contrats critiques"
     },
     {
-      "id": "91d1be28aa",
-      "title": "Musk affirme que Nvidia perdra des contrats “cruciaux” sans Jensen Huang",
-      "summary": "Musk affirme que Nvidia perdra des contrats “cruciaux” sans Jensen Huang TradingView",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoQ19oTVliS0hzbEFtcFAzb1pfRmU4NVFUek5hcHNJaHJoSEJYX19OQndCUWtvRmJBdEVuYzdYWUl6ZUotYm5MSVFVZHNlc0l5MmU5ZWNLU3VfNkhCbDl0Y3pRcklxZFgxMlVFZlhWckhGaHotZlEw?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:47:07.000Z",
-      "collectedAt": "2026-11-15T21:07:39.780Z",
-      "brand": "investisseur",
-      "score": 3,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "388c9f6cd9",
-      "title": "Aureate Tradde Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Aureate Tradde Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYUdSR1pRUXVDVF9sRlUzWUs4ZU5ZLW1VNk5KX1FEYkZhTU5pNVVZdkw1UXpXVlVmb1M0TzJvc0tZbk83alFsMWI2c2ZRalVmejVQczQ2UnBoSzBNLTZhY3RTUkFCYUxVd2VEdTdvYkZEOEFFbkIzdV9peGhEUVRwaDA4ekY5Q3duNkRRRFZPdGYwZU9YY2g0TE5NZmR3aHN6RHdhSUF5ajJRRUdoR2hURi1ucFYxb0FUeHE4WFJNSkRUX0NIVzNiYU5DYzFtNERiQUxiU1dXM3plalNUa0pGVg?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:45:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true,
-      "notifiedAt": "2026-11-15T15:07:23.601Z"
-    },
-    {
-      "id": "8091130ae1",
-      "title": "La présidente de la Réserve fédérale (Fed) de Boston estime que des relèvements progressifs des taux sont préférables pour gérer les risques économiques",
-      "summary": "La présidente de la Réserve fédérale (Fed) de Boston estime que des relèvements progressifs des taux sont préférables pour gérer les risques économiques Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdV9QbWliZTFOWlh0bktJdlVIanBMcWdNQWtySDd0dFFfbFNHN1RLN280QzZJYkpVUm8xTnE0ZGZyNUFpcEJSelVEVjlTRE1PZ01Fa0xhLTNDVTBweURaYXhTMlA3UWwyTmVMZlM2YUx0WS0wOVhQZWR4NW5tVklGeWY3Sng5U0Q1MUo3RlJFMl9xTUlaQ0thWlhBX3lITGdOUnZ1ZG81cDdiMDVIYkhXSnNDQUtIT0lpMTRITklTZ2JJdmx3OFZaZXQ1TUJpa3ZFS0puVVlPbmZxcEl5QllDX3RrWGwzZFlJdVhWal9hVDg?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:41:13.000Z",
-      "collectedAt": "2026-11-15T13:07:25.202Z",
-      "brand": "investisseur",
-      "score": 5,
-      "status": "new",
-      "international": true,
-      "notifiedAt": "2026-11-15T13:07:25.202Z"
-    },
-    {
-      "id": "86fb61a7ed",
-      "title": "Salt Investments Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Salt Investments Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSEItbVpvd2xzamh3NVVSZU9CU2JyZW40X3ROaGZrZy1pQ2s5bWFJeDFkRHRCamp5bXF0WnJLTEoxUjI5d0xlU0FNZUk4QTRSM250VVowcmRHczhIbkVfUzFKVVJNaVB5NWJPX01ub3p0eGk5RUZzLTRWdnVKbUxQZWpBQnZzcmY0ZmdINzdKMGVUMXJVYjJtaDliQ3oyUGVtcmhINU9GeHdfZE5IbWJPenhDVEx1bGllRFNYZ21xSUN0bUVhWTBzbUh1UFF5MmdvZmNFdGhvUXIwblFZMzJ4c3hYSQ?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:39:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true,
-      "notifiedAt": "2026-11-15T15:07:23.601Z"
-    },
-    {
-      "id": "5dea3cae23",
-      "title": "Jainco Projects (India) Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Jainco Projects (India) Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNmN2TUxwdWsyeVB6Zjd6eUtHOTNNYS1NWlNlaFN1VVZWU1JRMmEySmpCeDc1SDl0dEZxa1ZFOGxQWVRNZkxnT3J5THY0czY2ZDVjbGxuYnRPSzA5NmYyN2I0MmJRZ2E1cVFzZXBlb3VKRFhKcDB2dl91MzFHTjZhaW5TQnF3UVBTdVRMX3ZmLW14UlN1aVhoQlR1Y3NRQ3VUU0xIdFRfeGlqd0dSdXZFblozRnBHUVk4Y1prYzUwcl9ROGxtc1FJcWdCSWhrSkdHLVJWeEVTeVN3bml1R1p5aWY4ek1veDE1WnVjN3NyS1U?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T14:33:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "be8f28519f",
       "title": "Pagaille aérienne aux États-Unis: encore des annulations et des retards de vols samedi (ministre)",
       "summary": "Pagaille aérienne aux États-Unis: encore des annulations et des retards de vols samedi (ministre) TradingView",
@@ -56763,21 +56777,6 @@
       "titleOriginal": "Ranked: America’s Best Universities Across 3 Rankings"
     },
     {
-      "id": "b991eef5a7",
-      "title": "Logica Infoway Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Logica Infoway Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNzk1aEVRVm52LTB3bWVrcEZtZWNfTzQ1Y3dESTM1cDBVWHRIU2UwanpoUXRpU1htRkpVUG55TElwbGxER3BHdDlFYm9kdEhBUVpIMnB3Z0FObnd0WDZPV09iRk81Zk43UjJKeHNPMzFZUXVxdUxfMTFqVEU3S3lmcnd1MjBjU2plclc2SXBsbXFUTXc1NXVuVFdkbEZEd1dhSnRmVHlPcEJQbExGbkI3VU8xazFMbVlsY0JOd2U3Sno3UGhBTHlFeWROb2ZoQk1leWo3MjlLS0lpclpYNkVPbw?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T13:43:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "59929f4595",
       "title": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers",
       "summary": "Tesla ouvre les ventes de son robotaxi Cybercab à certains particuliers Zonebourse Suisse",
@@ -56794,21 +56793,6 @@
       "aiScore": 5,
       "reason": "Tesla vend son robotaxi aux particuliers, marque connue mais actu produit.",
       "hook": "Tesla vend désormais son robotaxi Cybercab aux particuliers"
-    },
-    {
-      "id": "0a4735628b",
-      "title": "Novateor Research Laboratories Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Novateor Research Laboratories Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQaWpiaGdsbDRFRlBoRUxyZ2pWZV9jdlAzV1k4TUJwRWpCbU05NFlqbkd0M1kxcXhySUdLZktXd01wOFdnQXIxZ1JzMEFwVTB3c1NRcnB2Zm9ieFB3X2NibnR0VHZQNHNYcTlfdFJDenZHTXpHaHo0ZXF3RnBOOVA4dTJOVzV5VUNfNUNrdzZYbnN0bmVyWVJidHkweXNnMWdITG50azFXWVZLVUpUU1I2cGsyQzRPdU82a0xfT1oxU0dWc0RPMHlPVF9KSUlvalNVb3ZPWmg5bWttekQtejNBZ2FBSGVxZmNKM2xXQ0hjaVZrTlE?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T13:26:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
     },
     {
       "id": "6ead08c63d",
@@ -120451,5 +120435,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T13:21:45.411Z"
+  "updatedAt": "2026-11-21T15:07:41.085Z"
 }
