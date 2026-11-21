@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "id": "0d421c1a6e",
+      "title": "Wall Street : consommation, inflation et résultats technologiques au programme la semaine prochaine",
+      "summary": "La semaine sera écourtée par la fête de Thanksgiving, mais plusieurs publications pourraient influencer les marchés. Les investisseurs surveilleront notamment les dépenses des ménages à l'approche de Noël et le…",
+      "link": "https://www.lerevenu.com/reussir-bourse/points-marches/wall-street-agenda-economique-consommation-inflation-resultats-tech",
+      "image": "https://cdn.overlord.media/wall_street_cloture_hausse_resultats_78599c07_7c5347bb47.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T09:00:00.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Agenda de la semaine, type de sujet refusé."
+    },
+    {
+      "id": "8afd2e4c8f",
+      "title": "Cette ancienne ministre va intégrer le directoire de la BCE : qui est la Française Laurence Boone ?",
+      "summary": "Economiste reconnue et diplomate de l'ombre, la Française Laurence Boone, assurée depuis vendredi d'intégrer le directoire de la BCE, navigue depuis...",
+      "link": "https://www.moneyvox.fr/banque/actualites/111356/cette-ancienne-ministre-va-integrer-le-directoire-de-la-bce-qui-est-la-francaise-laurence-boone",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20171214_004414_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-21T08:24:12.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "new",
+      "aiScore": 7,
+      "reason": "Une Française au directoire de la BCE, suite du sujet Lagarde validé.",
+      "hook": "Une ex-ministre française entre au cœur de la BCE",
+      "notifiedAt": "2026-11-21T09:07:23.197Z"
+    },
+    {
+      "id": "acc793d68a",
+      "title": "Immobilier neuf à Lyon : 5 critères essentiels à comparer avant d’acheter",
+      "summary": "Le marché immobilier neuf à Lyon traverse une période de ralentissement, avec une baisse de 15 % des réservations dans la Métropole sur les huit premiers mois de 2026. Malgré ce contexte, les prix restent élevé…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-neuf-a-lyon-5-criteres-essentiels-a-com",
+      "image": "https://cdn.overlord.media/municipales_2026_lyon_un_marche_immobilier_profondement_recompose_60a4fef6_d9829663fd.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T08:00:00.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Conseils d'achat génériques, peu de fait nouveau."
+    },
+    {
       "id": "4afe270da9",
       "title": "CAC 40 : une semaine de forte baisse, l'indice repasse sous les 8.000 points",
       "summary": "Après une hausse de 2,8 % la semaine précédente, l'indice parisien a brutalement inversé sa tendance. Les doutes sur les investissements dans l'IA et plusieurs publications décevantes ont accentué les prises de…",
@@ -159,7 +209,7 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach spectaculaire touchant CAC 40 et Nasdaq, sujet incontournable de la semaine.",
+      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, même l'or chute.",
       "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
@@ -927,8 +977,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Enquête SEC sur la comptabilité de Nvidia, scandale majeur.",
-      "hook": "Nvidia dans le viseur de la SEC pour sa comptabilité",
+      "reason": "Enquête de la SEC sur la comptabilité de Nvidia, scandale majeur.",
+      "hook": "Nvidia dans le viseur du gendarme boursier américain",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
     {
@@ -1739,10 +1789,10 @@
       "collectedAt": "2026-11-20T17:07:23.298Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Une Française vers la BCE, lié au sujet succession Lagarde.",
+      "aiScore": 0,
+      "reason": "Doublon du sujet Laurence Boone.",
       "hook": "Laurence Boone, une Française pour la BCE"
     },
     {
@@ -2151,9 +2201,9 @@
       "score": 3,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Nvidia détrônée par Alphabet, renversement symbolique.",
-      "hook": "Nvidia n'est plus la plus grosse : Alphabet la double",
+      "aiScore": 6,
+      "reason": "Nvidia détrôné par Alphabet, symbolique mais lié au krach.",
+      "hook": "Nvidia n'est plus le roi : Alphabet le dépasse",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -2189,6 +2239,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Rachat d'actions d'une banque américaine inconnue."
+    },
+    {
+      "id": "37836c977e",
+      "title": "HyOrc 3Q 2026: Revenue $0, EPS ($0.00) — 10-Q Summary",
+      "summary": "HyOrc 3Q 2026: Revenue $0, EPS ($0.00) — 10-Q Summary TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeW40c2RVMzQ4MXVnTnB6UHJnY3llbXNpZmE0cGpsblJ1X0wxSS0tVkZ1b0xuZ3Q4M1BCLXlUOU51SHR6aDhzSkx1VjBiTTN4WEcycndJWTAwbzMwaVgxdlRYUEF1bEUxZUIxRnRYTV9CdjhDTEEyT2tyTktzOElRb2ctNXVvSjI0aFkxOHJ3VWZoM3hQYmJ4WTg2LWVVbjlycFJZRW9QZkxDZw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T16:01:01.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Microcap sans intérêt."
     },
     {
       "id": "2bf2f62334",
@@ -3167,8 +3234,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin de l'interdiction de louer les passoires, changement majeur pour bailleurs.",
-      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée",
+      "reason": "Fin possible de l'interdiction de louer les passoires thermiques, énorme pour les bailleurs.",
+      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée ?",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
     {
@@ -7849,6 +7916,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "f68cb7750f",
+      "title": "Chinese EV maker Leapmotor's Q3 revenue surges on higher deliveries",
+      "summary": "Chinese EV maker Leapmotor's Q3 revenue surges on higher deliveries TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVzY1YnFoR3ZXRm81Vk9YTk9qd1ZfbmlpREZnYk1wekpsaFljR2dmR3RKUzVBc0FWbURZSWRxWTRwQnh5YWJ5M0hyQkJfRHhIcWZzOVUwTWdscEJzcUVXVnVSS3M1MzBoME9pVXZvdkVyQ2ZMTHk1U0V6RlRianFsRXZJZnk1N0l0YWF4QnltT2tTOGxDVXZsd3JFSXpBN2xfUWNPR0R6Z0VNTFZ1YzAzMXg2bTRId3JBd2JPdy1PYnhYX09kbVdaU19zV3FJQmhNZUE?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T10:14:05.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Résultats d'un constructeur chinois peu connu en France."
+    },
+    {
       "id": "40e55c89e2",
       "title": "Les actions chutent alors que la vague de ventes liée à l'IA s'intensifie ; l'Asie s'apprête à connaître sa pire semaine depuis 2020",
       "summary": "Les actions chutent alors que la vague de ventes liée à l'IA s'intensifie ; l'Asie s'apprête à connaître sa pire semaine depuis 2020 TradingView",
@@ -8322,6 +8406,23 @@
       "hook": "Sanofi prêt à dépenser des milliards pour Insmed ?"
     },
     {
+      "id": "ec23a20142",
+      "title": "Norway's oil and gas output higher than forecast in October",
+      "summary": "Norway's oil and gas output higher than forecast in October TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaEY5Q3JuNW1YNjZIbnpzUi1EcHZJdHl5ZU1PRkZmTkxuSzhfNDF0THF3WkwzUGpHUjRrdnpfVDh3alJEU0JCSmtjdy16cnJJR2JQc3kyRGRGdk5pbUNDREFtbTBXZmVuYkJwZ2NwSUhOXzNFSHVMck9Dam5JUkFwd21wV1pLUGY0WkJvbENPRWtjVmhTQXl4Z2Zhcl9xNW9qbm9fZUx2NWs2M0hQOWt4ZHRZeUxfcnkyTS05elQtRVRqNHl2bFhSTHRRTUM?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T09:25:30.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Production pétrolière norvégienne, trop technique."
+    },
+    {
       "id": "5f5ab35242",
       "title": "Nestlé ouvre un centre de recherche à Orbe, 60 emplois",
       "summary": "Nestlé ouvre un centre de recherche à Orbe, 60 emplois TradingView",
@@ -8507,6 +8608,23 @@
       "reason": "Contenu sans intérêt."
     },
     {
+      "id": "506d7937bd",
+      "title": "DEFAMA Deutsche Fachmarkt Q3 2026 Earnings Call Is Live",
+      "summary": "DEFAMA Deutsche Fachmarkt Q3 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWnkxRHBsd3Jwd21iQzY3U0ZLREFRbDdLWlBDQXp5X1JoTl9UMUplcTBqbVRiczBYUnNyYjFKNXE4VzhiRUVZMmJ0TktLOF95V0R5bFhhc1NTM1NWNUdBVjRUYVh3YWxldnpJdm9URDZRSUxGZlltSW5kZ2g3Q1JKdHRpbDJaRzJfRTRsLVptcHBnQy00M0REMkFjY3NJTURIbEt2blhYYlNVTXg4X01aTTBTOERJRDZXOHBKOVotMHM?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T08:57:02.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite foncière allemande inconnue."
+    },
+    {
       "id": "a52457bcd9",
       "title": "Ubisoft plonge, les tensions financières inquiètent les analystes",
       "summary": "Ubisoft plonge, les tensions financières inquiètent les analystes Zonebourse Suisse",
@@ -8521,8 +8639,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Ubisoft, marque française connue, en tension financière.",
-      "hook": "Ubisoft plonge encore : la fin du géant français ?"
+      "reason": "Ubisoft, marque française connue, en difficulté financière.",
+      "hook": "Ubisoft s'effondre en Bourse : la fin approche ?"
     },
     {
       "id": "63e37e1c24",
@@ -8722,9 +8840,9 @@
       "brand": "investisseur",
       "score": 6,
       "status": "new",
-      "aiScore": 8,
-      "reason": "IPO historique d'Anthropic, valorisation record.",
-      "hook": "Anthropic entre en Bourse et dépasse SpaceX",
+      "aiScore": 7,
+      "reason": "IPO historique d'Anthropic à 1 760 Md$, record absolu.",
+      "hook": "Anthropic pèse plus que SpaceX dès son premier jour",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -9041,7 +9159,7 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Lancement record de GTA 6, sujet validé auparavant.",
+      "reason": "GTA 6 : 2,36 Md$ de ventes, record grand public, sujet validé.",
       "hook": "GTA 6 : 2,36 milliards de dollars dès le lancement",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
@@ -9298,6 +9416,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Indicateur macro peu engageant."
+    },
+    {
+      "id": "bbae237a3a",
+      "title": "Key facts: Merger Review; Texas Cybercab; $3.3B Berlin Plan",
+      "summary": "Key facts: Merger Review; Texas Cybercab; $3.3B Berlin Plan TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa3g5MnhGWjUxS09aa29XNFlQS3lZeGRxbE5GTXFHOGJiOVpPY0VMRms1c2Q3cF9pOUt0eXpLTDVGZmpvZUxnMlI5dENoSXU0Yk9yQmZrRUZycDcxbGFkUm03VTI1UXItYXUtdl9yQ0FkR3RMa1hPb1k4amwyVXh0TGZodUNRTFlxZE4wNDhETFYwTDYyT1h4NmhQWjVWMndxMFl4LXFwXy1JdWdnNmFJMElURklrUTA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T08:00:00.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Brèves Tesla éparses, sans angle fort."
     },
     {
       "id": "d2c33026f8",
@@ -11239,6 +11374,23 @@
       "reason": "Distributeur US inconnu en France."
     },
     {
+      "id": "1cde5fd38b",
+      "title": "The Marketing Alliance, Inc. autorise un programme de rachat d’actions.",
+      "summary": "The Marketing Alliance, Inc. autorise un programme de rachat d’actions. Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaDNPdXN6aXFiXzVHb0o3TGlUeXQwaGVjMTFmRHgxdUZCR01FWkN6dmNGeXJqaWNPSjJZVmFZblRCek1Hb1ZtZ0p2bXJuSm9KaWVuTUJuZjJyeDh1bHoycXhCalFiLTkybE9qd0tlMDRCc0lBTC1BS0NkbmFTSlozUS02bHRuZEpndUFHV2hhNmlCcXM1bzBFalZRRWtRVk1yVmNPTmhmcnQ5UHgzU29rZnFpQzhaNWlsc09sQXR4V3Fwb202dW0zcFVn?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-19T23:00:00.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Rachat d'actions d'une petite société inconnue."
+    },
+    {
       "id": "32bfd797e1",
       "title": "Les marchés boursiers asiatiques s'apprêtent à connaître leur pire semaine depuis 2020, alors que la chute des valeurs liées à l'IA s'accentue",
       "summary": "Les marchés boursiers asiatiques s'apprêtent à connaître leur pire semaine depuis 2020, alors que la chute des valeurs liées à l'IA s'accentue TradingView",
@@ -11340,7 +11492,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Activiste contre le patron d'Accor, coulisses d'un groupe du CAC.",
+      "reason": "Fonds activiste contre le patron d'Accor, coulisses d'un groupe du CAC.",
       "hook": "Un fonds activiste veut la tête du patron d'Accor"
     },
     {
@@ -11614,6 +11766,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Point de marché, doublon Anthropic."
+    },
+    {
+      "id": "be89af0ff1",
+      "title": "Pistorius will Militärpakt mit Polen ausbauen und warnt vor Nationalismus",
+      "summary": "Pistorius will Militärpakt mit Polen ausbauen und warnt vor Nationalismus TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iUF9YTXAzTzY1S2ZjM1lhMElCYzN2eGViWlFaNFdXbnBxY0pvWW1CdVFzZkQyclJtaGF2TGJpQnZVYVpQSlY3Q1B4bUQyajNXcHl6VlBGWG9TOGxQNFI4MVRrT092a2xBRUdGeWsxTWt3LWQ4SFRV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-19T21:35:23.000Z",
+      "collectedAt": "2026-11-21T09:07:23.197Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique de défense allemande."
     },
     {
       "id": "af795622bd",
@@ -119945,5 +120114,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T07:07:45.962Z"
+  "updatedAt": "2026-11-21T09:07:42.415Z"
 }
