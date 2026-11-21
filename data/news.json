@@ -1,6 +1,169 @@
 {
   "items": [
     {
+      "id": "4afe270da9",
+      "title": "CAC 40 : une semaine de forte baisse, l'indice repasse sous les 8.000 points",
+      "summary": "Après une hausse de 2,8 % la semaine précédente, l'indice parisien a brutalement inversé sa tendance. Les doutes sur les investissements dans l'IA et plusieurs publications décevantes ont accentué les prises de…",
+      "link": "https://www.lerevenu.com/reussir-bourse/points-marches/cac-40-une-semaine-de-forte-baisse-l-indice-repasse-sous-les-8-000-points",
+      "image": "https://cdn.overlord.media/cac40_baisse_petrole_geopolitique_f53fe992_6e528b12cb.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T07:00:00.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Point de marché hebdo, doublon."
+    },
+    {
+      "id": "59f17402ff",
+      "title": "Wall Street : une semaine de forte correction, les valeurs de l'IA sous pression",
+      "summary": "La correction s'est accentuée sur les marchés américains du 16 au 20 novembre. Les inquiétudes sur le financement des infrastructures d'intelligence artificielle et les perspectives de taux de la Fed ont renfor…",
+      "link": "https://www.lerevenu.com/reussir-bourse/points-marches/wall-street-bilan-semaine-correction-valeurs-ia-semi-conducteurs",
+      "image": "https://cdn.overlord.media/a_wall_street_gamestop_legerie_des_petits_porteurs_contre_attaque_bd2a56bd_cbc4ba585b.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T07:00:00.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Doublon du krach, simple point de marché hebdo."
+    },
+    {
+      "id": "3af6ac809a",
+      "title": "Facture de gaz : 5 gestes simples pour réduire vos dépenses cet hiver",
+      "summary": "Le prix du gaz poursuit sa hausse en France, avec une augmentation de 6,6 % du prix repère au 1er novembre 2026. Cette évolution alourdit les dépenses des ménages chauffés au gaz. Pourtant, cinq gestes simples…",
+      "link": "https://www.lerevenu.com/investir-immobilier/conseils-immobilier/facture-de-gaz-5-gestes-simples-pour-reduire-vos-d",
+      "image": "https://cdn.overlord.media/facture_electricite_baisse_abonnement_1er_fevrier_2026_c1a78068_e86438fcb8.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T07:00:00.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Prix du gaz particulier, refusé par l'éditeur."
+    },
+    {
+      "id": "af5d125e44",
+      "title": "«Sans lui, notre copropriété aurait payé 425.000 euros de plus» : ce professionnel méconnu peut faire baisser la facture des travaux dans votre immeuble",
+      "summary": "Spécialiste de l’analyse des devis et des métrages, il est appelé à jouer un rôle croissant dans la rénovation des copropriétés. Mais nombre de syndics et de maîtres d’œuvre renâclent à faire appel à lui, redoutant de perdre leur position centrale sur un marché colossal.",
+      "link": "https://immobilier.lefigaro.fr/article/sans-lui-notre-copropriete-aurait-paye-425-000-euros-de-plus-ce-professionnel-meconnu-peut-faire-baisser-la-facture-des-travaux-dans-votre-immeuble-20261121",
+      "image": "https://i.f1g.fr/media/cms/3000x1582_crop/2026/11/20/cba57ab6f4ded3cbce774b4b680625d1d722b1bfc03c2d6c30aa77aabbcf4de0.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T06:15:00.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Conseil d'expert copropriété, peu engageant."
+    },
+    {
+      "id": "436b9a3126",
+      "title": "Compte à terme : nouveau taux, versement minimum... Ce qui change chez BoursoBank",
+      "summary": "BoursoBank fait évoluer son compte à terme (CAT) pour le rendre plus accessible et plus souple. Voici les trois nouveautés à retenir....",
+      "link": "https://www.moneyvox.fr/placement/actualites/111341/compte-a-terme-nouveau-taux-versement-minimum-ce-qui-change-chez-boursobank",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20260306_150315_31.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-21T06:00:09.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Petite actu produit bancaire."
+    },
+    {
+      "id": "b7c738bb8f",
+      "title": "Cette maison autrichienne vise le record du monde du plus grand nombre de lumières de Noël",
+      "summary": "Sur son terrain de 5000 m², la famille Gollnhuber a déployé 776.716 lumières entre maisons et jardin. Le record du monde doit être homologué ce samedi pour l’ouverture officielle des lieux au public.",
+      "link": "https://immobilier.lefigaro.fr/article/cette-maison-autrichienne-vise-le-record-du-monde-du-plus-grand-nombre-de-lumieres-de-noel-20261121",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/19/d66ad427ba23cb9ef98c490bc3e8edf633b31c2b33bcb1ec689a7c4bcb287d47.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T06:00:00.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Anecdote sans lien avec l'argent."
+    },
+    {
+      "id": "cbf5fdebc9",
+      "title": "Bourse : après l'effondrement, le pire est ailleurs",
+      "summary": "Le CAC 40 a perdu plus de 5 % cette semaine, le S&P 500 près de 9 % et le Nasdaq 10 %. La chute est spectaculaire, mais une correction boursière n'est pas une crise financière. Elle peut même être salutaire, en…",
+      "link": "https://www.lerevenu.com/actualite-economique/bourse-apres-l-effondrement-le-pire-est-ailleurs",
+      "image": "https://cdn.overlord.media/Marche_en_baisse_livres_financiers_280adb9326.png",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T05:39:02.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Doublon du krach de la semaine."
+    },
+    {
+      "id": "88b982a632",
+      "title": "CAC 40 : les grands perdants de la semaine",
+      "summary": "La Bourse de Paris a vécu une semaine noire, abandonnant 5,27 % en cinq séances. Dassault Systèmes, STMicroelectronics, ArcelorMittal et Stellantis ont enregistré des chutes à deux chiffres. De la technologie a…",
+      "link": "https://www.lerevenu.com/reussir-bourse/cac-40-les-grands-perdants-de-la-semaine",
+      "image": "https://cdn.overlord.media/Chute_des_marches_a_La_Defense_8dfeb13c45.png",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T05:32:28.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Palmarès des perdants, suite mineure du krach."
+    },
+    {
+      "id": "b5b56407f5",
+      "title": "Le bitcoin tombe à son plus bas niveau en deux ans",
+      "summary": "Le bitcoin tombe à son plus bas niveau en deux ans Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQXzlmbWFCd1FDaFR4a2NPQWJOQ2llcFpZSGxVMWtFYUhCVjlUMC01enJZc2lKdDlwbEpQb3lrU2V3S21TTnZwY3VpVG1RcThaaURXUHdiUktodHNkRW9vTGg3WFFjMl9BRUlYbFlGa2Q2aWY1ZDU5NEhJcVN2YlpVcUg4dEZBZTdSb3NOMXlVNUtSYUEwNjhXenpRZGtxTUhKQTFYVG9XN1NubHF6OVVv?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T05:32:27.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon du Bitcoin au plus bas."
+    },
+    {
+      "id": "e4163fb444",
+      "title": "Krach boursier : l'intelligence artificielle détruit tout, jusqu'à l'or",
+      "summary": "Le Nasdaq a perdu 10 % en une semaine, le S&P 500 près de 9 % et le CAC 40 plus de 5 %. Malgré des résultats records chez Nvidia et l'introduction en Bourse historique d'Anthropic, les investisseurs se détourne…",
+      "link": "https://www.lerevenu.com/reussir-bourse/krach-boursier-l-intelligence-artificielle-ne-fait-plus-rever-les-marches",
+      "image": "https://cdn.overlord.media/Statue_d_ours_face_au_krach_boursier_e5b79143bb.png",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T05:20:19.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 11,
+      "status": "new",
+      "aiScore": 8,
+      "reason": "Krach spectaculaire touchant CAC 40 et Nasdaq, sujet incontournable de la semaine.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
+      "notifiedAt": "2026-11-21T07:07:23.066Z"
+    },
+    {
       "id": "b11c2ea1f9",
       "title": "Prime de Noël 2026 : « Pourquoi je ne peux pas la toucher avec l'Aspa (minimum vieillesse) ? »",
       "summary": "L'Allocation de solidarité aux personnes âgées (Aspa) n'est pas concernée par le versement de la prime de Noël. Voici pourquoi, en réponse à la...",
@@ -188,6 +351,23 @@
       "reason": "Suppression de postes chez une société peu connue."
     },
     {
+      "id": "9fa758de85",
+      "title": "NI Holdings, Inc. autorise un programme de rachat d’actions.",
+      "summary": "NI Holdings, Inc. autorise un programme de rachat d’actions. Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY3lqOHhjVXlCblo3cjBQcjM0OUNBMFVuYld4N0xPcnF0Nm14R1RhSXhDUmNtN01rWHpkdF9nc3J1QUc3RmNWcDhiaXZHcGVqb0I0VC1iQ1BHeEY3OWJaYkpEVUo5YzRJWGktOTU5TFNMaWZ0dVFvNDUxVzc5c3pTZlBlMmlsYy1VTERlRFg5UnJ3UTU1Tkt2bXVEVU1xSTIxbHFfeFFZbXdYbTlONHczX3JkUHV0QnpGSVEw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:20:24.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Rachat d'actions d'une small cap inconnue."
+    },
+    {
       "id": "c57d82e649",
       "title": "Enphase Energy va réduire ses effectifs de 12 %",
       "summary": "Enphase Energy va réduire ses effectifs de 12 % TradingView",
@@ -339,6 +519,24 @@
       "international": true,
       "aiScore": 0,
       "reason": "Technique et obscur."
+    },
+    {
+      "id": "ee919b1943",
+      "title": "Le bitcoin atteint son plus bas niveau depuis deux ans",
+      "summary": "Le bitcoin atteint son plus bas niveau depuis deux ans TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHT2VKRFRSMUdPeXdadEk3cmJmT2JpXzJWOElzMVRObUZUVlQ0eTItTFVNVFRmanlyS0UyR1I3NUJqcDdiZVZPTXAtUTd3ckY0TkNnVjJhZ2hRUVhvN2hhNTlPTGRza3dCOEpmdGhpcmhHdW1DLUlZ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:32:00.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Plus bas de deux ans du Bitcoin, mais type seuil souvent refusé.",
+      "hook": "Bitcoin : retour à son plus bas depuis deux ans"
     },
     {
       "id": "3fb244bc60",
@@ -509,6 +707,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon du point de marché."
+    },
+    {
+      "id": "42cbc6c5ed",
+      "title": "Un séisme de magnitude 6,8 frappe le Pérou",
+      "summary": "Un séisme de magnitude 6,8 frappe le Pérou TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9sa3ZtOE5TN1ByR1ZCd0ltMWx0bi1VdmtRcTAweW1vR21KMTNrZlJiQXpRdkdJOEdvbXphXzVSSUZzN1JFMHNPN01HMmhWNDlzN1c5UXcwQUNrTWRBRTdjR0VLYUVWRmNaSXhyX0R0N3ZWMFhqWklJ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:05:00.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Fait divers sans lien avec l'argent."
     },
     {
       "id": "7593dd9cb6",
@@ -713,7 +928,7 @@
       "international": true,
       "aiScore": 8,
       "reason": "Enquête SEC sur la comptabilité de Nvidia, scandale majeur.",
-      "hook": "Nvidia dans le viseur du gendarme boursier américain",
+      "hook": "Nvidia dans le viseur de la SEC pour sa comptabilité",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
     {
@@ -1527,8 +1742,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Une Française à la BCE, coulisses proches du sujet validé.",
-      "hook": "Une Française bientôt aux commandes de la BCE ?"
+      "reason": "Une Française vers la BCE, lié au sujet succession Lagarde.",
+      "hook": "Laurence Boone, une Française pour la BCE"
     },
     {
       "id": "cff84f3e08",
@@ -1753,6 +1968,23 @@
       "reason": "Bitcoin sous un seuil : l'éditeur refuse explicitement ce type d'actu."
     },
     {
+      "id": "219aa63ffe",
+      "title": "LEG Immobilien SE (LEG) Reports Goldman Sachs Voting Rights Notification",
+      "summary": "LEG Immobilien SE (LEG) Reports Goldman Sachs Voting Rights Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd2JOLWVEc1FZSU56Y1cwQlMwQmwzLTd5b1d5WjJMZldOdDZ5ak1hazNuWC03cFBPRl9vWEJISmthbl91b0dLYTFCWFhPVWk4eHRnVUZxdlhwZldvQmg0Q1dELVN1T3lGM3g3YUl2a2tENjhnTjMyT3lEWkhoZEpzRkFoTXN2LXhoRTllUHdnQkMyQ3Vob3dFMVR6NmZ0OTRPYWotcjRrUkx3NjBKYWd0UVVWU2l4WnVKYUQ1NHRpMGRoMXRneTNibTE0eDY?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T16:22:22.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Notification réglementaire sans intérêt."
+    },
+    {
       "id": "aa689b9dae",
       "title": "TotalEnergies et ses éoliennes, c'était mieux sur le papier",
       "summary": "TotalEnergies et ses éoliennes, c'était mieux sur le papier Zonebourse Suisse",
@@ -1920,8 +2152,8 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Nvidia détrônée par Alphabet, chute spectaculaire.",
-      "hook": "Nvidia n'est plus la reine de la Bourse",
+      "reason": "Nvidia détrônée par Alphabet, renversement symbolique.",
+      "hook": "Nvidia n'est plus la plus grosse : Alphabet la double",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -2110,6 +2342,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Transaction d'initié obscure."
+    },
+    {
+      "id": "8f4ab74a20",
+      "title": "Ellington Credit Company Q2 2027 Earnings Call Is Live",
+      "summary": "Ellington Credit Company Q2 2027 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYzhmdzNBZENUaWdJQk01U2R4YWdpSmdPZVJvNU11M0gxMk5EdWdpdnZRTG5rY1FEUDBETkdLc2pSaGh5UnFHeHlqdXlRaEc3TEpoS1hWenFueTh3V2tvdW00RE8wOFJCbkdYZVBOQnhOTlkta3dvTjdPVlR3NmdtMU1qd0xhNUh3NGVLRGJTRGk3enJIblk3ZDlFSkJFaHpaaHdVdmlKUUpRSnRyQkxoWld0RFZIVGh4cEpwc3YxMA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T15:57:02.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats obscure."
     },
     {
       "id": "f328c2a181",
@@ -2448,6 +2697,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon point de marché."
+    },
+    {
+      "id": "eb6a59bbcb",
+      "title": "Google shifts 2027 AI chip orders from Broadcom to MediaTek, Ming-Chi Kuo says",
+      "summary": "Google shifts 2027 AI chip orders from Broadcom to MediaTek, Ming-Chi Kuo says TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNN2hQQXRuRFNYb0Yxb2JfMWxXMVc5ZXJ1MzQ4X2l1VnZUc2p5VEYxRDIwOTNacWVla1c1LTJ5S0pzNEJWNEVkNzI2MkNqZWRKenFkejBNN3FaUG5UR0VIUlhoN2ItN3UtN3Q2XzVTR0tQWTc5bWhxNjBBRmdNVjJsTWp6czNQcXZ5VUtGdmgwMWZveTlRbEVGX3pzNjZXV2JmdWYyc1lzd050eFRMcHdFRTlyTlVWVmF4SFl6YlNMcDA5cXAyZ0dPUG1FUmlVZDY4M3hqWW15TQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T15:23:29.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Contrat fournisseur de puces, trop technique."
     },
     {
       "id": "b8cd52d012",
@@ -2901,7 +3167,7 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin de l'interdiction de louer les passoires, énorme pour les bailleurs.",
+      "reason": "Fin de l'interdiction de louer les passoires, changement majeur pour bailleurs.",
       "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
@@ -5226,6 +5492,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Conférence de résultats sans intérêt."
+    },
+    {
+      "id": "f46d536bda",
+      "title": "Tracsis H2 2026 Earnings Call Is Live",
+      "summary": "Tracsis H2 2026 Earnings Call Is Live TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeWFHeUFzVTlBcUJXWEZxRWF5MDFlM21RUjFacC0zemhwUFhIWjNhaU1BRC1XcDlneDdYWWwzNzJNMHhNR1NuSEJRSE5KMXNISUJJYzVDQnRKZG45c1NzV2JtbnRHTF9hRXd0eW4zVC1haUMwY0FTcmFodFF5TEVUWDc4TzlJdEVwMU9obnNrM3VieVNmNjZiM0JJYzhDRm5TVzBZZ25UdF8?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T12:57:03.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Conférence de résultats obscure."
     },
     {
       "id": "b063549780",
@@ -8238,8 +8521,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Ubisoft, entreprise française connue en difficulté.",
-      "hook": "Ubisoft s'effondre encore en Bourse"
+      "reason": "Ubisoft, marque française connue, en tension financière.",
+      "hook": "Ubisoft plonge encore : la fin du géant français ?"
     },
     {
       "id": "63e37e1c24",
@@ -8287,6 +8570,23 @@
       "collectedAt": "2026-11-20T09:07:30.838Z",
       "brand": "investisseur",
       "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de la chute d'Ubisoft."
+    },
+    {
+      "id": "7163660d59",
+      "title": "Assassin's Creed maker Ubisoft drops after Q3 forecast miss",
+      "summary": "Assassin's Creed maker Ubisoft drops after Q3 forecast miss TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcURIRXJ4WDBaU1hhdUtuZTJlM3JUajY5VnpxckxabVVrMVFnUTN5VkhLOWVxNTAzT2FRY1pkYXJyZkFsSXdWNklsWGlyVm5wejZxUGcwY2dZNVlMOWZOazFybDhYdEdkWlhxWDRIQnZ6R01rM09wcGVVRjk2M1Zqam02TS1KUVlJMjM1MXBiNDAyd3JEYmF6LWRLWVhicUNRWDVYT0tmU3J5elptLXlyaGRSX1JQNmRadlVodDM1TXIxeGJhNUVF?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T08:48:53.000Z",
+      "collectedAt": "2026-11-21T07:07:23.066Z",
+      "brand": "investisseur",
+      "score": 2,
       "status": "ignored",
       "international": true,
       "aiScore": 0,
@@ -8422,9 +8722,9 @@
       "brand": "investisseur",
       "score": 6,
       "status": "new",
-      "aiScore": 9,
-      "reason": "IPO historique d'Anthropic (Claude), valorisation record qui dépasse SpaceX : grosse histoire qui fait parler.",
-      "hook": "Anthropic entre en Bourse et pulvérise SpaceX : +17 % d'entrée",
+      "aiScore": 8,
+      "reason": "IPO historique d'Anthropic, valorisation record.",
+      "hook": "Anthropic entre en Bourse et dépasse SpaceX",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -8741,7 +9041,7 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Lancement record de GTA 6 avec 2,36 Md$ de ventes : chiffre frappant, suite d'un sujet validé.",
+      "reason": "Lancement record de GTA 6, sujet validé auparavant.",
       "hook": "GTA 6 : 2,36 milliards de dollars dès le lancement",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
@@ -11040,7 +11340,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Coulisses d'un patron du CAC 40 attaqué par un activiste, mais info encore floue (presse).",
+      "reason": "Activiste contre le patron d'Accor, coulisses d'un groupe du CAC.",
       "hook": "Un fonds activiste veut la tête du patron d'Accor"
     },
     {
@@ -56376,21 +56676,6 @@
       "status": "ignored",
       "aiScore": 4,
       "reason": "Conseil défiscalisation générique sans fait nouveau."
-    },
-    {
-      "id": "ac3d82c133",
-      "title": "Logiciel Solutions Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Logiciel Solutions Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT1ZUcnhtNGF3WU5xcmo0MWtQNkhaOWFyVmFRbmc3dzBRY3NmbWs1bGw2eXNKVkxpeVB4NUFoRTNCaXhibllUSThRczhJR093SlI2dmpzV3JkVTVxOWR1V0xOQUhxUDVjMnBGSC14LUdmaDJaUHJMRWNlZXNtSG9IMmdUVEhsaDBXb0dIQWhGajQ5ZmlPYWVnQTJEQzBoZDFOdXlIa0EyVUxyUG4tejZlLUJkOEdWQVFCdElUeWQ5NkRiMlR5RjdhcGVFa3RsX0VYR0JMMlpVVkJVa3U4WC1WTmJGWkR5Zw?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T07:01:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
     },
     {
       "id": "faf9f87576",
@@ -119660,5 +119945,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T05:07:57.340Z"
+  "updatedAt": "2026-11-21T07:07:45.962Z"
 }
