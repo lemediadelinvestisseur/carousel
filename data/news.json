@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "id": "cacc39ff45",
+      "title": "Genesis AI propulse les levées de la French Tech à 526 millions d’euros cette semaine",
+      "summary": "L’article Genesis AI propulse les levées de la French Tech à 526 millions d’euros cette semaine est apparu en premier sur Maddyness - Le média pour comprendre l'économie de demain .",
+      "link": "https://www.maddyness.com/2026/11/21/genesis-ai-propulse-les-levees-de-la-french-tech-a-526-millions-deuros-cette-semaine/",
+      "image": null,
+      "source": "Maddyness",
+      "via": "rss",
+      "publishedAt": "2026-11-21T16:16:18.000Z",
+      "collectedAt": "2026-11-21T17:07:25.909Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Levée marquante French Tech avec Genesis AI, chiffre hebdo solide.",
+      "hook": "526 millions levés en une semaine : Genesis AI rafle la mise"
+    },
+    {
+      "id": "d5ad93a42d",
+      "title": "Ethereum baisse de 67 % : 52 % de la DeFi résistent",
+      "summary": "Ethereum baisse de 67 % : 52 % de la DeFi résistent TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UbVBPTUpRaXJ6NGNNM1ZYRldHVjR0dTJad3ZsSzRQOG81OWozOEdMcEg3Q2ZqVW1qNnJHdEg3ZEdLakxRcVdORThoS19TdmQyVnNCYnhKZS1qamN3eTRZaGl2dTItOURpZVJ3Wg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "collectedAt": "2026-11-21T17:07:25.909Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Actu crypto technique sur la DeFi, peu parlante."
+    },
+    {
+      "id": "b95ccac1c6",
+      "title": "Décès de Paolo Bulgari, petit-fils du fondateur du groupe de joaillerie",
+      "summary": "Décès de Paolo Bulgari, petit-fils du fondateur du groupe de joaillerie TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QSlVXMzlERmtKcFV6d2lPcFVHUkJXWFZKQ2kzenlZX01qNEdsX3pYZTlrVkNTNlpObnJ1dFY5N1NlR0h5RXJrNFVrRmppMUJ0NGtibzNJanpqU01QbDNjdTZR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T15:16:35.000Z",
+      "collectedAt": "2026-11-21T17:07:25.909Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Décès d'un héritier, fait divers peu lié à l'argent."
+    },
+    {
+      "id": "c1cffd3406",
+      "title": "COP31-Les négociations s'éternisent, risque d'échec",
+      "summary": "COP31-Les négociations s'éternisent, risque d'échec Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPck4tMjVLVW9nQ05ZSEtIck5odU5LWk0xRnpEWHBPUGV4YzgyRjZqQnkybFBjR21qa3VmdHk1WW9BbTRoQkp5S3VuSllfSGpKY3R6TS00ZmV2XzdvZUtxTHlPZVJoQkdHWFdpRmwweXFQWFQ2Y1U5czF2Y0ZkMERrTHVvOE5JMS1hUWlmMnZjMF9CTW53X0xCNzl6OVR1NjVEZGhWcWlmWk50bjJ6Rk9B?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T15:15:16.000Z",
+      "collectedAt": "2026-11-21T17:07:25.909Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Négociations climatiques, hors argent."
+    },
+    {
       "id": "dfda1eed32",
       "title": "Taux d’usure : ces dossiers de crédit immobilier qui frôlent le plafond",
       "summary": "La remontée des taux de crédit immobilier accélère depuis le mois de septembre. Avec des barèmes désormais proches de 4% sur les durées longues, la problématique du taux d’usure commence à se poser pour certaines catégories d’emprunteurs et certains types de prêts. Qui est concerné, et comment éviter que le dossier soit bloqué.",
@@ -445,8 +513,8 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine et CAC 40 -5 %, tous les épargnants sont concernés.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
+      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, CAC -5 %, touche tous les portefeuilles.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -959,8 +1027,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Le chiffre de 1 000 milliards frappe, mais SK Hynix reste peu connu en France.",
-      "hook": "SoftBank a rêvé d'un rachat à 1 000 milliards de dollars",
+      "reason": "Chiffre fou de 1 000 milliards, coulisses d'un patron connu.",
+      "hook": "Masayoshi Son a rêvé d'un rachat à 1 000 milliards de dollars",
       "notifiedAt": "2026-11-21T13:21:27.985Z"
     },
     {
@@ -1490,8 +1558,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Une enquête de la SEC sur la comptabilité de Nvidia est un scandale majeur autour d'un géant connu.",
-      "hook": "Nvidia dans le viseur de la SEC pour sa comptabilité",
+      "reason": "Enquête SEC sur la comptabilité de Nvidia : scandale majeur pour une star de la Bourse.",
+      "hook": "Nvidia dans le viseur du gendarme boursier américain pour sa comptabilité",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
     {
@@ -2749,8 +2817,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Changement de leader en capitalisation, mais c'est la suite d'une saga Nvidia déjà largement couverte.",
-      "hook": "Nvidia détrônée : Alphabet repasse devant en Bourse",
+      "reason": "Nvidia perd sa couronne, symbole fort mais lié au même feuilleton.",
+      "hook": "Nvidia détrônée : Alphabet la dépasse en Bourse",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -3832,8 +3900,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin de l'interdiction de louer les passoires thermiques : un changement de règle majeur pour les bailleurs.",
-      "hook": "Passoires thermiques : l'interdiction de louer bientôt supprimée ?",
+      "reason": "Fin de l'interdiction de louer les passoires thermiques : changement concret pour les bailleurs.",
+      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée ?",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
     {
@@ -6382,6 +6450,23 @@
       "reason": "Simple nomination de dirigeant."
     },
     {
+      "id": "2500d9312b",
+      "title": "Anthropic's post-debut stumble delivers reality check for AI trade",
+      "summary": "Anthropic's post-debut stumble delivers reality check for AI trade TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSXZLZEFHTWFZUXFMM2tyeXlKSk9SQjQ5YlNHMGMwclh2TGR5WTU1ZHVyY0lEbEJoaGF4RFRoM3ozOEYtQmtSb2FhZmJKa0RaUzZLMEhpZzhsSkkyODNxMlNMUHVtZVFsR0t1MlMzTUYxWFQ5dGNLWHVaNEFpaWRKclJEYkdxT0ZCSjBBLXJHN2ltWWZiRTItZm9lWTh5azR4ZmMzRGVMS0hWS0hkNkh1bTBLaFc1alROM2FiY0RBOWhxeWM3a00xQlpGb3ZXM0NR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T12:45:33.000Z",
+      "collectedAt": "2026-11-21T17:07:25.909Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Analyse post-IPO Anthropic, proche des refus sur le sujet."
+    },
+    {
       "id": "151852fdb3",
       "title": "Syndicat des pilotes : Lufthansa inquiète son personnel",
       "summary": "Syndicat des pilotes : Lufthansa inquiète son personnel Zonebourse Suisse",
@@ -6688,6 +6773,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon de recommandation sur Intuit."
+    },
+    {
+      "id": "d734a1cb53",
+      "title": "Commerzbank alza previsioni utile 2026 mentre si avvicina takeover UniCredit",
+      "summary": "Commerzbank alza previsioni utile 2026 mentre si avvicina takeover UniCredit TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PbFZ0dGlXb21nVzJzQUJvZ0tWZTY5Y0MwaTdBUkl4SUN0d1VMTVlFMUdkY1c2bEZqZ1hnWk5sMGVPQlNoNUc2elVqNm5BYnNRVi1jN003Ulg0LXZVa3FHZnZGX0s1ckpkLW1PZ1lTSEQ0Mmw0X1I0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T12:14:25.000Z",
+      "collectedAt": "2026-11-21T17:07:25.909Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Banque allemande, sujet bancaire étranger sans lien fort."
     },
     {
       "id": "40c1122cac",
@@ -8734,6 +8836,22 @@
       "reason": "Actu d'une seule SCPI, peu de portée."
     },
     {
+      "id": "48f8725c47",
+      "title": "Immobilier : actualités & tendances France et monde",
+      "summary": "Immobilier : actualités & tendances France et monde Boursorama",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9idjhRRDgwRnhUVjMzNUJvVExlZFR0ZlhFX2R1XzY4azJWM2R2Qk55YUJqQm9iV2xXVWNEa28wMGJ1RFF6NVFfd3o4dDU5cGlOVWdTRTlfVXN0LVNHMUE?oc=5",
+      "image": null,
+      "source": "Boursorama Immobilier",
+      "via": "google news",
+      "publishedAt": "2026-11-20T10:04:00.000Z",
+      "collectedAt": "2026-11-21T17:07:25.909Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Page générique sans contenu d'actualité."
+    },
+    {
       "id": "2ed9a0e01f",
       "title": "Mahindra EPC Says Resignation Of Giriraj Mohta As CFO",
       "summary": "Mahindra EPC Says Resignation Of Giriraj Mohta As CFO TradingView",
@@ -9339,8 +9457,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Ubisoft, marque française connue, en difficulté : chute boursière qui fait réagir.",
-      "hook": "Ubisoft plonge en Bourse : la chute continue"
+      "reason": "Chute d'Ubisoft, entreprise française connue en difficulté.",
+      "hook": "Ubisoft s'effondre en Bourse : la dette inquiète"
     },
     {
       "id": "63e37e1c24",
@@ -9541,8 +9659,8 @@
       "score": 6,
       "status": "new",
       "aiScore": 7,
-      "reason": "IPO historique d'Anthropic avec une valorisation record, malgré les refus antérieurs sur le sujet pré-IPO.",
-      "hook": "Anthropic fait +17 % pour son premier jour de cotation",
+      "reason": "IPO historique d'Anthropic, record de valorisation qui fait parler.",
+      "hook": "Anthropic entre en Bourse et vaut plus que SpaceX",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -9859,8 +9977,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "GTA 6 génère 2,36 milliards de dollars au lancement : un record grand public, suite d'un sujet déjà validé.",
-      "hook": "GTA 6 : 2,36 milliards de dollars dès le lancement",
+      "reason": "Lancement record de GTA 6, 2,36 milliards : grand public et Bourse.",
+      "hook": "GTA 6 : 2,36 milliards de dollars dès le premier jour",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -56254,36 +56372,6 @@
       "international": true
     },
     {
-      "id": "3bc091a9af",
-      "title": "Rajesh Exports Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Rajesh Exports Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQnp0ZXozUVkxVWVIdXVWSzB1THZ3X2xFajF0bmF1ZlVMZjNuNkQ0dVdzVlh2UXVVeWhVR1FiR0ZON0lpSHhKNGRPYkxZS0JFRENfUHJtZ3F4XzB0WnZ4RUpFeFF4V0Fzd0hNeEZ1dFBrRmgwckYtWVRtWWpwd2hZc3h4SWlyZVpPQjNJWmZXWlpSZjZJcXF2dWxJV0ZmQm9qaUVTM251MEdVMmxBd2xoZXRYUFU0UXBVNURtUFUzMlM0VVlGZ0xrUEhNSy1JXzRtRWhBZllqeVhlLWpfa1VOZ1lVeVEyMnFfcnpxMEllVUJOT2M?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T17:07:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "ea7d089fec",
-      "title": "Croissance Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Croissance Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPZUl2SGFXUUljSkg3eDg5U0tFejNVMXlsdjlZMVctNExCM2U4ZmtxRTZ3UVBUWWhuWTd3UmxUWHlQYmtzVHlJZTFUTklKcFN4NlZ0RnhhTERFZmNueEpTTHNqbUFvVEQxZ3d5Y2RXdzNoaEtOYXladF9XNkZIY2VFcno4cHh0dkF6UGVFYzBCemNsRDVncUtZclZyWUtjcU5HZHdHZ0s2R2FtSXZjM0k1OU1JLXQxMDViM0JXQUdNdXVBMDNiRUE3dTBBdUdjWk5Od1EyQzhLZDF1aEhCT044d09HMGhwdkEyNFNLTWNULS1ndGM?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T17:07:00.000Z",
-      "collectedAt": "2026-11-15T21:07:39.780Z",
-      "brand": "investisseur",
-      "score": 6,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "cf6a8edead",
       "title": "The World Economy in 2040, in One Chart",
       "summary": "The World Economy in 2040, in One Chart Voronoi by Visual Capitalist",
@@ -56312,113 +56400,6 @@
       "score": 0,
       "status": "ignored",
       "international": true
-    },
-    {
-      "id": "68c6139f76",
-      "title": "Rajasthan Tube Manufacturing Company Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026",
-      "summary": "Rajasthan Tube Manufacturing Company Limited publie ses résultats pour le deuxième trimestre et les six mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQTdodDVNWVk0OXhPTWRfXy05b2ZaRldEM0hqMFBvSHM1SHdRemxnWTZlSlFocFp6dGxkNG9KNWtaaTBtcXFtN3ZmcUFlYzBMdjlBeWdUd0FBYU9DamdqWEhuWC1Rb3BMb3hWYWFZUHJzT2E3Uk5Xc0ZlOVd3ZnhnR1Z0X1FQOHdubkVXM1VTOFVyRHA5RTNhTHdNNHI3SXVtYkZkaUhQNm0yNV84Q09nelVKY2U0ck1pZFd3R2dfbHZsY3g3WmFiWUoweUQyNmctTEQwQWtOT2xDQWNXYmlxRW1zU21RdUM1VGUyaV96bWZEUQ?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:53:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "6eebc3663f",
-      "title": "Davin Sons Retail Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Davin Sons Retail Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdi1zNW9KMHBKcjhzRzN6WnBoU2xjYVItWVkyZndVVlVta3dObHItQUFaRUF3SnZEaDlDZ2VoVV9xSXZQaE5YRHBjYUNRdTU0Z1otLXNrcUdGcFJHM2lzbkhIQlpZYjZUTXlyRmdoOFdIU2RHamJMSnNINS1RbG1OVF9PaUNkNHZmamVhY19nelR1NGNKUUM5dVAzVlRDU1RqSnRFV0RhY0FuczhDcXBidFNyMjJtRmx6YW0zUjZ0T3p5YXBlYUNJdzY1NWMwRHh0ZGg1SWxVQzNRUjhqT2NfNEJWalk?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:50:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "a2d178ec47",
-      "title": "USA-Collins plaide pour des hausses progressives des taux de la Fed",
-      "summary": "USA-Collins plaide pour des hausses progressives des taux de la Fed TradingView",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FeTUwSFFqZFJKcXlnSEhDcElDNDBic3gtVGtqRktZTWRMYzljTFQ3R1BjcTR3eHVjU1JjcVV5cXFHeU5BN19fb3lvRzJYckRuTXdfN25Qb3lOODR5VzFZdG13Q1NpM2Z6Zkc3Q2NfdDlYekZXel9z?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:46:10.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 5,
-      "status": "new",
-      "international": true,
-      "notifiedAt": "2026-11-15T15:07:23.601Z"
-    },
-    {
-      "id": "09506061ab",
-      "title": "Tranway21 Technologies Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Tranway21 Technologies Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPa29NNkZtdDZldXJtY09BTW50dXRrR0s0SW1uQlpfcmc4UndHemtIRXBYNlJmZzdSRVc4WGdfRHJlM1VrVjc4RVhacWcxLUttY3NyVHlzTHo2U2VFODh6T1R0aGtUR0dJd3JSckkzTGZvNVBKYTQ0OGFPOWNDTFRtdWNSZElZN0Q0cXZybEQ2LTdfbDVmdW11R3Z3cDdjM3hQTEZQc2liN0ZEWUpDZGc0X25ycEtCdjhzdHJXUW5CeTFIZlcyQUF6RlM5YWFqQ1JJN2lXOWp5SHl1Tk9XZ3h5aHp5Uzg3Y3B1UXhn?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:43:00.000Z",
-      "collectedAt": "2026-11-15T21:07:39.780Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "d40f9e43d7",
-      "title": "K. V. Toys India Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "K. V. Toys India Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdndhU2RWeGRnTTlvR1pvRFJqeGl1aUI1am9DeGhiLVZUNDB0RFZNZVc0Z0ZjS1djS3VSaGNPLWVwU1YwOEJJS1RQZUJwUUdYQUNncFNXYVBzOHVrZlNPWk96N0RIbXc0b3lqcm1NSXlVT1owNkNka1JWZ2UwRUNSeW9DaFc1UVp0OXEydkFKbHFLbDQ1ZUFtb1RRdV9Va1RpQk45RlYteEVVVVdESWZIdnluOXhJaWtqMS1YZS0xbW5pRnFFMTNtR3ZsZmJ2dnlKdTdYMmhnQUlUZ1FSbTlwWg?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:40:00.000Z",
-      "collectedAt": "2026-11-15T21:07:39.780Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "ff14596f0b",
-      "title": "Avro India Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026",
-      "summary": "Avro India Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTXRHSkpLNG9KaUEyQTdUZFZ3bi02OHpTbmdzNWFKcDFqcUJDQWJVVktnWnNodmZFSTNUb240R2ZaaDc3c2tlcTdmb2FjTGZtWi05UXBjVlhMTjh1RnRTVnVIankxY2wxTHM0SzRzLV9sek9ySXFmdVJ5UndOQUFPeUhGR0c0TXdTUDM5NjN2MlhoYWM1dnBLdXdXWVo3dnRFdGlKeGJhX1JuVHRVZ3c5ZEhoSktjODNxNUlickd1VVp3UnpOZ2syRDl5TUlQWER5UTJOVHh0WlBPcnpHclUxZ1h5ak52MlNsNVFHek1rUWJBYlU?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:35:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "991d952687",
-      "title": "Om Metallogic Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Om Metallogic Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSk1TSWlNUWpvU3RFV3ZHWm1ZU1Zpd28xUW1GdWpQcWVIMjhyczdsQnRUVy1yUHlPcDh1dC1LTUdHQVBNbXVPR1NtaHNHTE1IM0F5OFRsZFFtRnhyTVBOc2NiX0Eya0RzV012RFFWVXFISXppUnVIZURpNmhIRFFDVFlHbVhxWU4xQl9GYkJnU3B5Rnk0Tnp1TGZvZkVjdUdjMFZZellyLTU2RWpsRWhzazFDVURNenc1NHByR2hyQmlVbmxjTGZndDhWM3FOZ05pTkRKdEdEdncwejR3SVo0?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:33:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true,
-      "notifiedAt": "2026-11-15T17:07:28.371Z"
     },
     {
       "id": "850eddcec7",
@@ -56468,21 +56449,6 @@
       "international": true
     },
     {
-      "id": "11ee9cc0fa",
-      "title": "Tanvi Foods (India) Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Tanvi Foods (India) Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVmZyOUR0ZG0tN3JHYjFnVGRWM0pHdGpndnVjQ1RMcFEwQXhtb1R4R2RVd1liQWt3WW1pYk9ZTjhXSVZxOWFDckMtSkNjWWhGdVo4dkJ6cHUtWV85V2ozYllsOGpiWUpRaF8xNDUyZ0IzM0tPdFdVRk5HR09lRFFLbi14Sy1XQktRZHgtWUpxZHJnSW01NVlHOGFoUDF6LUlmOGx2SHNpWVNYRm1iVTg3S0pWb1NhbWUxRTJ2UEc0VDZTTVRQWGlqZVdOaExpQ1J0VTVpeFFhbXVBR3BFbUJoRC1BS1k?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:16:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "6539e1a2fd",
       "title": "Microsoft a complètement \"rétabli le service\" après sa panne mondiale",
       "summary": "Microsoft a complètement \"rétabli le service\" après sa panne mondiale Zonebourse Suisse",
@@ -56500,36 +56466,6 @@
       "reason": "Suite mineure d'une panne, sans enjeu financier fort."
     },
     {
-      "id": "de75ea3c8b",
-      "title": "MRC Agrotech Limited publie ses résultats financiers pour le deuxième trimestre et le semestre clos le 30 septembre 2026",
-      "summary": "MRC Agrotech Limited publie ses résultats financiers pour le deuxième trimestre et le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQ2x3VWVmYkg5b3N5NnYxYnc1VnYtTEduN3VUVmsxdVFiZUlXaDVxSUtmV0g4QzVINnlSQXc3VHh6YW1SSF8tOXhZajJSNDZST0VwLUZoNnZNc1c4TG1oYjFGaG5pUm5yeE5SZEJqeUpBUExCTDZqX3V5YTRJLXRMTDB5YkU1Zm9jOXc1VHZsYlNlblVIdFJ4eUNERGE0R1pnbUVZRzFvY0NwaHJWTFlycjJMOEk5TUlra2dRdlVrTEJZbG04UWxSdWE4RGZNZndIT3gyWXZWZ0RybTRBRi1BdVNEVkdBa0FyS3ZMRWVKYXFPdw?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T16:00:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "d7d2a04553",
-      "title": "Glaam Up Jwel Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Glaam Up Jwel Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM3F0MS04alVwcnlXRV9FV2tZSlFZYUdzeld2b2JGeVJIRXBkT25VT1NtZ3RXZHhSTU9ZMEhlOGdFSU9uU2prX2IyN1Jmdkx0MEJBSTBPVzhWb3NhaERXVVl5VUxXUGJISkFEWUFQUTcxT1hRdzNnQ2U3cTA3RGtIdTdWM0FKX3A5VjEzdU1Ia2hhVGF6SUVjN2NTZnViTF8wOGQ4TkpLalVLRjdwZUlzZ3NCU043QlUtMlRpWmtBdEFzczFqSWF4QWhxSmxJYzlqajE4SVFmQ2RTZDZJQlVn?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T15:50:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "7ac770cfed",
       "title": "Microsoft annonce avoir complètement \"rétabli le service\" après sa panne mondiale",
       "summary": "Microsoft annonce avoir complètement \"rétabli le service\" après sa panne mondiale TradingView",
@@ -56545,66 +56481,6 @@
       "international": true,
       "aiScore": 4,
       "reason": "Panne Microsoft déjà résolue, peu d'angle argent."
-    },
-    {
-      "id": "cc3994184c",
-      "title": "Koiya International Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026",
-      "summary": "Koiya International Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdExZWllhSDJJak90Q2VWM3Rtb2ZkTVdmMEVvUjYtQ2ZmSENFWFJKTGYzV0xQbThiU0M4aTNZX1ZKSUZMVlRQRUROY2ZiUG02UVlQUFpGYTh6enFudGxXUk51RWlDUHNQTndUY0pnWTJXWUo1TTdWWTAyS0t5d1dhVzJNNVZrVWstVy0wWnZSZWNaMVZVRnF4dVJzYjdnLW5fdF9PVUJuUnczdFhIR19ETE1xa3VzaVNzSGFDOGs2WVJjMFZveEJuc3V1c0RGTFV1azdJempqaXZBaDhLdXVUZjBINzk1aEF0ZDdVV3lvRDlhNlU?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T15:37:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "cc906b2841",
-      "title": "Citichem India Limited publie ses résultats financiers pour le semestre clos le 30 septembre 2026",
-      "summary": "Citichem India Limited publie ses résultats financiers pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOM0xyMG54emlOallVR3JnVnExelJBTkhUTk1tWGFaTHlGX2NjVHFzckplcTZTV2xxTkgyZ0hPRC1VMWtIdEdzdm1LaWxLU2RrT01aaVduMWl3R0s1MWZkQVljZFdPQmJNMmlKVC1lS1pJNU1Nc3Q4Q3c3SkZNamQydnA0UnJKU2FMbU9BTTBrdDg4ZFlLRElaQmFvNzktUlUxaGlKV3F2aF82WVdFaHZ6RUFxX0hXcEJ1ZEo3MkVKLUZZV2JCRWd5ZGJ1dVlEYUVZakVmS3VuQTY3TVlka1hUa1VMQ0lCMmp6UURZb0Q3SQ?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T15:29:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "79ed9f4e2e",
-      "title": "Horizon Reclaim (India) Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Horizon Reclaim (India) Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ2UtbWgtMUFyTkd3ckI2OUFHZ0I4TzhMODZ5Y3NwUTFZUVZPdks0M1ZQMDdyaGUySnFuZ0FTNmRMSEZEOFdUUVhuTGlhOVgxTnhELXZhYWNuQllmUExKWi02VGVCNFo2djRSQmFZdzgwSUgyTUQ0MFlhbllxTHdPSU1DU1Nka2I4ZFhoRWpzSVcyMkkxR2lwM3gtZWJMcEozby1OVFQ4QUJzTWN5M19laUctY2ktYjZ6VWxrellTWFd2QjZDQXczSGUycTlVU1IzdVNkLUNsRnlZejJhWlFybXh0UVJsZk9kaVE?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T15:24:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "e83a3775a4",
-      "title": "Pro Fin Capital Services Ltd. publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026",
-      "summary": "Pro Fin Capital Services Ltd. publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNDI4RjVYejFFdjJIQU4wZk1fYjJaS2NGNFNIemZ3aFRWeUo5QVZhQld6QXNaMUkyRzNIMW5QYUdCU2NCOG85U2s5ek1hdWZIZGlRUjh1a2RLa08xRjJOaUlVU1llY2xsdTdMLWJKSWVKYmE0ZTNub3F2eUt3STdIS3lRTlhrOFZocmVsZkFBVVd6bU1sYnJGQ2ZMUHowOFA0eVhLYl84QmQ3RE41aDZmaEJjMFduY0wxWXNvaTFPdGpFTS1HLTNiQ21rRDJuX2Jtd2JHQ080aUFSY1VzV05HTGFybUNhdGc5RWlpa0hXR2R0dw?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T15:13:00.000Z",
-      "collectedAt": "2026-11-15T17:07:28.371Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
     },
     {
       "id": "93aa88739e",
@@ -120435,5 +120311,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T15:07:41.085Z"
+  "updatedAt": "2026-11-21T17:07:45.445Z"
 }
