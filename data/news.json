@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "id": "40e1ce4505",
+      "title": "Costa propose de nouvelles coupes et une taxe sur le numérique",
+      "summary": "Costa propose de nouvelles coupes et une taxe sur le numérique Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZEZ3cGU0cXA4dGFfSnBYOGp4YTJzaWUxWmJrOHBvMEpOZ3AzN3pNQmQ5d1c2dGplYldIYmZublZxM2pEVFhOSE5GUjZrOTFBdVhfUUt1MHN0Sm5kUXliSHlEdWxqdlZ4ZXYxMThheUU5NlBxSzQxUTNTQmRHN0JGRV9Obkg0eEdxaWlMQ0QwM0d0aXFYaGNRc2xYdjU0S2pLZXFkQ3VYeTA5VGJOUXVNOUhVMWxJMUlmZVlCVDRkbw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T13:09:40.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon budget UE."
+    },
+    {
+      "id": "792e67a133",
+      "title": "Le président du Conseil européen propose de nouvelles réductions du projet de budget de l'UE pour la période 2028-2034 et évoque une taxe sur le numérique",
+      "summary": "Le président du Conseil européen propose de nouvelles réductions du projet de budget de l'UE pour la période 2028-2034 et évoque une taxe sur le numérique TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zS3F1S29FeW1NREFSazFtSTNaenVtalVnN21CQm00azdWUmd5MnkxTmVDdjh4eXVwRFVYWUVoVXptWmxGZC1zUW1heHA4ZHlmQV92V2l4Z21zamFER0s2OTFJT2FuMGJobld5Y2g1RGczTlA0VWFn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T12:48:27.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Budget européen et politique, refusé par l'éditeur."
+    },
+    {
       "id": "a0b2efb5fb",
       "title": "Coal India Limited annonce des changements au sein de sa direction",
       "summary": "Coal India Limited annonce des changements au sein de sa direction Zonebourse Suisse",
@@ -327,7 +361,7 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, CAC -5 %, même l'or chute.",
+      "reason": "Krach spectaculaire chiffré qui touche le CAC 40 et l'or.",
       "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
@@ -397,6 +431,92 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon de la baisse du bitcoin."
+    },
+    {
+      "id": "d9c23d74e7",
+      "title": "Interpellation de Michel Zecler: Les trois policiers reconnus coupables de violences aggravées, la circonstance aggravante de racisme retenue",
+      "summary": "Interpellation de Michel Zecler: Les trois policiers reconnus coupables de violences aggravées, la circonstance aggravante de racisme retenue TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBuVXE5ampuNUVjT0JWRC03WG9EaWtac3FCNHRnbzB0MjZGVzljczQ3Y2lIU1Z1UlVoM1hKVlhjbFpRbjhndnhnMFJKQmM5RFNkUWFyV1ljcUlBc0hRS0tzY0lMNjhMRnFQby1RTmxTZ2daWTh3Yndv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:53:38.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Fait divers judiciaire."
+    },
+    {
+      "id": "e35faa65e8",
+      "title": "La FDA américaine refuse d'approuver la thérapie cellulaire de Capricor contre la dystrophie musculaire de Duchenne ; le cours de l'action s'effondre",
+      "summary": "La FDA américaine refuse d'approuver la thérapie cellulaire de Capricor contre la dystrophie musculaire de Duchenne ; le cours de l'action s'effondre TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wTVV6TVd2WnV4ak56c010djI0ZHZZZm9rWHlnVDFsTWFaNmxnX3pxYUFWN19TQW1CX2hZQk51YTlfcldxWXlSVDdLX2NDMU5jX1VWOEk0QktQZ09VZmVHMDAzcUJKQWJJLUdBbnRZajRmbzV2cHVV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:45:15.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Biotech américaine inconnue, actu d'essai clinique."
+    },
+    {
+      "id": "3bf7044607",
+      "title": "Un juge américain rejette la demande d'urgence de la CFTC visant à empêcher New York de contrôler Kalshi",
+      "summary": "Un juge américain rejette la demande d'urgence de la CFTC visant à empêcher New York de contrôler Kalshi TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BMjZCOXp0SFhsUkN5Y1FQclB3a3Rsck5rS3BKUzZxY0ZvUUVxYk5iWmdBUy13Vm8zdXpDQ0pJQXloZzZUWEhPbmtmWmpuN0ZKYk8zUmxfXzZaa190eUNITjEyNnkzUVA4Wm12S2cyN0tTXzNzOWVV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:39:40.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Juridique américain de niche."
+    },
+    {
+      "id": "018185ef34",
+      "title": "La FDA américaine refuse d'approuver la thérapie cellulaire de Capricor contre la dystrophie musculaire de Duchenne",
+      "summary": "La FDA américaine refuse d'approuver la thérapie cellulaire de Capricor contre la dystrophie musculaire de Duchenne TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NdkxGMFpyampORDBKaVIxUlhaT2RocHE1RUlWUGhGSTVwODBRTkdmekJ0bk11cDNLY3lMSTRzRWxlR0Z5ZXlVTzRvRVB1RjFGT2FZTWNpcktWOGhVYVFUQUpLNGFaZF92YXYyOU95enpxd1FndjBV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:36:42.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon Capricor."
+    },
+    {
+      "id": "94183d13c1",
+      "title": "Databricks serait en pourparlers préliminaires pour lever des fonds sur la base d'une valorisation de 225 milliards de dollars, selon le WSJ",
+      "summary": "Databricks serait en pourparlers préliminaires pour lever des fonds sur la base d'une valorisation de 225 milliards de dollars, selon le WSJ TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFVE1jOWp6a1Izejc3UHhGTlVFdG01X09GM1RUMnBWSlpsQnhkWElwbTlSRWlQdGJxSUxrZlJXWlVzRklEdUZvaDhPdDZ0ZTQwYS1EQWFyRjhrTDl5RWpUSXNTSm1tQjZQUjRKc003NE1nTllMYkpv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:34:58.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Valorisation géante mais Databricks peu connu du grand public.",
+      "hook": "Databricks, la start-up IA valorisée 225 milliards de dollars"
     },
     {
       "id": "9209c26cd2",
@@ -520,6 +640,23 @@
       "reason": "Politique numérique norvégienne."
     },
     {
+      "id": "49abdc2dbf",
+      "title": "Selon des documents et une source, Lutnick aurait demandé à la start-up spécialisée dans les batteries Pure Lithium d'accepter une offre de rachat américaine",
+      "summary": "Selon des documents et une source, Lutnick aurait demandé à la start-up spécialisée dans les batteries Pure Lithium d'accepter une offre de rachat américaine TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vdU1mZzNEWTN2aVBGOUY2UXp3VDdPUFBvbTV4U1lLT2o0aE43d0ZuelpzS0dacEI3aGZkLURPVFMydlVUWW1aYVNLZXhldDljS2dfN3hzOTRnSVdpbUZXOXRmN2xYdzVZUVVkVHU0X3dlU092LUdj?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:57:58.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Start-up inconnue en France, sujet géopolitique de niche."
+    },
+    {
       "id": "482587032c",
       "title": "American Atomics Inc. annonce des changements au sein de sa direction",
       "summary": "American Atomics Inc. annonce des changements au sein de sa direction Zonebourse",
@@ -535,6 +672,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Société inconnue en France."
+    },
+    {
+      "id": "0768b8c409",
+      "title": "Le secteur technologique entraîne la chute des marchés boursiers mondiaux ; les rendements des bons du Trésor reculent",
+      "summary": "Le secteur technologique entraîne la chute des marchés boursiers mondiaux ; les rendements des bons du Trésor reculent TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Fak0zVUJTUmhKRVJYQTZkNjBNb3JiQUIxWUtoT1dsS0oyWjRsbFBranp3SmxPSW9pZUs5OTR1ZVVDX2VzVU5UeU9fX0k2M2hacE5LN3NJWmt2bzZMX2dta29KZnRkeTVsOFhwdHhUamNsSWI5aE1j?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:34:31.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Point de marché du jour, refusé par l'éditeur."
     },
     {
       "id": "b0ab3a06bc",
@@ -688,6 +842,25 @@
       "international": true,
       "aiScore": 0,
       "reason": "Matière première de niche."
+    },
+    {
+      "id": "57ed779525",
+      "title": "Masayoshi Son, de SoftBank, aurait envisagé le rachat de SK Hynix pour 1 000 milliards de dollars, selon The Information",
+      "summary": "Masayoshi Son, de SoftBank, aurait envisagé le rachat de SK Hynix pour 1 000 milliards de dollars, selon The Information TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUa3pva0Q3dm44d1ZuYXdWamdMT2kySWFaQ2lEMlMyR3hhazA2c0RDMW5lODlES1BMWC1WbGhHeGdpTXJSSk1XNm9DcXBmRlAyLVhkU0JyR2hiWE1WdGs3YXVaTGZPN0praXpnZENleVYzM3VaNmI4?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:49:00.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "new",
+      "international": true,
+      "aiScore": 7,
+      "reason": "Rachat à 1 000 milliards : chiffre fou et coulisses d'un patron célèbre.",
+      "hook": "Masayoshi Son a rêvé d'un rachat à 1 000 milliards",
+      "notifiedAt": "2026-11-21T13:21:27.985Z"
     },
     {
       "id": "4a1e02fe4a",
@@ -1049,6 +1222,23 @@
       "reason": "Small cap inconnue."
     },
     {
+      "id": "3b859cd1a0",
+      "title": "\"Robots tueurs\" : les pays ouvrent la voie à un possible encadrement international (ONU)",
+      "summary": "\"Robots tueurs\" : les pays ouvrent la voie à un possible encadrement international (ONU) TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBNXU5bWVzX1pVTUYtSjczMXVXUk4tSDJoV0M2MmpvOExqcll0OFQ2SHFZTFlYYlRtMkR4MjVINEFZbFRfZ3hqUXk3Tk5vUi1WbkJTb182dVEzZlVvTlBfN0VB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T20:51:00.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Pas de lien avec l'argent."
+    },
+    {
       "id": "95935aa4e1",
       "title": "Le pétrole avance, entre impasse géopolitique et surplus d'offre",
       "summary": "Le pétrole avance, entre impasse géopolitique et surplus d'offre TradingView",
@@ -1182,7 +1372,7 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Enquête de la SEC sur la comptabilité de Nvidia, un scandale majeur.",
+      "reason": "Enquête SEC sur la comptabilité de Nvidia, scandale majeur.",
       "hook": "Nvidia dans le viseur du gendarme boursier américain",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
@@ -2424,8 +2614,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Nvidia détrônée par Alphabet, un changement symbolique dans le classement des géants.",
-      "hook": "Nvidia n'est plus la reine : Alphabet la dépasse",
+      "reason": "Changement de leader symbolique, mais suite du feuilleton Nvidia.",
+      "hook": "Nvidia détrônée par Alphabet en Bourse",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -2833,6 +3023,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Sujet politique, sans lien avec l'argent."
+    },
+    {
+      "id": "4a749e7b95",
+      "title": "Argus Research downgrades Berkshire Hathaway to Hold from Buy",
+      "summary": "Argus Research downgrades Berkshire Hathaway to Hold from Buy TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRDJaTnlwcncyeW9oU1lUMVg5eHpPZUVPOXc0WHdlbWhacXdOd2UweVIxa2FCM1VSRkcyTXkyUXIxcTlGV19ic2x3MWJYTktjbnh3SlFVRDVxWjVYLS1zQUZHR3NjR1JDUjZ5N2JfYnc0MEctWkxxYWtwQlotcl8yWXZnQ1k5NFRQNFlDS28wNGhZY19GMDZlNFp6OXZxYlFGUEIzVzhZR0tyYzV1Z2VBLTB4WXdtdWJKV1JHVmg1RQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T15:42:00.000Z",
+      "collectedAt": "2026-11-21T13:21:27.985Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Recommandation d'analyste, refusée."
     },
     {
       "id": "93ad5a5740",
@@ -3490,8 +3697,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin de l'interdiction de louer les passoires thermiques, un changement majeur pour les bailleurs.",
-      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée",
+      "reason": "Fin de l'interdiction de louer les passoires : changement concret pour bailleurs.",
+      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée ?",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
     {
@@ -8980,8 +9187,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Ubisoft, fleuron français connu de tous, en difficulté financière.",
-      "hook": "Ubisoft s'effondre en Bourse : la faillite menace-t-elle ?"
+      "reason": "Ubisoft, marque française connue, en difficulté financière.",
+      "hook": "Ubisoft plonge : le géant français du jeu vidéo vacille"
     },
     {
       "id": "63e37e1c24",
@@ -9182,8 +9389,8 @@
       "score": 6,
       "status": "new",
       "aiScore": 8,
-      "reason": "Introduction en Bourse historique d'Anthropic, valorisée à près de 1 760 milliards de dollars.",
-      "hook": "Anthropic entre en Bourse et dépasse déjà SpaceX",
+      "reason": "IPO historique qui dépasse SpaceX, record marquant.",
+      "hook": "Anthropic dépasse SpaceX dès son premier jour en Bourse",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -9500,8 +9707,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "GTA 6 bat des records avec 2,36 milliards de dollars de ventes, dans la lignée du sujet Take-Two validé.",
-      "hook": "GTA 6 : 2,36 milliards de dollars dès le lancement",
+      "reason": "Lancement record de GTA 6, sujet validé auparavant.",
+      "hook": "GTA 6 : 2,36 milliards de dollars en quelques jours",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -56604,36 +56811,6 @@
       "international": true
     },
     {
-      "id": "a1137570b4",
-      "title": "Premier Energy and Infrastructure Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026",
-      "summary": "Premier Energy and Infrastructure Limited publie ses résultats pour le deuxième trimestre et le semestre clos le 30 septembre 2026 Zonebourse Suisse",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWm8yMHUySUpXLVk0YTgtUXd4N2N4VE15Ry1oVGhDV1hnbV9EOF9tZHRJLWVRc1NHRDd6LV9FOVNjSkZYdFNidVhSS1I1ZTg2bUFKRUYtdGl3eEZpRVY1TzduQnVnd1V0Ylk3Xy03dnFnQkV1b2k3N1RCQ1N4ZHgxQmVuZDVzM09ueEx0Y0d2dnZ5WnVVbmVpUUVvOFNlejhUVTcyN1dQWmVlNUFVVUR6cTdTNWdkejhaNmdyWGExMDhlb2I3VUlFWWRic2pTdlRFT0N5bVBNMWhfUGRNMTNEb1NBRS0zcHUyYURveU9yT3JoZw?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T13:19:00.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "7209c9d882",
-      "title": "Silver Pearl Hospitality & Luxury Spaces Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Silver Pearl Hospitality & Luxury Spaces Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse Suisse",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVXdyQTNIMERYaFRydnh2ai1QNmxOdUZUVnFvU1YyR1BPZXVEbExnZlh2cnZIRm9KU3pmR3l6S2ZHVWdTV0VTcDBJVlphOEM5bkI4U1NXZDBaSFRlb1VuVHdHbXdPd3VncF80MGx0ZUh4SElZamFMcUhLNUR2Y2hPYjlkMlJaZ2x6Qzh3akhveFBQZlNEOGFrWllSM3R2YnhKMmdoMkhlX0dWLWh3UU1JSXdlNk1XNkZkQXJSdElLTzc3cUtUS1ZnWUpsdGV2LUhrSnhmMzFud1pERjhOSmQwM3NLZGd6RmpLdWZHTjYwVQ?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T13:15:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "6ead08c63d",
       "title": "L'Italie nie s'être opposée à la participation de l'Allemagne au projet d'avion de chasse de nouvelle génération",
       "summary": "L'Italie nie s'être opposée à la participation de l'Allemagne au projet d'avion de chasse de nouvelle génération TradingView",
@@ -56646,21 +56823,6 @@
       "brand": "investisseur",
       "score": 0,
       "status": "ignored",
-      "international": true
-    },
-    {
-      "id": "b91d8516c0",
-      "title": "Shiv Texchem Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Shiv Texchem Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQWh6T1prRTJvNXZwbE1BQWRqYlVvLTE1SUtsVTlTUUY5Z0JWdnVIc05DclZMSU5LbmNRQUJ3akNiTFNENXFLNGhVWDVmSVNJMm1KT2xlRC1Gbko1VDlyUHJ3VlUxTTY4R2tPbUswS2k0TEFJNW1uUDZZN2ljWF91UHlfSllYVzZwYnNoN19EQmlOdjRUbkVsY3JpWWNTNzZMWTFOeXRfeU96ai1rSXgxRWtPUTNYUl9sQzZ0bkFNQkM1WXVCZGJDdmhCYUx2UVhlakdEZElLd1h4TGR5LWc?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T13:09:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
       "international": true
     },
     {
@@ -120289,5 +120451,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T13:07:50.618Z"
+  "updatedAt": "2026-11-21T13:21:45.411Z"
 }
