@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "id": "1f14bc6c82",
+      "title": "Budget de l'UE : Antonio Costa propose une nouvelle taxe sur les grandes entreprises numériques",
+      "summary": "Budget de l'UE : Antonio Costa propose une nouvelle taxe sur les grandes entreprises numériques TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05UTQydTdBWkJwb3lleDVabkxRaGlBakRqMW5JZlIxa0Rma1k2SXdWc3h3RVZ4anpsMVlGVjlCcDVkQzlvZVpKNDJFSFNhSFd4cnJVc1pwTGtHMjUyY2RodWJB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T10:14:01.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Sujet budgétaire et politique européen, peu engageant."
+    },
+    {
+      "id": "1c31b960cd",
+      "title": "Wall Street siffle-t-elle la fin de l'euphorie IA ?",
+      "summary": "Wall Street siffle-t-elle la fin de l'euphorie IA ? Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOU3FodmNLOEhaYkNrd1JnOVZJdjY3UjgyNzZGV3hHT0JaMHR4U2JweWs0dUgxS2ZJS3FETkUzYVFsS3Q4MWItRkUtUzZYcjZsX2x1U014V01vOURXcE01bDh4Vi1XNXA5T3ROZnVFNWRrcjdYc0lmLVdKdkd1elJ2bUFnV29rOXB5QjJ6anRNdWd0cVJnb0pySW9wT3MzaTdSRGlfQmV0YTNqZXdmMTRR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T09:42:22.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Analyse générale sur la bulle IA, proche des refus, et doublon du krach."
+    },
+    {
+      "id": "fa2cb6693d",
+      "title": "CAC 40 : les indicateurs économiques au centre de l'attention la semaine prochaine",
+      "summary": "Après le repli marqué de la Bourse de Paris, les investisseurs attendent de nouveaux signaux sur la santé de l'économie européenne. Les données françaises et allemandes permettront notamment d'évaluer l'évoluti…",
+      "link": "https://www.lerevenu.com/reussir-bourse/points-marches/cac-40-les-indicateurs-economiques-au-centre-de-l-attention-la-semaine-prochaine",
+      "image": "https://cdn.overlord.media/cac40_ouverture_baisse_petrole_e4ddbf52_b206623100.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-21T09:30:00.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Agenda de marché de la semaine, typiquement refusé."
+    },
+    {
       "id": "0d421c1a6e",
       "title": "Wall Street : consommation, inflation et résultats technologiques au programme la semaine prochaine",
       "summary": "La semaine sera écourtée par la fête de Thanksgiving, mais plusieurs publications pourraient influencer les marchés. Les investisseurs surveilleront notamment les dépenses des ménages à l'approche de Noël et le…",
@@ -29,9 +79,9 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Une Française au directoire de la BCE, suite du sujet Lagarde validé.",
-      "hook": "Une ex-ministre française entre au cœur de la BCE",
+      "aiScore": 6,
+      "reason": "Une Française à la BCE, suite du sujet Lagarde validé.",
+      "hook": "Laurence Boone, ex-ministre, entre au cœur de la BCE",
       "notifiedAt": "2026-11-21T09:07:23.197Z"
     },
     {
@@ -196,6 +246,23 @@
       "reason": "Doublon du Bitcoin au plus bas."
     },
     {
+      "id": "3e495f5ac3",
+      "title": "Le bitcoin tombe à son plus bas niveau depuis deux ans",
+      "summary": "Le bitcoin tombe à son plus bas niveau depuis deux ans Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVB0anJ1LXdLQ1dZM29Sa3Y1Tk9mUjNyaHRNY0JSTWZsdElZclkxUWw0SndYa1Z1a3BvMVp5dk92a1liVEZpbGMtSTVweS1zSV8zSE9UVEE3TnhXam12enEwSzd4aXdXc2FUZTRsbnp4dE5iX2JRcWszRWVIM28xekVfRW1mM19yYXVGb2lnWm83V0pleTFucVA3a2hsVHd6NXNMRUJWdjhZV3dhbkpqTQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T05:32:00.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Bitcoin sous un seuil : point de marché refusé, même si deux ans de creux."
+    },
+    {
       "id": "e4163fb444",
       "title": "Krach boursier : l'intelligence artificielle détruit tout, jusqu'à l'or",
       "summary": "Le Nasdaq a perdu 10 % en une semaine, le S&P 500 près de 9 % et le CAC 40 plus de 5 %. Malgré des résultats records chez Nvidia et l'introduction en Bourse historique d'Anthropic, les investisseurs se détourne…",
@@ -208,8 +275,8 @@
       "brand": "investisseur",
       "score": 11,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, même l'or chute.",
+      "aiScore": 9,
+      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, touche tous les portefeuilles.",
       "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
@@ -640,6 +707,24 @@
       "reason": "Doublon CrowdStrike/Zscaler."
     },
     {
+      "id": "b8b30fc264",
+      "title": "CrowdStrike en discussions pour racheter Zscaler, selon des sources",
+      "summary": "CrowdStrike en discussions pour racheter Zscaler, selon des sources Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUmh3aW9hbWFMc0pQZDFoZGlrbDBLN0g1UXU1cUFQOFBnZFNtU2thVEJIT1QtSlpid0RwYjJjbHF4ak8yekZwcDd5eEs4OVRncFk0QS1HbGFvaF8zVmNTWWlkZS0ybDluMU5sN09uem9LMTR0VmJ5ems3QnR6akdYbDBtM3p4OWxMYkVNNE1sNHNJRENJQnpOVTBwbFVsdGVmTGloNmdKQXVYQzBuS1BFLXo5VnJHN2Y1S0VhNm5iZl9EMms?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:21:22.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Méga-fusion cyber possible mais acteurs peu connus en France.",
+      "hook": "CrowdStrike veut avaler Zscaler : la méga-fusion de la cybersécurité"
+    },
+    {
       "id": "a89ae84ba6",
       "title": "CrowdStrike serait en pourparlers pour racheter Zscaler, selon une source",
       "summary": "CrowdStrike serait en pourparlers pour racheter Zscaler, selon une source TradingView",
@@ -977,7 +1062,7 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Enquête de la SEC sur la comptabilité de Nvidia, scandale majeur.",
+      "reason": "Enquête SEC sur la comptabilité de Nvidia, scandale majeur.",
       "hook": "Nvidia dans le viseur du gendarme boursier américain",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
@@ -2202,8 +2287,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Nvidia détrôné par Alphabet, symbolique mais lié au krach.",
-      "hook": "Nvidia n'est plus le roi : Alphabet le dépasse",
+      "reason": "Changement de leader mondial des capitalisations, mais suite du sujet Nvidia.",
+      "hook": "Nvidia détrônée : Alphabet devient plus gros qu'elle",
       "notifiedAt": "2026-11-20T17:07:23.298Z"
     },
     {
@@ -2766,6 +2851,23 @@
       "reason": "Doublon point de marché."
     },
     {
+      "id": "23096e74c4",
+      "title": "Tempest Security Appoints Linn Ahlcrona As New CFO",
+      "summary": "Tempest Security Appoints Linn Ahlcrona As New CFO TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM2dGckNvOEV3cWs0NGduVWRGSEhjSTh3d3c4NWlUeHBrRl9mZl9QcjZUM05ZZm1oMi1JVDVOcXVnVi02ekhJeXA1X2ZCaVhxM2VkZXRoLXIxNUM0T2xHNTlyNFBSUEExdTA0dVpabG5CM205QWd5SnNTcjU0LXp6RHhXcWY2RTRpX2hJWUVHbXN6OVNMeW9LejdVbE1JWlYxLUNQM05kZzktSUdCaEI5UGVQSXdrWHdvdGZz?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T15:28:26.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination obscure en Suède."
+    },
+    {
       "id": "eb6a59bbcb",
       "title": "Google shifts 2027 AI chip orders from Broadcom to MediaTek, Ming-Chi Kuo says",
       "summary": "Google shifts 2027 AI chip orders from Broadcom to MediaTek, Ming-Chi Kuo says TradingView",
@@ -2868,6 +2970,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Simple nomination de directrice financière."
+    },
+    {
+      "id": "882f5978f9",
+      "title": "India's New Energy Infra Trust Files For IPO",
+      "summary": "India's New Energy Infra Trust Files For IPO TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQW9NVk9YZkdWcWlEOVpVNUxUTF9qV1dMUUFkZkVIQm96REhnOURoNGFBR2hFMEtxR2xhNTRKaFZpU0c5U3ZkOVJwY3FZM1VNNV8zbVFLWVdSc2tVbHNZRGppZFBoR2JCWFBkNS1iOUp6c2sxaTZfZ2dXanRDbElmdTl4S05XczdFSEY0cnF1SnAtSFc5Vkt1M0FiN2c2QjUwaS1malFqV0hPdTVIQXRhc2tOcw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T15:19:32.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "IPO indienne de niche."
     },
     {
       "id": "ab0db77bdf",
@@ -3234,8 +3353,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Fin possible de l'interdiction de louer les passoires thermiques, énorme pour les bailleurs.",
-      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée ?",
+      "reason": "Fin de l'interdiction de louer les passoires : énorme impact pour les bailleurs.",
+      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
     {
@@ -4577,6 +4696,23 @@
       "hook": "LCL risque 4 millions d'euros d'amende pour sa gestion sous mandat"
     },
     {
+      "id": "54cc5241e2",
+      "title": "Raymond Says NCLT Approves Scheme Of Amalgamation With Everblue Apparel",
+      "summary": "Raymond Says NCLT Approves Scheme Of Amalgamation With Everblue Apparel TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMUVMZUlyLWJNempZTVNEYjktZU9RSkhoQ0NNd0hhYnRKYkJldDE1Uk9TdzZMRTktRUo2Szh5elRGZkxiRnpKQURyRGRtSERkckpFaGljQXFTQlQ3VUZvUmNBWW9xVVdIOU9iN3BXSFJmRlh5Qi0zZnJuTHNSamVQQUNoanlVYXRXNVZSSnJYN0hhcUVhOUtfQl9XOGp5RHNkSXdnOXA2bmVUbl9GRlk4Q2NfR2VCcTZLS3FxYVg0d1NfN1lnUENLUzlwaGxPbVgxRmJ5M3NBOA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T13:57:24.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Actu corporate indienne inconnue."
+    },
+    {
       "id": "b0fb52ba33",
       "title": "Apple prépare un agent d'IA pour défier Anthropic et Meta",
       "summary": "Le fabricant de l'iPhone travaille sur un assistant capable de naviguer sur Internet, de piloter des applications et d'exécuter des tâches complexes. Une offensive qui pourrait repositionner Apple dans la batai…",
@@ -4675,6 +4811,23 @@
       "aiScore": 5,
       "reason": "Tesla autonome autorisée en Europe, premier pays.",
       "hook": "Tesla roule seule en Italie, avant le reste de l'Europe"
+    },
+    {
+      "id": "5ef1c1b625",
+      "title": "Mercedes gets German approval for assisted point-to-point driving",
+      "summary": "Mercedes gets German approval for assisted point-to-point driving TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM2J3THNUVWRGT3ZPWmFzUUlGSVczRUJDSmhYem9rZWRPZUx5VlJjUEJkakloOUJIUGZWUEExSzZnVFp5RXFtdHJhR0dGMmg2NWxpWGpMR2pHUUJJWnVudnBTQmFHRlNiUkRVdWR2eV9ZVVhHcFNCR0RiRXAwajh3YVpiT180WUFyeDVQM2JhRzJCeTczME1GX1d6UjQ4UHBPdFE0UFpoTExoZVBMT2NjbWFiejg3WE1DV1U4YlM3X2VqTWN5d18wQVZkWnJkeU0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T13:46:41.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Avancée technique Mercedes, peu d'impact."
     },
     {
       "id": "3f7ac08637",
@@ -5134,6 +5287,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "89fe8314b2",
+      "title": "Chile buscará fortalecer cooperación en minerales críticos con Japón: Kast",
+      "summary": "Chile buscará fortalecer cooperación en minerales críticos con Japón: Kast TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90aE5qbGxBV2taUUJKc281cUxiendnUlgyRFphYzBOZEIwUVE4SmdxcGdMRmVsMThMbDBQVEl1Mld4cjFJcS03b0wwMmIzR1NMa0xqVmN6NlBCUFhkczg1ZUViN2FBN2NXUnFuMFgyMVdIUE9JR2M4?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T13:07:15.000Z",
+      "collectedAt": "2026-11-21T11:07:27.574Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère sans lien avec les Français."
     },
     {
       "id": "7190838227",
@@ -8640,7 +8810,7 @@
       "international": true,
       "aiScore": 6,
       "reason": "Ubisoft, marque française connue, en difficulté financière.",
-      "hook": "Ubisoft s'effondre en Bourse : la fin approche ?"
+      "hook": "Ubisoft s'effondre en Bourse : le géant français vacille"
     },
     {
       "id": "63e37e1c24",
@@ -8841,8 +9011,8 @@
       "score": 6,
       "status": "new",
       "aiScore": 7,
-      "reason": "IPO historique d'Anthropic à 1 760 Md$, record absolu.",
-      "hook": "Anthropic pèse plus que SpaceX dès son premier jour",
+      "reason": "IPO historique d'Anthropic à 1 760 Md$, chiffre frappant.",
+      "hook": "Anthropic dépasse SpaceX : 1 760 milliards dès le premier jour",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -9159,8 +9329,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "GTA 6 : 2,36 Md$ de ventes, record grand public, sujet validé.",
-      "hook": "GTA 6 : 2,36 milliards de dollars dès le lancement",
+      "reason": "Record de ventes GTA 6, jeu ultra populaire, dans la lignée du sujet validé.",
+      "hook": "GTA 6 : 2,36 milliards de dollars en quelques jours",
       "notifiedAt": "2026-11-20T09:07:30.838Z"
     },
     {
@@ -56652,36 +56822,6 @@
       "international": true,
       "aiScore": 2,
       "reason": "Point de marché crypto spéculatif, type de sujet refusé."
-    },
-    {
-      "id": "911ce489d6",
-      "title": "Solarium Green Energy Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
-      "summary": "Solarium Green Energy Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTkxYTElsXzN1bmROVWZ5QWE1OUYyandfZWNxUktyX0I3UXpXZkxCNkhlWDhnallyYl9YeE1UOUxycEpRNC1BOUZWX0lhb180UzVMVlNVbDRCQlJoeWstbXRHVVpMcTF3c2VVWnpKX0dFYlplWE03Rlducm9ENjhQWWNaRjJUeG52aVBHNWpwNElkcWRxZUpqWjN5NFhKazhOZk5sLWVicGZGWEZCR3Z5YzM5QVZ1bGpuVnVYbk5VQjJiOWdxbEJjcnpWLV9sNDNRLUFsVXd1djNPdnBkZ2Z1eFJDMTc0ZC0tZXc?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T10:54:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "1a4918fe4e",
-      "title": "National Insurance Company publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
-      "summary": "National Insurance Company publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYUdZOHJDVkRnWVJpLUY3dWdEdmsxWXRabWltSFNnYXhtOE5NMU1VRlUzYWJ3X2RfaFdNcFdYVVBGYVZKTFpmeEl3RXB0NEhiSDdDVFBpZ3FoclB3d3FBNXJoMnRtY1A4bkxMV0o3YUhvZTBRdDlhQUFSZjg5MTd6aU1ZcE1Yb1JhQk1uaTVIS1NKLWpyMmJ3d0t3SklHMElhZC05WXJ3Q3lnOFo5aGhmSEYxNU43elhZVGZ3UGRvanhoOThQMUV0bklYQWxQN2NKR2VWdlloRHBXNXIwN2dBTzFQZ2ZTQUVWcUdxLW5ma0dnMEk?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T10:45:00.000Z",
-      "collectedAt": "2026-11-15T15:07:23.601Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
     },
     {
       "id": "482f23e5a6",
@@ -120114,5 +120254,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T09:07:42.415Z"
+  "updatedAt": "2026-11-21T11:07:48.174Z"
 }
