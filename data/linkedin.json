@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "2853f6b24f",
+      "createdAt": "2026-11-21T06:14:44.072Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le rêve américain coûte 5,3 millions de dollars, le rêve français tient sur un minuscule balcon.",
+      "text": "5,3 millions de dollars. C'est ce que coûterait aujourd'hui le rêve américain.\n\nLa grande maison, les deux voitures, les études des enfants, la retraite au soleil.\n\nLe rêve français est beaucoup plus raisonnable.\n\nUn balcon.\nPas une terrasse, hein. Un balcon.\nAssez grand pour une chaise et une plante qui meurt en août.\n\nDans l'annonce, il devient « bel extérieur ».\nEt le prix au mètre carré prend l'ascenseur.\n\nOn n'a pas les mêmes rêves, mais on a clairement les mêmes banquiers.\n\nC'est quoi le vrai rêve français selon vous : le balcon, la place de parking ou la cave ?",
+      "image": "carousels/linkedin/2026-11-21/2853f6b24f.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "tiny parisian balcony with one chair",
+        "caption": "Le rêve américain coûte désormais 5,3 millions de dollars. Le rêve français :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-21T06:14:52.023Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "b6f50a6a5d",
+      "createdAt": "2026-11-21T06:14:34.761Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Alphabet passe devant Nvidia en Bourse, trois ans après que tout le monde a annoncé que ChatGPT allait tuer Google.",
+      "text": "Nvidia n'est plus la reine de la Bourse. C'est Alphabet qui passe devant.\n\nOui, Alphabet. Google.\nL'entreprise que tout le monde enterrait il y a trois ans.\n\nSouvenez-vous : ChatGPT débarque et en quelques semaines, c'est plié.\n« Google, c'est fini. »\n« Plus personne ne fera de recherche. »\n« C'est le nouveau Kodak. »\n\nEt pendant que les experts de X rédigeaient l'avis de décès, la boîte continuait d'encaisser des milliards avec la pub, le cloud et YouTube.\n\nLa Bourse adore humilier les prophéties trop sûres d'elles.\n\nC'est quoi la vente que vous regrettez le plus ? 😅",
+      "image": "carousels/linkedin/2026-11-21/b6f50a6a5d.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Anakin Padme 4 Panel",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Vendu Google en 2023 : ChatGPT allait le tuer",
+          "Et tu l'as racheté depuis, hein ?",
+          "Et tu l'as racheté depuis, hein ?"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-21T06:14:44.072Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "f95b090f83",
+      "createdAt": "2026-11-21T06:14:32.782Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "L'interdiction de louer les passoires thermiques pourrait sauter : le sourire crispé du proprio qui a déjà fait tous les travaux.",
+      "text": "Il y a deux types de propriétaires de passoires thermiques en ce moment.\n\nCeux qui ont attendu.\nEt ceux qui ont tout fait dans les règles.\n\nIsolation, pompe à chaleur, trois devis, deux artisans qui ne rappellent jamais, six mois de chantier, un nouveau DPE.\n\nEt là, l'interdiction de louer les logements les plus énergivores pourrait tout simplement être abrogée.\n\nBon, sur le papier, c'est gagné : le logement est mieux isolé, le locataire a moins froid, la facture baisse.\n\nMais le sourire est un peu crispé quand le voisin qui n'a rien touché se frotte les mains.\n\nVous êtes plutôt team « j'ai fait les travaux » ou team « j'ai bien fait d'attendre » ?",
+      "image": "carousels/linkedin/2026-11-21/f95b090f83.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Hide the Pain Harold",
+        "image_query": null,
+        "caption": "Le proprio qui a fait 35 000 € de travaux pour passer de G à E en apprenant que l'interdiction de louer pourrait sauter",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-21T06:14:34.760Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "afa383a7f5",
       "createdAt": "2026-11-20T06:14:40.424Z",
       "origin": "auto",
@@ -504,5 +574,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-20T06:14:47.575Z"
+  "updatedAt": "2026-11-21T06:14:52.024Z"
 }
