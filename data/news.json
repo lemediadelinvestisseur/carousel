@@ -1,6 +1,75 @@
 {
   "items": [
     {
+      "id": "a4db6eff69",
+      "title": "Selon le Financial Times, Compass Group prévoit de transférer sa cotation principale de Londres à New York",
+      "summary": "Selon le Financial Times, Compass Group prévoit de transférer sa cotation principale de Londres à New York TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95ZmpONUY4UHB1Q1Y4ZVh0OVJNbFRmdmV5eTNrS3dmdWNPaWpDZXNRNmFraGMtaG52bHhtVTJKb181dlNzMEtHQ1pNbEx4ZHdrUmpLVVpzUFJmUUpWWkJmY25teTdrMWp5bzI4c0ZJcDRsVDdiREtJ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T18:19:48.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Exode de Londres intéressant mais Compass peu connu."
+    },
+    {
+      "id": "4a7aac317f",
+      "title": "Sommet \"Choose France\"-Environ EUR15 mds de nouveaux investissements français attendus",
+      "summary": "Sommet \"Choose France\"-Environ EUR15 mds de nouveaux investissements français attendus Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMmdpTDFQYmdCQi1GcGJlNlRDRElSOWZLOFVneUZiWWs3QWZ3X3dxNGt4eWl0QWFKVHBKWHNnOXF3MXk2bVdmTFlhMERVRUJ1XzhXRGc3Y1FnWF95a3hQYW9xNk1JX3lDUF9Xa3F3SUhIZlI5NEh5MXNzTWRsWVpKLVBzYWF3d0EtbTNza3dzQ0VVUjdHQlp3Q3lpVS02d3M0ZGl6Vktfb0R5djJ2NTROaU1pb3N3ckFGMkhyMXc5bWxHbDRtV1psMVVqTVExSVphbjhkQXVGVVVmWjZM?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T18:01:21.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon Choose France."
+    },
+    {
+      "id": "a9a8d06265",
+      "title": "Sommet \"Choose France\"-Environ €15 mds de nouveaux investissements français attendus",
+      "summary": "Sommet \"Choose France\"-Environ €15 mds de nouveaux investissements français attendus TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NekxQNkxSVWxXcWJ3WW14LUpqY3NSZHhyNzMzNzFKaXFXWEhGMUNocFRSdGlMeGdfRmZ3M280SkVRMVZoRWwxY3dLcDNYd3JVSmJQT0wtRG94YzhURVJnN25Sc0V3QmNUTEF4NGpYOXdudjhaWXhZ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T18:00:00.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Choose France, gros chiffre mais sujet institutionnel récurrent.",
+      "hook": "Choose France : 15 milliards d'euros promis, pour quoi faire ?"
+    },
+    {
+      "id": "a09766f7f7",
+      "title": "Les vols Delta subissent des retards à l'aéroport d'Atlanta en raison d'un problème lié au système automatisé",
+      "summary": "Les vols Delta subissent des retards à l'aéroport d'Atlanta en raison d'un problème lié au système automatisé TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xb3BnanFwLTlqVG1fTjI5Nnh6cFVBRjJwOEZPWXhLM2Vab3A1WThDa1JIWFh4QWtoSTJIRWxrbHJnUTkyVGVJc19vTU1qNklpYlpibzRUOXpRMjNjNFdIU2FCd0pUNGlpMHdWOXZIeVRmVGFQXzZv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T17:49:15.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Incident opérationnel américain."
+    },
+    {
       "id": "312b35bb3a",
       "title": "Tata Steel proche d’un accord pour acquérir une participation majoritaire dans APL Apollo Tubes, selon Moneycontrol",
       "summary": "Tata Steel proche d’un accord pour acquérir une participation majoritaire dans APL Apollo Tubes, selon Moneycontrol Zonebourse Suisse",
@@ -16,6 +85,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Acquisition sur le marché indien, peu connue en France."
+    },
+    {
+      "id": "1251566086",
+      "title": "Le ministre américain des Transports affirme que le trafic aérien reviendra à la normale d'ici lundi",
+      "summary": "Le ministre américain des Transports affirme que le trafic aérien reviendra à la normale d'ici lundi TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5acTBud1lVTl84WS1CYWJjNjNXUFRSTlRrRmpzN0R0VFR2elZGUlJYX19USWNvakVTaHI2VjZfVGR5UlpqUTlsVG9QeWJrcmt6Q3RYa0tiWlRyaHg5VjVnd003U2ZBSnhNamdPNTVkQmFlVkk0UU1j?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T14:24:57.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Trafic aérien US, hors sujet."
     },
     {
       "id": "cb9efd0541",
@@ -152,6 +238,23 @@
       "reason": "Négociation climatique, aucun angle argent."
     },
     {
+      "id": "1c48e3947d",
+      "title": "Luzon Ronson N.V. publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
+      "summary": "Luzon Ronson N.V. publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNLTFjNGQ2LUNNWWJuYzdydklIXzh2blZHaXRKTnhjWGNnRTJEYi15TjRsTUhsY3cxX21PUk1PVllrLUNOeHpKNTJ4aUFsdFlyaWlLcTdMSXY0RHZ0TF9kZm9hSjdqbEFsR1NlemFFVGJ0dFF6eDdVOWUtZmVQQ1hIVWtwbGhpZEhpQTNSQjhXdTRBVFRxVW5FMTkxdHRac1BRUE9ZWE8tQXg3a2JrMEYyZ2hlSzVON3N4dHBXY2pSVTR4N1lhYThIRUlRTUZsbXFBZU84UjBnQ18zZ1VXQmw1QjlDemt3VXdJZy1GQ0huTWtVUQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T11:20:21.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
       "id": "6f5db75ff0",
       "title": "Immobilier solidaire : des initiatives au service de l’intérêt général",
       "summary": "VIDÉO - Face à la crise du logement et aux bâtiments durablement vacants, des coopératives, foncières et associations défendent une autre façon de faire de l’immobilier. Objectif : produire des lieux moins chers, plus écologiques et adaptés aux besoins des habitants. Le 26 novembre, la KISS réunira à Paris une partie de cet écosystème.",
@@ -166,6 +269,40 @@
       "status": "ignored",
       "aiScore": 2,
       "reason": "Immobilier solidaire, proche du social refusé."
+    },
+    {
+      "id": "d522ab7ad0",
+      "title": "Miley Cyrus épouse le batteur Maxx Morando en Californie, rapporte le magazine People",
+      "summary": "Miley Cyrus épouse le batteur Maxx Morando en Californie, rapporte le magazine People Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSEc3b2NjUjBOOF9ranVuZnhyU3l5YV9ad245blpSMEJScTZ5V2VfY2ZnWnZKaEZnUDZ3U0Y4Q2FUd1JsR0lfVmtlWktEMmVpLXg2RGtQdktlUmdBQ3Z0SmxkU0IyRF9GaTdEbVY4MUl5Mk5CUnd5V0hLS1hHbkFkU0lnSXc3M01ob1M3WDBsaUZFQjg5R3E0NE1xTklsTDVaU3VtME9hbWVId25ySE9PZ1h1ZmxHRGFGcjZOWG42VTRtSWFiTDBVWDhINEwxeXZtQXh6RVo0Z2t6M1dEcGc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T11:07:13.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "People sans lien argent."
+    },
+    {
+      "id": "bbf199b5e3",
+      "title": "À l'instar de SpaceX, Anthropic a mené un processus d'introduction en bourse atypique, ce qui a irrité certains banquiers",
+      "summary": "À l'instar de SpaceX, Anthropic a mené un processus d'introduction en bourse atypique, ce qui a irrité certains banquiers TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IeWU0UGFRZGQ4dk9iMlc3UC1HSGRDcEVqcTB0dm9VVWtqSjJzYXRTWWtnWGVYTVZkR3lnMGN2S2M2X3BNQTIxUTIwZWNZMHZMMWRhVEFPMXBfSXdMY0VSRFkyTEdQSnc2WS0xUi1PWHN0QlBVdkRB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T11:01:18.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Coulisses d'IPO Anthropic, sujet déjà refusé plusieurs fois."
     },
     {
       "id": "b2a3b5f7e7",
@@ -232,8 +369,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens dès 2027.",
-      "hook": "Logement vide à Paris : jusqu'à 60 % de taxe dès 2027",
+      "reason": "Changement fiscal concret et chiffré pour propriétaires parisiens.",
+      "hook": "Paris : jusqu'à 60 % de taxe sur les logements vides dès 2027",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -267,8 +404,8 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Krach éclair spectaculaire du Bitcoin à 17 000 $ sur Kraken : chiffre choc.",
-      "hook": "Le Bitcoin s'effondre à 17 000 $ en quelques secondes sur Kraken",
+      "reason": "Flash crash spectaculaire du Bitcoin sur une grande plateforme.",
+      "hook": "Bitcoin à 17 000 $ : le krach éclair qui a piégé Kraken",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -354,6 +491,23 @@
       "reason": "Conseil d'expert en copropriété, angle pratique mais peu viral."
     },
     {
+      "id": "2c30542fe4",
+      "title": "Seven body bags recovered, 50 missing after Indonesian factory fire",
+      "summary": "Seven body bags recovered, 50 missing after Indonesian factory fire TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWXg2bjBoVmRHbnZiN05sR245V3VEc3hKN2lzaU5nb0NQaWVET1ZQSFJFVUdUR2M1dDNRc2kyLTN6SkVWX1pRQ3l0dzczTTQyZ3l4ei1HTEIyUktPVGZnOWFKcFFGcmNjS25reXU0bjZmbkpLcUhzdkQwd3MwMmRyY1RWd29KUG1Zc0JhMndwbkZ5ekhfR1JTRWkzM2pjd2V3SHNKN2I2NUVNaTFPaW5xaTV5U21LcmxPYnF3QjFaX1JsQ3hMRlZKblgxVWZBbEh6?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T08:31:06.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Fait divers sans lien avec l'argent."
+    },
+    {
       "id": "b9c7b17660",
       "title": "Macron réfléchit à l'idée d'une \"règle d'or\" budgétaire - presse",
       "summary": "Macron réfléchit à l'idée d'une \"règle d'or\" budgétaire - presse TradingView",
@@ -416,8 +570,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 7,
-      "reason": "Fronde des propriétaires Airbnb contre une nouvelle règle : un sujet qui fait débat.",
-      "hook": "Les propriétaires Airbnb lancent une grève des annonces",
+      "reason": "Révolte des loueurs Airbnb face à une nouvelle règle, sujet clivant.",
+      "hook": "Airbnb : les propriétaires se mettent en grève",
       "notifiedAt": "2026-11-22T09:07:25.073Z"
     },
     {
@@ -470,6 +624,23 @@
       "reason": "Point de marché régional générique, refusé par l'éditeur."
     },
     {
+      "id": "3d02750e44",
+      "title": "La Chine s’oppose à l’interdiction américaine visant l’accès direct des opérateurs télécoms chinois aux numéros de téléphone américains",
+      "summary": "La Chine s’oppose à l’interdiction américaine visant l’accès direct des opérateurs télécoms chinois aux numéros de téléphone américains Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNl9rejNrUGJpb0tEX2JGcXQ4anZNUmpPU3AtVEtpR1lEdE9IOTYzZWZnU1BDaTdZY3JkLVhib3ZndThmdzhHZ3ZuamxDZUtNaEpNNGFmc3JoczQ2a0RJV0loTWFjTGNWZi1VSGpRa2M5U3pnOVE3VXFCckp6VkxrTnpmX1BrS2piZlVYNnNzV25xQU0tb1FETjRyQ1paU1hfUXhESlc1TkNtam1mc01BU00weXFYdm1Zbnp0T0FGSnU3eWl2ZTJpNlhWOENXUnZwa0VjY3JCaTBPMUhUY2c4a1RpbUQxNVU4VzJLemhn?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T01:54:18.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Géopolitique télécom."
+    },
+    {
       "id": "6bbe837574",
       "title": "Geo-Jade Petroleum Probed Over Suspected Information Disclosure Violations",
       "summary": "Geo-Jade Petroleum Probed Over Suspected Information Disclosure Violations TradingView",
@@ -505,6 +676,23 @@
       "titleOriginal": "Where Are Horoscopes and Fortune-Telling Most Popular?"
     },
     {
+      "id": "5ae6d2f675",
+      "title": "Une entreprise de services publics détenue par Berkshire salue la décision de la Cour suprême de l'Oregon d'élargir l'examen du recours judiciaire lié aux feux de forêt",
+      "summary": "Une entreprise de services publics détenue par Berkshire salue la décision de la Cour suprême de l'Oregon d'élargir l'examen du recours judiciaire lié aux feux de forêt TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LU2ZxYzYyX1RzNU85R2x1cVZ2Wmd4d0YwN0Zhd1dEeXZ6YU1CWTlCOWI3Q2E5Njl1OXhXNDBwWnZsVXloUFI2b0RSall4dmVqTHpRcGpGdy0tc2xhNmNrdFZwU0pUQTVDOTRzRk5pNENFZ29sNzgw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T22:27:17.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Juridique américain de niche."
+    },
+    {
       "id": "41d7fe7a1d",
       "title": "La compagnie d’électricité de Berkshire salue l’élargissement par la Cour suprême de l’Oregon de l’examen du recours lié aux incendies",
       "summary": "La compagnie d’électricité de Berkshire salue l’élargissement par la Cour suprême de l’Oregon de l’examen du recours lié aux incendies Zonebourse",
@@ -536,8 +724,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Enquête de la SEC sur la comptabilité de Nvidia : un scandale sur un géant connu de tous.",
-      "hook": "Nvidia dans le viseur du gendarme de la Bourse américaine",
+      "reason": "Enquête de la SEC sur Nvidia, scandale sur un géant connu.",
+      "hook": "Nvidia dans le viseur du gendarme boursier américain",
       "notifiedAt": "2026-11-22T17:07:32.745Z"
     },
     {
@@ -575,6 +763,23 @@
       "reason": "Géopolitique tech sans acteur directement suivi par les investisseurs français."
     },
     {
+      "id": "0d669e9bfa",
+      "title": "GlaxoSmithKline S.A.E publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
+      "summary": "GlaxoSmithKline S.A.E publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVG9QNkV2R2xCTFFUOU1CWklCUkk2eU1EX1lMNXJfNFdiX0kxTnVlWmh4RWlRckFhcTdDa09RUDU3cjd1UzlFcFNEYjNIU1hoUDNVSlBnbVc3blRPMzhOTE9kdnlxNHdCSTk2Uk43UDdNVVVxOGp2aF9oQ2hDeWwwV2FkNWd2NFVRSExLdmZSTFN1dThERmZaYnhVUTBkTkJjcDYzYnM5dkx2REgteGZ0dDBmY0ZxNEJlNXhxS1pNRGkyWUp6V3ZCR05yQ21SVHM4cW9HdkYxUnNwdVE0RWV1TV9VdEFncjhzd0ZLMklGdWtMNXc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T20:11:00.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Filiale égyptienne de GSK, sans intérêt."
+    },
+    {
       "id": "83d071621b",
       "title": "Bahreïn-Une attaque iranienne provoque un incendie sur un site industriel",
       "summary": "Bahreïn-Une attaque iranienne provoque un incendie sur un site industriel Zonebourse Suisse",
@@ -592,6 +797,23 @@
       "reason": "Fait géopolitique sans angle financier clair."
     },
     {
+      "id": "a1e726a311",
+      "title": "Zoomability Int AB (publ) publie ses résultats financiers pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
+      "summary": "Zoomability Int AB (publ) publie ses résultats financiers pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaEYwUDhTZGhmN2h4VWI4OW9McmJPVklPV3NzMzFJNUIwSm05Y3JLSVBRc1EwOXRSdWJHZTB3SUNHSHVKZ1RDTHNkbk9Qci1pY0ExaEZJRl9iN3c4cXNlOS0yUlNVVnJzOW5KYWs2cEdCUGIyajExOWhkTXBaVHI2dUVOMDdEdTlVUW5pQnF0aGlBVS04WURGT29Md3EzUko1WVhBSGRYVGhOaTdyWk1JVl9xZHNXT29JS2x5djNmQlZpdXZtaG4yQUhlWC1HSUFOMTliWmowV2dGZ3BQanQxS0VzYUpTTjdnZkdSYThUeTk?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T19:05:27.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
       "id": "a88a42f025",
       "title": "Brazil ex-President Jair Bolsonaro taken to ICU",
       "summary": "Brazil ex-President Jair Bolsonaro taken to ICU TradingView",
@@ -607,6 +829,40 @@
       "international": true,
       "aiScore": 0,
       "reason": "Politique étrangère, sans lien avec l'argent."
+    },
+    {
+      "id": "e3096808b1",
+      "title": "McRae Industries, Inc. publie ses résultats pour l’exercice complet clos le 1er août 2026",
+      "summary": "McRae Industries, Inc. publie ses résultats pour l’exercice complet clos le 1er août 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcXZjTHVNODBaRmxMVXNQRTlaYkhES1lIZ21DYnNLZjN2WjBfWTZUM0dPQzhCYkhxYmktekozck1VMm9zancteFR1QmpRdHdSTVdHWVdBc09NOXNldmduT1JNbnFXXzRnMTJWdDAxY09PYXZXYmNEZ3B4aWFQd2txREJKWWFQZ3Y4dGY2Rk0zVWRlaW9FSzhnLVJkLVdiMUNJQl9wOVktdUh3OWpLOWVrcmhlbWJJSmFvVzduSWplVmJmRXFDOTZZUWhHRFRfaTFINGZqRHc4aVBxOUJMTEx3Z090MA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T18:50:25.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
+      "id": "8a07771233",
+      "title": "COP31 : nouveau projet de décision finale toujours sans mention des énergies fossiles",
+      "summary": "COP31 : nouveau projet de décision finale toujours sans mention des énergies fossiles TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DUnVCOWhZNW9GYTdSQnNDUExpSTR4R2R4TFJVbkNaekRGNGx3UUVqUl9GcFNJdEJCRmtSVFhreF9jQTVLZndpVkRDTXNqWXVsSHg3cnJ2ckpoTElZQ00yM0l3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T18:28:00.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Politique climatique internationale."
     },
     {
       "id": "10285d147e",
@@ -645,6 +901,24 @@
       "notifiedAt": "2026-11-22T15:07:23.174Z"
     },
     {
+      "id": "9a550dcaa0",
+      "title": "Amazon serait en phase avancée d'un accord de 7,5 milliards de dollars pour le rachat de Decart - FT",
+      "summary": "Amazon serait en phase avancée d'un accord de 7,5 milliards de dollars pour le rachat de Decart - FT TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0ZmhWa19SZUZEUGhHRFF1c05uNkZkMk5qT21zV2FLdkVHRnI3Rmw0UkM3TC1heWhkQ1Z0bmVYZmx5aDUxaExFVVJkZDBJOXBQT2ZpN0k0RHlBTEtHWkVnRktjSGlZRmlGcmVjRjR5R1d3eWJzblpZ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T17:27:19.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Gros rachat d'Amazon mais cible inconnue en France.",
+      "hook": "Amazon prêt à payer 7,5 milliards pour une startup d'IA"
+    },
+    {
       "id": "e17a7c84a2",
       "title": "L'Iran va rationner l'électricité face à la pénurie énergétique",
       "summary": "L'Iran va rationner l'électricité face à la pénurie énergétique TradingView",
@@ -660,6 +934,40 @@
       "international": true,
       "aiScore": 2,
       "reason": "Énergie en Iran, trop lointain."
+    },
+    {
+      "id": "d42fabaae9",
+      "title": "Le bitcoin remonte après avoir atteint son plus bas niveau depuis deux ans",
+      "summary": "Le bitcoin remonte après avoir atteint son plus bas niveau depuis deux ans TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wRkxwWWh5d3VHekwxSHNUZlJES3FFalNRallaNGNTNVNMZjZSR3IxRG9LR1ZRRmVnZ3FfOWZ0dVJReDhScWhjZE9sbHpMbWY0V3NmU256VmZWcUJ2Tl9HTzlmQXVMWHp2ZU1SV2dkUC1YdjZnSVdv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T17:08:15.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Point de marché crypto du jour, type refusé."
+    },
+    {
+      "id": "9f0f5229a2",
+      "title": "Billwin Industries Limited publie ses résultats pour le semestre clos le 30 septembre 2026",
+      "summary": "Billwin Industries Limited publie ses résultats pour le semestre clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeEdTME5WUEVKZldXZ1BtMXc4c2paWklpaGd0NHZJVFZzSGhvakFNQ2E3MTctMDNkODZuLUxZOWVReXRGZmZLQzRPR3ZNdHJ2SDlPT0ZzSk5rN29XbFg2Zk10MXlhTGwtMkJ0MDZEVjN3WnhQeWg3emhJUzd3NllPRDFqWGNrUFpvZm9mSk5tS1lrcTNnRTZ6T0pjSzNIYzVVMldmT01tX0RQaFVhcUM3RDZGQTBiLThnbl9McDBxRWpCanh4Y2NfcTZZTm5HZXJnSmplN3Mta3RDMlVMN1FUSjBvVnlodw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T17:05:24.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
     },
     {
       "id": "a93f822563",
@@ -680,6 +988,23 @@
       "titleOriginal": "Mapped: Where America’s Thanksgiving Dinner Comes From"
     },
     {
+      "id": "4173f563e4",
+      "title": "Pepees S.A. publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
+      "summary": "Pepees S.A. publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZUY2cC1sMGlSckpraWgtVUtJcTJWZURac2dnSWVqZ0NKemVrQjZzLUVydkJNX0tkcnJqZV90REdfM0tDRGF5RDNqUmZPQW8xTFgxNXFaYWpSWko4NnhIcEVCcE5vb3ZMMmNydko2ZmQ5ekdBLTV0X0VkR2VfZ3hiZzNlblFKclhrcXJYZmhjSkdLcjlfWU9POWVVQU1yQ3dNM0hOUVNKcExfbjRzN3ZYU1JENS1aQ1c4Vk5YaF9MM0oySnVDcldrUHI4MjFSYVBwNzRuX05KQzBsSHBCazdRMDRFYXZiWVZtbEN3eXMtNkdWZw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T16:20:24.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
       "id": "cacc39ff45",
       "title": "Genesis AI propulse les levées de la French Tech à 526 millions d’euros cette semaine",
       "summary": "L’article Genesis AI propulse les levées de la French Tech à 526 millions d’euros cette semaine est apparu en premier sur Maddyness - Le média pour comprendre l'économie de demain .",
@@ -695,6 +1020,23 @@
       "aiScore": 5,
       "reason": "Récap hebdo French Tech avec une levée notable, sans plus.",
       "hook": "Genesis AI fait exploser les levées de la French Tech"
+    },
+    {
+      "id": "5066b0e590",
+      "title": "IBC POLSKA F & P spółka akcyjna publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
+      "summary": "IBC POLSKA F & P spółka akcyjna publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVFVLQTc3YU54N3IwYUVqX1NEZDZsdUVVV0IyYzl6dGV6UkVsaXFIc2NzSU15TGU3X29nMkdKUkdadElIMDhBRXlOYUpwdjh4OVJXX2JnZDNrMUszNW4xYnVBRjlid2s2eFlaNHVEZHZSTmp5ZklELVdpQVpJaHUzdjBod0M4cDBkYkw4aUVtbERjLUc5OHFlMzBtZjFsYzJTenVxWXBVMEQ3dVA4ajVFa19OcXhZeHRuWlhvcjhCZXZEQTdYbEl4UndrTkt5QlhhVV9Wdm1wcy13dTJVQmFoaElIQnk5eFJmc21VVVlR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T16:05:25.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
     },
     {
       "id": "d5ad93a42d",
@@ -731,6 +1073,74 @@
       "reason": "Société étrangère inconnue."
     },
     {
+      "id": "edb1b1c430",
+      "title": "Ascencia Limited publie ses résultats pour le premier trimestre clos le 30 septembre 2026",
+      "summary": "Ascencia Limited publie ses résultats pour le premier trimestre clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMmU4N2tPYXd0S29ndkNnYnBzZHloT3pLeTBoYUdwMWNWbHZlVUxCcVpadm9ka1VwVmZDMHFJV05FOUxBSDN4V0RGb1d5bXRnX2hRTWFmV2Y3TGxNX0lTaTFwT3JxcWdDV0JrS0QxWi1SX3lOaWtFQ3dITHNMTWE2ckEzbmN2Mkx2Yy1kdUpDaXpkSDZLVXhOUHlnaW1qR0drbTdpcDBVVU5YaEIyMWRHQTVmN0RDcE8waTRfVVNkV3R2SnJKbzBKZTBldXA1bG1hZlFNLUMtRW5ka1dfaEVpcnFBc08?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T15:36:58.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
+      "id": "82477da32e",
+      "title": "P.O.L.I.C.Y. Limited publie ses résultats financiers pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
+      "summary": "P.O.L.I.C.Y. Limited publie ses résultats financiers pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNX0VnVWRxWm91N0pIUHE2cm5QbjRXc19MYUZJc2pmVFlhdUtTOG1jc2Fyci1vY1FFZ2tGNXJSN19sWnp6cVV5Smh1WU9MU0pRR2VqNWN0dWo1OVVwajJxYVJkalpKU2xlWEdCLUFjQUg5RG5SSThpRGhyV3BPR3FGLS1PaF9UdTVxdzJMcjgybkkyUHlYMXN6SjFUckVHYmRFLWpXX1Y1OVFzRTM4WlFpZjBJUnR4UW1vQ3hsTGVhSVo3ZC03NWNqcW1jeVY1S0lHekRHSHhlSmJtbUxCZ2lkcXJ2WTREWjUwNHBXMEJDT1FQdw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T15:36:45.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
+      "id": "08389f9805",
+      "title": "Watania International Holding PJSC publie ses résultats du troisième trimestre et des neuf mois clos le 30 septembre 2026",
+      "summary": "Watania International Holding PJSC publie ses résultats du troisième trimestre et des neuf mois clos le 30 septembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbUJMMmxNZnFHTlpRSWVBaFVjRkFvdXctMUFuRjFXbEpfRXM5d2xVOU1zNkhfdGFIVk12UURNQUlZd1Fkc3JncTRyUFF5Z2lKdnhEWk4ySjc0YldXQU5ZdkZqSF80aTkydUVtWUJOMU5FU2lLM1AzUmt2cFM3eGhVbG90Tjl3VDRqTmZReUdIUHNxblJsbEl2T3Q3WHFKSkxHdlFEcHJodDNFV2Q1NGlUY0swWTdfdXdNWmRCRFRHdDlVR082cUZvUXMxYm9GNVhLMWxxT0ozdTYyemI3YlBiRDJlVml1T0wwUF8tSXhlY25YZTg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T15:36:22.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
+      "id": "c13eb79eca",
+      "title": "Kulthorn Kirby Public Company Limited publie ses résultats pour le semestre clos le 30 juin 2026",
+      "summary": "Kulthorn Kirby Public Company Limited publie ses résultats pour le semestre clos le 30 juin 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLVY2SkpleExEWmxxYXF5UDg2LUcwV0J1Wi13OHBoLTJpc3lpYWNrWDRYanA3U2puanNCX3Q2eUcxcDI2NHJmTTJBUHVtMDBpNUNzR1E2Q3FxUDNJZWM1YXhjM0k3d0tya2lybi1zQW9oV1RtNGFnYjJja25mZ2ZiRTRSNHFKTENPUmNrOVh3bUNEeTZYTkJwbUhPMm0xY2lOR042eEpUVlI3RHlrQkZxcUREWnNIampwZXRPNHZUbk1tRkJIUGFpWnJzV0xSeHpaQmZuaFhPR2luaWduOUc4clhZZGFWWE1yaXZkOWVB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T15:36:06.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une société inconnue."
+    },
+    {
       "id": "d3a69d2cd6",
       "title": "Stonehenge Inter Public Company Limited publie ses résultats pour l’exercice clos le 30 septembre 2026",
       "summary": "Stonehenge Inter Public Company Limited publie ses résultats pour l’exercice clos le 30 septembre 2026 Zonebourse",
@@ -746,6 +1156,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Société thaïlandaise inconnue."
+    },
+    {
+      "id": "818fb561ac",
+      "title": "Les USA démentent que l'Iran ait frappé un F-16 au-dessus du Golfe",
+      "summary": "Les USA démentent que l'Iran ait frappé un F-16 au-dessus du Golfe Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNblloVFA2bEFWOXhhS3pTMjhjd0RrOExEOGlWcFZKei1meUN2eTBXNXQ0S000c1FKSWNwWW9zSzZIV1I1VTB0NllfbFZwXzhxdk1BeGZZN3NNWlh3VlVWOEFwUm5DWGN0TkRPWkxzYVFtVTlacVk3Um5ab2pmYlVnOTN0czNzd2RBelU3OFVUQWJxazcyVmphelJrdG5sYlIxblRObHZUbldaRFVWdUlnNzk1dkEyUlZEbmlsaEtUM2pzZmszaHc?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T15:29:13.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Géopolitique pure."
     },
     {
       "id": "4ffc0fc4c0",
@@ -952,6 +1379,23 @@
       "reason": "Mobilisation sociale : sujet social et politique que l'éditeur refuse."
     },
     {
+      "id": "7a9752a4ef",
+      "title": "Ameenji Rubber Limited reçoit une commande de Central Railway pour la fabrication et la fourniture de patins en caoutchouc",
+      "summary": "Ameenji Rubber Limited reçoit une commande de Central Railway pour la fabrication et la fourniture de patins en caoutchouc Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUUF4TU05ampJcERDb29yRS1hQi1WZUJLcTRONjdac3FfM2RfZDBKN0NXMWpGQXEzbVF4Rk12SVkxb0VTbnZnV3djT0tWc29fdHdvNEdzRWtPOFFvQnlYZHk0emxEaGc2QU1xV3RlMUlQczY4aWZpRExTV200aWd2QTdvaUJyYk5BaGRMQ1JKNnFlWUdXSW5ZdmJXMVhiTEgwWlY4SXlsOWZrVEFwRVlwSTZOeTgxSG0weEhRR21RSC1LTHBpemhOZzJYWlltdWhVVVAyX3VSS3FQYkFsN29JdE5EUzdPbEZMVEhaZ2ZRSWh5ckk?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T13:20:36.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contrat fournisseur inconnu."
+    },
+    {
       "id": "1f07f85094",
       "title": "Classement : les meilleurs et les pires États américains où vivre en 2026",
       "summary": "Is your state among America's best places to live? See how all 50 states rank for affordability, safety, health, and more.",
@@ -1038,6 +1482,40 @@
       "reason": "Commande de niche pour une petite société indienne."
     },
     {
+      "id": "5c0740e7d4",
+      "title": "National Stock Exchange of India Limited annonce des changements au sein de sa direction",
+      "summary": "National Stock Exchange of India Limited annonce des changements au sein de sa direction Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVWs0bkVwaHpIaUhsMWQ2RUdLRDBtemxUeUNGbXZfRmozemtlWjVHUUpIaFV6alNGUVBYNnU4Y1NUOE1QRk4yckRQM3JIeXpfckwtb0lIWTZwZnJaMk0zZlhhb29vekJfNmZPRG1XMHJGQThibko1ODdHdWRjMGVLQm5QUWpDMDJHTklVZ3BFaF9MRU5mdTZfNzRUYWs0a0dsTWlzclZIMHZMX2dsQ1ByZ19TeTllUzJxbUhZa25yUHgxOS1icTBaNDNLdnpoc1dkZFZmU3RnQ24yc0ZidjRGLXlMdw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T12:50:58.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination étrangère mineure."
+    },
+    {
+      "id": "f494167a05",
+      "title": "Premier Explosives Limited reçoit une commande à l’exportation d’un client international pour la fabrication et la fourniture d’explosifs de défense",
+      "summary": "Premier Explosives Limited reçoit une commande à l’exportation d’un client international pour la fabrication et la fourniture d’explosifs de défense Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWnFiWVpWNldmQzlzVVE1Q2UwMVFkZlp4b0k2bFg3YlliREFFQlNBdUdSOTJHZkJVMEVIeXFkY25aSXpkcUJhSnVTNElTemxJa2NiVEhTSVpxdUc2VTNnUUxLLXo2RmlCVFZkZ0dfX1I3Qk9UZFVFNDNIT1JsN2swSm03QVh6STM1a1gyc3VkdkpKYU9kV1BDdU1BU3A1aHZZMDNCbWVWSk1iN1VROEZSY3NkM1lMdHNFZndNSXJyLW1HU1lKUFJfb1RHR0xMRlFyMzM5cjRmN1NwRUN3WE41d0FNSDN1SmFNZjlXMTR4MUg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T12:50:23.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contrat fournisseur inconnu."
+    },
+    {
       "id": "792e67a133",
       "title": "Le président du Conseil européen propose de nouvelles réductions du projet de budget de l'UE pour la période 2028-2034 et évoque une taxe sur le numérique",
       "summary": "Le président du Conseil européen propose de nouvelles réductions du projet de budget de l'UE pour la période 2028-2034 et évoque une taxe sur le numérique TradingView",
@@ -1053,6 +1531,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Budget européen et politique, refusé par l'éditeur."
+    },
+    {
+      "id": "b4a64fda6f",
+      "title": "Budget de l'UE: la nouvelle proposition est un \"premier pas, mais son montant reste excessif\", dit Berlin",
+      "summary": "Budget de l'UE: la nouvelle proposition est un \"premier pas, mais son montant reste excessif\", dit Berlin TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vTU81UlB5ajdlYllLZzRPTXluSXBpMXg3WlNuMTZwRnBrZENYSFJ6ckFtQjRqaFliUFRzNUl4TnFZYW84RzNleGVxUzEwUzFGTkU0ZHNPcGI3X3NsbGRiZE1R?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T12:35:08.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Budget politique de l'UE, refusé."
     },
     {
       "id": "a0b2efb5fb",
@@ -1087,6 +1582,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Actualité géopolitique sans angle argent."
+    },
+    {
+      "id": "6d510c8e27",
+      "title": "Xer Tech Holding AB annonce la démission de Patrik Högberg de son poste d’administrateur",
+      "summary": "Xer Tech Holding AB annonce la démission de Patrik Högberg de son poste d’administrateur Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTnBiOE1lTlg3R0F6ZWMtN0RkMVpNcl9ZeVdkelRaUWRVLXVFUExVVzJGNGVublB4Qnl2UFpGckdhZUVBTzJtTUtiOGYwZ2hxNFBnS0lFSVdvOUpIbGxPbXRzaC1xZHBWZ0ZORm52M3BFS0FvaElESnVsbHZUc01TdERYc0ZTVUVTTVM0STlWUmx4RjVIeFhUZlBIY3ZXalNkRGl6S0tveHRsT2pidndFY280bGZtZkFNZVh5NG5TRmdvOFlmUW5ZUDdPc3NNTmpUb18zTnB3Nk5kczhodDU2YVcxbVg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-21T11:35:24.000Z",
+      "collectedAt": "2026-11-22T19:07:23.695Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination mineure inconnue."
     },
     {
       "id": "37db9909fc",
@@ -56150,21 +56662,6 @@
       "international": true
     },
     {
-      "id": "a3c3a7fdc9",
-      "title": "64 000 machines de minage Bitcoin piratées dans une attaque éclair",
-      "summary": "64 000 machines de minage Bitcoin piratées dans une attaque éclair TradingView",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BZUFSQ2NOdEJFdjNZS09kOTlkWXpObUY4NzlIakRndnJJUjIxd1UydzZxejluRUNUanFGLXRCZjFyd3ZYTGFyT0NHY3BEejRMSnE0QmxqdVVkc1AzVHFoY1diWjFxelJhdXdDVw?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-15T19:00:00.000Z",
-      "collectedAt": "2026-11-15T21:07:39.780Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
       "id": "cf6e7d8947",
       "title": "Jubilant Pharmova Q2 2027 Earnings Call Is Live",
       "summary": "Jubilant Pharmova Q2 2027 Earnings Call Is Live TradingView",
@@ -56222,21 +56719,6 @@
       "brand": "investisseur",
       "score": 2,
       "status": "ignored",
-      "international": true
-    },
-    {
-      "id": "ee02613dbb",
-      "title": "« La Fed a encore du travail à faire en matière d'inflation », déclare le président de la Fed de Kansas City",
-      "summary": "« La Fed a encore du travail à faire en matière d'inflation », déclare le président de la Fed de Kansas City TradingView",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ubXVLbEMwS2J1X3Zmczk4dnVMUHFnTzZEWjB3TEQtcndZcWpQSVEtdVB4eHFWT0ZWYlhERW4zU044Q1lEWEZ5Zk5taXI5TWxsZXRyWG9wU3JYczRST1dJaUVSb1pBTUVYOXJSdVVBMTV3dkJYc1hr?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-15T18:40:31.000Z",
-      "collectedAt": "2026-11-16T11:07:51.691Z",
-      "brand": "investisseur",
-      "score": 5,
-      "status": "new",
       "international": true
     },
     {
@@ -121378,5 +121860,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T17:07:51.828Z"
+  "updatedAt": "2026-11-22T19:07:47.814Z"
 }
