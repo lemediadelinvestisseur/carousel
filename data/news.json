@@ -67,6 +67,23 @@
       "reason": "Immobilier solidaire, proche du social refusé."
     },
     {
+      "id": "b2a3b5f7e7",
+      "title": "Ethereum : Le retard de Glamsterdam révèle un problème inquiétant",
+      "summary": "Ethereum : Le retard de Glamsterdam révèle un problème inquiétant TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41N2c5NjJMZ0lyc25SbkZ1V0VpcFdaZDM0aDZ3UVNfemtFY1ZlX2NiN1pTMFowOVpzS3o1QkhiZVFjRERQakhwUEdLSzRSWTFKMHZ3YnFveTEzdW9NZDRDV3VUdjZEMTNUdjR1VQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T10:30:00.000Z",
+      "collectedAt": "2026-11-22T13:13:46.954Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Actu technique Ethereum de niche, peu parlante pour le grand public français."
+    },
+    {
       "id": "68e93fe337",
       "title": "Webuild porte sa participation dans Trevi à 91 %",
       "summary": "Webuild porte sa participation dans Trevi à 91 % Zonebourse Suisse",
@@ -114,8 +131,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens.",
-      "hook": "Paris : jusqu'à 60 % de taxe sur votre logement vide",
+      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens, avec un choix à faire avant 2027.",
+      "hook": "Logement vide à Paris : jusqu'à 60 % de taxe dès 2027",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -148,9 +165,9 @@
       "score": 4,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Flash crash spectaculaire du Bitcoin à 17 000 $, surprise choc.",
-      "hook": "Le Bitcoin s'est effondré à 17 000 $ sur Kraken",
+      "aiScore": 6,
+      "reason": "Un flash crash spectaculaire à 17 000 $ sur une plateforme connue intrigue, mais ressemble aux mouvements de prix du Bitcoin que l'éditeur refuse.",
+      "hook": "Bitcoin à 17 000 $ : le crash éclair qui a piégé Kraken",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -280,9 +297,9 @@
       "brand": "21m2",
       "score": 4,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Fronde des loueurs Airbnb, suite de la règle ménage déjà traitée.",
-      "hook": "Les propriétaires Airbnb font grève contre la plateforme",
+      "aiScore": 7,
+      "reason": "La fronde des propriétaires contre une nouvelle règle Airbnb est concrète et fait débat chez les loueurs.",
+      "hook": "Les propriétaires Airbnb font grève : la règle qui les révolte",
       "notifiedAt": "2026-11-22T09:07:25.073Z"
     },
     {
@@ -1124,8 +1141,8 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach majeur : Nasdaq -10 % en une semaine, même l'or chute.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
+      "reason": "Un krach de grande ampleur avec des chiffres frappants (Nasdaq -10 %, CAC -5 %) et même l'or qui chute : sujet incontournable pour les épargnants.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -121080,5 +121097,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T13:07:50.701Z"
+  "updatedAt": "2026-11-22T13:14:00.660Z"
 }
