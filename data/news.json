@@ -1,6 +1,72 @@
 {
   "items": [
     {
+      "id": "2ee58ade06",
+      "title": "Projet de règle d'or budgétaire : Macron réfléchirait à convoquer le Congrès",
+      "summary": "Emmanuel Macron réfléchirait à convoquer le Congrès à Versailles pour faire adopter une règle d'or budgétaire. La droite et le Rassemblement national...",
+      "link": "https://www.moneyvox.fr/impot/actualites/111357/projet-de-regle-or-budgetaire-macron-reflechirait-a-convoquer-le-congres",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20260819_150406_31.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-22T12:50:26.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Budget et politique, sujets refusés par l'éditeur."
+    },
+    {
+      "id": "853803cf7e",
+      "title": "La proposition d'accord final rejetée, annonce la présidence turque",
+      "summary": "La proposition d'accord final rejetée, annonce la présidence turque Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZHNuRXIwR1JfTHE0cFh4ZnV6N2RVY0RoNWl1ZEItSnVsS3JXMnJSNzlkbW9sRXhleTJqSmdhOGpqT0JEN0lTTFhLNXZrUkkydE1Db0dzQmk1V0R0S1Zsd2I1dk5YQ0tIVEd0N0hwV1hvYk44T3FjN3JoMjh4SUhTeXZoT0xqa1pkdFZmU1gzaW9zejJfaEJMR3BlbzJJemRnaUpqMk03V0JPM0tyeHlQLVlLLW9zRVEyU2Rndm82ZTRSVnF0?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T12:08:18.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon COP31."
+    },
+    {
+      "id": "cd82757eb7",
+      "title": "COP31 - La proposition d'accord final rejetée, annonce la présidence turque",
+      "summary": "COP31 - La proposition d'accord final rejetée, annonce la présidence turque Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRFQ2WnQxRGd1ZWJuUmZxeW0zdWFMMGNEa2Q5NHdzSnFKLVJ6czlwTHNmNHBKTldGejQ1REVidVNpdDJtOGNRRUF1VTF5b3BPNktyc0g3dmhxampRR0dnYmtHRlRDRlVRSVlNVjd0Z21ZLWxYODRvd0pPUHBKdVBjSjVoSGcxbmNDam8wR0NydGFKUTdQRl9rTkFUM1RJVlVWOVk1amxYZmhsNkQxbnVuaEloZi1WWGZ3aDR4VHB1UEVGY1cxTHB0NUNzT1o?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T11:44:16.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Négociation climatique, aucun angle argent."
+    },
+    {
+      "id": "6f5db75ff0",
+      "title": "Immobilier solidaire : des initiatives au service de l’intérêt général",
+      "summary": "VIDÉO - Face à la crise du logement et aux bâtiments durablement vacants, des coopératives, foncières et associations défendent une autre façon de faire de l’immobilier. Objectif : produire des lieux moins chers, plus écologiques et adaptés aux besoins des habitants. Le 26 novembre, la KISS réunira à Paris une partie de cet écosystème.",
+      "link": "https://immobilier.lefigaro.fr/article/immobilier-solidaire-des-initiatives-au-service-de-l-interet-general-20261122",
+      "image": "https://i.f1g.fr/media/cms/1365x768_crop/2026/11/22/cbb7791b73bfe9ba0bc22bd79beda696a165ba36ab53e499f87c192778a0fbf9.png",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T11:16:30.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Immobilier solidaire, proche du social refusé."
+    },
+    {
       "id": "68e93fe337",
       "title": "Webuild porte sa participation dans Trevi à 91 %",
       "summary": "Webuild porte sa participation dans Trevi à 91 % Zonebourse Suisse",
@@ -18,6 +84,23 @@
       "reason": "Opération italienne inconnue du public français."
     },
     {
+      "id": "f28262c41f",
+      "title": "Accord climatique de la COP31 en suspens après des négociations houleuses",
+      "summary": "Accord climatique de la COP31 en suspens après des négociations houleuses Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUkpCOU1jVTUwNWUySU9QNHZKc3lHbXR1aUtVdjJCeU1qcnZISlE1c1BPYXJiQXhZNHVVLXRBa0ZUdjBacV9VQUtwYzZzVDNaYTlZTDhIQW02NzB2OFJ3d0ZtMlJEN1pyTVVMcGtmU2ZsUFJ3bzF6aTZXX3ZQSjV0M1ZBc0x2a3puMHUyNkZyZXRraHM1UDRFX01PTXUyMVpBaU0zaXR5OW1zUkNSVFNSQmo0MXlVSllQc0Z3VGZvRTZjNmd5eGhYMWQzcFI2RGZ6c1hrOTdRRk1hUFd6a1N4NG9qWnZGUXVoR2FBVA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T10:10:13.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon COP31."
+    },
+    {
       "id": "e9e6cfd14a",
       "title": "Taxe sur les logements vacants à Paris : faut-il vendre son bien avant 2027 ?",
       "summary": "À partir du 1er janvier 2027, la taxe sur les logements vacants augmentera fortement à Paris. Les taux atteindront 30 % de la valeur locative cadastrale la première année d'imposition et 60 % les années suivant…",
@@ -31,8 +114,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens dès 2027.",
-      "hook": "Logement vide à Paris : jusqu'à 60 % de taxe dès 2027",
+      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens.",
+      "hook": "Paris : jusqu'à 60 % de taxe sur votre logement vide",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -65,9 +148,9 @@
       "score": 4,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Flash crash spectaculaire du Bitcoin à 17 000 $ sur une grande plateforme, histoire choc qui fait parler.",
-      "hook": "Le Bitcoin s'effondre à 17 000 $ sur Kraken : que s'est-il passé ?",
+      "aiScore": 8,
+      "reason": "Flash crash spectaculaire du Bitcoin à 17 000 $, surprise choc.",
+      "hook": "Le Bitcoin s'est effondré à 17 000 $ sur Kraken",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -197,9 +280,9 @@
       "brand": "21m2",
       "score": 4,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Fronde des propriétaires contre une nouvelle règle Airbnb, sujet de règles qui fait débat.",
-      "hook": "Les propriétaires Airbnb font la grève des annonces",
+      "aiScore": 6,
+      "reason": "Fronde des loueurs Airbnb, suite de la règle ménage déjà traitée.",
+      "hook": "Les propriétaires Airbnb font grève contre la plateforme",
       "notifiedAt": "2026-11-22T09:07:25.073Z"
     },
     {
@@ -353,6 +436,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Titre vague mêlant GTA et crypto, doublon du sujet GTA 6 mieux traité ailleurs."
+    },
+    {
+      "id": "e17a7c84a2",
+      "title": "L'Iran va rationner l'électricité face à la pénurie énergétique",
+      "summary": "L'Iran va rationner l'électricité face à la pénurie énergétique TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wTUl0RDFjNDJ5MzUtSWNQbm1QTFJablRTaWU3MVhRU1dJLWNlWFhOaTBVWUUxaTRwRDNoV0UxMGNlOW1tRXBCM2xNUDVZd1RtTlkwSWlaYlVVb205bnNxNGhPWQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T17:26:43.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Énergie en Iran, trop lointain."
     },
     {
       "id": "a93f822563",
@@ -543,6 +643,23 @@
       "reason": "Géopolitique militaire sans angle argent."
     },
     {
+      "id": "a0d4e81eec",
+      "title": "L'UE et l'Indonésie signent un \"ambitieux\" accord de commerce",
+      "summary": "L'UE et l'Indonésie signent un \"ambitieux\" accord de commerce TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SM3kxbmxXVVBlVzZkdWpMQkRrZ1pnQ21wdmd2WlZqSThaalc2d2VoR29FLVJ3YXJkVFhPODhBNHlxaWNKSzRfMnlvZmE0WnRUMmNvRHhZYnI4N3VRbGQ3dmdLWQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T13:43:51.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Accord commercial peu parlant pour les particuliers."
+    },
+    {
       "id": "38e2bde985",
       "title": "Nouveau samedi de mobilisation sociale en France",
       "summary": "Nouveau samedi de mobilisation sociale en France TradingView",
@@ -679,6 +796,23 @@
       "international": true,
       "aiScore": 4,
       "reason": "Doublon de l'article plus complet sur le lancement record de GTA 6."
+    },
+    {
+      "id": "d9bb006a62",
+      "title": "Budget de l'UE: Paris juge que la nouvelle proposition \"ne constitue pas une base pour un accord\" (Elysée)",
+      "summary": "Budget de l'UE: Paris juge que la nouvelle proposition \"ne constitue pas une base pour un accord\" (Elysée) TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16SzY2ZWpsRnNEMmJlVEdYN05LSUpTSnE2RHZEZjU3VFZpdlhfOFd5V3FGZUZOcTdVQWUxZnJEMlRRaWF2aDZjV0J4YURYSGtFZ1dkczhHR2FEUTJyU1pPaUNFaw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T10:42:47.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Politique budgétaire européenne, refusée."
     },
     {
       "id": "1f14bc6c82",
@@ -877,6 +1011,23 @@
       "reason": "Anecdote sans lien avec l'argent."
     },
     {
+      "id": "4fc577524c",
+      "title": "Hong Kong veut soumettre les dépositaires et les conseillers crypto à des règles d’agrément",
+      "summary": "Hong Kong veut soumettre les dépositaires et les conseillers crypto à des règles d’agrément TradingView",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSRjNFS0tKcWlDYVVVM0FQcnAwVDhKNW15LURrZUdHdnlrZGc4TjVGZlNycmhWc3doajAySnYtQ2FaWHhqenhYTzlUbU1GVXc5SXRJVFBqdmJ3Q1RISzBGQ2VTSmoyUTNJYV9MRll5X3E?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T05:40:00.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Régulation crypto locale à Hong Kong, trop lointaine."
+    },
+    {
       "id": "cbf5fdebc9",
       "title": "Bourse : après l'effondrement, le pire est ailleurs",
       "summary": "Le CAC 40 a perdu plus de 5 % cette semaine, le S&P 500 près de 9 % et le Nasdaq 10 %. La chute est spectaculaire, mais une correction boursière n'est pas une crise financière. Elle peut même être salutaire, en…",
@@ -973,8 +1124,8 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach marquant avec chiffres forts (Nasdaq -10 % en une semaine), grosse histoire du moment.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
+      "reason": "Krach majeur : Nasdaq -10 % en une semaine, même l'or chute.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -994,6 +1145,23 @@
       "aiScore": 2,
       "reason": "Contenu flou à caractère promotionnel, sans chiffre fort.",
       "titleOriginal": "Dealmaker Week: 5 Trends Shaping the Future of Business"
+    },
+    {
+      "id": "e054bdf8c6",
+      "title": "Actualités par Brave New Coin sur TradingView, 2026-11-21 — bravenewcoin:5d04e3be8094b:0",
+      "summary": "Actualités par Brave New Coin sur TradingView, 2026-11-21 — bravenewcoin:5d04e3be8094b:0 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DV2k3RThDeXJPWXRaOU1udF80UzBybzhXMzNhMjNSNGFZZk96TWFCdGpnQ0RXZzNpaC1ibGpfRzNwTk8zN2RmeHFZOVkzbkhENXFhRzJxS3dsdng5WGZxWDQzN2xFLU5iSWozdGF3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T05:03:49.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contenu vide sans sujet identifiable."
     },
     {
       "id": "b11c2ea1f9",
@@ -1061,6 +1229,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon de la baisse du bitcoin."
+    },
+    {
+      "id": "362c649d33",
+      "title": "US House unconstitutionally passed spending bill in 2022, court rules",
+      "summary": "US House unconstitutionally passed spending bill in 2022, court rules TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNXZzakJMel82ZWUwSHhBZ083c254aVp6bHQ5dkc3VVZSQXZCdWh6SnhhTTFhbk1mT2xBN3ZtWDJrTXV1ZkpYTDEtOTVKbTYwVmV4NHdYZzBLSncxN3FPVGFuMDY2NVVtNEZ1a191SWpSeUN6STJ2dXYtVEdSRUJxd0JuQmhkRy1nR2M3TmlsZ2xHUkdDajQwRVRwcm9YODRoTVhuajg3cEdBaXFRNHl1ZDU0QUpNaUdSRGx6SWMyc2xzeDJOVFk2V3EtZTRvdW1VNFlZ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T01:52:28.000Z",
+      "collectedAt": "2026-11-22T13:07:34.101Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Politique américaine sans lien direct avec l'argent des Français."
     },
     {
       "id": "10def95c12",
@@ -120895,5 +121080,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T11:07:35.151Z"
+  "updatedAt": "2026-11-22T13:07:50.701Z"
 }
