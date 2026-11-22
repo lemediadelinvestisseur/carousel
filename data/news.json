@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "cf9a463859",
+      "title": "Impôts 2027 : les avantages fiscaux à connaître si vous êtes né avant 1962",
+      "summary": "Les Français nés avant 1962 pourraient bénéficier de plusieurs avantages fiscaux en 2027. Un abattement sur les revenus pouvant atteindre 2 882 euros, une réduction de taxe foncière de 100 euros et un éventuel…",
+      "link": "https://www.lerevenu.com/reduire-impots/impot-sur-le-revenu/impots-2027-les-avantages-fiscaux-a-connaitre-si-v",
+      "image": "https://cdn.overlord.media/plus_values_immobilieres_nos_astuces_pour_payer_moins_dimpots_c0f50cb9_1f36fe0ec2.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T09:00:00.000Z",
+      "collectedAt": "2026-11-22T09:07:25.073Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Conseil fiscal générique pour seniors, hors cible 25-45 ans."
+    },
+    {
+      "id": "c20d8a1725",
+      "title": "Immobilier locatif : les 10 villes où les loyers augmentent le plus en 2026",
+      "summary": "Les loyers repartent à la hausse en France en 2026, avec une progression moyenne de 2,1 % sur un an. Marseille arrive en tête des villes les plus touchées (+4,6 %), devant Nice (+4,4 %) et Cannes (+4,3 %). Cett…",
+      "link": "https://www.lerevenu.com/investir-immobilier/investissement-locatif/immobilier-locatif-les-10-villes-ou-les-loyers-aug",
+      "image": "https://cdn.overlord.media/immobilier_locatif_les_onze_villes_ou_il_ne_fallait_pas_investir_il_y_a_dix_ans_f56fab29_1744c7e21e.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T09:00:00.000Z",
+      "collectedAt": "2026-11-22T09:07:25.073Z",
+      "brand": "21m2",
+      "score": 8,
+      "status": "ignored",
+      "reason": "Doublon de « Immobilier locatif : les villes où les loyers augmentent le plus en 2026 » (déjà traité)",
+      "duplicateOf": "08f5693c32"
+    },
+    {
+      "id": "a3fdcef8eb",
+      "title": "«Sans lui, notre copropriété aurait payé 425.000 euros de plus» : l’économiste de la construction peut faire baisser la facture des travaux",
+      "summary": "Spécialiste de l’analyse des devis et des métrages, il est appelé à jouer un rôle croissant dans la rénovation des copropriétés. Mais nombre de syndics et de maîtres d’œuvre renâclent à faire appel à lui, redoutant de perdre leur position centrale sur un marché colossal.",
+      "link": "https://immobilier.lefigaro.fr/article/sans-lui-notre-copropriete-aurait-paye-425-000-euros-de-plus-ce-professionnel-meconnu-peut-faire-baisser-la-facture-des-travaux-dans-votre-immeuble-20261121",
+      "image": "https://i.f1g.fr/media/cms/3000x1582_crop/2026/11/21/988ebb6b3b614fa55d2411b1fa516c355b732e666ec058b0e2a86191816e6f08.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T08:59:38.000Z",
+      "collectedAt": "2026-11-22T09:07:25.073Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Conseil d'expert en copropriété, angle pratique mais peu viral."
+    },
+    {
+      "id": "74f21bbdc1",
+      "title": "Palmarès des meilleures banques 2027, nouvelles règles pour la LOA : les 5 infos argent de la semaine",
+      "summary": "Entrée en vigueur de la nouvelle réglementation sur le crédit conso, publication des Trophées Qualité 2027 de la banque... Retrouvez les 5 infos...",
+      "link": "https://www.moneyvox.fr/votre-argent/actualites/111340/palmares-des-meilleures-banques-2027-nouvelles-regles-pour-la-loa-les-5-infos-argent-de-la-semaine",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20210209_006588_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-22T08:00:09.000Z",
+      "collectedAt": "2026-11-22T09:07:25.073Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Récap générique d'infos conso, type de format refusé."
+    },
+    {
+      "id": "340f1eae94",
+      "title": "Même si on n’y est pas raccordé, il faut payer pour des équipements communs «utiles» à la copropriété",
+      "summary": "La propriétaire d’un lot non raccordé au système de chauffage collectif d’une copropriété contestait les charges liées à cet équipement. La justice lui donne tort.",
+      "link": "https://immobilier.lefigaro.fr/article/meme-si-on-n-y-est-pas-raccorde-il-faut-payer-pour-des-equipements-communs-utiles-a-la-copropriete-20261122",
+      "image": "https://i.f1g.fr/media/cms/3000x1637_crop/2026/11/20/492f38b74734fa480472371343608f5de483adfaf26bb827836b3e466ae65fcb.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T07:30:00.000Z",
+      "collectedAt": "2026-11-22T09:07:25.073Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Litige juridique de copropriété, catégorie refusée."
+    },
+    {
+      "id": "05beb48bb6",
+      "title": "«Je ne fais plus confiance à Airbnb» : ces propriétaires font la grève des annonces de location",
+      "summary": "Un mouvement de colère grandit chez les propriétaires qui louent leur logement sur la plateforme touristique. La faute à une nouvelle règle jugée «laxiste» par les loueurs.",
+      "link": "https://immobilier.lefigaro.fr/article/je-ne-fais-plus-confiance-a-airbnb-ces-proprietaires-font-la-greve-des-annonces-de-location-20261122",
+      "image": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/20/ef3f5b64835f21826f0386b29b083512429b6f2f313fa9f059b9ff100557b609.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T07:00:00.000Z",
+      "collectedAt": "2026-11-22T09:07:25.073Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "new",
+      "aiScore": 7,
+      "reason": "Révolte des loueurs Airbnb contre une nouvelle règle, suite concrète du sujet ménage validé, qui fait débat.",
+      "hook": "Airbnb : les propriétaires lancent la grève des annonces",
+      "notifiedAt": "2026-11-22T09:07:25.073Z"
+    },
+    {
       "id": "567c1080c7",
       "title": "Prime de Noël : un deuxième versement programmé en janvier 2027",
       "summary": "Un deuxième versement de la prime de Noël est normalement prévu au mois de janvier 2027. Sont concernées les personnes qui ne bénéficient du revenu...",
@@ -754,8 +852,8 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach spectaculaire avec chiffres chocs touchant le CAC 40 et l'or, grosse histoire qui fait parler.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
+      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, CAC -5 %, même l'or chute, événement majeur.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -1428,8 +1526,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Chiffre délirant de 1 000 milliards, coulisses d'un patron connu, mais acteurs peu familiers en France.",
-      "hook": "SoftBank a rêvé d'un rachat à 1 000 milliards de dollars",
+      "reason": "Chiffre fou de 1 000 milliards, mais rumeur sur un acteur peu connu en France.",
+      "hook": "SoftBank aurait voulu racheter SK Hynix pour 1 000 milliards",
       "notifiedAt": "2026-11-21T13:21:27.985Z"
     },
     {
@@ -56257,20 +56355,6 @@
       "international": true
     },
     {
-      "id": "bfd39c64b0",
-      "title": "Éco-PTZ copropriété : conditions, montant et durée du prêt collectif à taux zéro",
-      "summary": "Plutôt que de mobiliser immédiatement une part importante de leur épargne pour rénover leur immeuble, les copropriétaires peuvent répartir leur effort financier dans le temps, grâce à l’éco-PTZ collectif, qui reste méconnu des copropriétés.",
-      "link": "https://www.capital.fr/immobilier/eco-ptz-copropriete-conditions-montant-et-duree-du-pret-collectif-a-taux-zero-1531824",
-      "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~13~148fd63b-fd83-4918-9529-4e82fe29180e.jpg/1200x900/focus-point/1562%2C2487/eco-ptz-copropriete-conditions-montant-et-duree-du-pret-collectif-a-taux-zero.jpg",
-      "source": "Capital Immobilier",
-      "via": "rss",
-      "publishedAt": "2026-11-15T09:00:00.000Z",
-      "collectedAt": "2026-11-15T09:07:24.433Z",
-      "brand": "investisseur",
-      "score": 3,
-      "status": "new"
-    },
-    {
       "id": "3ba26f9093",
       "title": "Elon Musk soutient une pétition pour le retour de Jensen Huang",
       "summary": "Elon Musk soutient une pétition pour le retour de Jensen Huang TradingView",
@@ -56314,51 +56398,6 @@
       "score": 2,
       "status": "ignored",
       "international": true
-    },
-    {
-      "id": "39c483f964",
-      "title": "Ce qui change pour le Livret A, prime de Noël, coût caché des assurances.. Les 5 infos argent de la semaine",
-      "summary": "La prime de Noël est attendue le 15 décembre ; choisir le paiement mensuel de l'assurance peut alourdir la facture ; l'augmentation du plafond du...",
-      "link": "https://www.moneyvox.fr/votre-argent/actualites/111238/ce-qui-change-pour-le-livret-a-prime-de-noel-cout-cache-des-assurances-les-5-infos-argent-de-la-semaine",
-      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20221209_009932_1.jpg",
-      "source": "Moneyvox",
-      "via": "découverte",
-      "publishedAt": "2026-11-15T08:00:09.000Z",
-      "collectedAt": "2026-11-15T09:07:24.433Z",
-      "brand": "investisseur",
-      "score": 3,
-      "status": "new"
-    },
-    {
-      "id": "ca9eeceece",
-      "title": "Le Bitcoin chute, Saylor met en avant les dividendes de STRC",
-      "summary": "Le Bitcoin chute, Saylor met en avant les dividendes de STRC TradingView",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRVVJQZUcwQVFKSHFpV29TbDF0T01DY2dBaTlSbmtWdy1URW5oQlo3cWNRTUJNWDhHQ2prRDdUbENEaTdaSGoweFpoc3NCWXgxYWFwQkJza01lelhTMGZaN0dhTXVXNFRkdVd2VA?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-15T08:00:00.000Z",
-      "collectedAt": "2026-11-15T12:38:24.676Z",
-      "brand": "investisseur",
-      "score": 3,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "2c1f6bdcc6",
-      "title": "Le Bitcoin sous 64000 dollars, une occasion ou un piège ?",
-      "summary": "Le Bitcoin sous 64000 dollars, une occasion ou un piège ? TradingView",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MMlNrQ2ZWV3U1RmRQZkZ2ZEp4cUJpTmpTZXhwVl9ZbEFjdFYzWlhkTkVvT1NXYTA2V3IwRGJkbzYtMzdveFpCQWVnOVFMbXRldHJSdlBPX0oxTmlicmktVU4xSm91NFU2aFd0Yw?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-15T07:30:00.000Z",
-      "collectedAt": "2026-11-15T09:07:24.433Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true,
-      "notifiedAt": "2026-11-15T09:07:24.433Z"
     },
     {
       "id": "3ce0f6dbcd",
@@ -120750,5 +120789,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T07:07:41.695Z"
+  "updatedAt": "2026-11-22T09:07:38.196Z"
 }
