@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "id": "cb9efd0541",
+      "title": "Bitcoin : Pourquoi Robert Kiyosaki préfère attendre avant de racheter ?",
+      "summary": "Bitcoin : Pourquoi Robert Kiyosaki préfère attendre avant de racheter ? TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ndkFyNUpYWFFzaE96ZlNKdVVDbEdMa1NCMnBVSUtxLUJpX2xHUVJ3WEw3MDFXUkFjWVQtRDJJTWl6ZlJQQUYxT0tWeUpUSXJNRVktMjlmdUJGVnVqZi1xQkkzRkRPWGJ4S1VWUw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T14:00:00.000Z",
+      "collectedAt": "2026-11-22T15:07:23.174Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Avis d'une personnalité sur le Bitcoin, sans fait nouveau, proche des refus crypto du jour."
+    },
+    {
+      "id": "9bcbeaa993",
+      "title": "Israël-Eisenkot condamne des attaques de colons juifs en Cisjordanie",
+      "summary": "Israël-Eisenkot condamne des attaques de colons juifs en Cisjordanie Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR2pPMm9FU1ZNVEZFR2JISUlwdkMydDlDbVNieUM2STYtSDNLNmxfdktod0UwNzR6c2F4ZkJlOEJiNGE0SHI4Y2ZWQnRPdEhTbWlrRlpjSXdodm5OSGJwclp3aFVrQng1bW1yZzJhNzlMZDFBLXctdHh4QUU2VEstYmUzY3FhcTJSTDVnTVdlZWxmNTl0N1VhMFhnb2xXSlJzdXhydkdfcGZTa0ZBdDB0SnFCd0N3Wm9QSWJublIzOUdMV0ZZWUhv?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T13:49:15.000Z",
+      "collectedAt": "2026-11-22T15:07:23.174Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère sans lien avec l'argent."
+    },
+    {
       "id": "2ee58ade06",
       "title": "Projet de règle d'or budgétaire : Macron réfléchirait à convoquer le Congrès",
       "summary": "Emmanuel Macron réfléchirait à convoquer le Congrès à Versailles pour faire adopter une règle d'or budgétaire. La droite et le Rassemblement national...",
@@ -131,8 +165,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens, avec un choix à faire avant 2027.",
-      "hook": "Logement vide à Paris : jusqu'à 60 % de taxe dès 2027",
+      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens.",
+      "hook": "Paris : jusqu'à 60 % de taxe sur les logements vacants dès 2027",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -166,8 +200,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Un flash crash spectaculaire à 17 000 $ sur une plateforme connue intrigue, mais ressemble aux mouvements de prix du Bitcoin que l'éditeur refuse.",
-      "hook": "Bitcoin à 17 000 $ : le crash éclair qui a piégé Kraken",
+      "reason": "Un flash crash spectaculaire à 17 000 $ sur une plateforme connue surprend, même si les mouvements de cours sont souvent refusés.",
+      "hook": "Le Bitcoin s'effondre à 17 000 $ sur Kraken",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -298,8 +332,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 7,
-      "reason": "La fronde des propriétaires contre une nouvelle règle Airbnb est concrète et fait débat chez les loueurs.",
-      "hook": "Les propriétaires Airbnb font grève : la règle qui les révolte",
+      "reason": "La fronde des loueurs contre une nouvelle règle Airbnb fait suite au sujet validé et suscite le débat.",
+      "hook": "Airbnb : les propriétaires font la grève des annonces",
       "notifiedAt": "2026-11-22T09:07:25.073Z"
     },
     {
@@ -453,6 +487,25 @@
       "international": true,
       "aiScore": 2,
       "reason": "Titre vague mêlant GTA et crypto, doublon du sujet GTA 6 mieux traité ailleurs."
+    },
+    {
+      "id": "0d7e91479d",
+      "title": "L'enquête menée par la Californie sur Nvidia porte sur d'éventuelles infractions pénales, selon le procureur général - Bloomberg News",
+      "summary": "L'enquête menée par la Californie sur Nvidia porte sur d'éventuelles infractions pénales, selon le procureur général - Bloomberg News TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XMm9jV0gtNTBIaWJYdTVQWlZzWUNWTlFKRFRsZVUxZzFxaGRRSkZqNDR0UTBRMTJkMkNkNV80Vi1OdlhJbTVjZ1I5UXJEY1BpU2tzNUxMQUEycXdUZTI2clBNMWE5Vy1mVGVhWFEydTE0MDRNWWE0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T17:37:38.000Z",
+      "collectedAt": "2026-11-22T15:07:23.174Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "new",
+      "international": true,
+      "aiScore": 7,
+      "reason": "Une enquête pénale visant Nvidia est un scandale majeur sur une star de la Bourse, dans la lignée de l'enquête validée.",
+      "hook": "Nvidia visé par une enquête pénale en Californie",
+      "notifiedAt": "2026-11-22T15:07:23.174Z"
     },
     {
       "id": "e17a7c84a2",
@@ -1141,8 +1194,8 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Un krach de grande ampleur avec des chiffres frappants (Nasdaq -10 %, CAC -5 %) et même l'or qui chute : sujet incontournable pour les épargnants.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
+      "reason": "Un krach chiffré touchant Nasdaq, CAC 40 et or est un événement marquant, bien au-delà d'un simple point de marché.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout chuter",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -121097,5 +121150,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T13:14:00.660Z"
+  "updatedAt": "2026-11-22T15:07:37.263Z"
 }
