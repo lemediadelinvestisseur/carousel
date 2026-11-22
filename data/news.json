@@ -69,6 +69,24 @@
       "reason": "Exode de Londres intéressant mais Compass peu connu."
     },
     {
+      "id": "793e9bb751",
+      "title": "Choose France: près de 15 milliards d'euros d'investissements nouveaux, annonce l'Elysée",
+      "summary": "Choose France: près de 15 milliards d'euros d'investissements nouveaux, annonce l'Elysée TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zN2FmYXVuUUhFUmh0OGpvTlYxYVplcUJZQkZIem1QU1hmeU5fVTlVUldQV0tDVXlZaTVRY3JHenNFRjdpeE5YNXlGTVhuUlFYOWs0dEJOTFhJX2d4eVJoZV9n?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T18:02:08.000Z",
+      "collectedAt": "2026-11-22T21:07:29.355Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Choose France attire l'attention mais reste une annonce politique récurrente.",
+      "hook": "15 milliards d'euros : qui investit vraiment en France ?"
+    },
+    {
       "id": "4a7aac317f",
       "title": "Sommet \"Choose France\"-Environ EUR15 mds de nouveaux investissements français attendus",
       "summary": "Sommet \"Choose France\"-Environ EUR15 mds de nouveaux investissements français attendus Zonebourse Suisse",
@@ -121,6 +139,23 @@
       "reason": "Incident opérationnel américain."
     },
     {
+      "id": "30dc90c19e",
+      "title": "Scandale boursier en Turquie : les avoirs de 108 personnes gelés (médias)",
+      "summary": "Scandale boursier en Turquie : les avoirs de 108 personnes gelés (médias) TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0ydWM5Z2lKWGJJenZ2TERQTERfUlBkcFJHVDJTZjZubG4wZVdGdnBZTENpT0Uyd2xuMGJqYjc1WUZJcFlyY253aFViM1kySkU5anRCekJ3aGZlX2VpTEMxQTFR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T17:26:28.000Z",
+      "collectedAt": "2026-11-22T21:07:29.355Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Marché étranger local, peu d'intérêt pour les Français."
+    },
+    {
       "id": "312b35bb3a",
       "title": "Tata Steel proche d’un accord pour acquérir une participation majoritaire dans APL Apollo Tubes, selon Moneycontrol",
       "summary": "Tata Steel proche d’un accord pour acquérir une participation majoritaire dans APL Apollo Tubes, selon Moneycontrol Zonebourse Suisse",
@@ -153,6 +188,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Marque indienne inconnue en France."
+    },
+    {
+      "id": "078ae2727b",
+      "title": "Climat: la COP31 échoue devant la division des pays sur les énergies fossiles",
+      "summary": "Climat: la COP31 échoue devant la division des pays sur les énergies fossiles TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pbzlGN0Q5anlxeE9YbEUzd2drTlBaZE1SRnpWS3dMX0xrZ0FSZjExcHpZYThhZFRJeGxDcUlXckZhcVJGOUQtcnR3Wmcwb0lnSGlNY2JDdC1KTlg1WDZUakJn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T15:17:02.000Z",
+      "collectedAt": "2026-11-22T21:07:29.355Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Climat et diplomatie, sans lien direct avec l'argent."
     },
     {
       "id": "1251566086",
@@ -455,7 +507,7 @@
       "status": "new",
       "aiScore": 7,
       "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens.",
-      "hook": "Logement vide à Paris : jusqu'à 60 % de taxe dès 2027",
+      "hook": "Paris : jusqu'à 60 % de taxe sur votre logement vide",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -489,8 +541,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Krach éclair spectaculaire du Bitcoin, chiffre choc.",
-      "hook": "Le Bitcoin à 17 000 $ : le flash crash fou sur Kraken",
+      "reason": "Flash crash spectaculaire du Bitcoin sur une plateforme connue.",
+      "hook": "Le Bitcoin s'effondre à 17 000 $ en quelques secondes",
       "notifiedAt": "2026-11-22T11:07:21.333Z"
     },
     {
@@ -610,6 +662,23 @@
       "reason": "Conseil d'expert en copropriété, angle pratique mais peu viral."
     },
     {
+      "id": "8c0ec5bb45",
+      "title": "Actualités par CNBC TV18 sur TradingView, 2026-11-22 — cnbctv:047becd9a094b:0",
+      "summary": "Actualités par CNBC TV18 sur TradingView, 2026-11-22 — cnbctv:047becd9a094b:0 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FMUZveGZaLVRTbS1Jem5fcktXZGlTSFNnSmV2aUpyVTJDaXczNUpDQk9ucXlKTFZsVGRUdDd5WVl0QTd0VjZjZ09TemJKeVhFQ1ZaWWxSZFg5MVZxS3R1dUJkemc5dw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T08:33:45.000Z",
+      "collectedAt": "2026-11-22T21:07:29.355Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contenu vide sans sujet identifiable."
+    },
+    {
       "id": "2c30542fe4",
       "title": "Seven body bags recovered, 50 missing after Indonesian factory fire",
       "summary": "Seven body bags recovered, 50 missing after Indonesian factory fire TradingView",
@@ -689,8 +758,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 7,
-      "reason": "Révolte des loueurs Airbnb contre une nouvelle règle, sujet qui divise.",
-      "hook": "Airbnb : les propriétaires en grève contre la nouvelle règle",
+      "reason": "Révolte des loueurs Airbnb liée à une nouvelle règle, sujet qui divise.",
+      "hook": "Les propriétaires Airbnb entrent en grève",
       "notifiedAt": "2026-11-22T09:07:25.073Z"
     },
     {
@@ -860,7 +929,7 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Enquête de la SEC sur Nvidia, scandale majeur sur un géant connu.",
+      "reason": "Enquête de la SEC sur Nvidia, géant connu, gros scandale potentiel.",
       "hook": "Nvidia dans le viseur du gendarme boursier américain",
       "notifiedAt": "2026-11-22T17:07:32.745Z"
     },
@@ -965,6 +1034,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Résultats d'une société inconnue."
+    },
+    {
+      "id": "30d95882a9",
+      "title": "North Macedonia discusses energy investment opportunities with Japanese companies",
+      "summary": "North Macedonia discusses energy investment opportunities with Japanese companies TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkpzZ3hhbVFwS3NkVklNa1ViNEJValJSUDZpRmdOcjdrM3JWbVRzREFIWGR0RzdsdFpfSXp3eWFUZHpSb3FfaUptTXVqY2RGMjJlWVBweDFuVDZrdkk0VXZPbG91elJocTBsOEJhRk5CQWFka3RVcjFONmZmLTdjV195bnZxZG1SYl9wdWJlUzZqalFTUkREUjNRSWpiMU15N0JsZTFlZ0k0VUxJdGRDX254VFZxV1I2N2J4T0Myak9jYkNyY2wwZkdJT0ROM0RQd0k4?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T18:54:11.000Z",
+      "collectedAt": "2026-11-22T21:07:29.355Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Actu locale étrangère de niche."
     },
     {
       "id": "a88a42f025",
@@ -56541,36 +56627,6 @@
       "brand": "investisseur",
       "score": 0,
       "status": "ignored",
-      "international": true
-    },
-    {
-      "id": "2ac46b4d34",
-      "title": "MM Group for Industry and International Trade S.A.E. publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026",
-      "summary": "MM Group for Industry and International Trade S.A.E. publie ses résultats pour le troisième trimestre et les neuf mois clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRHo1dGRrZk52RFNETEtiMmtJTVFYWHEyUldMSTZiX19SRTd5UFZ5WGtsWGs0UEZrVXNBS2lKZ0hXN2JaQkNhWHFEN3BUVjJkbWVxQU44SjROSHRNRk1tcXN1aGFiVE1wdEtFR2xfNkl3ck9WT1l6RHh4RDFyVURXTk5SWE5KenU2SjROblRzZmFEV2xheHdreHZZMDM5X0pjMU1TME9yNHEyNXpBWUw2X0xTLUZZTWJKRW5QMjYwdzBtaUo2UDh6SmJLMElza2pqVGFjSDRMNEY2RWFqWmlsV0pJWkF6M2dGRXRoRFRLOGhRUQ?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-15T21:05:00.000Z",
-      "collectedAt": "2026-11-16T05:07:23.618Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
-      "international": true
-    },
-    {
-      "id": "f10664e179",
-      "title": "Baraka Patenga Power Limited publie ses résultats pour le premier trimestre clos le 30 septembre 2026",
-      "summary": "Baraka Patenga Power Limited publie ses résultats pour le premier trimestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcXBFMWxqakNnc0c0Rno0Um1oNGVQdXRUdm5rUEdIb1NIUDBvekdaajhDeURTZUdTdEh5VE1KR010SWM3bEduMXVMZVhTN2dDTGdKM0NBdG16RU02MWFxeS1ZQU9ldXZocVQ3Ry13RXg4U1lMX0x3TmFiVlU2eTVJcUtHcE1ZVnNyMmZPbUpja3hpc3praS15QXk4czh5Z3lweGhoeUUtYldYaS1HOXd3T2JEUXRaQ3AtaWw0Vld4T2FxaUczWnVMMmhxYnJndEFWV2w4V1pwTHNCVFltQ2ZFRm5ieVkwRUhaYzVRWHptNFY0aHM?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-15T21:03:00.000Z",
-      "collectedAt": "2026-11-16T05:07:23.618Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
       "international": true
     },
     {
@@ -122057,5 +122113,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T21:00:23.244Z"
+  "updatedAt": "2026-11-22T21:07:44.068Z"
 }
