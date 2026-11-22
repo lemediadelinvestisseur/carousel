@@ -1,9 +1,6 @@
 {
-  "date": "2026-11-21",
-  "reminded": {
-    "investisseur": true,
-    "21m2": true
-  },
-  "dataDate": "2026-11-21",
+  "date": "2026-11-22",
+  "reminded": {},
+  "dataDate": "2026-11-22",
   "claudeAlert": "2026-11-18"
 }

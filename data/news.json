@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "id": "fcb8dd3650",
+      "title": "Où les horoscopes et la voyance sont-ils les plus populaires ?",
+      "summary": "Which countries consult fortune-tellers most? See how 35 nations rank, from South Africa and India to the U.S. and Europe.",
+      "link": "https://www.visualcapitalist.com/cp/countries-where-horoscopes-fortune-telling-most-popular/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/fortune-telling-countries-shareable.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-21T23:14:46.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 1,
+      "reason": "Sans lien avec l'argent.",
+      "titleOriginal": "Where Are Horoscopes and Fortune-Telling Most Popular?"
+    },
+    {
       "id": "83d071621b",
       "title": "Bahreïn-Une attaque iranienne provoque un incendie sur un site industriel",
       "summary": "Bahreïn-Une attaque iranienne provoque un incendie sur un site industriel Zonebourse Suisse",
@@ -33,6 +51,24 @@
       "international": true,
       "aiScore": 2,
       "reason": "Titre vague mêlant GTA et crypto, doublon du sujet GTA 6 mieux traité ailleurs."
+    },
+    {
+      "id": "a93f822563",
+      "title": "Carte : d'où vient le repas de Thanksgiving des Américains",
+      "summary": "Discover which U.S. states supply Thanksgiving dinner, from North Carolina's sweet potatoes to Wisconsin's cranberries.",
+      "link": "https://www.visualcapitalist.com/thanksgiving-food-production-by-state/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/Thanksgiving_Share.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-21T16:57:40.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 0,
+      "reason": "Thanksgiving américain, hors sujet.",
+      "titleOriginal": "Mapped: Where America’s Thanksgiving Dinner Comes From"
     },
     {
       "id": "cacc39ff45",
@@ -101,6 +137,24 @@
       "international": true,
       "aiScore": 1,
       "reason": "Négociations climatiques, hors argent."
+    },
+    {
+      "id": "b49775ee02",
+      "title": "Classement : le prix moyen d'une voiture neuve selon la marque",
+      "summary": "Ram and GMC average more than several luxury brands, while eight major car brands still come in below $40,000.",
+      "link": "https://www.visualcapitalist.com/average-price-americans-pay-car-brand/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/car-cost-automaker.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-21T15:11:27.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 3,
+      "reason": "Prix auto américains, peu transposables.",
+      "titleOriginal": "Ranked: The Average Price of a New Car by Brand"
     },
     {
       "id": "dfda1eed32",
@@ -204,6 +258,24 @@
       "reason": "Mobilisation sociale : sujet social et politique que l'éditeur refuse."
     },
     {
+      "id": "1f07f85094",
+      "title": "Classement : les meilleurs et les pires États américains où vivre en 2026",
+      "summary": "Is your state among America's best places to live? See how all 50 states rank for affordability, safety, health, and more.",
+      "link": "https://www.visualcapitalist.com/ranked-the-best-and-worst-states-to-live-in-2026/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/best-state-to-live-in.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-21T13:12:05.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 2,
+      "reason": "Classement purement américain sans lien avec la France.",
+      "titleOriginal": "Ranked: The Best and Worst States to Live in 2026"
+    },
+    {
       "id": "40e1ce4505",
       "title": "Costa propose de nouvelles coupes et une taxe sur le numérique",
       "summary": "Costa propose de nouvelles coupes et une taxe sur le numérique Zonebourse Suisse",
@@ -270,6 +342,24 @@
       "international": true,
       "aiScore": 1,
       "reason": "Actualité géopolitique sans angle argent."
+    },
+    {
+      "id": "37db9909fc",
+      "title": "Classement : les pays qui boivent le plus de café",
+      "summary": "The U.S. and Brazil drink 27.6% of the world's coffee, more than the next six countries combined. See how global coffee consumption compares.",
+      "link": "https://www.visualcapitalist.com/ranked-countries-that-drink-the-most-coffee/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/Countries-That-Drink-the-Most-Coffee_Shareable.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-21T11:21:22.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 2,
+      "reason": "Consommation de café, pas d'angle argent.",
+      "titleOriginal": "Ranked: Which Countries Drink the Most Coffee?"
     },
     {
       "id": "5473fdc257",
@@ -580,10 +670,28 @@
       "brand": "investisseur",
       "score": 11,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Krach spectaculaire avec chiffres chocs (Nasdaq -10 %, CAC -5 % en une semaine), touche directement les portefeuilles PEA/ETF.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
+      "aiScore": 9,
+      "reason": "Krach hebdo spectaculaire touchant le CAC 40 et l'or, sujet du jour.",
+      "hook": "Krach : l'IA fait plonger le Nasdaq de 10 % en une semaine",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
+    },
+    {
+      "id": "04c40d72e3",
+      "title": "Dealmaker Week : 5 tendances qui façonnent l'avenir des affaires",
+      "summary": "Explore five global business trends from Dealmaker Week, covering entrepreneurship, trademarks, venture capital, e-commerce, and AI use at work.",
+      "link": "https://www.visualcapitalist.com/adb02-dealmaker-week-5-trends-shaping-the-future-of-business/",
+      "image": "https://www.visualcapitalist.com/wp-content/uploads/2026/11/Adobe-dealmaker-ads_wrap-up_1200x600px.webp",
+      "source": "Visual Capitalist",
+      "via": "rss",
+      "publishedAt": "2026-11-21T05:17:44.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 2,
+      "reason": "Contenu flou à caractère promotionnel, sans chiffre fort.",
+      "titleOriginal": "Dealmaker Week: 5 Trends Shaping the Future of Business"
     },
     {
       "id": "b11c2ea1f9",
@@ -653,6 +761,24 @@
       "reason": "Doublon de la baisse du bitcoin."
     },
     {
+      "id": "10def95c12",
+      "title": "Zermatt compte presque autant d'hôtels de luxe de premier plan que Paris",
+      "summary": "Zermatt Has Almost as Many Top-Rated Luxury Hotels as Paris Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tX3VaSmR0MHU1MjhvUXM2elVuLXpvLU5rejZJTTBGZmRUR3lwMXk5YjVXLWJuVXlyNnNYTlphVFFxV05SdzRKZXlfeU52dHpQ?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-21T00:33:59.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 2,
+      "reason": "Proche du sujet luxe suisse déjà traité.",
+      "titleOriginal": "Zermatt Has Almost as Many Top-Rated Luxury Hotels as Paris"
+    },
+    {
       "id": "d9c23d74e7",
       "title": "Interpellation de Michel Zecler: Les trois policiers reconnus coupables de violences aggravées, la circonstance aggravante de racisme retenue",
       "summary": "Interpellation de Michel Zecler: Les trois policiers reconnus coupables de violences aggravées, la circonstance aggravante de racisme retenue TradingView",
@@ -668,6 +794,79 @@
       "international": true,
       "aiScore": 0,
       "reason": "Fait divers judiciaire."
+    },
+    {
+      "id": "9644b6e00a",
+      "title": "Seuls 3 pays remplissent tous les critères de crise du coût de la vie du FMI",
+      "summary": "Only 3 countries meet the IMF’s full cost-of-living crisis test Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVnRoZ3liLS1rX2tPdUhRWXZaSFdraU0wVEN2cG5PZVBib3pGcHNYeVFpTF9HbE5RcUkxVjNvcWdHQ1ZpQlo0bUV4WDh0d3dPUnpJeTk0Y2c3UXR5ZGozMzdFNHh6R21TamJCbVpKaE9PS2RueDZ3UTZOQ2RqLUJMU3BqR1lFWlB0S1FZZjltYTlMekZsaWhkM29idWI1SUFjQ3NrLQ?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:49:52.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 4,
+      "reason": "Sujet macro peu parlant, proche des classements refusés.",
+      "titleOriginal": "Only 3 countries meet the IMF’s full cost-of-living crisis test"
+    },
+    {
+      "id": "a57102d183",
+      "title": "Les touristes chinois reviennent en Thaïlande, mais Malaisiens et Coréens restent à l'écart",
+      "summary": "Chinese visitors return to Thailand, but Malaysians and Koreans stay away Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdnl2R001REpBTjREVlZKQ1EtREpGbVk5dDVwTjQyczBzWEFhSWNwelQ4MkFPSVpqQlpUWXl1eVZqZ2lUTmJ2TXdzZWhNdVA4Z3VrWGxVSmZPaFJ0Q1dUY3NtR0REaXh0c3VxN0s0X0tjOWNLZkNaRnVWWE1ocE8xUk5GMFR4NGJCaEhmajBYWkhhU2VRWGZmY25xdE81RTdhZzh5dW01MlFwZFEwMEN3UA?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:49:52.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 1,
+      "reason": "Tourisme thaïlandais de niche.",
+      "titleOriginal": "Chinese visitors return to Thailand, but Malaysians and Koreans stay away"
+    },
+    {
+      "id": "651b13d3ec",
+      "title": "Combien coûte la collecte de 100 € d'impôts dans chaque pays de l'UE",
+      "summary": "How much it costs to collect €100 of tax in every EU country Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcFlPSUU0YUZFR1k2bkNJampoTnFpMWpPWlNQbW9DRVRCY3YxM0FfeU4zaF9hbmRnbGQtTWFWZDRQcUM5Mmd0YjMyREc2NVVYRzR3T1N1T1VlTDRZMmlSSldIbmgzZ1hSMjFReHFmdVhvMFRXOTFHcUc1LXpFbVA1bjZpWGNtSmNDOVRENDl0UGppYzU0M2JHTERGUjlxUQ?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:49:51.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "new",
+      "kind": "data",
+      "aiScore": 6,
+      "reason": "Comparaison UE sur l'efficacité fiscale, la France peut faire réagir.",
+      "hook": "Combien coûte à l'État la collecte de 100 € d'impôts ?",
+      "titleOriginal": "How much it costs to collect €100 of tax in every EU country"
+    },
+    {
+      "id": "9fb4bf65aa",
+      "title": "Les médicaments de marque coûtent en moyenne 4 fois plus cher aux États-Unis qu'ailleurs",
+      "summary": "US brand-name drug prices average about 4 times those abroad, before rebates. Generics: lower. Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYl9fbG5Wb3VUcUxtclNwNzFYWmdDVmVwWExWb0loMkJHdVhDQmMwUnNMYS1hZURUQ1lsNV81elFyMkZnOElvUWJtcW10Vk5lSkNkajBSTGoyR2JXUS11eEI0WHNfOEZGUDhOaG00dUxDM0QyX2pzSGZ3VUpDLTliVjBhc1Juek0xVklNQjV4R0tHamp0YUpXeDF1NnpRMmhqYnlWcU5nMEVYd1BaT05xc3ZLQi1BRl9pMW4zNlFqNi04SENnVVB3UWgySVBVZw?oc=5",
+      "image": null,
+      "source": "Voronoi",
+      "via": "google news",
+      "publishedAt": "2026-11-20T23:49:51.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "kind": "data",
+      "aiScore": 3,
+      "reason": "Sujet santé américain, peu lié au portefeuille des Français.",
+      "titleOriginal": "US brand-name drug prices average about 4 times those abroad, before rebates. Generics: lower."
     },
     {
       "id": "e35faa65e8",
@@ -1128,9 +1327,9 @@
       "score": 2,
       "status": "new",
       "international": true,
-      "aiScore": 6,
-      "reason": "Chiffre vertigineux (1 000 milliards), mais SK Hynix est peu connu des Français et il ne s'agit que d'une rumeur.",
-      "hook": "SoftBank aurait rêvé d'un rachat à 1 000 milliards de dollars",
+      "aiScore": 7,
+      "reason": "Chiffre délirant de 1 000 milliards, coulisses d'un patron connu.",
+      "hook": "SoftBank a rêvé d'un rachat à 1 000 milliards de dollars",
       "notifiedAt": "2026-11-21T13:21:27.985Z"
     },
     {
@@ -1220,6 +1419,23 @@
       "reason": "Micro-opération inconnue."
     },
     {
+      "id": "fe5d1a0100",
+      "title": "Le gaz naturel américain progresse et s'apprête à afficher une hausse hebdomadaire, porté par les anticipations liées à la demande hivernale",
+      "summary": "Le gaz naturel américain progresse et s'apprête à afficher une hausse hebdomadaire, porté par les anticipations liées à la demande hivernale TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5yd3lROEN3QnVCdWhMenN6Z0xLdmdORWYzNlJFdUQ5TjBaYWJNc1lrRnFLUXpTZlJJbmVZQkVoLWF0WUdPdjg1RlFiaGh2dVhXTDlFVlJQWVFPUzBWaVVCaTd5d1NDUE9hcU9QNHlqYzktamxmQ3RV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:26:16.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché matière première sans intérêt."
+    },
+    {
       "id": "3eec529173",
       "title": "Braemar Hotels & Resorts nomme sept nouveaux administrateurs",
       "summary": "Braemar Hotels & Resorts nomme sept nouveaux administrateurs Zonebourse Suisse",
@@ -1304,6 +1520,23 @@
       "international": true,
       "aiScore": 4,
       "reason": "Grosse fusion dans la cybersécurité, mais les deux acteurs sont peu connus en France."
+    },
+    {
+      "id": "0ef5b1ca74",
+      "title": "CrowdStrike está em negociações para adquirir a Zscaler, segundo fontes",
+      "summary": "CrowdStrike está em negociações para adquirir a Zscaler, segundo fontes TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zNFZJUWRkMFFkMGZWQXJMZGZwV21heFltcVVGSXRtTjFtUXFpd1h1bmZxTU1WaFZ5cHdHNUtDX2N1dHNEdUtUYnZHVkRiRFQ1R2hfaThVRS1WX25XWlFxWVQ0YmVMUzVueTQ1U3lnZ2xGY0phTTNR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:20:22.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Rumeur de rachat cyber peu connue du grand public français."
     },
     {
       "id": "a89ae84ba6",
@@ -1442,6 +1675,24 @@
       "reason": "Fait divers sans lien avec l'argent."
     },
     {
+      "id": "37e10ecf9e",
+      "title": "Wall Street clôture en forte chute avec le décrochage de l'IA (Nasdaq -5,28 %, S&P 500 -3,70 %, Dow Jones -1,94 %)",
+      "summary": "Wall Street clôture en forte chute avec le décrochage de l'IA (Nasdaq -5,28 %, S&P 500 -3,70 %, Dow Jones -1,94 %) TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81RjNfdlA5YjN1Unh1Y09KUkpURTFVQXpDVm9zZW80NEN0alpUNkxpMmh2Uk90RVd3cjBOU0pLdUVTRUZZRlNzeERNZUVGakRjblFOY2ZvNVRxR19mcDFDemFn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T21:04:05.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 8,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Forte chute mais doublon du krach hebdo plus complet.",
+      "hook": "Nasdaq -5,28 % en une séance : l'IA décroche"
+    },
+    {
       "id": "7593dd9cb6",
       "title": "Wall Street clôture en forte baisse sous l'effet d'une vague de ventes dans le secteur de l'IA ; le S&P 500 et le Dow Jones entrent en phase de correction",
       "summary": "Wall Street clôture en forte baisse sous l'effet d'une vague de ventes dans le secteur de l'IA ; le S&P 500 et le Dow Jones entrent en phase de correction TradingView",
@@ -1457,6 +1708,23 @@
       "international": true,
       "aiScore": 4,
       "reason": "Point de marché du jour, même si la correction est notable ; l'éditeur refuse ce format."
+    },
+    {
+      "id": "6bdd2ac353",
+      "title": "Apollo et Goldman mènent un financement par emprunt de 44 milliards de dollars pour SpaceX GPU",
+      "summary": "Apollo et Goldman mènent un financement par emprunt de 44 milliards de dollars pour SpaceX GPU TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WT2dQUHF3UlFvbUdUQjVuWUQ0UGFvWmZ3MUFKbG8zcDk0cl84YlBsTVZBNURfY2dxNlFtck9ISGluUW1oR1dWWm0xb3dJbko0aG5SM2thWHNmemVMMG9IaGFmNk9nRG54WFdXQTdncGs1VmhLVDdV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T20:57:35.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Financement technique, peu parlant pour un particulier."
     },
     {
       "id": "c57641b72b",
@@ -1676,9 +1944,9 @@
       "score": 3,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Scandale potentiel chez le géant le plus suivi : des soupçons comptables chez Nvidia, c'est le genre de coulisses que l'éditeur valide.",
-      "hook": "Nvidia dans le viseur de la SEC pour de possibles problèmes comptables",
+      "aiScore": 7,
+      "reason": "Enquête SEC comptable sur Nvidia, scandale fort même si saga dense.",
+      "hook": "Nvidia visé par la SEC pour de possibles problèmes comptables",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
     {
@@ -2221,6 +2489,23 @@
       "aiScore": 5,
       "reason": "Semaine noire du CAC 40 (-5%) liée à la défiance envers l'IA, mais c'est un point de marché que l'éditeur refuse en général.",
       "hook": "Le CAC 40 perd 5% en une semaine : l'IA fait peur"
+    },
+    {
+      "id": "462f9d2ab6",
+      "title": "Le bitcoin tombe sous la barre des 60.000 dollars",
+      "summary": "Le bitcoin tombe sous la barre des 60.000 dollars Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbENNU3NBaU8wU2NCUGF0NTAyVThSNXlIdVdieU1Tb0pTbm9uS1dQalRndi05cTM1dy1wVXF6MGpjSWlCdU95b2tYZG1EWTJITlJwNTFkV2dRMUltd2hxTmNtOWY2ckkyRWluaERFMWxmSzVZTExpbDhta2FsazlFX3VpZTFoV1E0c1RSZFAtQkQ4MWtiVWwwbHYxSm1qdGdiMmt6TzBFS2xwenMwWkE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-20T17:34:16.000Z",
+      "collectedAt": "2026-11-22T01:08:37.689Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Bitcoin sous un seuil : type de sujet refusé."
     },
     {
       "id": "c711802172",
@@ -4070,8 +4355,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Changement de règle majeur pour les bailleurs : l'interdiction de louer les passoires thermiques est abrogée par l'Assemblée.",
-      "hook": "DPE : la fin de l'interdiction de louer les passoires thermiques",
+      "reason": "Changement concret majeur pour les bailleurs de passoires thermiques.",
+      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée ?",
       "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
     {
@@ -56194,21 +56479,6 @@
       "brand": "investisseur",
       "score": 2,
       "status": "ignored",
-      "international": true
-    },
-    {
-      "id": "cef028e867",
-      "title": "Eastern Cables Limited publie ses résultats pour le premier trimestre clos le 30 septembre 2026",
-      "summary": "Eastern Cables Limited publie ses résultats pour le premier trimestre clos le 30 septembre 2026 Zonebourse",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdUpLbDNYQlFYZjhsZ1ZDbUVMd0c2THZYc29lUlRtbTBmRWo2aVRJNkZXeFBvWjVwak8zTDNqQWRSZ182VkdJd25oR3VtSS1kZ05HMGJMUUpIbk1NR25LYlhrSkNSUzg2VENURmlZQnV1LVVLTHdGNWZGOUswUlR4UEE4MWIzdHgzRm0za3BTX0tPcF9xaFo5bTB2Skk2VloweDdNaWFKNEo3eHZVcTZLbzlpcDNhWnhibEdDdlpHMjFaZ3ctTmkwTXBWZmcxdWc0WEpMMVhHT0V1YXhtVGpiSVVPQnV1bUZFVHRnRw?oc=5",
-      "image": null,
-      "source": "Zonebourse",
-      "via": "google news",
-      "publishedAt": "2026-11-14T22:20:44.000Z",
-      "collectedAt": "2026-11-15T19:07:22.394Z",
-      "brand": "investisseur",
-      "score": 4,
-      "status": "new",
       "international": true
     },
     {
@@ -120378,5 +120648,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-21T21:07:37.536Z"
+  "updatedAt": "2026-11-22T01:09:01.834Z"
 }
