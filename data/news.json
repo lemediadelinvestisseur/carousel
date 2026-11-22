@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "796952a5e2",
+      "title": "Argent liquide : peut-on garder plus de 1 000 euros en cash chez soi ?",
+      "summary": "Six Français sur 10 conservent de l'argent liquide à leur domicile. Mais existe-t-il un plafond à partir duquel il est nécessaire de justifier...",
+      "link": "https://www.moneyvox.fr/placement/actualites/111342/argent-liquide-peut-on-garder-plus-de-1-000-euros-en-cash-chez-soi",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20260422_155356_28.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-22T05:00:09.000Z",
+      "collectedAt": "2026-11-22T05:07:22.599Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Conseil de finance perso générique, type de sujet refusé par l'éditeur."
+    },
+    {
       "id": "fcb8dd3650",
       "title": "Où les horoscopes et la voyance sont-ils les plus populaires ?",
       "summary": "Which countries consult fortune-tellers most? See how 35 nations rank, from South Africa and India to the U.S. and Europe.",
@@ -670,9 +686,9 @@
       "brand": "investisseur",
       "score": 11,
       "status": "new",
-      "aiScore": 9,
-      "reason": "Krach hebdo spectaculaire touchant le CAC 40 et l'or, sujet du jour.",
-      "hook": "Krach : l'IA fait plonger le Nasdaq de 10 % en une semaine",
+      "aiScore": 8,
+      "reason": "Krach spectaculaire chiffré qui touche le CAC 40 et le Nasdaq, l'or compris : un événement majeur, pas un simple point de marché.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -1093,6 +1109,23 @@
       "reason": "Société inconnue en France."
     },
     {
+      "id": "dfa1bb359c",
+      "title": "Southern Natural Gas Co. Declares Force Majure",
+      "summary": "Southern Natural Gas Co. Declares Force Majure TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVctS201dVBkSXZGVHltZEtKbTI5ejhuYTR4M1djaURmX2VtMTZidVUwQ19CcjY3YThnTVotNWV6R3B2U2JsWFBYQVJvb0Z6NWJpQkVvSUI5Q2VjRl9OT3c1c2tEWnA5REt2dm4zSWN4ODQ3dzloVDR0dHc3X2gxd1NETXBoem9KcDdjUlpFSmZoaFNWd1Fvd2Z6cEVPUkpldG9BU2Q2cXYzQTNnRC12bUItSzQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T22:50:54.000Z",
+      "collectedAt": "2026-11-22T05:07:22.599Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Gazoduc américain inconnu, sujet de niche."
+    },
+    {
       "id": "0768b8c409",
       "title": "Le secteur technologique entraîne la chute des marchés boursiers mondiaux ; les rendements des bons du Trésor reculent",
       "summary": "Le secteur technologique entraîne la chute des marchés boursiers mondiaux ; les rendements des bons du Trésor reculent TradingView",
@@ -1327,8 +1360,8 @@
       "score": 2,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Chiffre délirant de 1 000 milliards, coulisses d'un patron connu.",
+      "aiScore": 6,
+      "reason": "Chiffre vertigineux de 1 000 milliards, mais SK Hynix reste peu connu en France.",
       "hook": "SoftBank a rêvé d'un rachat à 1 000 milliards de dollars",
       "notifiedAt": "2026-11-21T13:21:27.985Z"
     },
@@ -1945,9 +1978,26 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Enquête SEC comptable sur Nvidia, scandale fort même si saga dense.",
-      "hook": "Nvidia visé par la SEC pour de possibles problèmes comptables",
+      "reason": "Une enquête de la SEC sur la comptabilité de Nvidia, c'est une grosse histoire, malgré la saturation des sujets Nvidia.",
+      "hook": "Nvidia dans le viseur de la SEC pour sa comptabilité",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
+    },
+    {
+      "id": "960905272d",
+      "title": "US SEC issues proposal to restructure consolidated audit trail",
+      "summary": "US SEC issues proposal to restructure consolidated audit trail TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYUtub3FLOVYwaXpieWZ3Y1d6c0RrdHZLMnczRkdOSTIwLUw1UXdGN0gxa25OOTFWUE1CVHIwMFhXUmlKd2gxQVBKLXZkNzFVVWtpQ3NEd0ZEaW80dlNtUG9kQmN2ZFA1UWdYQjZUWVZJaGt0NXBwQjFmLTZUX2lWUnY1MGF2ZTIwOXFCTjMyZXg5V1dMS0M0eUVKZ2h3cFp0VXhjVktYQ2dYa2g0NlNPVzdBXzdVSWdyRHRkNlZyTThEaTB1Mi1yTTZFUQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-20T19:32:06.000Z",
+      "collectedAt": "2026-11-22T05:07:22.599Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Réglementation américaine très technique, sans intérêt pour un particulier français."
     },
     {
       "id": "ee76cee4d7",
@@ -120648,5 +120698,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T01:09:01.834Z"
+  "updatedAt": "2026-11-22T05:07:35.137Z"
 }
