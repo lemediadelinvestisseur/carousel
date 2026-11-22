@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "567c1080c7",
+      "title": "Prime de Noël : un deuxième versement programmé en janvier 2027",
+      "summary": "Un deuxième versement de la prime de Noël est normalement prévu au mois de janvier 2027. Sont concernées les personnes qui ne bénéficient du revenu...",
+      "link": "https://www.moneyvox.fr/votre-argent/actualites/111350/prime-de-noel-un-deuxieme-versement-programme-en-janvier-2027",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20241219_015268_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-22T05:30:09.000Z",
+      "collectedAt": "2026-11-22T07:07:26.126Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Prestation sociale, thème explicitement refusé."
+    },
+    {
       "id": "796952a5e2",
       "title": "Argent liquide : peut-on garder plus de 1 000 euros en cash chez soi ?",
       "summary": "Six Français sur 10 conservent de l'argent liquide à leur domicile. Mais existe-t-il un plafond à partir duquel il est nécessaire de justifier...",
@@ -15,6 +31,23 @@
       "status": "ignored",
       "aiScore": 3,
       "reason": "Conseil de finance perso générique, type de sujet refusé par l'éditeur."
+    },
+    {
+      "id": "7c52b96994",
+      "title": "MOYEN-ORIENT – Facteurs à surveiller – 22 novembre",
+      "summary": "MOYEN-ORIENT – Facteurs à surveiller – 22 novembre Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY3RDOXZqZnZXbVdiVGhrZWJnT1lXOElqMXBrdUg0dUdVUjFDYkNjTkxqaVR1TS1SSjRTNFpJR0xUMy0zaXEtMF9fcEZPQ2tET202UUhjQlhPT3B1dTJQWUxncnRCX2p2S0JnRHhlcmVienh0YTBqUldlazhhTzhyNk94QnVOUnNXTURMWG1NbzFuaURObFpJZjZwV1V3bjR1WGxreVAyMllvQkw3RHBJ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T04:31:17.000Z",
+      "collectedAt": "2026-11-22T07:07:26.126Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché régional générique, refusé par l'éditeur."
     },
     {
       "id": "fcb8dd3650",
@@ -33,6 +66,40 @@
       "aiScore": 1,
       "reason": "Sans lien avec l'argent.",
       "titleOriginal": "Where Are Horoscopes and Fortune-Telling Most Popular?"
+    },
+    {
+      "id": "ea312c9960",
+      "title": "Climat : la COP31 dans sa phase décisive, un accord incertain",
+      "summary": "Climat : la COP31 dans sa phase décisive, un accord incertain TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02bFQzdFdxYlBkUnN1U2tnTVFPSkxMRnlTQWJ4VURhV2phRnQweEE1TWs2S2dsTEh6bE16WmNiTGFTU3B3M2ctYjMyd3MwNW9VdmZwVy1IOERkaWtSaEt2QXZn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T21:46:00.000Z",
+      "collectedAt": "2026-11-22T07:07:26.126Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Politique climatique sans lien direct avec l'argent des Français."
+    },
+    {
+      "id": "6f14535064",
+      "title": "Télécoms : Pékin fustige une interdiction américaine visant des géants chinois",
+      "summary": "Télécoms : Pékin fustige une interdiction américaine visant des géants chinois TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42XzU4c0sxVDhOdnZ1N0loUE5PNmF0dWx6S3ZnSk5uM3hwN0FNbzF3U0xmMVotN3VwRzZnS3lTRmdBcWVYaTcxUFJWUWRWOGRyODBLT0QxaERrMmRQUzExc0pn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T21:41:00.000Z",
+      "collectedAt": "2026-11-22T07:07:26.126Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Géopolitique tech sans acteur directement suivi par les investisseurs français."
     },
     {
       "id": "83d071621b",
@@ -687,8 +754,8 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach spectaculaire chiffré qui touche le CAC 40 et le Nasdaq, l'or compris : un événement majeur, pas un simple point de marché.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
+      "reason": "Krach spectaculaire avec chiffres chocs touchant le CAC 40 et l'or, grosse histoire qui fait parler.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -1361,7 +1428,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Chiffre vertigineux de 1 000 milliards, mais SK Hynix reste peu connu en France.",
+      "reason": "Chiffre délirant de 1 000 milliards, coulisses d'un patron connu, mais acteurs peu familiers en France.",
       "hook": "SoftBank a rêvé d'un rachat à 1 000 milliards de dollars",
       "notifiedAt": "2026-11-21T13:21:27.985Z"
     },
@@ -1977,8 +2044,8 @@
       "score": 3,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Une enquête de la SEC sur la comptabilité de Nvidia, c'est une grosse histoire, malgré la saturation des sujets Nvidia.",
+      "aiScore": 8,
+      "reason": "Enquête de la SEC sur la comptabilité de Nvidia : scandale sur le géant le plus suivi.",
       "hook": "Nvidia dans le viseur de la SEC pour sa comptabilité",
       "notifiedAt": "2026-11-20T21:07:32.789Z"
     },
@@ -56366,21 +56433,6 @@
       "score": 2,
       "status": "ignored",
       "international": true
-    },
-    {
-      "id": "c0ac1636cb",
-      "title": "Ces 10 livrets bancaires à taux boostés font toujours mieux que le Livret A en novembre",
-      "summary": "Avant la hausse du taux du Livret A à venir le 1er février, une dizaine de livrets bancaires proposent une rémunération à taux boosté jusqu'à 5,5%...",
-      "link": "https://www.moneyvox.fr/livret/actualites/111231/ces-10-livrets-bancaires-a-taux-boostes-font-toujours-mieux-que-le-livret-a-en-novembre",
-      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20260813_174525_12.jpg",
-      "source": "Moneyvox",
-      "via": "découverte",
-      "publishedAt": "2026-11-15T06:00:09.000Z",
-      "collectedAt": "2026-11-15T07:07:23.033Z",
-      "brand": "investisseur",
-      "score": 5,
-      "status": "new",
-      "notifiedAt": "2026-11-15T07:07:23.033Z"
     },
     {
       "id": "60a7d6dd31",
@@ -120698,5 +120750,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T05:07:35.137Z"
+  "updatedAt": "2026-11-22T07:07:41.695Z"
 }
