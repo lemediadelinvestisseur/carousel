@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "id": "68e93fe337",
+      "title": "Webuild porte sa participation dans Trevi à 91 %",
+      "summary": "Webuild porte sa participation dans Trevi à 91 % Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTnl5eHRDMlROdnhMcE1SM09zU0hqU1A3aGs5bWZaR0xlU3o2Ymt6TmdCRGRiNFJIa0hOZmFXYzVIXzJUWDdSdXVFT0duQlJjSHdjempfbUdjWHFMbkJocVV0eUd5ZEZNdXhtU3YyWEp6U28xNXM1QkxLdS1WX1VfS1hBYkExeVM3SC16aTRiNWc4TnBkd0RsemJrRTJhQXpjaHJINmc0MUtjdVE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T10:13:10.000Z",
+      "collectedAt": "2026-11-22T11:07:21.333Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Opération italienne inconnue du public français."
+    },
+    {
+      "id": "e9e6cfd14a",
+      "title": "Taxe sur les logements vacants à Paris : faut-il vendre son bien avant 2027 ?",
+      "summary": "À partir du 1er janvier 2027, la taxe sur les logements vacants augmentera fortement à Paris. Les taux atteindront 30 % de la valeur locative cadastrale la première année d'imposition et 60 % les années suivant…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/taxe-sur-les-logements-vacants-a-paris-faut-il-ven",
+      "image": "https://cdn.overlord.media/Logements_Pexels_bc61b31a02.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T10:00:00.000Z",
+      "collectedAt": "2026-11-22T11:07:21.333Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "new",
+      "aiScore": 7,
+      "reason": "Changement fiscal concret et chiffré pour les propriétaires parisiens dès 2027.",
+      "hook": "Logement vide à Paris : jusqu'à 60 % de taxe dès 2027",
+      "notifiedAt": "2026-11-22T11:07:21.333Z"
+    },
+    {
+      "id": "a7a8384275",
+      "title": "«Sans lui, notre copropriété aurait payé 425.000 euros de plus» : comment l’économiste de la construction fait baisser la facture des travaux",
+      "summary": "Spécialiste de l’analyse des devis et des métrages, ce professionnel méconnu est appelé à jouer un rôle croissant dans la rénovation des copropriétés. Mais nombre de syndics et de maîtres d’œuvre renâclent à faire appel à lui, redoutant de perdre leur position centrale sur un marché colossal.",
+      "link": "https://immobilier.lefigaro.fr/article/sans-lui-notre-copropriete-aurait-paye-425-000-euros-de-plus-ce-professionnel-meconnu-peut-faire-baisser-la-facture-des-travaux-dans-votre-immeuble-20261121",
+      "image": "https://i.f1g.fr/media/cms/3000x1582_crop/2026/11/21/988ebb6b3b614fa55d2411b1fa516c355b732e666ec058b0e2a86191816e6f08.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-22T09:44:21.000Z",
+      "collectedAt": "2026-11-22T11:07:21.333Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Conseil d'expert sur la rénovation en copropriété, sans changement de règle."
+    },
+    {
+      "id": "129200b9d2",
+      "title": "Le Bitcoin chute brièvement à 17 000 $ sur Kraken, qui maintient les transactions",
+      "summary": "Le Bitcoin chute brièvement à 17 000 $ sur Kraken, qui maintient les transactions TradingView",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvRzhQbmJsaHo3UzFYVGVrYUNaLUR1NWVDSjMyTi1sVldpZ0pYdDlseDVVU0J5MEREQ0VYcnpzb1pseU85VzIwZ1loaUpKUTRKYWltSEFtejRUeHZ4VDk0eFRaa0d5dU1fX0UzRlJSdw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T09:33:06.000Z",
+      "collectedAt": "2026-11-22T11:07:21.333Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "new",
+      "international": true,
+      "aiScore": 7,
+      "reason": "Flash crash spectaculaire du Bitcoin à 17 000 $ sur une grande plateforme, histoire choc qui fait parler.",
+      "hook": "Le Bitcoin s'effondre à 17 000 $ sur Kraken : que s'est-il passé ?",
+      "notifiedAt": "2026-11-22T11:07:21.333Z"
+    },
+    {
+      "id": "652c93f537",
+      "title": "La COP31 en quête d'un introuvable compromis",
+      "summary": "La COP31 en quête d'un introuvable compromis Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYnViMF9Rb1JIc1ktR1J4UjhxZDNLZXZwNU5QQldlNVZpclZjd0pvV2xXZ3lwdkVKR1pOZk9QLXBhcU9lbFNZLXJ4NnhmMTI3VEo3SUJDd21NXzdNZUNTTV9JY0pxWFBqV1lVM3VuZEZWeGdqMTV5N3RzZWFLMTc2Ul9IV3k2cXZWSzhjcUNLaXlmOXVMaTFFMXNNVWw0b0g4clI3clYtbw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-22T09:06:15.000Z",
+      "collectedAt": "2026-11-22T11:07:21.333Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Politique climatique sans lien direct avec le portefeuille."
+    },
+    {
       "id": "cf9a463859",
       "title": "Impôts 2027 : les avantages fiscaux à connaître si vous êtes né avant 1962",
       "summary": "Les Français nés avant 1962 pourraient bénéficier de plusieurs avantages fiscaux en 2027. Un abattement sur les revenus pouvant atteindre 2 882 euros, une réduction de taxe foncière de 100 euros et un éventuel…",
@@ -31,6 +118,23 @@
       "status": "ignored",
       "reason": "Doublon de « Immobilier locatif : les villes où les loyers augmentent le plus en 2026 » (déjà traité)",
       "duplicateOf": "08f5693c32"
+    },
+    {
+      "id": "a6df2dd47c",
+      "title": "ETF XRP : Les investisseurs subissent -45 % de pertes",
+      "summary": "ETF XRP : Les investisseurs subissent -45 % de pertes TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Sa2xwcEhUWFRncmo4ZHZvSTlBVFVzUGlLUGljMURVOHNsdS00dWhudklnVHhMN0lyQXIwWVUwcFZES3dyTjdFOUFkNm5Ncmt0LTZZVm4xbzdsTHJkU1ExVE9ETDhUNzM0ZGhhLQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-22T09:00:00.000Z",
+      "collectedAt": "2026-11-22T11:07:21.333Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Perte sur un ETF crypto de niche, ressemble aux points de marché crypto refusés."
     },
     {
       "id": "a3fdcef8eb",
@@ -94,8 +198,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 7,
-      "reason": "Révolte des loueurs Airbnb contre une nouvelle règle, suite concrète du sujet ménage validé, qui fait débat.",
-      "hook": "Airbnb : les propriétaires lancent la grève des annonces",
+      "reason": "Fronde des propriétaires contre une nouvelle règle Airbnb, sujet de règles qui fait débat.",
+      "hook": "Les propriétaires Airbnb font la grève des annonces",
       "notifiedAt": "2026-11-22T09:07:25.073Z"
     },
     {
@@ -215,6 +319,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Fait géopolitique sans angle financier clair."
+    },
+    {
+      "id": "a88a42f025",
+      "title": "Brazil ex-President Jair Bolsonaro taken to ICU",
+      "summary": "Brazil ex-President Jair Bolsonaro taken to ICU TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMnc5RXRmMC1sOHJCYnpFa0NJM0Jmb3ZiUThhTE1EVGJpR2lvZG9kaG9vczNsTE9KaWpuTTVvbDNFZHRCbzJDMVhEOFpvWFdHTGt2U011b2QxMzV2MzRaUTV2Q05nOXVzREFINjJ1ZjNOdnFrbmdmUktjb292bWF1TmNWbVVtMHhmQTBVaXlvakdBb0o1UU5kX2J2d25MaWZBYXR3eFJsdFJpcmFiYWhackpwdHhuZjg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-21T18:54:07.000Z",
+      "collectedAt": "2026-11-22T11:07:21.333Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère, sans lien avec l'argent."
     },
     {
       "id": "10285d147e",
@@ -852,8 +973,8 @@
       "score": 11,
       "status": "new",
       "aiScore": 8,
-      "reason": "Krach spectaculaire : Nasdaq -10 % en une semaine, CAC -5 %, même l'or chute, événement majeur.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger",
+      "reason": "Krach marquant avec chiffres forts (Nasdaq -10 % en une semaine), grosse histoire du moment.",
+      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
       "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
@@ -56277,21 +56398,6 @@
       "brand": "investisseur",
       "score": 0,
       "status": "ignored",
-      "international": true
-    },
-    {
-      "id": "56fef12cf4",
-      "title": "Firmus prévoit une levée de fonds privée de 3 milliards de dollars, mais les paiements initiaux de Nvidia et Meta sont essentiels - AFR",
-      "summary": "Firmus prévoit une levée de fonds privée de 3 milliards de dollars, mais les paiements initiaux de Nvidia et Meta sont essentiels - AFR TradingView",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XVlYxMVBKb0VJdVV6ODNCaDl5Q2wzbHFHZldMeXVRUUN5bnc3OXk2Um92VUxnQ1Jsc0g0eWQ4d05rc3NkRmpRZ1JtTHhQYUJyTS05RVZLa0hqNndocVptWE1kZ1lOT2ZpVVFYeXhyQ0tvMFJjeWJJ?oc=5",
-      "image": null,
-      "source": "TradingView News",
-      "via": "google news",
-      "publishedAt": "2026-11-15T10:50:37.000Z",
-      "collectedAt": "2026-11-15T21:07:39.780Z",
-      "brand": "investisseur",
-      "score": 6,
-      "status": "new",
       "international": true
     },
     {
@@ -120789,5 +120895,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-22T09:07:38.196Z"
+  "updatedAt": "2026-11-22T11:07:35.151Z"
 }
