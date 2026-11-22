@@ -1,6 +1,79 @@
 {
   "posts": [
     {
+      "id": "31846c06b4",
+      "createdAt": "2026-11-22T06:14:41.836Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "GTA 6 encaisse 2,36 milliards dès son lancement pendant qu'Ubisoft plonge en Bourse et regarde la fête depuis la fenêtre.",
+      "text": "2,36 milliards de dollars. C'est ce que GTA 6 a encaissé dès son lancement.\n\nPendant ce temps, Ubisoft continue de plonger en Bourse et les analystes s'inquiètent de ses finances.\n\nUn fleuron français qui nous a donné Assassin's Creed, Rayman, les Lapins Crétins…\nEt qui regarde maintenant la fête depuis la fenêtre.\n\nLe jeu vidéo ressemble un peu à l'investissement : tout le monde parle du jackpot, beaucoup moins des années à tenir avant de le toucher.\n\nRockstar a pris son temps. Très longtemps. Ça a payé.\n\nSelon vous, Ubisoft peut encore sortir son « GTA 6 », ou c'est game over ?",
+      "image": "carousels/linkedin/2026-11-22/31846c06b4.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Squidward window",
+        "image_query": null,
+        "caption": "Les actionnaires d'Ubisoft qui regardent GTA 6 encaisser 2,36 milliards de dollars dès le lancement",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-22T06:14:42.692Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "148e86f512",
+      "createdAt": "2026-11-22T06:14:38.558Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Masayoshi Son a envisagé un rachat à 1 000 milliards pendant que l'investisseur particulier hésite trois jours avant un ordre de 50 € sur un ETF.",
+      "text": "Masayoshi Son aurait envisagé de racheter SK Hynix pour 1 000 milliards de dollars.\n\nMille. Milliards.\nSelon The Information, c'est resté au stade de l'idée. Mais il y a pensé.\n\nPendant ce temps, l'investisseur particulier :\n– ouvre l'appli\n– regarde le cours\n– se dit que c'est peut-être un peu haut\n– referme l'appli\n– recommence le lendemain\n\nTout ça pour un ordre de 50 € sur un ETF.\n\nLe plus drôle ? Des deux, c'est souvent le petit ordre programmé tous les mois qui fait le moins transpirer. 😅\n\nC'est quoi votre record d'hésitation avant de cliquer sur « Valider l'ordre » ?",
+      "image": "carousels/linkedin/2026-11-22/148e86f512.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Gus Fring we are not the same",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Masayoshi Son : un rachat à 1 000 milliards",
+          "Nous : 3 jours d'hésitation pour 50 € d'ETF",
+          "Nous ne sommes pas les mêmes"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-22T06:14:41.835Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "9ee1df0c1f",
+      "createdAt": "2026-11-22T06:14:34.677Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Black Friday vendredi : on se rue sur une télé à -30 % mais on fuit le Nasdaq à -10 % en pleine chute liée à l'IA.",
+      "text": "Vendredi, c'est le Black Friday. Et on va revivre le même paradoxe que chaque année.\n\nUne télé à -30 % ? On met un réveil, on compare les prix, on remplit le panier à minuit.\n\nLe Nasdaq à -10 % en une semaine ? On ferme l'appli et on attend que « ça se calme ».\n\nDans les deux cas, quelque chose est soudain moins cher qu'avant.\nSauf que la télé, elle, perd de la valeur dès qu'on la déballe.\n\nAttention, personne ne sait où est le fond d'un krach, et ce n'est pas une invitation à tout acheter.\nMais c'est fou comme notre cerveau adore les soldes… sauf en Bourse.\n\nCette semaine, vous étiez plutôt panier rempli ou appli fermée ?",
+      "image": "carousels/linkedin/2026-11-22/9ee1df0c1f.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Drake Hotline Bling",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Acheter des actions à -10 %",
+          "Acheter une télé à -30 %"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-22T06:14:38.558Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "2853f6b24f",
       "createdAt": "2026-11-21T06:14:44.072Z",
       "origin": "auto",
@@ -574,5 +647,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-21T06:14:52.024Z"
+  "updatedAt": "2026-11-22T06:14:42.692Z"
 }
