@@ -1,6 +1,79 @@
 {
   "posts": [
     {
+      "id": "0beb4835fc",
+      "createdAt": "2026-11-23T06:14:31.029Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "L'or et l'argent perdent 15 000 milliards pendant que le Bitcoin, 'trop volatil', résiste mieux.",
+      "text": "15 000 milliards de dollars.\nC'est ce que l'or et l'argent viennent de perdre.\n\nPendant des années, on a entendu la même phrase au repas de famille :\n« Le Bitcoin, c'est un casino. L'or, au moins, c'est solide. »\n\nEt là, c'est le Bitcoin qui tient le mieux.\n\nAttention, ça ne fait pas du Bitcoin une valeur refuge. Il a fait -75 % en 2022, il peut très bien recommencer.\n\nMais j'avoue que le tonton qui garde ses pièces d'or dans une boîte à chaussures risque d'être un peu plus discret que d'habitude au dîner de Noël.\n\nTu es plutôt team lingot ou team Bitcoin ?",
+      "image": "carousels/linkedin/2026-11-23/0beb4835fc.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Woman Yelling At Cat",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "« Le Bitcoin, c'est beaucoup trop volatil ! »",
+          "Le Bitcoin qui a moins baissé que ton lingot"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-23T06:14:34.260Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "590648c77c",
+      "createdAt": "2026-11-23T06:14:22.203Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le proprio parisien coincé entre la taxe jusqu'à 60 % sur les logements vacants et la grève des annonces Airbnb.",
+      "text": "Être propriétaire à Paris en 2026, c'est un escape game.\n\nOption 1 : tu laisses ton logement vide.\nLa taxe sur les logements vacants peut grimper jusqu'à 60 %.\n\nOption 2 : tu le mets en location courte durée.\nSauf que certains propriétaires font carrément la grève des annonces sur Airbnb tellement les règles changent.\n\nOption 3 : la location classique.\nEncadrement des loyers, DPE, bail de 3 ans…\n\nOption 4 : vendre avant 2027.\nEt tu n'es sûrement pas le seul à y penser.\n\nLe seul qui gagne à tous les coups dans l'histoire, c'est le notaire.\n\nSi tu avais un appart vide à Paris, tu ferais quoi ?",
+      "image": "carousels/linkedin/2026-11-23/590648c77c.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Two Buttons",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Laisser l'appart vide (taxe jusqu'à 60 %)",
+          "Le mettre sur Airbnb (les proprios font grève)",
+          "Le propriétaire parisien"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-23T06:14:31.029Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "4ef56e32f5",
+      "createdAt": "2026-11-23T06:14:21.120Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Bitcoin chute brièvement à 17 000 $ sur Kraken : le seul gagnant est celui qui avait oublié un ordre d'achat absurde depuis 2022.",
+      "text": "Des gens ont pu acheter du Bitcoin à 17 000 $.\n\nPas en 2022. Ces derniers jours.\n\nUn crash éclair sur Kraken : quelques minutes, le prix plonge jusque-là, puis remonte.\n\nKraken a maintenu les transactions. Donc les ordres sont passés.\n\nQuelque part, quelqu'un qui avait placé un ordre limite ridicule « au cas où » il y a trois ans vient de vivre le meilleur lundi de sa vie. 🥂\n\nEt nous, on se pose tous la même question : pourquoi je ne laisse jamais traîner d'ordres absurdes, moi ?\n\nToi, tu as un ordre « on sait jamais » qui dort quelque part ?",
+      "image": "carousels/linkedin/2026-11-23/4ef56e32f5.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Leonardo Dicaprio Cheers",
+        "image_query": null,
+        "caption": "Le gars qui avait oublié un ordre d'achat à 17 000 $ sur Kraken depuis 2022 et qui ouvre son appli ce matin",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-23T06:14:22.203Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "31846c06b4",
       "createdAt": "2026-11-22T06:14:41.836Z",
       "origin": "auto",
@@ -647,5 +720,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-22T06:14:42.692Z"
+  "updatedAt": "2026-11-23T06:14:34.260Z"
 }
