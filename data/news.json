@@ -44351,10 +44351,36 @@
       "collectedAt": "2026-11-17T15:07:25.464Z",
       "brand": "investisseur",
       "score": 4,
-      "status": "new",
+      "status": "done",
       "aiScore": 8,
       "reason": "Chiffre record qui fait réagir sur les patrons du CAC 40.",
-      "hook": "7,5 millions d'euros : le salaire moyen d'un patron du CAC 40"
+      "hook": "7,5 millions d'euros : le salaire moyen d'un patron du CAC 40",
+      "generatedAt": "2026-11-23T11:16:39.560Z",
+      "carousel": {
+        "dir": "carousels/2026-11-17/investisseur-les-remunerations-des-patrons-du-cac-40-89286991fd",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "format": "carousel",
+        "slides": 9,
+        "hooks": [
+          "Les **patrons du CAC 40** gagnent **91 fois plus** que leurs salariés, avec **7,5 M€** en moyenne en 2025",
+          "**Francesco Milleri** a touché **33,3 M€** en 2025 selon Proxinvest, en tête des **patrons les mieux payés**",
+          "Le **salaire fixe** des patrons du CAC 40 n'a pris que **1,2 %**, mais leurs **bonus** ont bondi de **10,5 %**"
+        ],
+        "coverPhoto": true
+      },
+      "error": null
     },
     {
       "id": "8911a1fba2",
@@ -126712,5 +126738,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-23T11:14:23.951Z"
+  "updatedAt": "2026-11-23T11:16:47.170Z"
 }
