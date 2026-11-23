@@ -39610,10 +39610,36 @@
       "collectedAt": "2026-11-18T05:07:26.739Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
+      "status": "done",
       "aiScore": 9,
       "reason": "Revirement majeur sur les passoires thermiques, concerne tous les bailleurs.",
-      "hook": "Passoires thermiques : les députés votent la fin de l'interdiction de louer"
+      "hook": "Passoires thermiques : les députés votent la fin de l'interdiction de louer",
+      "generatedAt": "2026-11-23T11:14:23.951Z",
+      "carousel": {
+        "dir": "carousels/2026-11-18/21m2-dpe-les-deputes-votent-la-fin-de-l-inter-017bf2378f",
+        "files": [
+          "slide-01.jpg",
+          "slide-02.jpg",
+          "slide-03.jpg",
+          "slide-04.jpg",
+          "slide-05.jpg",
+          "slide-06.jpg",
+          "slide-07.jpg",
+          "slide-08.jpg",
+          "slide-09.jpg",
+          "carousel.pdf"
+        ],
+        "generator": "claude-opus-5-5",
+        "format": "carousel",
+        "slides": 9,
+        "hooks": [
+          "**108 voix contre 102** : les députés suppriment l'**interdiction de louer** les logements **G, F et E**",
+          "Les **passoires thermiques** pourraient redevenir **louables** après un **vote serré** à l'Assemblée",
+          "**Quatre députés** disent s'être trompés : sans ces erreurs, la fin de l'interdiction de louer les **passoires** aurait été **rejetée**"
+        ],
+        "coverPhoto": true
+      },
+      "error": null
     },
     {
       "id": "57e1a3ff68",
@@ -126686,5 +126712,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-23T11:08:31.767Z"
+  "updatedAt": "2026-11-23T11:14:23.951Z"
 }
