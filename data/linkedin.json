@@ -1,6 +1,79 @@
 {
   "posts": [
     {
+      "id": "a9d3d178fd",
+      "createdAt": "2026-11-24T06:14:33.072Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Xavier Niel, fondateur de Free, rachète 60 Millions de consommateurs, le magazine qui compare… les box internet.",
+      "text": "Le rachat le plus savoureux de la semaine.\n\nXavier Niel, fondateur de Free, s'offre 60 Millions de consommateurs.\n\nLe magazine qui teste, compare et note… entre autres, les box internet.\n\nJe ne dis pas que le prochain classement sera biaisé.\n\nJe dis juste que si la Freebox finit première avec la mention « coup de cœur de la rédaction », personne ne tombera de sa chaise. 😄\n\nBlague à part, la question est sérieuse : un média peut-il rester indépendant quand son propriétaire est aussi un acteur du marché qu'il juge ?\n\nAyant créé deux médias, je me la pose vraiment.\n\nTu fais encore confiance aux comparatifs, toi ?",
+      "image": "carousels/linkedin/2026-11-24/a9d3d178fd.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "Xavier Niel smiling portrait",
+        "caption": "Xavier Niel rachète 60 Millions de consommateurs. Hâte de lire leur prochain comparatif des box internet.",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-24T06:14:42.128Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "61d354b069",
+      "createdAt": "2026-11-24T06:14:29.954Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le plafond du déficit foncier à 21 400 € prolongé : le proprio qui fait des travaux pour payer moins d'impôts.",
+      "text": "Le seul cas où un propriétaire est content de payer des travaux.\n\nLe déficit foncier, en gros : tes travaux dépassent tes loyers, et tu peux déduire jusqu'à 21 400 € de ton revenu global quand il s'agit de rénovation énergétique.\n\nEt ce plafond est prolongé jusqu'à fin 2027.\n\nRésultat : des proprios qui annoncent « je refais l'isolation » avec le sourire d'un enfant à Noël.\n\nPetit rappel quand même : dépenser 1 € pour économiser une partie en impôts, ça reste dépenser 1 €.\n\nMais allez expliquer ça à quelqu'un qui vient d'ouvrir son avis d'imposition.\n\nTu connais quelqu'un qui fait des travaux surtout pour les impôts ?",
+      "image": "carousels/linkedin/2026-11-24/61d354b069.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Roll Safe Think About It",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Tu peux pas payer d'impôts sur tes loyers",
+          "si tu dépenses tout en travaux"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-24T06:14:33.072Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "78aeb3a94d",
+      "createdAt": "2026-11-24T06:14:24.454Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Jensen Huang viré puis réintégré 11 jours plus tard chez Nvidia : l'investisseur qui a vendu en panique entre les deux.",
+      "text": "Le plus gros retournement de l'année n'a duré que 11 jours.\n\nJensen Huang est viré de Nvidia. Panique générale.\n\nOnze jours plus tard, il retrouve son fauteuil de DG. Veste en cuir comprise.\n\nEntre les deux, combien d'investisseurs ont vendu « par précaution » ?\n\nC'est toujours le même film.\nUne news choc tombe, on vend.\nLa news s'inverse, on regarde le cours remonter sans nous.\n\nLe marché adore punir ceux qui réagissent plus vite qu'ils ne réfléchissent.\n\nC'était quoi, ta pire vente panique ? 🫠",
+      "image": "carousels/linkedin/2026-11-24/78aeb3a94d.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Surprised Pikachu",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Jensen Huang viré de Nvidia",
+          "Moi : je vends tout par précaution",
+          "11 jours après : Jensen est de retour"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-24T06:14:29.953Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "0beb4835fc",
       "createdAt": "2026-11-23T06:14:31.029Z",
       "origin": "auto",
@@ -720,5 +793,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-23T06:14:34.260Z"
+  "updatedAt": "2026-11-24T06:14:42.129Z"
 }
