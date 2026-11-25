@@ -1,6 +1,194 @@
 {
   "items": [
     {
+      "id": "b5a5810b9e",
+      "title": "Givaudan SA : Jefferies maintient sa recommandation neutre",
+      "summary": "Givaudan SA : Jefferies maintient sa recommandation neutre Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnRzRU15WUJhTzA0bkxIZzhIQ0lHQ3UxUDNGRnIwbXAxVk1BZzZZQm5LV0NRdmVPN0M4c0h5U1RodUV1S2pZMkZaWjVkMnFraHhKOGtYUUxKdVpmNko5R00tME1CVzZDVXN4elphN2dRZnRrdmhFWG5KVEdMT2JMSGQySXhuZVFkeEhickttUE9GamFLcURTX3E0MWFfbFZmYUt6MUZZbU9IdWdXTW9jWEZSQWQ2S2RR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T20:50:28.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste refusée."
+    },
+    {
+      "id": "ded5aa4384",
+      "title": "SpaceX apportera des actions nouvellement émises aux comptes Trump",
+      "summary": "SpaceX apportera des actions nouvellement émises aux comptes Trump Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTGNTc0VDV1JvR3NiVkxIdTlkMjBVUnNHLTh3aUFjZjc1WlBhdFV6cmtzalpJdV90RzAzajIzSUdNREZ5Tk04Tm1tLXQxSEloTWlvcld4RWZMdVlXSHM3TU1VQU1pd3VWbWxfTlY2cXpRR2lpSlBqN09CSE5BREttalFWUUtvZ2ZScFpFN3dQYUs5U1pPbUlZaTBXWjY2aXc2ZDU0RTNWUEk3RDMzOHZFRzA5aTNqanV5WHRieFNqRG1ISVcy?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T20:33:10.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "new",
+      "international": true,
+      "aiScore": 6,
+      "reason": "Trump et SpaceX, conflit d'intérêts qui fait réagir.",
+      "hook": "SpaceX va offrir des actions à Donald Trump"
+    },
+    {
+      "id": "9d7876cb30",
+      "title": "Le bitcoin se reprend quelque peu, toujours sous les 60.000 dollars",
+      "summary": "Le bitcoin se reprend quelque peu, toujours sous les 60.000 dollars Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZlljcjVEN0ZlTFE1RzdwRlJoeU45YnllNnlWbkRhZFI1SkJTcnIxVm16NDBHLW9LcHA1ZFJCcUFYWmNSM1NiV2NSdFZLUVIyM3FGZnZWU1RWMGV6Wnlaazg2LXRxUkowZDZBWVFnTUxkY3gwNFZodVp3MjBqaWhPTm02bHdHVkZqVl9rLTdLYTljZTRvVDRYZEU0VFQwd05lQ0t0bmZQM1A5Y0U4MHBsWUhsZ3d4bXRVcG1vNzdOSV9tOWFW?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T20:11:14.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Bitcoin sous un seuil : type de sujet refusé."
+    },
+    {
+      "id": "d2669e32c0",
+      "title": "Intertek indique que l’acquisition sera finalisée au premier trimestre",
+      "summary": "Intertek indique que l’acquisition sera finalisée au premier trimestre Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObWpaRG9KZXpvWkVRYzlHX3VoMWxmaXlGVmEwR1pjNXFDMjZ5ejY1MDh3RllDQW42Mkt3SF8xMll0eUMtNG01TWZ1OWpsTEc0aWF5R2xPQXU1N3Z1OGc4UV84Qm4wVjhuUVFpWjJURk1tM25ERDQtcmNCWkhqSHp0M18yb0tqZmNZakpsOHRYWjJfMGcwOW1BaDBaSXBTSEJuWTFhbGl5MUZfWTBoMU5DMy1la1pWSjhaSV9SY2s4bGpUZ0hpd3A0ZVp0OA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T20:07:10.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Acquisition obscure."
+    },
+    {
+      "id": "cda9a5641e",
+      "title": "Le Nasdaq et le S&P 500 reculent, mais s'éloignent de leurs plus bas niveaux de la journée, les investisseurs étant à la recherche de bonnes affaires",
+      "summary": "Le Nasdaq et le S&P 500 reculent, mais s'éloignent de leurs plus bas niveaux de la journée, les investisseurs étant à la recherche de bonnes affaires TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ONTVBWFM5NmY0LTFTVG12LTlvT3NNNm1RZlgzNUhsM2IwdmZQXzV3d1NrRkJKTmVKSE1zR3llLURUQzk5dEVlQktjdzV0LUJMalhaak94WjZnUGxyZ0JlOUl2XzY0WDRNVU9YTEZtMURjTFZXT1gw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T20:05:26.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché du jour, refusé par l'éditeur."
+    },
+    {
+      "id": "6b0472bdef",
+      "title": "Les taux américains reculent, mais s'éloignent de leurs plus bas alors que les actions limitent leurs fortes baisses",
+      "summary": "Les taux américains reculent, mais s'éloignent de leurs plus bas alors que les actions limitent leurs fortes baisses TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jdEx4MjZvbGppa3dKeVI0MVVnQzBsS3FHM1dGcDN1aDVDa3BnWjV1QjlleWV0TUhHZWpEcTJmWkt4TWcydlRSYkpWYXRYVW5qc2lYODhpLVRwZlRTUFlVNDE5VnFBeUZQR1dtSUNJMnZSWFBlb1JB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T19:42:44.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché technique."
+    },
+    {
+      "id": "f6cf6a2163",
+      "title": "Prosus : au-delà de Tencent, une transformation coûteuse",
+      "summary": "Prosus : au-delà de Tencent, une transformation coûteuse Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdTh6Znc1Z05lYjdGMkllc0o2OFk2TXEzWTk1WlB0VGpaS2cwVFRGTVZYZWI3QzA3VGZwdFBXV2tFQlJoUFV4UGF2a2U1R0lGWmlhSjJLaVZiaVRGZHpCU21aSEdSVHBFdUFEWmxZWlJkRTVoaHRkNjZTYjZ6dFJLRXl6VmFlYS1RU2RmYmRVNHI5aGpvNER3RXc2akk5NWhZT0xQY2xVZDJvaGxUbDJycTBoVQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T19:42:39.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Analyse technique d'une holding peu connue."
+    },
+    {
+      "id": "293a3e9b1a",
+      "title": "Les actions de GoodRx reculent après les résultats du T3",
+      "summary": "Les actions de GoodRx reculent après les résultats du T3 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLXBVNDViQnRKbG9sd3h4MzBDclpZcVhiSHpMRGEtYllFc0JsUXh6Y0R5cUpHeWg4VGdWQVJ1cFVTamdzQ1UzVkN2d1BjOFJhT2Q4X0FMNmpGMVc4Ylp3VHd3Ump4SW45U01uSzJuUlRVd2dZZkJLVnVzc1c0REZnWXRlSGtieXJ1YmxLcHJEdWE0d2xNdTNyV3lpdkR1elBmM05KeTZXNmFIZ25oZ0dCNjBHbWRjdUE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T19:42:15.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Small cap US inconnue."
+    },
+    {
+      "id": "9bd6d05795",
+      "title": "Une enquête de la Fed fait état d'une croissance soutenue et d'une inflation tenace ces dernières semaines",
+      "summary": "Une enquête de la Fed fait état d'une croissance soutenue et d'une inflation tenace ces dernières semaines TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMZmx6V3J1aENKRnJnVTZuWnl1eVRGdkR4RVM4bGR1Vzdfa1V4RU42UHV6ckJWTlk2N09yOXZfSC1zeS1EWEI5MXAyd0dRRXc2dU9ibTFGdnNSSW5ZOUlSc2dTZHVGQlRoeGRSTDdmOG1RS3p1SzU4?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T19:18:45.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 7,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Beige Book technique, peu parlant pour les Français."
+    },
+    {
+      "id": "f7633c577f",
+      "title": "Meinian Onehealth reçoit une proposition d’actionnaire de Rong Yu",
+      "summary": "Meinian Onehealth reçoit une proposition d’actionnaire de Rong Yu Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaUVTTWREa2duZUZGRnRSRHJycTFUR2YwSFh4bUtHMk9NRng0QlBXQ3VXYzR4V0tkcU9pTFN1dUc1V21EOTh2Z3ZzOVdhVVlaU1J1QUE1anNpS3Zmd2FudHFjS21hV2FrQm9CRHZVX1dwSjZKWEJGYlNxWXpsUndCNklTRlk0S2V1cUFaMGR2VnlZNVVHaVV2NnowTjNtelI0c0FBU0FUcTVEZHNqNVZFV2drWnJrT3dmRE01Y3A1XzJkNU1QOUE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T19:05:56.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société chinoise inconnue."
+    },
+    {
+      "id": "29ffd7e5fc",
+      "title": "Suicides chez Technip: amende de 200.000 euros requise",
+      "summary": "Suicides chez Technip: amende de 200.000 euros requise TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDWGVuWWFMd0tEVUFQczVOb0ZhT09lZnNUbVNNTW9XeDBZdXdtWi1uZlhTM2xUUGFuRTZlMkNJQlhvajg0MFd4OF90S0NQbl9LMFlxbWFOSmhBZHBoekZ0YzVn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T19:00:27.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Judiciaire social, peu lié à l'investissement."
+    },
+    {
       "id": "b2dd0244a3",
       "title": "Coût du nouveau plafond du Livret A, versements CAF en décembre... Les 3 infos argent du jour",
       "summary": "Le calcul du coût de la hausse du plafond du Livret A et de son taux pour les banques, les dates de versement à retenir pour décembre et des réponses...",
@@ -15,6 +203,23 @@
       "status": "ignored",
       "aiScore": 2,
       "reason": "Format « infos argent du jour », refusé."
+    },
+    {
+      "id": "acde88bf82",
+      "title": "Le XRP échoue encore sous 1 dollar",
+      "summary": "Le XRP échoue encore sous 1 dollar TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1abjJYalJDcFVqX3ZnWFRWUGZvY1BHb3R4TnBhZnRXRTVraGxiQ0FVYjVjVVdjX05SWUFVbkdxRkZGcFkwcWNZaUtNUDhkUXFHY0hIWHVQM3FPN19nMFpfU1RBdWNFRlRxQ0FDbg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T19:00:00.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Niveau de cours crypto sans intérêt."
     },
     {
       "id": "e7f28eea17",
@@ -32,6 +237,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Société chinoise inconnue."
+    },
+    {
+      "id": "587c00fe5c",
+      "title": "Zadig&Voltaire se refinance pour se renforcer à l'international",
+      "summary": "Zadig&Voltaire se refinance pour se renforcer à l'international TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TZExyV1FOWG9TNWdyb3A3R3hSY201Vk1kcnQxVnVvOWx6SUUyb1dvZVFWUHQ1Ql9TNjMya0JWMTZsRm9CNXBnV3FYVGhCUk5FTzY4MmdIbmVDNlYwS2p1UllB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T18:45:32.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Refinancement de marque connue, peu spectaculaire."
     },
     {
       "id": "e54d7b518b",
@@ -503,7 +725,7 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Chiffre vertigineux, SpaceX et data centers dans l'espace : effet waouh.",
+      "reason": "Chiffre fou : un million de satellites pour des data centers spatiaux.",
       "hook": "SpaceX autorisé à lancer un million de satellites",
       "notifiedAt": "2026-11-25T19:08:01.579Z"
     },
@@ -676,6 +898,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon Vinci/LISEA."
+    },
+    {
+      "id": "305bb836b5",
+      "title": "Ascencio Annual Results EUR 5.65 EPRA Earnings",
+      "summary": "Ascencio Annual Results EUR 5.65 EPRA Earnings TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR01Xb1F0aWxhMzZsZkk2NHY2bUVoNkhkUERjMVpZSVdZVXpJZTQ2ZXZwQkRQenpUM3dDVFdhaE9kb2hOc0JObUZfSHRoLTlJTFN6SVBDczZqNnA2TXdfclNDaVZfTVJrMlY2NkFwRmFNY3JfMDhHT0Z2TzZZbGRGbkRRcWJKX3FwenJienFmYWFOeUZ0dFB2dmVlNDJvZEdnXzBOTE9TdmJvY3F6cTU1by1vUThGMEtPN1JuS0oxQXJWX2RfZnFtclNQV0NnMEU?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T16:45:09.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Foncière belge inconnue."
     },
     {
       "id": "040476031d",
@@ -1154,6 +1393,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "8ff294d37c",
+      "title": "Aurubis AG : DZ Bank n'est pas inspiré par le dossier",
+      "summary": "Aurubis AG : DZ Bank n'est pas inspiré par le dossier Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM29oZGhWSVJXX0pUNkZadm9Lb3c2ZVBKWmgtX1NfZnpHMVV1elpwOXNIV2xWa0ExZjdUUWZzVGxlNWxOaUpocHBmLUY4amVHU0lFdVV0QVQyZ1AxamFnNVhIenhzb24ya0ZHZG9GVC1NbjRibEcwVkI4ZUhXaDgybndXRnRDN3pGR1AtVVIxd1VxQV9CZG1rUkRsNUU1ckxzUTU5ZTNJU0p1MHVqTGllcGdB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T16:29:56.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Avis d'analyste sur valeur allemande."
+    },
+    {
       "id": "53d5e16245",
       "title": "Stratec SE : DZ Bank confirme sa recommandation neutre",
       "summary": "Stratec SE : DZ Bank confirme sa recommandation neutre Zonebourse",
@@ -1286,8 +1542,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret pour propriétaires vendeurs.",
-      "hook": "Plus-values immobilières : le Sénat change les règles d'imposition",
+      "reason": "Changement fiscal concret pour les propriétaires vendeurs.",
+      "hook": "Plus-values immobilières : le Sénat change la donne",
       "notifiedAt": "2026-11-25T17:07:42.570Z"
     },
     {
@@ -2285,8 +2541,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Rebondissement majeur sur l'interdiction de louer les passoires.",
-      "hook": "Passoires thermiques : le gouvernement bloque la fin de l'interdiction",
+      "reason": "Suite majeure du feuilleton DPE qui touche les bailleurs.",
+      "hook": "Passoires thermiques : le gouvernement bloque la levée d'interdiction",
       "notifiedAt": "2026-11-25T15:26:56.727Z"
     },
     {
@@ -3512,6 +3768,23 @@
       "reason": "Énergie industrielle de niche."
     },
     {
+      "id": "0c4fa62a21",
+      "title": "Canada's BuildDirect Q3 revenue rises on acquisitions",
+      "summary": "Canada's BuildDirect Q3 revenue rises on acquisitions TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb0RHVGFwNmhDUjByZVVUZWlwNnNFNWc5MEtzSkIyM2M3WmFJRHZIVUpvckI5cFZqd1NwVk5GNmRPeDd2MEtSbWFxUXNqdjZtd2RYYUFlakQ2WHExaHZyNmVPUFdQYUFja0JrTGg5Z3ZkRzhrZFFaaWhkM2dJNk4xb3k5NG5kWjBBaEQ2Y3Z1RUtvRlY0UmR2SjllOHNmdm9BZ19wOXJ3VlR4ZnVfaWJWNElYeWJVYXRpQXhTUHo0Yw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T13:09:26.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Entreprise canadienne inconnue."
+    },
+    {
       "id": "25e55f5cb6",
       "title": "Sanofi : Barclays réajuste son opinion à la hausse",
       "summary": "Sanofi : Barclays réajuste son opinion à la hausse Zonebourse Suisse",
@@ -3727,8 +4000,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Angle clivant Trump enrichi par Nvidia, mais saga saturée.",
-      "hook": "Le retour de Huang a fait gagner des millions à Trump",
+      "reason": "Trump enrichi par Nvidia, polémique, mais suite d'un sujet déjà traité.",
+      "hook": "Le rebond de Nvidia a enrichi Trump de millions",
       "notifiedAt": "2026-11-25T13:07:40.010Z"
     },
     {
@@ -4334,10 +4607,10 @@
       "collectedAt": "2026-11-25T13:07:40.010Z",
       "brand": "investisseur",
       "score": 2,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Fonds souverain européen de 50 Md€ pour la tech, gros chiffre.",
-      "hook": "L'Europe sort 50 milliards pour rivaliser avec la tech US"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Montant marquant pour la tech européenne, assez institutionnel.",
+      "hook": "50 milliards : l'Europe crée son fonds tech souverain"
     },
     {
       "id": "fbfe376f2c",
@@ -4746,7 +5019,7 @@
       "status": "new",
       "aiScore": 7,
       "reason": "Classement chiffré par ville, très partageable.",
-      "hook": "Le salaire qu'il faut pour acheter 75 m² dans votre ville",
+      "hook": "Le salaire qu'il faut pour acheter 75 m² chez vous",
       "notifiedAt": "2026-11-25T11:07:32.885Z"
     },
     {
@@ -5855,6 +6128,40 @@
       "international": true,
       "aiScore": 3,
       "reason": "Résultats annuels d'une compagnie étrangère, sujet easyJet déjà refusé."
+    },
+    {
+      "id": "8482456743",
+      "title": "Walmart-owned Flipkart CEO Kalyan Krishnamurthy to step down",
+      "summary": "Walmart-owned Flipkart CEO Kalyan Krishnamurthy to step down TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMThPODRIOHlPaDVDZmJ6T015OUpOeUVYQ1dPa3JXQVRqcDhpQ29NaklEaTYwWmpOcFNpdUFSZWw1bVBkeXJEVmpvVzVpODVEQ0pqb3JSaGxaWjI4NnJFcXp4dVlyQzhNRHY4RDBKS2FKR1NkTjFQaUo4cGFwM0daSGE4aURXcTVMV3JZOXdldlFtUklKYmoyamdvSFhzWDBJZTJfckE0WXdOWjhkSmctQ2p1RnBHb1FYYmtFLVc5QzgwN2Y0QTdhcEdJRUk?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T08:24:04.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Nomination étrangère mineure."
+    },
+    {
+      "id": "0d347c3886",
+      "title": "Impax Asset Management Reports AUM Of £20 Billion For FY26",
+      "summary": "Impax Asset Management Reports AUM Of £20 Billion For FY26 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnZsWmZ6UVphbzlpWHJNbXY2SkdsZ0FJWUY1N0pKZ2ZFVWZtVF9SbEVFWVNLbDJTa2NHSFdPSGRSRkxsbXlvNEFUYkl5V3lrUmF0QjhWdlBvVk5FZlNZeHR2UHhla2ZDcmhzdnlENEZ0NjNiOVpjYWNOTDFNWFREOXpqNHU1Y0t2aTRwYjlyLUtjc2h2QWo0VFpEMk9MLXJONWJwSDFpNzNOZU82T2poTGlRUGNXTFNwd1JqV0VfSGVqOERx?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T08:24:00.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Gérant britannique de niche."
     },
     {
       "id": "73446d07d1",
@@ -7309,6 +7616,23 @@
       "reason": "Alerte générale sans fait nouveau chiffré, type tribune refusée."
     },
     {
+      "id": "27c4f7c4fe",
+      "title": "IA encore du pain sur la planche",
+      "summary": "IA encore du pain sur la planche Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVW5LbmlLTXF2bkNHdkJLRk1lSl9TOE1aZGFGcW5pS0tCYk9PczNubWJNOW03UVVlWDh6UVBzbnpFYzBjVUpQVGpPUFhMUHNjTkpOS0IyaWZUSWxZeEVBT29PVml0WThnN0lERUpIMVlVSk5SenVONlFzazhQX29qSTgxSzhpck1HTGxqNTVrVEdGbjNaR0t0YQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T06:27:17.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Analyse vague sans fait nouveau."
+    },
+    {
       "id": "3e07d9954c",
       "title": "Guillaume Hintzy nommé DAF de Voltalia",
       "summary": "Guillaume Hintzy nommé DAF de Voltalia Zonebourse",
@@ -7474,6 +7798,23 @@
       "status": "ignored",
       "aiScore": 3,
       "reason": "Conseil fiscal générique de fin d'année."
+    },
+    {
+      "id": "911fc7686a",
+      "title": "Indonesian rescuers search for possibly 'dozens' trapped in mine",
+      "summary": "Indonesian rescuers search for possibly 'dozens' trapped in mine TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1E5bThQNjQyRmI3ek50NDZrR0RVRFVRa0sxYy1xMlpycGdxZjZpRDhuczhkUkFpeVhFVGpHMUZ4QlZRLW1pZ3hJUE0zR09NVm5tcnA0Yi0yRy1KS0pDWjRHR3NXM0NhVGdNdnZiZkR4SGlUWU5QNkMzakt4ZGRuTFBBMHE2MTFRZTdBYmNJNUF0aF9uU2pUSlVuVDUxZnp4UllNMUkzeFEwMXBzYUdfcjdEdGN1QXhTY3cyS1VEVU0tRXRDdERVSkNVOA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T03:23:31.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Fait divers sans lien avec l'argent."
     },
     {
       "id": "9fabf32231",
@@ -10092,8 +10433,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 6,
-      "reason": "Taxe qui double pour les propriétaires parisiens, chiffre frappant.",
-      "hook": "2 800 € de taxe pour un 30 m² vide à Paris",
+      "reason": "Fiscalité frappante pour propriétaires parisiens.",
+      "hook": "Paris : 2 800 € de taxe pour un 30 m² vide",
       "notifiedAt": "2026-11-24T17:08:08.213Z"
     },
     {
@@ -10163,6 +10504,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "c0d738c02b",
+      "title": "US stocks slide as Nvidia rally fizzles out, dollar falls",
+      "summary": "US stocks slide as Nvidia rally fizzles out, dollar falls TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTERCSWVFSTNjbHc4d18zNndBazdXNWFkczJTaWFXRmxlbHZlLU0wYTU4RGtzcjRpRjYyVEl0eEtxck5yaXJTQXNyN1JnMFA5RXZzRTh3NDdITDNZYkJpWkJ1d1l0NXRnbE1qbEJSNlktZ3Q4b3lTaWMtSF94VTZ4R3N6amJyLUtYOFZWVDVRVUROR0NXaWVhSlRyUXd5T0gyQ01iZXFBV3lmLUlKZTVyZFo1SXh0UzZjUUdVdVoyTGRVUzA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T16:53:43.000Z",
+      "collectedAt": "2026-11-25T21:07:31.023Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché, doublon."
     },
     {
       "id": "d4615af61f",
@@ -10871,8 +11229,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Chute spectaculaire de l'IPO la plus attendue de l'IA.",
-      "hook": "Anthropic passe déjà sous son prix d'introduction en Bourse",
+      "reason": "Chute spectaculaire de l'IPO la plus attendue.",
+      "hook": "Anthropic déjà sous son prix d'introduction en Bourse",
       "notifiedAt": "2026-11-24T15:42:56.785Z"
     },
     {
@@ -12739,9 +13097,9 @@
       "score": 0,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "BYD s'installe en France : sujet qui divise.",
-      "hook": "Le chinois BYD veut produire ses voitures en Moselle",
+      "aiScore": 6,
+      "reason": "BYD s'installe en France, sujet qui divise.",
+      "hook": "BYD veut produire ses voitures en Moselle",
       "notifiedAt": "2026-11-25T13:07:40.010Z"
     },
     {
@@ -14938,8 +15296,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Record historique de décollecte du Livret A, épargne de tous les Français.",
-      "hook": "Livret A : les Français le fuient comme jamais depuis 2008",
+      "reason": "Record historique de décollecte du placement préféré des Français.",
+      "hook": "Livret A : les Français fuient, pire année depuis 2008",
       "notifiedAt": "2026-11-24T11:07:30.343Z"
     },
     {
@@ -151510,5 +151868,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-25T19:08:48.433Z"
+  "updatedAt": "2026-11-25T21:07:53.878Z"
 }
