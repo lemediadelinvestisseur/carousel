@@ -1,6 +1,81 @@
 {
   "posts": [
     {
+      "id": "b0c12403b8",
+      "createdAt": "2026-11-25T06:14:48.928Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Les prix baissent de 7 % dans le 8e à Paris : pour le primo-accédant, avant et après la baisse, c'est exactement la même image.",
+      "text": "Bonne nouvelle : l'immobilier parisien baisse. Jusqu'à -7 % dans le 8e.\n\nMauvaise nouvelle : -7 % sur des prix stratosphériques, ça reste stratosphérique.\n\nPour le primo-accédant, ça donne à peu près ça :\navant, le 30 m² était hors budget.\nMaintenant, il est toujours hors budget. Mais avec une remise.\n\nLes gros titres disent « les prix chutent ».\nLe simulateur de la banque, lui, n'a pas lu les gros titres.\n\nÇa reste un signal intéressant : le marché bouge, et ceux qui ont un projet reviennent à la table avec un peu plus d'arguments pour négocier.\n\nÀ partir de quelle baisse tu commences vraiment à regarder les annonces ? 🏠",
+      "image": "carousels/linkedin/2026-11-25/b0c12403b8.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "They're The Same Picture",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Le 8e arrondissement avant",
+          "Le 8e après -7 %",
+          "Mon apport : c'est la même image"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-25T06:14:57.835Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "0f3030138a",
+      "createdAt": "2026-11-25T06:14:36.743Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "L'action Anthropic passe sous son prix d'introduction : les acheteurs du premier jour demandent à Claude, l'IA de l'entreprise, s'il faut vendre.",
+      "text": "L'IPO star de l'IA est déjà sous l'eau.\n\nAnthropic est passé sous son prix d'introduction en Bourse.\nEt ceux qui ont acheté le premier jour vivent un moment assez étrange.\n\nParce que le réflexe moderne, quand on doute, c'est de demander à une IA.\nSauf que l'IA en question, c'est… l'entreprise dont on détient les actions.\n\nTu poses la question, et la réponse commence par « Je comprends ta frustration ».\n\nPetit rappel qu'on oublie à chaque IPO hypée : le premier jour, on n'achète pas une techno. On achète un prix.\nEt ce prix-là, tout le monde en parlait depuis des mois.\n\nLes introductions en Bourse, tu achètes dès le premier jour ou tu attends que la poussière retombe ?",
+      "image": "carousels/linkedin/2026-11-25/0f3030138a.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "stressed man typing on laptop at night dark room worried",
+        "caption": "Les particuliers qui ont acheté l'IPO d'Anthropic le premier jour, en train de demander à Claude s'il faut vendre :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-25T06:14:48.927Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "e5d0ecd062",
+      "createdAt": "2026-11-25T06:14:32.896Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Les Français retirent 9,5 milliards du Livret A, la pire année depuis 2008 : sur le papier ils passent enfin à l'action, en vrai l'argent finit sur le compte courant.",
+      "text": "9,54 milliards d'euros retirés du Livret A. Du jamais vu depuis 2008.\n\nSur le papier, c'est le grand réveil de l'épargnant français.\nOn sort enfin de la case « sécurité ».\nOn va ouvrir ce PEA dont on parle depuis trois ans.\n\nDans la vraie vie, j'ai un petit doute.\nUne partie de cet argent a sans doute pris une direction moins glorieuse : le compte courant.\nRémunéré 0 %. Disponible pour les courses, les cadeaux de Noël et la facture de gaz.\n\nLe Livret A n'a pas été remplacé par la Bourse.\nIl a été remplacé par… rien.\n\nToi, l'argent sorti de ton Livret A, il est parti où ?",
+      "image": "carousels/linkedin/2026-11-25/e5d0ecd062.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Gru's Plan",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Retirer son argent du Livret A",
+          "Enfin passer à l'action",
+          "Le laisser dormir sur le compte courant",
+          "Le laisser dormir sur le compte courant"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-25T06:14:36.743Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "a9d3d178fd",
       "createdAt": "2026-11-24T06:14:33.072Z",
       "origin": "auto",
@@ -793,5 +868,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-24T06:14:42.129Z"
+  "updatedAt": "2026-11-25T06:14:57.835Z"
 }
