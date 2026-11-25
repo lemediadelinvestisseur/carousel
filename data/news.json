@@ -1,6 +1,154 @@
 {
   "items": [
     {
+      "id": "43744f3292",
+      "title": "Pétrole : la perspective d'un excédent d'offre fait reculer les cours",
+      "summary": "Les prix du brut repartent à la baisse, les inquiétudes sur une production mondiale trop abondante prenant le dessus sur les risques géopolitiques. Les investisseurs surveillent désormais les décisions de l'Ope…",
+      "link": "https://www.lerevenu.com/actualite-economique/monde/petrole-la-perspective-d-un-excedent-d-offre-fait-reculer-les-cours",
+      "image": "https://cdn.overlord.media/cours_petrole_envolee_tensions_usa_iran_mars_2026_7933bf39_e620d73154.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-25T07:04:52.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 1,
+      "reason": "Point pétrole du jour, refusé habituellement."
+    },
+    {
+      "id": "a765954720",
+      "title": "Immobilier de luxe en Afrique : un marché en pleine montée en gamme",
+      "summary": "Le marché africain de l’immobilier de luxe connaît une transformation majeure, portée par l’émergence de nouvelles fortunes et les investissements de la diaspora. Cape Town, Lagos, Abidjan, Dakar et Yaoundé att…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-de-luxe-en-afrique-un-marche-en-pleine-montee-en-gamme",
+      "image": "https://cdn.overlord.media/immobilier_Nairobi_6da18c1d04.jpg",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-25T07:00:00.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Marché étranger de niche."
+    },
+    {
+      "id": "4cef7bc98c",
+      "title": "Immobilier : les prix continuent de baisser face à la remontée des taux d’intérêt",
+      "summary": "Les prix de l’immobilier ancien ont reculé de 1,2 % sur un an au troisième trimestre 2026 en France. Cette baisse touche aussi bien les maisons que les appartements, avec une diminution plus importante en Île-d…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-les-prix-continuent-de-baisser-face-a-la-remontee-des-taux-d-interet",
+      "image": "https://cdn.overlord.media/pexels_czapp_arpad_3647289_9676394_c76a68d110.jpg",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-25T06:45:00.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Baisse des prix chiffrée mais sujet récurrent.",
+      "hook": "Immobilier : les prix reculent encore de 1,2 % en un an"
+    },
+    {
+      "id": "9f8ba41117",
+      "title": "Renault : JP Morgan révise son opinion et passe à neutre",
+      "summary": "Renault : JP Morgan révise son opinion et passe à neutre Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM0c4aVM2MFV1NHl2NGFTVDlPODM2T3NpNlZ0T3lvdWpaWmt4bF9aVFJ4OUFMQ1NZbFdVNGoyZGl6VkdKb3JSczFQb1BOZTFXQ0hKbUxyd3NLcjlVYjVKVGl2TnZhR2JYbFktNTA3R3pkb1lmeXJpOW1ZZG1yeF9HSDkwbEtZTFdCbFZzcHhHVzU3QnF0d3NQdmRRaGRFSTVJWGV1RWVKb3NQTDVUTEJ6TjdFNS1PZw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T06:34:30.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Recommandation d'analyste, refusée."
+    },
+    {
+      "id": "72451c2f03",
+      "title": "BOURSE-Le Nikkei finit en baisse de 2,78%",
+      "summary": "BOURSE-Le Nikkei finit en baisse de 2,78% TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QZ19ldUY1ZnVTTktlSkZYZy00OVJka0lPdFJybW9welJMQjhjSWozUXZFSEVPeV9XVl93N0hZYllSZjJPTnVydFprd1hGbXZDMklJM1RFR0V4QmV2YnBRTDdkZVRvc05rODJvMWtNWV9iQXE0X01n?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T06:31:40.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché étranger du jour."
+    },
+    {
+      "id": "f033aad4bb",
+      "title": "Immobilier : les Français ont de plus en plus de difficultés à devenir propriétaires",
+      "summary": "La Fédération nationale de l’immobilier (FNAIM) alerte sur les difficultés croissantes des Français à devenir propriétaires. La hausse des taux d’emprunt et la dégradation du pouvoir d’achat immobilier fragilis…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-les-francais-ont-de-plus-en-plus-de-difficultes-a-devenir-proprietaires",
+      "image": "https://cdn.overlord.media/heritage_immobilier_52545b88bd.jpg",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-25T06:30:00.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Alerte générale sans fait nouveau chiffré, type tribune refusée."
+    },
+    {
+      "id": "3e07d9954c",
+      "title": "Guillaume Hintzy nommé DAF de Voltalia",
+      "summary": "Guillaume Hintzy nommé DAF de Voltalia Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSDUzRVFQbDZ0YXhOM0RTUEtWbmpTOVYxdUN5M05JSjJMQzJ4eW5aRmt2MWxSYmRrWkp6MTMzMlI1aXBCcDJfYWVjV3lnQjlQcm9rRXlMRERsdzRZN1Eyajh5UFZhX2laa1d1VlM5Y1V2Q2FGX2JCNDVCbmgwWkpzSUZXc01YaEFaZmZzaHpCZ0JTaDd6R0c3ZlM2NklfVWJI?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T06:10:18.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination mineure."
+    },
+    {
+      "id": "afde3abc7b",
+      "title": "Arthur Mensch, Yann LeCun, Eléonore Crespo… : découvrez les 100 personnalités françaises de l’IA",
+      "summary": "L’article Arthur Mensch, Yann LeCun, Eléonore Crespo… : découvrez les 100 personnalités françaises de l’IA est apparu en premier sur Maddyness - Le média pour comprendre l'économie de demain .",
+      "link": "https://www.maddyness.com/2026/11/25/arthur-mensch-yann-lecun-eleonore-crespo-decouvrez-les-100-personnalites-francaises-de-lia/",
+      "image": null,
+      "source": "Maddyness",
+      "via": "rss",
+      "publishedAt": "2026-11-25T06:00:35.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Palmarès de personnalités, peu d'enjeu argent direct."
+    },
+    {
+      "id": "192ee1c529",
+      "title": "Immobilier au Portugal : le marché résiste aux tensions liées à la guerre au Moyen-Orient",
+      "summary": "Le marché immobilier portugais résiste aux premières conséquences économiques de la guerre au Moyen-Orient. Une demande soutenue et une offre de logements insuffisante contribuent à maintenir son dynamisme. Tou…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-au-portugal-le-marche-resiste-aux-tensions-liees-a-la-guerre-au-moyen-orient",
+      "image": "https://cdn.overlord.media/lisbonne_confirme_son_statut_de_marche_immobilier_premium_au_portugal_5ccb2cea_0391a5e0ac.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-25T06:00:00.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Marché local étranger."
+    },
+    {
       "id": "ae1b5bf776",
       "title": "Arnaque aux sentiments : pourquoi la Caisse d'Epargne n'a pas à rembourser la victime",
       "summary": "Escroquée de 23 800 euros après une rencontre en ligne, une veuve demandait à sa banque de la rembourser. La cour d'appel de Riom a donné raison à la...",
@@ -62,10 +210,10 @@
       "collectedAt": "2026-11-25T05:07:32.517Z",
       "brand": "investisseur",
       "score": 0,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 6,
-      "reason": "Possible rachat d'une valeur du SBF 120 par un fonds, encore spéculatif.",
+      "aiScore": 5,
+      "reason": "Rumeur de rachat d'une valeur française connue, mais non confirmée.",
       "hook": "Bureau Veritas bientôt racheté par un fonds américain ?"
     },
     {
@@ -526,6 +674,23 @@
       "aiScore": 5,
       "reason": "Feuilleton Huang déjà largement traité, suites souvent refusées.",
       "hook": "Jensen Huang en thérapie, Nvidia rechute en Bourse"
+    },
+    {
+      "id": "2f02d9877d",
+      "title": "Addex Therapeutics: perte creusée au 3e trimestre",
+      "summary": "Addex Therapeutics: perte creusée au 3e trimestre TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWHJiOEZieUgwNmZaMl9jQTRSVEdxVmlUVkR2VFNfTGVDQ3g1cGQxWGRxeEJTN1B2UVZMTHVvNlF3NUg4emFDZkxCWWhqSnQydGNSTHIxcTRwMVAwU0Rvc2R3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T22:46:00.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation inconnue."
     },
     {
       "id": "48e960097f",
@@ -2052,8 +2217,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Hausse fiscale concrète et chiffrée pour propriétaires parisiens.",
-      "hook": "Paris : 2 800 € de taxe pour un 30 m² vide",
+      "reason": "Fiscalité concrète et frappante pour propriétaires parisiens.",
+      "hook": "2 800 € de taxe pour un 30 m² vide à Paris",
       "notifiedAt": "2026-11-24T17:08:08.213Z"
     },
     {
@@ -2695,7 +2860,7 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Chute spectaculaire de l'IPO la plus attendue de l'IA.",
+      "reason": "Chute spectaculaire de l'IPO IA la plus attendue.",
       "hook": "Anthropic : l'IPO star de l'IA déjà sous l'eau",
       "notifiedAt": "2026-11-24T15:42:56.785Z"
     },
@@ -3239,8 +3404,8 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "BYD s'implante en France, sujet industriel qui fait débat.",
-      "hook": "BYD veut racheter une usine en Moselle"
+      "reason": "Géant chinois s'implantant en France, débat industriel.",
+      "hook": "BYD veut racheter une usine française en Moselle"
     },
     {
       "id": "a5647fd57d",
@@ -5442,8 +5607,8 @@
       "score": 4,
       "status": "new",
       "aiScore": 6,
-      "reason": "Classement chiffré des prix parisiens par arrondissement.",
-      "hook": "Immobilier à Paris : jusqu'à -7 % dans le 8e"
+      "reason": "Classement chiffré des arrondissements, utile aux acheteurs.",
+      "hook": "Paris : jusqu'à -7 % dans le 8e, le classement"
     },
     {
       "id": "cdab919baa",
@@ -6623,9 +6788,9 @@
       "brand": "investisseur",
       "score": 4,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Record historique de décollecte du placement préféré des Français.",
-      "hook": "Livret A : les Français retirent 9,5 milliards, du jamais vu",
+      "aiScore": 9,
+      "reason": "Record historique de décollecte du Livret A, touche tous les épargnants.",
+      "hook": "Livret A : 9,5 milliards retirés, du jamais vu depuis 2008",
       "notifiedAt": "2026-11-24T11:07:30.343Z"
     },
     {
@@ -7653,9 +7818,9 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 9,
-      "reason": "Méga-acquisition record d'un géant du CAC 40.",
-      "hook": "Sanofi s'offre Insmed pour 37,6 milliards d'euros",
+      "aiScore": 8,
+      "reason": "Méga-acquisition record d'un poids lourd du CAC 40.",
+      "hook": "Sanofi dépense 37,6 milliards pour racheter un américain",
       "notifiedAt": "2026-11-24T09:07:34.226Z"
     },
     {
@@ -9315,7 +9480,7 @@
       "status": "new",
       "aiScore": 7,
       "reason": "Changement de règle concret pour bailleurs et locataires.",
-      "hook": "Encadrement des loyers : les locataires n'ont plus qu'un an",
+      "hook": "Encadrement des loyers : le délai de recours passe à un an",
       "notifiedAt": "2026-11-24T07:07:30.538Z"
     },
     {
@@ -9505,6 +9670,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Opinion d'analyste."
+    },
+    {
+      "id": "83cbbf8f6e",
+      "title": "Spot gold may test resistance at $3,697",
+      "summary": "Spot gold may test resistance at $3,697 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTnM0Y1kzT2tvcDVFa21wTzdwNGFhMnI2ekgtZU1vNUxQSlVmT1J0ckJhZmhuQVVMZDBlZDFxZTlkcjMwdVNTSHZNZllfSlNvNGJHbzg0cFBGa2NacjhlSy13ZE5rTmZ4SHBMXzNENDVmUlF3N094QWFaM3JBcHBTWFR0YzBFdXAxYWhNLTRYal9keGpTTDNnWENoNEZrVmVMczhIQjJsaXRIdEU?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T03:39:42.000Z",
+      "collectedAt": "2026-11-25T07:07:48.529Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Analyse technique de cours, trop pointue."
     },
     {
       "id": "9a333d43db",
@@ -58592,23 +58774,6 @@
       "international": true,
       "aiScore": 0,
       "reason": "Agenda d'un marché étranger."
-    },
-    {
-      "id": "3a13b7676e",
-      "title": "Pouvoir d’achat immobilier : combien de m² pour 1 000 euros par mois dans 32 villes",
-      "summary": "Avec une mensualité de 1 000 euros, un ménage peut acheter en moyenne 50,5 mètres carrés dans les 32 grandes villes étudiées par Leboncoin et Meilleurtaux. Mais les écarts sont spectaculaires selon les territoires, de moins de 17 mètres carrés à Paris à près de 135 mètres carrés à Saint-Étienne. Et le pouvoir d’achat immobilier continue de reculer dans la plupart des villes.",
-      "link": "https://www.capital.fr/immobilier/pouvoir-dachat-immobilier-combien-de-m-pour-1-000-euros-par-mois-dans-32-villes-1531887",
-      "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~16~52876d78-8b33-414b-a393-19e54550552e.jpg/1200x900/focus-point/2615%2C1079/pouvoir-d-achat-immobilier-combien-de-m-pour-1-000-euros-par-mois-dans-32-villes.jpg",
-      "source": "Capital Immobilier",
-      "via": "rss",
-      "publishedAt": "2026-11-18T05:45:00.000Z",
-      "collectedAt": "2026-11-18T07:07:24.849Z",
-      "brand": "21m2",
-      "score": 8,
-      "status": "new",
-      "aiScore": 8,
-      "reason": "Classement chiffré utile et comparatif entre villes, écarts spectaculaires très partageables.",
-      "hook": "1 000 €/mois : 17 m² à Paris, 135 m² ailleurs"
     },
     {
       "id": "6029cdccfa",
@@ -142679,25 +142844,6 @@
       "titleOriginal": "Ranked: Candidates Raising the Most Money for the 2026 Midterms"
     },
     {
-      "id": "10db025779",
-      "title": "Graphique : 134 Md$ de remboursements de droits de douane américains contre 119 Md$ perçus depuis mai",
-      "summary": "Charted: $134B in U.S. Tariff Refunds vs. $119B Collected Since May Voronoi by Visual Capitalist",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLWhkVkpKSXFoR1o1MUk2OGdrUlZRbkxNMFhQeTV5aWRKNVlGOEJWZWtjSGl5ZEVubWNkeDRUdUNWOVQyRHM2aXlwOU9jWG1GZzN6SXpyNFZfMnl1WkEzSGtyeXg4b3I1bGE5NEhyU1lNX2tEQVR0YWQ5eThtYWRWRmN3WDRhVUdIdFFhZlphSlVySEdfRTEyanVVLTI0cF9OVXRz?oc=5",
-      "image": null,
-      "source": "Voronoi",
-      "via": "google news",
-      "publishedAt": "2026-10-26T07:00:00.000Z",
-      "collectedAt": "2026-11-11T05:07:32.668Z",
-      "brand": "investisseur",
-      "score": 2,
-      "status": "rejected",
-      "kind": "data",
-      "aiScore": 6,
-      "reason": "Fiasco des droits de douane Trump, chiffre surprenant.",
-      "hook": "Trump rembourse plus de droits de douane qu'il n'en encaisse",
-      "titleOriginal": "Charted: $134B in U.S. Tariff Refunds vs. $119B Collected Since May"
-    },
-    {
       "id": "0488b7e276",
       "title": "The U.S. Industries Gaining and Losing the Most Jobs",
       "summary": "The U.S. Industries Gaining and Losing the Most Jobs Voronoi by Visual Capitalist",
@@ -143200,5 +143346,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-25T05:08:02.851Z"
+  "updatedAt": "2026-11-25T07:08:08.611Z"
 }
