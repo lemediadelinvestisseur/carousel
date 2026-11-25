@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "id": "4addb44b1d",
+      "title": "BNP Paribas prévoit de supprimer 100 postes en France, selon la CFDT",
+      "summary": "BNP Paribas prévoit de supprimer 100 postes dans sa direction des ressources humaines, selon un tract de la CFDT publié mardi sur le réseau social...",
+      "link": "https://www.moneyvox.fr/banque/actualites/111414/bnp-paribas-prevoit-de-supprimer-100-postes-en-france-selon-la-cfdt",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20221003_009410_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-25T15:21:45.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Petite suppression de postes."
+    },
+    {
+      "id": "2fd4bee0b3",
+      "title": "Le gouvernement s'oppose à l'annulation de l'interdiction de location des passoires énergétiques",
+      "summary": "Le ministre du Logement Vincent Jeanbrun a indiqué que le gouvernement ne portera pas la suppression de l'interdiction de louer les passoires...",
+      "link": "https://www.moneyvox.fr/votre-argent/actualites/111413/le-gouvernement-s-oppose-a-annulation-de-interdiction-de-location-des-passoires-energetiques",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20220427_008297_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-25T15:17:38.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "21m2",
+      "score": 2,
+      "status": "new",
+      "aiScore": 8,
+      "reason": "Rebondissement concret sur l'interdiction de louer les passoires.",
+      "hook": "Passoires thermiques : le gouvernement refuse de lever l'interdiction",
+      "notifiedAt": "2026-11-25T15:26:56.727Z"
+    },
+    {
+      "id": "64eba1bb31",
+      "title": "Etats-Unis: L'inflation PCE accélère comme prévu en octobre",
+      "summary": "Etats-Unis: L'inflation PCE accélère comme prévu en octobre Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYmNIR2dNeU5tdDBrbDNWOWlmRW5iRjdNVl9MY0lNT0lWVXc5MERhTmNLLXBEUkxpTnVSU2pjS2VPblJaRHJTQXpRRHVkaTYtU1h2YmRKQndtOG1HZl9OZ3hwYTRrQmstUzRxT21lRkx4OWd5Q0tYREhBY1M4TkFkcmw3eXpkMngtbWNfSGh4MEhBUjJWc0R0c3FxbWJTZEt5WVlqaThFX3lMNVhQRkd3QXhWZmpSMDJsa2c?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T15:13:52.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon PCE."
+    },
+    {
+      "id": "16251d3183",
+      "title": "USA : vif rebond des ventes de logements neufs en octobre",
+      "summary": "USA : vif rebond des ventes de logements neufs en octobre Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbkN6OWo3ZzlSMndaUWxidWl1N0IyZFY2M0RJWGhiOWkzXzhmX3RvbkxvSWptdkN6dnQ0eHh5OFBBQnlGbFQ3RXhEUnpEMlpFNEhvQTZUS2FaeFc2ZHFOSVFOSloxYVpUV01aTlV4NkRvUF9WWjl2MElsbFIwak9sVVd1anBSVlpLZzhkVnlOamVSOXNYYVVKeDlKZlgwSFNLcUVBWTJ4R1dWNThQUUhIbVhRbjZEdw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T15:10:14.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon logements neufs US."
+    },
+    {
       "id": "4e29b420ba",
       "title": "Les cyberattaques dopées à l'IA menacent la Black Friday",
       "summary": "À l'approche du Black Friday, les enseignes doivent se préparer à une recrudescence des attaques informatiques. L'intelligence artificielle permet aux cybercriminels d'automatiser leurs offensives et de rendre…",
@@ -31,6 +99,23 @@
       "status": "ignored",
       "aiScore": 1,
       "reason": "Prestations sociales, sujet exclu par l'éditeur."
+    },
+    {
+      "id": "a9b07d79e8",
+      "title": "Etats-Unis : ventes de logements neufs octobre +14,2% à 701.000",
+      "summary": "Etats-Unis : ventes de logements neufs octobre +14,2% à 701.000 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN1Y1MURQRHBTT1BzQ05kd0FuVTNQR3hGYVFkNjNSYzFyM0g3RFYtaFV1TEZHZ2ViWk0xM0doRWs0aWU3LXpLZmdJQTQ2UVVuOHRSNzhVYkJpV05MVGhGWVdwUl9INm5JbGVRd0lvLVJqamNnUFNiTUp1M2Fubm5FMTRqUjBhTG9yTzBxNmNULWRNVTBOSDUwVmtUM3lWYlNGNjl6ODMtMmhRS3hwdDFVZ25hUm9mZjRWc0ZZ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T15:01:14.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Immobilier américain, peu pertinent en France."
     },
     {
       "id": "e32bd0a0bd",
@@ -99,6 +184,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Déclaration technique."
+    },
+    {
+      "id": "6c14cb6e48",
+      "title": "AstraZeneca prolonge sa collaboration en oncologie avec Tempus AI",
+      "summary": "AstraZeneca prolonge sa collaboration en oncologie avec Tempus AI Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTkl3M0w1ZlV1d2Y2cnFVOFVjQnRQNU9feENROGEtRGtDcnYtaS1ydFZLZnRBRnJnQjgtSXlCNHJ1amNRdmpCcU41VWxpenpfUFAwUkRGdV9mNmx1WkdoN3RnOWlVc0xNcS1yOTdwbEI5QTBQV0QwMmNqX1dPdjZsZ21mOGx2ZXlXVE1TbEJhMGd0MnMwYUUzSmZRc1pSZDJ3Z092b2xHQnhzcDRicnZqQzdGS1lEcGJMRU5RbkpUMmtOcGs?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T14:44:44.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Contrat partenaire mineur."
     },
     {
       "id": "66c61c1be1",
@@ -372,6 +474,23 @@
       "reason": "Niche."
     },
     {
+      "id": "b2b9303b36",
+      "title": "Wall Street devrait ouvrir en baisse alors que les pertes dans le secteur de l'IA s'aggravent ; l'inflation et les droits de douane pèsent sur le marché",
+      "summary": "Wall Street devrait ouvrir en baisse alors que les pertes dans le secteur de l'IA s'aggravent ; l'inflation et les droits de douane pèsent sur le marché TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yWDRVY2lfWWxPUXlyY0d1X3RpZ2R2TlQ0ODUwU2xHVHdqQm4wdXFQLWw5ZzFXZlkwakFyc2ozX1h2X3hQYWU4Z29pME1KS29rRldMdHA1SWlSVUxLaHYzdFUwcVh2RlNaSy00R3o3SFZGamhiczRz?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T14:20:11.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché."
+    },
+    {
       "id": "2797bc93ea",
       "title": "Bureau Veritas déclare ne pas être en discussion avec Advent",
       "summary": "Bureau Veritas déclare ne pas être en discussion avec Advent TradingView",
@@ -422,6 +541,24 @@
       "aiScore": 5,
       "reason": "Cartel des parfums, sujet grand public surprenant.",
       "hook": "Vos parfums étaient-ils truqués par un cartel ?"
+    },
+    {
+      "id": "f39cf249e0",
+      "title": "Les autorités européennes de la concurrence infligent une amende de 516,5 millions de dollars à trois fabricants mondiaux de parfums pour avoir participé à une entente",
+      "summary": "Les autorités européennes de la concurrence infligent une amende de 516,5 millions de dollars à trois fabricants mondiaux de parfums pour avoir participé à une entente TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5iNHByVTlkaXNtNjZTUjI0NFlHeEdEbG82UUhWa25yVnFmbDJNa1ZocjNxX3VWUDhmanU5a1pZd1NjTzlSSUdYX0lXMFlpOGxZeENwaF8ybl9NVXVIWDF2em9weHFTaE54VklaQ0Z6Qnh6S0hYQVhV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T14:15:42.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Amende record cartel des parfums, lien possible avec le luxe.",
+      "hook": "Cartel du parfum : l'Europe inflige 516 millions d'amende"
     },
     {
       "id": "c133b3894f",
@@ -559,6 +696,23 @@
       "reason": "Agenda du jour."
     },
     {
+      "id": "06df7f9264",
+      "title": "USA-L'inflation PCE accélère comme prévu en octobre",
+      "summary": "USA-L'inflation PCE accélère comme prévu en octobre TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBld0RGRjFqRFpZSlQ5SFVVOVpxMXJyQWtaRFBrYWRVTVJFLWhJTnF6RkpWZ1dBWGJ6SHRIWUh0NDdXbmdhSHlRdl9admV3LVJyb3lVeWFjaHdwUUg5QV8yaXdNM3UyZjBMbjJleFdsamZvVjlGdFln?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T14:03:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon PCE."
+    },
+    {
       "id": "6487286ac9",
       "title": "Le secteur financier italien recule de 2 % avec la tech",
       "summary": "Le secteur financier italien recule de 2 % avec la tech Zonebourse Suisse",
@@ -591,6 +745,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Lancement de fonds, refusé."
+    },
+    {
+      "id": "515f60d7d9",
+      "title": "Le conseil de surveillance d'Orlen révoque deux membres du directoire",
+      "summary": "Le conseil de surveillance d'Orlen révoque deux membres du directoire Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTld4QnNReWdjZGVQbnJnS0dyWnc3aV9Hak9vNWRFdVVQOXBNTktsLXQtXzZnVDFSaTVOOWlvUEg3STBFMHhZMko5eWpFYnNCVFpuelNlM3ktU3pJN0NXRjFYcy1WOHNqRjgwTHUzcWFvSldZV3M4VnV5ODNJSTdkSXVERDlGa3NzN2FQdU5fdW5qaXhuNXozOHZUYW03ajFJMjRkZVZvZTJ3Q3RldUswVzVVNUpDVmZabF9TZFBtb1YybGRHQl9mcg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-25T13:58:12.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Entreprise polonaise."
     },
     {
       "id": "75b9946871",
@@ -676,6 +847,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Statistique US routinière."
+    },
+    {
+      "id": "f106c6acfb",
+      "title": "USA-L'inflation PCE ressort à +3,8% sur un an en octobre",
+      "summary": "USA-L'inflation PCE ressort à +3,8% sur un an en octobre TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83dTA3NFExSVN6VFFFcTFWZjZ1V0NzMUpCQjNtdmxEQkZWWnVWcmtfVFpkVndZMFhYd2FBOFU5dXktR3hTUzNhYUlIOUJ1OU5uR0Q3YzA4Z1JoX2xRVU5DRUstaFVUNmh2aHJaV0loMjRHMEV6YXlr?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T13:42:22.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Inflation US attendue, peu engageant."
     },
     {
       "id": "1b4d0ee9d3",
@@ -1001,6 +1189,40 @@
       "reason": "Rachat d'actions d'une société inconnue."
     },
     {
+      "id": "53756e321a",
+      "title": "Banques-La BCE devrait se prononcer sur les réserves obligatoires en décembre ou début 2027 - source",
+      "summary": "Banques-La BCE devrait se prononcer sur les réserves obligatoires en décembre ou début 2027 - source TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zdmhCaE1wT2VFMFVaNkwyRVlqT0otQkNOV3NuSjkxV0J6Uy1nUEdBSkRlWVdPRXNITTZaZkFFTTloaGRlQlVlOHZkSGlqUUJybFRqd0Q5X0hrZERXdGJQMG5zZVdYc2s5RUpqejFkT081REpEdlU0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T12:46:28.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Sujet bancaire technique."
+    },
+    {
+      "id": "8025102d55",
+      "title": "Les marchés boursiers mondiaux reculent face à la menace de nouveaux droits de douane américains, tandis que le rebond lié à l'IA s'essouffle",
+      "summary": "Les marchés boursiers mondiaux reculent face à la menace de nouveaux droits de douane américains, tandis que le rebond lié à l'IA s'essouffle TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0aXBZcjdVMWNFSjFrQkp2SXI1MXpWWWp3RDN4X2N4ODlqM2dXbk1Gc0FxeDBBM01uVVU5R2s3WEVBc24yNXJQX2ZYUkk2SEMyUnQ1cnVMZFZfbjRfU3gyYmtiOXV0TlpJbE5BX1lKX0k4QmZXX1hz?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T12:41:23.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché."
+    },
+    {
       "id": "985c485811",
       "title": "Eni S.p.A. : UBS toujours positif",
       "summary": "Eni S.p.A. : UBS toujours positif Zonebourse Suisse",
@@ -1131,8 +1353,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 7,
-      "reason": "Trump enrichi par Nvidia : coulisses qui font parler.",
-      "hook": "Le retour de Jensen Huang a enrichi Donald Trump",
+      "reason": "Coulisses croustillantes : Trump enrichi par le rebond Nvidia.",
+      "hook": "Le retour de Jensen Huang a enrichi Donald Trump de millions",
       "notifiedAt": "2026-11-25T13:07:40.010Z"
     },
     {
@@ -1216,6 +1438,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Point de marché."
+    },
+    {
+      "id": "754861f55e",
+      "title": "Le cuivre chute à son plus bas niveau depuis 11 mois alors que les investisseurs se retirent",
+      "summary": "Le cuivre chute à son plus bas niveau depuis 11 mois alors que les investisseurs se retirent TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLRE82TVpQQWd4VzZmU2tpbC1hcUQwN2o4M2dUZmhZRG9qclhoTnJaOVFUZUsyLW9LVFNGandqbXgxSEEzVFE4OWgzZUJ4TUk4cl9iZms0Rk1oUWx6Tm5yOFBNVlVVR0xMblBKOVJuMXZBRDZpbi1N?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T12:12:58.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Matière première, point de marché."
     },
     {
       "id": "265bec55a9",
@@ -1337,6 +1576,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "0299b0ebf7",
+      "title": "Liban-Le nouvel aéroport dans le nord témoigne du recul politique du Hezbollah",
+      "summary": "Liban-Le nouvel aéroport dans le nord témoigne du recul politique du Hezbollah TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAweEl5dkxDc3h3WlpCRUM0ZXFyS213WmJJZDVPQk12WUpQM2hZNkFwMjNjaUtGNWk5WTBhc1psUUtzbXo0RDFuLUl0V2FFYjF4MlF0MUFjb3ViV0hvTC1McXhXLTdXVnhoS3UzRkhGTV9XYm1MZ3kw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère."
+    },
+    {
       "id": "25ceace368",
       "title": "Givaudan SA : JP Morgan favorable sur le dossier",
       "summary": "Givaudan SA : JP Morgan favorable sur le dossier Zonebourse Suisse",
@@ -1404,6 +1660,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "f5fd92c68b",
+      "title": "Israël-L'équation d'Eisenkot se complique après le retrait du centre-gauche des négociations",
+      "summary": "Israël-L'équation d'Eisenkot se complique après le retrait du centre-gauche des négociations TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ENTVwcDFSbHRUUFA1VjVTNnhQVVYxT3hUMDVoWEUtTlVYQU5HUWhOVlE1NXZya0xsODA1dDhWcnVzUjBHU3RIMGt6d3hkNW5HamxLa1IyRG9tLTdzMi1ORHBYeU9CNGNGenJMY21MX1A4NzktZWtN?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T11:51:34.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère."
+    },
+    {
       "id": "73bc6d1718",
       "title": "Credem, accord avec Fondo Italiano d'Investimento dans le private equity",
       "summary": "Credem, accord avec Fondo Italiano d'Investimento dans le private equity Zonebourse Suisse",
@@ -1455,6 +1728,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "1edb153017",
+      "title": "USA-Le Wisconsin signale un troisième décès lié à la rougeole cette année",
+      "summary": "USA-Le Wisconsin signale un troisième décès lié à la rougeole cette année TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZWW81T1VLNzJsNWRiVXd2Skg0T0dwMEdvc2ptMkFvQjhROVdaTWM5dGN4WXc2c1lLd0l0MWdkelM4RFhvS05sMHpkTXd3aUI3ZjlacVdTN2NLd21kcjMwNk10SGJ4WkxqSkI5Qk1Tc1Q5TUZ1c1FJ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T11:37:55.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Santé, hors argent."
+    },
+    {
       "id": "9b36180088",
       "title": "Le directeur financier de Traeger, Joey Hord, va quitter ses fonctions",
       "summary": "Le directeur financier de Traeger, Joey Hord, va quitter ses fonctions Zonebourse Suisse",
@@ -1503,6 +1793,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Petite acquisition sans écho en France."
+    },
+    {
+      "id": "4838ce347b",
+      "title": "Les valeurs défensives font progresser le FTSE 100 alors que les données sur l'inflation américaine et les droits de douane pèsent sur les marchés",
+      "summary": "Les valeurs défensives font progresser le FTSE 100 alors que les données sur l'inflation américaine et les droits de douane pèsent sur les marchés TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9KUThDMnZyUnNVeEtLa25HdnZLVUxselRwX1hkaExaSHhNd0hpRWYwSm9VbTVGbk5CZHJwX1NrMXVyRDJpejk4UDkwdnVwbG5kUVAwdWJmUWJXS1FNbEVXZUF2WXltRFFQSjlnN05ieTluVzRNeDFz?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T11:28:09.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché britannique."
     },
     {
       "id": "5d01a27ca6",
@@ -1556,6 +1863,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "cf6130d225",
+      "title": "PhonePe, soutenu par Walmart, relance son processus d'introduction en bourse et vise une valorisation pouvant atteindre 15 milliards de dollars lors de son entrée en bourse, selon une source",
+      "summary": "PhonePe, soutenu par Walmart, relance son processus d'introduction en bourse et vise une valorisation pouvant atteindre 15 milliards de dollars lors de son entrée en bourse, selon une source TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5dzBSUG83V29ReTNwSlJnYnF1MU1tbS1GSnFEamF1a2hPRUdGQ3pRRVpacFVJZzB3OGV1dU9HS1JKdjBpckU5ZzJ4OU04Sm13Vm43dnVtVlFRX0dRdkJwVzVDSHRmOHpaNkRnOU1sTnZtOUtOSGx3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T11:24:32.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "IPO indienne peu connue en France."
+    },
+    {
       "id": "1a5330338b",
       "title": "Deere prévoit pour l'exercice 2027 un résultat net inférieur aux estimations, dans un contexte de faible demande en matériel agricole",
       "summary": "Deere prévoit pour l'exercice 2027 un résultat net inférieur aux estimations, dans un contexte de faible demande en matériel agricole TradingView",
@@ -1586,8 +1910,8 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Fonds souverain européen de 50 Md€ pour la tech.",
-      "hook": "L'Europe sort 50 milliards pour rivaliser avec les géants US"
+      "reason": "Fonds souverain européen de 50 Md€, enjeu pour la tech européenne.",
+      "hook": "L'Europe sort 50 milliards pour rattraper les géants américains"
     },
     {
       "id": "fbfe376f2c",
@@ -1812,6 +2136,40 @@
       "reason": "Titres-restaurant connus mais réglementation brésilienne lointaine."
     },
     {
+      "id": "7b87c174b1",
+      "title": "Les supermarchés américains proposent des promotions pour Thanksgiving alors même que les prix de la dinde grimpent",
+      "summary": "Les supermarchés américains proposent des promotions pour Thanksgiving alors même que les prix de la dinde grimpent TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjNXhQVHFzTW1RcDgySzY2aDFiTEFGbU9oUnQ3Vzdjb2dRUVN6N0lqRHZBRkpTVXBsSGQ3ei1qN2NuUEV4djNmTVlxSXhLcGNRV1ZJOXNwMmFSWG9SY09QcXl6T3Y0dWNnbm5ud29vVTVBUl9fckdJ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T11:01:18.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Consommation US."
+    },
+    {
+      "id": "adac6a2b69",
+      "title": "« Je vais prendre la voiture » : la panne de la FAA et la hausse des tarifs bouleversent les projets de voyage pour Thanksgiving",
+      "summary": "« Je vais prendre la voiture » : la panne de la FAA et la hausse des tarifs bouleversent les projets de voyage pour Thanksgiving TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNRXc2ZGNiQU9oNTZzLU1odTkzMk9ob1AyVWdJVkpXaEdRX1VCd0V1MVZzc1VFUlRsVjVsYmNiVGQzV2pDSktYX2htemJhZ3RXYUJ6aVlaWWtJTnR2Yl9qNzEyVGZSTGxqMmM5TmdTSTBDdkVjUW5R?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T11:00:46.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Consommation américaine."
+    },
+    {
       "id": "1d4afb55fa",
       "title": "Est-ce que la flambée de Sanofi nous envoie un message ?",
       "summary": "Est-ce que la flambée de Sanofi nous envoie un message ? Zonebourse Suisse",
@@ -1944,8 +2302,8 @@
       "score": 6,
       "status": "new",
       "aiScore": 6,
-      "reason": "Classement chiffré utile pour acheteurs.",
-      "hook": "Combien gagner pour acheter 75 m² dans votre ville ?",
+      "reason": "Classement chiffré par ville utile aux primo-accédants, mais format déjà vu.",
+      "hook": "Combien faut-il gagner pour acheter 75 m² dans votre ville ?",
       "notifiedAt": "2026-11-25T11:07:32.885Z"
     },
     {
@@ -2322,6 +2680,23 @@
       "reason": "Lancement produit mineur."
     },
     {
+      "id": "bd5b7fb08a",
+      "title": "Les contrats à terme sur le Nasdaq reculent de plus de 2 % en raison de nouvelles inquiétudes liées aux droits de douane américains ; les chiffres de l'inflation sous les projecteurs",
+      "summary": "Les contrats à terme sur le Nasdaq reculent de plus de 2 % en raison de nouvelles inquiétudes liées aux droits de douane américains ; les chiffres de l'inflation sous les projecteurs TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93UngyUk9hcFJVRlBWXzdZb2kwUHNSZldyR3ZFY3Y4am1INmZzMGZ4X1lwOVAzU3BiZ2dYWTl2NUY4YXBJZDUxa2lvLUJiSjVCY1UwWGdEczN3RVU2NzJ3QWhrSktSbEJONXZDd1VOaWFPV3VHdll3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T10:06:25.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Point de marché du jour, refusé par l'éditeur."
+    },
+    {
       "id": "ff83581983",
       "title": "Tesla en Bourse : les investisseurs partagés entre ambitions technologiques et défis automobiles",
       "summary": "Tesla reste au centre de l’attention des investisseurs, alors que le constructeur automobile poursuit sa transformation technologique. Les perspectives commerciales des véhicules électriques, le développement d…",
@@ -2452,6 +2827,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Politique allemande."
+    },
+    {
+      "id": "a6ffc4aa6a",
+      "title": "PhonePe a repris les discussions avec les banquiers pour relancer son introduction en bourse et vise une valorisation comprise entre 12 et 14 milliards (XX,XX milliards d'euros) de dollars – ET",
+      "summary": "PhonePe a repris les discussions avec les banquiers pour relancer son introduction en bourse et vise une valorisation comprise entre 12 et 14 milliards (XX,XX milliards d'euros) de dollars – ET TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55WEJYV3poQVNJR3NrTV80VDNxdXdMUUVid1ZndDBudU5vQ01YSjhlTHl5NGVnV0tsNnptdDRtdFlObG9JZHJuaXJ1TjZhT2NxbVdjcndQSXByOUc4bVhrNDJlekNoQWNLV00zQzZsSFUyMzVqQUlJ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T09:42:45.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon PhonePe."
     },
     {
       "id": "c501d2dee3",
@@ -4205,6 +4597,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "41c57a1232",
+      "title": "Allemagne-La croissance du PIB ressort à +0,1% au T3",
+      "summary": "Allemagne-La croissance du PIB ressort à +0,1% au T3 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPaHlfcjNLU1lVUzU3dFlNYVNyNS1HZ3ljLThXclV5TFV4VVM3WjVQQTdlTjZiRXVSUGZvMmtIRWhiUXhfWkRJeTJSelpBSV9HcG9yNEV4VkQtZFhQT3Z4a1RLQ1JnQmFFRjd6WGhnX0JtSm9YaDI0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T07:07:29.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Stagnation allemande, statistique sans surprise."
+    },
+    {
       "id": "36108c5310",
       "title": "Amplifon finalise la scission de ses participations hors Union européenne (UE)",
       "summary": "Amplifon finalise la scission de ses participations hors Union européenne (UE) Zonebourse Suisse",
@@ -4470,6 +4879,23 @@
       "status": "ignored",
       "aiScore": 2,
       "reason": "Marché local étranger."
+    },
+    {
+      "id": "705b16b1c2",
+      "title": "L'autorité de régulation malaisienne intente des actions en justice contre Google et réclame 146 millions de dollars pour des contenus \"préjudiciables\"",
+      "summary": "L'autorité de régulation malaisienne intente des actions en justice contre Google et réclame 146 millions de dollars pour des contenus \"préjudiciables\" TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JVVNWanFOUUNvaS1hWnZxc0VDaGJvQl9jVjl1NjZHZ1JWTHV3UWpocEFzX2pXbll1MzNYa0xMR1dyZ0NuckdaaDhuRldXY0RuWmZzbXY3dnhveHVTcUgyYXpwRk0ycG5sWm5UaF8xZFlKdGdIQmxB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-25T05:43:44.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Litige local malaisien."
     },
     {
       "id": "ae1b5bf776",
@@ -4947,6 +5373,23 @@
       "reason": "Changement de ticker d'une microcap australienne."
     },
     {
+      "id": "658df51114",
+      "title": "Avant l'ouverture : l'Europe résiste aux turbulences du secteur technologique, tandis que les droits de douane se profilent à l'horizon",
+      "summary": "Avant l'ouverture : l'Europe résiste aux turbulences du secteur technologique, tandis que les droits de douane se profilent à l'horizon TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IUVJpbkZvR2tSRHhsdzRUMEc3WnRfbV9oVE1xZnNhajQ1NGl6V3V1WWJzLVIwNkZaRU5FdHBXYlgtUEJXWHZjRVh6UGZTdDVKMVNtMW5mWmVBaHduTTJoSTFkQ3djcW9OM0wwYnFlR1BRUjZvNExj?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T23:55:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché."
+    },
+    {
       "id": "3bcc1d4aaa",
       "title": "La confiance des entreprises sud-coréennes recule en novembre",
       "summary": "La confiance des entreprises sud-coréennes recule en novembre Zonebourse",
@@ -5032,6 +5475,23 @@
       "reason": "Détail réglementaire de fusion."
     },
     {
+      "id": "3ad1afa46d",
+      "title": "Données sur les stocks de pétrole de Fujairah (Émirats arabes unis) pour la semaine se terminant le 23 novembre",
+      "summary": "Données sur les stocks de pétrole de Fujairah (Émirats arabes unis) pour la semaine se terminant le 23 novembre TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lZVRWSjdMMWVDLUxFZks5ZUhmTGV3TF9mMVNGdVdZSk05a0haRzZ3aUVFTGZ4Wm5pRDV1d2EwQ085MEN1VFhWOGt1WVlGY09GTkVvOXhmeGRNMHRPVVlZMlZQcURwbEFaczR2d05ITERCUUFtdHQ0?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T23:16:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Donnée pétrolière de niche."
+    },
+    {
       "id": "7df7e285bd",
       "title": "Netherlands' Prosus H1 adjusted profit rises on Tencent investment",
       "summary": "Netherlands' Prosus H1 adjusted profit rises on Tencent investment TradingView",
@@ -5081,6 +5541,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Mouvement d'indice britannique."
+    },
+    {
+      "id": "ee781e790e",
+      "title": "Rémy Cointreau dévoile ses objectifs à moyen terme dans le cadre de son plan de redressement",
+      "summary": "Rémy Cointreau dévoile ses objectifs à moyen terme dans le cadre de son plan de redressement TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NQjhiM1NVTFMxeHRuQzE1a0dQMzRiTlJVSFVwajV4T1dHOEJSa2NvR0NlanQtUzVFM2xtcXc5MDVYWi1vNkFNX3czaDZSV0FCV1BzNnh6TkdBZDVUQTcyZmxIV2VtMUUwTWl3ZEdYeFlYNmhJRWVB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T23:10:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Objectifs d'entreprise sans surprise."
     },
     {
       "id": "1a9867bf18",
@@ -5133,6 +5610,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Marché espagnol local."
+    },
+    {
+      "id": "8a02e5e6da",
+      "title": "Prudence en vue en Europe, \"tech\" et droits de douane devraient peser",
+      "summary": "Prudence en vue en Europe, \"tech\" et droits de douane devraient peser TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wSGJVbTRhdjBwY2xlbGUwNkxLYjQ4bERUVmktY1dnc1VWajJXVW1VY1FKMWhrbFJCY0ZqYTBTcndjdm1McjBaVi1FN3RPOVdFQ2pfN0FEd1VBTHk4Z0lyUGVGS2pxS3Z6N3ZXWWhlTS1hdnMwMU5N?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T22:59:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché."
     },
     {
       "id": "2f02d9877d",
@@ -5270,6 +5764,23 @@
       "aiScore": 5,
       "reason": "Suite de la saga Nvidia/Huang, mais les suites mineures de ce dossier sont souvent refusées.",
       "hook": "Serveurs d'IA en Chine : 270 M$ liés à Alice Huang"
+    },
+    {
+      "id": "1a28e1afbb",
+      "title": "L'autorité de régulation malaisienne réclame 146 millions de dollars de dommages-intérêts à Google pour des contenus « préjudiciables",
+      "summary": "L'autorité de régulation malaisienne réclame 146 millions de dollars de dommages-intérêts à Google pour des contenus « préjudiciables TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FZWZ1NnRTWWc1NTdaajY4dWg5WnpUV3BBRlVwU1ZoVkVta2lyY0duaGY0MVNzNm1saFhqSXhub2REODlNXzJvdXB3aWwyOEN0WmxoLW1ER0ZRNTlYTGwwdVBaQnBhY283UUFRSVJpc0pfMnhJRXpr?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T22:10:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon Google Malaisie."
     },
     {
       "id": "e8c98451b5",
@@ -5821,6 +6332,23 @@
       "reason": "Erratum technique."
     },
     {
+      "id": "bd3ec1b247",
+      "title": "Le cuivre à Londres se stabilise après la chute de la nuit dernière, alors que le rebond lié à l'IA s'essouffle",
+      "summary": "Le cuivre à Londres se stabilise après la chute de la nuit dernière, alors que le rebond lié à l'IA s'essouffle TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaaDkxNk5XYTFaWXhGVFc5aTZTeXdneGQtM0VYOWo3OEkwRnlCUHYxcHE5ZVJ4ejZiR2lzT3Y1OEJQOFpnUjE0eDh0bXlwQmlhR1NMMGpEVF9TQnNCMlJ4OG8xRG5uLXBzSzVHRlRyMG5TZGJfUGdv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T20:08:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Matière première, point de marché."
+    },
+    {
       "id": "cf37855845",
       "title": "Washington prépare une nouvelle salve de droits de douane",
       "summary": "Washington prépare une nouvelle salve de droits de douane Zonebourse Suisse",
@@ -5904,6 +6432,57 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "e1df5f73af",
+      "title": "Starbucks ferait appel à des banques pour la vente de ses activités au Japon, selon Bloomberg News",
+      "summary": "Starbucks ferait appel à des banques pour la vente de ses activités au Japon, selon Bloomberg News TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05eDcwS2JZcjdRckhDS09FV3dnWlQxYXZsdjJsSFUtU1VwN2FraHRXUW1KdEp6amV2aWMxY3hLSHNac1JreV8ybkFaOG9FOVV6WDNBaGJ5RHRzS3hWLV9KV00wR0pEaVlSSGlwRFZmVm9lUkMxUGJN?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T19:29:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Petite opération d'entreprise."
+    },
+    {
+      "id": "ad2694af12",
+      "title": "Des responsables américains informent le personnel du Congrès des renseignements relatifs à l'affaire Nvidia - NYT",
+      "summary": "Des responsables américains informent le personnel du Congrès des renseignements relatifs à l'affaire Nvidia - NYT TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9aZjNmajc5cEd5VC13QkJMZWpfelh5dHpMLXJ3YzV5S28zSkpNUjIxZ2JuQjN6THctS2hjSUFSdWI0SEduYnVWWjBaYnVNYmp2YVBCNXZUVWFDN21uSFJiZVdTRVk0VWc2S1hhc1Y2bFd3WWVXV0RR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T19:25:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Suite mineure de l'affaire Nvidia."
+    },
+    {
+      "id": "10ac8cba45",
+      "title": "Les écarts des swaps de risque de crédit liés à l'IA s'élargissent",
+      "summary": "Les écarts des swaps de risque de crédit liés à l'IA s'élargissent TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84SDRHTjdKLTVVMlktZmhUTWlVRjJieldoRlZYdlNiWUZCejZTUlZhUGxaMFA0dEhrM29OeG51aXR0SHpYSmFjUkNmb3ZXRS1oRXJsS1BISTYyd0xReU1GLVpPX0dkYWhpcjFxRm5oV0tLWkxBMWd3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T19:24:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Trop technique."
     },
     {
       "id": "39a29fac4f",
@@ -6361,6 +6940,23 @@
       "reason": "Point de cours du Bitcoin, refusé par l'éditeur."
     },
     {
+      "id": "d98cb87a00",
+      "title": "Les actions reculent alors que la reprise du secteur de l'IA marque le pas et que les menaces de droits de douane planent",
+      "summary": "Les actions reculent alors que la reprise du secteur de l'IA marque le pas et que les menaces de droits de douane planent TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hOXNUdE5PMWdOS1JSSUxlOWxWazV2a2FhY290MC0teTF4TkFEai1RWm9ZdURqVDRFem84ODZKRFllZkRfT0ktVDBBT0Q5ejFzQmJnMVI1U0F5SHZVMEc5aDFGVnV5cjQzZFZKS3JFWnR3M1dtb1lz?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T17:45:00.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché."
+    },
+    {
       "id": "5e298dc3e0",
       "title": "Meier Tobler convoque une assemblée générale extraordinaire",
       "summary": "Meier Tobler convoque une assemblée générale extraordinaire Zonebourse Suisse",
@@ -6766,6 +7362,23 @@
       "reason": "Point de marché du jour."
     },
     {
+      "id": "a700eb6897",
+      "title": "XXF Group Says Unit Enters Sale And Leaseback Agreement",
+      "summary": "XXF Group Says Unit Enters Sale And Leaseback Agreement TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSURYSFc3OHlEa2hHYWtzY3ctWGl4ZHpYTm1HaVZMUTd3ZWRpTm5SNDFubFBOcUsyLWcxZEN6OWZ2ZzJJZnFVMTRhcHZRN2oxemJCR0NldEtIZ2N6aFBRNlk1SUlCcTNCRWdFczNYQjJERnlUQ3YzT1k3c282WGh4OHNuTDZBV1M1WHNTUnF4dHFiNVRjanYzSnRCWnZHa2g1RTFELVFlMFYwU3gwVU93NWplanJsWFpESjdBOFg1TkM1dw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T17:10:42.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Société inconnue."
+    },
+    {
       "id": "7a8ecda127",
       "title": "Le Bitcoin recule sur fond de craintes liées aux droits de douane américains, tandis qu’Anthropic passe sous son prix d’introduction en Bourse",
       "summary": "Le Bitcoin recule sur fond de craintes liées aux droits de douane américains, tandis qu’Anthropic passe sous son prix d’introduction en Bourse TradingView",
@@ -6917,8 +7530,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Fiscalité concrète choc pour propriétaires parisiens.",
-      "hook": "Paris : 2 800 € de taxe pour un 30 m² vide",
+      "reason": "Changement fiscal concret et chiffré qui touche les propriétaires parisiens et fait débat.",
+      "hook": "Paris : 2 800 € de taxe pour un 30 m² laissé vide",
       "notifiedAt": "2026-11-24T17:08:08.213Z"
     },
     {
@@ -7158,6 +7771,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Point de marché sur Nvidia, sujet déjà saturé et refusé."
+    },
+    {
+      "id": "ad45df58f0",
+      "title": "Nvidia retombe en Bourse, les inquiétudes autour du groupe pas dissipées",
+      "summary": "Nvidia retombe en Bourse, les inquiétudes autour du groupe pas dissipées TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BYzNOa3cxX2NKMlVvcUdoQmV5R0g1RjlOV3Y2WVhjSDJYMmVOaS0wbWk5M0xLU21udmJmYWNOUUlqVGxHaUtVdGtPZDVPQjNhRnFlYTA2T2pydGxrRXRwNFdCRQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T16:20:52.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Suite mineure du feuilleton Nvidia déjà traité."
     },
     {
       "id": "db4da8be70",
@@ -7661,9 +8291,9 @@
       "score": 7,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Chute spectaculaire de l'IPO IA la plus attendue.",
-      "hook": "Anthropic déjà sous son prix d'introduction en Bourse",
+      "aiScore": 7,
+      "reason": "Chute spectaculaire après l'IPO la plus attendue de l'IA, ça fait parler.",
+      "hook": "Anthropic : l'IPO star de l'IA déjà sous son prix d'entrée",
       "notifiedAt": "2026-11-24T15:42:56.785Z"
     },
     {
@@ -9513,9 +10143,9 @@
       "score": 0,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Géant chinois qui s'installe en France, débat assuré.",
-      "hook": "BYD va fabriquer ses voitures électriques en Moselle",
+      "aiScore": 6,
+      "reason": "BYD qui s'installe en France intrigue, mais sujet plus industriel que boursier.",
+      "hook": "BYD veut produire ses voitures chinoises en Moselle",
       "notifiedAt": "2026-11-25T13:07:40.010Z"
     },
     {
@@ -10511,10 +11141,10 @@
       "collectedAt": "2026-11-24T13:08:10.749Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Classement chiffré des prix parisiens.",
-      "hook": "Paris : jusqu'à -7 % dans le 8e arrondissement"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Classement des arrondissements chiffré, mais proche des points de marché locaux refusés.",
+      "hook": "Paris : jusqu'à -7 % dans le 8e, le classement des arrondissements"
     },
     {
       "id": "cdab919baa",
@@ -11695,7 +12325,7 @@
       "score": 4,
       "status": "new",
       "aiScore": 8,
-      "reason": "Record historique de décollecte du Livret A.",
+      "reason": "Record historique de décollecte du placement préféré des Français, chiffre frappant.",
       "hook": "Livret A : 9,5 milliards retirés, pire année depuis 2008",
       "notifiedAt": "2026-11-24T11:07:30.343Z"
     },
@@ -12742,9 +13372,26 @@
       "score": 2,
       "status": "new",
       "aiScore": 8,
-      "reason": "Méga-rachat record par un champion du CAC 40.",
-      "hook": "Sanofi s'offre Insmed pour 37,6 milliards d'euros",
+      "reason": "Méga-acquisition d'un géant du CAC 40, montant record.",
+      "hook": "Sanofi met 37,6 milliards sur la table pour un américain",
       "notifiedAt": "2026-11-24T09:07:34.226Z"
+    },
+    {
+      "id": "5b94a17cab",
+      "title": "Euro zone yields inch lower as calm returns across markets",
+      "summary": "Euro zone yields inch lower as calm returns across markets TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZzVHLVVsUUw1czlaNDNvYXlVUENUODFsU0didmp5T2RfVGFZUVZWakxPZDF4UXFSR3dMdElMNTZkOC1HckQzb2J4TkRuNzc0OVd6ek1Vd1BicjJfemJqc2ZXMGtPbjI0QVpIZkVnUkNreFd4NDhaNDdScFNsb0JqckVUWlJVenBzVGJodlc4SkJURGdnTlNjUWFmdEVERXdXRkdpRjllZUg2VnBJcHJIeUJDNm5pTnd1SW5IdEllQkpFa0cwWHc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-24T08:23:41.000Z",
+      "collectedAt": "2026-11-25T15:26:56.727Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Obligataire technique."
     },
     {
       "id": "b547be6215",
@@ -14419,8 +15066,8 @@
       "score": 8,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement de règle concret bailleurs/locataires.",
-      "hook": "Encadrement des loyers : un an seulement pour contester",
+      "reason": "Changement de règle concret pour bailleurs et locataires sur l'encadrement des loyers.",
+      "hook": "Loyer trop cher : vous n'avez plus qu'un an pour agir",
       "notifiedAt": "2026-11-24T07:07:30.538Z"
     },
     {
@@ -148250,5 +148897,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-25T15:08:21.888Z"
+  "updatedAt": "2026-11-25T15:27:31.300Z"
 }
