@@ -1,6 +1,79 @@
 {
   "posts": [
     {
+      "id": "4da991d9e7",
+      "createdAt": "2026-11-26T06:15:03.417Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le monde dépense 2 700 milliards de dollars dans l'IA en 2026, l'Europe arrive fièrement avec son fonds souverain de 50 milliards.",
+      "text": "2 700 milliards de dollars.\nC'est ce que le monde devrait dépenser dans l'IA en 2026.\n\nEt l'Europe, elle, annonce un fonds souverain de 50 milliards d'euros pour l'IA et le quantique.\n\nSur le papier, 50 milliards, c'est énorme.\nÀ côté de 2 700 milliards, c'est un peu comme arriver à une vente aux enchères avec un billet de 20 €.\n\nSoyons justes : c'est mieux que rien.\nEt les investisseurs privés européens ne partent pas de zéro.\n\nMais quand les géants américains dépensent ce genre de montant chacun de leur côté, on mesure l'écart.\n\nÀ votre avis, l'Europe peut encore rattraper son retard sur l'IA ?\nOu on a déjà raté le train ?",
+      "image": "carousels/linkedin/2026-11-26/4da991d9e7.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Pawn Stars Best I Can Do",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Le monde en 2026 : 2 700 milliards de dollars dans l'IA",
+          "L'Europe : 50 milliards, c'est le mieux que je puisse faire"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-26T06:15:10.644Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "202e47c099",
+      "createdAt": "2026-11-26T06:14:59.414Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le revenu nécessaire pour acheter un 75 m² dans les grandes villes : l'article qu'on lit plein d'espoir et qu'on referme en silence.",
+      "text": "Il y a des articles qu'on ouvre avec espoir.\nEt qu'on referme en silence.\n\nCette semaine : le revenu nécessaire pour acheter un 75 m² dans les grandes villes françaises.\n\nLe déroulé est toujours le même :\n1. On cherche sa ville.\n2. On regarde le chiffre.\n3. On regarde sa fiche de paie.\n4. On regarde à nouveau le chiffre, au cas où.\n5. On commence à se renseigner sur les 45 m².\n\nEt à côté, il y a toujours quelqu'un pour demander : « Alors, tu achètes quand ? »\n\nLe 75 m² en ville est devenu le nouveau rêve de luxe.\nAvant c'était la maison avec jardin.\n\nVous avez fait le calcul pour votre ville ?\nVous êtes plutôt Anakin ou Padme dans cette histoire ?",
+      "image": "carousels/linkedin/2026-11-26/202e47c099.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Anakin Padme 4 Panel",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "J'ai lu l'article sur le salaire qu'il faut pour un 75 m²",
+          "Donc tu achètes l'an prochain ?",
+          "Tu achètes l'an prochain… hein ?"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-26T06:15:03.417Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "db53417367",
+      "createdAt": "2026-11-26T06:14:57.263Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Musk promet 2 actions SpaceX à chaque enfant américain, pendant que le bébé français regarde la fête avec son Livret A à 20 € offert par Mamie.",
+      "text": "Aux États-Unis, Musk promet 2 actions SpaceX à chaque enfant.\n\nEn France, le kit financier de naissance, on le connaît tous :\nun Livret A ouvert par Mamie,\n20 € dessus,\net un petit carnet qu'on retrouve au fond d'un tiroir à 18 ans.\n\nJe ne sais pas si la promesse de Musk sera tenue.\nMais l'idée fait réfléchir.\n\nParce que la vraie différence, ce n'est pas le montant.\nC'est l'habitude.\n\nGrandir en se disant « je possède un bout d'entreprise »\nplutôt que « j'ai de l'argent qui dort quelque part ».\n\nC'était quoi, votre tout premier placement ?\nLe Livret A de Mamie aussi ? 😄",
+      "image": "carousels/linkedin/2026-11-26/db53417367.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Squidward window",
+        "image_query": null,
+        "caption": "Musk promet deux actions SpaceX à chaque enfant américain. Le bébé français, avec son Livret A à 20 € offert par Mamie :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-26T06:14:59.414Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "b0c12403b8",
       "createdAt": "2026-11-25T06:14:48.928Z",
       "origin": "auto",
@@ -868,5 +941,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-25T06:14:57.835Z"
+  "updatedAt": "2026-11-26T06:15:10.645Z"
 }
