@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "id": "4a114a6790",
+      "title": "La reconquête de STMicroelectronics passe par les STM32",
+      "summary": "La reconquête de STMicroelectronics passe par les STM32 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV2ZFb01fcUx3dTNQNEZOalAzaVlCLUplcGUwYzhQalJZeEV5MGcyd0dVMkZETFg2N1JLMjRIZTZqZWFzUHN3TE5mcUk2Z3AyclFmMWUyeDlFMVY4ekV1eEl0RENNVkowWjZxVmQxSy1TZGJudGp5d2tHdGVTd0RoQ3VuSkNQSVRTQ3dCYlI4eEZkbzZ1d2ZEa3B2MnBEWTY2Tm54VU5Fd3JTUmdfNHc2azdOVGwydw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:00:04.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Sujet produit technique sur STMicro, peu viral."
+    },
+    {
+      "id": "bc2a980d09",
+      "title": "Italie: les exportations hors UE s'essoufflent",
+      "summary": "Italie: les exportations hors UE s'essoufflent Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSFk0NjdSS1lILUlhSDhLMk9CbHdPaXllZGhoYW9ubnFoMWdKdTNSeWlYQXI4VTI5QWs0YVh4ZU14eGdBNzZ0UEpYZnhneHlNVmFMN1FSTGRud3lYRWpMUHJLZFEwNmNTbklMNk9vbzJNNVBmSUt6SHBCMkhnYk40VWhIRWtkTmdpcDgxMmhmYkFrVGVsbEJYLWt6VnVJbVVqZTdoUndYdHM?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T14:59:17.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Statistique étrangère technique."
+    },
+    {
+      "id": "a23800ce2c",
+      "title": "Wall Street rebondit à l'ouverture, Nvidia hésite",
+      "summary": "Wall Street rebondit à l'ouverture, Nvidia hésite Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVTF1cHM2Yl9Zczk4YlBpRlpuWURsNTdRMW03em1zOGJSQ3g1SVRtT0czRHhhLUk5MDNKd2ZpZkN5RHhicWN6TTJkU0VLUTdqUFZCNi0xRlVmUS1WTjBxMUhDSEpDd0lDQ3RPcnVVOERRSFdMeDRIcUdabEtDVl8zUUNLeGNPTjNlVEx2WkN5aWIxWWdFcHQxWGpIM3RpR2Y3RFJVZlRUVnhVOTIw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T14:54:14.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché du jour, refusé par l'éditeur."
+    },
+    {
+      "id": "39f9597acd",
+      "title": "Vincenzo Troia nommé responsable des relations investisseurs de Giglio.com",
+      "summary": "Vincenzo Troia nommé responsable des relations investisseurs de Giglio.com Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNnVkeTRXZkpzc2UxQjNsVVJ0WE9ycVdQX1pyLU93Yi1rRkNGcFgyNlJqd1FVYlM4NlZOenV3ZnVNNzdhOHlUNXY5LWYxcEVJM0twRHFNTWUyaTdjYzg4dWNnSmJ5U1VYc1hvdmR3SjhKX0E1Y0d3dEFrYTNFV2RNa0NHMEN4ZDNrekxQb1U5ZWdhcElWLTF6dzhyd3JpQmJVRGNYY3RWekxodU9NNE96UzlFOEZoU1ljMHNwZ0NobTl3eXdVWEZIVkhEN2phZVhx?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T14:52:13.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination mineure."
+    },
+    {
       "id": "3641c54302",
       "title": "Marvell attendu sur l'optique après le choc Lumentum",
       "summary": "Marvell attendu sur l'optique après le choc Lumentum Zonebourse",
@@ -100,6 +168,23 @@
       "status": "ignored",
       "aiScore": 3,
       "reason": "Récap hebdo de levées faible montant, peu marquant."
+    },
+    {
+      "id": "707a177128",
+      "title": "AST Spacemobile, PVH, Reddit",
+      "summary": "AST Spacemobile, PVH, Reddit TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9zSzJOZEtpQjllLWluODhBZlEzWmxDSmVXSHlBMkoydUJ6Ul9IdVFYS28yMTU5NkhOcWU1RmNSNEJNMjVEMV9YZDlGLVlveFBtQkJ4dktkbFlIVkdpRnBvM0ZkcE1MNXJFR1czckVWQXRXcDZpUktj?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T14:35:32.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Liste de valeurs américaines sans contexte."
     },
     {
       "id": "3593b8f8be",
@@ -288,6 +373,23 @@
       "reason": "Chiffre d'affaires d'une petite société."
     },
     {
+      "id": "9fa399f039",
+      "title": "L'armée polonaise utilisera l'IA de Palantir",
+      "summary": "L'armée polonaise utilisera l'IA de Palantir TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SWGFBaWlZQ1VHZmluTU9BMExsejlSN0NiTndvdTgtWHlFZXNlY0NIeUZqQUU0YVRvSXV0Mnh1V0RKZU9PRXRmZlhFRVFiWVMteFF4azU0NzAyTWRscktSZU1B?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T14:08:24.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Contrat Palantir à l'étranger, petite actu d'entreprise."
+    },
+    {
       "id": "6ec5223937",
       "title": "Rémy Cointreau : Berenberg Research est neutre sur le titre",
       "summary": "Rémy Cointreau : Berenberg Research est neutre sur le titre Zonebourse Suisse",
@@ -473,6 +575,40 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste."
+    },
+    {
+      "id": "68f0404eea",
+      "title": "Brixmor Property Group Inc. : Truist Securities optimiste sur le dossier",
+      "summary": "Brixmor Property Group Inc. : Truist Securities optimiste sur le dossier Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3RlS1ZURUV1ZWhZMDZON0N5TXdRX1NJNzNSdzRNYlBRRTMyMGcwdkcyd2NFYjFlMk05WmNnVWMydXphOHZkUmZ5WnowRXBmU1NhRmo1bVh5Z2lCS2pBcUlBYlp5RVpDd01GaUVGZkF2M01Qa0NrbFRraXdSbWVqY1hhM211a2N6eXdma0g1d2RTNFRxaVg4QVBxSXJHMENuRmFwQmgtX19aQkY4Q2ZFV3RTQ05uQUoyN29MaGNKbXFManY1WEZUMg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T14:02:47.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Recommandation d'analyste sur une foncière US inconnue."
+    },
+    {
+      "id": "c6cf7ef861",
+      "title": "Regency Centers Corporation : Truist Securities optimiste sur le dossier",
+      "summary": "Regency Centers Corporation : Truist Securities optimiste sur le dossier Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMWpPMTdLN1p5YXlWTDNWcHdOYVhlbVVONHVrbHpWaDFqWDlJY20xTnEwUHFWVnN6Uy1SWnpsN1JsM3VlYzdEZlRNU0VWT3BQUEFzZU0wZkgxSmljcjJsV0JYX3FvNGlyN3ZvZTNwX3ZIaWNldTFYV2JOLXdJTkRyWEFCdG9ncTI4anU0QWdwWGx6YUVmNmV0Zl9vWkR1Ni1ZbmNzZkhiR0x1Z2lId25OSlE0dFEtNEpLSmxRb2Y3QzRBR3FQckNyYmJR?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T14:02:28.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de recommandation d'analyste."
     },
     {
       "id": "f074d0ad70",
@@ -720,9 +856,9 @@
       "collectedAt": "2026-11-27T14:54:26.374Z",
       "brand": "21m2",
       "score": 4,
-      "status": "new",
-      "aiScore": 7,
-      "reason": "Changement fiscal concret pour l'investissement locatif, très suivi par les bailleurs.",
+      "status": "ignored",
+      "aiScore": 0,
+      "reason": "Doublon de la TVA 5,5% sur le neuf locatif.",
       "hook": "Le Sénat baisse la TVA pour relancer l'investissement locatif",
       "notifiedAt": "2026-11-27T14:54:26.374Z"
     },
@@ -944,8 +1080,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret pour l'investissement locatif dans le neuf.",
-      "hook": "TVA à 5,5% sur le neuf : le Sénat relance l'investissement locatif",
+      "reason": "Changement fiscal concret pour les investisseurs locatifs dans le neuf.",
+      "hook": "TVA à 5,5% au lieu de 20% : le Sénat relance le locatif neuf",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
     {
@@ -2973,10 +3109,10 @@
       "collectedAt": "2026-11-27T09:07:37.327Z",
       "brand": "investisseur",
       "score": 5,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "La France entre en récession, sujet fort mais macro.",
-      "hook": "Officiel : la France est en récession",
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Récession en France, fait marquant mais macro classique.",
+      "hook": "La France officiellement en récession ?",
       "notifiedAt": "2026-11-27T09:07:37.327Z"
     },
     {
@@ -4772,8 +4908,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir, format apprécié.",
-      "hook": "Grand Paris Express : 3 gares où le locatif rapporte +5%",
+      "reason": "Classement chiffré utile pour investir autour du Grand Paris Express.",
+      "hook": "Grand Paris Express : 3 quartiers où le locatif rapporte +5%",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
     {
@@ -8001,9 +8137,9 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 9,
-      "reason": "Suite directe d'un sujet validé, annonce majeure BCE.",
-      "hook": "C'est officiel : voici le successeur de Christine Lagarde",
+      "aiScore": 8,
+      "reason": "Suite attendue du successeur de Lagarde, sujet validé auparavant.",
+      "hook": "C'est officiel : voici qui remplace Christine Lagarde à la BCE",
       "notifiedAt": "2026-11-26T14:58:14.270Z"
     },
     {
@@ -8362,6 +8498,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "058653ebd3",
+      "title": "Kabra Commercial Says Rajesh Kumar Kabra Resigns As MD",
+      "summary": "Kabra Commercial Says Rajesh Kumar Kabra Resigns As MD TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUtVWUFZd2JDWnZhNEJteFpvczNlMjhQSGhkSkN2djM0R0JfNllCbEY4Q2xpQkZkenJ4dk5kWEJUYjFocTVySGw0NkQwZ2JWa0VzSW95WlRHUzc3TVFQQko3X2didnVheVdfT1B5ejlNT0RiUXNINTJWY29TWWk2R2Fsb2x0bGZVZGtVeE9tOTVWNDg2aVdSTDVaQTg4eWlmRmNDN3BmcW5RcEdMdzA2cC1rWXprLUJQdktSMHhIUkk?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-26T13:45:42.000Z",
+      "collectedAt": "2026-11-27T15:07:32.950Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite société indienne inconnue."
+    },
+    {
       "id": "b97d5cac2e",
       "title": "CSG grimpe après l'annonce d'un projet industriel avec Bochemie",
       "summary": "CSG grimpe après l'annonce d'un projet industriel avec Bochemie Zonebourse Suisse",
@@ -8477,8 +8630,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Touche directement l'assurance vie et la transmission, sujet clivant.",
-      "hook": "Assurance vie : le Sénat veut raboter l'abattement de 52 500 €",
+      "reason": "Touche directement la transmission via l'assurance vie, sujet qui divise.",
+      "hook": "Assurance vie : l'abattement de 152 500 € pourrait fondre à 100 000 €",
       "notifiedAt": "2026-11-26T14:58:14.270Z"
     },
     {
@@ -9281,8 +9434,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 8,
-      "reason": "Changement fiscal majeur pour les propriétaires de résidences secondaires.",
-      "hook": "Résidence secondaire : fin de l'exonération après 30 ans ?",
+      "reason": "Changement majeur de fiscalité pour les propriétaires de résidences secondaires.",
+      "hook": "Résidence secondaire : fin de l'exonération de plus-value après 30 ans",
       "notifiedAt": "2026-11-26T13:07:31.551Z"
     },
     {
@@ -10603,9 +10756,9 @@
       "brand": "investisseur",
       "score": 5,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Record historique de retraits sur les ETF Bitcoin.",
-      "hook": "Bitcoin : 5 milliards fuient les ETF, un record historique",
+      "aiScore": 6,
+      "reason": "Record historique de retraits, chiffre frappant mais proche des points crypto.",
+      "hook": "Bitcoin : 5 milliards retirés des ETF, pire mois de l'histoire",
       "notifiedAt": "2026-11-26T11:07:34.490Z"
     },
     {
@@ -10926,9 +11079,9 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Annonce spectaculaire d'Elon Musk, chiffre frappant.",
-      "hook": "Elon Musk offre des actions SpaceX à chaque enfant américain",
+      "aiScore": 7,
+      "reason": "Annonce spectaculaire de Musk, chiffre frappant qui fait débat.",
+      "hook": "Musk offre deux actions SpaceX à chaque enfant américain",
       "notifiedAt": "2026-11-26T11:07:34.490Z"
     },
     {
@@ -11835,7 +11988,7 @@
       "status": "new",
       "international": true,
       "aiScore": 6,
-      "reason": "Scandale d'espionnage chez un géant européen.",
+      "reason": "Soupçons d'espionnage chez un géant européen, type d'histoire appréciée.",
       "hook": "SAP soupçonné d'espionnage industriel"
     },
     {
@@ -11902,7 +12055,7 @@
       "brand": "investisseur",
       "score": 7,
       "status": "new",
-      "aiScore": 8,
+      "aiScore": 9,
       "reason": "Coulisses d'un patron star du CAC 40, sujet qui fait parler.",
       "hook": "Bernard Arnault pourra diriger LVMH jusqu'à 95 ans",
       "notifiedAt": "2026-11-26T09:07:34.066Z"
@@ -13280,7 +13433,7 @@
       "score": 3,
       "status": "new",
       "aiScore": 6,
-      "reason": "Baisse des prix parisiens chiffrée, mais thème récurrent.",
+      "reason": "Prix parisiens chiffrés, mais baisse modeste déjà souvent traitée.",
       "hook": "Paris : même le 8e arrondissement chute de 6,8%"
     },
     {
@@ -57225,24 +57378,6 @@
       "international": true,
       "aiScore": 2,
       "reason": "Point de marché générique."
-    },
-    {
-      "id": "9e9627df9d",
-      "title": "DPE : pas de second vote à l’Assemblée sur la fin de l’interdiction de louer",
-      "summary": "L’examen du projet de loi de relance du logement s’est achevé ce vendredi à l’Assemblée nationale, sans seconde délibération sur l’amendement, adopté, qui abroge l’interdiction de mise en location des passoires thermiques. Un amendement qui pourrait éventuellement être modifié en commission mixte paritaire.",
-      "link": "https://www.capital.fr/immobilier/dpe-pas-de-second-vote-a-lassemblee-sur-la-fin-de-linterdiction-de-louer-1532029",
-      "image": "https://cap.img.pmdstatic.net/fit/~1~cap~2026~11~20~4e3d8f10-2e73-458c-8730-b6b274ceb62c.jpg/1200x900/quality/80/dpe-pas-de-second-vote-a-l-assemblee-sur-la-fin-de-l-interdiction-de-louer.jpg",
-      "source": "Capital Immobilier",
-      "via": "rss",
-      "publishedAt": "2026-11-20T15:00:43.000Z",
-      "collectedAt": "2026-11-20T15:07:29.031Z",
-      "brand": "21m2",
-      "score": 4,
-      "status": "new",
-      "aiScore": 8,
-      "reason": "Changement concret majeur pour les bailleurs de passoires thermiques.",
-      "hook": "Passoires thermiques : l'interdiction de louer bientôt abrogée ?",
-      "notifiedAt": "2026-11-20T15:07:29.031Z"
     },
     {
       "id": "4b84a40692",
@@ -168684,5 +168819,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-27T14:55:12.099Z"
+  "updatedAt": "2026-11-27T15:07:52.810Z"
 }
