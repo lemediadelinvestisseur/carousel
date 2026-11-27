@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "9920eef96a",
+      "createdAt": "2026-11-27T06:14:53.343Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "La fin de l'exonération de plus-value après 30 ans sur les résidences secondaires : le proprio qui en était à 29 ans de détention s'effondre juste avant la ligne d'arrivée.",
+      "text": "29 ans et 11 mois de patience. Pour rien.\n\nL'exonération de plus-value après 30 ans de détention sur les résidences secondaires va disparaître.\n\nLe deal était simple : tu gardes ta maison de campagne longtemps, tu changes les volets, tu repeins, tu gères la fosse septique… et au bout de 30 ans, le fisc te laisse tranquille à la revente.\n\nC'était le seul placement français avec un « niveau final ».\n\nEt là, on retire la ligne d'arrivée pendant que tu cours encore.\n\nMention spéciale à ceux qui avaient entouré la date dans l'agenda depuis 1997.\n\nSi tu as une résidence secondaire : tu vends avant que ça tombe, ou tu la gardes pour les vacances quoi qu'il arrive ?",
+      "image": "carousels/linkedin/2026-11-27/9920eef96a.jpg",
+      "meme": {
+        "image_source": "photo",
+        "format": "caption",
+        "template": null,
+        "image_query": "marathon runner collapsing just before finish line",
+        "caption": "L'exonération de plus-value après 30 ans de détention va être supprimée. Les proprios de résidence secondaire à 29 ans :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-27T06:15:04.907Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "f5bd9555cd",
+      "createdAt": "2026-11-27T06:14:47.024Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le Sénat veut raboter l'abattement de l'assurance vie de 152 500 à 100 000 € : on nous dit que ça ne touchera que les très riches, on connaît la chanson.",
+      "text": "L'assurance vie, le placement préféré des Français. Et visiblement, du Sénat aussi.\n\nLa proposition : faire passer l'abattement de 152 500 € à 100 000 € par bénéficiaire, dès janvier 2027.\n\nSur le papier, ça ne concerne « que » les gros patrimoines.\n\nDans la vraie vie, on a tous déjà vu le film : un seuil qui ne bouge jamais avec l'inflation, puis un premier rabot, puis un autre…\n\nLe plus ironique ? L'assurance vie, c'était justement LE produit stable. Celui qu'on ouvre « pour plus tard » sans trop se poser de questions.\n\nPour l'instant, ce n'est qu'une proposition. Mais le signal est envoyé.\n\nTu ouvres encore une assurance vie en pensant à la transmission, ou c'est devenu un placement comme un autre ?",
+      "image": "carousels/linkedin/2026-11-27/f5bd9555cd.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Anakin Padme 4 Panel",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "On rabote l'abattement de l'assurance vie",
+          "Juste pour les très riches, hein ?",
+          "Juste pour les très riches, hein ?"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-27T06:14:53.343Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "383eb7b3f5",
+      "createdAt": "2026-11-27T06:14:45.573Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Bernard Arnault pourra diriger LVMH jusqu'à 95 ans : ses enfants vont devoir patienter encore un bon moment avant de prendre la suite.",
+      "text": "La retraite à 95 ans existe. Mais seulement chez LVMH.\n\nC'est validé : Bernard Arnault pourra rester aux commandes jusqu'à ses 95 ans.\n\nL'action a bondi. Les marchés adorent la stabilité.\n\nLes enfants, eux, adorent sûrement leur père. Mais ils vont devoir s'armer de patience.\n\nQuelque part, il y a un plan de succession rangé dans un tiroir, avec un post-it : « à rouvrir vers 2044 ».\n\nC'est peut-être le DCA le plus long de l'histoire : on accumule de l'expérience pendant des décennies avant le premier jour au poste.\n\nEt toi, tu bosserais jusqu'à quel âge si tu avais une boîte comme ça ? 😅",
+      "image": "carousels/linkedin/2026-11-27/383eb7b3f5.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Waiting Skeleton",
+        "image_query": null,
+        "caption": "Bernard Arnault pourra diriger LVMH jusqu'à 95 ans. Ses cinq enfants, sagement dans la file d'attente :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-27T06:14:47.024Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "4da991d9e7",
       "createdAt": "2026-11-26T06:15:03.417Z",
       "origin": "auto",
@@ -941,5 +1011,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-26T06:15:10.645Z"
+  "updatedAt": "2026-11-27T06:15:04.907Z"
 }
