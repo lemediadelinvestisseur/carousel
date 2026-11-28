@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "7f3da8fc7e",
+      "title": "TEST-Test Veuillez ignorer",
+      "summary": "TEST-Test Veuillez ignorer Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNVI5RFQ0bm41SDVyRlI4Z1kwX0tfNHVqRHZQNUVIbDYwMkozNldzQVFrd0tZOHljaXhFN0FvcWhWZ3BkZlp4OFlUT0l5NDFiNFlXejl1eXNRRjlNbHFtcHh6OWF3a1lEY1NDbExHNkRYZENOLTRoeEE0d2RqVjE4bmJPUGNlSGZsdi1Ta1d5TQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T06:52:15.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Message de test, pas une actualité."
+    },
+    {
+      "id": "3c91257a63",
+      "title": "« La location touristique n'est pas la cause principale de la crise du logement » : le patron d'Airbnb France défend sa stratégie face aux critiques",
+      "summary": "« La location touristique n'est pas la cause principale de la crise du logement » : le patron d'Airbnb France défend sa stratégie face aux critiques Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbDhIQW1FcklPRVp5cUNjdUJCdllQaFNEall1UmZmckcwQjZ1LXd6NEdESW9SMkhaTjZpVnBLYlZmV2Znd0hLVEdLdElxUzhoZ3IzUzNVaFlsRC1hWDNzUWVTVkxpQ0JjQkFiSWN2MHJVdnR4T3FWeTVLeS1oN3dCaWlOMkRvZ2FaeE9nY1VPOU8zLTZHVy1YVTVrZC1tS2kwVVM4M0o3TjM2eEM3NG15Rk1VVGNUcGQ3V1hVamd5WFFvUVlzaTNleldyRnRtdF9pS1ozUndtbF82bklCMUVsdVp6blVQdXY2ZkJ6dTFRVHhtc1A5X1JkYnFKeEwxbWNsb2oyd1V4M2pDS3hBUzNwb09Gc2NCQkJMNWo1VE5Paw?oc=5",
+      "image": null,
+      "source": "Les Echos Patrimoine Immobilier",
+      "via": "google news",
+      "publishedAt": "2026-11-28T06:45:08.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "21m2",
+      "score": 5,
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Simple défense d'un patron d'Airbnb, sans changement de règle ni chiffre nouveau."
+    },
+    {
+      "id": "cb1e8e3d32",
+      "title": "Guardian Holdings Limited annonce un dividende, payable le 11 janvier 2027",
+      "summary": "Guardian Holdings Limited annonce un dividende, payable le 11 janvier 2027 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQW5UZW8zWEwwc0FEZXJ6cnNBaGFiWmwtUjczUldpdTZ1YjQ0eVA5Q2h1YzZVOXBjcFBfcVhRdFlCakZIZlpqUzFhZ2NkT1Q5THBSQ0VacE1IYll2a2Qxd0hLRE1rR0pDYXpsaU5SODkyVjZsTmo1UVE1MVBZR0xJR0xadkZCQXNpYkJYLVFaTVhjRlgxZXFZVFlseFJXc1F0Ny1KSVJUbnhNbmRYMVJmQmhELVZkS3hlb0pFYlpIdnYtdEJQaXBmYVdodHJhd3c?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T06:35:41.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Dividende d'une société étrangère inconnue du public français."
+    },
+    {
+      "id": "338d92aa19",
+      "title": "Découvrez les loyers à ne pas dépasser pour votre logement, après la prolongation de leur encadrement",
+      "summary": "Pour chacune des grandes villes qui encadrent les loyers, Le Figaro dévoile les loyers maximaux fixés par les préfets, selon votre quartier et le profil du logement que vous voulez louer.",
+      "link": "https://immobilier.lefigaro.fr/article/decouvrez-les-loyers-a-ne-pas-depasser-pour-votre-logement-apres-la-prolongation-de-leur-encadrement-20261128",
+      "image": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/27/2afe5cfc6c64789ac27ff9481bee5208c0552590159ff1827abb1ffb2649234c.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-28T06:30:00.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "21m2",
+      "score": 5,
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Règle concrète pour bailleurs et locataires : les plafonds de loyers par ville après prolongation de l'encadrement.",
+      "hook": "Encadrement prolongé : les loyers maximum autorisés dans votre ville"
+    },
+    {
+      "id": "d93c86d341",
+      "title": "Impôts, taxe foncière... Les règles à respecter pour obtenir une faveur de la DGFiP",
+      "summary": "Le montant de l'impôt sur le revenu ou des impôts locaux vous semble trop important ? Ce qu'il faut savoir avant de réclamer une...",
+      "link": "https://www.moneyvox.fr/impot/actualites/111458/impots-taxe-fonciere-les-regles-a-respecter-pour-obtenir-une-faveur-de-la-dgfip",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20261127_115506_7.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-28T06:25:09.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 1,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Conseil fiscal générique, sans fait nouveau."
+    },
+    {
+      "id": "fed981339a",
+      "title": "L'armée américaine a repoussé des drones sur une britannique-FT",
+      "summary": "L'armée américaine a repoussé des drones sur une britannique-FT Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcTBzR2RWXzk1ZkxaNVRPN2w5TTd5dW5mUmE0X0g3Ukx4ZFhvRXVaV3l5cWlwRmgta010cTF3ZWo1a0l2SDFSMWhvNmJqS042eVlTOFRnYVFiUm16T25xbmNjS2NOS2VVVGZEYzZYUWlLTFZPSXBNZ0xXOGpsbncwWXZBbTRuX1h1V3FiYzRjbkZiVVhCa1VGaVRhcHg4V09mQVFFdkY1U1lSYXp5Y09aMndYaE91REthRlladHJ2MVExZw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T05:27:14.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Actualité militaire sans lien avec l'argent."
+    },
+    {
       "id": "ed51ecf6b7",
       "title": "Immobilier : 10 précautions à prendre avant de construire votre maison",
       "summary": "Construire sa maison est un parcours semé d'embûches. Ce qu'il faut savoir avant de poser la première pierre....",
@@ -51,6 +151,23 @@
       "reason": "Fait divers sans lien avec l'argent."
     },
     {
+      "id": "6273cea98d",
+      "title": "Hydro annonce des changements au sein de sa direction",
+      "summary": "Hydro annonce des changements au sein de sa direction Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNckpJbmhhaXFIYzJyMGZyTVJKQU45UDhhZjdkQVV2djZjUDNTdUFpcm9fV2ZwOHZWbWYwVEp6Tjc2dFgyX0pmbWZfc2hmbUpOYUJsamU3ZmhseXZDMkh1bzNNblM0SWwzX01KcHdaQ1hsdTZUa0JuOVluQ1JRQlh4dk9fOUFMWVQybjZBdkV1SkhYdGZjVXBYdnFZdDVFbVFhV1gyU1lLMTVMVjNQbGo4LW1qdw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T22:39:00.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Simple changement de direction dans une entreprise peu connue."
+    },
+    {
       "id": "d2206317c5",
       "title": "S&P rehausse la note de l'Afrique du Sud",
       "summary": "S&P rehausse la note de l'Afrique du Sud TradingView",
@@ -80,8 +197,8 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Menace de dégradation de la note française, sujet dette qui inquiète.",
+      "aiScore": 7,
+      "reason": "Menace de dégradation de la note de la France par S&P, sujet marquant sur la dette.",
       "hook": "S&P menace de dégrader la note de la France",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
@@ -101,6 +218,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Titre vague de point de marché."
+    },
+    {
+      "id": "4c565f857d",
+      "title": "Brookfield Renewable Corporation annonce un dividende payable le 21 décembre 2026",
+      "summary": "Brookfield Renewable Corporation annonce un dividende payable le 21 décembre 2026 Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYVNVRlRaV1VmcWZESDlnMEJiNnktbEp5cDJBelBXT0swcjRPdkU4NEZiVTlrcEFkUlFsaU9RLTlwVVJRLWM2N2NKOHFQVDNFMnU4VE5hMlpiQWNMOVJXdGpYc3F5M3RtX1hndFdjbVpBS1hIN3A3SVRHLTlmX3Z2YzN4WUJDVUp2UG1CaHNUbXB5UUlVMURURjFKWk10MW91Z2VLZzl5TFFQdXFINVV6UXdFLUV5aUJ5emViTmx0VFZsWUZJWWNhQjhuS19lcVlEUk5CMFRRNUFldw?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T21:54:00.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Annonce de dividende de routine, sans intérêt pour le public."
     },
     {
       "id": "d7d9e53041",
@@ -290,6 +424,23 @@
       "reason": "Petite capitalisation britannique inconnue."
     },
     {
+      "id": "8444f78b0e",
+      "title": "Glass Lewis soutient le conseil d'administration de Vail Resorts dans la bataille pour le contrôle de l'entreprise qui l'oppose à l'actionnaire activiste Oasis",
+      "summary": "Glass Lewis soutient le conseil d'administration de Vail Resorts dans la bataille pour le contrôle de l'entreprise qui l'oppose à l'actionnaire activiste Oasis TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pWEF0Uzc5Vm4wQktTU1c4TzI3bmpxUUpYY1hFRjd3YnQ2bUhQYzdhSURuMkRsdTFVekJkUjdvXzhKWEh5MkxFY1ZtZDA3Z192NC1FSjltMl9FU3ZSbVRPdmpDQ2IyMDFjbm5rNG1EXy1XOWdjcGVN?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:37:00.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Bataille actionnariale américaine de niche."
+    },
+    {
       "id": "6edacf5600",
       "title": "OpenAI intente une contre-action en justice contre Apple pour vol de secrets d'affaires, selon le Financial Times",
       "summary": "OpenAI intente une contre-action en justice contre Apple pour vol de secrets d'affaires, selon le Financial Times TradingView",
@@ -301,12 +452,31 @@
       "collectedAt": "2026-11-27T23:22:20.633Z",
       "brand": "investisseur",
       "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon du sujet OpenAI contre Apple déjà présent dans la liste.",
+      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
+      "notifiedAt": "2026-11-27T23:22:20.633Z"
+    },
+    {
+      "id": "fb1eadb6d5",
+      "title": "OpenAI countersues Apple for stealing trade secrets",
+      "summary": "OpenAI countersues Apple for stealing trade secrets TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYVJ0ME93bVFyTzVtWTJid213amxzMUloYVpBZGp2LUhzWmJpR2I5WkxxVENkSV9NMTJnc3RvT2Q5MW5iSmRtSUpEaXZmZkJPVHFwdUF4RWQ0US1wbWNIWjZwVzFLdWxEZjlSemo0d1dYVHhteDNJZ21Kd2Mwby0tSWRKTXBFVm53NXh2Q1lWSjIxZHZZaXlHVWdFd0RTVjRxVEI3cmxwTHd0RlNoZE9sN29XZ0dwMGFrX19RWA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:36:06.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 3,
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Bras de fer judiciaire spectaculaire entre deux géants connus.",
-      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
-      "notifiedAt": "2026-11-27T23:22:20.633Z"
+      "reason": "Clash judiciaire entre deux géants très connus, OpenAI et Apple, sur fond de vol de secrets.",
+      "hook": "OpenAI contre-attaque : Apple accusé de vol de secrets d'affaires",
+      "notifiedAt": "2026-11-28T07:07:30.579Z"
     },
     {
       "id": "50a8413439",
@@ -1090,6 +1260,23 @@
       "reason": "Sujet agricole de niche."
     },
     {
+      "id": "c300c69c45",
+      "title": "Les Bourses européennes terminent dans le vert : Paris +0,58 %, Londres +0,84 %, Francfort +0,90",
+      "summary": "Les Bourses européennes terminent dans le vert : Paris +0,58 %, Londres +0,84 %, Francfort +0,90 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05RVlIN3NUUlVLVERCOU0xN0tUdzJlTUxCMS1RVWNkT211U0ROTXprbFJJcDMwV05PamxISXpwaFdqYzcxQ1RzWHhXUnVoT3h6OFpncWpUZnRMMmVEQlpIRDJB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T16:40:40.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché du jour, type de sujet refusé par l'éditeur."
+    },
+    {
       "id": "c4e6892036",
       "title": "Notorious Pictures étend son réseau avec un complexe multisalles à Moncalieri",
       "summary": "Notorious Pictures étend son réseau avec un complexe multisalles à Moncalieri Zonebourse",
@@ -1187,9 +1374,9 @@
       "brand": "investisseur",
       "score": 3,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Ponction sur l'épargne oubliée, sujet qui fait réagir mais budgétaire.",
-      "hook": "L'État veut prélever 35 % de votre épargne oubliée"
+      "aiScore": 7,
+      "reason": "Ponction surprise de 35 % sur l'épargne oubliée, sujet qui fait réagir.",
+      "hook": "Épargne oubliée : l'État veut en prélever 35 %"
     },
     {
       "id": "715227a8ab",
@@ -1618,6 +1805,23 @@
       "reason": "Incident chez une société sud-africaine inconnue."
     },
     {
+      "id": "3c310d8cfc",
+      "title": "Lung Fung Group Posts HY Profit Attributable Hk$134.3 MLN",
+      "summary": "Lung Fung Group Posts HY Profit Attributable Hk$134.3 MLN TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNXF6RWdvaF9XQjJIVkJhSlBfZXFfckowRTAtZEdTaEVWNTloeWo4dDhYR0FXMDdwUlRJbFk0MldTcExhbG8yLVN2aWZXd1RraEZHVGZVT1Z1bm93YWw5WkFfX0JBdmFuZDVkbFpQdy1Ed216N0pqRUEzc0Q1UmpPTXpWamJTaXFxVmdkUmQ2dTl1RHNLeWtES3phQjF1OGhKZWhFemFuZHZPNzZocVBsREJLX0l6MkJuZmo0NHZLRzBoM2Vm?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:26:58.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une petite capitalisation hongkongaise sans intérêt."
+    },
+    {
       "id": "f372699e77",
       "title": "Reckitt Benckiser Group plc : Bernstein persiste à l'achat",
       "summary": "Reckitt Benckiser Group plc : Bernstein persiste à l'achat Zonebourse Suisse",
@@ -1817,6 +2021,23 @@
       "status": "ignored",
       "aiScore": 2,
       "reason": "Conseil fiscal pratique générique."
+    },
+    {
+      "id": "af409ba319",
+      "title": "Schweitzer: Rund 27 Prozent verlieren Anspruch auf abschlagsfreie Frührente",
+      "summary": "Schweitzer: Rund 27 Prozent verlieren Anspruch auf abschlagsfreie Frührente TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11b1BQTGZYRFV1RURwcTFyM3YxdVBwNkFMZDhNVW44emxYMnpJdkVwVGFHb2Nzc0JTLWx1ZEVGSkVYYnU0R2RkQ3NSZ21GOWpyYUNYZVk1bjRHR2NtUXFUT0RTMWJkSXVJZUVKWkpqUktGaHdmYTRj?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:10:35.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Débat sur les retraites allemandes, sans lien direct avec les Français."
     },
     {
       "id": "c869d4da56",
@@ -3121,8 +3342,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret pour investisseurs dans le neuf.",
-      "hook": "TVA à 5,5 % sur le neuf : le Sénat dit oui",
+      "reason": "Changement fiscal concret pour les investisseurs : TVA à 5,5 % sur le neuf locatif.",
+      "hook": "Neuf : la TVA passe de 20 % à 5,5 % pour les investisseurs",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
     {
@@ -3700,7 +3921,7 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Récession en France : grosse nouvelle macro qui fait réagir.",
+      "reason": "Entrée en récession de la France, actualité choc et incontournable.",
       "hook": "C'est officiel : la France est entrée en récession",
       "notifiedAt": "2026-11-28T05:07:30.704Z"
     },
@@ -4738,6 +4959,23 @@
       "reason": "Indicateur macro de routine."
     },
     {
+      "id": "6c25920249",
+      "title": "Infoline Tec Group Posts Quarterly Revenue Of 17.3 Million RGT",
+      "summary": "Infoline Tec Group Posts Quarterly Revenue Of 17.3 Million RGT TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWktfdnIwakVySWVrbUpRQ2NDOEZib2lTQUtRa1BaUExLWGZxUTU5ajdURk5ORGJhU015WEdpT3NUMzMzektFVWsyUHo4VWNCT0dqRW1JRTRPSGxkZ253MEtHbGNteGNZRkZjODNhWHpVaDN2NS02c1gtd05Ed3RPOTNxdHY1NUVCMTR0YmNqNDZNZGtSanZsOFVmWkV2N0h2b2VvWU5xZ1A4QWFZWHMxeGNhXzRiSTBjeTZILWtWNWZQWE5qM0lROWJrdUpSVEttMkhwQUx5Tng3bk9RdVBkYVRNeWg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T10:11:26.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'une petite société étrangère inconnue."
+    },
+    {
       "id": "c289e7cc82",
       "title": "Le climat économique de la zone euro se dégrade en novembre",
       "summary": "Le climat économique de la zone euro se dégrade en novembre Zonebourse Suisse",
@@ -5108,6 +5346,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Statistique allemande sans surprise."
+    },
+    {
+      "id": "bf8a80083a",
+      "title": "Daedong Corp To Conduct Capital Increase Of 56 Billion Won",
+      "summary": "Daedong Corp To Conduct Capital Increase Of 56 Billion Won TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOXJfbmNZODdfeVRvMUNLd0VZX1FySHA5ZVZBTUx5dDdrbU11RjA0MmtMNUNKMEZSNWdvUmdPeHZZOFFSRktBbkdPNmZaZGRTTXU4VVp5ekE0T2dHSmtQb0Z4V2lUVXhsM0swNFFXSHVoYUdLVjNvcDhsWFpUY1N3RjgxblZZalVldURBR0VRZVg2cDNmbXRZc1owckFScVFNcWRTNEJ4QkZtd3NtTGMwQXZSUkYwc0pwU3cxRVNXMzY2MHRacWc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T09:27:55.000Z",
+      "collectedAt": "2026-11-28T07:07:30.579Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Augmentation de capital d'une société coréenne inconnue."
     },
     {
       "id": "04c0bd08d7",
@@ -7363,8 +7618,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir en locatif.",
-      "hook": "Grand Paris Express : 3 quartiers où louer rapporte plus de 5 %",
+      "reason": "Classement chiffré utile pour investir, autour du Grand Paris Express.",
+      "hook": "Grand Paris Express : 3 quartiers où le locatif rapporte plus de 5 %",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
     {
@@ -56459,24 +56714,6 @@
       "international": true,
       "aiScore": 4,
       "reason": "Bitcoin sous un seuil : point de marché refusé, même si deux ans de creux."
-    },
-    {
-      "id": "e4163fb444",
-      "title": "Krach boursier : l'intelligence artificielle détruit tout, jusqu'à l'or",
-      "summary": "Le Nasdaq a perdu 10 % en une semaine, le S&P 500 près de 9 % et le CAC 40 plus de 5 %. Malgré des résultats records chez Nvidia et l'introduction en Bourse historique d'Anthropic, les investisseurs se détourne…",
-      "link": "https://www.lerevenu.com/reussir-bourse/krach-boursier-l-intelligence-artificielle-ne-fait-plus-rever-les-marches",
-      "image": "https://cdn.overlord.media/Statue_d_ours_face_au_krach_boursier_e5b79143bb.png",
-      "source": "Le Revenu Immobilier",
-      "via": "rss",
-      "publishedAt": "2026-11-21T05:20:19.000Z",
-      "collectedAt": "2026-11-21T07:07:23.066Z",
-      "brand": "investisseur",
-      "score": 11,
-      "status": "new",
-      "aiScore": 8,
-      "reason": "Krach boursier majeur sur le Nasdaq et le CAC 40, avec l'or qui chute aussi.",
-      "hook": "Nasdaq -10 % en une semaine : l'IA fait tout plonger, même l'or",
-      "notifiedAt": "2026-11-21T07:07:23.066Z"
     },
     {
       "id": "04c40d72e3",
@@ -171723,5 +171960,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-28T05:07:50.027Z"
+  "updatedAt": "2026-11-28T07:07:49.965Z"
 }
