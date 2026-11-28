@@ -1,6 +1,104 @@
 {
   "items": [
     {
+      "id": "7f6666add4",
+      "title": "Quels sont les effets de l'encadrement des loyers ?",
+      "summary": "Quels sont les effets de l'encadrement des loyers ? Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTFVBX1poMG5aWTlickQ5M0JWVVo4VDB3NDVxbG1FTk9GWklaNXZ1WnFCM016dTlLLVRvR3JBWE1fay0tS1JPNWZld21YUUJVZzBPMm9hV0xoNmZsZG5wQVNJZV9rOGFyVGFXRm81UDRmZmhHZUZwYnNoWU1Ka1FMbHNTekE4RTAyOVNiLWFfc3ZLSENJbVVEWWNNdm1NdUlEZkFkZA?oc=5",
+      "image": null,
+      "source": "Les Echos Patrimoine Immobilier",
+      "via": "google news",
+      "publishedAt": "2026-11-28T09:01:42.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Sujet de fond sans fait nouveau."
+    },
+    {
+      "id": "8339638fcd",
+      "title": "Plus d’un million de voitures électriques neuves attendues en 2027",
+      "summary": "Plus d’un million de voitures électriques neuves attendues en 2027 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNjFobGc1LXFHcGJRZ3dyZzh6T212d25uV0dNSU80SG1ILW03NkRCNDhROVJjMUs2SVZBMlNTMXpFMWRNWVFqeXJDdXlRM05Wc2ZtOVRoSXkyYkE0UmpsSmtEc1R0a09ibmFRN3B6Nnd2X1k4eWRPeERSNlpGeFcwSnNROHlrSlBZUHk5T3c0TFA4MHpESWxLMzZxR0Qzd0p4eVNraVNQNzhrZ2RfN0xtZkdVb0xuWExFSW5QYm5zaGx3M0hMS0E?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T08:34:13.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Prévision sectorielle peu surprenante."
+    },
+    {
+      "id": "1ca8b58900",
+      "title": "Wall Street : quand la croissance devient l’ennemie des investisseurs",
+      "summary": "L’économie américaine affiche sa plus forte croissance depuis trois ans, mais Wall Street aurait préféré une moins bonne nouvelle. Avec un PIB en hausse de 4,3 % en rythme annualisé et une inflation qui atteint…",
+      "link": "https://www.lerevenu.com/actualite-economique/wall-street-quand-la-croissance-devient-l-ennemie-des-investisseurs",
+      "image": "https://cdn.overlord.media/Wall_Street_entre_croissance_et_volatilite_2af9680f50.png",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-28T08:16:42.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Analyse macro US peu engageante."
+    },
+    {
+      "id": "2f79e6bace",
+      "title": "CAC 40, SBF 120 : la France en crise, la Bourse en fête",
+      "summary": "La France entre en récession, les trois grandes agences de notation menacent de dégrader sa dette et l’État emprunte à près de 4,7 %. Pendant ce temps, le CAC 40 gagne près de 3 % sur la semaine et les moyennes…",
+      "link": "https://www.lerevenu.com/reussir-bourse/cac-40-sbf-120-la-france-en-crise-la-bourse-en-fete",
+      "image": "https://cdn.overlord.media/Rebond_boursier_sur_Paris_dystopique_3ec0d6263d.png",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-28T08:13:22.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Paradoxe France en récession vs CAC 40 en hausse, angle clivant mais proche d'un point de marché.",
+      "hook": "La France en récession, le CAC 40 en fête : cherchez l'erreur"
+    },
+    {
+      "id": "37f121ce4b",
+      "title": "Immobilier : pourquoi les prix résistent malgré la baisse du pouvoir d’achat des acheteurs",
+      "summary": "Malgré le ralentissement des ventes et la perte de pouvoir d’achat immobilier des ménages, les prix des logements en France résistent. Plusieurs facteurs expliquent cette inertie : des vendeurs qui préfèrent re…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/immobilier-pourquoi-les-prix-resistent-malgre-la-baisse-du-pouvoir-d-achat-des-acheteurs",
+      "image": "https://cdn.overlord.media/pexels_czapp_arpad_3647289_9676394_c76a68d110.jpg",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-28T08:00:00.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "21m2",
+      "score": 6,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Analyse générale sans fait nouveau chiffré."
+    },
+    {
+      "id": "e7a8055da0",
+      "title": "Méditerranée : notre palmarès 2027 des villes où s’installer à la retraite en bord de mer",
+      "summary": "EXCLUSIF - Sécurité, santé, commerces, loisirs, immobilier, pollution, environnement… Le Figaro a comparé la qualité de vie dans les 87 communes françaises qui bordent la Méditerranée sur la base de 51 critères qui comptent pour les retraités. Découvrez les lauréats et consultez toutes les données.",
+      "link": "https://immobilier.lefigaro.fr/article/mediterranee-notre-palmares-2027-des-villes-ou-s-installer-a-la-retraite-en-bord-de-mer-20261128",
+      "image": "https://i.f1g.fr/media/cms/1823x1025_crop/2026/11/23/f9a3e491fbebce0be92b8c54b87b738ef0ee38ed4414afef2b34b081d110d953.jpg",
+      "source": "Le Figaro Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-28T07:00:00.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Palmarès art de vivre refusé par l'éditeur."
+    },
+    {
       "id": "7f3da8fc7e",
       "title": "TEST-Test Veuillez ignorer",
       "summary": "TEST-Test Veuillez ignorer Zonebourse Suisse",
@@ -64,8 +162,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 6,
-      "reason": "Règle concrète pour bailleurs et locataires : les plafonds de loyers par ville après prolongation de l'encadrement.",
-      "hook": "Encadrement prolongé : les loyers maximum autorisés dans votre ville"
+      "reason": "Règle concrète utile aux bailleurs et locataires.",
+      "hook": "Encadrement prolongé : les loyers maximum ville par ville"
     },
     {
       "id": "d93c86d341",
@@ -151,6 +249,23 @@
       "reason": "Fait divers sans lien avec l'argent."
     },
     {
+      "id": "3fec82358f",
+      "title": "Musk affirme que Google souhaite louer davantage de capacité de calcul auprès de SpaceX",
+      "summary": "Musk affirme que Google souhaite louer davantage de capacité de calcul auprès de SpaceX TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41VGN4SmdRMG9NdUw2U3RKdTdZZFFOTFVxSWRNWnlVUGJyUnhNYV9XTHk0NEVaamR6Vk56UXNBd3lieU9WQVVCd2hHNDJscTlTcU53djl6TEtydENWTV9oY0Y3SEE4clo5bzBQSTNNYmxMdFlubDUw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T23:29:00.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Déclaration de Musk, actu mineure."
+    },
+    {
       "id": "6273cea98d",
       "title": "Hydro annonce des changements au sein de sa direction",
       "summary": "Hydro annonce des changements au sein de sa direction Zonebourse Suisse",
@@ -197,8 +312,8 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Menace de dégradation de la note de la France par S&P, sujet marquant sur la dette.",
+      "aiScore": 6,
+      "reason": "Menace de dégradation de la dette française, sujet fort mais teinté budget.",
       "hook": "S&P menace de dégrader la note de la France",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
@@ -323,6 +438,41 @@
       "reason": "Pétrole en repli, sujet refusé."
     },
     {
+      "id": "9db765e63f",
+      "title": "Puig va acquérir 75 % de la maison mère des Parfums de Marly pour 1,2 milliard d'euros",
+      "summary": "Puig va acquérir 75 % de la maison mère des Parfums de Marly pour 1,2 milliard d'euros TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kWWwtX0RBUnBUbXZaeG9Pd2hQTktuNUlGQ3dDUGZDTTV3MmlXWHN5XzZlOTNMTnRXQUxYY1gxWXlHSXZjZXl2T04yZ3czcnBGb2hBbDhzU1FVZ0pKX1JSTlRR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T20:02:46.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Rachat dans le luxe peu connu du grand public."
+    },
+    {
+      "id": "bf6c28735e",
+      "title": "La United Fidelity Bank a fermé ses portes, marquant la plus importante faillite bancaire aux États-Unis depuis deux ans ; First Citizens rachète ses actifs",
+      "summary": "La United Fidelity Bank a fermé ses portes, marquant la plus importante faillite bancaire aux États-Unis depuis deux ans ; First Citizens rachète ses actifs TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95eElNMms3QmVLOUNhQnp4WnljOWNXSWs0Y2F6SjFXa2V6ZGFha1N4dGV4NWhkUEFKRXo0b3lzWHh0dHM1NUJ1YnYtS2RzcnpXaEo1MEdvbG9sb21qNGpRcnhENkxrdnQzNlliY2g2aHBiVHpiYU1J?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T19:56:00.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Faillite bancaire US marquante, peut inquiéter.",
+      "hook": "Plus grosse faillite bancaire américaine depuis deux ans"
+    },
+    {
       "id": "2b09629f15",
       "title": "Récession et refus de la \"décroissance\" pour les aéroports français",
       "summary": "Récession et refus de la \"décroissance\" pour les aéroports français Boursorama",
@@ -424,6 +574,23 @@
       "reason": "Petite capitalisation britannique inconnue."
     },
     {
+      "id": "3aa3827410",
+      "title": "Vulcan cherche à faire annuler une maigre sentence arbitrale mexicaine et engage une deuxième procédure",
+      "summary": "Vulcan cherche à faire annuler une maigre sentence arbitrale mexicaine et engage une deuxième procédure TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZUVZRczRGazBTazA5b1Fwb2tYWkppZVFXdUl2c0Y4a1RURXhMams1RXJ5YkVpeFpJa20ya2JoYTU3TE5sQ0dTdHZObUUtUjNMc0NYeVYtZl85Qlo1XzVmLUxXUEdHTkptdmhTWndTUWVUaEFZN2JR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:37:19.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Litige obscur."
+    },
+    {
       "id": "8444f78b0e",
       "title": "Glass Lewis soutient le conseil d'administration de Vail Resorts dans la bataille pour le contrôle de l'entreprise qui l'oppose à l'actionnaire activiste Oasis",
       "summary": "Glass Lewis soutient le conseil d'administration de Vail Resorts dans la bataille pour le contrôle de l'entreprise qui l'oppose à l'actionnaire activiste Oasis TradingView",
@@ -474,8 +641,8 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Clash judiciaire entre deux géants très connus, OpenAI et Apple, sur fond de vol de secrets.",
-      "hook": "OpenAI contre-attaque : Apple accusé de vol de secrets d'affaires",
+      "reason": "Bataille judiciaire entre deux géants connus, coulisses spectaculaires.",
+      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
       "notifiedAt": "2026-11-28T07:07:30.579Z"
     },
     {
@@ -494,6 +661,40 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon point de marché."
+    },
+    {
+      "id": "5a7a0d0529",
+      "title": "La volatilité des marchés boursiers sera mise à l'épreuve par les chiffres de l'emploi et les perspectives en matière de taux d'intérêt",
+      "summary": "La volatilité des marchés boursiers sera mise à l'épreuve par les chiffres de l'emploi et les perspectives en matière de taux d'intérêt TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vOVQwcXlwSWowQU83YjM3ZXU5MFozRTJwV2hmU0NNcU5aajA2TDV4YXFKTEJwNTNCTkhHLXJTQ1hrMjBnQ2t2ZlQ1VWZRWkFuWTRCR0M5TzE2cGdwWG1JTE1qTlAwQTJ6MkxOVVh1SnFzM0FDUS1B?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:19:46.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché générique."
+    },
+    {
+      "id": "22cdfaf95c",
+      "title": "Verizon serait en pourparlers pour une acquisition de Fidium d'un montant de 6 milliards de dollars, selon le Financial Times",
+      "summary": "Verizon serait en pourparlers pour une acquisition de Fidium d'un montant de 6 milliards de dollars, selon le Financial Times TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBvcU1jdVFMbV9oSU0tWHdMWTR0eUQzVzJRVVU5RnNvTGV5dlBxNUJDMTRfS1I3djlEQk5iczJ2VWZVOVE1WVI5TjNUYURmM2hrWXpkUkRTZ29tSjNLY0FmNVhZTXlMdVdmRFNxQ3JsR1k1a2h0QzZV?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:17:59.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Acquisition télécom US inconnue en France."
     },
     {
       "id": "6b76b1ba98",
@@ -717,6 +918,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Point de marché, doublon."
+    },
+    {
+      "id": "104fc86f94",
+      "title": "Bains De Mer Monaco H1 Operating Profit €119 Million",
+      "summary": "Bains De Mer Monaco H1 Operating Profit €119 Million TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaTg0eE1SSkR5d0ZiNmJuLU1LYWg4QXFxSUxrb1BLVFJSanRZNW1QeXpwcHM4X3J4YlFBZlQ0ZGlsTVlITUJ4Zl9rLXZMRHk2eUIyUEV3N1NtR1M1aUpuT1VUbFlkN2FyUXp3ak9IWkZVZV9LdDc0R1BtVmNlbW1QcTRmZzMxMXpRNEttQXZBTEhacmhkUEpiSTdMbWJ5T09tT1piUjFlZWxmek5QRF8zbHhfZ211dGhkRk42bFZ3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:02:17.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Résultats semestriels de niche."
     },
     {
       "id": "56e62002fd",
@@ -1375,8 +1593,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 7,
-      "reason": "Ponction surprise de 35 % sur l'épargne oubliée, sujet qui fait réagir.",
-      "hook": "Épargne oubliée : l'État veut en prélever 35 %"
+      "reason": "L'État ponctionne 35% de l'épargne oubliée, sujet qui fait réagir.",
+      "hook": "Épargne oubliée : l'État veut en prendre 35 %"
     },
     {
       "id": "715227a8ab",
@@ -1496,6 +1714,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Obligations obscures."
+    },
+    {
+      "id": "6bd0c62613",
+      "title": "Les ventes en ligne du « Black Friday » aux États-Unis devraient dépasser les 13 milliards de dollars, selon Adobe",
+      "summary": "Les ventes en ligne du « Black Friday » aux États-Unis devraient dépasser les 13 milliards de dollars, selon Adobe TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rNDU2a1hLaURUek5aSG5WWTJNQm9zZU9yZVRpS1Etdm5zSktVN2ZJT0Y0MkxwS3JpelZ6S0pfaVJvUERYbm5tSVJnS3JsSm5aWlVQZEc2dm5FQjNRc2VfSXJjU05RMmVGWnVzTUpIZ2xtNzlWeUFN?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T16:01:00.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Chiffre US de consommation sans lien français."
     },
     {
       "id": "1206019ba8",
@@ -3341,9 +3576,9 @@
       "brand": "21m2",
       "score": 5,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Changement fiscal concret pour les investisseurs : TVA à 5,5 % sur le neuf locatif.",
-      "hook": "Neuf : la TVA passe de 20 % à 5,5 % pour les investisseurs",
+      "aiScore": 8,
+      "reason": "Changement fiscal concret et majeur pour l'investissement locatif neuf.",
+      "hook": "TVA à 5,5 % sur le neuf locatif : le Sénat dit oui",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
     {
@@ -3918,10 +4153,10 @@
       "collectedAt": "2026-11-28T05:07:30.704Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
+      "status": "ignored",
       "international": true,
-      "aiScore": 8,
-      "reason": "Entrée en récession de la France, actualité choc et incontournable.",
+      "aiScore": 4,
+      "reason": "Macro importante mais doublon avec l'angle CAC 40 en fête.",
       "hook": "C'est officiel : la France est entrée en récession",
       "notifiedAt": "2026-11-28T05:07:30.704Z"
     },
@@ -6549,6 +6784,23 @@
       "notifiedAt": "2026-11-27T11:07:28.455Z"
     },
     {
+      "id": "a39006f6c0",
+      "title": "Coral Products Exploring Options To Raise Additional Funds",
+      "summary": "Coral Products Exploring Options To Raise Additional Funds TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRlBfYXJGM1NwNlQ1MmJXZnkxRUtPc0lDRnNGblpSbUpqUE00WG9ERlpmZzBOX0pYLTZRb01mS0hLdmQ4aERNYm1Pc2NBNFJCdThXa2UyTmlndDhuNTBpcEg3bWN2aWtOcXYtMld4b1loaGJDNkZVMjVvLUZIOGN6YUQ5ODNjZWFOOUMwVFpoRTVTS3lJb0Z0bEZfUnhBQnU3cjJOSDhLQ2Z0LWdUVWZyR3ZvMWZpT2tieFFqSU1JYmJwbmtGbFE?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T07:43:46.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capi inconnue."
+    },
+    {
       "id": "adbb61a0b3",
       "title": "Fresenius SE & Co. KGaA : Goldman Sachs adopte une opinion positive",
       "summary": "Fresenius SE & Co. KGaA : Goldman Sachs adopte une opinion positive Zonebourse Suisse",
@@ -7618,8 +7870,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir, autour du Grand Paris Express.",
-      "hook": "Grand Paris Express : 3 quartiers où le locatif rapporte plus de 5 %",
+      "reason": "Classement chiffré utile pour investir.",
+      "hook": "Grand Paris Express : 3 quartiers où le locatif dépasse 5 %",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
     {
@@ -7826,6 +8078,23 @@
       "reason": "Opération corporate technique."
     },
     {
+      "id": "1f7dc5f523",
+      "title": "Conservatives would win election in Australia's second state, says poll",
+      "summary": "Conservatives would win election in Australia's second state, says poll TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTlJRanRIS2M5aTN4b285OGlGN0FVcEZRb044UzlsdkJNb3lSNGV3aUgtbHdUQUZ6ZVJCc3BLNV9qWnpGZXJXZkJwMEI5dGtIbER2OWJxWUlqWndTdXhLZmNsRm93V3pUZU51OEotalpkalNhVmFNZUI2UzVpMUZRNGN0VGViaVpwTWpyeWRpYWxjMldyOWlBc2sxeGZfUkpMaXpablZNR0RSc0ZZMHFxQTVLcFEwRW1Hallvam54OGFtVnJEY21Nc1VmNjRvWmFBQjhBRTJn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T04:39:24.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère."
+    },
+    {
       "id": "b70604fcf4",
       "title": "Dongfeng Nissan lance le SUV hybride rechargeable NX7",
       "summary": "Dongfeng Nissan lance le SUV hybride rechargeable NX7 Zonebourse Suisse",
@@ -8027,6 +8296,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Actu de politique étrangère."
+    },
+    {
+      "id": "6231578549",
+      "title": "＊先物・OP市況－日経平均が一時1000円高",
+      "summary": "＊先物・OP市況－日経平均が一時1000円高 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00MmZzQmQ2YzVicGo1NnkxSUdJWE05TldzaFgzcTl0RnhYM21lUm82TmljUVE5dDhyakZlY3pWMGxucllmdF9HdGw2UDhZakItQjhWMkQ5VFY1RVVJdmE1azZvN0U2Uk9CYUhpQkdpOA?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T03:34:47.000Z",
+      "collectedAt": "2026-11-28T09:07:32.341Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Point de marché japonais."
     },
     {
       "id": "d550b17c87",
@@ -171960,5 +172246,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-28T07:07:49.965Z"
+  "updatedAt": "2026-11-28T09:07:53.789Z"
 }
