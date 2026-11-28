@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "id": "31260bd2a8",
+      "title": "South32 : profitez de l’opportunité d’entrée !",
+      "summary": "South32 : profitez de l’opportunité d’entrée ! Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY3MySWVYeTRqSE51dGE5TXEzcWNsOFBxR19wTWh0cmdzMkZYMGVWOFVVc0hVLVc4YVVrTzZWNVZNUWVwejM4bkpXb1pUS1ZBaEt3ZkY1NmhiU1g0LTlhTWh3Q0tzSTVobUp0R1p2UDRMVUIyWnFBN2o3REtEbEFLaTF6a0Fydkw5OXU1RnRXLUZIWHlVSUtJYmpzMmFOb3c4NVZPeHFnakFfQQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T12:57:31.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Recommandation d'analyste sur une minière étrangère."
+    },
+    {
+      "id": "e8ae8e1beb",
+      "title": "Belgique : Google affirme avoir suspendu la construction d'un \"data center\" faute de permis",
+      "summary": "Belgique : Google affirme avoir suspendu la construction d'un \"data center\" faute de permis Boursorama",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQzlZRUdzaTg0eVZIanlKWmdGTjlHdms3eDVlak8wZmtHc2RjcWFhRldRMWl0bm0xZEZ5dll4Qk9JQW9vNFVHcTNFQXF0bkJPY3NVbkl0dnZlU29EQkZzektfOHBJS05rMUdISHl0LUlrTXVyLU0zYVljV2czT3ZWaVBnWGU4UjFfMGZ6MENFQXN5SmNuNWR0T19ic1F3MWd5UmVXR2FsckVGUzFnclppY1dZekFFTWRkbjVyQ2d5czkzNVVOTXh3VDA0SFp0UDVOaFlmWlpEb0MzaUl0dkhqQkZpOVNySjlOeXFWQVU4Wk5tMjY5TnU3T0kxVW5OQQ?oc=5",
+      "image": null,
+      "source": "Boursorama Immobilier",
+      "via": "google news",
+      "publishedAt": "2026-11-28T12:12:44.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Actu locale belge, faible intérêt."
+    },
+    {
+      "id": "497b9760bb",
+      "title": "Dette française : le numéro 2 de la BCE écarte un scénario à la grecque",
+      "summary": "Le vice-président de la Banque centrale européenne (BCE) écarte pour la France un scénario similaire à celui de la Grèce en 2010, mais souligne la...",
+      "link": "https://www.moneyvox.fr/votre-argent/actualites/111474/dette-francaise-le-numero-2-de-la-bce-ecarte-un-scenario-a-la-grecque",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20241203_015169_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-28T12:09:06.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "new",
+      "aiScore": 6,
+      "reason": "Dette française et BCE, sujet qui inquiète, mais proche du sujet S&P plus fort.",
+      "hook": "La France peut-elle finir comme la Grèce ? La BCE répond"
+    },
+    {
+      "id": "16680eef82",
+      "title": "Une filiale de Richemont condamnée en Italie, le groupe fait recours",
+      "summary": "Une filiale de Richemont condamnée en Italie, le groupe fait recours Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOekl3YXY1ajh0cG1KTG9sQThzX3NWMHBUZGY1cHRWZEppdDZQWEEtU2ZlTzR5Zk1SYmxNUlhMZ1BWR1djS3EzLW1SN2NSNU1ndTd5LWZ6VWFWWHE1TG9kek1EcmRvMU9TM0pnblNOTm1jMG5tYkJOWk1nVnRFWXQxZWdScDZaWWVZeURsMHdxODRZUGVhdE9oUFhzbHJpQnBkRzhFdDRGNUdjemNzLWhzdWYwWFlnLW5rNENuaEFiaV92SUZfZFE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T11:40:14.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Litige judiciaire mineur pour Richemont."
+    },
+    {
+      "id": "46db116b54",
+      "title": "L'Espagne se rend aux urnes, l'extrême droite en passe d'accéder au pouvoir",
+      "summary": "L'Espagne se rend aux urnes, l'extrême droite en passe d'accéder au pouvoir TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fdFFoMVM4SXlNRzV4d3B1c09Cc0pZSFhqT2hCbDNXaWtLM0NMYjlnU1d1dUdpOTFYMjQ3eTE3SGxHUjdtMWFPbVJNeHFjU3IzUmtCWjJwUGdfbUJkRl91THV4OVZUU1E1OFRQYmVfdjVNd1dmZFFv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-28T11:27:36.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Politique étrangère pure."
+    },
+    {
       "id": "c5a0160ead",
       "title": "L'Oréal : Jefferies adopte une opinion positive",
       "summary": "L'Oréal : Jefferies adopte une opinion positive Zonebourse Suisse",
@@ -32,6 +116,24 @@
       "status": "ignored",
       "aiScore": 2,
       "reason": "Marché immobilier étranger de niche."
+    },
+    {
+      "id": "5c929d301a",
+      "title": "Google souhaite louer davantage de capacité de calcul auprès de SpaceX, selon Musk",
+      "summary": "Google souhaite louer davantage de capacité de calcul auprès de SpaceX, selon Musk TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LN1ZCbE96V25pbm9RU0JCNkFHVUd2WFh6Tjg0STBiaXF3WWVCWV9CMFFzVTAtb1lISGRpX3Y3VHVKUHdxTEZwb1FMYjFxZk53ZEhBeGJsdWxTVHl4M3NuRUJJcjR3c2l3VlpmVkZXVHBoOXpIT2gw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-28T09:13:57.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 5,
+      "reason": "Google et SpaceX, géants connus, mais déclaration mineure de Musk.",
+      "hook": "Google va louer des serveurs… à SpaceX"
     },
     {
       "id": "7f6666add4",
@@ -195,8 +297,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 6,
-      "reason": "Règle concrète pour bailleurs et locataires dans les grandes villes.",
-      "hook": "Encadrement des loyers : les plafonds à ne pas dépasser"
+      "reason": "Règles concrètes et chiffrées pour les bailleurs des grandes villes.",
+      "hook": "Encadrement des loyers : le plafond exact dans votre quartier"
     },
     {
       "id": "d93c86d341",
@@ -345,9 +447,9 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Menace de dégradation de la note de la France, sujet de fond.",
-      "hook": "S&P menace de dégrader la note de la France",
+      "aiScore": 8,
+      "reason": "Menace de dégradation de la note de la France, sujet fort qui fait réagir.",
+      "hook": "S&P menace de dégrader la France : ce que ça change",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
     {
@@ -709,9 +811,9 @@
       "score": 5,
       "status": "new",
       "international": true,
-      "aiScore": 7,
-      "reason": "Bras de fer judiciaire entre deux géants connus, OpenAI accuse Apple de vol de secrets.",
-      "hook": "OpenAI attaque Apple en justice pour vol de secrets",
+      "aiScore": 8,
+      "reason": "Bataille judiciaire spectaculaire entre deux géants connus.",
+      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
       "notifiedAt": "2026-11-28T11:07:46.619Z"
     },
     {
@@ -2075,6 +2177,23 @@
       "reason": "Point de marché du jour, refusé par l'éditeur."
     },
     {
+      "id": "ea0635b0be",
+      "title": "Asta Bot 6 mesi, scarso interesse specialisti in riapertura",
+      "summary": "Asta Bot 6 mesi, scarso interesse specialisti in riapertura TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3eUluS2cwbml5bDcweExfV21pa2NVVlFYRXBfaDZrcklMSmdtUFhuMHEwOXg3c1ZjLXNuTFFFdnNta2d6V1JGRlBRNmVxaWhPZVZJRGlseHVnWHFNTUVqM2NNVHNidllibUdaSU45Mk05MS1ERHhZ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:29:30.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Adjudication italienne technique."
+    },
+    {
       "id": "893c4a1457",
       "title": "Christian Dior : Merger Notice published in the BODACC (French version only)",
       "summary": "Christian Dior : Merger Notice published in the BODACC (French version only) Zonebourse Suisse",
@@ -2141,6 +2260,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Résultats d'une petite capitalisation hongkongaise sans intérêt."
+    },
+    {
+      "id": "c64644e40f",
+      "title": "Latam stocks rally as Brazilian equities jump following finance pick",
+      "summary": "Latam stocks rally as Brazilian equities jump following finance pick TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMTRrekdEMTVRNGxJT3dKSG5UMGZvMmtzQ3hZWVhHa2VOY1cwWlNHUnl2ZDVMQW9TVXpzMGZfZWQ3VUo1MktGUXRIenhKR3doZXhVemlYRzZuNkNPU3ZmTGxKWDhTWktHalJTcmtRQmtHOUNwbTBVaWloU3EtMm1Hazc4UmhQb19QOTNTSFhrZWNnLXFlVFVNRzR5cVJHNWdnQm8xMEx6b0VONHRWUEYxS0k2ZXdLd1lib2xfMkZoN0Q1QjJrekRPdEl5ems1Zk5CT2hB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:26:46.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché latino-américain."
     },
     {
       "id": "f372699e77",
@@ -3679,9 +3815,9 @@
       "brand": "21m2",
       "score": 5,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Changement fiscal concret pour investisseurs dans le neuf.",
-      "hook": "TVA à 5,5 % sur le neuf pour les investisseurs locatifs",
+      "aiScore": 8,
+      "reason": "Changement fiscal concret et fort pour l'investissement locatif neuf.",
+      "hook": "TVA à 5,5 % au lieu de 20 % sur le neuf locatif",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
     {
@@ -4806,6 +4942,23 @@
       "reason": "Simple recommandation d'analyste."
     },
     {
+      "id": "6ad57934fe",
+      "title": "Craneware prolonge sa facilité de crédit renouvelable",
+      "summary": "Craneware prolonge sa facilité de crédit renouvelable Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbjV5eWdMV1NqaGdrbHI3c2hIekZZQlFqLVZNRGxfdk1sUklMV0xDb1hiRVJRUzkyMWtMcmZQSmtmRXRsSGtuQUZFRmpiZW15SlcxczdmeHB4dzVDTjFGY3ZCeWJuVDBWeXhXcDNua1VHU2djbEZlNGd5dDV3XzRzcGRMX2JUd04tbkR2T2l2YVZhSUpKNTd3Vk52aGktbUZnWDhBb2pkTjFBSEs1WjNMU1JwekE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T11:02:24.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Financement technique d'une société inconnue."
+    },
+    {
       "id": "ac588723f4",
       "title": "Carte : où naîtront les 1 000 prochains bébés du monde",
       "summary": "Where will the world's next 1,000 babies be born? Explore the countries and continents accounting for the largest shares of global births.",
@@ -5535,6 +5688,40 @@
       "reason": "Simple partenariat industriel."
     },
     {
+      "id": "e41989b3ad",
+      "title": "Triona demande sa radiation de la cote du NGM",
+      "summary": "Triona demande sa radiation de la cote du NGM Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMFZWUmwyazVzUGU1OVhYek9tM0xtbGhrTUwxZm1QeW5CZ2xtTU9UNmFKeGVaaXQ3azkxOVpiaTh0NThCWmpWT29OQzdlVEV1V3k1S3ZWTGFQWi1ZSHllNklwbDBwYndlS05iTlNjelU5OV9COXlDUFZWVUQ2NGs3NVVWckhWMWdzcWNZdm9YdE91S2VrZHJSTFg0cEpSOFFlRTEzMC1mVk0?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T09:50:20.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Radiation d'une microcap suédoise."
+    },
+    {
+      "id": "f3dba688b4",
+      "title": "Has organised crime penetrated South Africa's police and justice system?",
+      "summary": "Has organised crime penetrated South Africa's police and justice system? TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeDJXMkUwQ241ZVZxZ19NQXh0ZE51NnJHVFh1V05UVkYwSVhHaTR4Zkliclc4VmxjeHJ4S3RfZlpYb3hoLUNqR2VLRHJuWDh3Y2JLZVlQZVR1cThPQ2c2ZjNuc21fdE9UTGtrWXN1RXpVQXV6WE9kZ1FEb2ppaHdyaGMzUlNMaHBPVjQ3R3d6TDJTdUs2d0VPTXAzZkJTeEFzOHp1NDZwenVLMjg5dTl2MXo3U1puX2VHZHZPVmt4ZVhZNVRjY09CNUJPY2NiTjhrRjlHVWZyWQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T09:50:12.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique sud-africaine sans lien avec l'argent."
+    },
+    {
       "id": "e1ccb699dc",
       "title": "Des consommateurs préoccupés par l’inflation se préparent au Black Friday",
       "summary": "Des consommateurs préoccupés par l’inflation se préparent au Black Friday Zonebourse Suisse",
@@ -6095,6 +6282,23 @@
       "reason": "Statistique macro étrangère de routine."
     },
     {
+      "id": "33d0a0297e",
+      "title": "German unemployment rises more than expected in November",
+      "summary": "German unemployment rises more than expected in November TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYlIxblJ6UkRqdUphMi1OX183SkF1cGs3aVVWNVozTmVZeGRiQnJwWXE2blhRejR4aVU2NER1V3REUFJETnlhRUlUNlRwaUJ5MUFDRy1qYTh5S0hQaEZQdGZfZ1FsaDJfM0Zqbzg3aWdoZ3pUOGNoS3lpcmNfSTlxSWhDY2pRMWtaX19wZWtiS0phSXVyZWlPREZ2UHlDWjN6bk9DdDFzWmpyd2syOGhCcC1lWVd3dmxMZEVRRjcycjZTcDQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T08:55:00.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Statistique macro allemande sans surprise majeure."
+    },
+    {
       "id": "c06ff6babc",
       "title": "« On peut dire qu'on a une récession » : le PIB recule de 0,2% au 3ème trimestre 2026",
       "summary": "Le produit intérieur brut (PIB) français a reculé de 0,2 % au troisième trimestre après avoir stagné au deuxième trimestre, a annoncé vendredi dans...",
@@ -6296,6 +6500,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste étrangère."
+    },
+    {
+      "id": "f901f7ca3d",
+      "title": "HYDROTV : GEH Jura - Episode 5",
+      "summary": "HYDROTV : GEH Jura - Episode 5 Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQVgtanVlWWFLNWlyZ3ZmNDJ6U05Sb2IzU1NXQ3NfWFBUSFJOUzNDd3gwd1B3MlRCQXF2c2pYY0ZPWDVVX3lHTWkxODVaMVcwTXltaTJHR1Flb3ZCRnFHZHJreE13RXZjSHdXdGU0OUZpTFJFVjBlQWdUZmpsNUxNYURfOHhtUFBWNm1JV0dsOA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T08:45:05.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contenu vidéo promotionnel suisse."
     },
     {
       "id": "07f04fff4b",
@@ -7687,6 +7908,23 @@
       "reason": "Contrat de fournisseur mineur."
     },
     {
+      "id": "6ffcfd5a13",
+      "title": "Bavarian Nordic: Allan Bødskov Andersen Appointed Chief Financial Officer",
+      "summary": "Bavarian Nordic: Allan Bødskov Andersen Appointed Chief Financial Officer TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSjJlcHlyQ2c0M283RXhOVTMtWDNXLUwwenZSNXRYempPTklzWm51TUdLeUNtc3JMSkR1cElhM0NpOVM5TW9xWFdkbnFxZWdydnBPLWRVdlFJS0VEZDgtdzMtZlpvSFlQVTNXWElPcUNTS2hFU2dwdW9sNG5PdUFVLXFqY291YWN4Zk9iazhubkFiMmk4OTZFUG9ES3dzYS1yV0lqQ044aXY1RklhR3Q3SUhDalItcEVxX0V1ZjFvcDdJazBsMEQzMlhLcGhYM1BTNnpxUEJsdXUxVjh0elh0Rm5YUUoxNTJVTTB3ZE9GX1VRUQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T06:47:23.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Nomination dans une entreprise danoise peu connue."
+    },
+    {
       "id": "e079155c10",
       "title": "Raiffeisen veut se profiler dans les activités de placement",
       "summary": "Raiffeisen veut se profiler dans les activités de placement Zonebourse Suisse",
@@ -7822,6 +8060,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Agenda de marché étranger."
+    },
+    {
+      "id": "3ee0b8e8fe",
+      "title": "Rawlplug Q3 Net Profit 19.5 Million Zlotys",
+      "summary": "Rawlplug Q3 Net Profit 19.5 Million Zlotys TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUVZweEZsMWVhSFU3eXRKMDcxcWducDREY0dhT1ZOUmEyc1JQejRzaTl1bEpSWS0yWVd1OHZMUEtHcGdDbm1md3Q4MkVkSTN0OGlnU251NmdNNHhRWUllT0RIMUlIeEg2d0w4RjZwM1Nocm9PbnBfYUcwSkpsd21wUlgwSDY3dUdSV3dzWm1DVmxTNm8wZlBHRE13ZFJnTzl1bThDUDBXUUlmRVUyemdfZm9Jb0wxNF9MWmhnYm9ZOUJ4MEZNdEhhTXJR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T06:36:00.000Z",
+      "collectedAt": "2026-11-28T13:07:35.065Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite capitalisation polonaise inconnue."
     },
     {
       "id": "bc89afda7b",
@@ -8075,8 +8330,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir en locatif.",
-      "hook": "Grand Paris Express : 3 quartiers qui rapportent plus de 5 %",
+      "reason": "Classement chiffré utile pour investir, Grand Paris Express.",
+      "hook": "Grand Paris Express : 3 gares où investir rapporte plus de 5 %",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
     {
@@ -172468,5 +172723,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-28T11:08:06.210Z"
+  "updatedAt": "2026-11-28T13:07:54.098Z"
 }
