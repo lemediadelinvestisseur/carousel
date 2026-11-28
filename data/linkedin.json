@@ -1,6 +1,80 @@
 {
   "posts": [
     {
+      "id": "bd854efb2b",
+      "createdAt": "2026-11-28T06:14:30.274Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "La courbe en cloche de l'investisseur : le débutant et le vétéran font exactement pareil, celui du milieu se complique la vie.",
+      "text": "Le parcours de beaucoup d'investisseurs tient en une courbe.\n\nAu début : un ETF, un virement par mois, on ne se pose pas de questions.\n\nAu milieu : on découvre YouTube.\nStock picking, RSI, SCPI, crypto, private equity, trois newsletters payantes et un Excel de 14 onglets.\nOn passe ses dimanches à « optimiser ».\n\nÀ la fin : on regarde ses performances…\nEt on revient à l'ETF du début. Avec un peu plus de rides.\n\nCe n'est pas un conseil, juste un constat qu'on entend très souvent en commentaires 😅\n\nEt toi, t'es à quel endroit de la courbe en ce moment ?",
+      "image": "carousels/linkedin/2026-11-28/bd854efb2b.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Bell Curve",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "Je mets tout sur un ETF World",
+          "17 lignes, analyse technique, 3 newsletters payantes",
+          "Je mets tout sur un ETF World"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-28T06:14:38.968Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "d20242af11",
+      "createdAt": "2026-11-28T06:14:29.421Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "Le Sénat vote un prélèvement de 35 % sur l'épargne oubliée : tout le monde se souvient soudain du vieux livret ouvert par Mamie.",
+      "text": "L'État veut prélever 35 % de l'épargne oubliée. Et là, petit frisson.\n\nLe budget initial prévoyait 17 %.\nLe Sénat a trouvé ça trop timide.\n\nLe principe : les comptes inactifs depuis des années finissent à la Caisse des dépôts.\nEt si personne ne les réclame, l'État se sert.\n\nOr on a tous ce vague souvenir :\nun livret ouvert à la naissance,\nun vieux PEL dans une banque qu'on a quittée,\nune assurance vie d'un grand-oncle dont personne ne parle.\n\nBonne nouvelle : le site Ciclade permet de vérifier si de l'argent dort à ton nom.\nC'est gratuit et ça prend cinq minutes.\n\nQui a déjà retrouvé un compte oublié ? Il y avait combien dessus ? 👀",
+      "image": "carousels/linkedin/2026-11-28/d20242af11.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "caption",
+        "template": "Monkey Puppet",
+        "image_query": null,
+        "caption": "Le Sénat vote un prélèvement de 35 % sur l'épargne oubliée. Toi, qui te rappelles soudain du livret ouvert par Mamie à ta naissance :",
+        "labels": []
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-28T06:14:30.274Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
+      "id": "1b937c154b",
+      "createdAt": "2026-11-28T06:14:25.700Z",
+      "origin": "auto",
+      "idea": null,
+      "status": "ready",
+      "angle": "La France entre en récession, S&P maintient la note… mais menace de la dégrader : le grand huit émotionnel de l'investisseur en une semaine.",
+      "text": "Les montagnes russes de l'économie française, en trois actes.\n\nActe 1 : c'est officiel, récession.\nActe 2 : ouf, S&P maintient la note.\nActe 3 : « mais on se garde le droit de la dégrader ».\n\nC'est le « faut qu'on parle » de la finance.\nRien n'est fait, mais tu dors un peu moins bien.\n\nPour l'investisseur particulier, la vraie question reste : ça change quoi pour moi, concrètement ?\nSouvent, pas grand-chose à court terme.\nLe DCA continue, les gros titres défilent…\nEt on rafraîchit l'appli de son courtier trois fois plus que d'habitude.\n\nToi, ce genre d'annonce, ça te fait toucher à ton portefeuille ou tu regardes passer l'orage ?",
+      "image": "carousels/linkedin/2026-11-28/1b937c154b.jpg",
+      "meme": {
+        "image_source": "template",
+        "format": "labels",
+        "template": "Panik Kalm Panik",
+        "image_query": null,
+        "caption": null,
+        "labels": [
+          "La France entre officiellement en récession",
+          "S&P maintient la note de la France",
+          "« …mais on pourrait la dégrader »"
+        ]
+      },
+      "generator": "claude-opus-5-5",
+      "generatedAt": "2026-11-28T06:14:29.420Z",
+      "error": null,
+      "errorAt": null
+    },
+    {
       "id": "9920eef96a",
       "createdAt": "2026-11-27T06:14:53.343Z",
       "origin": "auto",
@@ -1011,5 +1085,5 @@
       "errorAt": null
     }
   ],
-  "updatedAt": "2026-11-27T06:15:04.907Z"
+  "updatedAt": "2026-11-28T06:14:38.968Z"
 }
