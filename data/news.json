@@ -1,6 +1,39 @@
 {
   "items": [
     {
+      "id": "c5a0160ead",
+      "title": "L'Oréal : Jefferies adopte une opinion positive",
+      "summary": "L'Oréal : Jefferies adopte une opinion positive Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUNuWWFnaVVUZ3VGV21oSXI4VVRqNU9CcHRDRDBic2xuTGh5bEV4SUxyLVBJWUxCWC02bGJudkV5WW5IUHlIcVJPOHZ5d25BMVBPaUI3dUd1dFA0cEZLZmxtU3BFQ0c2TUN4S0ZhanJyMHRSb1pkQmZLanlDM2RfSDB0QVZzYnlCbjVDM01pSnVkdHBfLXN4NFBMc0syYXlSeFRycVRkMzA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T09:58:21.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Recommandation d'analyste, refusée."
+    },
+    {
+      "id": "b98b1eac4f",
+      "title": "Monténégro : un marché immobilier de plus en plus inaccessible aux habitants",
+      "summary": "Le Monténégro connaît une forte hausse des prix immobiliers, portée notamment par les investissements étrangers et le développement de résidences haut de gamme sur le littoral. Selon l’office national de statis…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/montenegro-un-marche-immobilier-de-plus-en-plus-inaccessible-aux-habitants",
+      "image": "https://cdn.overlord.media/Immobilier_au_Montenegro_be3339c965.jpg",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-28T09:45:00.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "21m2",
+      "score": 3,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Marché immobilier étranger de niche."
+    },
+    {
       "id": "7f6666add4",
       "title": "Quels sont les effets de l'encadrement des loyers ?",
       "summary": "Quels sont les effets de l'encadrement des loyers ? Les Echos",
@@ -61,9 +94,9 @@
       "collectedAt": "2026-11-28T09:07:32.341Z",
       "brand": "investisseur",
       "score": 6,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Paradoxe France en récession vs CAC 40 en hausse, angle clivant mais proche d'un point de marché.",
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Contraste intéressant mais proche d'un point de marché hebdo.",
       "hook": "La France en récession, le CAC 40 en fête : cherchez l'erreur"
     },
     {
@@ -162,8 +195,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 6,
-      "reason": "Règle concrète utile aux bailleurs et locataires.",
-      "hook": "Encadrement prolongé : les loyers maximum ville par ville"
+      "reason": "Règle concrète pour bailleurs et locataires dans les grandes villes.",
+      "hook": "Encadrement des loyers : les plafonds à ne pas dépasser"
     },
     {
       "id": "d93c86d341",
@@ -313,7 +346,7 @@
       "score": 2,
       "status": "new",
       "aiScore": 6,
-      "reason": "Menace de dégradation de la dette française, sujet fort mais teinté budget.",
+      "reason": "Menace de dégradation de la note de la France, sujet de fond.",
       "hook": "S&P menace de dégrader la note de la France",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
@@ -523,6 +556,23 @@
       "reason": "Point de marché devises sans surprise."
     },
     {
+      "id": "537bb0bb56",
+      "title": "Dollar set for weekly gain as risk appetite returns",
+      "summary": "Dollar set for weekly gain as risk appetite returns TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ2pPZ2dtWVF3d1RtcUtTTkdRaVd6NmZfOF9ETXlkNnB4blJMSVVYQWkxX01lV3R4UWpDTEdTWE9OUER1bEE2cWUySDdrTDltdjRuM1RyczN6OVQzVnlGcjMzRFRCVTNaOS1jMi1hM3R2M2RDR0pPTUQ0c2JMOVFVM2JSek5aZTBNLTFLekMxUEUtdGdVS1BQQ2MteVRQRlplREJxWmVLQ0YtVmJ3aDN0TmxuR3V4RFc0ckVEVm1jSmppbF9OOVhUSV9ucVJjYnNua1MtN2ZB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T19:25:32.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché devises."
+    },
+    {
       "id": "6c2990a290",
       "title": "Le déclin des couples mariés aux États-Unis",
       "summary": "Married-couple households fell from 78% of U.S. households in 1950 to 47% in 2025. See how the share varies by state.",
@@ -638,12 +688,31 @@
       "collectedAt": "2026-11-28T07:07:30.579Z",
       "brand": "investisseur",
       "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon du procès OpenAI contre Apple.",
+      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
+      "notifiedAt": "2026-11-28T07:07:30.579Z"
+    },
+    {
+      "id": "983e718ea0",
+      "title": "OpenAI intente une contre-action contre Apple pour vol de secrets d'affaires, selon le Financial Times",
+      "summary": "OpenAI intente une contre-action contre Apple pour vol de secrets d'affaires, selon le Financial Times TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YY0FUZTNrSV9UQUpqMnQyNzktUFNGbjdZZmVVRGs0bVRRX2N3Ynhyakl1UFpaTHZKc0VIeDhzbWpHMnl1SUJuazRTck8xZVI0VjdseFdnbENTUW5ndlZBcjVkbVMzSTNaNGs3OEVzSEIwNF9OcGtF?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:27:36.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 5,
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Bataille judiciaire entre deux géants connus, coulisses spectaculaires.",
-      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
-      "notifiedAt": "2026-11-28T07:07:30.579Z"
+      "reason": "Bras de fer judiciaire entre deux géants connus, OpenAI accuse Apple de vol de secrets.",
+      "hook": "OpenAI attaque Apple en justice pour vol de secrets",
+      "notifiedAt": "2026-11-28T11:07:46.619Z"
     },
     {
       "id": "50a8413439",
@@ -1292,6 +1361,23 @@
       "reason": "Déclaration technique."
     },
     {
+      "id": "21346acf00",
+      "title": "Neovacs : Nouveau point sur le financement de la Société",
+      "summary": "Neovacs : Nouveau point sur le financement de la Société Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWI2TWVPYWxFSmJOQldZbDJLaDI1S3ZjazVicXVHR0ZTczRuanJfWUd5Q2s1LTk1QnJVWW5GUm1uRTFKTWp4VGFqZjVFTTFnd2RlTHBSLUVMbVEtNDRrQ3c2XzBFRUJ4VjdmcGNzSmk2ZnZYRFVCZVV6X0dmRTdQRlFiRGJEZkVIa25mUWhiN2JVVi1BUW03SWRlWExUN1VpYkpzQlFVOEhjeFREbE04MW14NDk?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T17:01:04.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Microcap sans intérêt grand public."
+    },
+    {
       "id": "32b6935254",
       "title": "La marque Lalique pourrait passer en partie sous contrôle français",
       "summary": "La marque Lalique pourrait passer en partie sous contrôle français Zonebourse Suisse",
@@ -1591,10 +1677,10 @@
       "collectedAt": "2026-11-27T17:07:29.880Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "aiScore": 7,
-      "reason": "L'État ponctionne 35% de l'épargne oubliée, sujet qui fait réagir.",
-      "hook": "Épargne oubliée : l'État veut en prendre 35 %"
+      "status": "ignored",
+      "aiScore": 5,
+      "reason": "Épargne oubliée taxée à 35 %, surprenant mais lié au budget.",
+      "hook": "Votre épargne oubliée bientôt ponctionnée à 35 %"
     },
     {
       "id": "715227a8ab",
@@ -2291,6 +2377,23 @@
       "aiScore": 5,
       "reason": "Projet SpaceX spectaculaire mais SpaceX souvent refusé.",
       "hook": "SpaceX veut lancer un million de satellites"
+    },
+    {
+      "id": "565359ccfe",
+      "title": "Petrobras s'apprête à racheter les participations d'ExxonMobil et de QatarEnergy dans un bloc d'exploration au Brésil, selon O Globo",
+      "summary": "Petrobras s'apprête à racheter les participations d'ExxonMobil et de QatarEnergy dans un bloc d'exploration au Brésil, selon O Globo TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHcm96MGhjcmpEMURRbW5hWktoekUzRDhpV251QXNkbFJ2cXJtS0tNSldqTS00dkpkU21qZWlhdEg0QWxJZVV3X255QnNHU0NIQ05rM2NFcFJBaGd0dHBjN2xrNVF3VjlZczRnb1RuOXhGQ1k3d0g4?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:00:12.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Opération pétrolière étrangère peu parlante."
     },
     {
       "id": "4a114a6790",
@@ -3576,9 +3679,9 @@
       "brand": "21m2",
       "score": 5,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Changement fiscal concret et majeur pour l'investissement locatif neuf.",
-      "hook": "TVA à 5,5 % sur le neuf locatif : le Sénat dit oui",
+      "aiScore": 7,
+      "reason": "Changement fiscal concret pour investisseurs dans le neuf.",
+      "hook": "TVA à 5,5 % sur le neuf pour les investisseurs locatifs",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
     {
@@ -4567,6 +4670,23 @@
       "reason": "Fait local mineur."
     },
     {
+      "id": "b14ec6c121",
+      "title": "Brent: Risiko Pasokan Memicu Reli Tiga Sesi – Commerzbank",
+      "summary": "Brent: Risiko Pasokan Memicu Reli Tiga Sesi – Commerzbank TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1COXItbVM4NlVTY0dxR0NBOXdIT1hPOUFnbGhVaVRxSnd4TDV1QjRFaGJTekVnVl9VOWktRm0ybi1CN0xia0NHWGItMXhmVDBqVG93Y0U0UHFLU05lLVRXRmhDREQ1UkNS?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T11:23:43.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Pétrole, point de marché."
+    },
+    {
       "id": "6230a88ae1",
       "title": "Jefferies reste sceptique sur LVMH, l'objectif de cours réduit",
       "summary": "Jefferies reste sceptique sur LVMH, l'objectif de cours réduit Zonebourse Suisse",
@@ -5008,6 +5128,57 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon de l'actu sur la récession."
+    },
+    {
+      "id": "77ba1fee40",
+      "title": "CAC 40: Le CAC 40 garde le cap avant Wall-Street",
+      "summary": "CAC 40: Le CAC 40 garde le cap avant Wall-Street Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0FOdU5zRDdCQklOSHRmazB2RmJwRUJISklyMzhlWmlBNnExNk9JQ0JfbUM0cmRrQlF3WjhteXpzdUhwTC1NSnZpaDVtdmMxRUMxSDY5MmQtLVY1bmdnRU0teGZYRnNXUjlWbmhqVkxWVmVNem5yRjlNakdGbHRoc2FUeWlIOGpYUFhhOXFxNl9SZmNja1c1NWc3dlBKSHI3TVE?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T10:33:40.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché du jour, refusé par l'éditeur."
+    },
+    {
+      "id": "09aed9a73d",
+      "title": "Public Property Invest nomme son comité de nomination",
+      "summary": "Public Property Invest nomme son comité de nomination Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOGNITmp2UkRfVmtWMjVpZnhERWtCajZnb0NUNkhhT2pCRkYyZ2tWVHY2ZjNUeTRVZGVJUlhpZE4tU2FKb3RhazNULXhGU090WmxmSWtoeEJpX2xTbHlVQVI1cm10OU44aGx3dTY3cUM4TDZIcF9Gb0lhUElMLTNkeVl2eE9Ubms2TE00Z1EtN1RhSXFMMFVsN01ZUHlaSHRzeE0wRFdFOXdhcExBZG9yTnRPRQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T10:33:13.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Gouvernance de petite société inconnue."
+    },
+    {
+      "id": "5c9b0c2fb6",
+      "title": "Zalando SE (ZAL) Reports Management-Related Share Acquisition",
+      "summary": "Zalando SE (ZAL) Reports Management-Related Share Acquisition TradingView",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdWpFa1c3c0l0N3FXSUZjTHUtMUZ1cHEySkVnOFpHTDdiMlVZYkQwbnpqenJEZXZfb1pVdkhFLVYzenliZjN6cWF5VUZ6My0tb1hBTW9rU1dIQlZKN0dMeDVPME9Cd1JTUnFxVkdCZjVPM2J0QTVnV25JT1NsUkEtZFc0NjVfWTRpUzY5eDVMNFlZUWNVdVpjUXpidjZOUHpkN1ptMnZhcExBMHc3VXAxRC12Y0twTXhlQmtMXw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T10:30:31.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Déclaration de transaction de dirigeant."
     },
     {
       "id": "5962c0be87",
@@ -6059,6 +6230,23 @@
       "reason": "Mouvement du pétrole au jour le jour, sujet déjà refusé."
     },
     {
+      "id": "af456f3272",
+      "title": "TAG Immobilien AG (TEG) Reports Voting Rights Threshold Notification",
+      "summary": "TAG Immobilien AG (TEG) Reports Voting Rights Threshold Notification TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcldtM2tpd1hKQ0QxYTRLUjEtRzZDcVVtMjFVN0JTc1pHRVdVYktPWkhFNDhFSGcxNVRsQUt4UjhxSnJ4OGFhNTZjRFU2bHhCajl2V3dCcVYzQTFNdEdBbVFsb3RjVjg4WklJNVFzM0tTWW9Pb2pWQTNRbk85S241aGRTRmZXWkt3Tm9wYXB3U0Z1WDdheUhqSnRNWUhKQmtpM0lFOXhMVXdkMTNyeXhxd3Brek5pWmxYT09jTTM4cU9QQ0dfRmc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T08:46:41.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Notification réglementaire obscure."
+    },
+    {
       "id": "affa3bf8a7",
       "title": "Philips NV : JP Morgan neutre sur le dossier",
       "summary": "Philips NV : JP Morgan neutre sur le dossier Zonebourse Suisse",
@@ -6340,6 +6528,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Statistique macro sans surprise."
+    },
+    {
+      "id": "9b20edc9aa",
+      "title": "Thales en passe de prendre le contrôle de Lumibird",
+      "summary": "Thales en passe de prendre le contrôle de Lumibird Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWGREZDhES1NPTkZfRno4VW5WYUI3R3lUakRnWE1VaUY4WE9Uc3ZNeWhPdTdHbHluc3Q1VFlBeXFyb0ZBUnR2VHFST21YX1dJNnJJZEVmNDMwQ0ZydGVyMEJGa0lyWDh3SU9XUnA5M0ZpeC0yR1ZGTEJYOGU5WG1ZZkdsWHlwMk05ZXhYOXBpOFhPc2FYdXR3em1CNlNuR0V4TDlfSFhkZml3LTZjS0pB?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-27T08:33:33.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Rachat d'une petite valeur par Thales, peu spectaculaire."
     },
     {
       "id": "a1f3e6d1ad",
@@ -7870,8 +8075,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir.",
-      "hook": "Grand Paris Express : 3 quartiers où le locatif dépasse 5 %",
+      "reason": "Classement chiffré utile pour investir en locatif.",
+      "hook": "Grand Paris Express : 3 quartiers qui rapportent plus de 5 %",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
     {
@@ -8721,6 +8926,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Projet gazier lointain, niche."
+    },
+    {
+      "id": "9a70a583fc",
+      "title": "Wall Street Journal – 27. November",
+      "summary": "Wall Street Journal – 27. November TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1MSXpVcW4zN05saDZmcnZxeHkxYlh5ZWJ6SUwtYTczWm1YM1FnLTdxVG1kanIyaXVMU3VDQkJvaURBWUNnTElBb25pUWh0dDBYZEhid0hSTExwZ0N1eG1nMkpGRmlCWENhTWtUNGVNYk1scTh2RlNv?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-26T23:22:00.000Z",
+      "collectedAt": "2026-11-28T11:07:46.619Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Revue de presse sans sujet."
     },
     {
       "id": "fb38bbaf44",
@@ -172246,5 +172468,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-28T09:07:53.789Z"
+  "updatedAt": "2026-11-28T11:08:06.210Z"
 }
