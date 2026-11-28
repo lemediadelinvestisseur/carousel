@@ -1,6 +1,73 @@
 {
   "items": [
     {
+      "id": "ed51ecf6b7",
+      "title": "Immobilier : 10 précautions à prendre avant de construire votre maison",
+      "summary": "Construire sa maison est un parcours semé d'embûches. Ce qu'il faut savoir avant de poser la première pierre....",
+      "link": "https://www.moneyvox.fr/immobilier/actualites/111454/10-precautions-a-prendre-avant-de-construire-votre-maison",
+      "image": "https://assets.moneyvox.fr/image/upload/f_auto,q_auto,c_auto,w_1280,h_720/illustrations/20240820_014223_1.jpg",
+      "source": "Moneyvox",
+      "via": "découverte",
+      "publishedAt": "2026-11-28T04:00:09.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 3,
+      "reason": "Conseils génériques sans fait nouveau."
+    },
+    {
+      "id": "a939943126",
+      "title": "Elections municipales à Taïwan, la Chine déploie des avions militaires",
+      "summary": "Elections municipales à Taïwan, la Chine déploie des avions militaires Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNEFLa3lFOTVzZ3RwaFNGcGp3aXh0NU5NbTRqTy1rQzludVhmYUs3WFZOUDdLM3BtUEJxazdKOUg0dUV1YnRIVGJuN2hab3A2SVVDWVlJbnd5bnhuUXY1TC14QUdqTmszc2dEUl9qZ0JFb1RGTUxFbmNad1V4LV9HVFVyZlh5MTR6LUd0bkFPeDk1Q1ZEalZJSlNjYl9hYVk5eHhZR0xJWkFQYkVFdFdVV0F0QllvbV9ZWUxUUU9JOVpCblI5d1BNMQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T03:42:16.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Géopolitique pure."
+    },
+    {
+      "id": "14398663c2",
+      "title": "Espagne-Quatorze migrants retrouvés morts au large des Canaries",
+      "summary": "Espagne-Quatorze migrants retrouvés morts au large des Canaries Zonebourse",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPazJmOFY4dDNVU2Rmd21vdGdFaHV6bFdoajBHZ2xsdy0tU2JTVkstZm4wUFNJeDV1Y0FRNWRBTWRJQ1FaVWhiaTVPT3hIN0tpdjlUQUUyN3pxVjdnUjAwak9vWlVwQ19nUk1adExraHJmTTVfOUktSnMwWDB3ckl6ZEJMUXMwVzJlNVBEeGgtMjZNZ2N1RzF1cHpnZkVsZ0Z4OWR2cGNnaW51WTItZFdFTXp0ZzVsTk54TzNLX1BKaWdTUQ?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T01:11:20.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Fait divers sans lien avec l'argent."
+    },
+    {
+      "id": "d2206317c5",
+      "title": "S&P rehausse la note de l'Afrique du Sud",
+      "summary": "S&P rehausse la note de l'Afrique du Sud TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtS1ZpYmJuYU0wcFpVWnQ5c1N5OTVEUkhVTHVmcUtkb1FfSEFicTlSb2Q2S3ZKbTVHOHY2amhxdVVYUWtxODFQMWo3YnhyU21ZS0VKTzVPS2NETE0wUTAtYTZR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T22:18:09.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Note souveraine étrangère sans intérêt pour les Français."
+    },
+    {
       "id": "8bc89a5953",
       "title": "Dette de la France : S&P maintient la note de la France mais menace de la dégrader",
       "summary": "L'agence de notation S&P Global a maintenu vendredi la note de la France à A+, mais a abaissé la perspective de stable à négative, la menaçant donc...",
@@ -13,8 +80,8 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Menace de dégradation de la note de la France, sujet dette qui fait réagir.",
+      "aiScore": 6,
+      "reason": "Menace de dégradation de la note française, sujet dette qui inquiète.",
       "hook": "S&P menace de dégrader la note de la France",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
@@ -51,6 +118,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Doublon de l'actu S&P Moneyvox."
+    },
+    {
+      "id": "c05240ba6d",
+      "title": "Franklin Templeton ajoute HYPE à son ETF indiciel crypto",
+      "summary": "Franklin Templeton ajoute HYPE à son ETF indiciel crypto TradingView",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sX0d0c3ZlVlBfWTRqREVGLUdjOWZaMkFGNkYyTl9McnlSN3pyc0g0MjZ1QkFDLU1ZSEhPOEk5ZHc0QlVldXRieFhjUmxLelNOT3VzTlBQeTJvV2FFZ3N6d2VPOG9uM0JqS0ItUWJhcw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T21:15:29.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 5,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Ajout technique dans un ETF crypto, peu parlant."
     },
     {
       "id": "11cbc8000b",
@@ -220,7 +304,7 @@
       "status": "new",
       "international": true,
       "aiScore": 7,
-      "reason": "Bataille judiciaire entre deux géants connus, OpenAI contre Apple.",
+      "reason": "Bras de fer judiciaire spectaculaire entre deux géants connus.",
       "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
@@ -395,6 +479,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Avis d'analyste sur le commerce américain."
+    },
+    {
+      "id": "f0a26eab99",
+      "title": "Pourquoi les actions Tesla ont bondi de 5 % vendredi ?",
+      "summary": "Pourquoi les actions Tesla ont bondi de 5 % vendredi ? TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TT3lURk1zY3E5V3M4M282WVR1LVdZMTFsVklQemRpQUt2QVJyTllSWTlraHEwRjNURFRNdGx5Z1lmekpjX1N2T3NnRXpmYkxJczFLUGFBcGF2X25aUnVNaXA2MXpudw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T18:06:31.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 6,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Mouvement boursier du jour sans fond, type d'actu refusée."
     },
     {
       "id": "7cc469fb30",
@@ -1087,8 +1188,8 @@
       "score": 3,
       "status": "new",
       "aiScore": 6,
-      "reason": "Prélèvement doublé sur l'épargne oubliée : chiffre frappant, mais sujet budgétaire assez niche.",
-      "hook": "Épargne oubliée : l'État veut prélever 35 % de vos avoirs"
+      "reason": "Ponction sur l'épargne oubliée, sujet qui fait réagir mais budgétaire.",
+      "hook": "L'État veut prélever 35 % de votre épargne oubliée"
     },
     {
       "id": "715227a8ab",
@@ -1123,6 +1224,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Chiffre d'affaires d'une petite valeur."
+    },
+    {
+      "id": "449add364d",
+      "title": "Cristal: la manufacture Lalique en passe d'être rachetée",
+      "summary": "Cristal: la manufacture Lalique en passe d'être rachetée TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XYkF5WXZubTBCbE12TmxkUHU1RGhUcmJ6QVQ3cWxWa1BzckszQVFRWlFFbk9VZjBpb2lqbEVmTGxzZDBhRThkamY3ZS1sZDhpS0hSSThpb3l2MzV2WlZJYmhn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T16:17:48.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 4,
+      "reason": "Rachat d'une marque française de luxe, mais petite actu."
     },
     {
       "id": "7fb18c9124",
@@ -1242,6 +1360,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Rachat étranger inconnu du public français."
+    },
+    {
+      "id": "09fcd44bf4",
+      "title": "Pourquoi l'action SanDisk monte-t-elle aujourd'hui ?",
+      "summary": "Pourquoi l'action SanDisk monte-t-elle aujourd'hui ? TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYdi1JM3Y0Mm9uajh5aTRwMzNzUDlFZjdBWGZCZjluZXBmT3l2b2R0RXJ5VThFVTBleTVhV1o5OFB6cWEtOTc4VjlLZC1aZDFxYjJoTVIxSUE5c05RZWdHWEx6dWkwdw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:54:45.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Mouvement d'action du jour peu connu en France."
     },
     {
       "id": "12ed32b27c",
@@ -1379,6 +1514,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Tableau macro pessimiste sans chiffre choc."
+    },
+    {
+      "id": "217e4665e4",
+      "title": "Les investisseurs de l'AAII abandonnent la position neutre",
+      "summary": "Les investisseurs de l'AAII abandonnent la position neutre TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZXzl3ZUlCYjlMVGlUTFlid2ZnWDVxcmgzdl9kT2VJNllGdkdqUnU2NzRDTnR6aHR4OEc3MmpVNWVFNnNxZmlybFdaWExQT21vaUJRajFwRUNuQjRabnVjNll0NG9iTlg0YVIybWZQT2E4TjVwM2pB?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:35:55.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Sondage de sentiment américain technique."
     },
     {
       "id": "555f8f1d1e",
@@ -1700,6 +1852,23 @@
       "international": true,
       "aiScore": 3,
       "reason": "Sujet produit technique sur STMicro, peu viral."
+    },
+    {
+      "id": "1a57882bf3",
+      "title": "Trans Mountain annonce ses résultats du troisième trimestre de 2026",
+      "summary": "Trans Mountain annonce ses résultats du troisième trimestre de 2026 TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84Y1FwX2pBLW00anRFaUY5b21GTTdwdHZMa21tOTZocnhZTnQ1MUxwYl85TjNOQ1d2NXJ2VDBtaWRQYnNGWFd4X2JTMHJYQThtVVRMeHF2NWV2UndGNHVKVEE0cXlReXdrTko5cXZR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T15:00:00.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 4,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Résultats d'un pipeline canadien inconnu."
     },
     {
       "id": "bc2a980d09",
@@ -2952,8 +3121,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Changement fiscal concret et chiffré pour les investisseurs dans le neuf (TVA de 20 % à 5,5 %).",
-      "hook": "Neuf : la TVA pourrait passer de 20 % à 5,5 % pour les investisseurs",
+      "reason": "Changement fiscal concret pour investisseurs dans le neuf.",
+      "hook": "TVA à 5,5 % sur le neuf : le Sénat dit oui",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
     {
@@ -3091,6 +3260,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Banque nordique peu connue, sujet RH mineur."
+    },
+    {
+      "id": "bc431b6ed1",
+      "title": "Blockchain Life 2026 : Infos et code promo",
+      "summary": "Blockchain Life 2026 : Infos et code promo TradingView",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sT1RTYnM3dVFlR0pRZVNlTzN2cmViRXNwOVBXTnI0NHdkMnJ3Y1BOVDUyeUtYOFA1dGZSMm5pTjB5b0Q1TFVhN0lNYUJ0bFFKNjRtbXVYaDhtQm1JSWNQZXZ2ZFhkY20zOWIxNg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T13:00:00.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Contenu promotionnel."
     },
     {
       "id": "02ed9da794",
@@ -3498,6 +3684,25 @@
       "international": true,
       "aiScore": 0,
       "reason": "Entretien société inconnue."
+    },
+    {
+      "id": "448ce48626",
+      "title": "La France est entrée en récession",
+      "summary": "La France est entrée en récession TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmUWRPdHEwUWVVU09nUk1aRG9FOGRXYlN6dDhZTm1LRk9jT2x1UTNHUzFWZXVWRVVSaERhWkdnY051czJqX0xnMl9HT281c1lZWllDMDNMLUJWQ3JjVGdtYUN3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T12:05:24.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "new",
+      "international": true,
+      "aiScore": 8,
+      "reason": "Récession en France : grosse nouvelle macro qui fait réagir.",
+      "hook": "C'est officiel : la France est entrée en récession",
+      "notifiedAt": "2026-11-28T05:07:30.704Z"
     },
     {
       "id": "7ecf64b008",
@@ -4332,6 +4537,23 @@
       "reason": "Explication fiscale générique, pas d'actualité."
     },
     {
+      "id": "36ca8d824f",
+      "title": "La France est entrée en légère récession",
+      "summary": "La France est entrée en légère récession TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BZ1pQSkp3LVN6UW4zaHh2WER1d0pYeU9GZEYwd251YkxlWG13RnhQSmk5REFncmRtN203QmRIMmNzNHZZSUNqaTNjTHFXLUVYcnBXcG50TlVFNUhObGd2aVh3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T10:34:10.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Doublon de l'actu sur la récession."
+    },
+    {
       "id": "5962c0be87",
       "title": "Compass Group : AlphaValue relève son objectif de cours",
       "summary": "Compass Group : AlphaValue relève son objectif de cours Zonebourse Suisse",
@@ -4684,6 +4906,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Consommation et pouvoir d'achat, sujet refusé."
+    },
+    {
+      "id": "66f2cd8e82",
+      "title": "Adidas et Puma : JPMorgan dégrade les titres, perspectives 2027 limitées",
+      "summary": "Adidas et Puma : JPMorgan dégrade les titres, perspectives 2027 limitées TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Qa1llTFQ0eTJLNm40OXI3RUF3aG9Vb0l6bDVBRVpSb1JacWpwNDBPaVMzOVEzMWxyQ2FoOW81TGRUWDJUdmtXbUJiZkprT0NOT0JGbC1CMmRBVVB6bkRSdm5hbTJ6dw?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T09:48:41.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Recommandation d'analyste, type refusé."
     },
     {
       "id": "411cc137d4",
@@ -5142,6 +5381,23 @@
       "international": true,
       "aiScore": 1,
       "reason": "Small cap peu connue."
+    },
+    {
+      "id": "d03200fb5e",
+      "title": "Bourses : la tech et Pékin relancent les marchés mondiaux",
+      "summary": "Bourses : la tech et Pékin relancent les marchés mondiaux TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LamdHYlQ2eFlpSVdxSEVYNWt6SklTY1pTdlMzdUltbk4ta0VEYnRHV1VoQW9ETnhFX3pKNTRuXzljQU5pMzZuT1NTaXRvYjdUOV9xVGx1bkJXVHFRbmhJcTdn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T08:57:14.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 3,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 2,
+      "reason": "Point de marché du jour."
     },
     {
       "id": "50a5410503",
@@ -6140,6 +6396,23 @@
       "reason": "Recommandation d'analyste."
     },
     {
+      "id": "d7aa90b91d",
+      "title": "Wall St futures surge as investors return from holiday",
+      "summary": "Wall St futures surge as investors return from holiday TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdl9udUtnVklpSVJ2emZwaVcyRFpHSW4xZUpKdWQ4LWVFcmhXME1iMjlSTmpMZHZ3WjV3Q3RIWXZwc3J5QUFheDY4ZzBGMkt2MGRyZEw0WVNoYWgwb1c4TUFQcVI2S3NiWlJOZF9LU0o2d0lzM2dlWHhhdVFQT1MtODctMjZfa2hXb2dtX3hrbkZCRkF3TmdBc01ob3F5SHpMcTAxSFRObXZFMFFTWk15Ny1XRkpGb19CeDBLNHZPUmE?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T07:31:36.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Point de marché du jour."
+    },
+    {
       "id": "db138097e0",
       "title": "Safran : Berenberg persiste à l'achat",
       "summary": "Safran : Berenberg persiste à l'achat Zonebourse Suisse",
@@ -6428,6 +6701,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Recommandation d'analyste étrangère."
+    },
+    {
+      "id": "653c2db2fb",
+      "title": "Itália - Fatores a serem observados em 27 de novembro",
+      "summary": "Itália - Fatores a serem observados em 27 de novembro TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LXzFVdkdPeUdaczVqd3FrNFVoeTIxZTFkUlFKbFgyOE5yVy11NjlhVldXalg0TkJJc3R3M1RiemZ3TEN2Tmk0cElRY3drbzkxN01DZTZYYl96LUxWVDBhYXlCcnpCNHRlV01EOWNuOTRBT0pPNkZz?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T07:10:51.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Agenda italien sans intérêt."
     },
     {
       "id": "edf8b65bab",
@@ -6958,6 +7248,23 @@
       "reason": "Sans intérêt."
     },
     {
+      "id": "c046192044",
+      "title": "Serabi Gold Reports 9M Gold Production Of 34,057 Ounces",
+      "summary": "Serabi Gold Reports 9M Gold Production Of 34,057 Ounces TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ2wtNmZzbkE3S29SOFV6dk9raXdTWHlUWWEwZFlqRlV1a090eEQ0SXdJRUg4ZVdSNUVZMHlEaXY5dkRTajdaYWxtV2RGRHhZVTZPZzhaV3d5UEk2UFVpRFhGQmxGLUl6VVNkZWlrUmVFTll3MFFCcks3cHJDSUpnZXd0NEctR1FtWlpVaFdnQ3diNldENTBRYVFlYi1mdGJheUZ1dXBRN3M4bVlhZUppQnVUS1JBUHZFamRUb2FfUkJ2a2JBRnlacUIxbDBNbXhVN0dYekFhMGllSDg?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T06:09:24.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite minière inconnue."
+    },
+    {
       "id": "11f3b7d5fe",
       "title": "Restrictions américaines sur les puces: Singapour sonde les entreprises locales",
       "summary": "Restrictions américaines sur les puces: Singapour sonde les entreprises locales Zonebourse Suisse",
@@ -7056,8 +7363,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir, proche des sujets rendement locatif déjà validés.",
-      "hook": "Grand Paris Express : 3 quartiers de gare qui rapportent plus de 5 %",
+      "reason": "Classement chiffré utile pour investir en locatif.",
+      "hook": "Grand Paris Express : 3 quartiers où louer rapporte plus de 5 %",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
     {
@@ -7296,6 +7603,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Entreprise inconnue."
+    },
+    {
+      "id": "8f3f62d542",
+      "title": "China Water Affairs HY revenue falls amid reduced construction activity",
+      "summary": "China Water Affairs HY revenue falls amid reduced construction activity TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaWFtOWN3S3NDY0cxUlhmR2VtVkxlM2I4OEtDMElpMmRCaEZkQXFIUDBDZU4yVWVXcHI3YlYyTThvMDRsSEY3Smp3T2dUTGd6dUFSX05yejdRdWlEMnh3MGNBVkFTbllxLW04Vm5RNDZDc3N0MzlKWDlyY1NLbElsLXJBa2xYN0s4RVBvcGhKSVBtNTNkT3REOEVWVHFUcmQ0dG1KR3o4SEhWUVVqYnpWa3VrWVVHcjctc1hob0Y1anhQeVFfUXhZSDBqcFJGT2I2V3piek1oem9VSlVSUWJSMXY2OExyQUlIbUUtRkdjNWc?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T04:26:09.000Z",
+      "collectedAt": "2026-11-28T05:07:30.704Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite société chinoise inconnue."
     },
     {
       "id": "f3446db49d",
@@ -171399,5 +171723,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-27T23:22:57.808Z"
+  "updatedAt": "2026-11-28T05:07:50.027Z"
 }
