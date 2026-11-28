@@ -1,6 +1,73 @@
 {
   "items": [
     {
+      "id": "a2b8ab2f8e",
+      "title": "Trêve hivernale : les locataires doivent-ils continuer à payer leur loyer ?",
+      "summary": "La trêve hivernale, qui s’étend du 1er novembre 2026 au 31 mars 2027, suspend en principe les expulsions locatives, mais elle ne dispense pas les locataires de payer leur loyer. Les loyers et les charges resten…",
+      "link": "https://www.lerevenu.com/investir-immobilier/prix-et-tendances/treve-hivernale-les-locataires-doivent-ils-continuer-a-payer-leur-loyer",
+      "image": "https://cdn.overlord.media/loyers_treve_hivernale_maprimerenov_ce_qui_change_au_1er_avril_6a73ece4_53b202ec93.webp",
+      "source": "Le Revenu Immobilier",
+      "via": "rss",
+      "publishedAt": "2026-11-28T14:45:00.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "21m2",
+      "score": 4,
+      "status": "ignored",
+      "aiScore": 2,
+      "reason": "Trêve hivernale et expulsions, un angle précarité locative que l'éditeur refuse."
+    },
+    {
+      "id": "4e3b9cf5e8",
+      "title": "Albanie-Des manifestations estudiantines contre le pouvoir émaillées de violences",
+      "summary": "Albanie-Des manifestations estudiantines contre le pouvoir émaillées de violences Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM2xIY0Zibk41MmtSU3ZJZ0x1dmpGTm40TGlkOFRRLUEtUDl3TXJ2VE42eG5KM0xjRko0YW5XRzRGcU5LOUdaMUFNY3BxSXVIODRwM2U0SmJEbGk5UjNVZHQzaFFwMFU5RC02VGZGN2lSQlM5aW1jQ2Z3NHU2VmRSMmFLZE8wbkVyMDlFaVJlWDdBLWhZV1BrYm5UeHp0NWlfWk53dVJ1WkZiTWlycWpRMUViQnY0SkZMU25KUExhMTVCOU5lSmRuTFVXU0NVc3lub2RjdnBtMWg?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T14:36:16.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Politique étrangère."
+    },
+    {
+      "id": "af2ba50aeb",
+      "title": "Les ventes en ligne du « Black Friday » ont atteint 13,1 milliards de dollars aux États-Unis, selon les données d'Adobe Analytics",
+      "summary": "Les ventes en ligne du « Black Friday » ont atteint 13,1 milliards de dollars aux États-Unis, selon les données d'Adobe Analytics TradingView",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3M25TN1UyUWs5S3lfUHRRWHBCRVJUTFM3REJmY0pMZWZYQWVOUlpqVnFHRjQyZ1p4aVRaelIyTUZpencwMG5NME9LVi1jbHFpWkJINTRaNWpOZjR0YXYzejRXb09oYXFsZWlIeDRXTzVrTmhub0JR?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-28T13:48:50.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Chiffre de consommation américaine sans enjeu direct pour l'investisseur français."
+    },
+    {
+      "id": "627c08697b",
+      "title": "Le Brésil prolonge d’un mois la subvention au diesel",
+      "summary": "Le Brésil prolonge d’un mois la subvention au diesel Zonebourse Suisse",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMGtkcjJ6U1RhM0lObzB1WXJxblB0bU9JaUdxUU82dVN4SFJiOVIwVTREc2JTVHNFN3VIM1FYeXZjSG11N0tESjczT3RVMHBQbGFXMTZUUVFST2NpT21mUmlicGhPM29JWmxQWUhXTHdCQVF4ZTFqUFZadW1CbHE1UGdHRGNvYVBNcTI3eVlmcS1nMFBLbEhOaTZuOXA2MnhReWczSFRSNEJkS0R5REw2T3pyNA?oc=5",
+      "image": null,
+      "source": "Zonebourse",
+      "via": "google news",
+      "publishedAt": "2026-11-28T13:44:12.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Politique énergétique brésilienne de niche."
+    },
+    {
       "id": "31260bd2a8",
       "title": "South32 : profitez de l’opportunité d’entrée !",
       "summary": "South32 : profitez de l’opportunité d’entrée ! Zonebourse",
@@ -297,8 +364,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 6,
-      "reason": "Règle concrète pour bailleurs et locataires, mais l'encadrement des loyers est un sujet déjà connu.",
-      "hook": "Encadrement des loyers : le plafond exact pour votre logement"
+      "reason": "Règle concrète et chiffrée pour les bailleurs des grandes villes.",
+      "hook": "Encadrement des loyers : le plafond à respecter dans votre quartier"
     },
     {
       "id": "d93c86d341",
@@ -447,9 +514,9 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 6,
-      "reason": "Une menace de dégradation de la note de la France fait réagir, même si la note reste inchangée pour l'instant.",
-      "hook": "S&P menace de dégrader la France : ce que ça change",
+      "aiScore": 7,
+      "reason": "La menace d'une dégradation de la note française inquiète et fait réagir.",
+      "hook": "S&P menace de dégrader la France : ce que ça change pour vous",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
     {
@@ -658,6 +725,23 @@
       "reason": "Point de marché devises sans surprise."
     },
     {
+      "id": "d419ec1600",
+      "title": "Yields rise as tech stocks extend rebound",
+      "summary": "Yields rise as tech stocks extend rebound TradingView",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUVod1YwNTFUdVd5NTdsTUJaNmpyeWNmU3QyQlEtZ0t3eTgtYXZ5bHhkd3JNRGVlMjVvNkJBdkNEQnN0OG0yVEV5Y1hXTFFQX25LczRZNWVmeXhZRnFZNHltMjdUcTNnenh6aFFZb3pXdFFCLUtDTlpPMGtkWHBfQkczY2ZkM3cyamFyUXc5eXJNSTlUeG9DRGt4ZnVQRlJYeUx4VmNXN0F4OFFQS2tz?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T19:27:55.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Simple point de marché du jour."
+    },
+    {
       "id": "537bb0bb56",
       "title": "Dollar set for weekly gain as risk appetite returns",
       "summary": "Dollar set for weekly gain as risk appetite returns TradingView",
@@ -811,9 +895,9 @@
       "score": 5,
       "status": "new",
       "international": true,
-      "aiScore": 8,
-      "reason": "Clash judiciaire entre deux géants connus, OpenAI contre Apple, autour d'accusations de vol de secrets.",
-      "hook": "OpenAI accuse Apple de vol de secrets : la guerre est déclarée",
+      "aiScore": 7,
+      "reason": "Un affrontement judiciaire entre deux géants connus de tous.",
+      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
       "notifiedAt": "2026-11-28T11:07:46.619Z"
     },
     {
@@ -3815,8 +3899,8 @@
       "brand": "21m2",
       "score": 5,
       "status": "new",
-      "aiScore": 7,
-      "reason": "Changement fiscal concret et chiffré pour les investisseurs locatifs dans le neuf.",
+      "aiScore": 8,
+      "reason": "Changement fiscal concret et fort pour les investisseurs dans le neuf.",
       "hook": "TVA à 5,5 % au lieu de 20 % sur le neuf locatif",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
@@ -4756,6 +4840,23 @@
       "reason": "Société inconnue."
     },
     {
+      "id": "beb7aa5387",
+      "title": "Belgique : Google contraint de suspendre un chantier de \"data center\" faute de permis",
+      "summary": "Belgique : Google contraint de suspendre un chantier de \"data center\" faute de permis TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjUTVVaGRRLUs5ZzJhV1VuRHhXU19NWTdWbnNWRU55Y3UzeWlTMGZTeHFNTjNVajB6N1MydWE0RW5LS2lsd21kTS1kYWJqQ3o1bG02TURtMEFnQXBxR2JxUGZ3?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T11:31:57.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 3,
+      "reason": "Petite actu locale sur Google sans portée pour l'investisseur."
+    },
+    {
       "id": "13008442a2",
       "title": "Les Bourses européennes rebondissent légèrement pour le Black Friday",
       "summary": "Les Bourses européennes rebondissent légèrement pour le Black Friday Zonebourse Suisse",
@@ -5552,6 +5653,23 @@
       "reason": "Doublon d'une autre actu de la liste sur le climat économique de la zone euro."
     },
     {
+      "id": "47e4917673",
+      "title": "Royaume-Uni : le ministère du Travail victime d'un cyberincident, des services mis hors ligne",
+      "summary": "Royaume-Uni : le ministère du Travail victime d'un cyberincident, des services mis hors ligne TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sck1wbHpXRWY5cTJncWtxdkp0bVQ4dzhNOG1ZMU5rZDBZWlRoOGRoRDJxaWVyYTA0N2FyTWY0X3kzeUE5cHFuVlJhelJjbEIwaXFfNlVXT1pYcENDWWdyVXZn?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T10:09:09.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 1,
+      "reason": "Fait divers britannique sans lien avec l'argent."
+    },
+    {
       "id": "a105781b5c",
       "title": "Cereno Scientific nomme un président par intérim",
       "summary": "Cereno Scientific nomme un président par intérim Zonebourse Suisse",
@@ -5805,6 +5923,23 @@
       "international": true,
       "aiScore": 0,
       "reason": "Simple recommandation d'analyste."
+    },
+    {
+      "id": "3b39651520",
+      "title": "Goodland Group FY26 revenue slightly rises on property development growth",
+      "summary": "Goodland Group FY26 revenue slightly rises on property development growth TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0VKbFJHb2RQOHpsRnNLaVF5NzFfemxaYmlrZDRNTS0tckFoRUo3bzJmVW9xbmY0dktyY0M0ZVdHbXVXU09KVGt1N1lkQmNoYmJJVUhRelNCcDFfdHRFRGJfenFSZEowUU5hYndldnYxdWdhbktpckV4WjNsUmJkZTJaeFlCSEJrcjF4LVJCVHdMRUZ4aXNlakE2cmIwLXFTNXQ0SWVzZzQxMklnNkRwTE5yV1ZIb0oyTUl0cl9JZFlENVdyRlN4bl9CV1IyR01vZVBPSzJBS2xjQQ?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T09:45:47.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 2,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Petite société étrangère inconnue du public français."
     },
     {
       "id": "a02c53f04d",
@@ -6650,6 +6785,23 @@
       "international": true,
       "aiScore": 2,
       "reason": "Avis d'analyste, refusé par l'éditeur."
+    },
+    {
+      "id": "82c098808d",
+      "title": "AUSTRIACARD HOLDINGS AG (ACAG) Managerial Share Transfer Settles Tender Offer",
+      "summary": "AUSTRIACARD HOLDINGS AG (ACAG) Managerial Share Transfer Settles Tender Offer TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc1hZeXVBRGg0OFlSMnVRX19xdHJnSEoxVnNPMW1tTDY5YUNRLXJQM1R4VDNBU3NTa1ZzNFNtVkVHOF9VWnpHSHNLdkJOUzRmd3hBeXZDODVXX1hEQ2ZSc2F5VlhrSXp0V29jVGN2N3NjZE5WNDFPNmZMbFliSFFYUk5KTmZIZldTcU5OODNsMmtxYVNUVWx4aXlVVWcxTmpCRE8xbEtBVjI2LWpmc1lza0JPV2tIQlBOYW13?oc=5",
+      "image": null,
+      "source": "TradingView News",
+      "via": "google news",
+      "publishedAt": "2026-11-27T08:38:20.000Z",
+      "collectedAt": "2026-11-28T15:07:35.820Z",
+      "brand": "investisseur",
+      "score": 0,
+      "status": "ignored",
+      "international": true,
+      "aiScore": 0,
+      "reason": "Opération technique sur une petite capitalisation inconnue."
     },
     {
       "id": "f43ca2a120",
@@ -8330,7 +8482,7 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir, sur le format des rendements locatifs déjà validés.",
+      "reason": "Classement chiffré et utile des quartiers où investir.",
       "hook": "Grand Paris Express : 3 quartiers où louer rapporte plus de 5 %",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
@@ -172723,5 +172875,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-28T14:02:49.156Z"
+  "updatedAt": "2026-11-28T15:07:51.413Z"
 }
