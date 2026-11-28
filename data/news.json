@@ -45,9 +45,9 @@
       "collectedAt": "2026-11-28T13:07:35.065Z",
       "brand": "investisseur",
       "score": 3,
-      "status": "new",
-      "aiScore": 6,
-      "reason": "Dette française et BCE, sujet qui inquiète, mais proche du sujet S&P plus fort.",
+      "status": "ignored",
+      "aiScore": 4,
+      "reason": "Commentaire institutionnel sur la dette sans fait nouveau, proche du budget/politique que l'éditeur refuse.",
       "hook": "La France peut-elle finir comme la Grèce ? La BCE répond"
     },
     {
@@ -297,8 +297,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 6,
-      "reason": "Règles concrètes et chiffrées pour les bailleurs des grandes villes.",
-      "hook": "Encadrement des loyers : le plafond exact dans votre quartier"
+      "reason": "Règle concrète pour bailleurs et locataires, mais l'encadrement des loyers est un sujet déjà connu.",
+      "hook": "Encadrement des loyers : le plafond exact pour votre logement"
     },
     {
       "id": "d93c86d341",
@@ -447,8 +447,8 @@
       "brand": "investisseur",
       "score": 2,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Menace de dégradation de la note de la France, sujet fort qui fait réagir.",
+      "aiScore": 6,
+      "reason": "Une menace de dégradation de la note de la France fait réagir, même si la note reste inchangée pour l'instant.",
       "hook": "S&P menace de dégrader la France : ce que ça change",
       "notifiedAt": "2026-11-27T23:22:20.633Z"
     },
@@ -812,8 +812,8 @@
       "status": "new",
       "international": true,
       "aiScore": 8,
-      "reason": "Bataille judiciaire spectaculaire entre deux géants connus.",
-      "hook": "OpenAI accuse Apple de lui avoir volé ses secrets",
+      "reason": "Clash judiciaire entre deux géants connus, OpenAI contre Apple, autour d'accusations de vol de secrets.",
+      "hook": "OpenAI accuse Apple de vol de secrets : la guerre est déclarée",
       "notifiedAt": "2026-11-28T11:07:46.619Z"
     },
     {
@@ -3815,8 +3815,8 @@
       "brand": "21m2",
       "score": 5,
       "status": "new",
-      "aiScore": 8,
-      "reason": "Changement fiscal concret et fort pour l'investissement locatif neuf.",
+      "aiScore": 7,
+      "reason": "Changement fiscal concret et chiffré pour les investisseurs locatifs dans le neuf.",
       "hook": "TVA à 5,5 % au lieu de 20 % sur le neuf locatif",
       "notifiedAt": "2026-11-27T13:07:33.246Z"
     },
@@ -8330,8 +8330,8 @@
       "score": 5,
       "status": "new",
       "aiScore": 7,
-      "reason": "Classement chiffré utile pour investir, Grand Paris Express.",
-      "hook": "Grand Paris Express : 3 gares où investir rapporte plus de 5 %",
+      "reason": "Classement chiffré utile pour investir, sur le format des rendements locatifs déjà validés.",
+      "hook": "Grand Paris Express : 3 quartiers où louer rapporte plus de 5 %",
       "notifiedAt": "2026-11-27T07:07:28.612Z"
     },
     {
@@ -172723,5 +172723,5 @@
       "titleOriginal": "Most U.S. States Pay Below-Average Grocery Prices"
     }
   ],
-  "updatedAt": "2026-11-28T13:07:54.098Z"
+  "updatedAt": "2026-11-28T14:02:49.156Z"
 }
